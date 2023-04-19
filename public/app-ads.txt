@@ -35,4 +35,6 @@ rubiconproject.com, 15268, RESELLER
 synacor.com, 82171, RESELLER, e108f11b2cdf7d5b
 yahoo.com, 59244, RESELLER
 
+openx.com, 559272752, DIRECT, 6a698e2ec38604c6
+
 smartadserver.com, 4194, DIRECT
