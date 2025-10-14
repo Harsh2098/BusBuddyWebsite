@@ -1,11450 +1,11965 @@
-CREATE TABLE IF NOT EXISTS `bus_routes` (`serviceNo` TEXT NOT NULL,`direction` INT NOT NULL,`stopSequence` INT NOT NULL,`busStopCode` TEXT NOT NULL,`distance` FLOAT NULL,PRIMARY KEY (`serviceNo`, `stopSequence`, `direction`));
-INSERT INTO bus_routes VALUES('1',1,1,'4514', null);
-INSERT INTO bus_routes VALUES('1',1,2,'4022', null);
-INSERT INTO bus_routes VALUES('1',1,3,'3687', null);
-INSERT INTO bus_routes VALUES('1',1,4,'737', null);
-INSERT INTO bus_routes VALUES('1',1,5,'735', null);
-INSERT INTO bus_routes VALUES('1',1,6,'193', null);
-INSERT INTO bus_routes VALUES('1',1,7,'173', null);
-INSERT INTO bus_routes VALUES('1',1,8,'741', null);
-INSERT INTO bus_routes VALUES('1',1,9,'171', null);
-INSERT INTO bus_routes VALUES('1',1,10,'169', null);
-INSERT INTO bus_routes VALUES('1',1,11,'723', null);
-INSERT INTO bus_routes VALUES('1',1,12,'724', null);
-INSERT INTO bus_routes VALUES('1',1,13,'5138', null);
-INSERT INTO bus_routes VALUES('1',1,14,'164', null);
-INSERT INTO bus_routes VALUES('1',1,15,'70', null);
-INSERT INTO bus_routes VALUES('1',1,16,'162', null);
-INSERT INTO bus_routes VALUES('1',1,17,'423', null);
-INSERT INTO bus_routes VALUES('1',1,18,'424', null);
-INSERT INTO bus_routes VALUES('1',1,19,'425', null);
-INSERT INTO bus_routes VALUES('1',1,20,'426', null);
-INSERT INTO bus_routes VALUES('1',1,21,'731', null);
-INSERT INTO bus_routes VALUES('1',1,22,'729', null);
-INSERT INTO bus_routes VALUES('1',1,23,'727', null);
-INSERT INTO bus_routes VALUES('1',1,24,'726', null);
-INSERT INTO bus_routes VALUES('1',1,25,'2304', null);
-INSERT INTO bus_routes VALUES('1',1,26,'721', null);
-INSERT INTO bus_routes VALUES('1',1,27,'717', null);
-INSERT INTO bus_routes VALUES('1',1,28,'715', null);
-INSERT INTO bus_routes VALUES('1',1,29,'745', null);
-INSERT INTO bus_routes VALUES('1',1,30,'273', null);
-INSERT INTO bus_routes VALUES('1',2,1,'273', null);
-INSERT INTO bus_routes VALUES('1',2,2,'716', null);
-INSERT INTO bus_routes VALUES('1',2,3,'718', null);
-INSERT INTO bus_routes VALUES('1',2,4,'722', null);
-INSERT INTO bus_routes VALUES('1',2,5,'2307', null);
-INSERT INTO bus_routes VALUES('1',2,6,'725', null);
-INSERT INTO bus_routes VALUES('1',2,7,'728', null);
-INSERT INTO bus_routes VALUES('1',2,8,'730', null);
-INSERT INTO bus_routes VALUES('1',2,9,'732', null);
-INSERT INTO bus_routes VALUES('1',2,10,'733', null);
-INSERT INTO bus_routes VALUES('1',2,11,'449', null);
-INSERT INTO bus_routes VALUES('1',2,12,'451', null);
-INSERT INTO bus_routes VALUES('1',2,13,'452', null);
-INSERT INTO bus_routes VALUES('1',2,14,'161', null);
-INSERT INTO bus_routes VALUES('1',2,15,'69', null);
-INSERT INTO bus_routes VALUES('1',2,16,'5135', null);
-INSERT INTO bus_routes VALUES('1',2,17,'5137', null);
-INSERT INTO bus_routes VALUES('1',2,18,'4094', null);
-INSERT INTO bus_routes VALUES('1',2,19,'9', null);
-INSERT INTO bus_routes VALUES('1',2,20,'168', null);
-INSERT INTO bus_routes VALUES('1',2,21,'283', null);
-INSERT INTO bus_routes VALUES('1',2,22,'1750', null);
-INSERT INTO bus_routes VALUES('1',2,23,'172', null);
-INSERT INTO bus_routes VALUES('1',2,24,'734', null);
-INSERT INTO bus_routes VALUES('1',2,25,'736', null);
-INSERT INTO bus_routes VALUES('1',2,26,'738', null);
-INSERT INTO bus_routes VALUES('1',2,27,'4816', null);
-INSERT INTO bus_routes VALUES('1',2,28,'4021', null);
-INSERT INTO bus_routes VALUES('1',2,29,'743', null);
-INSERT INTO bus_routes VALUES('1',2,30,'4514', null);
-INSERT INTO bus_routes VALUES('10',1,1,'5442', null);
-INSERT INTO bus_routes VALUES('10',1,2,'5442', null);
-INSERT INTO bus_routes VALUES('10',1,3,'77', null);
-INSERT INTO bus_routes VALUES('10',1,4,'79', null);
-INSERT INTO bus_routes VALUES('10',1,5,'81', null);
-INSERT INTO bus_routes VALUES('10',1,6,'1401', null);
-INSERT INTO bus_routes VALUES('10',1,7,'1401', null);
-INSERT INTO bus_routes VALUES('10',1,8,'2046', null);
-INSERT INTO bus_routes VALUES('10',1,9,'2048', null);
-INSERT INTO bus_routes VALUES('10',1,10,'2050', null);
-INSERT INTO bus_routes VALUES('10',1,11,'2052', null);
-INSERT INTO bus_routes VALUES('10',1,12,'1435', null);
-INSERT INTO bus_routes VALUES('10',1,13,'5471', null);
-INSERT INTO bus_routes VALUES('10',1,14,'1410', null);
-INSERT INTO bus_routes VALUES('10',1,15,'2058', null);
-INSERT INTO bus_routes VALUES('10',1,16,'2059', null);
-INSERT INTO bus_routes VALUES('10',1,17,'2091', null);
-INSERT INTO bus_routes VALUES('10',1,18,'4861', null);
-INSERT INTO bus_routes VALUES('10',1,19,'2064', null);
-INSERT INTO bus_routes VALUES('10',1,20,'2066', null);
-INSERT INTO bus_routes VALUES('10',1,21,'2068', null);
-INSERT INTO bus_routes VALUES('10',1,22,'2070', null);
-INSERT INTO bus_routes VALUES('10',1,23,'2072', null);
-INSERT INTO bus_routes VALUES('10',1,24,'4540', null);
-INSERT INTO bus_routes VALUES('10',1,25,'2075', null);
-INSERT INTO bus_routes VALUES('10',1,26,'2077', null);
-INSERT INTO bus_routes VALUES('10',1,27,'2079', null);
-INSERT INTO bus_routes VALUES('10',1,28,'2081', null);
-INSERT INTO bus_routes VALUES('10',1,29,'2083', null);
-INSERT INTO bus_routes VALUES('10',1,30,'2085', null);
-INSERT INTO bus_routes VALUES('10',1,31,'2087', null);
-INSERT INTO bus_routes VALUES('10',1,32,'4517', null);
-INSERT INTO bus_routes VALUES('10',1,33,'2106', null);
-INSERT INTO bus_routes VALUES('10',1,34,'5774', null);
-INSERT INTO bus_routes VALUES('10',2,1,'5774', null);
-INSERT INTO bus_routes VALUES('10',2,2,'2109', null);
-INSERT INTO bus_routes VALUES('10',2,3,'2577', null);
-INSERT INTO bus_routes VALUES('10',2,4,'2088', null);
-INSERT INTO bus_routes VALUES('10',2,5,'2086', null);
-INSERT INTO bus_routes VALUES('10',2,6,'2084', null);
-INSERT INTO bus_routes VALUES('10',2,7,'2082', null);
-INSERT INTO bus_routes VALUES('10',2,8,'2080', null);
-INSERT INTO bus_routes VALUES('10',2,9,'2078', null);
-INSERT INTO bus_routes VALUES('10',2,10,'2076', null);
-INSERT INTO bus_routes VALUES('10',2,11,'2074', null);
-INSERT INTO bus_routes VALUES('10',2,12,'2073', null);
-INSERT INTO bus_routes VALUES('10',2,13,'2071', null);
-INSERT INTO bus_routes VALUES('10',2,14,'2069', null);
-INSERT INTO bus_routes VALUES('10',2,15,'2067', null);
-INSERT INTO bus_routes VALUES('10',2,16,'2065', null);
-INSERT INTO bus_routes VALUES('10',2,17,'2063', null);
-INSERT INTO bus_routes VALUES('10',2,18,'5681', null);
-INSERT INTO bus_routes VALUES('10',2,19,'1002', null);
-INSERT INTO bus_routes VALUES('10',2,20,'4864', null);
-INSERT INTO bus_routes VALUES('10',2,21,'1411', null);
-INSERT INTO bus_routes VALUES('10',2,22,'1978', null);
-INSERT INTO bus_routes VALUES('10',2,23,'2055', null);
-INSERT INTO bus_routes VALUES('10',2,24,'2053', null);
-INSERT INTO bus_routes VALUES('10',2,25,'2051', null);
-INSERT INTO bus_routes VALUES('10',2,26,'2049', null);
-INSERT INTO bus_routes VALUES('10',2,27,'2047', null);
-INSERT INTO bus_routes VALUES('10',2,28,'2045', null);
-INSERT INTO bus_routes VALUES('10',2,29,'5453', null);
-INSERT INTO bus_routes VALUES('10',2,30,'82', null);
-INSERT INTO bus_routes VALUES('10',2,31,'5511', null);
-INSERT INTO bus_routes VALUES('10',2,32,'78', null);
-INSERT INTO bus_routes VALUES('10',2,33,'5442', null);
-INSERT INTO bus_routes VALUES('10',2,34,'5442', null);
-INSERT INTO bus_routes VALUES('100',1,1,'3504', null);
-INSERT INTO bus_routes VALUES('100',1,2,'853', null);
-INSERT INTO bus_routes VALUES('100',1,3,'837', null);
-INSERT INTO bus_routes VALUES('100',1,4,'838', null);
-INSERT INTO bus_routes VALUES('100',1,5,'840', null);
-INSERT INTO bus_routes VALUES('100',1,6,'1052', null);
-INSERT INTO bus_routes VALUES('100',1,7,'1054', null);
-INSERT INTO bus_routes VALUES('100',1,8,'1056', null);
-INSERT INTO bus_routes VALUES('100',1,9,'1058', null);
-INSERT INTO bus_routes VALUES('100',1,10,'4757', null);
-INSERT INTO bus_routes VALUES('100',1,11,'4973', null);
-INSERT INTO bus_routes VALUES('100',1,12,'1060', null);
-INSERT INTO bus_routes VALUES('100',1,13,'4576', null);
-INSERT INTO bus_routes VALUES('100',1,14,'1064', null);
-INSERT INTO bus_routes VALUES('100',1,15,'1066', null);
-INSERT INTO bus_routes VALUES('100',1,16,'1067', null);
-INSERT INTO bus_routes VALUES('100',1,17,'1075', null);
-INSERT INTO bus_routes VALUES('100',1,18,'4548', null);
-INSERT INTO bus_routes VALUES('100',1,19,'4559', null);
-INSERT INTO bus_routes VALUES('100',1,20,'4561', null);
-INSERT INTO bus_routes VALUES('100',1,21,'4563', null);
-INSERT INTO bus_routes VALUES('100',1,22,'3875', null);
-INSERT INTO bus_routes VALUES('100',1,23,'5108', null);
-INSERT INTO bus_routes VALUES('100',1,24,'5110', null);
-INSERT INTO bus_routes VALUES('100',1,25,'5112', null);
-INSERT INTO bus_routes VALUES('100',1,26,'5114', null);
-INSERT INTO bus_routes VALUES('100',1,27,'5116', null);
-INSERT INTO bus_routes VALUES('100',2,1,'5116', null);
-INSERT INTO bus_routes VALUES('100',2,2,'5118', null);
-INSERT INTO bus_routes VALUES('100',2,3,'5115', null);
-INSERT INTO bus_routes VALUES('100',2,4,'5113', null);
-INSERT INTO bus_routes VALUES('100',2,5,'5111', null);
-INSERT INTO bus_routes VALUES('100',2,6,'5109', null);
-INSERT INTO bus_routes VALUES('100',2,7,'3876', null);
-INSERT INTO bus_routes VALUES('100',2,8,'4564', null);
-INSERT INTO bus_routes VALUES('100',2,9,'4562', null);
-INSERT INTO bus_routes VALUES('100',2,10,'4560', null);
-INSERT INTO bus_routes VALUES('100',2,11,'3758', null);
-INSERT INTO bus_routes VALUES('100',2,12,'1213', null);
-INSERT INTO bus_routes VALUES('100',2,13,'4547', null);
-INSERT INTO bus_routes VALUES('100',2,14,'4565', null);
-INSERT INTO bus_routes VALUES('100',2,15,'4647', null);
-INSERT INTO bus_routes VALUES('100',2,16,'4549', null);
-INSERT INTO bus_routes VALUES('100',2,17,'1835', null);
-INSERT INTO bus_routes VALUES('100',2,18,'1062', null);
-INSERT INTO bus_routes VALUES('100',2,19,'1061', null);
-INSERT INTO bus_routes VALUES('100',2,20,'4974', null);
-INSERT INTO bus_routes VALUES('100',2,21,'4758', null);
-INSERT INTO bus_routes VALUES('100',2,22,'1059', null);
-INSERT INTO bus_routes VALUES('100',2,23,'1057', null);
-INSERT INTO bus_routes VALUES('100',2,24,'1055', null);
-INSERT INTO bus_routes VALUES('100',2,25,'1053', null);
-INSERT INTO bus_routes VALUES('100',2,26,'842', null);
-INSERT INTO bus_routes VALUES('100',2,27,'839', null);
-INSERT INTO bus_routes VALUES('100',2,28,'851', null);
-INSERT INTO bus_routes VALUES('100',2,29,'3504', null);
-INSERT INTO bus_routes VALUES('101',1,1,'5714', null);
-INSERT INTO bus_routes VALUES('101',1,2,'2108', null);
-INSERT INTO bus_routes VALUES('101',1,3,'3535', null);
-INSERT INTO bus_routes VALUES('101',1,4,'2978', null);
-INSERT INTO bus_routes VALUES('101',1,5,'2980', null);
-INSERT INTO bus_routes VALUES('101',1,6,'2982', null);
-INSERT INTO bus_routes VALUES('101',1,7,'3536', null);
-INSERT INTO bus_routes VALUES('101',1,8,'3121', null);
-INSERT INTO bus_routes VALUES('101',1,9,'3537', null);
-INSERT INTO bus_routes VALUES('101',1,10,'1985', null);
-INSERT INTO bus_routes VALUES('101',1,11,'3539', null);
-INSERT INTO bus_routes VALUES('101',1,12,'4853', null);
-INSERT INTO bus_routes VALUES('101',1,13,'3546', null);
-INSERT INTO bus_routes VALUES('101',1,14,'3548', null);
-INSERT INTO bus_routes VALUES('101',1,15,'1319', null);
-INSERT INTO bus_routes VALUES('101',2,1,'1319', null);
-INSERT INTO bus_routes VALUES('101',2,2,'3549', null);
-INSERT INTO bus_routes VALUES('101',2,3,'3547', null);
-INSERT INTO bus_routes VALUES('101',2,4,'4707', null);
-INSERT INTO bus_routes VALUES('101',2,5,'3542', null);
-INSERT INTO bus_routes VALUES('101',2,6,'5195', null);
-INSERT INTO bus_routes VALUES('101',2,7,'3868', null);
-INSERT INTO bus_routes VALUES('101',2,8,'5665', null);
-INSERT INTO bus_routes VALUES('101',2,9,'1301', null);
-INSERT INTO bus_routes VALUES('101',2,10,'1299', null);
-INSERT INTO bus_routes VALUES('101',2,11,'1297', null);
-INSERT INTO bus_routes VALUES('101',2,12,'1295', null);
-INSERT INTO bus_routes VALUES('101',2,13,'1293', null);
-INSERT INTO bus_routes VALUES('101',2,14,'5714', null);
-INSERT INTO bus_routes VALUES('102',1,1,'5853', null);
-INSERT INTO bus_routes VALUES('102',1,2,'1402', null);
-INSERT INTO bus_routes VALUES('102',1,3,'5262', null);
-INSERT INTO bus_routes VALUES('102',1,4,'3913', null);
-INSERT INTO bus_routes VALUES('102',1,5,'1967', null);
-INSERT INTO bus_routes VALUES('102',1,6,'1969', null);
-INSERT INTO bus_routes VALUES('102',1,7,'2917', null);
-INSERT INTO bus_routes VALUES('102',1,8,'2920', null);
-INSERT INTO bus_routes VALUES('102',1,9,'2922', null);
-INSERT INTO bus_routes VALUES('102',1,10,'2924', null);
-INSERT INTO bus_routes VALUES('102',1,11,'2926', null);
-INSERT INTO bus_routes VALUES('102',1,12,'2928', null);
-INSERT INTO bus_routes VALUES('102',1,13,'2929', null);
-INSERT INTO bus_routes VALUES('102',1,14,'2930', null);
-INSERT INTO bus_routes VALUES('102',1,15,'2931', null);
-INSERT INTO bus_routes VALUES('102',1,16,'2933', null);
-INSERT INTO bus_routes VALUES('102',1,17,'1093', null);
-INSERT INTO bus_routes VALUES('102',1,18,'4840', null);
-INSERT INTO bus_routes VALUES('102',1,19,'2934', null);
-INSERT INTO bus_routes VALUES('102',1,20,'2204', null);
-INSERT INTO bus_routes VALUES('102',1,21,'2205', null);
-INSERT INTO bus_routes VALUES('102',1,22,'2206', null);
-INSERT INTO bus_routes VALUES('102',1,23,'4841', null);
-INSERT INTO bus_routes VALUES('102',1,24,'4843', null);
-INSERT INTO bus_routes VALUES('102',1,25,'4837', null);
-INSERT INTO bus_routes VALUES('102',2,1,'4837', null);
-INSERT INTO bus_routes VALUES('102',2,2,'4844', null);
-INSERT INTO bus_routes VALUES('102',2,3,'4842', null);
-INSERT INTO bus_routes VALUES('102',2,4,'2207', null);
-INSERT INTO bus_routes VALUES('102',2,5,'2208', null);
-INSERT INTO bus_routes VALUES('102',2,6,'2209', null);
-INSERT INTO bus_routes VALUES('102',2,7,'4657', null);
-INSERT INTO bus_routes VALUES('102',2,8,'4658', null);
-INSERT INTO bus_routes VALUES('102',2,9,'2936', null);
-INSERT INTO bus_routes VALUES('102',2,10,'4845', null);
-INSERT INTO bus_routes VALUES('102',2,11,'2937', null);
-INSERT INTO bus_routes VALUES('102',2,12,'2938', null);
-INSERT INTO bus_routes VALUES('102',2,13,'2939', null);
-INSERT INTO bus_routes VALUES('102',2,14,'2932', null);
-INSERT INTO bus_routes VALUES('102',2,15,'2940', null);
-INSERT INTO bus_routes VALUES('102',2,16,'2941', null);
-INSERT INTO bus_routes VALUES('102',2,17,'2942', null);
-INSERT INTO bus_routes VALUES('102',2,18,'2927', null);
-INSERT INTO bus_routes VALUES('102',2,19,'2925', null);
-INSERT INTO bus_routes VALUES('102',2,20,'2923', null);
-INSERT INTO bus_routes VALUES('102',2,21,'92', null);
-INSERT INTO bus_routes VALUES('102',2,22,'2918', null);
-INSERT INTO bus_routes VALUES('102',2,23,'1970', null);
-INSERT INTO bus_routes VALUES('102',2,24,'1968', null);
-INSERT INTO bus_routes VALUES('102',2,25,'1971', null);
-INSERT INTO bus_routes VALUES('102',2,26,'5144', null);
-INSERT INTO bus_routes VALUES('102',2,27,'1973', null);
-INSERT INTO bus_routes VALUES('102',2,28,'2421', null);
-INSERT INTO bus_routes VALUES('102',2,29,'5360', null);
-INSERT INTO bus_routes VALUES('102',2,30,'5853', null);
-INSERT INTO bus_routes VALUES('103',1,1,'4837', null);
-INSERT INTO bus_routes VALUES('103',1,2,'4657', null);
-INSERT INTO bus_routes VALUES('103',1,3,'4658', null);
-INSERT INTO bus_routes VALUES('103',1,4,'1094', null);
-INSERT INTO bus_routes VALUES('103',1,5,'1095', null);
-INSERT INTO bus_routes VALUES('103',1,6,'1096', null);
-INSERT INTO bus_routes VALUES('103',1,7,'1097', null);
-INSERT INTO bus_routes VALUES('103',1,8,'1099', null);
-INSERT INTO bus_routes VALUES('103',1,9,'1100', null);
-INSERT INTO bus_routes VALUES('103',1,10,'1101', null);
-INSERT INTO bus_routes VALUES('103',1,11,'1102', null);
-INSERT INTO bus_routes VALUES('103',1,12,'1103', null);
-INSERT INTO bus_routes VALUES('103',1,13,'1105', null);
-INSERT INTO bus_routes VALUES('103',1,14,'1107', null);
-INSERT INTO bus_routes VALUES('103',1,15,'1109', null);
-INSERT INTO bus_routes VALUES('103',1,16,'1007', null);
-INSERT INTO bus_routes VALUES('103',1,17,'1009', null);
-INSERT INTO bus_routes VALUES('103',1,18,'1011', null);
-INSERT INTO bus_routes VALUES('103',1,19,'1013', null);
-INSERT INTO bus_routes VALUES('103',1,20,'1015', null);
-INSERT INTO bus_routes VALUES('103',1,21,'1017', null);
-INSERT INTO bus_routes VALUES('103',1,22,'1019', null);
-INSERT INTO bus_routes VALUES('103',1,23,'4680', null);
-INSERT INTO bus_routes VALUES('103',1,24,'1023', null);
-INSERT INTO bus_routes VALUES('103',1,25,'4682', null);
-INSERT INTO bus_routes VALUES('103',1,26,'1027', null);
-INSERT INTO bus_routes VALUES('103',1,27,'5163', null);
-INSERT INTO bus_routes VALUES('103',1,28,'4368', null);
-INSERT INTO bus_routes VALUES('103',1,29,'4696', null);
-INSERT INTO bus_routes VALUES('103',1,30,'3339', null);
-INSERT INTO bus_routes VALUES('103',1,31,'3340', null);
-INSERT INTO bus_routes VALUES('103',1,32,'4071', null);
-INSERT INTO bus_routes VALUES('103',1,33,'4750', null);
-INSERT INTO bus_routes VALUES('103',1,34,'5777', null);
-INSERT INTO bus_routes VALUES('103',1,35,'5878', null);
-INSERT INTO bus_routes VALUES('103',1,36,'5879', null);
-INSERT INTO bus_routes VALUES('103',2,1,'5879', null);
-INSERT INTO bus_routes VALUES('103',2,2,'4073', null);
-INSERT INTO bus_routes VALUES('103',2,3,'4074', null);
-INSERT INTO bus_routes VALUES('103',2,4,'4075', null);
-INSERT INTO bus_routes VALUES('103',2,5,'4076', null);
-INSERT INTO bus_routes VALUES('103',2,6,'4700', null);
-INSERT INTO bus_routes VALUES('103',2,7,'4701', null);
-INSERT INTO bus_routes VALUES('103',2,8,'1051', null);
-INSERT INTO bus_routes VALUES('103',2,9,'1031', null);
-INSERT INTO bus_routes VALUES('103',2,10,'4367', null);
-INSERT INTO bus_routes VALUES('103',2,11,'4683', null);
-INSERT INTO bus_routes VALUES('103',2,12,'1024', null);
-INSERT INTO bus_routes VALUES('103',2,13,'4681', null);
-INSERT INTO bus_routes VALUES('103',2,14,'1020', null);
-INSERT INTO bus_routes VALUES('103',2,15,'1018', null);
-INSERT INTO bus_routes VALUES('103',2,16,'1016', null);
-INSERT INTO bus_routes VALUES('103',2,17,'1014', null);
-INSERT INTO bus_routes VALUES('103',2,18,'1012', null);
-INSERT INTO bus_routes VALUES('103',2,19,'1010', null);
-INSERT INTO bus_routes VALUES('103',2,20,'1008', null);
-INSERT INTO bus_routes VALUES('103',2,21,'1110', null);
-INSERT INTO bus_routes VALUES('103',2,22,'1108', null);
-INSERT INTO bus_routes VALUES('103',2,23,'1106', null);
-INSERT INTO bus_routes VALUES('103',2,24,'1104', null);
-INSERT INTO bus_routes VALUES('103',2,25,'1111', null);
-INSERT INTO bus_routes VALUES('103',2,26,'1112', null);
-INSERT INTO bus_routes VALUES('103',2,27,'1113', null);
-INSERT INTO bus_routes VALUES('103',2,28,'1114', null);
-INSERT INTO bus_routes VALUES('103',2,29,'1098', null);
-INSERT INTO bus_routes VALUES('103',2,30,'1115', null);
-INSERT INTO bus_routes VALUES('103',2,31,'1116', null);
-INSERT INTO bus_routes VALUES('103',2,32,'1093', null);
-INSERT INTO bus_routes VALUES('103',2,33,'4840', null);
-INSERT INTO bus_routes VALUES('103',2,34,'2934', null);
-INSERT INTO bus_routes VALUES('103',2,35,'2209', null);
-INSERT INTO bus_routes VALUES('103',2,36,'4645', null);
-INSERT INTO bus_routes VALUES('103',2,37,'4837', null);
-INSERT INTO bus_routes VALUES('104',1,1,'1199', null);
-INSERT INTO bus_routes VALUES('104',1,2,'5076', null);
-INSERT INTO bus_routes VALUES('104',1,3,'5077', null);
-INSERT INTO bus_routes VALUES('104',1,4,'2945', null);
-INSERT INTO bus_routes VALUES('104',1,5,'2947', null);
-INSERT INTO bus_routes VALUES('104',1,6,'2949', null);
-INSERT INTO bus_routes VALUES('104',1,7,'4884', null);
-INSERT INTO bus_routes VALUES('104',1,8,'4381', null);
-INSERT INTO bus_routes VALUES('104',1,9,'4817', null);
-INSERT INTO bus_routes VALUES('104',1,10,'5851', null);
-INSERT INTO bus_routes VALUES('104',1,11,'5594', null);
-INSERT INTO bus_routes VALUES('104',1,12,'3588', null);
-INSERT INTO bus_routes VALUES('104',1,13,'4885', null);
-INSERT INTO bus_routes VALUES('104',1,14,'5022', null);
-INSERT INTO bus_routes VALUES('104',1,15,'5102', null);
-INSERT INTO bus_routes VALUES('104',1,16,'4887', null);
-INSERT INTO bus_routes VALUES('104',1,17,'4889', null);
-INSERT INTO bus_routes VALUES('104',1,18,'4891', null);
-INSERT INTO bus_routes VALUES('104',1,19,'4893', null);
-INSERT INTO bus_routes VALUES('104',1,20,'5547', null);
-INSERT INTO bus_routes VALUES('104',1,21,'4895', null);
-INSERT INTO bus_routes VALUES('104',1,22,'4897', null);
-INSERT INTO bus_routes VALUES('104',1,23,'5848', null);
-INSERT INTO bus_routes VALUES('104',2,1,'5848', null);
-INSERT INTO bus_routes VALUES('104',2,2,'4900', null);
-INSERT INTO bus_routes VALUES('104',2,3,'4901', null);
-INSERT INTO bus_routes VALUES('104',2,4,'4896', null);
-INSERT INTO bus_routes VALUES('104',2,5,'5342', null);
-INSERT INTO bus_routes VALUES('104',2,6,'4894', null);
-INSERT INTO bus_routes VALUES('104',2,7,'4892', null);
-INSERT INTO bus_routes VALUES('104',2,8,'4890', null);
-INSERT INTO bus_routes VALUES('104',2,9,'5023', null);
-INSERT INTO bus_routes VALUES('104',2,10,'4886', null);
-INSERT INTO bus_routes VALUES('104',2,11,'4902', null);
-INSERT INTO bus_routes VALUES('104',2,12,'5595', null);
-INSERT INTO bus_routes VALUES('104',2,13,'5852', null);
-INSERT INTO bus_routes VALUES('104',2,14,'4386', null);
-INSERT INTO bus_routes VALUES('104',2,15,'4903', null);
-INSERT INTO bus_routes VALUES('104',2,16,'4385', null);
-INSERT INTO bus_routes VALUES('104',2,17,'2950', null);
-INSERT INTO bus_routes VALUES('104',2,18,'2948', null);
-INSERT INTO bus_routes VALUES('104',2,19,'2946', null);
-INSERT INTO bus_routes VALUES('104',2,20,'3534', null);
-INSERT INTO bus_routes VALUES('104',2,21,'2944', null);
-INSERT INTO bus_routes VALUES('104',2,22,'2977', null);
-INSERT INTO bus_routes VALUES('104',2,23,'1199', null);
-INSERT INTO bus_routes VALUES('105',1,1,'5458', null);
-INSERT INTO bus_routes VALUES('105',1,2,'240', null);
-INSERT INTO bus_routes VALUES('105',1,3,'3006', null);
-INSERT INTO bus_routes VALUES('105',1,4,'3008', null);
-INSERT INTO bus_routes VALUES('105',1,5,'3010', null);
-INSERT INTO bus_routes VALUES('105',1,6,'4764', null);
-INSERT INTO bus_routes VALUES('105',1,7,'3012', null);
-INSERT INTO bus_routes VALUES('105',1,8,'40', null);
-INSERT INTO bus_routes VALUES('105',1,9,'4530', null);
-INSERT INTO bus_routes VALUES('105',1,10,'4532', null);
-INSERT INTO bus_routes VALUES('105',1,11,'2951', null);
-INSERT INTO bus_routes VALUES('105',1,12,'2953', null);
-INSERT INTO bus_routes VALUES('105',1,13,'2976', null);
-INSERT INTO bus_routes VALUES('105',1,14,'1289', null);
-INSERT INTO bus_routes VALUES('105',1,15,'2108', null);
-INSERT INTO bus_routes VALUES('105',1,16,'3535', null);
-INSERT INTO bus_routes VALUES('105',1,17,'2978', null);
-INSERT INTO bus_routes VALUES('105',1,18,'2980', null);
-INSERT INTO bus_routes VALUES('105',1,19,'2982', null);
-INSERT INTO bus_routes VALUES('105',1,20,'2984', null);
-INSERT INTO bus_routes VALUES('105',1,21,'1308', null);
-INSERT INTO bus_routes VALUES('105',1,22,'1309', null);
-INSERT INTO bus_routes VALUES('105',1,23,'1311', null);
-INSERT INTO bus_routes VALUES('105',1,24,'4922', null);
-INSERT INTO bus_routes VALUES('105',1,25,'1313', null);
-INSERT INTO bus_routes VALUES('105',1,26,'1315', null);
-INSERT INTO bus_routes VALUES('105',1,27,'1317', null);
-INSERT INTO bus_routes VALUES('105',1,28,'5649', null);
-INSERT INTO bus_routes VALUES('105',1,29,'1321', null);
-INSERT INTO bus_routes VALUES('105',1,30,'2986', null);
-INSERT INTO bus_routes VALUES('105',1,31,'2987', null);
-INSERT INTO bus_routes VALUES('105',1,32,'5844', null);
-INSERT INTO bus_routes VALUES('105',1,33,'2990', null);
-INSERT INTO bus_routes VALUES('105',1,34,'2991', null);
-INSERT INTO bus_routes VALUES('105',2,1,'2991', null);
-INSERT INTO bus_routes VALUES('105',2,2,'2992', null);
-INSERT INTO bus_routes VALUES('105',2,3,'5845', null);
-INSERT INTO bus_routes VALUES('105',2,4,'2988', null);
-INSERT INTO bus_routes VALUES('105',2,5,'5825', null);
-INSERT INTO bus_routes VALUES('105',2,6,'1322', null);
-INSERT INTO bus_routes VALUES('105',2,7,'1319', null);
-INSERT INTO bus_routes VALUES('105',2,8,'4659', null);
-INSERT INTO bus_routes VALUES('105',2,9,'1316', null);
-INSERT INTO bus_routes VALUES('105',2,10,'1314', null);
-INSERT INTO bus_routes VALUES('105',2,11,'4921', null);
-INSERT INTO bus_routes VALUES('105',2,12,'1312', null);
-INSERT INTO bus_routes VALUES('105',2,13,'4924', null);
-INSERT INTO bus_routes VALUES('105',2,14,'1310', null);
-INSERT INTO bus_routes VALUES('105',2,15,'2985', null);
-INSERT INTO bus_routes VALUES('105',2,16,'2983', null);
-INSERT INTO bus_routes VALUES('105',2,17,'2981', null);
-INSERT INTO bus_routes VALUES('105',2,18,'2979', null);
-INSERT INTO bus_routes VALUES('105',2,19,'1293', null);
-INSERT INTO bus_routes VALUES('105',2,20,'1185', null);
-INSERT INTO bus_routes VALUES('105',2,21,'1291', null);
-INSERT INTO bus_routes VALUES('105',2,22,'2975', null);
-INSERT INTO bus_routes VALUES('105',2,23,'2954', null);
-INSERT INTO bus_routes VALUES('105',2,24,'2952', null);
-INSERT INTO bus_routes VALUES('105',2,25,'4515', null);
-INSERT INTO bus_routes VALUES('105',2,26,'4531', null);
-INSERT INTO bus_routes VALUES('105',2,27,'4529', null);
-INSERT INTO bus_routes VALUES('105',2,28,'3013', null);
-INSERT INTO bus_routes VALUES('105',2,29,'4765', null);
-INSERT INTO bus_routes VALUES('105',2,30,'3011', null);
-INSERT INTO bus_routes VALUES('105',2,31,'3009', null);
-INSERT INTO bus_routes VALUES('105',2,32,'3007', null);
-INSERT INTO bus_routes VALUES('105',2,33,'241', null);
-INSERT INTO bus_routes VALUES('105',2,34,'239', null);
-INSERT INTO bus_routes VALUES('105',2,35,'5458', null);
-INSERT INTO bus_routes VALUES('106',1,1,'3749', null);
-INSERT INTO bus_routes VALUES('106',1,2,'685', null);
-INSERT INTO bus_routes VALUES('106',1,3,'756', null);
-INSERT INTO bus_routes VALUES('106',1,4,'1078', null);
-INSERT INTO bus_routes VALUES('106',1,5,'4567', null);
-INSERT INTO bus_routes VALUES('106',1,6,'1079', null);
-INSERT INTO bus_routes VALUES('106',1,7,'953', null);
-INSERT INTO bus_routes VALUES('106',1,8,'1080', null);
-INSERT INTO bus_routes VALUES('106',1,9,'1082', null);
-INSERT INTO bus_routes VALUES('106',1,10,'1084', null);
-INSERT INTO bus_routes VALUES('106',1,11,'263', null);
-INSERT INTO bus_routes VALUES('106',1,12,'261', null);
-INSERT INTO bus_routes VALUES('106',1,13,'259', null);
-INSERT INTO bus_routes VALUES('106',1,14,'257', null);
-INSERT INTO bus_routes VALUES('106',1,15,'5323', null);
-INSERT INTO bus_routes VALUES('106',1,16,'4635', null);
-INSERT INTO bus_routes VALUES('106',1,17,'4636', null);
-INSERT INTO bus_routes VALUES('106',1,18,'3658', null);
-INSERT INTO bus_routes VALUES('106',1,19,'4637', null);
-INSERT INTO bus_routes VALUES('106',1,20,'4210', null);
-INSERT INTO bus_routes VALUES('106',1,21,'1210', null);
-INSERT INTO bus_routes VALUES('106',1,22,'4612', null);
-INSERT INTO bus_routes VALUES('106',1,23,'3758', null);
-INSERT INTO bus_routes VALUES('106',1,24,'1213', null);
-INSERT INTO bus_routes VALUES('106',1,25,'1076', null);
-INSERT INTO bus_routes VALUES('106',1,26,'1066', null);
-INSERT INTO bus_routes VALUES('106',1,27,'1067', null);
-INSERT INTO bus_routes VALUES('106',1,28,'4546', null);
-INSERT INTO bus_routes VALUES('106',1,29,'4552', null);
-INSERT INTO bus_routes VALUES('106',1,30,'4555', null);
-INSERT INTO bus_routes VALUES('106',1,31,'4568', null);
-INSERT INTO bus_routes VALUES('106',1,32,'4570', null);
-INSERT INTO bus_routes VALUES('106',1,33,'4563', null);
-INSERT INTO bus_routes VALUES('106',1,34,'3875', null);
-INSERT INTO bus_routes VALUES('106',1,35,'5772', null);
-INSERT INTO bus_routes VALUES('106',1,36,'5445', null);
-INSERT INTO bus_routes VALUES('106',2,1,'5445', null);
-INSERT INTO bus_routes VALUES('106',2,2,'3876', null);
-INSERT INTO bus_routes VALUES('106',2,3,'4564', null);
-INSERT INTO bus_routes VALUES('106',2,4,'4571', null);
-INSERT INTO bus_routes VALUES('106',2,5,'4569', null);
-INSERT INTO bus_routes VALUES('106',2,6,'4556', null);
-INSERT INTO bus_routes VALUES('106',2,7,'1069', null);
-INSERT INTO bus_routes VALUES('106',2,8,'1074', null);
-INSERT INTO bus_routes VALUES('106',2,9,'4647', null);
-INSERT INTO bus_routes VALUES('106',2,10,'4549', null);
-INSERT INTO bus_routes VALUES('106',2,11,'5367', null);
-INSERT INTO bus_routes VALUES('106',2,12,'4548', null);
-INSERT INTO bus_routes VALUES('106',2,13,'4613', null);
-INSERT INTO bus_routes VALUES('106',2,14,'1211', null);
-INSERT INTO bus_routes VALUES('106',2,15,'4611', null);
-INSERT INTO bus_routes VALUES('106',2,16,'4509', null);
-INSERT INTO bus_routes VALUES('106',2,17,'4507', null);
-INSERT INTO bus_routes VALUES('106',2,18,'4400', null);
-INSERT INTO bus_routes VALUES('106',2,19,'4655', null);
-INSERT INTO bus_routes VALUES('106',2,20,'5324', null);
-INSERT INTO bus_routes VALUES('106',2,21,'256', null);
-INSERT INTO bus_routes VALUES('106',2,22,'258', null);
-INSERT INTO bus_routes VALUES('106',2,23,'260', null);
-INSERT INTO bus_routes VALUES('106',2,24,'262', null);
-INSERT INTO bus_routes VALUES('106',2,25,'1086', null);
-INSERT INTO bus_routes VALUES('106',2,26,'1085', null);
-INSERT INTO bus_routes VALUES('106',2,27,'1083', null);
-INSERT INTO bus_routes VALUES('106',2,28,'1081', null);
-INSERT INTO bus_routes VALUES('106',2,29,'952', null);
-INSERT INTO bus_routes VALUES('106',2,30,'1091', null);
-INSERT INTO bus_routes VALUES('106',2,31,'1092', null);
-INSERT INTO bus_routes VALUES('106',2,32,'759', null);
-INSERT INTO bus_routes VALUES('106',2,33,'757', null);
-INSERT INTO bus_routes VALUES('106',2,34,'5146', null);
-INSERT INTO bus_routes VALUES('106',2,35,'684', null);
-INSERT INTO bus_routes VALUES('106',2,36,'3749', null);
-INSERT INTO bus_routes VALUES('107',1,1,'5722', null);
-INSERT INTO bus_routes VALUES('107',1,2,'30', null);
-INSERT INTO bus_routes VALUES('107',1,3,'203', null);
-INSERT INTO bus_routes VALUES('107',1,4,'205', null);
-INSERT INTO bus_routes VALUES('107',1,5,'207', null);
-INSERT INTO bus_routes VALUES('107',1,6,'208', null);
-INSERT INTO bus_routes VALUES('107',1,7,'210', null);
-INSERT INTO bus_routes VALUES('107',1,8,'214', null);
-INSERT INTO bus_routes VALUES('107',1,9,'497', null);
-INSERT INTO bus_routes VALUES('107',1,10,'499', null);
-INSERT INTO bus_routes VALUES('107',1,11,'501', null);
-INSERT INTO bus_routes VALUES('107',1,12,'503', null);
-INSERT INTO bus_routes VALUES('107',1,13,'1837', null);
-INSERT INTO bus_routes VALUES('107',1,14,'1839', null);
-INSERT INTO bus_routes VALUES('107',1,15,'5337', null);
-INSERT INTO bus_routes VALUES('107',1,16,'1841', null);
-INSERT INTO bus_routes VALUES('107',1,17,'1843', null);
-INSERT INTO bus_routes VALUES('107',1,18,'1845', null);
-INSERT INTO bus_routes VALUES('107',1,19,'1846', null);
-INSERT INTO bus_routes VALUES('107',1,20,'1848', null);
-INSERT INTO bus_routes VALUES('107',1,21,'1850', null);
-INSERT INTO bus_routes VALUES('107',1,22,'1851', null);
-INSERT INTO bus_routes VALUES('107',1,23,'4752', null);
-INSERT INTO bus_routes VALUES('107',1,24,'1852', null);
-INSERT INTO bus_routes VALUES('107',2,1,'1852', null);
-INSERT INTO bus_routes VALUES('107',2,2,'1853', null);
-INSERT INTO bus_routes VALUES('107',2,3,'2560', null);
-INSERT INTO bus_routes VALUES('107',2,4,'1849', null);
-INSERT INTO bus_routes VALUES('107',2,5,'1847', null);
-INSERT INTO bus_routes VALUES('107',2,6,'4931', null);
-INSERT INTO bus_routes VALUES('107',2,7,'1844', null);
-INSERT INTO bus_routes VALUES('107',2,8,'1842', null);
-INSERT INTO bus_routes VALUES('107',2,9,'5338', null);
-INSERT INTO bus_routes VALUES('107',2,10,'1840', null);
-INSERT INTO bus_routes VALUES('107',2,11,'1838', null);
-INSERT INTO bus_routes VALUES('107',2,12,'504', null);
-INSERT INTO bus_routes VALUES('107',2,13,'502', null);
-INSERT INTO bus_routes VALUES('107',2,14,'513', null);
-INSERT INTO bus_routes VALUES('107',2,15,'500', null);
-INSERT INTO bus_routes VALUES('107',2,16,'498', null);
-INSERT INTO bus_routes VALUES('107',2,17,'1836', null);
-INSERT INTO bus_routes VALUES('107',2,18,'211', null);
-INSERT INTO bus_routes VALUES('107',2,19,'209', null);
-INSERT INTO bus_routes VALUES('107',2,20,'266', null);
-INSERT INTO bus_routes VALUES('107',2,21,'206', null);
-INSERT INTO bus_routes VALUES('107',2,22,'204', null);
-INSERT INTO bus_routes VALUES('107',2,23,'31', null);
-INSERT INTO bus_routes VALUES('107',2,24,'5722', null);
-INSERT INTO bus_routes VALUES('108',1,1,'5550', null);
-INSERT INTO bus_routes VALUES('108',1,2,'2471', null);
-INSERT INTO bus_routes VALUES('108',1,3,'5662', null);
-INSERT INTO bus_routes VALUES('108',1,4,'2438', null);
-INSERT INTO bus_routes VALUES('108',1,5,'2439', null);
-INSERT INTO bus_routes VALUES('108',1,6,'2441', null);
-INSERT INTO bus_routes VALUES('108',1,7,'2443', null);
-INSERT INTO bus_routes VALUES('108',1,8,'2446', null);
-INSERT INTO bus_routes VALUES('108',1,9,'2448', null);
-INSERT INTO bus_routes VALUES('108',1,10,'5328', null);
-INSERT INTO bus_routes VALUES('108',1,11,'3043', null);
-INSERT INTO bus_routes VALUES('108',1,12,'3044', null);
-INSERT INTO bus_routes VALUES('108',1,13,'3045', null);
-INSERT INTO bus_routes VALUES('108',1,14,'4857', null);
-INSERT INTO bus_routes VALUES('108',1,15,'4858', null);
-INSERT INTO bus_routes VALUES('108',1,16,'2456', null);
-INSERT INTO bus_routes VALUES('108',1,17,'3048', null);
-INSERT INTO bus_routes VALUES('108',1,18,'3050', null);
-INSERT INTO bus_routes VALUES('108',1,19,'4181', null);
-INSERT INTO bus_routes VALUES('108',1,20,'5099', null);
-INSERT INTO bus_routes VALUES('108',2,1,'5099', null);
-INSERT INTO bus_routes VALUES('108',2,2,'4182', null);
-INSERT INTO bus_routes VALUES('108',2,3,'3051', null);
-INSERT INTO bus_routes VALUES('108',2,4,'5059', null);
-INSERT INTO bus_routes VALUES('108',2,5,'2457', null);
-INSERT INTO bus_routes VALUES('108',2,6,'2454', null);
-INSERT INTO bus_routes VALUES('108',2,7,'3054', null);
-INSERT INTO bus_routes VALUES('108',2,8,'3055', null);
-INSERT INTO bus_routes VALUES('108',2,9,'3056', null);
-INSERT INTO bus_routes VALUES('108',2,10,'3057', null);
-INSERT INTO bus_routes VALUES('108',2,11,'4653', null);
-INSERT INTO bus_routes VALUES('108',2,12,'5058', null);
-INSERT INTO bus_routes VALUES('108',2,13,'2449', null);
-INSERT INTO bus_routes VALUES('108',2,14,'2447', null);
-INSERT INTO bus_routes VALUES('108',2,15,'2444', null);
-INSERT INTO bus_routes VALUES('108',2,16,'2442', null);
-INSERT INTO bus_routes VALUES('108',2,17,'2440', null);
-INSERT INTO bus_routes VALUES('108',2,18,'5046', null);
-INSERT INTO bus_routes VALUES('108',2,19,'2437', null);
-INSERT INTO bus_routes VALUES('108',2,20,'5663', null);
-INSERT INTO bus_routes VALUES('108',2,21,'5549', null);
-INSERT INTO bus_routes VALUES('108',2,22,'5550', null);
-INSERT INTO bus_routes VALUES('109',1,1,'1199', null);
-INSERT INTO bus_routes VALUES('109',1,2,'2337', null);
-INSERT INTO bus_routes VALUES('109',1,3,'2335', null);
-INSERT INTO bus_routes VALUES('109',1,4,'4454', null);
-INSERT INTO bus_routes VALUES('109',1,5,'4455', null);
-INSERT INTO bus_routes VALUES('109',1,6,'3004', null);
-INSERT INTO bus_routes VALUES('109',1,7,'3002', null);
-INSERT INTO bus_routes VALUES('109',1,8,'3000', null);
-INSERT INTO bus_routes VALUES('109',1,9,'2997', null);
-INSERT INTO bus_routes VALUES('109',1,10,'4456', null);
-INSERT INTO bus_routes VALUES('109',1,11,'4458', null);
-INSERT INTO bus_routes VALUES('109',1,12,'4460', null);
-INSERT INTO bus_routes VALUES('109',1,13,'5300', null);
-INSERT INTO bus_routes VALUES('109',1,14,'5688', null);
-INSERT INTO bus_routes VALUES('109',1,15,'5689', null);
-INSERT INTO bus_routes VALUES('109',1,16,'5690', null);
-INSERT INTO bus_routes VALUES('109',1,17,'5691', null);
-INSERT INTO bus_routes VALUES('109',2,1,'5691', null);
-INSERT INTO bus_routes VALUES('109',2,2,'5692', null);
-INSERT INTO bus_routes VALUES('109',2,3,'5693', null);
-INSERT INTO bus_routes VALUES('109',2,4,'5694', null);
-INSERT INTO bus_routes VALUES('109',2,5,'4708', null);
-INSERT INTO bus_routes VALUES('109',2,6,'5695', null);
-INSERT INTO bus_routes VALUES('109',2,7,'5696', null);
-INSERT INTO bus_routes VALUES('109',2,8,'4459', null);
-INSERT INTO bus_routes VALUES('109',2,9,'4457', null);
-INSERT INTO bus_routes VALUES('109',2,10,'2996', null);
-INSERT INTO bus_routes VALUES('109',2,11,'2999', null);
-INSERT INTO bus_routes VALUES('109',2,12,'2876', null);
-INSERT INTO bus_routes VALUES('109',2,13,'3003', null);
-INSERT INTO bus_routes VALUES('109',2,14,'4462', null);
-INSERT INTO bus_routes VALUES('109',2,15,'3005', null);
-INSERT INTO bus_routes VALUES('109',2,16,'2334', null);
-INSERT INTO bus_routes VALUES('109',2,17,'2336', null);
-INSERT INTO bus_routes VALUES('109',2,18,'1199', null);
-INSERT INTO bus_routes VALUES('11',1,1,'4293', null);
-INSERT INTO bus_routes VALUES('11',1,2,'3997', null);
-INSERT INTO bus_routes VALUES('11',1,3,'3999', null);
-INSERT INTO bus_routes VALUES('11',1,4,'4001', null);
-INSERT INTO bus_routes VALUES('11',1,5,'4003', null);
-INSERT INTO bus_routes VALUES('11',1,6,'4005', null);
-INSERT INTO bus_routes VALUES('11',1,7,'4007', null);
-INSERT INTO bus_routes VALUES('11',1,8,'2116', null);
-INSERT INTO bus_routes VALUES('11',1,9,'293', null);
-INSERT INTO bus_routes VALUES('11',1,10,'295', null);
-INSERT INTO bus_routes VALUES('11',1,11,'297', null);
-INSERT INTO bus_routes VALUES('11',1,12,'299', null);
-INSERT INTO bus_routes VALUES('11',1,13,'300', null);
-INSERT INTO bus_routes VALUES('11',1,14,'302', null);
-INSERT INTO bus_routes VALUES('11',1,15,'218', null);
-INSERT INTO bus_routes VALUES('11',1,16,'220', null);
-INSERT INTO bus_routes VALUES('11',1,17,'222', null);
-INSERT INTO bus_routes VALUES('11',1,18,'224', null);
-INSERT INTO bus_routes VALUES('11',1,19,'226', null);
-INSERT INTO bus_routes VALUES('11',1,20,'2118', null);
-INSERT INTO bus_routes VALUES('11',1,21,'2119', null);
-INSERT INTO bus_routes VALUES('11',1,22,'2120', null);
-INSERT INTO bus_routes VALUES('11',1,23,'697', null);
-INSERT INTO bus_routes VALUES('11',2,1,'697', null);
-INSERT INTO bus_routes VALUES('11',2,2,'2121', null);
-INSERT INTO bus_routes VALUES('11',2,3,'2122', null);
-INSERT INTO bus_routes VALUES('11',2,4,'2123', null);
-INSERT INTO bus_routes VALUES('11',2,5,'227', null);
-INSERT INTO bus_routes VALUES('11',2,6,'225', null);
-INSERT INTO bus_routes VALUES('11',2,7,'4331', null);
-INSERT INTO bus_routes VALUES('11',2,8,'223', null);
-INSERT INTO bus_routes VALUES('11',2,9,'221', null);
-INSERT INTO bus_routes VALUES('11',2,10,'219', null);
-INSERT INTO bus_routes VALUES('11',2,11,'217', null);
-INSERT INTO bus_routes VALUES('11',2,12,'303', null);
-INSERT INTO bus_routes VALUES('11',2,13,'2388', null);
-INSERT INTO bus_routes VALUES('11',2,14,'314', null);
-INSERT INTO bus_routes VALUES('11',2,15,'298', null);
-INSERT INTO bus_routes VALUES('11',2,16,'296', null);
-INSERT INTO bus_routes VALUES('11',2,17,'294', null);
-INSERT INTO bus_routes VALUES('11',2,18,'5882', null);
-INSERT INTO bus_routes VALUES('11',2,19,'4008', null);
-INSERT INTO bus_routes VALUES('11',2,20,'4006', null);
-INSERT INTO bus_routes VALUES('11',2,21,'4004', null);
-INSERT INTO bus_routes VALUES('11',2,22,'4002', null);
-INSERT INTO bus_routes VALUES('11',2,23,'4000', null);
-INSERT INTO bus_routes VALUES('11',2,24,'3998', null);
-INSERT INTO bus_routes VALUES('11',2,25,'3682', null);
-INSERT INTO bus_routes VALUES('11',2,26,'4293', null);
-INSERT INTO bus_routes VALUES('110',1,1,'3761', null);
-INSERT INTO bus_routes VALUES('110',1,2,'685', null);
-INSERT INTO bus_routes VALUES('110',1,3,'756', null);
-INSERT INTO bus_routes VALUES('110',1,4,'1078', null);
-INSERT INTO bus_routes VALUES('110',1,5,'3063', null);
-INSERT INTO bus_routes VALUES('110',1,6,'3065', null);
-INSERT INTO bus_routes VALUES('110',1,7,'3067', null);
-INSERT INTO bus_routes VALUES('110',1,8,'958', null);
-INSERT INTO bus_routes VALUES('110',1,9,'960', null);
-INSERT INTO bus_routes VALUES('110',1,10,'962', null);
-INSERT INTO bus_routes VALUES('110',1,11,'3069', null);
-INSERT INTO bus_routes VALUES('110',1,12,'3071', null);
-INSERT INTO bus_routes VALUES('110',1,13,'3073', null);
-INSERT INTO bus_routes VALUES('110',1,14,'4473', null);
-INSERT INTO bus_routes VALUES('110',1,15,'3076', null);
-INSERT INTO bus_routes VALUES('110',1,16,'3077', null);
-INSERT INTO bus_routes VALUES('110',1,17,'3079', null);
-INSERT INTO bus_routes VALUES('110',1,18,'3081', null);
-INSERT INTO bus_routes VALUES('110',1,19,'3082', null);
-INSERT INTO bus_routes VALUES('110',1,20,'3084', null);
-INSERT INTO bus_routes VALUES('110',1,21,'3086', null);
-INSERT INTO bus_routes VALUES('110',2,1,'3086', null);
-INSERT INTO bus_routes VALUES('110',2,2,'3085', null);
-INSERT INTO bus_routes VALUES('110',2,3,'3083', null);
-INSERT INTO bus_routes VALUES('110',2,4,'3087', null);
-INSERT INTO bus_routes VALUES('110',2,5,'3088', null);
-INSERT INTO bus_routes VALUES('110',2,6,'3089', null);
-INSERT INTO bus_routes VALUES('110',2,7,'3090', null);
-INSERT INTO bus_routes VALUES('110',2,8,'3080', null);
-INSERT INTO bus_routes VALUES('110',2,9,'3078', null);
-INSERT INTO bus_routes VALUES('110',2,10,'3735', null);
-INSERT INTO bus_routes VALUES('110',2,11,'3091', null);
-INSERT INTO bus_routes VALUES('110',2,12,'3074', null);
-INSERT INTO bus_routes VALUES('110',2,13,'3072', null);
-INSERT INTO bus_routes VALUES('110',2,14,'3070', null);
-INSERT INTO bus_routes VALUES('110',2,15,'965', null);
-INSERT INTO bus_routes VALUES('110',2,16,'963', null);
-INSERT INTO bus_routes VALUES('110',2,17,'961', null);
-INSERT INTO bus_routes VALUES('110',2,18,'959', null);
-INSERT INTO bus_routes VALUES('110',2,19,'3068', null);
-INSERT INTO bus_routes VALUES('110',2,20,'3066', null);
-INSERT INTO bus_routes VALUES('110',2,21,'3064', null);
-INSERT INTO bus_routes VALUES('110',2,22,'3093', null);
-INSERT INTO bus_routes VALUES('110',2,23,'3092', null);
-INSERT INTO bus_routes VALUES('110',2,24,'757', null);
-INSERT INTO bus_routes VALUES('110',2,25,'5146', null);
-INSERT INTO bus_routes VALUES('110',2,26,'684', null);
-INSERT INTO bus_routes VALUES('110',2,27,'3761', null);
-INSERT INTO bus_routes VALUES('111',1,1,'1000', null);
-INSERT INTO bus_routes VALUES('111',1,2,'2059', null);
-INSERT INTO bus_routes VALUES('111',1,3,'2091', null);
-INSERT INTO bus_routes VALUES('111',1,4,'2184', null);
-INSERT INTO bus_routes VALUES('111',1,5,'1111', null);
-INSERT INTO bus_routes VALUES('111',1,6,'1112', null);
-INSERT INTO bus_routes VALUES('111',1,7,'1113', null);
-INSERT INTO bus_routes VALUES('111',1,8,'1114', null);
-INSERT INTO bus_routes VALUES('111',1,9,'1098', null);
-INSERT INTO bus_routes VALUES('111',1,10,'5437', null);
-INSERT INTO bus_routes VALUES('111',1,11,'3096', null);
-INSERT INTO bus_routes VALUES('111',1,12,'2930', null);
-INSERT INTO bus_routes VALUES('111',1,13,'2931', null);
-INSERT INTO bus_routes VALUES('111',1,14,'3099', null);
-INSERT INTO bus_routes VALUES('111',1,15,'3100', null);
-INSERT INTO bus_routes VALUES('111',1,16,'2937', null);
-INSERT INTO bus_routes VALUES('111',2,1,'2937', null);
-INSERT INTO bus_routes VALUES('111',2,2,'2938', null);
-INSERT INTO bus_routes VALUES('111',2,3,'2939', null);
-INSERT INTO bus_routes VALUES('111',2,4,'2932', null);
-INSERT INTO bus_routes VALUES('111',2,5,'2940', null);
-INSERT INTO bus_routes VALUES('111',2,6,'3097', null);
-INSERT INTO bus_routes VALUES('111',2,7,'1096', null);
-INSERT INTO bus_routes VALUES('111',2,8,'1097', null);
-INSERT INTO bus_routes VALUES('111',2,9,'1099', null);
-INSERT INTO bus_routes VALUES('111',2,10,'1100', null);
-INSERT INTO bus_routes VALUES('111',2,11,'1101', null);
-INSERT INTO bus_routes VALUES('111',2,12,'1102', null);
-INSERT INTO bus_routes VALUES('111',2,13,'2094', null);
-INSERT INTO bus_routes VALUES('111',2,14,'2061', null);
-INSERT INTO bus_routes VALUES('111',2,15,'1002', null);
-INSERT INTO bus_routes VALUES('111',2,16,'3576', null);
-INSERT INTO bus_routes VALUES('111',2,17,'1000', null);
-INSERT INTO bus_routes VALUES('112',1,1,'24', null);
-INSERT INTO bus_routes VALUES('112',1,2,'4910', null);
-INSERT INTO bus_routes VALUES('112',1,3,'478', null);
-INSERT INTO bus_routes VALUES('112',1,4,'476', null);
-INSERT INTO bus_routes VALUES('112',1,5,'4911', null);
-INSERT INTO bus_routes VALUES('112',1,6,'3582', null);
-INSERT INTO bus_routes VALUES('112',1,7,'4913', null);
-INSERT INTO bus_routes VALUES('112',1,8,'3584', null);
-INSERT INTO bus_routes VALUES('112',1,9,'3586', null);
-INSERT INTO bus_routes VALUES('112',1,10,'3588', null);
-INSERT INTO bus_routes VALUES('112',1,11,'4885', null);
-INSERT INTO bus_routes VALUES('112',1,12,'5022', null);
-INSERT INTO bus_routes VALUES('112',1,13,'405', null);
-INSERT INTO bus_routes VALUES('112',1,14,'4915', null);
-INSERT INTO bus_routes VALUES('112',1,15,'4916', null);
-INSERT INTO bus_routes VALUES('112',1,16,'3819', null);
-INSERT INTO bus_routes VALUES('112',1,17,'4920', null);
-INSERT INTO bus_routes VALUES('112',1,18,'1314', null);
-INSERT INTO bus_routes VALUES('112',1,19,'4921', null);
-INSERT INTO bus_routes VALUES('112',1,20,'1312', null);
-INSERT INTO bus_routes VALUES('112',1,21,'4924', null);
-INSERT INTO bus_routes VALUES('112',1,22,'1310', null);
-INSERT INTO bus_routes VALUES('112',1,23,'1307', null);
-INSERT INTO bus_routes VALUES('112',1,24,'2974', null);
-INSERT INTO bus_routes VALUES('112',1,25,'1303', null);
-INSERT INTO bus_routes VALUES('112',1,26,'1301', null);
-INSERT INTO bus_routes VALUES('112',1,27,'3636', null);
-INSERT INTO bus_routes VALUES('112',1,28,'5390', null);
-INSERT INTO bus_routes VALUES('112',1,29,'2969', null);
-INSERT INTO bus_routes VALUES('112',2,1,'2969', null);
-INSERT INTO bus_routes VALUES('112',2,2,'3902', null);
-INSERT INTO bus_routes VALUES('112',2,3,'5331', null);
-INSERT INTO bus_routes VALUES('112',2,4,'1302', null);
-INSERT INTO bus_routes VALUES('112',2,5,'3028', null);
-INSERT INTO bus_routes VALUES('112',2,6,'1306', null);
-INSERT INTO bus_routes VALUES('112',2,7,'1308', null);
-INSERT INTO bus_routes VALUES('112',2,8,'1309', null);
-INSERT INTO bus_routes VALUES('112',2,9,'1311', null);
-INSERT INTO bus_routes VALUES('112',2,10,'4922', null);
-INSERT INTO bus_routes VALUES('112',2,11,'1313', null);
-INSERT INTO bus_routes VALUES('112',2,12,'4923', null);
-INSERT INTO bus_routes VALUES('112',2,13,'3820', null);
-INSERT INTO bus_routes VALUES('112',2,14,'4917', null);
-INSERT INTO bus_routes VALUES('112',2,15,'5097', null);
-INSERT INTO bus_routes VALUES('112',2,16,'406', null);
-INSERT INTO bus_routes VALUES('112',2,17,'5023', null);
-INSERT INTO bus_routes VALUES('112',2,18,'4886', null);
-INSERT INTO bus_routes VALUES('112',2,19,'4902', null);
-INSERT INTO bus_routes VALUES('112',2,20,'3587', null);
-INSERT INTO bus_routes VALUES('112',2,21,'3585', null);
-INSERT INTO bus_routes VALUES('112',2,22,'4914', null);
-INSERT INTO bus_routes VALUES('112',2,23,'3583', null);
-INSERT INTO bus_routes VALUES('112',2,24,'4912', null);
-INSERT INTO bus_routes VALUES('112',2,25,'475', null);
-INSERT INTO bus_routes VALUES('112',2,26,'477', null);
-INSERT INTO bus_routes VALUES('112',2,27,'24', null);
-INSERT INTO bus_routes VALUES('113',1,1,'4324', null);
-INSERT INTO bus_routes VALUES('113',1,2,'3368', null);
-INSERT INTO bus_routes VALUES('113',1,3,'4975', null);
-INSERT INTO bus_routes VALUES('113',1,4,'5860', null);
-INSERT INTO bus_routes VALUES('113',1,5,'4325', null);
-INSERT INTO bus_routes VALUES('113',1,6,'1980', null);
-INSERT INTO bus_routes VALUES('113',1,7,'5540', null);
-INSERT INTO bus_routes VALUES('113',1,8,'5541', null);
-INSERT INTO bus_routes VALUES('113',1,9,'1984', null);
-INSERT INTO bus_routes VALUES('113',1,10,'3317', null);
-INSERT INTO bus_routes VALUES('113',1,11,'5242', null);
-INSERT INTO bus_routes VALUES('113',1,12,'833', null);
-INSERT INTO bus_routes VALUES('113',1,13,'1263', null);
-INSERT INTO bus_routes VALUES('113',1,14,'3102', null);
-INSERT INTO bus_routes VALUES('113',1,15,'3103', null);
-INSERT INTO bus_routes VALUES('113',1,16,'3078', null);
-INSERT INTO bus_routes VALUES('113',1,17,'3735', null);
-INSERT INTO bus_routes VALUES('113',1,18,'3091', null);
-INSERT INTO bus_routes VALUES('113',1,19,'3074', null);
-INSERT INTO bus_routes VALUES('113',1,20,'3072', null);
-INSERT INTO bus_routes VALUES('113',1,21,'3070', null);
-INSERT INTO bus_routes VALUES('113',1,22,'966', null);
-INSERT INTO bus_routes VALUES('113',1,23,'3105', null);
-INSERT INTO bus_routes VALUES('113',1,24,'5621', null);
-INSERT INTO bus_routes VALUES('113',1,25,'2332', null);
-INSERT INTO bus_routes VALUES('113',1,26,'2334', null);
-INSERT INTO bus_routes VALUES('113',1,27,'2336', null);
-INSERT INTO bus_routes VALUES('113',1,28,'1199', null);
-INSERT INTO bus_routes VALUES('113',2,1,'1199', null);
-INSERT INTO bus_routes VALUES('113',2,2,'2337', null);
-INSERT INTO bus_routes VALUES('113',2,3,'2335', null);
-INSERT INTO bus_routes VALUES('113',2,4,'4454', null);
-INSERT INTO bus_routes VALUES('113',2,5,'4455', null);
-INSERT INTO bus_routes VALUES('113',2,6,'971', null);
-INSERT INTO bus_routes VALUES('113',2,7,'969', null);
-INSERT INTO bus_routes VALUES('113',2,8,'967', null);
-INSERT INTO bus_routes VALUES('113',2,9,'3069', null);
-INSERT INTO bus_routes VALUES('113',2,10,'3071', null);
-INSERT INTO bus_routes VALUES('113',2,11,'3073', null);
-INSERT INTO bus_routes VALUES('113',2,12,'4473', null);
-INSERT INTO bus_routes VALUES('113',2,13,'3076', null);
-INSERT INTO bus_routes VALUES('113',2,14,'3077', null);
-INSERT INTO bus_routes VALUES('113',2,15,'3104', null);
-INSERT INTO bus_routes VALUES('113',2,16,'3101', null);
-INSERT INTO bus_routes VALUES('113',2,17,'1262', null);
-INSERT INTO bus_routes VALUES('113',2,18,'1988', null);
-INSERT INTO bus_routes VALUES('113',2,19,'5241', null);
-INSERT INTO bus_routes VALUES('113',2,20,'5243', null);
-INSERT INTO bus_routes VALUES('113',2,21,'1983', null);
-INSERT INTO bus_routes VALUES('113',2,22,'1981', null);
-INSERT INTO bus_routes VALUES('113',2,23,'1979', null);
-INSERT INTO bus_routes VALUES('113',2,24,'3371', null);
-INSERT INTO bus_routes VALUES('113',2,25,'4976', null);
-INSERT INTO bus_routes VALUES('113',2,26,'4323', null);
-INSERT INTO bus_routes VALUES('113',2,27,'5566', null);
-INSERT INTO bus_routes VALUES('113',2,28,'4324', null);
-INSERT INTO bus_routes VALUES('114',1,1,'4246', null);
-INSERT INTO bus_routes VALUES('114',1,2,'2123', null);
-INSERT INTO bus_routes VALUES('114',1,3,'3500', null);
-INSERT INTO bus_routes VALUES('114',1,4,'3108', null);
-INSERT INTO bus_routes VALUES('114',1,5,'3563', null);
-INSERT INTO bus_routes VALUES('114',1,6,'3110', null);
-INSERT INTO bus_routes VALUES('114',1,7,'3111', null);
-INSERT INTO bus_routes VALUES('114',1,8,'3113', null);
-INSERT INTO bus_routes VALUES('114',1,9,'3116', null);
-INSERT INTO bus_routes VALUES('114',1,10,'4434', null);
-INSERT INTO bus_routes VALUES('114',1,11,'4818', null);
-INSERT INTO bus_routes VALUES('114',1,12,'3119', null);
-INSERT INTO bus_routes VALUES('114',1,13,'5317', null);
-INSERT INTO bus_routes VALUES('114',1,14,'1289', null);
-INSERT INTO bus_routes VALUES('114',1,15,'1292', null);
-INSERT INTO bus_routes VALUES('114',1,16,'1294', null);
-INSERT INTO bus_routes VALUES('114',1,17,'1296', null);
-INSERT INTO bus_routes VALUES('114',1,18,'4953', null);
-INSERT INTO bus_routes VALUES('114',1,19,'4955', null);
-INSERT INTO bus_routes VALUES('114',1,20,'4956', null);
-INSERT INTO bus_routes VALUES('114',1,21,'5331', null);
-INSERT INTO bus_routes VALUES('114',1,22,'1302', null);
-INSERT INTO bus_routes VALUES('114',1,23,'3121', null);
-INSERT INTO bus_routes VALUES('114',1,24,'3122', null);
-INSERT INTO bus_routes VALUES('114',1,25,'3537', null);
-INSERT INTO bus_routes VALUES('114',1,26,'4376', null);
-INSERT INTO bus_routes VALUES('114',1,27,'4378', null);
-INSERT INTO bus_routes VALUES('114',1,28,'4380', null);
-INSERT INTO bus_routes VALUES('114',1,29,'3636', null);
-INSERT INTO bus_routes VALUES('114',1,30,'5390', null);
-INSERT INTO bus_routes VALUES('114',1,31,'2969', null);
-INSERT INTO bus_routes VALUES('114',2,1,'2969', null);
-INSERT INTO bus_routes VALUES('114',2,2,'4379', null);
-INSERT INTO bus_routes VALUES('114',2,3,'4377', null);
-INSERT INTO bus_routes VALUES('114',2,4,'4375', null);
-INSERT INTO bus_routes VALUES('114',2,5,'2971', null);
-INSERT INTO bus_routes VALUES('114',2,6,'2972', null);
-INSERT INTO bus_routes VALUES('114',2,7,'2973', null);
-INSERT INTO bus_routes VALUES('114',2,8,'2974', null);
-INSERT INTO bus_routes VALUES('114',2,9,'1303', null);
-INSERT INTO bus_routes VALUES('114',2,10,'4957', null);
-INSERT INTO bus_routes VALUES('114',2,11,'4958', null);
-INSERT INTO bus_routes VALUES('114',2,12,'4954', null);
-INSERT INTO bus_routes VALUES('114',2,13,'1297', null);
-INSERT INTO bus_routes VALUES('114',2,14,'1295', null);
-INSERT INTO bus_routes VALUES('114',2,15,'1293', null);
-INSERT INTO bus_routes VALUES('114',2,16,'5348', null);
-INSERT INTO bus_routes VALUES('114',2,17,'4435', null);
-INSERT INTO bus_routes VALUES('114',2,18,'3115', null);
-INSERT INTO bus_routes VALUES('114',2,19,'3114', null);
-INSERT INTO bus_routes VALUES('114',2,20,'3112', null);
-INSERT INTO bus_routes VALUES('114',2,21,'4879', null);
-INSERT INTO bus_routes VALUES('114',2,22,'4878', null);
-INSERT INTO bus_routes VALUES('114',2,23,'229', null);
-INSERT INTO bus_routes VALUES('114',2,24,'3125', null);
-INSERT INTO bus_routes VALUES('114',2,25,'1283', null);
-INSERT INTO bus_routes VALUES('114',2,26,'4770', null);
-INSERT INTO bus_routes VALUES('114',2,27,'4246', null);
-INSERT INTO bus_routes VALUES('115',1,1,'4247', null);
-INSERT INTO bus_routes VALUES('115',1,2,'1284', null);
-INSERT INTO bus_routes VALUES('115',1,3,'3563', null);
-INSERT INTO bus_routes VALUES('115',1,4,'5317', null);
-INSERT INTO bus_routes VALUES('115',1,5,'1289', null);
-INSERT INTO bus_routes VALUES('115',1,6,'1292', null);
-INSERT INTO bus_routes VALUES('115',1,7,'1294', null);
-INSERT INTO bus_routes VALUES('115',1,8,'1296', null);
-INSERT INTO bus_routes VALUES('115',1,9,'1298', null);
-INSERT INTO bus_routes VALUES('115',1,10,'5331', null);
-INSERT INTO bus_routes VALUES('115',1,11,'1302', null);
-INSERT INTO bus_routes VALUES('115',1,12,'3028', null);
-INSERT INTO bus_routes VALUES('115',1,13,'1306', null);
-INSERT INTO bus_routes VALUES('115',1,14,'1308', null);
-INSERT INTO bus_routes VALUES('115',1,15,'1309', null);
-INSERT INTO bus_routes VALUES('115',1,16,'1311', null);
-INSERT INTO bus_routes VALUES('115',1,17,'4922', null);
-INSERT INTO bus_routes VALUES('115',1,18,'1313', null);
-INSERT INTO bus_routes VALUES('115',1,19,'1315', null);
-INSERT INTO bus_routes VALUES('115',1,20,'1317', null);
-INSERT INTO bus_routes VALUES('115',1,21,'5649', null);
-INSERT INTO bus_routes VALUES('115',1,22,'1321', null);
-INSERT INTO bus_routes VALUES('115',1,23,'1323', null);
-INSERT INTO bus_routes VALUES('115',2,1,'1323', null);
-INSERT INTO bus_routes VALUES('115',2,2,'1322', null);
-INSERT INTO bus_routes VALUES('115',2,3,'1319', null);
-INSERT INTO bus_routes VALUES('115',2,4,'4659', null);
-INSERT INTO bus_routes VALUES('115',2,5,'1316', null);
-INSERT INTO bus_routes VALUES('115',2,6,'1314', null);
-INSERT INTO bus_routes VALUES('115',2,7,'4921', null);
-INSERT INTO bus_routes VALUES('115',2,8,'1312', null);
-INSERT INTO bus_routes VALUES('115',2,9,'4924', null);
-INSERT INTO bus_routes VALUES('115',2,10,'1310', null);
-INSERT INTO bus_routes VALUES('115',2,11,'1307', null);
-INSERT INTO bus_routes VALUES('115',2,12,'2974', null);
-INSERT INTO bus_routes VALUES('115',2,13,'1303', null);
-INSERT INTO bus_routes VALUES('115',2,14,'1301', null);
-INSERT INTO bus_routes VALUES('115',2,15,'1299', null);
-INSERT INTO bus_routes VALUES('115',2,16,'1297', null);
-INSERT INTO bus_routes VALUES('115',2,17,'1295', null);
-INSERT INTO bus_routes VALUES('115',2,18,'1293', null);
-INSERT INTO bus_routes VALUES('115',2,19,'1185', null);
-INSERT INTO bus_routes VALUES('115',2,20,'1291', null);
-INSERT INTO bus_routes VALUES('115',2,21,'3120', null);
-INSERT INTO bus_routes VALUES('115',2,22,'1287', null);
-INSERT INTO bus_routes VALUES('115',2,23,'1285', null);
-INSERT INTO bus_routes VALUES('115',2,24,'1283', null);
-INSERT INTO bus_routes VALUES('115',2,25,'4770', null);
-INSERT INTO bus_routes VALUES('115',2,26,'4247', null);
-INSERT INTO bus_routes VALUES('116',1,1,'3126', null);
-INSERT INTO bus_routes VALUES('116',1,2,'324', null);
-INSERT INTO bus_routes VALUES('116',1,3,'326', null);
-INSERT INTO bus_routes VALUES('116',1,4,'4669', null);
-INSERT INTO bus_routes VALUES('116',1,5,'327', null);
-INSERT INTO bus_routes VALUES('116',1,6,'918', null);
-INSERT INTO bus_routes VALUES('116',1,7,'3129', null);
-INSERT INTO bus_routes VALUES('116',1,8,'3131', null);
-INSERT INTO bus_routes VALUES('116',1,9,'5079', null);
-INSERT INTO bus_routes VALUES('116',1,10,'3135', null);
-INSERT INTO bus_routes VALUES('116',1,11,'3929', null);
-INSERT INTO bus_routes VALUES('116',1,12,'3986', null);
-INSERT INTO bus_routes VALUES('116',1,13,'3988', null);
-INSERT INTO bus_routes VALUES('116',1,14,'3990', null);
-INSERT INTO bus_routes VALUES('116',1,15,'3992', null);
-INSERT INTO bus_routes VALUES('116',1,16,'3994', null);
-INSERT INTO bus_routes VALUES('116',1,17,'3181', null);
-INSERT INTO bus_routes VALUES('116',1,18,'3180', null);
-INSERT INTO bus_routes VALUES('116',1,19,'3178', null);
-INSERT INTO bus_routes VALUES('116',1,20,'3139', null);
-INSERT INTO bus_routes VALUES('116',1,21,'3141', null);
-INSERT INTO bus_routes VALUES('116',1,22,'1963', null);
-INSERT INTO bus_routes VALUES('116',1,23,'1957', null);
-INSERT INTO bus_routes VALUES('116',1,24,'2824', null);
-INSERT INTO bus_routes VALUES('116',1,25,'4624', null);
-INSERT INTO bus_routes VALUES('116',1,26,'2828', null);
-INSERT INTO bus_routes VALUES('116',1,27,'2830', null);
-INSERT INTO bus_routes VALUES('116',1,28,'2832', null);
-INSERT INTO bus_routes VALUES('116',1,29,'2838', null);
-INSERT INTO bus_routes VALUES('116',1,30,'5217', null);
-INSERT INTO bus_routes VALUES('116',1,31,'4880', null);
-INSERT INTO bus_routes VALUES('116',1,32,'2836', null);
-INSERT INTO bus_routes VALUES('116',1,33,'2797', null);
-INSERT INTO bus_routes VALUES('116',1,34,'2799', null);
-INSERT INTO bus_routes VALUES('116',1,35,'2803', null);
-INSERT INTO bus_routes VALUES('116',1,36,'3596', null);
-INSERT INTO bus_routes VALUES('116',1,37,'3144', null);
-INSERT INTO bus_routes VALUES('116',1,38,'3597', null);
-INSERT INTO bus_routes VALUES('116',1,39,'3598', null);
-INSERT INTO bus_routes VALUES('116',1,40,'1144', null);
-INSERT INTO bus_routes VALUES('116',1,41,'1145', null);
-INSERT INTO bus_routes VALUES('116',1,42,'1189', null);
-INSERT INTO bus_routes VALUES('116',1,43,'1787', null);
-INSERT INTO bus_routes VALUES('116',1,44,'1789', null);
-INSERT INTO bus_routes VALUES('116',1,45,'3880', null);
-INSERT INTO bus_routes VALUES('116',2,1,'3880', null);
-INSERT INTO bus_routes VALUES('116',2,2,'1790', null);
-INSERT INTO bus_routes VALUES('116',2,3,'1788', null);
-INSERT INTO bus_routes VALUES('116',2,4,'1190', null);
-INSERT INTO bus_routes VALUES('116',2,5,'3878', null);
-INSERT INTO bus_routes VALUES('116',2,6,'1147', null);
-INSERT INTO bus_routes VALUES('116',2,7,'1148', null);
-INSERT INTO bus_routes VALUES('116',2,8,'3147', null);
-INSERT INTO bus_routes VALUES('116',2,9,'3148', null);
-INSERT INTO bus_routes VALUES('116',2,10,'3145', null);
-INSERT INTO bus_routes VALUES('116',2,11,'3599', null);
-INSERT INTO bus_routes VALUES('116',2,12,'3640', null);
-INSERT INTO bus_routes VALUES('116',2,13,'3630', null);
-INSERT INTO bus_routes VALUES('116',2,14,'2840', null);
-INSERT INTO bus_routes VALUES('116',2,15,'2841', null);
-INSERT INTO bus_routes VALUES('116',2,16,'2835', null);
-INSERT INTO bus_routes VALUES('116',2,17,'2833', null);
-INSERT INTO bus_routes VALUES('116',2,18,'2831', null);
-INSERT INTO bus_routes VALUES('116',2,19,'2829', null);
-INSERT INTO bus_routes VALUES('116',2,20,'4625', null);
-INSERT INTO bus_routes VALUES('116',2,21,'2825', null);
-INSERT INTO bus_routes VALUES('116',2,22,'2842', null);
-INSERT INTO bus_routes VALUES('116',2,23,'3176', null);
-INSERT INTO bus_routes VALUES('116',2,24,'3142', null);
-INSERT INTO bus_routes VALUES('116',2,25,'3140', null);
-INSERT INTO bus_routes VALUES('116',2,26,'3177', null);
-INSERT INTO bus_routes VALUES('116',2,27,'3179', null);
-INSERT INTO bus_routes VALUES('116',2,28,'5057', null);
-INSERT INTO bus_routes VALUES('116',2,29,'3995', null);
-INSERT INTO bus_routes VALUES('116',2,30,'3993', null);
-INSERT INTO bus_routes VALUES('116',2,31,'3991', null);
-INSERT INTO bus_routes VALUES('116',2,32,'3989', null);
-INSERT INTO bus_routes VALUES('116',2,33,'3987', null);
-INSERT INTO bus_routes VALUES('116',2,34,'3903', null);
-INSERT INTO bus_routes VALUES('116',2,35,'3136', null);
-INSERT INTO bus_routes VALUES('116',2,36,'3134', null);
-INSERT INTO bus_routes VALUES('116',2,37,'3132', null);
-INSERT INTO bus_routes VALUES('116',2,38,'5080', null);
-INSERT INTO bus_routes VALUES('116',2,39,'5078', null);
-INSERT INTO bus_routes VALUES('116',2,40,'919', null);
-INSERT INTO bus_routes VALUES('116',2,41,'328', null);
-INSERT INTO bus_routes VALUES('116',2,42,'380', null);
-INSERT INTO bus_routes VALUES('116',2,43,'381', null);
-INSERT INTO bus_routes VALUES('116',2,44,'325', null);
-INSERT INTO bus_routes VALUES('116',2,45,'3126', null);
-INSERT INTO bus_routes VALUES('118',1,1,'3126', null);
-INSERT INTO bus_routes VALUES('118',1,2,'324', null);
-INSERT INTO bus_routes VALUES('118',1,3,'326', null);
-INSERT INTO bus_routes VALUES('118',1,4,'4669', null);
-INSERT INTO bus_routes VALUES('118',1,5,'327', null);
-INSERT INTO bus_routes VALUES('118',1,6,'329', null);
-INSERT INTO bus_routes VALUES('118',1,7,'5624', null);
-INSERT INTO bus_routes VALUES('118',1,8,'4239', null);
-INSERT INTO bus_routes VALUES('118',1,9,'5560', null);
-INSERT INTO bus_routes VALUES('118',1,10,'3032', null);
-INSERT INTO bus_routes VALUES('118',1,11,'337', null);
-INSERT INTO bus_routes VALUES('118',1,12,'5601', null);
-INSERT INTO bus_routes VALUES('118',1,13,'3033', null);
-INSERT INTO bus_routes VALUES('118',1,14,'4609', null);
-INSERT INTO bus_routes VALUES('118',1,15,'3036', null);
-INSERT INTO bus_routes VALUES('118',1,16,'3038', null);
-INSERT INTO bus_routes VALUES('118',1,17,'3040', null);
-INSERT INTO bus_routes VALUES('118',1,18,'4595', null);
-INSERT INTO bus_routes VALUES('118',1,19,'2446', null);
-INSERT INTO bus_routes VALUES('118',1,20,'2448', null);
-INSERT INTO bus_routes VALUES('118',1,21,'2450', null);
-INSERT INTO bus_routes VALUES('118',1,22,'2452', null);
-INSERT INTO bus_routes VALUES('118',1,23,'2453', null);
-INSERT INTO bus_routes VALUES('118',1,24,'2456', null);
-INSERT INTO bus_routes VALUES('118',1,25,'3048', null);
-INSERT INTO bus_routes VALUES('118',1,26,'3050', null);
-INSERT INTO bus_routes VALUES('118',1,27,'4181', null);
-INSERT INTO bus_routes VALUES('118',1,28,'4183', null);
-INSERT INTO bus_routes VALUES('118',1,29,'4185', null);
-INSERT INTO bus_routes VALUES('118',1,30,'4187', null);
-INSERT INTO bus_routes VALUES('118',1,31,'4084', null);
-INSERT INTO bus_routes VALUES('118',1,32,'4092', null);
-INSERT INTO bus_routes VALUES('118',1,33,'2964', null);
-INSERT INTO bus_routes VALUES('118',1,34,'2965', null);
-INSERT INTO bus_routes VALUES('118',1,35,'649', null);
-INSERT INTO bus_routes VALUES('118',1,36,'4180', null);
-INSERT INTO bus_routes VALUES('118',2,1,'4180', null);
-INSERT INTO bus_routes VALUES('118',2,2,'562', null);
-INSERT INTO bus_routes VALUES('118',2,3,'1169', null);
-INSERT INTO bus_routes VALUES('118',2,4,'4090', null);
-INSERT INTO bus_routes VALUES('118',2,5,'4091', null);
-INSERT INTO bus_routes VALUES('118',2,6,'4188', null);
-INSERT INTO bus_routes VALUES('118',2,7,'4186', null);
-INSERT INTO bus_routes VALUES('118',2,8,'4184', null);
-INSERT INTO bus_routes VALUES('118',2,9,'4182', null);
-INSERT INTO bus_routes VALUES('118',2,10,'3051', null);
-INSERT INTO bus_routes VALUES('118',2,11,'5059', null);
-INSERT INTO bus_routes VALUES('118',2,12,'2457', null);
-INSERT INTO bus_routes VALUES('118',2,13,'2454', null);
-INSERT INTO bus_routes VALUES('118',2,14,'2455', null);
-INSERT INTO bus_routes VALUES('118',2,15,'2451', null);
-INSERT INTO bus_routes VALUES('118',2,16,'2449', null);
-INSERT INTO bus_routes VALUES('118',2,17,'2447', null);
-INSERT INTO bus_routes VALUES('118',2,18,'2445', null);
-INSERT INTO bus_routes VALUES('118',2,19,'3041', null);
-INSERT INTO bus_routes VALUES('118',2,20,'3039', null);
-INSERT INTO bus_routes VALUES('118',2,21,'3037', null);
-INSERT INTO bus_routes VALUES('118',2,22,'2470', null);
-INSERT INTO bus_routes VALUES('118',2,23,'3034', null);
-INSERT INTO bus_routes VALUES('118',2,24,'3060', null);
-INSERT INTO bus_routes VALUES('118',2,25,'3061', null);
-INSERT INTO bus_routes VALUES('118',2,26,'3062', null);
-INSERT INTO bus_routes VALUES('118',2,27,'334', null);
-INSERT INTO bus_routes VALUES('118',2,28,'5625', null);
-INSERT INTO bus_routes VALUES('118',2,29,'331', null);
-INSERT INTO bus_routes VALUES('118',2,30,'330', null);
-INSERT INTO bus_routes VALUES('118',2,31,'328', null);
-INSERT INTO bus_routes VALUES('118',2,32,'380', null);
-INSERT INTO bus_routes VALUES('118',2,33,'381', null);
-INSERT INTO bus_routes VALUES('118',2,34,'325', null);
-INSERT INTO bus_routes VALUES('118',2,35,'3126', null);
-INSERT INTO bus_routes VALUES('119',1,1,'2308', null);
-INSERT INTO bus_routes VALUES('119',1,2,'2309', null);
-INSERT INTO bus_routes VALUES('119',1,3,'84', null);
-INSERT INTO bus_routes VALUES('119',1,4,'320', null);
-INSERT INTO bus_routes VALUES('119',1,5,'322', null);
-INSERT INTO bus_routes VALUES('119',1,6,'324', null);
-INSERT INTO bus_routes VALUES('119',1,7,'326', null);
-INSERT INTO bus_routes VALUES('119',1,8,'4669', null);
-INSERT INTO bus_routes VALUES('119',1,9,'327', null);
-INSERT INTO bus_routes VALUES('119',1,10,'329', null);
-INSERT INTO bus_routes VALUES('119',1,11,'5624', null);
-INSERT INTO bus_routes VALUES('119',1,12,'4239', null);
-INSERT INTO bus_routes VALUES('119',1,13,'5560', null);
-INSERT INTO bus_routes VALUES('119',1,14,'3032', null);
-INSERT INTO bus_routes VALUES('119',1,15,'3156', null);
-INSERT INTO bus_routes VALUES('119',1,16,'3158', null);
-INSERT INTO bus_routes VALUES('119',1,17,'3160', null);
-INSERT INTO bus_routes VALUES('119',1,18,'3565', null);
-INSERT INTO bus_routes VALUES('119',1,19,'3163', null);
-INSERT INTO bus_routes VALUES('119',1,20,'3165', null);
-INSERT INTO bus_routes VALUES('119',1,21,'2553', null);
-INSERT INTO bus_routes VALUES('119',1,22,'2554', null);
-INSERT INTO bus_routes VALUES('119',1,23,'2262', null);
-INSERT INTO bus_routes VALUES('119',1,24,'3167', null);
-INSERT INTO bus_routes VALUES('119',1,25,'3169', null);
-INSERT INTO bus_routes VALUES('119',1,26,'4533', null);
-INSERT INTO bus_routes VALUES('119',1,27,'4535', null);
-INSERT INTO bus_routes VALUES('119',1,28,'4512', null);
-INSERT INTO bus_routes VALUES('119',2,1,'4512', null);
-INSERT INTO bus_routes VALUES('119',2,2,'5347', null);
-INSERT INTO bus_routes VALUES('119',2,3,'4536', null);
-INSERT INTO bus_routes VALUES('119',2,4,'4534', null);
-INSERT INTO bus_routes VALUES('119',2,5,'3170', null);
-INSERT INTO bus_routes VALUES('119',2,6,'3168', null);
-INSERT INTO bus_routes VALUES('119',2,7,'5094', null);
-INSERT INTO bus_routes VALUES('119',2,8,'5100', null);
-INSERT INTO bus_routes VALUES('119',2,9,'2555', null);
-INSERT INTO bus_routes VALUES('119',2,10,'639', null);
-INSERT INTO bus_routes VALUES('119',2,11,'4766', null);
-INSERT INTO bus_routes VALUES('119',2,12,'3166', null);
-INSERT INTO bus_routes VALUES('119',2,13,'3914', null);
-INSERT INTO bus_routes VALUES('119',2,14,'3915', null);
-INSERT INTO bus_routes VALUES('119',2,15,'3916', null);
-INSERT INTO bus_routes VALUES('119',2,16,'3917', null);
-INSERT INTO bus_routes VALUES('119',2,17,'3157', null);
-INSERT INTO bus_routes VALUES('119',2,18,'336', null);
-INSERT INTO bus_routes VALUES('119',2,19,'334', null);
-INSERT INTO bus_routes VALUES('119',2,20,'5625', null);
-INSERT INTO bus_routes VALUES('119',2,21,'331', null);
-INSERT INTO bus_routes VALUES('119',2,22,'330', null);
-INSERT INTO bus_routes VALUES('119',2,23,'328', null);
-INSERT INTO bus_routes VALUES('119',2,24,'380', null);
-INSERT INTO bus_routes VALUES('119',2,25,'381', null);
-INSERT INTO bus_routes VALUES('119',2,26,'325', null);
-INSERT INTO bus_routes VALUES('119',2,27,'323', null);
-INSERT INTO bus_routes VALUES('119',2,28,'321', null);
-INSERT INTO bus_routes VALUES('119',2,29,'85', null);
-INSERT INTO bus_routes VALUES('119',2,30,'2308', null);
-INSERT INTO bus_routes VALUES('12',1,1,'4541', null);
-INSERT INTO bus_routes VALUES('12',1,2,'803', null);
-INSERT INTO bus_routes VALUES('12',1,3,'2390', null);
-INSERT INTO bus_routes VALUES('12',1,4,'188', null);
-INSERT INTO bus_routes VALUES('12',1,5,'805', null);
-INSERT INTO bus_routes VALUES('12',1,6,'806', null);
-INSERT INTO bus_routes VALUES('12',1,7,'807', null);
-INSERT INTO bus_routes VALUES('12',1,8,'808', null);
-INSERT INTO bus_routes VALUES('12',1,9,'4642', null);
-INSERT INTO bus_routes VALUES('12',1,10,'809', null);
-INSERT INTO bus_routes VALUES('12',1,11,'810', null);
-INSERT INTO bus_routes VALUES('12',1,12,'532', null);
-INSERT INTO bus_routes VALUES('12',1,13,'793', null);
-INSERT INTO bus_routes VALUES('12',1,14,'791', null);
-INSERT INTO bus_routes VALUES('12',1,15,'789', null);
-INSERT INTO bus_routes VALUES('12',1,16,'786', null);
-INSERT INTO bus_routes VALUES('12',1,17,'811', null);
-INSERT INTO bus_routes VALUES('12',1,18,'3829', null);
-INSERT INTO bus_routes VALUES('12',1,19,'685', null);
-INSERT INTO bus_routes VALUES('12',1,20,'686', null);
-INSERT INTO bus_routes VALUES('12',1,21,'812', null);
-INSERT INTO bus_routes VALUES('12',1,22,'813', null);
-INSERT INTO bus_routes VALUES('12',1,23,'779', null);
-INSERT INTO bus_routes VALUES('12',2,1,'779', null);
-INSERT INTO bus_routes VALUES('12',2,2,'780', null);
-INSERT INTO bus_routes VALUES('12',2,3,'781', null);
-INSERT INTO bus_routes VALUES('12',2,4,'1428', null);
-INSERT INTO bus_routes VALUES('12',2,5,'782', null);
-INSERT INTO bus_routes VALUES('12',2,6,'784', null);
-INSERT INTO bus_routes VALUES('12',2,7,'5296', null);
-INSERT INTO bus_routes VALUES('12',2,8,'788', null);
-INSERT INTO bus_routes VALUES('12',2,9,'790', null);
-INSERT INTO bus_routes VALUES('12',2,10,'792', null);
-INSERT INTO bus_routes VALUES('12',2,11,'533', null);
-INSERT INTO bus_routes VALUES('12',2,12,'794', null);
-INSERT INTO bus_routes VALUES('12',2,13,'795', null);
-INSERT INTO bus_routes VALUES('12',2,14,'796', null);
-INSERT INTO bus_routes VALUES('12',2,15,'797', null);
-INSERT INTO bus_routes VALUES('12',2,16,'798', null);
-INSERT INTO bus_routes VALUES('12',2,17,'799', null);
-INSERT INTO bus_routes VALUES('12',2,18,'800', null);
-INSERT INTO bus_routes VALUES('12',2,19,'801', null);
-INSERT INTO bus_routes VALUES('12',2,20,'4541', null);
-INSERT INTO bus_routes VALUES('120',1,1,'5469', null);
-INSERT INTO bus_routes VALUES('120',1,2,'453', null);
-INSERT INTO bus_routes VALUES('120',1,3,'455', null);
-INSERT INTO bus_routes VALUES('120',1,4,'412', null);
-INSERT INTO bus_routes VALUES('120',1,5,'457', null);
-INSERT INTO bus_routes VALUES('120',1,6,'459', null);
-INSERT INTO bus_routes VALUES('120',1,7,'410', null);
-INSERT INTO bus_routes VALUES('120',1,8,'461', null);
-INSERT INTO bus_routes VALUES('120',1,9,'408', null);
-INSERT INTO bus_routes VALUES('120',1,10,'2062', null);
-INSERT INTO bus_routes VALUES('120',1,11,'383', null);
-INSERT INTO bus_routes VALUES('120',1,12,'385', null);
-INSERT INTO bus_routes VALUES('120',1,13,'387', null);
-INSERT INTO bus_routes VALUES('120',1,14,'389', null);
-INSERT INTO bus_routes VALUES('120',1,15,'391', null);
-INSERT INTO bus_routes VALUES('120',1,16,'393', null);
-INSERT INTO bus_routes VALUES('120',1,17,'395', null);
-INSERT INTO bus_routes VALUES('120',1,18,'397', null);
-INSERT INTO bus_routes VALUES('120',1,19,'4080', null);
-INSERT INTO bus_routes VALUES('120',1,20,'465', null);
-INSERT INTO bus_routes VALUES('120',1,21,'467', null);
-INSERT INTO bus_routes VALUES('120',1,22,'469', null);
-INSERT INTO bus_routes VALUES('120',1,23,'471', null);
-INSERT INTO bus_routes VALUES('120',1,24,'473', null);
-INSERT INTO bus_routes VALUES('120',1,25,'475', null);
-INSERT INTO bus_routes VALUES('120',1,26,'477', null);
-INSERT INTO bus_routes VALUES('120',1,27,'4599', null);
-INSERT INTO bus_routes VALUES('120',1,28,'479', null);
-INSERT INTO bus_routes VALUES('120',1,29,'480', null);
-INSERT INTO bus_routes VALUES('120',1,30,'481', null);
-INSERT INTO bus_routes VALUES('120',1,31,'483', null);
-INSERT INTO bus_routes VALUES('120',1,32,'485', null);
-INSERT INTO bus_routes VALUES('120',1,33,'487', null);
-INSERT INTO bus_routes VALUES('120',1,34,'488', null);
-INSERT INTO bus_routes VALUES('120',2,1,'488', null);
-INSERT INTO bus_routes VALUES('120',2,2,'2892', null);
-INSERT INTO bus_routes VALUES('120',2,3,'486', null);
-INSERT INTO bus_routes VALUES('120',2,4,'484', null);
-INSERT INTO bus_routes VALUES('120',2,5,'482', null);
-INSERT INTO bus_routes VALUES('120',2,6,'489', null);
-INSERT INTO bus_routes VALUES('120',2,7,'490', null);
-INSERT INTO bus_routes VALUES('120',2,8,'478', null);
-INSERT INTO bus_routes VALUES('120',2,9,'476', null);
-INSERT INTO bus_routes VALUES('120',2,10,'474', null);
-INSERT INTO bus_routes VALUES('120',2,11,'472', null);
-INSERT INTO bus_routes VALUES('120',2,12,'470', null);
-INSERT INTO bus_routes VALUES('120',2,13,'468', null);
-INSERT INTO bus_routes VALUES('120',2,14,'466', null);
-INSERT INTO bus_routes VALUES('120',2,15,'4081', null);
-INSERT INTO bus_routes VALUES('120',2,16,'398', null);
-INSERT INTO bus_routes VALUES('120',2,17,'396', null);
-INSERT INTO bus_routes VALUES('120',2,18,'394', null);
-INSERT INTO bus_routes VALUES('120',2,19,'392', null);
-INSERT INTO bus_routes VALUES('120',2,20,'390', null);
-INSERT INTO bus_routes VALUES('120',2,21,'388', null);
-INSERT INTO bus_routes VALUES('120',2,22,'386', null);
-INSERT INTO bus_routes VALUES('120',2,23,'384', null);
-INSERT INTO bus_routes VALUES('120',2,24,'464', null);
-INSERT INTO bus_routes VALUES('120',2,25,'409', null);
-INSERT INTO bus_routes VALUES('120',2,26,'462', null);
-INSERT INTO bus_routes VALUES('120',2,27,'411', null);
-INSERT INTO bus_routes VALUES('120',2,28,'460', null);
-INSERT INTO bus_routes VALUES('120',2,29,'458', null);
-INSERT INTO bus_routes VALUES('120',2,30,'413', null);
-INSERT INTO bus_routes VALUES('120',2,31,'456', null);
-INSERT INTO bus_routes VALUES('120',2,32,'5470', null);
-INSERT INTO bus_routes VALUES('120',2,33,'4179', null);
-INSERT INTO bus_routes VALUES('120',2,34,'5469', null);
-INSERT INTO bus_routes VALUES('121',1,1,'3190', null);
-INSERT INTO bus_routes VALUES('121',1,2,'2326', null);
-INSERT INTO bus_routes VALUES('121',1,3,'5789', null);
-INSERT INTO bus_routes VALUES('121',1,4,'636', null);
-INSERT INTO bus_routes VALUES('121',1,5,'3191', null);
-INSERT INTO bus_routes VALUES('121',1,6,'634', null);
-INSERT INTO bus_routes VALUES('121',1,7,'1480', null);
-INSERT INTO bus_routes VALUES('121',1,8,'1482', null);
-INSERT INTO bus_routes VALUES('121',1,9,'1484', null);
-INSERT INTO bus_routes VALUES('121',1,10,'658', null);
-INSERT INTO bus_routes VALUES('121',1,11,'660', null);
-INSERT INTO bus_routes VALUES('121',1,12,'662', null);
-INSERT INTO bus_routes VALUES('121',1,13,'3187', null);
-INSERT INTO bus_routes VALUES('121',1,14,'2463', null);
-INSERT INTO bus_routes VALUES('121',1,15,'2461', null);
-INSERT INTO bus_routes VALUES('121',1,16,'2459', null);
-INSERT INTO bus_routes VALUES('121',1,17,'2457', null);
-INSERT INTO bus_routes VALUES('121',1,18,'3186', null);
-INSERT INTO bus_routes VALUES('121',1,19,'3185', null);
-INSERT INTO bus_routes VALUES('121',1,20,'3183', null);
-INSERT INTO bus_routes VALUES('121',1,21,'3181', null);
-INSERT INTO bus_routes VALUES('121',1,22,'3180', null);
-INSERT INTO bus_routes VALUES('121',1,23,'3178', null);
-INSERT INTO bus_routes VALUES('121',1,24,'3139', null);
-INSERT INTO bus_routes VALUES('121',1,25,'3141', null);
-INSERT INTO bus_routes VALUES('121',1,26,'1963', null);
-INSERT INTO bus_routes VALUES('121',1,27,'3175', null);
-INSERT INTO bus_routes VALUES('121',1,28,'3173', null);
-INSERT INTO bus_routes VALUES('121',1,29,'5045', null);
-INSERT INTO bus_routes VALUES('121',1,30,'2870', null);
-INSERT INTO bus_routes VALUES('121',1,31,'2871', null);
-INSERT INTO bus_routes VALUES('121',1,32,'2872', null);
-INSERT INTO bus_routes VALUES('121',1,33,'3898', null);
-INSERT INTO bus_routes VALUES('121',2,1,'3898', null);
-INSERT INTO bus_routes VALUES('121',2,2,'2873', null);
-INSERT INTO bus_routes VALUES('121',2,3,'2874', null);
-INSERT INTO bus_routes VALUES('121',2,4,'2875', null);
-INSERT INTO bus_routes VALUES('121',2,5,'3172', null);
-INSERT INTO bus_routes VALUES('121',2,6,'3174', null);
-INSERT INTO bus_routes VALUES('121',2,7,'3176', null);
-INSERT INTO bus_routes VALUES('121',2,8,'3142', null);
-INSERT INTO bus_routes VALUES('121',2,9,'3140', null);
-INSERT INTO bus_routes VALUES('121',2,10,'3177', null);
-INSERT INTO bus_routes VALUES('121',2,11,'3179', null);
-INSERT INTO bus_routes VALUES('121',2,12,'5057', null);
-INSERT INTO bus_routes VALUES('121',2,13,'3182', null);
-INSERT INTO bus_routes VALUES('121',2,14,'3184', null);
-INSERT INTO bus_routes VALUES('121',2,15,'2453', null);
-INSERT INTO bus_routes VALUES('121',2,16,'2456', null);
-INSERT INTO bus_routes VALUES('121',2,17,'2458', null);
-INSERT INTO bus_routes VALUES('121',2,18,'2460', null);
-INSERT INTO bus_routes VALUES('121',2,19,'2462', null);
-INSERT INTO bus_routes VALUES('121',2,20,'667', null);
-INSERT INTO bus_routes VALUES('121',2,21,'663', null);
-INSERT INTO bus_routes VALUES('121',2,22,'661', null);
-INSERT INTO bus_routes VALUES('121',2,23,'659', null);
-INSERT INTO bus_routes VALUES('121',2,24,'2276', null);
-INSERT INTO bus_routes VALUES('121',2,25,'2274', null);
-INSERT INTO bus_routes VALUES('121',2,26,'2272', null);
-INSERT INTO bus_routes VALUES('121',2,27,'631', null);
-INSERT INTO bus_routes VALUES('121',2,28,'633', null);
-INSERT INTO bus_routes VALUES('121',2,29,'5180', null);
-INSERT INTO bus_routes VALUES('121',2,30,'635', null);
-INSERT INTO bus_routes VALUES('121',2,31,'5790', null);
-INSERT INTO bus_routes VALUES('121',2,32,'3190', null);
-INSERT INTO bus_routes VALUES('122',1,1,'4245', null);
-INSERT INTO bus_routes VALUES('122',1,2,'3908', null);
-INSERT INTO bus_routes VALUES('122',1,3,'5817', null);
-INSERT INTO bus_routes VALUES('122',1,4,'694', null);
-INSERT INTO bus_routes VALUES('122',1,5,'696', null);
-INSERT INTO bus_routes VALUES('122',1,6,'5466', null);
-INSERT INTO bus_routes VALUES('122',1,7,'699', null);
-INSERT INTO bus_routes VALUES('122',1,8,'701', null);
-INSERT INTO bus_routes VALUES('122',1,9,'3909', null);
-INSERT INTO bus_routes VALUES('122',1,10,'3910', null);
-INSERT INTO bus_routes VALUES('122',1,11,'225', null);
-INSERT INTO bus_routes VALUES('122',1,12,'4331', null);
-INSERT INTO bus_routes VALUES('122',1,13,'223', null);
-INSERT INTO bus_routes VALUES('122',1,14,'383', null);
-INSERT INTO bus_routes VALUES('122',1,15,'385', null);
-INSERT INTO bus_routes VALUES('122',1,16,'387', null);
-INSERT INTO bus_routes VALUES('122',1,17,'389', null);
-INSERT INTO bus_routes VALUES('122',1,18,'391', null);
-INSERT INTO bus_routes VALUES('122',1,19,'393', null);
-INSERT INTO bus_routes VALUES('122',1,20,'395', null);
-INSERT INTO bus_routes VALUES('122',1,21,'397', null);
-INSERT INTO bus_routes VALUES('122',1,22,'3582', null);
-INSERT INTO bus_routes VALUES('122',1,23,'4913', null);
-INSERT INTO bus_routes VALUES('122',1,24,'3584', null);
-INSERT INTO bus_routes VALUES('122',1,25,'3586', null);
-INSERT INTO bus_routes VALUES('122',1,26,'3588', null);
-INSERT INTO bus_routes VALUES('122',1,27,'4885', null);
-INSERT INTO bus_routes VALUES('122',1,28,'5022', null);
-INSERT INTO bus_routes VALUES('122',1,29,'405', null);
-INSERT INTO bus_routes VALUES('122',1,30,'5827', null);
-INSERT INTO bus_routes VALUES('122',2,1,'5827', null);
-INSERT INTO bus_routes VALUES('122',2,2,'5097', null);
-INSERT INTO bus_routes VALUES('122',2,3,'406', null);
-INSERT INTO bus_routes VALUES('122',2,4,'5023', null);
-INSERT INTO bus_routes VALUES('122',2,5,'4886', null);
-INSERT INTO bus_routes VALUES('122',2,6,'4902', null);
-INSERT INTO bus_routes VALUES('122',2,7,'3587', null);
-INSERT INTO bus_routes VALUES('122',2,8,'3585', null);
-INSERT INTO bus_routes VALUES('122',2,9,'4914', null);
-INSERT INTO bus_routes VALUES('122',2,10,'3583', null);
-INSERT INTO bus_routes VALUES('122',2,11,'398', null);
-INSERT INTO bus_routes VALUES('122',2,12,'396', null);
-INSERT INTO bus_routes VALUES('122',2,13,'394', null);
-INSERT INTO bus_routes VALUES('122',2,14,'392', null);
-INSERT INTO bus_routes VALUES('122',2,15,'390', null);
-INSERT INTO bus_routes VALUES('122',2,16,'388', null);
-INSERT INTO bus_routes VALUES('122',2,17,'386', null);
-INSERT INTO bus_routes VALUES('122',2,18,'384', null);
-INSERT INTO bus_routes VALUES('122',2,19,'222', null);
-INSERT INTO bus_routes VALUES('122',2,20,'224', null);
-INSERT INTO bus_routes VALUES('122',2,21,'3125', null);
-INSERT INTO bus_routes VALUES('122',2,22,'3911', null);
-INSERT INTO bus_routes VALUES('122',2,23,'700', null);
-INSERT INTO bus_routes VALUES('122',2,24,'698', null);
-INSERT INTO bus_routes VALUES('122',2,25,'276', null);
-INSERT INTO bus_routes VALUES('122',2,26,'695', null);
-INSERT INTO bus_routes VALUES('122',2,27,'709', null);
-INSERT INTO bus_routes VALUES('122',2,28,'2374', null);
-INSERT INTO bus_routes VALUES('122',2,29,'3684', null);
-INSERT INTO bus_routes VALUES('122',2,30,'4770', null);
-INSERT INTO bus_routes VALUES('122',2,31,'4245', null);
-INSERT INTO bus_routes VALUES('123',1,1,'1425', null);
-INSERT INTO bus_routes VALUES('123',1,2,'930', null);
-INSERT INTO bus_routes VALUES('123',1,3,'932', null);
-INSERT INTO bus_routes VALUES('123',1,4,'934', null);
-INSERT INTO bus_routes VALUES('123',1,5,'936', null);
-INSERT INTO bus_routes VALUES('123',1,6,'3192', null);
-INSERT INTO bus_routes VALUES('123',1,7,'5124', null);
-INSERT INTO bus_routes VALUES('123',1,8,'937', null);
-INSERT INTO bus_routes VALUES('123',1,9,'939', null);
-INSERT INTO bus_routes VALUES('123',1,10,'941', null);
-INSERT INTO bus_routes VALUES('123',1,11,'943', null);
-INSERT INTO bus_routes VALUES('123',1,12,'2839', null);
-INSERT INTO bus_routes VALUES('123',1,13,'4113', null);
-INSERT INTO bus_routes VALUES('123',1,14,'3193', null);
-INSERT INTO bus_routes VALUES('123',1,15,'3195', null);
-INSERT INTO bus_routes VALUES('123',1,16,'3197', null);
-INSERT INTO bus_routes VALUES('123',1,17,'4871', null);
-INSERT INTO bus_routes VALUES('123',1,18,'3198', null);
-INSERT INTO bus_routes VALUES('123',1,19,'4833', null);
-INSERT INTO bus_routes VALUES('123',1,20,'1796', null);
-INSERT INTO bus_routes VALUES('123',1,21,'1794', null);
-INSERT INTO bus_routes VALUES('123',1,22,'1440', null);
-INSERT INTO bus_routes VALUES('123',1,23,'1442', null);
-INSERT INTO bus_routes VALUES('123',1,24,'1444', null);
-INSERT INTO bus_routes VALUES('123',1,25,'1446', null);
-INSERT INTO bus_routes VALUES('123',1,26,'5085', null);
-INSERT INTO bus_routes VALUES('123',1,27,'4980', null);
-INSERT INTO bus_routes VALUES('123',1,28,'4981', null);
-INSERT INTO bus_routes VALUES('123',1,29,'5856', null);
-INSERT INTO bus_routes VALUES('123',1,30,'4982', null);
-INSERT INTO bus_routes VALUES('123',1,31,'3203', null);
-INSERT INTO bus_routes VALUES('123',1,32,'5072', null);
-INSERT INTO bus_routes VALUES('123',1,33,'3205', null);
-INSERT INTO bus_routes VALUES('123',1,34,'5074', null);
-INSERT INTO bus_routes VALUES('123',1,35,'4312', null);
-INSERT INTO bus_routes VALUES('123',1,36,'4739', null);
-INSERT INTO bus_routes VALUES('123',1,37,'4314', null);
-INSERT INTO bus_routes VALUES('123',2,1,'4314', null);
-INSERT INTO bus_routes VALUES('123',2,2,'4313', null);
-INSERT INTO bus_routes VALUES('123',2,3,'5073', null);
-INSERT INTO bus_routes VALUES('123',2,4,'3255', null);
-INSERT INTO bus_routes VALUES('123',2,5,'4984', null);
-INSERT INTO bus_routes VALUES('123',2,6,'3257', null);
-INSERT INTO bus_routes VALUES('123',2,7,'3753', null);
-INSERT INTO bus_routes VALUES('123',2,8,'4983', null);
-INSERT INTO bus_routes VALUES('123',2,9,'3752', null);
-INSERT INTO bus_routes VALUES('123',2,10,'1449', null);
-INSERT INTO bus_routes VALUES('123',2,11,'5086', null);
-INSERT INTO bus_routes VALUES('123',2,12,'1450', null);
-INSERT INTO bus_routes VALUES('123',2,13,'1445', null);
-INSERT INTO bus_routes VALUES('123',2,14,'1443', null);
-INSERT INTO bus_routes VALUES('123',2,15,'1441', null);
-INSERT INTO bus_routes VALUES('123',2,16,'1793', null);
-INSERT INTO bus_routes VALUES('123',2,17,'1795', null);
-INSERT INTO bus_routes VALUES('123',2,18,'4834', null);
-INSERT INTO bus_routes VALUES('123',2,19,'3199', null);
-INSERT INTO bus_routes VALUES('123',2,20,'5371', null);
-INSERT INTO bus_routes VALUES('123',2,21,'3200', null);
-INSERT INTO bus_routes VALUES('123',2,22,'3196', null);
-INSERT INTO bus_routes VALUES('123',2,23,'3194', null);
-INSERT INTO bus_routes VALUES('123',2,24,'4114', null);
-INSERT INTO bus_routes VALUES('123',2,25,'945', null);
-INSERT INTO bus_routes VALUES('123',2,26,'944', null);
-INSERT INTO bus_routes VALUES('123',2,27,'942', null);
-INSERT INTO bus_routes VALUES('123',2,28,'940', null);
-INSERT INTO bus_routes VALUES('123',2,29,'938', null);
-INSERT INTO bus_routes VALUES('123',2,30,'5125', null);
-INSERT INTO bus_routes VALUES('123',2,31,'946', null);
-INSERT INTO bus_routes VALUES('123',2,32,'935', null);
-INSERT INTO bus_routes VALUES('123',2,33,'933', null);
-INSERT INTO bus_routes VALUES('123',2,34,'931', null);
-INSERT INTO bus_routes VALUES('123',2,35,'1425', null);
-INSERT INTO bus_routes VALUES('124',1,1,'4966', null);
-INSERT INTO bus_routes VALUES('124',1,2,'1568', null);
-INSERT INTO bus_routes VALUES('124',1,3,'1569', null);
-INSERT INTO bus_routes VALUES('124',1,4,'1571', null);
-INSERT INTO bus_routes VALUES('124',1,5,'2647', null);
-INSERT INTO bus_routes VALUES('124',1,6,'4083', null);
-INSERT INTO bus_routes VALUES('124',1,7,'4085', null);
-INSERT INTO bus_routes VALUES('124',1,8,'2651', null);
-INSERT INTO bus_routes VALUES('124',1,9,'1533', null);
-INSERT INTO bus_routes VALUES('124',1,10,'1531', null);
-INSERT INTO bus_routes VALUES('124',1,11,'1486', null);
-INSERT INTO bus_routes VALUES('124',1,12,'1487', null);
-INSERT INTO bus_routes VALUES('124',1,13,'3826', null);
-INSERT INTO bus_routes VALUES('124',1,14,'1489', null);
-INSERT INTO bus_routes VALUES('124',1,15,'1602', null);
-INSERT INTO bus_routes VALUES('124',1,16,'3220', null);
-INSERT INTO bus_routes VALUES('124',1,17,'3222', null);
-INSERT INTO bus_routes VALUES('124',1,18,'3223', null);
-INSERT INTO bus_routes VALUES('124',1,19,'2662', null);
-INSERT INTO bus_routes VALUES('124',1,20,'2664', null);
-INSERT INTO bus_routes VALUES('124',1,21,'2666', null);
-INSERT INTO bus_routes VALUES('124',1,22,'2668', null);
-INSERT INTO bus_routes VALUES('124',1,23,'3224', null);
-INSERT INTO bus_routes VALUES('124',1,24,'3226', null);
-INSERT INTO bus_routes VALUES('124',1,25,'3228', null);
-INSERT INTO bus_routes VALUES('124',1,26,'3229', null);
-INSERT INTO bus_routes VALUES('124',1,27,'1612', null);
-INSERT INTO bus_routes VALUES('124',1,28,'4741', null);
-INSERT INTO bus_routes VALUES('124',1,29,'1615', null);
-INSERT INTO bus_routes VALUES('124',1,30,'1617', null);
-INSERT INTO bus_routes VALUES('124',1,31,'1360', null);
-INSERT INTO bus_routes VALUES('124',1,32,'1361', null);
-INSERT INTO bus_routes VALUES('124',1,33,'1565', null);
-INSERT INTO bus_routes VALUES('124',2,1,'1565', null);
-INSERT INTO bus_routes VALUES('124',2,2,'3230', null);
-INSERT INTO bus_routes VALUES('124',2,3,'3567', null);
-INSERT INTO bus_routes VALUES('124',2,4,'3231', null);
-INSERT INTO bus_routes VALUES('124',2,5,'3232', null);
-INSERT INTO bus_routes VALUES('124',2,6,'3227', null);
-INSERT INTO bus_routes VALUES('124',2,7,'3225', null);
-INSERT INTO bus_routes VALUES('124',2,8,'2669', null);
-INSERT INTO bus_routes VALUES('124',2,9,'2667', null);
-INSERT INTO bus_routes VALUES('124',2,10,'2663', null);
-INSERT INTO bus_routes VALUES('124',2,11,'3233', null);
-INSERT INTO bus_routes VALUES('124',2,12,'3234', null);
-INSERT INTO bus_routes VALUES('124',2,13,'3235', null);
-INSERT INTO bus_routes VALUES('124',2,14,'3236', null);
-INSERT INTO bus_routes VALUES('124',2,15,'3237', null);
-INSERT INTO bus_routes VALUES('124',2,16,'3221', null);
-INSERT INTO bus_routes VALUES('124',2,17,'5363', null);
-INSERT INTO bus_routes VALUES('124',2,18,'1640', null);
-INSERT INTO bus_routes VALUES('124',2,19,'3932', null);
-INSERT INTO bus_routes VALUES('124',2,20,'3933', null);
-INSERT INTO bus_routes VALUES('124',2,21,'1526', null);
-INSERT INTO bus_routes VALUES('124',2,22,'1527', null);
-INSERT INTO bus_routes VALUES('124',2,23,'3568', null);
-INSERT INTO bus_routes VALUES('124',2,24,'1530', null);
-INSERT INTO bus_routes VALUES('124',2,25,'1532', null);
-INSERT INTO bus_routes VALUES('124',2,26,'4147', null);
-INSERT INTO bus_routes VALUES('124',2,27,'5365', null);
-INSERT INTO bus_routes VALUES('124',2,28,'569', null);
-INSERT INTO bus_routes VALUES('124',2,29,'1858', null);
-INSERT INTO bus_routes VALUES('124',2,30,'1859', null);
-INSERT INTO bus_routes VALUES('124',2,31,'1570', null);
-INSERT INTO bus_routes VALUES('124',2,32,'1600', null);
-INSERT INTO bus_routes VALUES('124',2,33,'4966', null);
-INSERT INTO bus_routes VALUES('125',1,1,'24', null);
-INSERT INTO bus_routes VALUES('125',1,2,'479', null);
-INSERT INTO bus_routes VALUES('125',1,3,'480', null);
-INSERT INTO bus_routes VALUES('125',1,4,'481', null);
-INSERT INTO bus_routes VALUES('125',1,5,'483', null);
-INSERT INTO bus_routes VALUES('125',1,6,'485', null);
-INSERT INTO bus_routes VALUES('125',1,7,'487', null);
-INSERT INTO bus_routes VALUES('125',1,8,'4931', null);
-INSERT INTO bus_routes VALUES('125',1,9,'1844', null);
-INSERT INTO bus_routes VALUES('125',1,10,'1842', null);
-INSERT INTO bus_routes VALUES('125',1,11,'5338', null);
-INSERT INTO bus_routes VALUES('125',1,12,'1840', null);
-INSERT INTO bus_routes VALUES('125',1,13,'1838', null);
-INSERT INTO bus_routes VALUES('125',1,14,'504', null);
-INSERT INTO bus_routes VALUES('125',1,15,'134', null);
-INSERT INTO bus_routes VALUES('125',1,16,'136', null);
-INSERT INTO bus_routes VALUES('125',1,17,'138', null);
-INSERT INTO bus_routes VALUES('125',1,18,'140', null);
-INSERT INTO bus_routes VALUES('125',1,19,'4932', null);
-INSERT INTO bus_routes VALUES('125',1,20,'3270', null);
-INSERT INTO bus_routes VALUES('125',2,1,'3270', null);
-INSERT INTO bus_routes VALUES('125',2,2,'3271', null);
-INSERT INTO bus_routes VALUES('125',2,3,'4934', null);
-INSERT INTO bus_routes VALUES('125',2,4,'139', null);
-INSERT INTO bus_routes VALUES('125',2,5,'137', null);
-INSERT INTO bus_routes VALUES('125',2,6,'135', null);
-INSERT INTO bus_routes VALUES('125',2,7,'4935', null);
-INSERT INTO bus_routes VALUES('125',2,8,'501', null);
-INSERT INTO bus_routes VALUES('125',2,9,'503', null);
-INSERT INTO bus_routes VALUES('125',2,10,'1837', null);
-INSERT INTO bus_routes VALUES('125',2,11,'1839', null);
-INSERT INTO bus_routes VALUES('125',2,12,'5337', null);
-INSERT INTO bus_routes VALUES('125',2,13,'1841', null);
-INSERT INTO bus_routes VALUES('125',2,14,'1843', null);
-INSERT INTO bus_routes VALUES('125',2,15,'1845', null);
-INSERT INTO bus_routes VALUES('125',2,16,'2892', null);
-INSERT INTO bus_routes VALUES('125',2,17,'486', null);
-INSERT INTO bus_routes VALUES('125',2,18,'484', null);
-INSERT INTO bus_routes VALUES('125',2,19,'482', null);
-INSERT INTO bus_routes VALUES('125',2,20,'489', null);
-INSERT INTO bus_routes VALUES('125',2,21,'24', null);
-INSERT INTO bus_routes VALUES('126',1,1,'3570', null);
-INSERT INTO bus_routes VALUES('126',1,2,'50', null);
-INSERT INTO bus_routes VALUES('126',1,3,'47', null);
-INSERT INTO bus_routes VALUES('126',1,4,'42', null);
-INSERT INTO bus_routes VALUES('126',1,5,'44', null);
-INSERT INTO bus_routes VALUES('126',1,6,'39', null);
-INSERT INTO bus_routes VALUES('126',1,7,'37', null);
-INSERT INTO bus_routes VALUES('126',1,8,'1913', null);
-INSERT INTO bus_routes VALUES('126',1,9,'3238', null);
-INSERT INTO bus_routes VALUES('126',1,10,'1857', null);
-INSERT INTO bus_routes VALUES('126',1,11,'1572', null);
-INSERT INTO bus_routes VALUES('126',1,12,'1573', null);
-INSERT INTO bus_routes VALUES('126',1,13,'1575', null);
-INSERT INTO bus_routes VALUES('126',1,14,'1577', null);
-INSERT INTO bus_routes VALUES('126',1,15,'1643', null);
-INSERT INTO bus_routes VALUES('126',1,16,'1645', null);
-INSERT INTO bus_routes VALUES('126',1,17,'1647', null);
-INSERT INTO bus_routes VALUES('126',1,18,'1649', null);
-INSERT INTO bus_routes VALUES('126',1,19,'1651', null);
-INSERT INTO bus_routes VALUES('126',1,20,'3241', null);
-INSERT INTO bus_routes VALUES('126',1,21,'3243', null);
-INSERT INTO bus_routes VALUES('126',1,22,'1542', null);
-INSERT INTO bus_routes VALUES('126',1,23,'1503', null);
-INSERT INTO bus_routes VALUES('126',1,24,'1505', null);
-INSERT INTO bus_routes VALUES('126',1,25,'1507', null);
-INSERT INTO bus_routes VALUES('126',1,26,'1785', null);
-INSERT INTO bus_routes VALUES('126',2,1,'1785', null);
-INSERT INTO bus_routes VALUES('126',2,2,'1786', null);
-INSERT INTO bus_routes VALUES('126',2,3,'1506', null);
-INSERT INTO bus_routes VALUES('126',2,4,'1504', null);
-INSERT INTO bus_routes VALUES('126',2,5,'1543', null);
-INSERT INTO bus_routes VALUES('126',2,6,'3244', null);
-INSERT INTO bus_routes VALUES('126',2,7,'3242', null);
-INSERT INTO bus_routes VALUES('126',2,8,'4643', null);
-INSERT INTO bus_routes VALUES('126',2,9,'1652', null);
-INSERT INTO bus_routes VALUES('126',2,10,'1650', null);
-INSERT INTO bus_routes VALUES('126',2,11,'1648', null);
-INSERT INTO bus_routes VALUES('126',2,12,'1646', null);
-INSERT INTO bus_routes VALUES('126',2,13,'1644', null);
-INSERT INTO bus_routes VALUES('126',2,14,'1578', null);
-INSERT INTO bus_routes VALUES('126',2,15,'1576', null);
-INSERT INTO bus_routes VALUES('126',2,16,'5252', null);
-INSERT INTO bus_routes VALUES('126',2,17,'5524', null);
-INSERT INTO bus_routes VALUES('126',2,18,'1571', null);
-INSERT INTO bus_routes VALUES('126',2,19,'2647', null);
-INSERT INTO bus_routes VALUES('126',2,20,'3240', null);
-INSERT INTO bus_routes VALUES('126',2,21,'3239', null);
-INSERT INTO bus_routes VALUES('126',2,22,'1912', null);
-INSERT INTO bus_routes VALUES('126',2,23,'38', null);
-INSERT INTO bus_routes VALUES('126',2,24,'5265', null);
-INSERT INTO bus_routes VALUES('126',2,25,'5266', null);
-INSERT INTO bus_routes VALUES('126',2,26,'3570', null);
-INSERT INTO bus_routes VALUES('127',1,1,'2481', null);
-INSERT INTO bus_routes VALUES('127',1,2,'1418', null);
-INSERT INTO bus_routes VALUES('127',1,3,'1666', null);
-INSERT INTO bus_routes VALUES('127',1,4,'1668', null);
-INSERT INTO bus_routes VALUES('127',1,5,'1670', null);
-INSERT INTO bus_routes VALUES('127',1,6,'1672', null);
-INSERT INTO bus_routes VALUES('127',1,7,'1674', null);
-INSERT INTO bus_routes VALUES('127',1,8,'1577', null);
-INSERT INTO bus_routes VALUES('127',1,9,'1643', null);
-INSERT INTO bus_routes VALUES('127',1,10,'1645', null);
-INSERT INTO bus_routes VALUES('127',1,11,'1647', null);
-INSERT INTO bus_routes VALUES('127',1,12,'1649', null);
-INSERT INTO bus_routes VALUES('127',1,13,'1651', null);
-INSERT INTO bus_routes VALUES('127',1,14,'1653', null);
-INSERT INTO bus_routes VALUES('127',1,15,'1655', null);
-INSERT INTO bus_routes VALUES('127',1,16,'1657', null);
-INSERT INTO bus_routes VALUES('127',1,17,'1516', null);
-INSERT INTO bus_routes VALUES('127',1,18,'1514', null);
-INSERT INTO bus_routes VALUES('127',1,19,'1663', null);
-INSERT INTO bus_routes VALUES('127',1,20,'1624', null);
-INSERT INTO bus_routes VALUES('127',1,21,'1622', null);
-INSERT INTO bus_routes VALUES('127',1,22,'1620', null);
-INSERT INTO bus_routes VALUES('127',1,23,'1359', null);
-INSERT INTO bus_routes VALUES('127',1,24,'1618', null);
-INSERT INTO bus_routes VALUES('127',1,25,'1616', null);
-INSERT INTO bus_routes VALUES('127',1,26,'1614', null);
-INSERT INTO bus_routes VALUES('127',1,27,'1665', null);
-INSERT INTO bus_routes VALUES('127',2,1,'1665', null);
-INSERT INTO bus_routes VALUES('127',2,2,'3421', null);
-INSERT INTO bus_routes VALUES('127',2,3,'1615', null);
-INSERT INTO bus_routes VALUES('127',2,4,'1617', null);
-INSERT INTO bus_routes VALUES('127',2,5,'1360', null);
-INSERT INTO bus_routes VALUES('127',2,6,'1619', null);
-INSERT INTO bus_routes VALUES('127',2,7,'1621', null);
-INSERT INTO bus_routes VALUES('127',2,8,'1623', null);
-INSERT INTO bus_routes VALUES('127',2,9,'1664', null);
-INSERT INTO bus_routes VALUES('127',2,10,'1513', null);
-INSERT INTO bus_routes VALUES('127',2,11,'1515', null);
-INSERT INTO bus_routes VALUES('127',2,12,'1658', null);
-INSERT INTO bus_routes VALUES('127',2,13,'1656', null);
-INSERT INTO bus_routes VALUES('127',2,14,'1654', null);
-INSERT INTO bus_routes VALUES('127',2,15,'4643', null);
-INSERT INTO bus_routes VALUES('127',2,16,'1652', null);
-INSERT INTO bus_routes VALUES('127',2,17,'1650', null);
-INSERT INTO bus_routes VALUES('127',2,18,'1648', null);
-INSERT INTO bus_routes VALUES('127',2,19,'1646', null);
-INSERT INTO bus_routes VALUES('127',2,20,'1644', null);
-INSERT INTO bus_routes VALUES('127',2,21,'1578', null);
-INSERT INTO bus_routes VALUES('127',2,22,'1675', null);
-INSERT INTO bus_routes VALUES('127',2,23,'1673', null);
-INSERT INTO bus_routes VALUES('127',2,24,'1671', null);
-INSERT INTO bus_routes VALUES('127',2,25,'1669', null);
-INSERT INTO bus_routes VALUES('127',2,26,'1667', null);
-INSERT INTO bus_routes VALUES('127',2,27,'5098', null);
-INSERT INTO bus_routes VALUES('127',2,28,'1417', null);
-INSERT INTO bus_routes VALUES('127',2,29,'4284', null);
-INSERT INTO bus_routes VALUES('127',2,30,'2481', null);
-INSERT INTO bus_routes VALUES('128',1,1,'2482', null);
-INSERT INTO bus_routes VALUES('128',1,2,'1568', null);
-INSERT INTO bus_routes VALUES('128',1,3,'1569', null);
-INSERT INTO bus_routes VALUES('128',1,4,'1571', null);
-INSERT INTO bus_routes VALUES('128',1,5,'1572', null);
-INSERT INTO bus_routes VALUES('128',1,6,'1573', null);
-INSERT INTO bus_routes VALUES('128',1,7,'1575', null);
-INSERT INTO bus_routes VALUES('128',1,8,'1676', null);
-INSERT INTO bus_routes VALUES('128',1,9,'1678', null);
-INSERT INTO bus_routes VALUES('128',1,10,'1680', null);
-INSERT INTO bus_routes VALUES('128',1,11,'1682', null);
-INSERT INTO bus_routes VALUES('128',1,12,'1542', null);
-INSERT INTO bus_routes VALUES('128',1,13,'1503', null);
-INSERT INTO bus_routes VALUES('128',1,14,'1505', null);
-INSERT INTO bus_routes VALUES('128',1,15,'1364', null);
-INSERT INTO bus_routes VALUES('128',1,16,'1366', null);
-INSERT INTO bus_routes VALUES('128',1,17,'1368', null);
-INSERT INTO bus_routes VALUES('128',1,18,'1369', null);
-INSERT INTO bus_routes VALUES('128',2,1,'1369', null);
-INSERT INTO bus_routes VALUES('128',2,2,'1367', null);
-INSERT INTO bus_routes VALUES('128',2,3,'1365', null);
-INSERT INTO bus_routes VALUES('128',2,4,'1506', null);
-INSERT INTO bus_routes VALUES('128',2,5,'1504', null);
-INSERT INTO bus_routes VALUES('128',2,6,'1543', null);
-INSERT INTO bus_routes VALUES('128',2,7,'1683', null);
-INSERT INTO bus_routes VALUES('128',2,8,'1681', null);
-INSERT INTO bus_routes VALUES('128',2,9,'1679', null);
-INSERT INTO bus_routes VALUES('128',2,10,'1677', null);
-INSERT INTO bus_routes VALUES('128',2,11,'1576', null);
-INSERT INTO bus_routes VALUES('128',2,12,'5252', null);
-INSERT INTO bus_routes VALUES('128',2,13,'1599', null);
-INSERT INTO bus_routes VALUES('128',2,14,'1570', null);
-INSERT INTO bus_routes VALUES('128',2,15,'1600', null);
-INSERT INTO bus_routes VALUES('128',2,16,'2482', null);
-INSERT INTO bus_routes VALUES('129',1,1,'5606', null);
-INSERT INTO bus_routes VALUES('129',1,2,'30', null);
-INSERT INTO bus_routes VALUES('129',1,3,'203', null);
-INSERT INTO bus_routes VALUES('129',1,4,'205', null);
-INSERT INTO bus_routes VALUES('129',1,5,'207', null);
-INSERT INTO bus_routes VALUES('129',1,6,'2148', null);
-INSERT INTO bus_routes VALUES('129',1,7,'2150', null);
-INSERT INTO bus_routes VALUES('129',1,8,'146', null);
-INSERT INTO bus_routes VALUES('129',1,9,'145', null);
-INSERT INTO bus_routes VALUES('129',1,10,'3594', null);
-INSERT INTO bus_routes VALUES('129',1,11,'126', null);
-INSERT INTO bus_routes VALUES('129',1,12,'128', null);
-INSERT INTO bus_routes VALUES('129',1,13,'130', null);
-INSERT INTO bus_routes VALUES('129',1,14,'132', null);
-INSERT INTO bus_routes VALUES('129',1,15,'134', null);
-INSERT INTO bus_routes VALUES('129',1,16,'136', null);
-INSERT INTO bus_routes VALUES('129',1,17,'138', null);
-INSERT INTO bus_routes VALUES('129',1,18,'140', null);
-INSERT INTO bus_routes VALUES('129',1,19,'3245', null);
-INSERT INTO bus_routes VALUES('129',1,20,'3247', null);
-INSERT INTO bus_routes VALUES('129',1,21,'3249', null);
-INSERT INTO bus_routes VALUES('129',1,22,'509', null);
-INSERT INTO bus_routes VALUES('129',1,23,'510', null);
-INSERT INTO bus_routes VALUES('129',1,24,'5133', null);
-INSERT INTO bus_routes VALUES('129',2,1,'5133', null);
-INSERT INTO bus_routes VALUES('129',2,2,'507', null);
-INSERT INTO bus_routes VALUES('129',2,3,'508', null);
-INSERT INTO bus_routes VALUES('129',2,4,'3250', null);
-INSERT INTO bus_routes VALUES('129',2,5,'3248', null);
-INSERT INTO bus_routes VALUES('129',2,6,'3246', null);
-INSERT INTO bus_routes VALUES('129',2,7,'139', null);
-INSERT INTO bus_routes VALUES('129',2,8,'137', null);
-INSERT INTO bus_routes VALUES('129',2,9,'135', null);
-INSERT INTO bus_routes VALUES('129',2,10,'133', null);
-INSERT INTO bus_routes VALUES('129',2,11,'131', null);
-INSERT INTO bus_routes VALUES('129',2,12,'129', null);
-INSERT INTO bus_routes VALUES('129',2,13,'127', null);
-INSERT INTO bus_routes VALUES('129',2,14,'125', null);
-INSERT INTO bus_routes VALUES('129',2,15,'124', null);
-INSERT INTO bus_routes VALUES('129',2,16,'123', null);
-INSERT INTO bus_routes VALUES('129',2,17,'3251', null);
-INSERT INTO bus_routes VALUES('129',2,18,'2151', null);
-INSERT INTO bus_routes VALUES('129',2,19,'2149', null);
-INSERT INTO bus_routes VALUES('129',2,20,'206', null);
-INSERT INTO bus_routes VALUES('129',2,21,'204', null);
-INSERT INTO bus_routes VALUES('129',2,22,'31', null);
-INSERT INTO bus_routes VALUES('129',2,23,'5606', null);
-INSERT INTO bus_routes VALUES('130',1,1,'5339', null);
-INSERT INTO bus_routes VALUES('130',1,2,'1198', null);
-INSERT INTO bus_routes VALUES('130',1,3,'1194', null);
-INSERT INTO bus_routes VALUES('130',1,4,'1192', null);
-INSERT INTO bus_routes VALUES('130',1,5,'1787', null);
-INSERT INTO bus_routes VALUES('130',1,6,'1789', null);
-INSERT INTO bus_routes VALUES('130',1,7,'1793', null);
-INSERT INTO bus_routes VALUES('130',1,8,'1795', null);
-INSERT INTO bus_routes VALUES('130',1,9,'4834', null);
-INSERT INTO bus_routes VALUES('130',1,10,'1797', null);
-INSERT INTO bus_routes VALUES('130',1,11,'1799', null);
-INSERT INTO bus_routes VALUES('130',1,12,'3844', null);
-INSERT INTO bus_routes VALUES('130',1,13,'4807', null);
-INSERT INTO bus_routes VALUES('130',1,14,'4630', null);
-INSERT INTO bus_routes VALUES('130',1,15,'1801', null);
-INSERT INTO bus_routes VALUES('130',1,16,'1803', null);
-INSERT INTO bus_routes VALUES('130',1,17,'5039', null);
-INSERT INTO bus_routes VALUES('130',1,18,'1805', null);
-INSERT INTO bus_routes VALUES('130',1,19,'1807', null);
-INSERT INTO bus_routes VALUES('130',1,20,'1809', null);
-INSERT INTO bus_routes VALUES('130',1,21,'5326', null);
-INSERT INTO bus_routes VALUES('130',1,22,'5758', null);
-INSERT INTO bus_routes VALUES('130',1,23,'1813', null);
-INSERT INTO bus_routes VALUES('130',1,24,'1815', null);
-INSERT INTO bus_routes VALUES('130',1,25,'4693', null);
-INSERT INTO bus_routes VALUES('130',1,26,'5752', null);
-INSERT INTO bus_routes VALUES('130',1,27,'1820', null);
-INSERT INTO bus_routes VALUES('130',1,28,'1822', null);
-INSERT INTO bus_routes VALUES('130',1,29,'1824', null);
-INSERT INTO bus_routes VALUES('130',1,30,'1826', null);
-INSERT INTO bus_routes VALUES('130',1,31,'1828', null);
-INSERT INTO bus_routes VALUES('130',1,32,'3556', null);
-INSERT INTO bus_routes VALUES('130',1,33,'4353', null);
-INSERT INTO bus_routes VALUES('130',1,34,'4576', null);
-INSERT INTO bus_routes VALUES('130',1,35,'1064', null);
-INSERT INTO bus_routes VALUES('130',1,36,'1066', null);
-INSERT INTO bus_routes VALUES('130',1,37,'1067', null);
-INSERT INTO bus_routes VALUES('130',1,38,'4566', null);
-INSERT INTO bus_routes VALUES('130',2,1,'4566', null);
-INSERT INTO bus_routes VALUES('130',2,2,'1076', null);
-INSERT INTO bus_routes VALUES('130',2,3,'1077', null);
-INSERT INTO bus_routes VALUES('130',2,4,'1835', null);
-INSERT INTO bus_routes VALUES('130',2,5,'1062', null);
-INSERT INTO bus_routes VALUES('130',2,6,'1831', null);
-INSERT INTO bus_routes VALUES('130',2,7,'1829', null);
-INSERT INTO bus_routes VALUES('130',2,8,'1827', null);
-INSERT INTO bus_routes VALUES('130',2,9,'1825', null);
-INSERT INTO bus_routes VALUES('130',2,10,'1823', null);
-INSERT INTO bus_routes VALUES('130',2,11,'1821', null);
-INSERT INTO bus_routes VALUES('130',2,12,'5751', null);
-INSERT INTO bus_routes VALUES('130',2,13,'1027', null);
-INSERT INTO bus_routes VALUES('130',2,14,'4694', null);
-INSERT INTO bus_routes VALUES('130',2,15,'4704', null);
-INSERT INTO bus_routes VALUES('130',2,16,'1814', null);
-INSERT INTO bus_routes VALUES('130',2,17,'5759', null);
-INSERT INTO bus_routes VALUES('130',2,18,'5327', null);
-INSERT INTO bus_routes VALUES('130',2,19,'1810', null);
-INSERT INTO bus_routes VALUES('130',2,20,'1808', null);
-INSERT INTO bus_routes VALUES('130',2,21,'1806', null);
-INSERT INTO bus_routes VALUES('130',2,22,'5037', null);
-INSERT INTO bus_routes VALUES('130',2,23,'1804', null);
-INSERT INTO bus_routes VALUES('130',2,24,'4805', null);
-INSERT INTO bus_routes VALUES('130',2,25,'4806', null);
-INSERT INTO bus_routes VALUES('130',2,26,'4808', null);
-INSERT INTO bus_routes VALUES('130',2,27,'1800', null);
-INSERT INTO bus_routes VALUES('130',2,28,'1798', null);
-INSERT INTO bus_routes VALUES('130',2,29,'4833', null);
-INSERT INTO bus_routes VALUES('130',2,30,'1796', null);
-INSERT INTO bus_routes VALUES('130',2,31,'1794', null);
-INSERT INTO bus_routes VALUES('130',2,32,'1790', null);
-INSERT INTO bus_routes VALUES('130',2,33,'1788', null);
-INSERT INTO bus_routes VALUES('130',2,34,'1191', null);
-INSERT INTO bus_routes VALUES('130',2,35,'1193', null);
-INSERT INTO bus_routes VALUES('130',2,36,'1195', null);
-INSERT INTO bus_routes VALUES('130',2,37,'5339', null);
-INSERT INTO bus_routes VALUES('131',1,1,'5301', null);
-INSERT INTO bus_routes VALUES('131',1,2,'3208', null);
-INSERT INTO bus_routes VALUES('131',1,3,'3211', null);
-INSERT INTO bus_routes VALUES('131',1,4,'3209', null);
-INSERT INTO bus_routes VALUES('131',1,5,'658', null);
-INSERT INTO bus_routes VALUES('131',1,6,'660', null);
-INSERT INTO bus_routes VALUES('131',1,7,'662', null);
-INSERT INTO bus_routes VALUES('131',1,8,'3187', null);
-INSERT INTO bus_routes VALUES('131',1,9,'2463', null);
-INSERT INTO bus_routes VALUES('131',1,10,'2461', null);
-INSERT INTO bus_routes VALUES('131',1,11,'2459', null);
-INSERT INTO bus_routes VALUES('131',1,12,'2457', null);
-INSERT INTO bus_routes VALUES('131',1,13,'3186', null);
-INSERT INTO bus_routes VALUES('131',1,14,'3185', null);
-INSERT INTO bus_routes VALUES('131',1,15,'3183', null);
-INSERT INTO bus_routes VALUES('131',1,16,'3181', null);
-INSERT INTO bus_routes VALUES('131',1,17,'3180', null);
-INSERT INTO bus_routes VALUES('131',1,18,'3178', null);
-INSERT INTO bus_routes VALUES('131',1,19,'3139', null);
-INSERT INTO bus_routes VALUES('131',1,20,'3141', null);
-INSERT INTO bus_routes VALUES('131',1,21,'1963', null);
-INSERT INTO bus_routes VALUES('131',1,22,'1957', null);
-INSERT INTO bus_routes VALUES('131',1,23,'1958', null);
-INSERT INTO bus_routes VALUES('131',1,24,'1959', null);
-INSERT INTO bus_routes VALUES('131',1,25,'292', null);
-INSERT INTO bus_routes VALUES('131',1,26,'5465', null);
-INSERT INTO bus_routes VALUES('131',1,27,'4626', null);
-INSERT INTO bus_routes VALUES('131',1,28,'3215', null);
-INSERT INTO bus_routes VALUES('131',1,29,'4237', null);
-INSERT INTO bus_routes VALUES('131',1,30,'3217', null);
-INSERT INTO bus_routes VALUES('131',1,31,'1195', null);
-INSERT INTO bus_routes VALUES('131',1,32,'1196', null);
-INSERT INTO bus_routes VALUES('131',2,1,'1196', null);
-INSERT INTO bus_routes VALUES('131',2,2,'1198', null);
-INSERT INTO bus_routes VALUES('131',2,3,'3218', null);
-INSERT INTO bus_routes VALUES('131',2,4,'4238', null);
-INSERT INTO bus_routes VALUES('131',2,5,'3216', null);
-INSERT INTO bus_routes VALUES('131',2,6,'4627', null);
-INSERT INTO bus_routes VALUES('131',2,7,'5455', null);
-INSERT INTO bus_routes VALUES('131',2,8,'3736', null);
-INSERT INTO bus_routes VALUES('131',2,9,'3214', null);
-INSERT INTO bus_routes VALUES('131',2,10,'3213', null);
-INSERT INTO bus_routes VALUES('131',2,11,'2842', null);
-INSERT INTO bus_routes VALUES('131',2,12,'3176', null);
-INSERT INTO bus_routes VALUES('131',2,13,'3142', null);
-INSERT INTO bus_routes VALUES('131',2,14,'3140', null);
-INSERT INTO bus_routes VALUES('131',2,15,'3177', null);
-INSERT INTO bus_routes VALUES('131',2,16,'3179', null);
-INSERT INTO bus_routes VALUES('131',2,17,'5057', null);
-INSERT INTO bus_routes VALUES('131',2,18,'3182', null);
-INSERT INTO bus_routes VALUES('131',2,19,'3184', null);
-INSERT INTO bus_routes VALUES('131',2,20,'2453', null);
-INSERT INTO bus_routes VALUES('131',2,21,'2456', null);
-INSERT INTO bus_routes VALUES('131',2,22,'2458', null);
-INSERT INTO bus_routes VALUES('131',2,23,'2460', null);
-INSERT INTO bus_routes VALUES('131',2,24,'2462', null);
-INSERT INTO bus_routes VALUES('131',2,25,'667', null);
-INSERT INTO bus_routes VALUES('131',2,26,'663', null);
-INSERT INTO bus_routes VALUES('131',2,27,'661', null);
-INSERT INTO bus_routes VALUES('131',2,28,'659', null);
-INSERT INTO bus_routes VALUES('131',2,29,'3210', null);
-INSERT INTO bus_routes VALUES('131',2,30,'3212', null);
-INSERT INTO bus_routes VALUES('131',2,31,'2325', null);
-INSERT INTO bus_routes VALUES('131',2,32,'4632', null);
-INSERT INTO bus_routes VALUES('131',2,33,'5301', null);
-INSERT INTO bus_routes VALUES('132',1,1,'1329', null);
-INSERT INTO bus_routes VALUES('132',1,2,'3688', null);
-INSERT INTO bus_routes VALUES('132',1,3,'4021', null);
-INSERT INTO bus_routes VALUES('132',1,4,'743', null);
-INSERT INTO bus_routes VALUES('132',1,5,'4175', null);
-INSERT INTO bus_routes VALUES('132',1,6,'1684', null);
-INSERT INTO bus_routes VALUES('132',1,7,'1686', null);
-INSERT INTO bus_routes VALUES('132',1,8,'1687', null);
-INSERT INTO bus_routes VALUES('132',1,9,'1689', null);
-INSERT INTO bus_routes VALUES('132',1,10,'1691', null);
-INSERT INTO bus_routes VALUES('132',1,11,'3273', null);
-INSERT INTO bus_routes VALUES('132',1,12,'3276', null);
-INSERT INTO bus_routes VALUES('132',1,13,'3277', null);
-INSERT INTO bus_routes VALUES('132',1,14,'3278', null);
-INSERT INTO bus_routes VALUES('132',1,15,'5140', null);
-INSERT INTO bus_routes VALUES('132',1,16,'3281', null);
-INSERT INTO bus_routes VALUES('132',1,17,'3283', null);
-INSERT INTO bus_routes VALUES('132',1,18,'3285', null);
-INSERT INTO bus_routes VALUES('132',1,19,'1674', null);
-INSERT INTO bus_routes VALUES('132',1,20,'1577', null);
-INSERT INTO bus_routes VALUES('132',1,21,'1643', null);
-INSERT INTO bus_routes VALUES('132',1,22,'1645', null);
-INSERT INTO bus_routes VALUES('132',1,23,'1647', null);
-INSERT INTO bus_routes VALUES('132',1,24,'1649', null);
-INSERT INTO bus_routes VALUES('132',1,25,'1651', null);
-INSERT INTO bus_routes VALUES('132',1,26,'1653', null);
-INSERT INTO bus_routes VALUES('132',1,27,'1655', null);
-INSERT INTO bus_routes VALUES('132',1,28,'1657', null);
-INSERT INTO bus_routes VALUES('132',1,29,'1516', null);
-INSERT INTO bus_routes VALUES('132',1,30,'1514', null);
-INSERT INTO bus_routes VALUES('132',1,31,'1512', null);
-INSERT INTO bus_routes VALUES('132',1,32,'1510', null);
-INSERT INTO bus_routes VALUES('132',1,33,'1786', null);
-INSERT INTO bus_routes VALUES('132',1,34,'1364', null);
-INSERT INTO bus_routes VALUES('132',1,35,'1366', null);
-INSERT INTO bus_routes VALUES('132',1,36,'1368', null);
-INSERT INTO bus_routes VALUES('132',1,37,'1370', null);
-INSERT INTO bus_routes VALUES('132',1,38,'1372', null);
-INSERT INTO bus_routes VALUES('132',1,39,'1373', null);
-INSERT INTO bus_routes VALUES('132',1,40,'3288', null);
-INSERT INTO bus_routes VALUES('132',1,41,'3290', null);
-INSERT INTO bus_routes VALUES('132',1,42,'1605', null);
-INSERT INTO bus_routes VALUES('132',1,43,'1602', null);
-INSERT INTO bus_routes VALUES('132',2,1,'1602', null);
-INSERT INTO bus_routes VALUES('132',2,2,'1604', null);
-INSERT INTO bus_routes VALUES('132',2,3,'3291', null);
-INSERT INTO bus_routes VALUES('132',2,4,'3289', null);
-INSERT INTO bus_routes VALUES('132',2,5,'1379', null);
-INSERT INTO bus_routes VALUES('132',2,6,'1380', null);
-INSERT INTO bus_routes VALUES('132',2,7,'1371', null);
-INSERT INTO bus_routes VALUES('132',2,8,'93', null);
-INSERT INTO bus_routes VALUES('132',2,9,'1367', null);
-INSERT INTO bus_routes VALUES('132',2,10,'1365', null);
-INSERT INTO bus_routes VALUES('132',2,11,'3287', null);
-INSERT INTO bus_routes VALUES('132',2,12,'1509', null);
-INSERT INTO bus_routes VALUES('132',2,13,'1511', null);
-INSERT INTO bus_routes VALUES('132',2,14,'1513', null);
-INSERT INTO bus_routes VALUES('132',2,15,'1515', null);
-INSERT INTO bus_routes VALUES('132',2,16,'1658', null);
-INSERT INTO bus_routes VALUES('132',2,17,'1656', null);
-INSERT INTO bus_routes VALUES('132',2,18,'1654', null);
-INSERT INTO bus_routes VALUES('132',2,19,'4643', null);
-INSERT INTO bus_routes VALUES('132',2,20,'1652', null);
-INSERT INTO bus_routes VALUES('132',2,21,'1650', null);
-INSERT INTO bus_routes VALUES('132',2,22,'1648', null);
-INSERT INTO bus_routes VALUES('132',2,23,'1646', null);
-INSERT INTO bus_routes VALUES('132',2,24,'1644', null);
-INSERT INTO bus_routes VALUES('132',2,25,'1578', null);
-INSERT INTO bus_routes VALUES('132',2,26,'1675', null);
-INSERT INTO bus_routes VALUES('132',2,27,'3286', null);
-INSERT INTO bus_routes VALUES('132',2,28,'3284', null);
-INSERT INTO bus_routes VALUES('132',2,29,'3282', null);
-INSERT INTO bus_routes VALUES('132',2,30,'3280', null);
-INSERT INTO bus_routes VALUES('132',2,31,'3292', null);
-INSERT INTO bus_routes VALUES('132',2,32,'3274', null);
-INSERT INTO bus_routes VALUES('132',2,33,'1692', null);
-INSERT INTO bus_routes VALUES('132',2,34,'1690', null);
-INSERT INTO bus_routes VALUES('132',2,35,'1688', null);
-INSERT INTO bus_routes VALUES('132',2,36,'1685', null);
-INSERT INTO bus_routes VALUES('132',2,37,'1331', null);
-INSERT INTO bus_routes VALUES('132',2,38,'4514', null);
-INSERT INTO bus_routes VALUES('132',2,39,'4022', null);
-INSERT INTO bus_routes VALUES('132',2,40,'3047', null);
-INSERT INTO bus_routes VALUES('132',2,41,'1329', null);
-INSERT INTO bus_routes VALUES('133',1,1,'5573', null);
-INSERT INTO bus_routes VALUES('133',1,2,'168', null);
-INSERT INTO bus_routes VALUES('133',1,3,'283', null);
-INSERT INTO bus_routes VALUES('133',1,4,'1750', null);
-INSERT INTO bus_routes VALUES('133',1,5,'172', null);
-INSERT INTO bus_routes VALUES('133',1,6,'734', null);
-INSERT INTO bus_routes VALUES('133',1,7,'736', null);
-INSERT INTO bus_routes VALUES('133',1,8,'738', null);
-INSERT INTO bus_routes VALUES('133',1,9,'3688', null);
-INSERT INTO bus_routes VALUES('133',1,10,'1330', null);
-INSERT INTO bus_routes VALUES('133',1,11,'1332', null);
-INSERT INTO bus_routes VALUES('133',1,12,'1334', null);
-INSERT INTO bus_routes VALUES('133',1,13,'1336', null);
-INSERT INTO bus_routes VALUES('133',1,14,'1338', null);
-INSERT INTO bus_routes VALUES('133',1,15,'1340', null);
-INSERT INTO bus_routes VALUES('133',1,16,'1341', null);
-INSERT INTO bus_routes VALUES('133',1,17,'1343', null);
-INSERT INTO bus_routes VALUES('133',1,18,'5793', null);
-INSERT INTO bus_routes VALUES('133',1,19,'1347', null);
-INSERT INTO bus_routes VALUES('133',1,20,'1349', null);
-INSERT INTO bus_routes VALUES('133',1,21,'1351', null);
-INSERT INTO bus_routes VALUES('133',1,22,'1352', null);
-INSERT INTO bus_routes VALUES('133',1,23,'1354', null);
-INSERT INTO bus_routes VALUES('133',1,24,'5456', null);
-INSERT INTO bus_routes VALUES('133',1,25,'1356', null);
-INSERT INTO bus_routes VALUES('133',1,26,'1358', null);
-INSERT INTO bus_routes VALUES('133',1,27,'1359', null);
-INSERT INTO bus_routes VALUES('133',1,28,'1618', null);
-INSERT INTO bus_routes VALUES('133',1,29,'1616', null);
-INSERT INTO bus_routes VALUES('133',1,30,'1614', null);
-INSERT INTO bus_routes VALUES('133',1,31,'1636', null);
-INSERT INTO bus_routes VALUES('133',1,32,'5382', null);
-INSERT INTO bus_routes VALUES('133',1,33,'1637', null);
-INSERT INTO bus_routes VALUES('133',1,34,'3293', null);
-INSERT INTO bus_routes VALUES('133',1,35,'3294', null);
-INSERT INTO bus_routes VALUES('133',1,36,'3571', null);
-INSERT INTO bus_routes VALUES('133',1,37,'3296', null);
-INSERT INTO bus_routes VALUES('133',1,38,'1745', null);
-INSERT INTO bus_routes VALUES('133',1,39,'4968', null);
-INSERT INTO bus_routes VALUES('133',2,1,'4968', null);
-INSERT INTO bus_routes VALUES('133',2,2,'1749', null);
-INSERT INTO bus_routes VALUES('133',2,3,'3572', null);
-INSERT INTO bus_routes VALUES('133',2,4,'3295', null);
-INSERT INTO bus_routes VALUES('133',2,5,'3228', null);
-INSERT INTO bus_routes VALUES('133',2,6,'3229', null);
-INSERT INTO bus_routes VALUES('133',2,7,'1612', null);
-INSERT INTO bus_routes VALUES('133',2,8,'4741', null);
-INSERT INTO bus_routes VALUES('133',2,9,'1615', null);
-INSERT INTO bus_routes VALUES('133',2,10,'1617', null);
-INSERT INTO bus_routes VALUES('133',2,11,'1360', null);
-INSERT INTO bus_routes VALUES('133',2,12,'1361', null);
-INSERT INTO bus_routes VALUES('133',2,13,'1357', null);
-INSERT INTO bus_routes VALUES('133',2,14,'1355', null);
-INSERT INTO bus_routes VALUES('133',2,15,'5652', null);
-INSERT INTO bus_routes VALUES('133',2,16,'1353', null);
-INSERT INTO bus_routes VALUES('133',2,17,'1350', null);
-INSERT INTO bus_routes VALUES('133',2,18,'1348', null);
-INSERT INTO bus_routes VALUES('133',2,19,'1346', null);
-INSERT INTO bus_routes VALUES('133',2,20,'1344', null);
-INSERT INTO bus_routes VALUES('133',2,21,'1342', null);
-INSERT INTO bus_routes VALUES('133',2,22,'23', null);
-INSERT INTO bus_routes VALUES('133',2,23,'1335', null);
-INSERT INTO bus_routes VALUES('133',2,24,'1333', null);
-INSERT INTO bus_routes VALUES('133',2,25,'1331', null);
-INSERT INTO bus_routes VALUES('133',2,26,'740', null);
-INSERT INTO bus_routes VALUES('133',2,27,'737', null);
-INSERT INTO bus_routes VALUES('133',2,28,'735', null);
-INSERT INTO bus_routes VALUES('133',2,29,'193', null);
-INSERT INTO bus_routes VALUES('133',2,30,'173', null);
-INSERT INTO bus_routes VALUES('133',2,31,'741', null);
-INSERT INTO bus_routes VALUES('133',2,32,'5139', null);
-INSERT INTO bus_routes VALUES('133',2,33,'5573', null);
-INSERT INTO bus_routes VALUES('134',1,1,'5610', null);
-INSERT INTO bus_routes VALUES('134',1,2,'1487', null);
-INSERT INTO bus_routes VALUES('134',1,3,'3826', null);
-INSERT INTO bus_routes VALUES('134',1,4,'1489', null);
-INSERT INTO bus_routes VALUES('134',1,5,'1732', null);
-INSERT INTO bus_routes VALUES('134',1,6,'4651', null);
-INSERT INTO bus_routes VALUES('134',1,7,'1734', null);
-INSERT INTO bus_routes VALUES('134',1,8,'1736', null);
-INSERT INTO bus_routes VALUES('134',1,9,'1544', null);
-INSERT INTO bus_routes VALUES('134',1,10,'5329', null);
-INSERT INTO bus_routes VALUES('134',1,11,'1546', null);
-INSERT INTO bus_routes VALUES('134',1,12,'1548', null);
-INSERT INTO bus_routes VALUES('134',1,13,'4730', null);
-INSERT INTO bus_routes VALUES('134',1,14,'1739', null);
-INSERT INTO bus_routes VALUES('134',1,15,'1741', null);
-INSERT INTO bus_routes VALUES('134',1,16,'1743', null);
-INSERT INTO bus_routes VALUES('134',1,17,'1745', null);
-INSERT INTO bus_routes VALUES('134',1,18,'4968', null);
-INSERT INTO bus_routes VALUES('134',1,19,'1749', null);
-INSERT INTO bus_routes VALUES('134',1,20,'1751', null);
-INSERT INTO bus_routes VALUES('134',1,21,'1753', null);
-INSERT INTO bus_routes VALUES('134',1,22,'1762', null);
-INSERT INTO bus_routes VALUES('134',1,23,'1760', null);
-INSERT INTO bus_routes VALUES('134',1,24,'3623', null);
-INSERT INTO bus_routes VALUES('134',1,25,'3634', null);
-INSERT INTO bus_routes VALUES('134',1,26,'2864', null);
-INSERT INTO bus_routes VALUES('134',1,27,'2968', null);
-INSERT INTO bus_routes VALUES('134',1,28,'2970', null);
-INSERT INTO bus_routes VALUES('134',1,29,'1021', null);
-INSERT INTO bus_routes VALUES('134',1,30,'1022', null);
-INSERT INTO bus_routes VALUES('134',1,31,'1025', null);
-INSERT INTO bus_routes VALUES('134',1,32,'3279', null);
-INSERT INTO bus_routes VALUES('134',2,1,'3279', null);
-INSERT INTO bus_routes VALUES('134',2,2,'1026', null);
-INSERT INTO bus_routes VALUES('134',2,3,'1028', null);
-INSERT INTO bus_routes VALUES('134',2,4,'1029', null);
-INSERT INTO bus_routes VALUES('134',2,5,'3626', null);
-INSERT INTO bus_routes VALUES('134',2,6,'3628', null);
-INSERT INTO bus_routes VALUES('134',2,7,'3627', null);
-INSERT INTO bus_routes VALUES('134',2,8,'3625', null);
-INSERT INTO bus_routes VALUES('134',2,9,'3624', null);
-INSERT INTO bus_routes VALUES('134',2,10,'3635', null);
-INSERT INTO bus_routes VALUES('134',2,11,'3622', null);
-INSERT INTO bus_routes VALUES('134',2,12,'1759', null);
-INSERT INTO bus_routes VALUES('134',2,13,'1761', null);
-INSERT INTO bus_routes VALUES('134',2,14,'3996', null);
-INSERT INTO bus_routes VALUES('134',2,15,'1752', null);
-INSERT INTO bus_routes VALUES('134',2,16,'3296', null);
-INSERT INTO bus_routes VALUES('134',2,17,'1748', null);
-INSERT INTO bus_routes VALUES('134',2,18,'1746', null);
-INSERT INTO bus_routes VALUES('134',2,19,'1744', null);
-INSERT INTO bus_routes VALUES('134',2,20,'1742', null);
-INSERT INTO bus_routes VALUES('134',2,21,'1740', null);
-INSERT INTO bus_routes VALUES('134',2,22,'1549', null);
-INSERT INTO bus_routes VALUES('134',2,23,'1547', null);
-INSERT INTO bus_routes VALUES('134',2,24,'5330', null);
-INSERT INTO bus_routes VALUES('134',2,25,'1545', null);
-INSERT INTO bus_routes VALUES('134',2,26,'3392', null);
-INSERT INTO bus_routes VALUES('134',2,27,'1737', null);
-INSERT INTO bus_routes VALUES('134',2,28,'1735', null);
-INSERT INTO bus_routes VALUES('134',2,29,'1733', null);
-INSERT INTO bus_routes VALUES('134',2,30,'5363', null);
-INSERT INTO bus_routes VALUES('134',2,31,'1640', null);
-INSERT INTO bus_routes VALUES('134',2,32,'3932', null);
-INSERT INTO bus_routes VALUES('134',2,33,'3933', null);
-INSERT INTO bus_routes VALUES('134',2,34,'1526', null);
-INSERT INTO bus_routes VALUES('134',2,35,'1527', null);
-INSERT INTO bus_routes VALUES('134',2,36,'5610', null);
-INSERT INTO bus_routes VALUES('135',1,1,'5604', null);
-INSERT INTO bus_routes VALUES('135',1,2,'1487', null);
-INSERT INTO bus_routes VALUES('135',1,3,'3826', null);
-INSERT INTO bus_routes VALUES('135',1,4,'1489', null);
-INSERT INTO bus_routes VALUES('135',1,5,'1602', null);
-INSERT INTO bus_routes VALUES('135',1,6,'3272', null);
-INSERT INTO bus_routes VALUES('135',1,7,'3269', null);
-INSERT INTO bus_routes VALUES('135',1,8,'3270', null);
-INSERT INTO bus_routes VALUES('135',2,1,'3270', null);
-INSERT INTO bus_routes VALUES('135',2,2,'3271', null);
-INSERT INTO bus_routes VALUES('135',2,3,'3573', null);
-INSERT INTO bus_routes VALUES('135',2,4,'3221', null);
-INSERT INTO bus_routes VALUES('135',2,5,'5363', null);
-INSERT INTO bus_routes VALUES('135',2,6,'1640', null);
-INSERT INTO bus_routes VALUES('135',2,7,'3932', null);
-INSERT INTO bus_routes VALUES('135',2,8,'3933', null);
-INSERT INTO bus_routes VALUES('135',2,9,'1526', null);
-INSERT INTO bus_routes VALUES('135',2,10,'1527', null);
-INSERT INTO bus_routes VALUES('135',2,11,'5604', null);
-INSERT INTO bus_routes VALUES('136',1,1,'5471', null);
-INSERT INTO bus_routes VALUES('136',1,2,'1410', null);
-INSERT INTO bus_routes VALUES('136',1,3,'2058', null);
-INSERT INTO bus_routes VALUES('136',1,4,'1001', null);
-INSERT INTO bus_routes VALUES('136',1,5,'1003', null);
-INSERT INTO bus_routes VALUES('136',1,6,'1005', null);
-INSERT INTO bus_routes VALUES('136',1,7,'1007', null);
-INSERT INTO bus_routes VALUES('136',1,8,'1009', null);
-INSERT INTO bus_routes VALUES('136',1,9,'3297', null);
-INSERT INTO bus_routes VALUES('136',1,10,'3299', null);
-INSERT INTO bus_routes VALUES('136',1,11,'3300', null);
-INSERT INTO bus_routes VALUES('136',1,12,'3302', null);
-INSERT INTO bus_routes VALUES('136',1,13,'3304', null);
-INSERT INTO bus_routes VALUES('136',1,14,'3306', null);
-INSERT INTO bus_routes VALUES('136',1,15,'3308', null);
-INSERT INTO bus_routes VALUES('136',1,16,'3310', null);
-INSERT INTO bus_routes VALUES('136',1,17,'2576', null);
-INSERT INTO bus_routes VALUES('136',1,18,'2109', null);
-INSERT INTO bus_routes VALUES('136',1,19,'3312', null);
-INSERT INTO bus_routes VALUES('136',2,1,'3312', null);
-INSERT INTO bus_routes VALUES('136',2,2,'3313', null);
-INSERT INTO bus_routes VALUES('136',2,3,'3311', null);
-INSERT INTO bus_routes VALUES('136',2,4,'3309', null);
-INSERT INTO bus_routes VALUES('136',2,5,'3307', null);
-INSERT INTO bus_routes VALUES('136',2,6,'3305', null);
-INSERT INTO bus_routes VALUES('136',2,7,'3303', null);
-INSERT INTO bus_routes VALUES('136',2,8,'3301', null);
-INSERT INTO bus_routes VALUES('136',2,9,'2071', null);
-INSERT INTO bus_routes VALUES('136',2,10,'3298', null);
-INSERT INTO bus_routes VALUES('136',2,11,'1010', null);
-INSERT INTO bus_routes VALUES('136',2,12,'1008', null);
-INSERT INTO bus_routes VALUES('136',2,13,'1006', null);
-INSERT INTO bus_routes VALUES('136',2,14,'1004', null);
-INSERT INTO bus_routes VALUES('136',2,15,'1002', null);
-INSERT INTO bus_routes VALUES('136',2,16,'4864', null);
-INSERT INTO bus_routes VALUES('136',2,17,'1411', null);
-INSERT INTO bus_routes VALUES('136',2,18,'1978', null);
-INSERT INTO bus_routes VALUES('136',2,19,'5471', null);
-INSERT INTO bus_routes VALUES('137',1,1,'5698', null);
-INSERT INTO bus_routes VALUES('137',1,2,'1703', null);
-INSERT INTO bus_routes VALUES('137',1,3,'1705', null);
-INSERT INTO bus_routes VALUES('137',1,4,'3391', null);
-INSERT INTO bus_routes VALUES('137',1,5,'1709', null);
-INSERT INTO bus_routes VALUES('137',1,6,'1711', null);
-INSERT INTO bus_routes VALUES('137',1,7,'1523', null);
-INSERT INTO bus_routes VALUES('137',1,8,'1520', null);
-INSERT INTO bus_routes VALUES('137',1,9,'1659', null);
-INSERT INTO bus_routes VALUES('137',1,10,'1661', null);
-INSERT INTO bus_routes VALUES('137',1,11,'1512', null);
-INSERT INTO bus_routes VALUES('137',1,12,'1510', null);
-INSERT INTO bus_routes VALUES('137',1,13,'1786', null);
-INSERT INTO bus_routes VALUES('137',1,14,'1364', null);
-INSERT INTO bus_routes VALUES('137',1,15,'1366', null);
-INSERT INTO bus_routes VALUES('137',1,16,'1368', null);
-INSERT INTO bus_routes VALUES('137',1,17,'3392', null);
-INSERT INTO bus_routes VALUES('137',1,18,'1737', null);
-INSERT INTO bus_routes VALUES('137',1,19,'1735', null);
-INSERT INTO bus_routes VALUES('137',1,20,'1733', null);
-INSERT INTO bus_routes VALUES('137',1,21,'1602', null);
-INSERT INTO bus_routes VALUES('137',1,22,'3220', null);
-INSERT INTO bus_routes VALUES('137',1,23,'3222', null);
-INSERT INTO bus_routes VALUES('137',1,24,'3223', null);
-INSERT INTO bus_routes VALUES('137',1,25,'2662', null);
-INSERT INTO bus_routes VALUES('137',1,26,'2664', null);
-INSERT INTO bus_routes VALUES('137',1,27,'2666', null);
-INSERT INTO bus_routes VALUES('137',1,28,'2668', null);
-INSERT INTO bus_routes VALUES('137',1,29,'2670', null);
-INSERT INTO bus_routes VALUES('137',1,30,'2672', null);
-INSERT INTO bus_routes VALUES('137',1,31,'2674', null);
-INSERT INTO bus_routes VALUES('137',1,32,'2676', null);
-INSERT INTO bus_routes VALUES('137',1,33,'2678', null);
-INSERT INTO bus_routes VALUES('137',1,34,'2680', null);
-INSERT INTO bus_routes VALUES('137',1,35,'2682', null);
-INSERT INTO bus_routes VALUES('137',1,36,'2684', null);
-INSERT INTO bus_routes VALUES('137',1,37,'2686', null);
-INSERT INTO bus_routes VALUES('137',1,38,'2688', null);
-INSERT INTO bus_routes VALUES('137',1,39,'2690', null);
-INSERT INTO bus_routes VALUES('137',1,40,'2691', null);
-INSERT INTO bus_routes VALUES('137',2,1,'2691', null);
-INSERT INTO bus_routes VALUES('137',2,2,'2689', null);
-INSERT INTO bus_routes VALUES('137',2,3,'2687', null);
-INSERT INTO bus_routes VALUES('137',2,4,'2685', null);
-INSERT INTO bus_routes VALUES('137',2,5,'2683', null);
-INSERT INTO bus_routes VALUES('137',2,6,'2681', null);
-INSERT INTO bus_routes VALUES('137',2,7,'2679', null);
-INSERT INTO bus_routes VALUES('137',2,8,'2677', null);
-INSERT INTO bus_routes VALUES('137',2,9,'2675', null);
-INSERT INTO bus_routes VALUES('137',2,10,'2673', null);
-INSERT INTO bus_routes VALUES('137',2,11,'2671', null);
-INSERT INTO bus_routes VALUES('137',2,12,'2669', null);
-INSERT INTO bus_routes VALUES('137',2,13,'2667', null);
-INSERT INTO bus_routes VALUES('137',2,14,'2663', null);
-INSERT INTO bus_routes VALUES('137',2,15,'3233', null);
-INSERT INTO bus_routes VALUES('137',2,16,'3234', null);
-INSERT INTO bus_routes VALUES('137',2,17,'3235', null);
-INSERT INTO bus_routes VALUES('137',2,18,'3236', null);
-INSERT INTO bus_routes VALUES('137',2,19,'3237', null);
-INSERT INTO bus_routes VALUES('137',2,20,'3221', null);
-INSERT INTO bus_routes VALUES('137',2,21,'1732', null);
-INSERT INTO bus_routes VALUES('137',2,22,'4651', null);
-INSERT INTO bus_routes VALUES('137',2,23,'1734', null);
-INSERT INTO bus_routes VALUES('137',2,24,'1736', null);
-INSERT INTO bus_routes VALUES('137',2,25,'3393', null);
-INSERT INTO bus_routes VALUES('137',2,26,'93', null);
-INSERT INTO bus_routes VALUES('137',2,27,'1367', null);
-INSERT INTO bus_routes VALUES('137',2,28,'1365', null);
-INSERT INTO bus_routes VALUES('137',2,29,'3287', null);
-INSERT INTO bus_routes VALUES('137',2,30,'1509', null);
-INSERT INTO bus_routes VALUES('137',2,31,'1511', null);
-INSERT INTO bus_routes VALUES('137',2,32,'5791', null);
-INSERT INTO bus_routes VALUES('137',2,33,'5792', null);
-INSERT INTO bus_routes VALUES('137',2,34,'1592', null);
-INSERT INTO bus_routes VALUES('137',2,35,'1590', null);
-INSERT INTO bus_routes VALUES('137',2,36,'1588', null);
-INSERT INTO bus_routes VALUES('137',2,37,'3394', null);
-INSERT INTO bus_routes VALUES('137',2,38,'1706', null);
-INSERT INTO bus_routes VALUES('137',2,39,'1704', null);
-INSERT INTO bus_routes VALUES('137',2,40,'5309', null);
-INSERT INTO bus_routes VALUES('137',2,41,'5698', null);
-INSERT INTO bus_routes VALUES('138',1,1,'4608', null);
-INSERT INTO bus_routes VALUES('138',1,2,'4022', null);
-INSERT INTO bus_routes VALUES('138',1,3,'3687', null);
-INSERT INTO bus_routes VALUES('138',1,4,'737', null);
-INSERT INTO bus_routes VALUES('138',1,5,'735', null);
-INSERT INTO bus_routes VALUES('138',1,6,'193', null);
-INSERT INTO bus_routes VALUES('138',1,7,'173', null);
-INSERT INTO bus_routes VALUES('138',1,8,'741', null);
-INSERT INTO bus_routes VALUES('138',1,9,'854', null);
-INSERT INTO bus_routes VALUES('138',1,10,'599', null);
-INSERT INTO bus_routes VALUES('138',1,11,'601', null);
-INSERT INTO bus_routes VALUES('138',1,12,'603', null);
-INSERT INTO bus_routes VALUES('138',1,13,'4070', null);
-INSERT INTO bus_routes VALUES('138',1,14,'606', null);
-INSERT INTO bus_routes VALUES('138',1,15,'608', null);
-INSERT INTO bus_routes VALUES('138',1,16,'1452', null);
-INSERT INTO bus_routes VALUES('138',1,17,'1453', null);
-INSERT INTO bus_routes VALUES('138',1,18,'1454', null);
-INSERT INTO bus_routes VALUES('138',1,19,'1457', null);
-INSERT INTO bus_routes VALUES('138',1,20,'4633', null);
-INSERT INTO bus_routes VALUES('138',1,21,'1459', null);
-INSERT INTO bus_routes VALUES('138',1,22,'1461', null);
-INSERT INTO bus_routes VALUES('138',1,23,'1463', null);
-INSERT INTO bus_routes VALUES('138',1,24,'1465', null);
-INSERT INTO bus_routes VALUES('138',1,25,'1467', null);
-INSERT INTO bus_routes VALUES('138',1,26,'1469', null);
-INSERT INTO bus_routes VALUES('138',1,27,'1471', null);
-INSERT INTO bus_routes VALUES('138',1,28,'1472', null);
-INSERT INTO bus_routes VALUES('138',1,29,'1474', null);
-INSERT INTO bus_routes VALUES('138',1,30,'1476', null);
-INSERT INTO bus_routes VALUES('138',1,31,'1478', null);
-INSERT INTO bus_routes VALUES('138',1,32,'1480', null);
-INSERT INTO bus_routes VALUES('138',1,33,'1482', null);
-INSERT INTO bus_routes VALUES('138',1,34,'1484', null);
-INSERT INTO bus_routes VALUES('138',1,35,'575', null);
-INSERT INTO bus_routes VALUES('138',1,36,'4505', null);
-INSERT INTO bus_routes VALUES('138',1,37,'578', null);
-INSERT INTO bus_routes VALUES('138',1,38,'580', null);
-INSERT INTO bus_routes VALUES('138',1,39,'582', null);
-INSERT INTO bus_routes VALUES('138',1,40,'3149', null);
-INSERT INTO bus_routes VALUES('138',1,41,'653', null);
-INSERT INTO bus_routes VALUES('138',1,42,'651', null);
-INSERT INTO bus_routes VALUES('138',1,43,'5481', null);
-INSERT INTO bus_routes VALUES('138',2,1,'5481', null);
-INSERT INTO bus_routes VALUES('138',2,2,'5159', null);
-INSERT INTO bus_routes VALUES('138',2,3,'3150', null);
-INSERT INTO bus_routes VALUES('138',2,4,'374', null);
-INSERT INTO bus_routes VALUES('138',2,5,'585', null);
-INSERT INTO bus_routes VALUES('138',2,6,'366', null);
-INSERT INTO bus_routes VALUES('138',2,7,'583', null);
-INSERT INTO bus_routes VALUES('138',2,8,'581', null);
-INSERT INTO bus_routes VALUES('138',2,9,'579', null);
-INSERT INTO bus_routes VALUES('138',2,10,'5065', null);
-INSERT INTO bus_routes VALUES('138',2,11,'3734', null);
-INSERT INTO bus_routes VALUES('138',2,12,'1483', null);
-INSERT INTO bus_routes VALUES('138',2,13,'1481', null);
-INSERT INTO bus_routes VALUES('138',2,14,'1479', null);
-INSERT INTO bus_routes VALUES('138',2,15,'1477', null);
-INSERT INTO bus_routes VALUES('138',2,16,'1475', null);
-INSERT INTO bus_routes VALUES('138',2,17,'1473', null);
-INSERT INTO bus_routes VALUES('138',2,18,'1470', null);
-INSERT INTO bus_routes VALUES('138',2,19,'1468', null);
-INSERT INTO bus_routes VALUES('138',2,20,'1466', null);
-INSERT INTO bus_routes VALUES('138',2,21,'1464', null);
-INSERT INTO bus_routes VALUES('138',2,22,'1462', null);
-INSERT INTO bus_routes VALUES('138',2,23,'1460', null);
-INSERT INTO bus_routes VALUES('138',2,24,'4634', null);
-INSERT INTO bus_routes VALUES('138',2,25,'1458', null);
-INSERT INTO bus_routes VALUES('138',2,26,'1455', null);
-INSERT INTO bus_routes VALUES('138',2,27,'1456', null);
-INSERT INTO bus_routes VALUES('138',2,28,'872', null);
-INSERT INTO bus_routes VALUES('138',2,29,'609', null);
-INSERT INTO bus_routes VALUES('138',2,30,'1562', null);
-INSERT INTO bus_routes VALUES('138',2,31,'5246', null);
-INSERT INTO bus_routes VALUES('138',2,32,'742', null);
-INSERT INTO bus_routes VALUES('138',2,33,'1750', null);
-INSERT INTO bus_routes VALUES('138',2,34,'172', null);
-INSERT INTO bus_routes VALUES('138',2,35,'734', null);
-INSERT INTO bus_routes VALUES('138',2,36,'736', null);
-INSERT INTO bus_routes VALUES('138',2,37,'738', null);
-INSERT INTO bus_routes VALUES('138',2,38,'4816', null);
-INSERT INTO bus_routes VALUES('138',2,39,'4021', null);
-INSERT INTO bus_routes VALUES('138',2,40,'743', null);
-INSERT INTO bus_routes VALUES('138',2,41,'4608', null);
-INSERT INTO bus_routes VALUES('139',1,1,'641', null);
-INSERT INTO bus_routes VALUES('139',1,2,'642', null);
-INSERT INTO bus_routes VALUES('139',1,3,'643', null);
-INSERT INTO bus_routes VALUES('139',1,4,'644', null);
-INSERT INTO bus_routes VALUES('139',1,5,'646', null);
-INSERT INTO bus_routes VALUES('139',1,6,'3810', null);
-INSERT INTO bus_routes VALUES('139',1,7,'650', null);
-INSERT INTO bus_routes VALUES('139',1,8,'5654', null);
-INSERT INTO bus_routes VALUES('139',1,9,'652', null);
-INSERT INTO bus_routes VALUES('139',1,10,'365', null);
-INSERT INTO bus_routes VALUES('139',1,11,'584', null);
-INSERT INTO bus_routes VALUES('139',1,12,'587', null);
-INSERT INTO bus_routes VALUES('139',1,13,'654', null);
-INSERT INTO bus_routes VALUES('139',1,14,'656', null);
-INSERT INTO bus_routes VALUES('139',1,15,'4504', null);
-INSERT INTO bus_routes VALUES('139',1,16,'658', null);
-INSERT INTO bus_routes VALUES('139',1,17,'660', null);
-INSERT INTO bus_routes VALUES('139',1,18,'662', null);
-INSERT INTO bus_routes VALUES('139',1,19,'3187', null);
-INSERT INTO bus_routes VALUES('139',1,20,'353', null);
-INSERT INTO bus_routes VALUES('139',1,21,'664', null);
-INSERT INTO bus_routes VALUES('139',1,22,'665', null);
-INSERT INTO bus_routes VALUES('139',1,23,'666', null);
-INSERT INTO bus_routes VALUES('139',2,1,'666', null);
-INSERT INTO bus_routes VALUES('139',2,2,'356', null);
-INSERT INTO bus_routes VALUES('139',2,3,'376', null);
-INSERT INTO bus_routes VALUES('139',2,4,'378', null);
-INSERT INTO bus_routes VALUES('139',2,5,'667', null);
-INSERT INTO bus_routes VALUES('139',2,6,'663', null);
-INSERT INTO bus_routes VALUES('139',2,7,'661', null);
-INSERT INTO bus_routes VALUES('139',2,8,'659', null);
-INSERT INTO bus_routes VALUES('139',2,9,'4505', null);
-INSERT INTO bus_routes VALUES('139',2,10,'657', null);
-INSERT INTO bus_routes VALUES('139',2,11,'655', null);
-INSERT INTO bus_routes VALUES('139',2,12,'586', null);
-INSERT INTO bus_routes VALUES('139',2,13,'585', null);
-INSERT INTO bus_routes VALUES('139',2,14,'366', null);
-INSERT INTO bus_routes VALUES('139',2,15,'653', null);
-INSERT INTO bus_routes VALUES('139',2,16,'651', null);
-INSERT INTO bus_routes VALUES('139',2,17,'3809', null);
-INSERT INTO bus_routes VALUES('139',2,18,'5159', null);
-INSERT INTO bus_routes VALUES('139',2,19,'647', null);
-INSERT INTO bus_routes VALUES('139',2,20,'645', null);
-INSERT INTO bus_routes VALUES('139',2,21,'668', null);
-INSERT INTO bus_routes VALUES('139',2,22,'4826', null);
-INSERT INTO bus_routes VALUES('139',2,23,'669', null);
-INSERT INTO bus_routes VALUES('139',2,24,'641', null);
-INSERT INTO bus_routes VALUES('14',1,1,'2124', null);
-INSERT INTO bus_routes VALUES('14',1,2,'2125', null);
-INSERT INTO bus_routes VALUES('14',1,3,'2127', null);
-INSERT INTO bus_routes VALUES('14',1,4,'2129', null);
-INSERT INTO bus_routes VALUES('14',1,5,'2049', null);
-INSERT INTO bus_routes VALUES('14',1,6,'2047', null);
-INSERT INTO bus_routes VALUES('14',1,7,'2045', null);
-INSERT INTO bus_routes VALUES('14',1,8,'5453', null);
-INSERT INTO bus_routes VALUES('14',1,9,'82', null);
-INSERT INTO bus_routes VALUES('14',1,10,'5511', null);
-INSERT INTO bus_routes VALUES('14',1,11,'78', null);
-INSERT INTO bus_routes VALUES('14',1,12,'5443', null);
-INSERT INTO bus_routes VALUES('14',1,13,'72', null);
-INSERT INTO bus_routes VALUES('14',1,14,'72', null);
-INSERT INTO bus_routes VALUES('14',1,15,'65', null);
-INSERT INTO bus_routes VALUES('14',1,16,'66', null);
-INSERT INTO bus_routes VALUES('14',1,17,'66', null);
-INSERT INTO bus_routes VALUES('14',1,18,'62', null);
-INSERT INTO bus_routes VALUES('14',1,19,'60', null);
-INSERT INTO bus_routes VALUES('14',1,20,'5333', null);
-INSERT INTO bus_routes VALUES('14',1,21,'56', null);
-INSERT INTO bus_routes VALUES('14',1,22,'54', null);
-INSERT INTO bus_routes VALUES('14',1,23,'52', null);
-INSERT INTO bus_routes VALUES('14',1,24,'2131', null);
-INSERT INTO bus_routes VALUES('14',1,25,'2132', null);
-INSERT INTO bus_routes VALUES('14',1,26,'2133', null);
-INSERT INTO bus_routes VALUES('14',1,27,'2134', null);
-INSERT INTO bus_routes VALUES('14',1,28,'2136', null);
-INSERT INTO bus_routes VALUES('14',1,29,'2138', null);
-INSERT INTO bus_routes VALUES('14',1,30,'2140', null);
-INSERT INTO bus_routes VALUES('14',1,31,'2142', null);
-INSERT INTO bus_routes VALUES('14',1,32,'2144', null);
-INSERT INTO bus_routes VALUES('14',1,33,'2146', null);
-INSERT INTO bus_routes VALUES('14',1,34,'2148', null);
-INSERT INTO bus_routes VALUES('14',1,35,'2150', null);
-INSERT INTO bus_routes VALUES('14',1,36,'11', null);
-INSERT INTO bus_routes VALUES('14',1,37,'1728', null);
-INSERT INTO bus_routes VALUES('14',2,1,'1728', null);
-INSERT INTO bus_routes VALUES('14',2,2,'2151', null);
-INSERT INTO bus_routes VALUES('14',2,3,'2149', null);
-INSERT INTO bus_routes VALUES('14',2,4,'2147', null);
-INSERT INTO bus_routes VALUES('14',2,5,'2145', null);
-INSERT INTO bus_routes VALUES('14',2,6,'2143', null);
-INSERT INTO bus_routes VALUES('14',2,7,'2141', null);
-INSERT INTO bus_routes VALUES('14',2,8,'2139', null);
-INSERT INTO bus_routes VALUES('14',2,9,'2137', null);
-INSERT INTO bus_routes VALUES('14',2,10,'2135', null);
-INSERT INTO bus_routes VALUES('14',2,11,'4179', null);
-INSERT INTO bus_routes VALUES('14',2,12,'41', null);
-INSERT INTO bus_routes VALUES('14',2,13,'46', null);
-INSERT INTO bus_routes VALUES('14',2,14,'48', null);
-INSERT INTO bus_routes VALUES('14',2,15,'49', null);
-INSERT INTO bus_routes VALUES('14',2,16,'51', null);
-INSERT INTO bus_routes VALUES('14',2,17,'53', null);
-INSERT INTO bus_routes VALUES('14',2,18,'4337', null);
-INSERT INTO bus_routes VALUES('14',2,19,'57', null);
-INSERT INTO bus_routes VALUES('14',2,20,'59', null);
-INSERT INTO bus_routes VALUES('14',2,21,'61', null);
-INSERT INTO bus_routes VALUES('14',2,22,'63', null);
-INSERT INTO bus_routes VALUES('14',2,23,'5626', null);
-INSERT INTO bus_routes VALUES('14',2,24,'68', null);
-INSERT INTO bus_routes VALUES('14',2,25,'73', null);
-INSERT INTO bus_routes VALUES('14',2,26,'76', null);
-INSERT INTO bus_routes VALUES('14',2,27,'77', null);
-INSERT INTO bus_routes VALUES('14',2,28,'79', null);
-INSERT INTO bus_routes VALUES('14',2,29,'81', null);
-INSERT INTO bus_routes VALUES('14',2,30,'1401', null);
-INSERT INTO bus_routes VALUES('14',2,31,'1401', null);
-INSERT INTO bus_routes VALUES('14',2,32,'2046', null);
-INSERT INTO bus_routes VALUES('14',2,33,'2048', null);
-INSERT INTO bus_routes VALUES('14',2,34,'2130', null);
-INSERT INTO bus_routes VALUES('14',2,35,'2128', null);
-INSERT INTO bus_routes VALUES('14',2,36,'2126', null);
-INSERT INTO bus_routes VALUES('14',2,37,'2124', null);
-INSERT INTO bus_routes VALUES('140',1,1,'3029', null);
-INSERT INTO bus_routes VALUES('140',1,2,'1054', null);
-INSERT INTO bus_routes VALUES('140',1,3,'1056', null);
-INSERT INTO bus_routes VALUES('140',1,4,'1058', null);
-INSERT INTO bus_routes VALUES('140',1,5,'4395', null);
-INSERT INTO bus_routes VALUES('140',1,6,'5361', null);
-INSERT INTO bus_routes VALUES('140',1,7,'4763', null);
-INSERT INTO bus_routes VALUES('140',1,8,'4635', null);
-INSERT INTO bus_routes VALUES('140',1,9,'4636', null);
-INSERT INTO bus_routes VALUES('140',1,10,'3658', null);
-INSERT INTO bus_routes VALUES('140',1,11,'4637', null);
-INSERT INTO bus_routes VALUES('140',1,12,'4210', null);
-INSERT INTO bus_routes VALUES('140',1,13,'4407', null);
-INSERT INTO bus_routes VALUES('140',1,14,'4409', null);
-INSERT INTO bus_routes VALUES('140',1,15,'4411', null);
-INSERT INTO bus_routes VALUES('140',1,16,'4413', null);
-INSERT INTO bus_routes VALUES('140',1,17,'4415', null);
-INSERT INTO bus_routes VALUES('140',1,18,'4417', null);
-INSERT INTO bus_routes VALUES('140',1,19,'4419', null);
-INSERT INTO bus_routes VALUES('140',1,20,'4421', null);
-INSERT INTO bus_routes VALUES('140',1,21,'4497', null);
-INSERT INTO bus_routes VALUES('140',1,22,'3941', null);
-INSERT INTO bus_routes VALUES('140',1,23,'3942', null);
-INSERT INTO bus_routes VALUES('140',1,24,'4423', null);
-INSERT INTO bus_routes VALUES('140',1,25,'4425', null);
-INSERT INTO bus_routes VALUES('140',1,26,'2951', null);
-INSERT INTO bus_routes VALUES('140',1,27,'2953', null);
-INSERT INTO bus_routes VALUES('140',1,28,'2955', null);
-INSERT INTO bus_routes VALUES('140',1,29,'4639', null);
-INSERT INTO bus_routes VALUES('140',1,30,'5713', null);
-INSERT INTO bus_routes VALUES('140',2,1,'5713', null);
-INSERT INTO bus_routes VALUES('140',2,2,'3407', null);
-INSERT INTO bus_routes VALUES('140',2,3,'2954', null);
-INSERT INTO bus_routes VALUES('140',2,4,'4427', null);
-INSERT INTO bus_routes VALUES('140',2,5,'4426', null);
-INSERT INTO bus_routes VALUES('140',2,6,'4424', null);
-INSERT INTO bus_routes VALUES('140',2,7,'994', null);
-INSERT INTO bus_routes VALUES('140',2,8,'2491', null);
-INSERT INTO bus_routes VALUES('140',2,9,'2489', null);
-INSERT INTO bus_routes VALUES('140',2,10,'4783', null);
-INSERT INTO bus_routes VALUES('140',2,11,'4784', null);
-INSERT INTO bus_routes VALUES('140',2,12,'4420', null);
-INSERT INTO bus_routes VALUES('140',2,13,'4418', null);
-INSERT INTO bus_routes VALUES('140',2,14,'4416', null);
-INSERT INTO bus_routes VALUES('140',2,15,'4414', null);
-INSERT INTO bus_routes VALUES('140',2,16,'4412', null);
-INSERT INTO bus_routes VALUES('140',2,17,'4410', null);
-INSERT INTO bus_routes VALUES('140',2,18,'4408', null);
-INSERT INTO bus_routes VALUES('140',2,19,'4611', null);
-INSERT INTO bus_routes VALUES('140',2,20,'4509', null);
-INSERT INTO bus_routes VALUES('140',2,21,'4507', null);
-INSERT INTO bus_routes VALUES('140',2,22,'4400', null);
-INSERT INTO bus_routes VALUES('140',2,23,'4655', null);
-INSERT INTO bus_routes VALUES('140',2,24,'4762', null);
-INSERT INTO bus_routes VALUES('140',2,25,'5362', null);
-INSERT INTO bus_routes VALUES('140',2,26,'4396', null);
-INSERT INTO bus_routes VALUES('140',2,27,'1059', null);
-INSERT INTO bus_routes VALUES('140',2,28,'1057', null);
-INSERT INTO bus_routes VALUES('140',2,29,'1055', null);
-INSERT INTO bus_routes VALUES('140',2,30,'3029', null);
-INSERT INTO bus_routes VALUES('141',1,1,'5717', null);
-INSERT INTO bus_routes VALUES('141',1,2,'1402', null);
-INSERT INTO bus_routes VALUES('141',1,3,'1404', null);
-INSERT INTO bus_routes VALUES('141',1,4,'1406', null);
-INSERT INTO bus_routes VALUES('141',1,5,'1408', null);
-INSERT INTO bus_routes VALUES('141',1,6,'1410', null);
-INSERT INTO bus_routes VALUES('141',1,7,'2058', null);
-INSERT INTO bus_routes VALUES('141',1,8,'4325', null);
-INSERT INTO bus_routes VALUES('141',1,9,'1980', null);
-INSERT INTO bus_routes VALUES('141',1,10,'3314', null);
-INSERT INTO bus_routes VALUES('141',1,11,'3315', null);
-INSERT INTO bus_routes VALUES('141',1,12,'3330', null);
-INSERT INTO bus_routes VALUES('141',1,13,'3317', null);
-INSERT INTO bus_routes VALUES('141',1,14,'3333', null);
-INSERT INTO bus_routes VALUES('141',1,15,'3319', null);
-INSERT INTO bus_routes VALUES('141',1,16,'3321', null);
-INSERT INTO bus_routes VALUES('141',1,17,'3323', null);
-INSERT INTO bus_routes VALUES('141',1,18,'3325', null);
-INSERT INTO bus_routes VALUES('141',1,19,'3327', null);
-INSERT INTO bus_routes VALUES('141',1,20,'2517', null);
-INSERT INTO bus_routes VALUES('141',1,21,'5671', null);
-INSERT INTO bus_routes VALUES('141',2,1,'5671', null);
-INSERT INTO bus_routes VALUES('141',2,2,'2516', null);
-INSERT INTO bus_routes VALUES('141',2,3,'3328', null);
-INSERT INTO bus_routes VALUES('141',2,4,'3326', null);
-INSERT INTO bus_routes VALUES('141',2,5,'3324', null);
-INSERT INTO bus_routes VALUES('141',2,6,'3322', null);
-INSERT INTO bus_routes VALUES('141',2,7,'3320', null);
-INSERT INTO bus_routes VALUES('141',2,8,'3318', null);
-INSERT INTO bus_routes VALUES('141',2,9,'3332', null);
-INSERT INTO bus_routes VALUES('141',2,10,'3331', null);
-INSERT INTO bus_routes VALUES('141',2,11,'3316', null);
-INSERT INTO bus_routes VALUES('141',2,12,'3329', null);
-INSERT INTO bus_routes VALUES('141',2,13,'1981', null);
-INSERT INTO bus_routes VALUES('141',2,14,'1979', null);
-INSERT INTO bus_routes VALUES('141',2,15,'2057', null);
-INSERT INTO bus_routes VALUES('141',2,16,'1411', null);
-INSERT INTO bus_routes VALUES('141',2,17,'1409', null);
-INSERT INTO bus_routes VALUES('141',2,18,'1407', null);
-INSERT INTO bus_routes VALUES('141',2,19,'1405', null);
-INSERT INTO bus_routes VALUES('141',2,20,'1403', null);
-INSERT INTO bus_routes VALUES('141',2,21,'5717', null);
-INSERT INTO bus_routes VALUES('142',1,1,'3030', null);
-INSERT INTO bus_routes VALUES('142',1,2,'3026', null);
-INSERT INTO bus_routes VALUES('142',1,3,'3336', null);
-INSERT INTO bus_routes VALUES('142',1,4,'3335', null);
-INSERT INTO bus_routes VALUES('142',1,5,'2522', null);
-INSERT INTO bus_routes VALUES('142',1,6,'3338', null);
-INSERT INTO bus_routes VALUES('142',1,7,'1015', null);
-INSERT INTO bus_routes VALUES('142',1,8,'1017', null);
-INSERT INTO bus_routes VALUES('142',1,9,'1019', null);
-INSERT INTO bus_routes VALUES('142',1,10,'4680', null);
-INSERT INTO bus_routes VALUES('142',1,11,'1023', null);
-INSERT INTO bus_routes VALUES('142',1,12,'4682', null);
-INSERT INTO bus_routes VALUES('142',1,13,'1027', null);
-INSERT INTO bus_routes VALUES('142',1,14,'5163', null);
-INSERT INTO bus_routes VALUES('142',1,15,'4368', null);
-INSERT INTO bus_routes VALUES('142',1,16,'4696', null);
-INSERT INTO bus_routes VALUES('142',1,17,'3339', null);
-INSERT INTO bus_routes VALUES('142',1,18,'3340', null);
-INSERT INTO bus_routes VALUES('142',1,19,'3341', null);
-INSERT INTO bus_routes VALUES('142',1,20,'3342', null);
-INSERT INTO bus_routes VALUES('142',1,21,'4689', null);
-INSERT INTO bus_routes VALUES('142',1,22,'3946', null);
-INSERT INTO bus_routes VALUES('142',1,23,'3947', null);
-INSERT INTO bus_routes VALUES('142',1,24,'3949', null);
-INSERT INTO bus_routes VALUES('142',1,25,'3847', null);
-INSERT INTO bus_routes VALUES('142',1,26,'3951', null);
-INSERT INTO bus_routes VALUES('142',1,27,'3953', null);
-INSERT INTO bus_routes VALUES('142',1,28,'3955', null);
-INSERT INTO bus_routes VALUES('142',1,29,'4315', null);
-INSERT INTO bus_routes VALUES('142',1,30,'3851', null);
-INSERT INTO bus_routes VALUES('142',1,31,'3853', null);
-INSERT INTO bus_routes VALUES('142',1,32,'3855', null);
-INSERT INTO bus_routes VALUES('142',1,33,'3964', null);
-INSERT INTO bus_routes VALUES('142',1,34,'3965', null);
-INSERT INTO bus_routes VALUES('142',1,35,'3935', null);
-INSERT INTO bus_routes VALUES('142',2,1,'3935', null);
-INSERT INTO bus_routes VALUES('142',2,2,'3966', null);
-INSERT INTO bus_routes VALUES('142',2,3,'4317', null);
-INSERT INTO bus_routes VALUES('142',2,4,'3854', null);
-INSERT INTO bus_routes VALUES('142',2,5,'4318', null);
-INSERT INTO bus_routes VALUES('142',2,6,'4112', null);
-INSERT INTO bus_routes VALUES('142',2,7,'3956', null);
-INSERT INTO bus_routes VALUES('142',2,8,'3954', null);
-INSERT INTO bus_routes VALUES('142',2,9,'3952', null);
-INSERT INTO bus_routes VALUES('142',2,10,'3848', null);
-INSERT INTO bus_routes VALUES('142',2,11,'3950', null);
-INSERT INTO bus_routes VALUES('142',2,12,'4223', null);
-INSERT INTO bus_routes VALUES('142',2,13,'3948', null);
-INSERT INTO bus_routes VALUES('142',2,14,'5052', null);
-INSERT INTO bus_routes VALUES('142',2,15,'5053', null);
-INSERT INTO bus_routes VALUES('142',2,16,'4698', null);
-INSERT INTO bus_routes VALUES('142',2,17,'4699', null);
-INSERT INTO bus_routes VALUES('142',2,18,'4700', null);
-INSERT INTO bus_routes VALUES('142',2,19,'4701', null);
-INSERT INTO bus_routes VALUES('142',2,20,'1051', null);
-INSERT INTO bus_routes VALUES('142',2,21,'1031', null);
-INSERT INTO bus_routes VALUES('142',2,22,'4367', null);
-INSERT INTO bus_routes VALUES('142',2,23,'4683', null);
-INSERT INTO bus_routes VALUES('142',2,24,'1024', null);
-INSERT INTO bus_routes VALUES('142',2,25,'4681', null);
-INSERT INTO bus_routes VALUES('142',2,26,'1020', null);
-INSERT INTO bus_routes VALUES('142',2,27,'1018', null);
-INSERT INTO bus_routes VALUES('142',2,28,'1016', null);
-INSERT INTO bus_routes VALUES('142',2,29,'3337', null);
-INSERT INTO bus_routes VALUES('142',2,30,'2523', null);
-INSERT INTO bus_routes VALUES('142',2,31,'847', null);
-INSERT INTO bus_routes VALUES('142',2,32,'848', null);
-INSERT INTO bus_routes VALUES('142',2,33,'3334', null);
-INSERT INTO bus_routes VALUES('142',2,34,'3030', null);
-INSERT INTO bus_routes VALUES('143',1,1,'147', null);
-INSERT INTO bus_routes VALUES('143',1,2,'1427', null);
-INSERT INTO bus_routes VALUES('143',1,3,'148', null);
-INSERT INTO bus_routes VALUES('143',1,4,'150', null);
-INSERT INTO bus_routes VALUES('143',1,5,'1256', null);
-INSERT INTO bus_routes VALUES('143',1,6,'4712', null);
-INSERT INTO bus_routes VALUES('143',1,7,'4714', null);
-INSERT INTO bus_routes VALUES('143',1,8,'1431', null);
-INSERT INTO bus_routes VALUES('143',1,9,'1433', null);
-INSERT INTO bus_routes VALUES('143',1,10,'2603', null);
-INSERT INTO bus_routes VALUES('143',1,11,'2605', null);
-INSERT INTO bus_routes VALUES('143',1,12,'2606', null);
-INSERT INTO bus_routes VALUES('143',1,13,'2607', null);
-INSERT INTO bus_routes VALUES('143',1,14,'3355', null);
-INSERT INTO bus_routes VALUES('143',1,15,'2517', null);
-INSERT INTO bus_routes VALUES('143',1,16,'2515', null);
-INSERT INTO bus_routes VALUES('143',1,17,'1011', null);
-INSERT INTO bus_routes VALUES('143',1,18,'1013', null);
-INSERT INTO bus_routes VALUES('143',1,19,'1015', null);
-INSERT INTO bus_routes VALUES('143',1,20,'1017', null);
-INSERT INTO bus_routes VALUES('143',1,21,'1019', null);
-INSERT INTO bus_routes VALUES('143',1,22,'4680', null);
-INSERT INTO bus_routes VALUES('143',1,23,'1023', null);
-INSERT INTO bus_routes VALUES('143',1,24,'4682', null);
-INSERT INTO bus_routes VALUES('143',1,25,'1027', null);
-INSERT INTO bus_routes VALUES('143',1,26,'5163', null);
-INSERT INTO bus_routes VALUES('143',1,27,'1030', null);
-INSERT INTO bus_routes VALUES('143',2,1,'1030', null);
-INSERT INTO bus_routes VALUES('143',2,2,'4367', null);
-INSERT INTO bus_routes VALUES('143',2,3,'4683', null);
-INSERT INTO bus_routes VALUES('143',2,4,'1024', null);
-INSERT INTO bus_routes VALUES('143',2,5,'4681', null);
-INSERT INTO bus_routes VALUES('143',2,6,'1020', null);
-INSERT INTO bus_routes VALUES('143',2,7,'1018', null);
-INSERT INTO bus_routes VALUES('143',2,8,'1016', null);
-INSERT INTO bus_routes VALUES('143',2,9,'1014', null);
-INSERT INTO bus_routes VALUES('143',2,10,'1012', null);
-INSERT INTO bus_routes VALUES('143',2,11,'2514', null);
-INSERT INTO bus_routes VALUES('143',2,12,'2516', null);
-INSERT INTO bus_routes VALUES('143',2,13,'3356', null);
-INSERT INTO bus_routes VALUES('143',2,14,'4601', null);
-INSERT INTO bus_routes VALUES('143',2,15,'2611', null);
-INSERT INTO bus_routes VALUES('143',2,16,'4539', null);
-INSERT INTO bus_routes VALUES('143',2,17,'1434', null);
-INSERT INTO bus_routes VALUES('143',2,18,'1432', null);
-INSERT INTO bus_routes VALUES('143',2,19,'4715', null);
-INSERT INTO bus_routes VALUES('143',2,20,'4713', null);
-INSERT INTO bus_routes VALUES('143',2,21,'1257', null);
-INSERT INTO bus_routes VALUES('143',2,22,'5822', null);
-INSERT INTO bus_routes VALUES('143',2,23,'151', null);
-INSERT INTO bus_routes VALUES('143',2,24,'149', null);
-INSERT INTO bus_routes VALUES('143',2,25,'1428', null);
-INSERT INTO bus_routes VALUES('143',2,26,'147', null);
-INSERT INTO bus_routes VALUES('144',1,1,'3035', null);
-INSERT INTO bus_routes VALUES('144',1,2,'3026', null);
-INSERT INTO bus_routes VALUES('144',1,3,'3336', null);
-INSERT INTO bus_routes VALUES('144',1,4,'3335', null);
-INSERT INTO bus_routes VALUES('144',1,5,'2522', null);
-INSERT INTO bus_routes VALUES('144',1,6,'2524', null);
-INSERT INTO bus_routes VALUES('144',1,7,'2526', null);
-INSERT INTO bus_routes VALUES('144',1,8,'2532', null);
-INSERT INTO bus_routes VALUES('144',1,9,'3343', null);
-INSERT INTO bus_routes VALUES('144',1,10,'3345', null);
-INSERT INTO bus_routes VALUES('144',1,11,'2081', null);
-INSERT INTO bus_routes VALUES('144',1,12,'2083', null);
-INSERT INTO bus_routes VALUES('144',1,13,'2085', null);
-INSERT INTO bus_routes VALUES('144',1,14,'2581', null);
-INSERT INTO bus_routes VALUES('144',1,15,'3304', null);
-INSERT INTO bus_routes VALUES('144',1,16,'2579', null);
-INSERT INTO bus_routes VALUES('144',1,17,'2580', null);
-INSERT INTO bus_routes VALUES('144',1,18,'2574', null);
-INSERT INTO bus_routes VALUES('144',1,19,'2572', null);
-INSERT INTO bus_routes VALUES('144',1,20,'2570', null);
-INSERT INTO bus_routes VALUES('144',1,21,'2568', null);
-INSERT INTO bus_routes VALUES('144',1,22,'1111', null);
-INSERT INTO bus_routes VALUES('144',1,23,'1112', null);
-INSERT INTO bus_routes VALUES('144',1,24,'1113', null);
-INSERT INTO bus_routes VALUES('144',1,25,'1114', null);
-INSERT INTO bus_routes VALUES('144',1,26,'4743', null);
-INSERT INTO bus_routes VALUES('144',1,27,'4751', null);
-INSERT INTO bus_routes VALUES('144',2,1,'4751', null);
-INSERT INTO bus_routes VALUES('144',2,2,'1099', null);
-INSERT INTO bus_routes VALUES('144',2,3,'1100', null);
-INSERT INTO bus_routes VALUES('144',2,4,'3347', null);
-INSERT INTO bus_routes VALUES('144',2,5,'4597', null);
-INSERT INTO bus_routes VALUES('144',2,6,'4598', null);
-INSERT INTO bus_routes VALUES('144',2,7,'2575', null);
-INSERT INTO bus_routes VALUES('144',2,8,'2576', null);
-INSERT INTO bus_routes VALUES('144',2,9,'3307', null);
-INSERT INTO bus_routes VALUES('144',2,10,'3305', null);
-INSERT INTO bus_routes VALUES('144',2,11,'2088', null);
-INSERT INTO bus_routes VALUES('144',2,12,'2086', null);
-INSERT INTO bus_routes VALUES('144',2,13,'2084', null);
-INSERT INTO bus_routes VALUES('144',2,14,'2082', null);
-INSERT INTO bus_routes VALUES('144',2,15,'3346', null);
-INSERT INTO bus_routes VALUES('144',2,16,'3344', null);
-INSERT INTO bus_routes VALUES('144',2,17,'2533', null);
-INSERT INTO bus_routes VALUES('144',2,18,'2527', null);
-INSERT INTO bus_routes VALUES('144',2,19,'2525', null);
-INSERT INTO bus_routes VALUES('144',2,20,'2523', null);
-INSERT INTO bus_routes VALUES('144',2,21,'847', null);
-INSERT INTO bus_routes VALUES('144',2,22,'848', null);
-INSERT INTO bus_routes VALUES('144',2,23,'3334', null);
-INSERT INTO bus_routes VALUES('144',2,24,'3035', null);
-INSERT INTO bus_routes VALUES('145',1,1,'4218', null);
-INSERT INTO bus_routes VALUES('145',1,2,'2603', null);
-INSERT INTO bus_routes VALUES('145',1,3,'3350', null);
-INSERT INTO bus_routes VALUES('145',1,4,'3351', null);
-INSERT INTO bus_routes VALUES('145',1,5,'3353', null);
-INSERT INTO bus_routes VALUES('145',1,6,'5150', null);
-INSERT INTO bus_routes VALUES('145',1,7,'2612', null);
-INSERT INTO bus_routes VALUES('145',1,8,'2622', null);
-INSERT INTO bus_routes VALUES('145',1,9,'3967', null);
-INSERT INTO bus_routes VALUES('145',1,10,'3968', null);
-INSERT INTO bus_routes VALUES('145',1,11,'3969', null);
-INSERT INTO bus_routes VALUES('145',1,12,'2618', null);
-INSERT INTO bus_routes VALUES('145',1,13,'2617', null);
-INSERT INTO bus_routes VALUES('145',1,14,'3970', null);
-INSERT INTO bus_routes VALUES('145',1,15,'3972', null);
-INSERT INTO bus_routes VALUES('145',1,16,'3975', null);
-INSERT INTO bus_routes VALUES('145',1,17,'3977', null);
-INSERT INTO bus_routes VALUES('145',1,18,'3979', null);
-INSERT INTO bus_routes VALUES('145',1,19,'3849', null);
-INSERT INTO bus_routes VALUES('145',1,20,'4319', null);
-INSERT INTO bus_routes VALUES('145',1,21,'3957', null);
-INSERT INTO bus_routes VALUES('145',1,22,'3959', null);
-INSERT INTO bus_routes VALUES('145',1,23,'4321', null);
-INSERT INTO bus_routes VALUES('145',1,24,'5859', null);
-INSERT INTO bus_routes VALUES('145',1,25,'4322', null);
-INSERT INTO bus_routes VALUES('145',1,26,'4326', null);
-INSERT INTO bus_routes VALUES('145',1,27,'3935', null);
-INSERT INTO bus_routes VALUES('145',2,1,'3935', null);
-INSERT INTO bus_routes VALUES('145',2,2,'4327', null);
-INSERT INTO bus_routes VALUES('145',2,3,'5531', null);
-INSERT INTO bus_routes VALUES('145',2,4,'5536', null);
-INSERT INTO bus_routes VALUES('145',2,5,'4242', null);
-INSERT INTO bus_routes VALUES('145',2,6,'4112', null);
-INSERT INTO bus_routes VALUES('145',2,7,'4315', null);
-INSERT INTO bus_routes VALUES('145',2,8,'4320', null);
-INSERT INTO bus_routes VALUES('145',2,9,'3850', null);
-INSERT INTO bus_routes VALUES('145',2,10,'3980', null);
-INSERT INTO bus_routes VALUES('145',2,11,'3978', null);
-INSERT INTO bus_routes VALUES('145',2,12,'3976', null);
-INSERT INTO bus_routes VALUES('145',2,13,'3973', null);
-INSERT INTO bus_routes VALUES('145',2,14,'2616', null);
-INSERT INTO bus_routes VALUES('145',2,15,'2615', null);
-INSERT INTO bus_routes VALUES('145',2,16,'4788', null);
-INSERT INTO bus_routes VALUES('145',2,17,'2614', null);
-INSERT INTO bus_routes VALUES('145',2,18,'2623', null);
-INSERT INTO bus_routes VALUES('145',2,19,'2613', null);
-INSERT INTO bus_routes VALUES('145',2,20,'4283', null);
-INSERT INTO bus_routes VALUES('145',2,21,'3352', null);
-INSERT INTO bus_routes VALUES('145',2,22,'2611', null);
-INSERT INTO bus_routes VALUES('145',2,23,'4539', null);
-INSERT INTO bus_routes VALUES('145',2,24,'4218', null);
-INSERT INTO bus_routes VALUES('146',1,1,'5568', null);
-INSERT INTO bus_routes VALUES('146',1,2,'169', null);
-INSERT INTO bus_routes VALUES('146',1,3,'723', null);
-INSERT INTO bus_routes VALUES('146',1,4,'724', null);
-INSERT INTO bus_routes VALUES('146',1,5,'5138', null);
-INSERT INTO bus_routes VALUES('146',1,6,'164', null);
-INSERT INTO bus_routes VALUES('146',1,7,'90', null);
-INSERT INTO bus_routes VALUES('146',1,8,'70', null);
-INSERT INTO bus_routes VALUES('146',1,9,'162', null);
-INSERT INTO bus_routes VALUES('146',1,10,'751', null);
-INSERT INTO bus_routes VALUES('146',1,11,'753', null);
-INSERT INTO bus_routes VALUES('146',1,12,'678', null);
-INSERT INTO bus_routes VALUES('146',1,13,'680', null);
-INSERT INTO bus_routes VALUES('146',1,14,'682', null);
-INSERT INTO bus_routes VALUES('146',1,15,'685', null);
-INSERT INTO bus_routes VALUES('146',1,16,'756', null);
-INSERT INTO bus_routes VALUES('146',1,17,'758', null);
-INSERT INTO bus_routes VALUES('146',1,18,'760', null);
-INSERT INTO bus_routes VALUES('146',1,19,'762', null);
-INSERT INTO bus_routes VALUES('146',1,20,'764', null);
-INSERT INTO bus_routes VALUES('146',1,21,'766', null);
-INSERT INTO bus_routes VALUES('146',1,22,'768', null);
-INSERT INTO bus_routes VALUES('146',1,23,'769', null);
-INSERT INTO bus_routes VALUES('146',1,24,'771', null);
-INSERT INTO bus_routes VALUES('146',1,25,'773', null);
-INSERT INTO bus_routes VALUES('146',1,26,'4428', null);
-INSERT INTO bus_routes VALUES('146',1,27,'4430', null);
-INSERT INTO bus_routes VALUES('146',1,28,'4432', null);
-INSERT INTO bus_routes VALUES('146',1,29,'3111', null);
-INSERT INTO bus_routes VALUES('146',1,30,'3113', null);
-INSERT INTO bus_routes VALUES('146',1,31,'3116', null);
-INSERT INTO bus_routes VALUES('146',1,32,'4434', null);
-INSERT INTO bus_routes VALUES('146',1,33,'4510', null);
-INSERT INTO bus_routes VALUES('146',2,1,'4510', null);
-INSERT INTO bus_routes VALUES('146',2,2,'3115', null);
-INSERT INTO bus_routes VALUES('146',2,3,'3114', null);
-INSERT INTO bus_routes VALUES('146',2,4,'3112', null);
-INSERT INTO bus_routes VALUES('146',2,5,'4433', null);
-INSERT INTO bus_routes VALUES('146',2,6,'4431', null);
-INSERT INTO bus_routes VALUES('146',2,7,'4429', null);
-INSERT INTO bus_routes VALUES('146',2,8,'4511', null);
-INSERT INTO bus_routes VALUES('146',2,9,'770', null);
-INSERT INTO bus_routes VALUES('146',2,10,'577', null);
-INSERT INTO bus_routes VALUES('146',2,11,'776', null);
-INSERT INTO bus_routes VALUES('146',2,12,'777', null);
-INSERT INTO bus_routes VALUES('146',2,13,'763', null);
-INSERT INTO bus_routes VALUES('146',2,14,'761', null);
-INSERT INTO bus_routes VALUES('146',2,15,'759', null);
-INSERT INTO bus_routes VALUES('146',2,16,'757', null);
-INSERT INTO bus_routes VALUES('146',2,17,'5146', null);
-INSERT INTO bus_routes VALUES('146',2,18,'684', null);
-INSERT INTO bus_routes VALUES('146',2,19,'683', null);
-INSERT INTO bus_routes VALUES('146',2,20,'681', null);
-INSERT INTO bus_routes VALUES('146',2,21,'679', null);
-INSERT INTO bus_routes VALUES('146',2,22,'754', null);
-INSERT INTO bus_routes VALUES('146',2,23,'778', null);
-INSERT INTO bus_routes VALUES('146',2,24,'4055', null);
-INSERT INTO bus_routes VALUES('146',2,25,'161', null);
-INSERT INTO bus_routes VALUES('146',2,26,'69', null);
-INSERT INTO bus_routes VALUES('146',2,27,'5135', null);
-INSERT INTO bus_routes VALUES('146',2,28,'5137', null);
-INSERT INTO bus_routes VALUES('146',2,29,'4094', null);
-INSERT INTO bus_routes VALUES('146',2,30,'9', null);
-INSERT INTO bus_routes VALUES('146',2,31,'5568', null);
-INSERT INTO bus_routes VALUES('147',1,1,'5570', null);
-INSERT INTO bus_routes VALUES('147',1,2,'168', null);
-INSERT INTO bus_routes VALUES('147',1,3,'1765', null);
-INSERT INTO bus_routes VALUES('147',1,4,'1767', null);
-INSERT INTO bus_routes VALUES('147',1,5,'1769', null);
-INSERT INTO bus_routes VALUES('147',1,6,'1771', null);
-INSERT INTO bus_routes VALUES('147',1,7,'2967', null);
-INSERT INTO bus_routes VALUES('147',1,8,'3555', null);
-INSERT INTO bus_routes VALUES('147',1,9,'284', null);
-INSERT INTO bus_routes VALUES('147',1,10,'286', null);
-INSERT INTO bus_routes VALUES('147',1,11,'288', null);
-INSERT INTO bus_routes VALUES('147',1,12,'529', null);
-INSERT INTO bus_routes VALUES('147',1,13,'58', null);
-INSERT INTO bus_routes VALUES('147',1,14,'56', null);
-INSERT INTO bus_routes VALUES('147',1,15,'54', null);
-INSERT INTO bus_routes VALUES('147',1,16,'52', null);
-INSERT INTO bus_routes VALUES('147',1,17,'50', null);
-INSERT INTO bus_routes VALUES('147',1,18,'47', null);
-INSERT INTO bus_routes VALUES('147',1,19,'42', null);
-INSERT INTO bus_routes VALUES('147',1,20,'44', null);
-INSERT INTO bus_routes VALUES('147',1,21,'39', null);
-INSERT INTO bus_routes VALUES('147',1,22,'37', null);
-INSERT INTO bus_routes VALUES('147',1,23,'35', null);
-INSERT INTO bus_routes VALUES('147',1,24,'33', null);
-INSERT INTO bus_routes VALUES('147',1,25,'29', null);
-INSERT INTO bus_routes VALUES('147',1,26,'1486', null);
-INSERT INTO bus_routes VALUES('147',1,27,'1487', null);
-INSERT INTO bus_routes VALUES('147',1,28,'3826', null);
-INSERT INTO bus_routes VALUES('147',1,29,'4156', null);
-INSERT INTO bus_routes VALUES('147',1,30,'1490', null);
-INSERT INTO bus_routes VALUES('147',1,31,'1492', null);
-INSERT INTO bus_routes VALUES('147',1,32,'1776', null);
-INSERT INTO bus_routes VALUES('147',1,33,'4754', null);
-INSERT INTO bus_routes VALUES('147',1,34,'1780', null);
-INSERT INTO bus_routes VALUES('147',1,35,'1781', null);
-INSERT INTO bus_routes VALUES('147',1,36,'1783', null);
-INSERT INTO bus_routes VALUES('147',1,37,'1505', null);
-INSERT INTO bus_routes VALUES('147',1,38,'1507', null);
-INSERT INTO bus_routes VALUES('147',1,39,'1785', null);
-INSERT INTO bus_routes VALUES('147',2,1,'1785', null);
-INSERT INTO bus_routes VALUES('147',2,2,'1786', null);
-INSERT INTO bus_routes VALUES('147',2,3,'1506', null);
-INSERT INTO bus_routes VALUES('147',2,4,'1784', null);
-INSERT INTO bus_routes VALUES('147',2,5,'1782', null);
-INSERT INTO bus_routes VALUES('147',2,6,'1778', null);
-INSERT INTO bus_routes VALUES('147',2,7,'1777', null);
-INSERT INTO bus_routes VALUES('147',2,8,'1493', null);
-INSERT INTO bus_routes VALUES('147',2,9,'1491', null);
-INSERT INTO bus_routes VALUES('147',2,10,'1525', null);
-INSERT INTO bus_routes VALUES('147',2,11,'1526', null);
-INSERT INTO bus_routes VALUES('147',2,12,'1527', null);
-INSERT INTO bus_routes VALUES('147',2,13,'3568', null);
-INSERT INTO bus_routes VALUES('147',2,14,'28', null);
-INSERT INTO bus_routes VALUES('147',2,15,'32', null);
-INSERT INTO bus_routes VALUES('147',2,16,'34', null);
-INSERT INTO bus_routes VALUES('147',2,17,'36', null);
-INSERT INTO bus_routes VALUES('147',2,18,'38', null);
-INSERT INTO bus_routes VALUES('147',2,19,'41', null);
-INSERT INTO bus_routes VALUES('147',2,20,'46', null);
-INSERT INTO bus_routes VALUES('147',2,21,'48', null);
-INSERT INTO bus_routes VALUES('147',2,22,'49', null);
-INSERT INTO bus_routes VALUES('147',2,23,'51', null);
-INSERT INTO bus_routes VALUES('147',2,24,'53', null);
-INSERT INTO bus_routes VALUES('147',2,25,'4742', null);
-INSERT INTO bus_routes VALUES('147',2,26,'4338', null);
-INSERT INTO bus_routes VALUES('147',2,27,'316', null);
-INSERT INTO bus_routes VALUES('147',2,28,'287', null);
-INSERT INTO bus_routes VALUES('147',2,29,'317', null);
-INSERT INTO bus_routes VALUES('147',2,30,'285', null);
-INSERT INTO bus_routes VALUES('147',2,31,'1774', null);
-INSERT INTO bus_routes VALUES('147',2,32,'1226', null);
-INSERT INTO bus_routes VALUES('147',2,33,'3493', null);
-INSERT INTO bus_routes VALUES('147',2,34,'1772', null);
-INSERT INTO bus_routes VALUES('147',2,35,'1770', null);
-INSERT INTO bus_routes VALUES('147',2,36,'1768', null);
-INSERT INTO bus_routes VALUES('147',2,37,'1766', null);
-INSERT INTO bus_routes VALUES('147',2,38,'5570', null);
-INSERT INTO bus_routes VALUES('148',1,1,'5571', null);
-INSERT INTO bus_routes VALUES('148',1,2,'168', null);
-INSERT INTO bus_routes VALUES('148',1,3,'170', null);
-INSERT INTO bus_routes VALUES('148',1,4,'854', null);
-INSERT INTO bus_routes VALUES('148',1,5,'1875', null);
-INSERT INTO bus_routes VALUES('148',1,6,'1877', null);
-INSERT INTO bus_routes VALUES('148',1,7,'1879', null);
-INSERT INTO bus_routes VALUES('148',1,8,'1881', null);
-INSERT INTO bus_routes VALUES('148',1,9,'1883', null);
-INSERT INTO bus_routes VALUES('148',1,10,'2358', null);
-INSERT INTO bus_routes VALUES('148',1,11,'2356', null);
-INSERT INTO bus_routes VALUES('148',1,12,'2591', null);
-INSERT INTO bus_routes VALUES('148',1,13,'2818', null);
-INSERT INTO bus_routes VALUES('148',1,14,'1928', null);
-INSERT INTO bus_routes VALUES('148',1,15,'1931', null);
-INSERT INTO bus_routes VALUES('148',1,16,'1933', null);
-INSERT INTO bus_routes VALUES('148',1,17,'1122', null);
-INSERT INTO bus_routes VALUES('148',1,18,'1124', null);
-INSERT INTO bus_routes VALUES('148',1,19,'3201', null);
-INSERT INTO bus_routes VALUES('148',1,20,'3201', null);
-INSERT INTO bus_routes VALUES('148',1,21,'5054', null);
-INSERT INTO bus_routes VALUES('148',1,22,'2905', null);
-INSERT INTO bus_routes VALUES('148',1,23,'3359', null);
-INSERT INTO bus_routes VALUES('148',1,24,'4100', null);
-INSERT INTO bus_routes VALUES('148',1,25,'3365', null);
-INSERT INTO bus_routes VALUES('148',1,26,'2917', null);
-INSERT INTO bus_routes VALUES('148',1,27,'2920', null);
-INSERT INTO bus_routes VALUES('148',1,28,'3368', null);
-INSERT INTO bus_routes VALUES('148',1,29,'4975', null);
-INSERT INTO bus_routes VALUES('148',1,30,'3662', null);
-INSERT INTO bus_routes VALUES('148',2,1,'3662', null);
-INSERT INTO bus_routes VALUES('148',2,2,'3371', null);
-INSERT INTO bus_routes VALUES('148',2,3,'4976', null);
-INSERT INTO bus_routes VALUES('148',2,4,'3369', null);
-INSERT INTO bus_routes VALUES('148',2,5,'92', null);
-INSERT INTO bus_routes VALUES('148',2,6,'3367', null);
-INSERT INTO bus_routes VALUES('148',2,7,'3366', null);
-INSERT INTO bus_routes VALUES('148',2,8,'4101', null);
-INSERT INTO bus_routes VALUES('148',2,9,'3360', null);
-INSERT INTO bus_routes VALUES('148',2,10,'2906', null);
-INSERT INTO bus_routes VALUES('148',2,11,'5512', null);
-INSERT INTO bus_routes VALUES('148',2,12,'2916', null);
-INSERT INTO bus_routes VALUES('148',2,13,'1125', null);
-INSERT INTO bus_routes VALUES('148',2,14,'1123', null);
-INSERT INTO bus_routes VALUES('148',2,15,'1934', null);
-INSERT INTO bus_routes VALUES('148',2,16,'1932', null);
-INSERT INTO bus_routes VALUES('148',2,17,'3561', null);
-INSERT INTO bus_routes VALUES('148',2,18,'2819', null);
-INSERT INTO bus_routes VALUES('148',2,19,'2592', null);
-INSERT INTO bus_routes VALUES('148',2,20,'2355', null);
-INSERT INTO bus_routes VALUES('148',2,21,'2357', null);
-INSERT INTO bus_routes VALUES('148',2,22,'1884', null);
-INSERT INTO bus_routes VALUES('148',2,23,'1882', null);
-INSERT INTO bus_routes VALUES('148',2,24,'1880', null);
-INSERT INTO bus_routes VALUES('148',2,25,'1878', null);
-INSERT INTO bus_routes VALUES('148',2,26,'1876', null);
-INSERT INTO bus_routes VALUES('148',2,27,'855', null);
-INSERT INTO bus_routes VALUES('148',2,28,'5139', null);
-INSERT INTO bus_routes VALUES('148',2,29,'5571', null);
-INSERT INTO bus_routes VALUES('149',1,1,'4229', null);
-INSERT INTO bus_routes VALUES('149',1,2,'3374', null);
-INSERT INTO bus_routes VALUES('149',1,3,'3376', null);
-INSERT INTO bus_routes VALUES('149',1,4,'3378', null);
-INSERT INTO bus_routes VALUES('149',1,5,'1387', null);
-INSERT INTO bus_routes VALUES('149',1,6,'1395', null);
-INSERT INTO bus_routes VALUES('149',1,7,'5514', null);
-INSERT INTO bus_routes VALUES('149',1,8,'1397', null);
-INSERT INTO bus_routes VALUES('149',1,9,'1398', null);
-INSERT INTO bus_routes VALUES('149',1,10,'1399', null);
-INSERT INTO bus_routes VALUES('149',1,11,'1420', null);
-INSERT INTO bus_routes VALUES('149',1,12,'2693', null);
-INSERT INTO bus_routes VALUES('149',1,13,'3380', null);
-INSERT INTO bus_routes VALUES('149',1,14,'1904', null);
-INSERT INTO bus_routes VALUES('149',1,15,'1906', null);
-INSERT INTO bus_routes VALUES('149',1,16,'3381', null);
-INSERT INTO bus_routes VALUES('149',1,17,'3382', null);
-INSERT INTO bus_routes VALUES('149',1,18,'3383', null);
-INSERT INTO bus_routes VALUES('149',1,19,'3384', null);
-INSERT INTO bus_routes VALUES('149',1,20,'3385', null);
-INSERT INTO bus_routes VALUES('149',1,21,'4340', null);
-INSERT INTO bus_routes VALUES('149',1,22,'1531', null);
-INSERT INTO bus_routes VALUES('149',2,1,'1531', null);
-INSERT INTO bus_routes VALUES('149',2,2,'4615', null);
-INSERT INTO bus_routes VALUES('149',2,3,'3387', null);
-INSERT INTO bus_routes VALUES('149',2,4,'3388', null);
-INSERT INTO bus_routes VALUES('149',2,5,'1911', null);
-INSERT INTO bus_routes VALUES('149',2,6,'1908', null);
-INSERT INTO bus_routes VALUES('149',2,7,'1907', null);
-INSERT INTO bus_routes VALUES('149',2,8,'1905', null);
-INSERT INTO bus_routes VALUES('149',2,9,'1903', null);
-INSERT INTO bus_routes VALUES('149',2,10,'2694', null);
-INSERT INTO bus_routes VALUES('149',2,11,'5449', null);
-INSERT INTO bus_routes VALUES('149',2,12,'4494', null);
-INSERT INTO bus_routes VALUES('149',2,13,'1419', null);
-INSERT INTO bus_routes VALUES('149',2,14,'1382', null);
-INSERT INTO bus_routes VALUES('149',2,15,'4496', null);
-INSERT INTO bus_routes VALUES('149',2,16,'1383', null);
-INSERT INTO bus_routes VALUES('149',2,17,'1384', null);
-INSERT INTO bus_routes VALUES('149',2,18,'3389', null);
-INSERT INTO bus_routes VALUES('149',2,19,'3379', null);
-INSERT INTO bus_routes VALUES('149',2,20,'3377', null);
-INSERT INTO bus_routes VALUES('149',2,21,'3375', null);
-INSERT INTO bus_routes VALUES('149',2,22,'3373', null);
-INSERT INTO bus_routes VALUES('149',2,23,'4229', null);
-INSERT INTO bus_routes VALUES('15',1,1,'2711', null);
-INSERT INTO bus_routes VALUES('15',1,2,'5239', null);
-INSERT INTO bus_routes VALUES('15',1,3,'70', null);
-INSERT INTO bus_routes VALUES('15',1,4,'162', null);
-INSERT INTO bus_routes VALUES('15',1,5,'751', null);
-INSERT INTO bus_routes VALUES('15',1,6,'5093', null);
-INSERT INTO bus_routes VALUES('15',1,7,'2154', null);
-INSERT INTO bus_routes VALUES('15',1,8,'2156', null);
-INSERT INTO bus_routes VALUES('15',1,9,'2158', null);
-INSERT INTO bus_routes VALUES('15',1,10,'2160', null);
-INSERT INTO bus_routes VALUES('15',1,11,'2162', null);
-INSERT INTO bus_routes VALUES('15',1,12,'2164', null);
-INSERT INTO bus_routes VALUES('15',1,13,'2166', null);
-INSERT INTO bus_routes VALUES('15',1,14,'2168', null);
-INSERT INTO bus_routes VALUES('15',1,15,'958', null);
-INSERT INTO bus_routes VALUES('15',1,16,'960', null);
-INSERT INTO bus_routes VALUES('15',1,17,'962', null);
-INSERT INTO bus_routes VALUES('15',1,18,'4369', null);
-INSERT INTO bus_routes VALUES('15',1,19,'4474', null);
-INSERT INTO bus_routes VALUES('15',2,1,'4474', null);
-INSERT INTO bus_routes VALUES('15',2,2,'4370', null);
-INSERT INTO bus_routes VALUES('15',2,3,'965', null);
-INSERT INTO bus_routes VALUES('15',2,4,'963', null);
-INSERT INTO bus_routes VALUES('15',2,5,'961', null);
-INSERT INTO bus_routes VALUES('15',2,6,'959', null);
-INSERT INTO bus_routes VALUES('15',2,7,'2169', null);
-INSERT INTO bus_routes VALUES('15',2,8,'2167', null);
-INSERT INTO bus_routes VALUES('15',2,9,'2165', null);
-INSERT INTO bus_routes VALUES('15',2,10,'2163', null);
-INSERT INTO bus_routes VALUES('15',2,11,'2161', null);
-INSERT INTO bus_routes VALUES('15',2,12,'2159', null);
-INSERT INTO bus_routes VALUES('15',2,13,'2157', null);
-INSERT INTO bus_routes VALUES('15',2,14,'2155', null);
-INSERT INTO bus_routes VALUES('15',2,15,'5034', null);
-INSERT INTO bus_routes VALUES('15',2,16,'778', null);
-INSERT INTO bus_routes VALUES('15',2,17,'4055', null);
-INSERT INTO bus_routes VALUES('15',2,18,'161', null);
-INSERT INTO bus_routes VALUES('15',2,19,'69', null);
-INSERT INTO bus_routes VALUES('15',2,20,'3689', null);
-INSERT INTO bus_routes VALUES('15',2,21,'2711', null);
-INSERT INTO bus_routes VALUES('150',1,1,'5907', null);
-INSERT INTO bus_routes VALUES('150',1,2,'5239', null);
-INSERT INTO bus_routes VALUES('150',1,3,'72', null);
-INSERT INTO bus_routes VALUES('150',1,4,'72', null);
-INSERT INTO bus_routes VALUES('150',1,5,'65', null);
-INSERT INTO bus_routes VALUES('150',1,6,'66', null);
-INSERT INTO bus_routes VALUES('150',1,7,'66', null);
-INSERT INTO bus_routes VALUES('150',1,8,'62', null);
-INSERT INTO bus_routes VALUES('150',1,9,'60', null);
-INSERT INTO bus_routes VALUES('150',1,10,'5333', null);
-INSERT INTO bus_routes VALUES('150',1,11,'56', null);
-INSERT INTO bus_routes VALUES('150',1,12,'54', null);
-INSERT INTO bus_routes VALUES('150',1,13,'52', null);
-INSERT INTO bus_routes VALUES('150',1,14,'50', null);
-INSERT INTO bus_routes VALUES('150',1,15,'47', null);
-INSERT INTO bus_routes VALUES('150',1,16,'42', null);
-INSERT INTO bus_routes VALUES('150',1,17,'44', null);
-INSERT INTO bus_routes VALUES('150',1,18,'4709', null);
-INSERT INTO bus_routes VALUES('150',1,19,'98', null);
-INSERT INTO bus_routes VALUES('150',1,20,'100', null);
-INSERT INTO bus_routes VALUES('150',1,21,'102', null);
-INSERT INTO bus_routes VALUES('150',1,22,'104', null);
-INSERT INTO bus_routes VALUES('150',1,23,'106', null);
-INSERT INTO bus_routes VALUES('150',1,24,'108', null);
-INSERT INTO bus_routes VALUES('150',1,25,'110', null);
-INSERT INTO bus_routes VALUES('150',1,26,'112', null);
-INSERT INTO bus_routes VALUES('150',1,27,'115', null);
-INSERT INTO bus_routes VALUES('150',1,28,'117', null);
-INSERT INTO bus_routes VALUES('150',1,29,'119', null);
-INSERT INTO bus_routes VALUES('150',1,30,'3629', null);
-INSERT INTO bus_routes VALUES('150',1,31,'146', null);
-INSERT INTO bus_routes VALUES('150',1,32,'145', null);
-INSERT INTO bus_routes VALUES('150',1,33,'3594', null);
-INSERT INTO bus_routes VALUES('150',1,34,'126', null);
-INSERT INTO bus_routes VALUES('150',1,35,'128', null);
-INSERT INTO bus_routes VALUES('150',1,36,'130', null);
-INSERT INTO bus_routes VALUES('150',1,37,'132', null);
-INSERT INTO bus_routes VALUES('150',1,38,'134', null);
-INSERT INTO bus_routes VALUES('150',1,39,'136', null);
-INSERT INTO bus_routes VALUES('150',1,40,'138', null);
-INSERT INTO bus_routes VALUES('150',1,41,'140', null);
-INSERT INTO bus_routes VALUES('150',1,42,'5846', null);
-INSERT INTO bus_routes VALUES('150',1,43,'5661', null);
-INSERT INTO bus_routes VALUES('150',1,44,'5404', null);
-INSERT INTO bus_routes VALUES('150',1,45,'5405', null);
-INSERT INTO bus_routes VALUES('150',1,46,'5407', null);
-INSERT INTO bus_routes VALUES('150',2,1,'5407', null);
-INSERT INTO bus_routes VALUES('150',2,2,'5658', null);
-INSERT INTO bus_routes VALUES('150',2,3,'5659', null);
-INSERT INTO bus_routes VALUES('150',2,4,'3648', null);
-INSERT INTO bus_routes VALUES('150',2,5,'5660', null);
-INSERT INTO bus_routes VALUES('150',2,6,'139', null);
-INSERT INTO bus_routes VALUES('150',2,7,'137', null);
-INSERT INTO bus_routes VALUES('150',2,8,'135', null);
-INSERT INTO bus_routes VALUES('150',2,9,'133', null);
-INSERT INTO bus_routes VALUES('150',2,10,'131', null);
-INSERT INTO bus_routes VALUES('150',2,11,'129', null);
-INSERT INTO bus_routes VALUES('150',2,12,'127', null);
-INSERT INTO bus_routes VALUES('150',2,13,'125', null);
-INSERT INTO bus_routes VALUES('150',2,14,'124', null);
-INSERT INTO bus_routes VALUES('150',2,15,'123', null);
-INSERT INTO bus_routes VALUES('150',2,16,'120', null);
-INSERT INTO bus_routes VALUES('150',2,17,'118', null);
-INSERT INTO bus_routes VALUES('150',2,18,'116', null);
-INSERT INTO bus_routes VALUES('150',2,19,'114', null);
-INSERT INTO bus_routes VALUES('150',2,20,'535', null);
-INSERT INTO bus_routes VALUES('150',2,21,'109', null);
-INSERT INTO bus_routes VALUES('150',2,22,'107', null);
-INSERT INTO bus_routes VALUES('150',2,23,'105', null);
-INSERT INTO bus_routes VALUES('150',2,24,'103', null);
-INSERT INTO bus_routes VALUES('150',2,25,'101', null);
-INSERT INTO bus_routes VALUES('150',2,26,'99', null);
-INSERT INTO bus_routes VALUES('150',2,27,'97', null);
-INSERT INTO bus_routes VALUES('150',2,28,'4179', null);
-INSERT INTO bus_routes VALUES('150',2,29,'41', null);
-INSERT INTO bus_routes VALUES('150',2,30,'46', null);
-INSERT INTO bus_routes VALUES('150',2,31,'48', null);
-INSERT INTO bus_routes VALUES('150',2,32,'49', null);
-INSERT INTO bus_routes VALUES('150',2,33,'51', null);
-INSERT INTO bus_routes VALUES('150',2,34,'53', null);
-INSERT INTO bus_routes VALUES('150',2,35,'4337', null);
-INSERT INTO bus_routes VALUES('150',2,36,'57', null);
-INSERT INTO bus_routes VALUES('150',2,37,'59', null);
-INSERT INTO bus_routes VALUES('150',2,38,'61', null);
-INSERT INTO bus_routes VALUES('150',2,39,'63', null);
-INSERT INTO bus_routes VALUES('150',2,40,'5626', null);
-INSERT INTO bus_routes VALUES('150',2,41,'68', null);
-INSERT INTO bus_routes VALUES('150',2,42,'73', null);
-INSERT INTO bus_routes VALUES('150',2,43,'3689', null);
-INSERT INTO bus_routes VALUES('150',2,44,'5907', null);
-INSERT INTO bus_routes VALUES('151',1,1,'5715', null);
-INSERT INTO bus_routes VALUES('151',1,2,'2108', null);
-INSERT INTO bus_routes VALUES('151',1,3,'3535', null);
-INSERT INTO bus_routes VALUES('151',1,4,'2978', null);
-INSERT INTO bus_routes VALUES('151',1,5,'2980', null);
-INSERT INTO bus_routes VALUES('151',1,6,'2982', null);
-INSERT INTO bus_routes VALUES('151',1,7,'3536', null);
-INSERT INTO bus_routes VALUES('151',1,8,'3028', null);
-INSERT INTO bus_routes VALUES('151',1,9,'1306', null);
-INSERT INTO bus_routes VALUES('151',1,10,'1308', null);
-INSERT INTO bus_routes VALUES('151',1,11,'1309', null);
-INSERT INTO bus_routes VALUES('151',1,12,'5197', null);
-INSERT INTO bus_routes VALUES('151',1,13,'5198', null);
-INSERT INTO bus_routes VALUES('151',1,14,'5199', null);
-INSERT INTO bus_routes VALUES('151',1,15,'4170', null);
-INSERT INTO bus_routes VALUES('151',1,16,'4158', null);
-INSERT INTO bus_routes VALUES('151',1,17,'5845', null);
-INSERT INTO bus_routes VALUES('151',1,18,'4162', null);
-INSERT INTO bus_routes VALUES('151',1,19,'5592', null);
-INSERT INTO bus_routes VALUES('151',1,20,'4164', null);
-INSERT INTO bus_routes VALUES('151',1,21,'4166', null);
-INSERT INTO bus_routes VALUES('151',1,22,'4168', null);
-INSERT INTO bus_routes VALUES('151',1,23,'4169', null);
-INSERT INTO bus_routes VALUES('151',2,1,'4169', null);
-INSERT INTO bus_routes VALUES('151',2,2,'4167', null);
-INSERT INTO bus_routes VALUES('151',2,3,'4165', null);
-INSERT INTO bus_routes VALUES('151',2,4,'5593', null);
-INSERT INTO bus_routes VALUES('151',2,5,'4163', null);
-INSERT INTO bus_routes VALUES('151',2,6,'5844', null);
-INSERT INTO bus_routes VALUES('151',2,7,'4159', null);
-INSERT INTO bus_routes VALUES('151',2,8,'4171', null);
-INSERT INTO bus_routes VALUES('151',2,9,'5202', null);
-INSERT INTO bus_routes VALUES('151',2,10,'5203', null);
-INSERT INTO bus_routes VALUES('151',2,11,'5204', null);
-INSERT INTO bus_routes VALUES('151',2,12,'4924', null);
-INSERT INTO bus_routes VALUES('151',2,13,'1310', null);
-INSERT INTO bus_routes VALUES('151',2,14,'1307', null);
-INSERT INTO bus_routes VALUES('151',2,15,'2974', null);
-INSERT INTO bus_routes VALUES('151',2,16,'1303', null);
-INSERT INTO bus_routes VALUES('151',2,17,'1301', null);
-INSERT INTO bus_routes VALUES('151',2,18,'1299', null);
-INSERT INTO bus_routes VALUES('151',2,19,'1297', null);
-INSERT INTO bus_routes VALUES('151',2,20,'1295', null);
-INSERT INTO bus_routes VALUES('151',2,21,'1293', null);
-INSERT INTO bus_routes VALUES('151',2,22,'5715', null);
-INSERT INTO bus_routes VALUES('152',1,1,'5091', null);
-INSERT INTO bus_routes VALUES('152',1,2,'778', null);
-INSERT INTO bus_routes VALUES('152',1,3,'5230', null);
-INSERT INTO bus_routes VALUES('152',1,4,'195', null);
-INSERT INTO bus_routes VALUES('152',1,5,'814', null);
-INSERT INTO bus_routes VALUES('152',1,6,'816', null);
-INSERT INTO bus_routes VALUES('152',1,7,'2213', null);
-INSERT INTO bus_routes VALUES('152',1,8,'2211', null);
-INSERT INTO bus_routes VALUES('152',1,9,'5232', null);
-INSERT INTO bus_routes VALUES('152',1,10,'5234', null);
-INSERT INTO bus_routes VALUES('152',1,11,'5262', null);
-INSERT INTO bus_routes VALUES('152',1,12,'3913', null);
-INSERT INTO bus_routes VALUES('152',1,13,'1967', null);
-INSERT INTO bus_routes VALUES('152',1,14,'1969', null);
-INSERT INTO bus_routes VALUES('152',1,15,'2917', null);
-INSERT INTO bus_routes VALUES('152',1,16,'2920', null);
-INSERT INTO bus_routes VALUES('152',1,17,'2921', null);
-INSERT INTO bus_routes VALUES('152',2,1,'2921', null);
-INSERT INTO bus_routes VALUES('152',2,2,'2918', null);
-INSERT INTO bus_routes VALUES('152',2,3,'1970', null);
-INSERT INTO bus_routes VALUES('152',2,4,'1968', null);
-INSERT INTO bus_routes VALUES('152',2,5,'1971', null);
-INSERT INTO bus_routes VALUES('152',2,6,'5269', null);
-INSERT INTO bus_routes VALUES('152',2,7,'5235', null);
-INSERT INTO bus_routes VALUES('152',2,8,'5233', null);
-INSERT INTO bus_routes VALUES('152',2,9,'2210', null);
-INSERT INTO bus_routes VALUES('152',2,10,'2212', null);
-INSERT INTO bus_routes VALUES('152',2,11,'817', null);
-INSERT INTO bus_routes VALUES('152',2,12,'815', null);
-INSERT INTO bus_routes VALUES('152',2,13,'194', null);
-INSERT INTO bus_routes VALUES('152',2,14,'5231', null);
-INSERT INTO bus_routes VALUES('152',2,15,'753', null);
-INSERT INTO bus_routes VALUES('152',2,16,'5091', null);
-INSERT INTO bus_routes VALUES('153',1,1,'1070', null);
-INSERT INTO bus_routes VALUES('153',1,2,'1072', null);
-INSERT INTO bus_routes VALUES('153',1,3,'4410', null);
-INSERT INTO bus_routes VALUES('153',1,4,'4408', null);
-INSERT INTO bus_routes VALUES('153',1,5,'4611', null);
-INSERT INTO bus_routes VALUES('153',1,6,'1209', null);
-INSERT INTO bus_routes VALUES('153',1,7,'1087', null);
-INSERT INTO bus_routes VALUES('153',1,8,'2483', null);
-INSERT INTO bus_routes VALUES('153',1,9,'2351', null);
-INSERT INTO bus_routes VALUES('153',1,10,'2349', null);
-INSERT INTO bus_routes VALUES('153',1,11,'2484', null);
-INSERT INTO bus_routes VALUES('153',1,12,'3019', null);
-INSERT INTO bus_routes VALUES('153',1,13,'3017', null);
-INSERT INTO bus_routes VALUES('153',1,14,'1088', null);
-INSERT INTO bus_routes VALUES('153',1,15,'986', null);
-INSERT INTO bus_routes VALUES('153',1,16,'5155', null);
-INSERT INTO bus_routes VALUES('153',1,17,'1090', null);
-INSERT INTO bus_routes VALUES('153',1,18,'2951', null);
-INSERT INTO bus_routes VALUES('153',1,19,'2953', null);
-INSERT INTO bus_routes VALUES('153',1,20,'2976', null);
-INSERT INTO bus_routes VALUES('153',1,21,'1185', null);
-INSERT INTO bus_routes VALUES('153',1,22,'1249', null);
-INSERT INTO bus_routes VALUES('153',1,23,'1258', null);
-INSERT INTO bus_routes VALUES('153',1,24,'1259', null);
-INSERT INTO bus_routes VALUES('153',1,25,'1305', null);
-INSERT INTO bus_routes VALUES('153',1,26,'3587', null);
-INSERT INTO bus_routes VALUES('153',1,27,'3585', null);
-INSERT INTO bus_routes VALUES('153',1,28,'4914', null);
-INSERT INTO bus_routes VALUES('153',1,29,'3583', null);
-INSERT INTO bus_routes VALUES('153',1,30,'4912', null);
-INSERT INTO bus_routes VALUES('153',1,31,'475', null);
-INSERT INTO bus_routes VALUES('153',1,32,'477', null);
-INSERT INTO bus_routes VALUES('153',1,33,'5847', null);
-INSERT INTO bus_routes VALUES('153',2,1,'5847', null);
-INSERT INTO bus_routes VALUES('153',2,2,'4910', null);
-INSERT INTO bus_routes VALUES('153',2,3,'478', null);
-INSERT INTO bus_routes VALUES('153',2,4,'476', null);
-INSERT INTO bus_routes VALUES('153',2,5,'4911', null);
-INSERT INTO bus_routes VALUES('153',2,6,'3582', null);
-INSERT INTO bus_routes VALUES('153',2,7,'4913', null);
-INSERT INTO bus_routes VALUES('153',2,8,'3584', null);
-INSERT INTO bus_routes VALUES('153',2,9,'3586', null);
-INSERT INTO bus_routes VALUES('153',2,10,'3588', null);
-INSERT INTO bus_routes VALUES('153',2,11,'1326', null);
-INSERT INTO bus_routes VALUES('153',2,12,'1328', null);
-INSERT INTO bus_routes VALUES('153',2,13,'1253', null);
-INSERT INTO bus_routes VALUES('153',2,14,'1291', null);
-INSERT INTO bus_routes VALUES('153',2,15,'2975', null);
-INSERT INTO bus_routes VALUES('153',2,16,'2954', null);
-INSERT INTO bus_routes VALUES('153',2,17,'4427', null);
-INSERT INTO bus_routes VALUES('153',2,18,'1133', null);
-INSERT INTO bus_routes VALUES('153',2,19,'989', null);
-INSERT INTO bus_routes VALUES('153',2,20,'987', null);
-INSERT INTO bus_routes VALUES('153',2,21,'1089', null);
-INSERT INTO bus_routes VALUES('153',2,22,'3016', null);
-INSERT INTO bus_routes VALUES('153',2,23,'3018', null);
-INSERT INTO bus_routes VALUES('153',2,24,'4393', null);
-INSERT INTO bus_routes VALUES('153',2,25,'2348', null);
-INSERT INTO bus_routes VALUES('153',2,26,'2350', null);
-INSERT INTO bus_routes VALUES('153',2,27,'4389', null);
-INSERT INTO bus_routes VALUES('153',2,28,'1337', null);
-INSERT INTO bus_routes VALUES('153',2,29,'1208', null);
-INSERT INTO bus_routes VALUES('153',2,30,'4210', null);
-INSERT INTO bus_routes VALUES('153',2,31,'4407', null);
-INSERT INTO bus_routes VALUES('153',2,32,'4409', null);
-INSERT INTO bus_routes VALUES('153',2,33,'4411', null);
-INSERT INTO bus_routes VALUES('153',2,34,'1070', null);
-INSERT INTO bus_routes VALUES('155',1,1,'3906', null);
-INSERT INTO bus_routes VALUES('155',1,2,'3177', null);
-INSERT INTO bus_routes VALUES('155',1,3,'3179', null);
-INSERT INTO bus_routes VALUES('155',1,4,'5057', null);
-INSERT INTO bus_routes VALUES('155',1,5,'3182', null);
-INSERT INTO bus_routes VALUES('155',1,6,'3184', null);
-INSERT INTO bus_routes VALUES('155',1,7,'2453', null);
-INSERT INTO bus_routes VALUES('155',1,8,'3726', null);
-INSERT INTO bus_routes VALUES('155',1,9,'2960', null);
-INSERT INTO bus_routes VALUES('155',1,10,'2961', null);
-INSERT INTO bus_routes VALUES('155',1,11,'2962', null);
-INSERT INTO bus_routes VALUES('155',1,12,'3883', null);
-INSERT INTO bus_routes VALUES('155',1,13,'2964', null);
-INSERT INTO bus_routes VALUES('155',1,14,'2965', null);
-INSERT INTO bus_routes VALUES('155',1,15,'649', null);
-INSERT INTO bus_routes VALUES('155',1,16,'3859', null);
-INSERT INTO bus_routes VALUES('155',1,17,'687', null);
-INSERT INTO bus_routes VALUES('155',1,18,'719', null);
-INSERT INTO bus_routes VALUES('155',1,19,'720', null);
-INSERT INTO bus_routes VALUES('155',1,20,'4265', null);
-INSERT INTO bus_routes VALUES('155',1,21,'359', null);
-INSERT INTO bus_routes VALUES('155',1,22,'361', null);
-INSERT INTO bus_routes VALUES('155',1,23,'774', null);
-INSERT INTO bus_routes VALUES('155',1,24,'802', null);
-INSERT INTO bus_routes VALUES('155',1,25,'903', null);
-INSERT INTO bus_routes VALUES('155',1,26,'904', null);
-INSERT INTO bus_routes VALUES('155',1,27,'5685', null);
-INSERT INTO bus_routes VALUES('155',2,1,'5685', null);
-INSERT INTO bus_routes VALUES('155',2,2,'4505', null);
-INSERT INTO bus_routes VALUES('155',2,3,'591', null);
-INSERT INTO bus_routes VALUES('155',2,4,'598', null);
-INSERT INTO bus_routes VALUES('155',2,5,'611', null);
-INSERT INTO bus_routes VALUES('155',2,6,'362', null);
-INSERT INTO bus_routes VALUES('155',2,7,'360', null);
-INSERT INTO bus_routes VALUES('155',2,8,'627', null);
-INSERT INTO bus_routes VALUES('155',2,9,'628', null);
-INSERT INTO bus_routes VALUES('155',2,10,'637', null);
-INSERT INTO bus_routes VALUES('155',2,11,'640', null);
-INSERT INTO bus_routes VALUES('155',2,12,'3860', null);
-INSERT INTO bus_routes VALUES('155',2,13,'562', null);
-INSERT INTO bus_routes VALUES('155',2,14,'1169', null);
-INSERT INTO bus_routes VALUES('155',2,15,'1891', null);
-INSERT INTO bus_routes VALUES('155',2,16,'2809', null);
-INSERT INTO bus_routes VALUES('155',2,17,'2861', null);
-INSERT INTO bus_routes VALUES('155',2,18,'2863', null);
-INSERT INTO bus_routes VALUES('155',2,19,'2877', null);
-INSERT INTO bus_routes VALUES('155',2,20,'2895', null);
-INSERT INTO bus_routes VALUES('155',2,21,'2935', null);
-INSERT INTO bus_routes VALUES('155',2,22,'3185', null);
-INSERT INTO bus_routes VALUES('155',2,23,'3183', null);
-INSERT INTO bus_routes VALUES('155',2,24,'3181', null);
-INSERT INTO bus_routes VALUES('155',2,25,'3180', null);
-INSERT INTO bus_routes VALUES('155',2,26,'3178', null);
-INSERT INTO bus_routes VALUES('155',2,27,'5687', null);
-INSERT INTO bus_routes VALUES('155',2,28,'3906', null);
-INSERT INTO bus_routes VALUES('156',1,1,'147', null);
-INSERT INTO bus_routes VALUES('156',1,2,'1427', null);
-INSERT INTO bus_routes VALUES('156',1,3,'148', null);
-INSERT INTO bus_routes VALUES('156',1,4,'150', null);
-INSERT INTO bus_routes VALUES('156',1,5,'1256', null);
-INSERT INTO bus_routes VALUES('156',1,6,'4712', null);
-INSERT INTO bus_routes VALUES('156',1,7,'4714', null);
-INSERT INTO bus_routes VALUES('156',1,8,'1431', null);
-INSERT INTO bus_routes VALUES('156',1,9,'1433', null);
-INSERT INTO bus_routes VALUES('156',1,10,'4716', null);
-INSERT INTO bus_routes VALUES('156',1,11,'1435', null);
-INSERT INTO bus_routes VALUES('156',1,12,'1437', null);
-INSERT INTO bus_routes VALUES('156',1,13,'1407', null);
-INSERT INTO bus_routes VALUES('156',1,14,'3913', null);
-INSERT INTO bus_routes VALUES('156',1,15,'1969', null);
-INSERT INTO bus_routes VALUES('156',1,16,'3367', null);
-INSERT INTO bus_routes VALUES('156',1,17,'3366', null);
-INSERT INTO bus_routes VALUES('156',1,18,'4101', null);
-INSERT INTO bus_routes VALUES('156',1,19,'3360', null);
-INSERT INTO bus_routes VALUES('156',1,20,'2906', null);
-INSERT INTO bus_routes VALUES('156',1,21,'5512', null);
-INSERT INTO bus_routes VALUES('156',1,22,'2916', null);
-INSERT INTO bus_routes VALUES('156',1,23,'3644', null);
-INSERT INTO bus_routes VALUES('156',2,1,'3644', null);
-INSERT INTO bus_routes VALUES('156',2,2,'5054', null);
-INSERT INTO bus_routes VALUES('156',2,3,'2905', null);
-INSERT INTO bus_routes VALUES('156',2,4,'3359', null);
-INSERT INTO bus_routes VALUES('156',2,5,'4100', null);
-INSERT INTO bus_routes VALUES('156',2,6,'3365', null);
-INSERT INTO bus_routes VALUES('156',2,7,'4802', null);
-INSERT INTO bus_routes VALUES('156',2,8,'3720', null);
-INSERT INTO bus_routes VALUES('156',2,9,'1436', null);
-INSERT INTO bus_routes VALUES('156',2,10,'4717', null);
-INSERT INTO bus_routes VALUES('156',2,11,'1434', null);
-INSERT INTO bus_routes VALUES('156',2,12,'1432', null);
-INSERT INTO bus_routes VALUES('156',2,13,'4715', null);
-INSERT INTO bus_routes VALUES('156',2,14,'4713', null);
-INSERT INTO bus_routes VALUES('156',2,15,'1257', null);
-INSERT INTO bus_routes VALUES('156',2,16,'5822', null);
-INSERT INTO bus_routes VALUES('156',2,17,'151', null);
-INSERT INTO bus_routes VALUES('156',2,18,'149', null);
-INSERT INTO bus_routes VALUES('156',2,19,'1428', null);
-INSERT INTO bus_routes VALUES('156',2,20,'147', null);
-INSERT INTO bus_routes VALUES('159',1,1,'4588', null);
-INSERT INTO bus_routes VALUES('159',1,2,'4636', null);
-INSERT INTO bus_routes VALUES('159',1,3,'3658', null);
-INSERT INTO bus_routes VALUES('159',1,4,'4637', null);
-INSERT INTO bus_routes VALUES('159',1,5,'4210', null);
-INSERT INTO bus_routes VALUES('159',1,6,'1210', null);
-INSERT INTO bus_routes VALUES('159',1,7,'4612', null);
-INSERT INTO bus_routes VALUES('159',1,8,'4559', null);
-INSERT INTO bus_routes VALUES('159',1,9,'4561', null);
-INSERT INTO bus_routes VALUES('159',1,10,'4563', null);
-INSERT INTO bus_routes VALUES('159',1,11,'3875', null);
-INSERT INTO bus_routes VALUES('159',1,12,'7101', null);
-INSERT INTO bus_routes VALUES('159',1,13,'7102', null);
-INSERT INTO bus_routes VALUES('159',1,14,'4796', null);
-INSERT INTO bus_routes VALUES('159',1,15,'4801', null);
-INSERT INTO bus_routes VALUES('159',1,16,'4723', null);
-INSERT INTO bus_routes VALUES('159',1,17,'5049', null);
-INSERT INTO bus_routes VALUES('159',2,1,'5049', null);
-INSERT INTO bus_routes VALUES('159',2,2,'4722', null);
-INSERT INTO bus_routes VALUES('159',2,3,'4803', null);
-INSERT INTO bus_routes VALUES('159',2,4,'4797', null);
-INSERT INTO bus_routes VALUES('159',2,5,'7182', null);
-INSERT INTO bus_routes VALUES('159',2,6,'7183', null);
-INSERT INTO bus_routes VALUES('159',2,7,'3876', null);
-INSERT INTO bus_routes VALUES('159',2,8,'4564', null);
-INSERT INTO bus_routes VALUES('159',2,9,'4562', null);
-INSERT INTO bus_routes VALUES('159',2,10,'4560', null);
-INSERT INTO bus_routes VALUES('159',2,11,'4613', null);
-INSERT INTO bus_routes VALUES('159',2,12,'1211', null);
-INSERT INTO bus_routes VALUES('159',2,13,'4611', null);
-INSERT INTO bus_routes VALUES('159',2,14,'4509', null);
-INSERT INTO bus_routes VALUES('159',2,15,'4507', null);
-INSERT INTO bus_routes VALUES('159',2,16,'4400', null);
-INSERT INTO bus_routes VALUES('159',2,17,'4588', null);
-INSERT INTO bus_routes VALUES('16',1,1,'543', null);
-INSERT INTO bus_routes VALUES('16',1,2,'520', null);
-INSERT INTO bus_routes VALUES('16',1,3,'521', null);
-INSERT INTO bus_routes VALUES('16',1,4,'522', null);
-INSERT INTO bus_routes VALUES('16',1,5,'523', null);
-INSERT INTO bus_routes VALUES('16',1,6,'524', null);
-INSERT INTO bus_routes VALUES('16',1,7,'525', null);
-INSERT INTO bus_routes VALUES('16',1,8,'527', null);
-INSERT INTO bus_routes VALUES('16',1,9,'1894', null);
-INSERT INTO bus_routes VALUES('16',1,10,'529', null);
-INSERT INTO bus_routes VALUES('16',1,11,'58', null);
-INSERT INTO bus_routes VALUES('16',1,12,'532', null);
-INSERT INTO bus_routes VALUES('16',1,13,'534', null);
-INSERT INTO bus_routes VALUES('16',1,14,'430', null);
-INSERT INTO bus_routes VALUES('16',1,15,'431', null);
-INSERT INTO bus_routes VALUES('16',1,16,'432', null);
-INSERT INTO bus_routes VALUES('16',1,17,'418', null);
-INSERT INTO bus_routes VALUES('16',1,18,'416', null);
-INSERT INTO bus_routes VALUES('16',1,19,'414', null);
-INSERT INTO bus_routes VALUES('16',1,20,'517', null);
-INSERT INTO bus_routes VALUES('16',1,21,'515', null);
-INSERT INTO bus_routes VALUES('16',1,22,'4849', null);
-INSERT INTO bus_routes VALUES('16',1,23,'439', null);
-INSERT INTO bus_routes VALUES('16',1,24,'4832', null);
-INSERT INTO bus_routes VALUES('16',1,25,'112', null);
-INSERT INTO bus_routes VALUES('16',1,26,'115', null);
-INSERT INTO bus_routes VALUES('16',1,27,'117', null);
-INSERT INTO bus_routes VALUES('16',1,28,'119', null);
-INSERT INTO bus_routes VALUES('16',1,29,'3629', null);
-INSERT INTO bus_routes VALUES('16',1,30,'1728', null);
-INSERT INTO bus_routes VALUES('16',2,1,'1728', null);
-INSERT INTO bus_routes VALUES('16',2,2,'118', null);
-INSERT INTO bus_routes VALUES('16',2,3,'116', null);
-INSERT INTO bus_routes VALUES('16',2,4,'114', null);
-INSERT INTO bus_routes VALUES('16',2,5,'111', null);
-INSERT INTO bus_routes VALUES('16',2,6,'4831', null);
-INSERT INTO bus_routes VALUES('16',2,7,'440', null);
-INSERT INTO bus_routes VALUES('16',2,8,'4850', null);
-INSERT INTO bus_routes VALUES('16',2,9,'514', null);
-INSERT INTO bus_routes VALUES('16',2,10,'516', null);
-INSERT INTO bus_routes VALUES('16',2,11,'415', null);
-INSERT INTO bus_routes VALUES('16',2,12,'417', null);
-INSERT INTO bus_routes VALUES('16',2,13,'536', null);
-INSERT INTO bus_routes VALUES('16',2,14,'443', null);
-INSERT INTO bus_routes VALUES('16',2,15,'444', null);
-INSERT INTO bus_routes VALUES('16',2,16,'445', null);
-INSERT INTO bus_routes VALUES('16',2,17,'446', null);
-INSERT INTO bus_routes VALUES('16',2,18,'447', null);
-INSERT INTO bus_routes VALUES('16',2,19,'537', null);
-INSERT INTO bus_routes VALUES('16',2,20,'530', null);
-INSERT INTO bus_routes VALUES('16',2,21,'1893', null);
-INSERT INTO bus_routes VALUES('16',2,22,'528', null);
-INSERT INTO bus_routes VALUES('16',2,23,'1895', null);
-INSERT INTO bus_routes VALUES('16',2,24,'526', null);
-INSERT INTO bus_routes VALUES('16',2,25,'538', null);
-INSERT INTO bus_routes VALUES('16',2,26,'540', null);
-INSERT INTO bus_routes VALUES('16',2,27,'541', null);
-INSERT INTO bus_routes VALUES('16',2,28,'542', null);
-INSERT INTO bus_routes VALUES('16',2,29,'543', null);
-INSERT INTO bus_routes VALUES('160',1,1,'2746', null);
-INSERT INTO bus_routes VALUES('160',1,2,'15525', null);
-INSERT INTO bus_routes VALUES('160',1,3,'1330', null);
-INSERT INTO bus_routes VALUES('160',1,4,'2418', null);
-INSERT INTO bus_routes VALUES('160',1,5,'2416', null);
-INSERT INTO bus_routes VALUES('160',1,6,'2414', null);
-INSERT INTO bus_routes VALUES('160',1,7,'3424', null);
-INSERT INTO bus_routes VALUES('160',1,8,'3425', null);
-INSERT INTO bus_routes VALUES('160',1,9,'3427', null);
-INSERT INTO bus_routes VALUES('160',1,10,'3668', null);
-INSERT INTO bus_routes VALUES('160',1,11,'3429', null);
-INSERT INTO bus_routes VALUES('160',1,12,'3431', null);
-INSERT INTO bus_routes VALUES('160',1,13,'3433', null);
-INSERT INTO bus_routes VALUES('160',1,14,'3600', null);
-INSERT INTO bus_routes VALUES('160',1,15,'5599', null);
-INSERT INTO bus_routes VALUES('160',1,16,'3435', null);
-INSERT INTO bus_routes VALUES('160',1,17,'4577', null);
-INSERT INTO bus_routes VALUES('160',1,18,'4578', null);
-INSERT INTO bus_routes VALUES('160',1,19,'4580', null);
-INSERT INTO bus_routes VALUES('160',1,20,'4582', null);
-INSERT INTO bus_routes VALUES('160',1,21,'4584', null);
-INSERT INTO bus_routes VALUES('160',1,22,'4789', null);
-INSERT INTO bus_routes VALUES('160',1,23,'4790', null);
-INSERT INTO bus_routes VALUES('160',1,24,'4793', null);
-INSERT INTO bus_routes VALUES('160',1,25,'3440', null);
-INSERT INTO bus_routes VALUES('160',1,26,'5645', null);
-INSERT INTO bus_routes VALUES('160',1,27,'5646', null);
-INSERT INTO bus_routes VALUES('160',1,28,'6272', null);
-INSERT INTO bus_routes VALUES('160',1,29,'3443', null);
-INSERT INTO bus_routes VALUES('160',1,30,'3444', null);
-INSERT INTO bus_routes VALUES('160',1,31,'4190', null);
-INSERT INTO bus_routes VALUES('160',1,32,'4795', null);
-INSERT INTO bus_routes VALUES('160',1,33,'3445', null);
-INSERT INTO bus_routes VALUES('160',2,1,'3445', null);
-INSERT INTO bus_routes VALUES('160',2,2,'3840', null);
-INSERT INTO bus_routes VALUES('160',2,3,'3447', null);
-INSERT INTO bus_routes VALUES('160',2,4,'3441', null);
-INSERT INTO bus_routes VALUES('160',2,5,'4794', null);
-INSERT INTO bus_routes VALUES('160',2,6,'4791', null);
-INSERT INTO bus_routes VALUES('160',2,7,'4792', null);
-INSERT INTO bus_routes VALUES('160',2,8,'4583', null);
-INSERT INTO bus_routes VALUES('160',2,9,'4581', null);
-INSERT INTO bus_routes VALUES('160',2,10,'4579', null);
-INSERT INTO bus_routes VALUES('160',2,11,'3437', null);
-INSERT INTO bus_routes VALUES('160',2,12,'3436', null);
-INSERT INTO bus_routes VALUES('160',2,13,'5598', null);
-INSERT INTO bus_routes VALUES('160',2,14,'3601', null);
-INSERT INTO bus_routes VALUES('160',2,15,'3434', null);
-INSERT INTO bus_routes VALUES('160',2,16,'3432', null);
-INSERT INTO bus_routes VALUES('160',2,17,'3430', null);
-INSERT INTO bus_routes VALUES('160',2,18,'3428', null);
-INSERT INTO bus_routes VALUES('160',2,19,'3426', null);
-INSERT INTO bus_routes VALUES('160',2,20,'4198', null);
-INSERT INTO bus_routes VALUES('160',2,21,'3448', null);
-INSERT INTO bus_routes VALUES('160',2,22,'3449', null);
-INSERT INTO bus_routes VALUES('160',2,23,'740', null);
-INSERT INTO bus_routes VALUES('160',2,24,'2746', null);
-INSERT INTO bus_routes VALUES('161',1,1,'2746', null);
-INSERT INTO bus_routes VALUES('161',1,2,'15525', null);
-INSERT INTO bus_routes VALUES('161',1,3,'1330', null);
-INSERT INTO bus_routes VALUES('161',1,4,'2418', null);
-INSERT INTO bus_routes VALUES('161',1,5,'2416', null);
-INSERT INTO bus_routes VALUES('161',1,6,'2414', null);
-INSERT INTO bus_routes VALUES('161',1,7,'3424', null);
-INSERT INTO bus_routes VALUES('161',1,8,'3425', null);
-INSERT INTO bus_routes VALUES('161',1,9,'3427', null);
-INSERT INTO bus_routes VALUES('161',1,10,'3451', null);
-INSERT INTO bus_routes VALUES('161',1,11,'4771', null);
-INSERT INTO bus_routes VALUES('161',1,12,'3452', null);
-INSERT INTO bus_routes VALUES('161',1,13,'3454', null);
-INSERT INTO bus_routes VALUES('161',1,14,'3456', null);
-INSERT INTO bus_routes VALUES('161',1,15,'3458', null);
-INSERT INTO bus_routes VALUES('161',1,16,'3460', null);
-INSERT INTO bus_routes VALUES('161',1,17,'3462', null);
-INSERT INTO bus_routes VALUES('161',1,18,'1', null);
-INSERT INTO bus_routes VALUES('161',1,19,'2', null);
-INSERT INTO bus_routes VALUES('161',1,20,'3466', null);
-INSERT INTO bus_routes VALUES('161',1,21,'3', null);
-INSERT INTO bus_routes VALUES('161',1,22,'4', null);
-INSERT INTO bus_routes VALUES('161',1,23,'5', null);
-INSERT INTO bus_routes VALUES('161',1,24,'3447', null);
-INSERT INTO bus_routes VALUES('161',1,25,'3441', null);
-INSERT INTO bus_routes VALUES('161',1,26,'4794', null);
-INSERT INTO bus_routes VALUES('161',1,27,'4791', null);
-INSERT INTO bus_routes VALUES('161',1,28,'4792', null);
-INSERT INTO bus_routes VALUES('161',1,29,'4583', null);
-INSERT INTO bus_routes VALUES('161',1,30,'4581', null);
-INSERT INTO bus_routes VALUES('161',1,31,'4579', null);
-INSERT INTO bus_routes VALUES('161',1,32,'3575', null);
-INSERT INTO bus_routes VALUES('161',1,33,'3130', null);
-INSERT INTO bus_routes VALUES('161',1,34,'3059', null);
-INSERT INTO bus_routes VALUES('161',2,1,'3059', null);
-INSERT INTO bus_routes VALUES('161',2,2,'3133', null);
-INSERT INTO bus_routes VALUES('161',2,3,'4578', null);
-INSERT INTO bus_routes VALUES('161',2,4,'4580', null);
-INSERT INTO bus_routes VALUES('161',2,5,'4582', null);
-INSERT INTO bus_routes VALUES('161',2,6,'4584', null);
-INSERT INTO bus_routes VALUES('161',2,7,'4789', null);
-INSERT INTO bus_routes VALUES('161',2,8,'4790', null);
-INSERT INTO bus_routes VALUES('161',2,9,'4793', null);
-INSERT INTO bus_routes VALUES('161',2,10,'3440', null);
-INSERT INTO bus_routes VALUES('161',2,11,'5645', null);
-INSERT INTO bus_routes VALUES('161',2,12,'6272', null);
-INSERT INTO bus_routes VALUES('161',2,13,'3443', null);
-INSERT INTO bus_routes VALUES('161',2,14,'6', null);
-INSERT INTO bus_routes VALUES('161',2,15,'3467', null);
-INSERT INTO bus_routes VALUES('161',2,16,'7', null);
-INSERT INTO bus_routes VALUES('161',2,17,'8', null);
-INSERT INTO bus_routes VALUES('161',2,18,'3463', null);
-INSERT INTO bus_routes VALUES('161',2,19,'3461', null);
-INSERT INTO bus_routes VALUES('161',2,20,'3459', null);
-INSERT INTO bus_routes VALUES('161',2,21,'3457', null);
-INSERT INTO bus_routes VALUES('161',2,22,'3455', null);
-INSERT INTO bus_routes VALUES('161',2,23,'3453', null);
-INSERT INTO bus_routes VALUES('161',2,24,'4772', null);
-INSERT INTO bus_routes VALUES('161',2,25,'3450', null);
-INSERT INTO bus_routes VALUES('161',2,26,'3428', null);
-INSERT INTO bus_routes VALUES('161',2,27,'3426', null);
-INSERT INTO bus_routes VALUES('161',2,28,'4198', null);
-INSERT INTO bus_routes VALUES('161',2,29,'3448', null);
-INSERT INTO bus_routes VALUES('161',2,30,'3449', null);
-INSERT INTO bus_routes VALUES('161',2,31,'740', null);
-INSERT INTO bus_routes VALUES('161',2,32,'2746', null);
-INSERT INTO bus_routes VALUES('162',1,1,'2746', null);
-INSERT INTO bus_routes VALUES('162',1,2,'15525', null);
-INSERT INTO bus_routes VALUES('162',1,3,'1330', null);
-INSERT INTO bus_routes VALUES('162',1,4,'1332', null);
-INSERT INTO bus_routes VALUES('162',1,5,'1334', null);
-INSERT INTO bus_routes VALUES('162',1,6,'1336', null);
-INSERT INTO bus_routes VALUES('162',1,7,'1338', null);
-INSERT INTO bus_routes VALUES('162',1,8,'4308', null);
-INSERT INTO bus_routes VALUES('162',1,9,'4309', null);
-INSERT INTO bus_routes VALUES('162',1,10,'3468', null);
-INSERT INTO bus_routes VALUES('162',1,11,'3470', null);
-INSERT INTO bus_routes VALUES('162',1,12,'5345', null);
-INSERT INTO bus_routes VALUES('162',1,13,'3472', null);
-INSERT INTO bus_routes VALUES('162',1,14,'5678', null);
-INSERT INTO bus_routes VALUES('162',1,15,'3476', null);
-INSERT INTO bus_routes VALUES('162',1,16,'3478', null);
-INSERT INTO bus_routes VALUES('162',1,17,'4628', null);
-INSERT INTO bus_routes VALUES('162',1,18,'4307', null);
-INSERT INTO bus_routes VALUES('162',1,19,'5832', null);
-INSERT INTO bus_routes VALUES('162',1,20,'5071', null);
-INSERT INTO bus_routes VALUES('162',1,21,'3483', null);
-INSERT INTO bus_routes VALUES('162',1,22,'13', null);
-INSERT INTO bus_routes VALUES('162',1,23,'3491', null);
-INSERT INTO bus_routes VALUES('162',1,24,'5127', null);
-INSERT INTO bus_routes VALUES('162',1,25,'3489', null);
-INSERT INTO bus_routes VALUES('162',1,26,'4877', null);
-INSERT INTO bus_routes VALUES('162',1,27,'3487', null);
-INSERT INTO bus_routes VALUES('162',1,28,'3485', null);
-INSERT INTO bus_routes VALUES('162',1,29,'14', null);
-INSERT INTO bus_routes VALUES('162',1,30,'16', null);
-INSERT INTO bus_routes VALUES('162',1,31,'3798', null);
-INSERT INTO bus_routes VALUES('162',2,1,'3798', null);
-INSERT INTO bus_routes VALUES('162',2,2,'18', null);
-INSERT INTO bus_routes VALUES('162',2,3,'19', null);
-INSERT INTO bus_routes VALUES('162',2,4,'20', null);
-INSERT INTO bus_routes VALUES('162',2,5,'21', null);
-INSERT INTO bus_routes VALUES('162',2,6,'22', null);
-INSERT INTO bus_routes VALUES('162',2,7,'3492', null);
-INSERT INTO bus_routes VALUES('162',2,8,'4629', null);
-INSERT INTO bus_routes VALUES('162',2,9,'3479', null);
-INSERT INTO bus_routes VALUES('162',2,10,'3477', null);
-INSERT INTO bus_routes VALUES('162',2,11,'5679', null);
-INSERT INTO bus_routes VALUES('162',2,12,'3473', null);
-INSERT INTO bus_routes VALUES('162',2,13,'5346', null);
-INSERT INTO bus_routes VALUES('162',2,14,'3471', null);
-INSERT INTO bus_routes VALUES('162',2,15,'3469', null);
-INSERT INTO bus_routes VALUES('162',2,16,'4311', null);
-INSERT INTO bus_routes VALUES('162',2,17,'23', null);
-INSERT INTO bus_routes VALUES('162',2,18,'1335', null);
-INSERT INTO bus_routes VALUES('162',2,19,'1333', null);
-INSERT INTO bus_routes VALUES('162',2,20,'1331', null);
-INSERT INTO bus_routes VALUES('162',2,21,'740', null);
-INSERT INTO bus_routes VALUES('162',2,22,'2746', null);
-INSERT INTO bus_routes VALUES('163',1,1,'3575', null);
-INSERT INTO bus_routes VALUES('163',1,2,'4578', null);
-INSERT INTO bus_routes VALUES('163',1,3,'4580', null);
-INSERT INTO bus_routes VALUES('163',1,4,'4584', null);
-INSERT INTO bus_routes VALUES('163',1,5,'17688', null);
-INSERT INTO bus_routes VALUES('163',1,6,'18927', null);
-INSERT INTO bus_routes VALUES('163',1,7,'50019', null);
-INSERT INTO bus_routes VALUES('163',1,8,'17644', null);
-INSERT INTO bus_routes VALUES('163',1,9,'50022', null);
-INSERT INTO bus_routes VALUES('163',1,10,'18', null);
-INSERT INTO bus_routes VALUES('163',1,11,'6225', null);
-INSERT INTO bus_routes VALUES('163',1,12,'6226', null);
-INSERT INTO bus_routes VALUES('163',1,13,'6228', null);
-INSERT INTO bus_routes VALUES('163',1,14,'6229', null);
-INSERT INTO bus_routes VALUES('163',1,15,'6257', null);
-INSERT INTO bus_routes VALUES('163',2,1,'6257', null);
-INSERT INTO bus_routes VALUES('163',2,2,'6258', null);
-INSERT INTO bus_routes VALUES('163',2,3,'6260', null);
-INSERT INTO bus_routes VALUES('163',2,4,'6261', null);
-INSERT INTO bus_routes VALUES('163',2,5,'16', null);
-INSERT INTO bus_routes VALUES('163',2,6,'17', null);
-INSERT INTO bus_routes VALUES('163',2,7,'17643', null);
-INSERT INTO bus_routes VALUES('163',2,8,'50018', null);
-INSERT INTO bus_routes VALUES('163',2,9,'18928', null);
-INSERT INTO bus_routes VALUES('163',2,10,'4795', null);
-INSERT INTO bus_routes VALUES('163',2,11,'4779', null);
-INSERT INTO bus_routes VALUES('163',2,12,'4581', null);
-INSERT INTO bus_routes VALUES('163',2,13,'4579', null);
-INSERT INTO bus_routes VALUES('163',2,14,'3575', null);
-INSERT INTO bus_routes VALUES('165',1,1,'4398', null);
-INSERT INTO bus_routes VALUES('165',1,2,'2338', null);
-INSERT INTO bus_routes VALUES('165',1,3,'2342', null);
-INSERT INTO bus_routes VALUES('165',1,4,'2353', null);
-INSERT INTO bus_routes VALUES('165',1,5,'2349', null);
-INSERT INTO bus_routes VALUES('165',1,6,'2484', null);
-INSERT INTO bus_routes VALUES('165',1,7,'4425', null);
-INSERT INTO bus_routes VALUES('165',1,8,'2953', null);
-INSERT INTO bus_routes VALUES('165',1,9,'5617', null);
-INSERT INTO bus_routes VALUES('165',1,10,'2108', null);
-INSERT INTO bus_routes VALUES('165',1,11,'4932', null);
-INSERT INTO bus_routes VALUES('165',1,12,'3270', null);
-INSERT INTO bus_routes VALUES('165',2,1,'3270', null);
-INSERT INTO bus_routes VALUES('165',2,2,'3271', null);
-INSERT INTO bus_routes VALUES('165',2,3,'4934', null);
-INSERT INTO bus_routes VALUES('165',2,4,'7396', null);
-INSERT INTO bus_routes VALUES('165',2,5,'3533', null);
-INSERT INTO bus_routes VALUES('165',2,6,'2954', null);
-INSERT INTO bus_routes VALUES('165',2,7,'4426', null);
-INSERT INTO bus_routes VALUES('165',2,8,'4393', null);
-INSERT INTO bus_routes VALUES('165',2,9,'2348', null);
-INSERT INTO bus_routes VALUES('165',2,10,'2352', null);
-INSERT INTO bus_routes VALUES('165',2,11,'2343', null);
-INSERT INTO bus_routes VALUES('165',2,12,'2339', null);
-INSERT INTO bus_routes VALUES('165',2,13,'4398', null);
-INSERT INTO bus_routes VALUES('166',1,1,'2112', null);
-INSERT INTO bus_routes VALUES('166',1,2,'1302', null);
-INSERT INTO bus_routes VALUES('166',1,3,'1306', null);
-INSERT INTO bus_routes VALUES('166',1,4,'1309', null);
-INSERT INTO bus_routes VALUES('166',1,5,'5198', null);
-INSERT INTO bus_routes VALUES('166',1,6,'4170', null);
-INSERT INTO bus_routes VALUES('166',1,7,'5845', null);
-INSERT INTO bus_routes VALUES('166',1,8,'4162', null);
-INSERT INTO bus_routes VALUES('166',1,9,'4164', null);
-INSERT INTO bus_routes VALUES('166',1,10,'4168', null);
-INSERT INTO bus_routes VALUES('166',1,11,'1322', null);
-INSERT INTO bus_routes VALUES('166',1,12,'4659', null);
-INSERT INTO bus_routes VALUES('166',1,13,'1316', null);
-INSERT INTO bus_routes VALUES('166',1,14,'4932', null);
-INSERT INTO bus_routes VALUES('166',1,15,'3270', null);
-INSERT INTO bus_routes VALUES('166',2,1,'3270', null);
-INSERT INTO bus_routes VALUES('166',2,2,'3271', null);
-INSERT INTO bus_routes VALUES('166',2,3,'4934', null);
-INSERT INTO bus_routes VALUES('166',2,4,'1315', null);
-INSERT INTO bus_routes VALUES('166',2,5,'1317', null);
-INSERT INTO bus_routes VALUES('166',2,6,'1321', null);
-INSERT INTO bus_routes VALUES('166',2,7,'4169', null);
-INSERT INTO bus_routes VALUES('166',2,8,'4165', null);
-INSERT INTO bus_routes VALUES('166',2,9,'4163', null);
-INSERT INTO bus_routes VALUES('166',2,10,'5844', null);
-INSERT INTO bus_routes VALUES('166',2,11,'4171', null);
-INSERT INTO bus_routes VALUES('166',2,12,'5203', null);
-INSERT INTO bus_routes VALUES('166',2,13,'4924', null);
-INSERT INTO bus_routes VALUES('166',2,14,'1307', null);
-INSERT INTO bus_routes VALUES('166',2,15,'3121', null);
-INSERT INTO bus_routes VALUES('166',2,16,'5390', null);
-INSERT INTO bus_routes VALUES('166',2,17,'2112', null);
-INSERT INTO bus_routes VALUES('167',1,1,'5746', null);
-INSERT INTO bus_routes VALUES('167',1,2,'4847', null);
-INSERT INTO bus_routes VALUES('167',1,3,'4848', null);
-INSERT INTO bus_routes VALUES('167',1,4,'2338', null);
-INSERT INTO bus_routes VALUES('167',1,5,'2340', null);
-INSERT INTO bus_routes VALUES('167',1,6,'2342', null);
-INSERT INTO bus_routes VALUES('167',1,7,'3408', null);
-INSERT INTO bus_routes VALUES('167',1,8,'2353', null);
-INSERT INTO bus_routes VALUES('167',1,9,'4389', null);
-INSERT INTO bus_routes VALUES('167',1,10,'4522', null);
-INSERT INTO bus_routes VALUES('167',1,11,'3023', null);
-INSERT INTO bus_routes VALUES('167',1,12,'3021', null);
-INSERT INTO bus_routes VALUES('167',1,13,'4390', null);
-INSERT INTO bus_routes VALUES('167',1,14,'4783', null);
-INSERT INTO bus_routes VALUES('167',1,15,'4784', null);
-INSERT INTO bus_routes VALUES('167',1,16,'17388', null);
-INSERT INTO bus_routes VALUES('167',1,17,'3513', null);
-INSERT INTO bus_routes VALUES('167',1,18,'5574', null);
-INSERT INTO bus_routes VALUES('167',1,19,'3672', null);
-INSERT INTO bus_routes VALUES('167',1,20,'3674', null);
-INSERT INTO bus_routes VALUES('167',1,21,'3676', null);
-INSERT INTO bus_routes VALUES('167',1,22,'3678', null);
-INSERT INTO bus_routes VALUES('167',1,23,'3524', null);
-INSERT INTO bus_routes VALUES('167',1,24,'5528', null);
-INSERT INTO bus_routes VALUES('167',1,25,'5781', null);
-INSERT INTO bus_routes VALUES('167',1,26,'5529', null);
-INSERT INTO bus_routes VALUES('167',2,1,'5529', null);
-INSERT INTO bus_routes VALUES('167',2,2,'3526', null);
-INSERT INTO bus_routes VALUES('167',2,3,'3528', null);
-INSERT INTO bus_routes VALUES('167',2,4,'3679', null);
-INSERT INTO bus_routes VALUES('167',2,5,'3677', null);
-INSERT INTO bus_routes VALUES('167',2,6,'4077', null);
-INSERT INTO bus_routes VALUES('167',2,7,'3673', null);
-INSERT INTO bus_routes VALUES('167',2,8,'3518', null);
-INSERT INTO bus_routes VALUES('167',2,9,'3516', null);
-INSERT INTO bus_routes VALUES('167',2,10,'3514', null);
-INSERT INTO bus_routes VALUES('167',2,11,'50009', null);
-INSERT INTO bus_routes VALUES('167',2,12,'7192', null);
-INSERT INTO bus_routes VALUES('167',2,13,'11760', null);
-INSERT INTO bus_routes VALUES('167',2,14,'2485', null);
-INSERT INTO bus_routes VALUES('167',2,15,'2486', null);
-INSERT INTO bus_routes VALUES('167',2,16,'4523', null);
-INSERT INTO bus_routes VALUES('167',2,17,'2483', null);
-INSERT INTO bus_routes VALUES('167',2,18,'2352', null);
-INSERT INTO bus_routes VALUES('167',2,19,'2354', null);
-INSERT INTO bus_routes VALUES('167',2,20,'2343', null);
-INSERT INTO bus_routes VALUES('167',2,21,'2341', null);
-INSERT INTO bus_routes VALUES('167',2,22,'2339', null);
-INSERT INTO bus_routes VALUES('167',2,23,'253', null);
-INSERT INTO bus_routes VALUES('167',2,24,'4230', null);
-INSERT INTO bus_routes VALUES('167',2,25,'5746', null);
-INSERT INTO bus_routes VALUES('17',1,1,'544', null);
-INSERT INTO bus_routes VALUES('17',1,2,'545', null);
-INSERT INTO bus_routes VALUES('17',1,3,'547', null);
-INSERT INTO bus_routes VALUES('17',1,4,'2589', null);
-INSERT INTO bus_routes VALUES('17',1,5,'549', null);
-INSERT INTO bus_routes VALUES('17',1,6,'550', null);
-INSERT INTO bus_routes VALUES('17',1,7,'552', null);
-INSERT INTO bus_routes VALUES('17',1,8,'554', null);
-INSERT INTO bus_routes VALUES('17',1,9,'555', null);
-INSERT INTO bus_routes VALUES('17',1,10,'557', null);
-INSERT INTO bus_routes VALUES('17',1,11,'559', null);
-INSERT INTO bus_routes VALUES('17',1,12,'561', null);
-INSERT INTO bus_routes VALUES('17',1,13,'563', null);
-INSERT INTO bus_routes VALUES('17',1,14,'564', null);
-INSERT INTO bus_routes VALUES('17',1,15,'566', null);
-INSERT INTO bus_routes VALUES('17',1,16,'4528', null);
-INSERT INTO bus_routes VALUES('17',1,17,'1151', null);
-INSERT INTO bus_routes VALUES('17',1,18,'5880', null);
-INSERT INTO bus_routes VALUES('17',1,19,'5881', null);
-INSERT INTO bus_routes VALUES('17',1,20,'4881', null);
-INSERT INTO bus_routes VALUES('17',1,21,'570', null);
-INSERT INTO bus_routes VALUES('17',1,22,'4543', null);
-INSERT INTO bus_routes VALUES('17',1,23,'572', null);
-INSERT INTO bus_routes VALUES('17',1,24,'574', null);
-INSERT INTO bus_routes VALUES('17',1,25,'575', null);
-INSERT INTO bus_routes VALUES('17',1,26,'4505', null);
-INSERT INTO bus_routes VALUES('17',1,27,'578', null);
-INSERT INTO bus_routes VALUES('17',1,28,'580', null);
-INSERT INTO bus_routes VALUES('17',1,29,'582', null);
-INSERT INTO bus_routes VALUES('17',1,30,'365', null);
-INSERT INTO bus_routes VALUES('17',1,31,'584', null);
-INSERT INTO bus_routes VALUES('17',1,32,'587', null);
-INSERT INTO bus_routes VALUES('17',1,33,'3833', null);
-INSERT INTO bus_routes VALUES('17',1,34,'3835', null);
-INSERT INTO bus_routes VALUES('17',1,35,'3837', null);
-INSERT INTO bus_routes VALUES('17',1,36,'3838', null);
-INSERT INTO bus_routes VALUES('17',2,1,'3838', null);
-INSERT INTO bus_routes VALUES('17',2,2,'3836', null);
-INSERT INTO bus_routes VALUES('17',2,3,'3834', null);
-INSERT INTO bus_routes VALUES('17',2,4,'372', null);
-INSERT INTO bus_routes VALUES('17',2,5,'371', null);
-INSERT INTO bus_routes VALUES('17',2,6,'3124', null);
-INSERT INTO bus_routes VALUES('17',2,7,'585', null);
-INSERT INTO bus_routes VALUES('17',2,8,'366', null);
-INSERT INTO bus_routes VALUES('17',2,9,'583', null);
-INSERT INTO bus_routes VALUES('17',2,10,'581', null);
-INSERT INTO bus_routes VALUES('17',2,11,'579', null);
-INSERT INTO bus_routes VALUES('17',2,12,'5064', null);
-INSERT INTO bus_routes VALUES('17',2,13,'573', null);
-INSERT INTO bus_routes VALUES('17',2,14,'4544', null);
-INSERT INTO bus_routes VALUES('17',2,15,'571', null);
-INSERT INTO bus_routes VALUES('17',2,16,'4705', null);
-INSERT INTO bus_routes VALUES('17',2,17,'4706', null);
-INSERT INTO bus_routes VALUES('17',2,18,'588', null);
-INSERT INTO bus_routes VALUES('17',2,19,'589', null);
-INSERT INTO bus_routes VALUES('17',2,20,'590', null);
-INSERT INTO bus_routes VALUES('17',2,21,'4711', null);
-INSERT INTO bus_routes VALUES('17',2,22,'565', null);
-INSERT INTO bus_routes VALUES('17',2,23,'5506', null);
-INSERT INTO bus_routes VALUES('17',2,24,'560', null);
-INSERT INTO bus_routes VALUES('17',2,25,'558', null);
-INSERT INTO bus_routes VALUES('17',2,26,'556', null);
-INSERT INTO bus_routes VALUES('17',2,27,'592', null);
-INSERT INTO bus_routes VALUES('17',2,28,'553', null);
-INSERT INTO bus_routes VALUES('17',2,29,'551', null);
-INSERT INTO bus_routes VALUES('17',2,30,'593', null);
-INSERT INTO bus_routes VALUES('17',2,31,'4780', null);
-INSERT INTO bus_routes VALUES('17',2,32,'548', null);
-INSERT INTO bus_routes VALUES('17',2,33,'546', null);
-INSERT INTO bus_routes VALUES('17',2,34,'544', null);
-INSERT INTO bus_routes VALUES('170',1,1,'5170', null);
-INSERT INTO bus_routes VALUES('170',1,2,'5169', null);
-INSERT INTO bus_routes VALUES('170',1,3,'5174', null);
-INSERT INTO bus_routes VALUES('170',1,4,'5176', null);
-INSERT INTO bus_routes VALUES('170',1,5,'4405', null);
-INSERT INTO bus_routes VALUES('170',1,6,'4274', null);
-INSERT INTO bus_routes VALUES('170',1,7,'5165', null);
-INSERT INTO bus_routes VALUES('170',1,8,'1757', null);
-INSERT INTO bus_routes VALUES('170',1,9,'3623', null);
-INSERT INTO bus_routes VALUES('170',1,10,'3634', null);
-INSERT INTO bus_routes VALUES('170',1,11,'2864', null);
-INSERT INTO bus_routes VALUES('170',1,12,'2968', null);
-INSERT INTO bus_routes VALUES('170',1,13,'2970', null);
-INSERT INTO bus_routes VALUES('170',1,14,'1021', null);
-INSERT INTO bus_routes VALUES('170',1,15,'1022', null);
-INSERT INTO bus_routes VALUES('170',1,16,'1025', null);
-INSERT INTO bus_routes VALUES('170',1,17,'3881', null);
-INSERT INTO bus_routes VALUES('170',1,18,'5152', null);
-INSERT INTO bus_routes VALUES('170',1,19,'3766', null);
-INSERT INTO bus_routes VALUES('170',1,20,'3615', null);
-INSERT INTO bus_routes VALUES('170',1,21,'3611', null);
-INSERT INTO bus_routes VALUES('170',1,22,'5850', null);
-INSERT INTO bus_routes VALUES('170',1,23,'5516', null);
-INSERT INTO bus_routes VALUES('170',1,24,'5129', null);
-INSERT INTO bus_routes VALUES('170',1,25,'4220', null);
-INSERT INTO bus_routes VALUES('170',1,26,'4221', null);
-INSERT INTO bus_routes VALUES('170',1,27,'5397', null);
-INSERT INTO bus_routes VALUES('170',1,28,'5399', null);
-INSERT INTO bus_routes VALUES('170',1,29,'5401', null);
-INSERT INTO bus_routes VALUES('170',2,1,'5401', null);
-INSERT INTO bus_routes VALUES('170',2,2,'5398', null);
-INSERT INTO bus_routes VALUES('170',2,3,'5121', null);
-INSERT INTO bus_routes VALUES('170',2,4,'5122', null);
-INSERT INTO bus_routes VALUES('170',2,5,'5123', null);
-INSERT INTO bus_routes VALUES('170',2,6,'5515', null);
-INSERT INTO bus_routes VALUES('170',2,7,'5517', null);
-INSERT INTO bus_routes VALUES('170',2,8,'3610', null);
-INSERT INTO bus_routes VALUES('170',2,9,'3614', null);
-INSERT INTO bus_routes VALUES('170',2,10,'3767', null);
-INSERT INTO bus_routes VALUES('170',2,11,'5151', null);
-INSERT INTO bus_routes VALUES('170',2,12,'3882', null);
-INSERT INTO bus_routes VALUES('170',2,13,'1026', null);
-INSERT INTO bus_routes VALUES('170',2,14,'1028', null);
-INSERT INTO bus_routes VALUES('170',2,15,'1029', null);
-INSERT INTO bus_routes VALUES('170',2,16,'3626', null);
-INSERT INTO bus_routes VALUES('170',2,17,'3628', null);
-INSERT INTO bus_routes VALUES('170',2,18,'3627', null);
-INSERT INTO bus_routes VALUES('170',2,19,'3625', null);
-INSERT INTO bus_routes VALUES('170',2,20,'3624', null);
-INSERT INTO bus_routes VALUES('170',2,21,'3635', null);
-INSERT INTO bus_routes VALUES('170',2,22,'3622', null);
-INSERT INTO bus_routes VALUES('170',2,23,'1758', null);
-INSERT INTO bus_routes VALUES('170',2,24,'5164', null);
-INSERT INTO bus_routes VALUES('170',2,25,'4273', null);
-INSERT INTO bus_routes VALUES('170',2,26,'4732', null);
-INSERT INTO bus_routes VALUES('170',2,27,'4703', null);
-INSERT INTO bus_routes VALUES('170',2,28,'4824', null);
-INSERT INTO bus_routes VALUES('170',2,29,'4822', null);
-INSERT INTO bus_routes VALUES('170',2,30,'5170', null);
-INSERT INTO bus_routes VALUES('171',1,1,'4898', null);
-INSERT INTO bus_routes VALUES('171',1,2,'4900', null);
-INSERT INTO bus_routes VALUES('171',1,3,'4901', null);
-INSERT INTO bus_routes VALUES('171',1,4,'4896', null);
-INSERT INTO bus_routes VALUES('171',1,5,'5888', null);
-INSERT INTO bus_routes VALUES('171',1,6,'5890', null);
-INSERT INTO bus_routes VALUES('171',1,7,'5911', null);
-INSERT INTO bus_routes VALUES('171',1,8,'3664', null);
-INSERT INTO bus_routes VALUES('171',1,9,'5892', null);
-INSERT INTO bus_routes VALUES('171',1,10,'4033', null);
-INSERT INTO bus_routes VALUES('171',1,11,'5894', null);
-INSERT INTO bus_routes VALUES('171',1,12,'4266', null);
-INSERT INTO bus_routes VALUES('171',1,13,'4268', null);
-INSERT INTO bus_routes VALUES('171',1,14,'3544', null);
-INSERT INTO bus_routes VALUES('171',1,15,'5887', null);
-INSERT INTO bus_routes VALUES('171',1,16,'4364', null);
-INSERT INTO bus_routes VALUES('171',2,1,'4364', null);
-INSERT INTO bus_routes VALUES('171',2,2,'4397', null);
-INSERT INTO bus_routes VALUES('171',2,3,'3545', null);
-INSERT INTO bus_routes VALUES('171',2,4,'4269', null);
-INSERT INTO bus_routes VALUES('171',2,5,'4267', null);
-INSERT INTO bus_routes VALUES('171',2,6,'5895', null);
-INSERT INTO bus_routes VALUES('171',2,7,'4034', null);
-INSERT INTO bus_routes VALUES('171',2,8,'5893', null);
-INSERT INTO bus_routes VALUES('171',2,9,'3665', null);
-INSERT INTO bus_routes VALUES('171',2,10,'5912', null);
-INSERT INTO bus_routes VALUES('171',2,11,'5891', null);
-INSERT INTO bus_routes VALUES('171',2,12,'5889', null);
-INSERT INTO bus_routes VALUES('171',2,13,'4895', null);
-INSERT INTO bus_routes VALUES('171',2,14,'4897', null);
-INSERT INTO bus_routes VALUES('171',2,15,'4898', null);
-INSERT INTO bus_routes VALUES('172',1,1,'4603', null);
-INSERT INTO bus_routes VALUES('172',1,2,'480', null);
-INSERT INTO bus_routes VALUES('172',1,3,'481', null);
-INSERT INTO bus_routes VALUES('172',1,4,'483', null);
-INSERT INTO bus_routes VALUES('172',1,5,'485', null);
-INSERT INTO bus_routes VALUES('172',1,6,'487', null);
-INSERT INTO bus_routes VALUES('172',1,7,'4931', null);
-INSERT INTO bus_routes VALUES('172',1,8,'1844', null);
-INSERT INTO bus_routes VALUES('172',1,9,'1842', null);
-INSERT INTO bus_routes VALUES('172',1,10,'5338', null);
-INSERT INTO bus_routes VALUES('172',1,11,'5411', null);
-INSERT INTO bus_routes VALUES('172',1,12,'5413', null);
-INSERT INTO bus_routes VALUES('172',1,13,'5415', null);
-INSERT INTO bus_routes VALUES('172',1,14,'5417', null);
-INSERT INTO bus_routes VALUES('172',1,15,'5400', null);
-INSERT INTO bus_routes VALUES('172',1,16,'5398', null);
-INSERT INTO bus_routes VALUES('172',1,17,'5402', null);
-INSERT INTO bus_routes VALUES('172',1,18,'5419', null);
-INSERT INTO bus_routes VALUES('172',1,19,'5421', null);
-INSERT INTO bus_routes VALUES('172',1,20,'5423', null);
-INSERT INTO bus_routes VALUES('172',1,21,'5425', null);
-INSERT INTO bus_routes VALUES('172',1,22,'5515', null);
-INSERT INTO bus_routes VALUES('172',1,23,'5517', null);
-INSERT INTO bus_routes VALUES('172',1,24,'5865', null);
-INSERT INTO bus_routes VALUES('172',1,25,'5867', null);
-INSERT INTO bus_routes VALUES('172',1,26,'4488', null);
-INSERT INTO bus_routes VALUES('172',1,27,'4490', null);
-INSERT INTO bus_routes VALUES('172',1,28,'3869', null);
-INSERT INTO bus_routes VALUES('172',1,29,'3775', null);
-INSERT INTO bus_routes VALUES('172',1,30,'3773', null);
-INSERT INTO bus_routes VALUES('172',1,31,'4513', null);
-INSERT INTO bus_routes VALUES('172',1,32,'402', null);
-INSERT INTO bus_routes VALUES('172',1,33,'3767', null);
-INSERT INTO bus_routes VALUES('172',1,34,'3765', null);
-INSERT INTO bus_routes VALUES('172',1,35,'3763', null);
-INSERT INTO bus_routes VALUES('172',1,36,'5872', null);
-INSERT INTO bus_routes VALUES('172',2,1,'5872', null);
-INSERT INTO bus_routes VALUES('172',2,2,'5864', null);
-INSERT INTO bus_routes VALUES('172',2,3,'3766', null);
-INSERT INTO bus_routes VALUES('172',2,4,'4493', null);
-INSERT INTO bus_routes VALUES('172',2,5,'3796', null);
-INSERT INTO bus_routes VALUES('172',2,6,'4492', null);
-INSERT INTO bus_routes VALUES('172',2,7,'3774', null);
-INSERT INTO bus_routes VALUES('172',2,8,'3776', null);
-INSERT INTO bus_routes VALUES('172',2,9,'4491', null);
-INSERT INTO bus_routes VALUES('172',2,10,'4489', null);
-INSERT INTO bus_routes VALUES('172',2,11,'5868', null);
-INSERT INTO bus_routes VALUES('172',2,12,'5866', null);
-INSERT INTO bus_routes VALUES('172',2,13,'5850', null);
-INSERT INTO bus_routes VALUES('172',2,14,'5516', null);
-INSERT INTO bus_routes VALUES('172',2,15,'5426', null);
-INSERT INTO bus_routes VALUES('172',2,16,'5424', null);
-INSERT INTO bus_routes VALUES('172',2,17,'5427', null);
-INSERT INTO bus_routes VALUES('172',2,18,'5420', null);
-INSERT INTO bus_routes VALUES('172',2,19,'5396', null);
-INSERT INTO bus_routes VALUES('172',2,20,'5397', null);
-INSERT INTO bus_routes VALUES('172',2,21,'5399', null);
-INSERT INTO bus_routes VALUES('172',2,22,'5418', null);
-INSERT INTO bus_routes VALUES('172',2,23,'5416', null);
-INSERT INTO bus_routes VALUES('172',2,24,'5414', null);
-INSERT INTO bus_routes VALUES('172',2,25,'5412', null);
-INSERT INTO bus_routes VALUES('172',2,26,'5337', null);
-INSERT INTO bus_routes VALUES('172',2,27,'1841', null);
-INSERT INTO bus_routes VALUES('172',2,28,'1843', null);
-INSERT INTO bus_routes VALUES('172',2,29,'1845', null);
-INSERT INTO bus_routes VALUES('172',2,30,'2892', null);
-INSERT INTO bus_routes VALUES('172',2,31,'486', null);
-INSERT INTO bus_routes VALUES('172',2,32,'484', null);
-INSERT INTO bus_routes VALUES('172',2,33,'482', null);
-INSERT INTO bus_routes VALUES('172',2,34,'489', null);
-INSERT INTO bus_routes VALUES('172',2,35,'4599', null);
-INSERT INTO bus_routes VALUES('172',2,36,'4603', null);
-INSERT INTO bus_routes VALUES('173',1,1,'5612', null);
-INSERT INTO bus_routes VALUES('173',1,2,'1487', null);
-INSERT INTO bus_routes VALUES('173',1,3,'1488', null);
-INSERT INTO bus_routes VALUES('173',1,4,'2653', null);
-INSERT INTO bus_routes VALUES('173',1,5,'3252', null);
-INSERT INTO bus_routes VALUES('173',1,6,'3253', null);
-INSERT INTO bus_routes VALUES('173',1,7,'3566', null);
-INSERT INTO bus_routes VALUES('173',1,8,'3261', null);
-INSERT INTO bus_routes VALUES('173',1,9,'3603', null);
-INSERT INTO bus_routes VALUES('173',1,10,'3605', null);
-INSERT INTO bus_routes VALUES('173',1,11,'3607', null);
-INSERT INTO bus_routes VALUES('173',1,12,'5423', null);
-INSERT INTO bus_routes VALUES('173',1,13,'5425', null);
-INSERT INTO bus_routes VALUES('173',1,14,'5515', null);
-INSERT INTO bus_routes VALUES('173',1,15,'5517', null);
-INSERT INTO bus_routes VALUES('173',1,16,'5518', null);
-INSERT INTO bus_routes VALUES('173',2,1,'5518', null);
-INSERT INTO bus_routes VALUES('173',2,2,'5516', null);
-INSERT INTO bus_routes VALUES('173',2,3,'5426', null);
-INSERT INTO bus_routes VALUES('173',2,4,'5424', null);
-INSERT INTO bus_routes VALUES('173',2,5,'5520', null);
-INSERT INTO bus_routes VALUES('173',2,6,'3606', null);
-INSERT INTO bus_routes VALUES('173',2,7,'3604', null);
-INSERT INTO bus_routes VALUES('173',2,8,'3602', null);
-INSERT INTO bus_routes VALUES('173',2,9,'3264', null);
-INSERT INTO bus_routes VALUES('173',2,10,'3265', null);
-INSERT INTO bus_routes VALUES('173',2,11,'5521', null);
-INSERT INTO bus_routes VALUES('173',2,12,'3933', null);
-INSERT INTO bus_routes VALUES('173',2,13,'1526', null);
-INSERT INTO bus_routes VALUES('173',2,14,'1527', null);
-INSERT INTO bus_routes VALUES('173',2,15,'5612', null);
-INSERT INTO bus_routes VALUES('174',1,1,'5612', null);
-INSERT INTO bus_routes VALUES('174',1,2,'1487', null);
-INSERT INTO bus_routes VALUES('174',1,3,'1488', null);
-INSERT INTO bus_routes VALUES('174',1,4,'2653', null);
-INSERT INTO bus_routes VALUES('174',1,5,'3252', null);
-INSERT INTO bus_routes VALUES('174',1,6,'3253', null);
-INSERT INTO bus_routes VALUES('174',1,7,'3267', null);
-INSERT INTO bus_routes VALUES('174',1,8,'3254', null);
-INSERT INTO bus_routes VALUES('174',1,9,'3256', null);
-INSERT INTO bus_routes VALUES('174',1,10,'3258', null);
-INSERT INTO bus_routes VALUES('174',1,11,'3260', null);
-INSERT INTO bus_routes VALUES('174',1,12,'5395', null);
-INSERT INTO bus_routes VALUES('174',1,13,'5396', null);
-INSERT INTO bus_routes VALUES('174',1,14,'5397', null);
-INSERT INTO bus_routes VALUES('174',1,15,'5399', null);
-INSERT INTO bus_routes VALUES('174',1,16,'4366', null);
-INSERT INTO bus_routes VALUES('174',1,17,'4550', null);
-INSERT INTO bus_routes VALUES('174',1,18,'4383', null);
-INSERT INTO bus_routes VALUES('174',1,19,'5891', null);
-INSERT INTO bus_routes VALUES('174',1,20,'5911', null);
-INSERT INTO bus_routes VALUES('174',1,21,'3664', null);
-INSERT INTO bus_routes VALUES('174',1,22,'5892', null);
-INSERT INTO bus_routes VALUES('174',1,23,'4033', null);
-INSERT INTO bus_routes VALUES('174',1,24,'5894', null);
-INSERT INTO bus_routes VALUES('174',1,25,'4266', null);
-INSERT INTO bus_routes VALUES('174',1,26,'4268', null);
-INSERT INTO bus_routes VALUES('174',1,27,'3544', null);
-INSERT INTO bus_routes VALUES('174',1,28,'5887', null);
-INSERT INTO bus_routes VALUES('174',1,29,'4364', null);
-INSERT INTO bus_routes VALUES('174',2,1,'4364', null);
-INSERT INTO bus_routes VALUES('174',2,2,'4397', null);
-INSERT INTO bus_routes VALUES('174',2,3,'3545', null);
-INSERT INTO bus_routes VALUES('174',2,4,'4269', null);
-INSERT INTO bus_routes VALUES('174',2,5,'4267', null);
-INSERT INTO bus_routes VALUES('174',2,6,'5895', null);
-INSERT INTO bus_routes VALUES('174',2,7,'4034', null);
-INSERT INTO bus_routes VALUES('174',2,8,'5893', null);
-INSERT INTO bus_routes VALUES('174',2,9,'3665', null);
-INSERT INTO bus_routes VALUES('174',2,10,'5912', null);
-INSERT INTO bus_routes VALUES('174',2,11,'4387', null);
-INSERT INTO bus_routes VALUES('174',2,12,'4384', null);
-INSERT INTO bus_routes VALUES('174',2,13,'4551', null);
-INSERT INTO bus_routes VALUES('174',2,14,'3894', null);
-INSERT INTO bus_routes VALUES('174',2,15,'5400', null);
-INSERT INTO bus_routes VALUES('174',2,16,'5398', null);
-INSERT INTO bus_routes VALUES('174',2,17,'5402', null);
-INSERT INTO bus_routes VALUES('174',2,18,'5403', null);
-INSERT INTO bus_routes VALUES('174',2,19,'5404', null);
-INSERT INTO bus_routes VALUES('174',2,20,'5405', null);
-INSERT INTO bus_routes VALUES('174',2,21,'5657', null);
-INSERT INTO bus_routes VALUES('174',2,22,'5408', null);
-INSERT INTO bus_routes VALUES('174',2,23,'5409', null);
-INSERT INTO bus_routes VALUES('174',2,24,'3268', null);
-INSERT INTO bus_routes VALUES('174',2,25,'3261', null);
-INSERT INTO bus_routes VALUES('174',2,26,'3602', null);
-INSERT INTO bus_routes VALUES('174',2,27,'3264', null);
-INSERT INTO bus_routes VALUES('174',2,28,'3265', null);
-INSERT INTO bus_routes VALUES('174',2,29,'5061', null);
-INSERT INTO bus_routes VALUES('174',2,30,'3266', null);
-INSERT INTO bus_routes VALUES('174',2,31,'125', null);
-INSERT INTO bus_routes VALUES('174',2,32,'124', null);
-INSERT INTO bus_routes VALUES('174',2,33,'123', null);
-INSERT INTO bus_routes VALUES('174',2,34,'3251', null);
-INSERT INTO bus_routes VALUES('174',2,35,'2151', null);
-INSERT INTO bus_routes VALUES('174',2,36,'2149', null);
-INSERT INTO bus_routes VALUES('174',2,37,'206', null);
-INSERT INTO bus_routes VALUES('174',2,38,'204', null);
-INSERT INTO bus_routes VALUES('174',2,39,'31', null);
-INSERT INTO bus_routes VALUES('174',2,40,'5612', null);
-INSERT INTO bus_routes VALUES('175',1,1,'5608', null);
-INSERT INTO bus_routes VALUES('175',1,2,'1487', null);
-INSERT INTO bus_routes VALUES('175',1,3,'1488', null);
-INSERT INTO bus_routes VALUES('175',1,4,'2653', null);
-INSERT INTO bus_routes VALUES('175',1,5,'3252', null);
-INSERT INTO bus_routes VALUES('175',1,6,'3670', null);
-INSERT INTO bus_routes VALUES('175',1,7,'3918', null);
-INSERT INTO bus_routes VALUES('175',1,8,'399', null);
-INSERT INTO bus_routes VALUES('175',1,9,'4501', null);
-INSERT INTO bus_routes VALUES('175',1,10,'4382', null);
-INSERT INTO bus_routes VALUES('175',1,11,'4502', null);
-INSERT INTO bus_routes VALUES('175',1,12,'4493', null);
-INSERT INTO bus_routes VALUES('175',1,13,'3796', null);
-INSERT INTO bus_routes VALUES('175',1,14,'3870', null);
-INSERT INTO bus_routes VALUES('175',1,15,'3771', null);
-INSERT INTO bus_routes VALUES('175',1,16,'3769', null);
-INSERT INTO bus_routes VALUES('175',1,17,'4508', null);
-INSERT INTO bus_routes VALUES('175',2,1,'4508', null);
-INSERT INTO bus_routes VALUES('175',2,2,'3768', null);
-INSERT INTO bus_routes VALUES('175',2,3,'3770', null);
-INSERT INTO bus_routes VALUES('175',2,4,'3772', null);
-INSERT INTO bus_routes VALUES('175',2,5,'4513', null);
-INSERT INTO bus_routes VALUES('175',2,6,'402', null);
-INSERT INTO bus_routes VALUES('175',2,7,'4503', null);
-INSERT INTO bus_routes VALUES('175',2,8,'4506', null);
-INSERT INTO bus_routes VALUES('175',2,9,'3882', null);
-INSERT INTO bus_routes VALUES('175',2,10,'955', null);
-INSERT INTO bus_routes VALUES('175',2,11,'5521', null);
-INSERT INTO bus_routes VALUES('175',2,12,'3933', null);
-INSERT INTO bus_routes VALUES('175',2,13,'1526', null);
-INSERT INTO bus_routes VALUES('175',2,14,'1527', null);
-INSERT INTO bus_routes VALUES('175',2,15,'5608', null);
-INSERT INTO bus_routes VALUES('176',1,1,'5607', null);
-INSERT INTO bus_routes VALUES('176',1,2,'1487', null);
-INSERT INTO bus_routes VALUES('176',1,3,'1488', null);
-INSERT INTO bus_routes VALUES('176',1,4,'2653', null);
-INSERT INTO bus_routes VALUES('176',1,5,'3252', null);
-INSERT INTO bus_routes VALUES('176',1,6,'3253', null);
-INSERT INTO bus_routes VALUES('176',1,7,'3566', null);
-INSERT INTO bus_routes VALUES('176',1,8,'3261', null);
-INSERT INTO bus_routes VALUES('176',1,9,'269', null);
-INSERT INTO bus_routes VALUES('176',1,10,'271', null);
-INSERT INTO bus_routes VALUES('176',1,11,'3778', null);
-INSERT INTO bus_routes VALUES('176',1,12,'3869', null);
-INSERT INTO bus_routes VALUES('176',1,13,'3790', null);
-INSERT INTO bus_routes VALUES('176',1,14,'3791', null);
-INSERT INTO bus_routes VALUES('176',1,15,'3671', null);
-INSERT INTO bus_routes VALUES('176',1,16,'3794', null);
-INSERT INTO bus_routes VALUES('176',1,17,'402', null);
-INSERT INTO bus_routes VALUES('176',1,18,'1866', null);
-INSERT INTO bus_routes VALUES('176',1,19,'3874', null);
-INSERT INTO bus_routes VALUES('176',1,20,'3872', null);
-INSERT INTO bus_routes VALUES('176',1,21,'4495', null);
-INSERT INTO bus_routes VALUES('176',2,1,'4495', null);
-INSERT INTO bus_routes VALUES('176',2,2,'3873', null);
-INSERT INTO bus_routes VALUES('176',2,3,'3805', null);
-INSERT INTO bus_routes VALUES('176',2,4,'4493', null);
-INSERT INTO bus_routes VALUES('176',2,5,'3797', null);
-INSERT INTO bus_routes VALUES('176',2,6,'3795', null);
-INSERT INTO bus_routes VALUES('176',2,7,'3793', null);
-INSERT INTO bus_routes VALUES('176',2,8,'5535', null);
-INSERT INTO bus_routes VALUES('176',2,9,'3792', null);
-INSERT INTO bus_routes VALUES('176',2,10,'3789', null);
-INSERT INTO bus_routes VALUES('176',2,11,'3787', null);
-INSERT INTO bus_routes VALUES('176',2,12,'496', null);
-INSERT INTO bus_routes VALUES('176',2,13,'272', null);
-INSERT INTO bus_routes VALUES('176',2,14,'270', null);
-INSERT INTO bus_routes VALUES('176',2,15,'3602', null);
-INSERT INTO bus_routes VALUES('176',2,16,'3264', null);
-INSERT INTO bus_routes VALUES('176',2,17,'3265', null);
-INSERT INTO bus_routes VALUES('176',2,18,'5521', null);
-INSERT INTO bus_routes VALUES('176',2,19,'3933', null);
-INSERT INTO bus_routes VALUES('176',2,20,'1526', null);
-INSERT INTO bus_routes VALUES('176',2,21,'1527', null);
-INSERT INTO bus_routes VALUES('176',2,22,'5607', null);
-INSERT INTO bus_routes VALUES('177',1,1,'5606', null);
-INSERT INTO bus_routes VALUES('177',1,2,'5798', null);
-INSERT INTO bus_routes VALUES('177',1,3,'5799', null);
-INSERT INTO bus_routes VALUES('177',1,4,'5800', null);
-INSERT INTO bus_routes VALUES('177',1,5,'5801', null);
-INSERT INTO bus_routes VALUES('177',1,6,'5802', null);
-INSERT INTO bus_routes VALUES('177',1,7,'5803', null);
-INSERT INTO bus_routes VALUES('177',1,8,'5020', null);
-INSERT INTO bus_routes VALUES('177',1,9,'5804', null);
-INSERT INTO bus_routes VALUES('177',1,10,'4264', null);
-INSERT INTO bus_routes VALUES('177',1,11,'1539', null);
-INSERT INTO bus_routes VALUES('177',1,12,'1537', null);
-INSERT INTO bus_routes VALUES('177',1,13,'5807', null);
-INSERT INTO bus_routes VALUES('177',1,14,'3683', null);
-INSERT INTO bus_routes VALUES('177',2,1,'3683', null);
-INSERT INTO bus_routes VALUES('177',2,2,'5808', null);
-INSERT INTO bus_routes VALUES('177',2,3,'5809', null);
-INSERT INTO bus_routes VALUES('177',2,4,'5810', null);
-INSERT INTO bus_routes VALUES('177',2,5,'5811', null);
-INSERT INTO bus_routes VALUES('177',2,6,'5812', null);
-INSERT INTO bus_routes VALUES('177',2,7,'5813', null);
-INSERT INTO bus_routes VALUES('177',2,8,'5814', null);
-INSERT INTO bus_routes VALUES('177',2,9,'5815', null);
-INSERT INTO bus_routes VALUES('177',2,10,'5816', null);
-INSERT INTO bus_routes VALUES('177',2,11,'5606', null);
-INSERT INTO bus_routes VALUES('178',1,1,'5609', null);
-INSERT INTO bus_routes VALUES('178',1,2,'1487', null);
-INSERT INTO bus_routes VALUES('178',1,3,'1488', null);
-INSERT INTO bus_routes VALUES('178',1,4,'2653', null);
-INSERT INTO bus_routes VALUES('178',1,5,'3252', null);
-INSERT INTO bus_routes VALUES('178',1,6,'3670', null);
-INSERT INTO bus_routes VALUES('178',1,7,'3918', null);
-INSERT INTO bus_routes VALUES('178',1,8,'3620', null);
-INSERT INTO bus_routes VALUES('178',1,9,'3621', null);
-INSERT INTO bus_routes VALUES('178',1,10,'1762', null);
-INSERT INTO bus_routes VALUES('178',1,11,'1760', null);
-INSERT INTO bus_routes VALUES('178',1,12,'3623', null);
-INSERT INTO bus_routes VALUES('178',1,13,'3634', null);
-INSERT INTO bus_routes VALUES('178',1,14,'2864', null);
-INSERT INTO bus_routes VALUES('178',1,15,'2968', null);
-INSERT INTO bus_routes VALUES('178',1,16,'2970', null);
-INSERT INTO bus_routes VALUES('178',1,17,'1021', null);
-INSERT INTO bus_routes VALUES('178',1,18,'1022', null);
-INSERT INTO bus_routes VALUES('178',1,19,'1025', null);
-INSERT INTO bus_routes VALUES('178',1,20,'3279', null);
-INSERT INTO bus_routes VALUES('178',2,1,'3279', null);
-INSERT INTO bus_routes VALUES('178',2,2,'1026', null);
-INSERT INTO bus_routes VALUES('178',2,3,'1028', null);
-INSERT INTO bus_routes VALUES('178',2,4,'1029', null);
-INSERT INTO bus_routes VALUES('178',2,5,'3626', null);
-INSERT INTO bus_routes VALUES('178',2,6,'3628', null);
-INSERT INTO bus_routes VALUES('178',2,7,'3627', null);
-INSERT INTO bus_routes VALUES('178',2,8,'3625', null);
-INSERT INTO bus_routes VALUES('178',2,9,'3624', null);
-INSERT INTO bus_routes VALUES('178',2,10,'3635', null);
-INSERT INTO bus_routes VALUES('178',2,11,'3622', null);
-INSERT INTO bus_routes VALUES('178',2,12,'1759', null);
-INSERT INTO bus_routes VALUES('178',2,13,'1761', null);
-INSERT INTO bus_routes VALUES('178',2,14,'1763', null);
-INSERT INTO bus_routes VALUES('178',2,15,'955', null);
-INSERT INTO bus_routes VALUES('178',2,16,'5521', null);
-INSERT INTO bus_routes VALUES('178',2,17,'3933', null);
-INSERT INTO bus_routes VALUES('178',2,18,'1526', null);
-INSERT INTO bus_routes VALUES('178',2,19,'1527', null);
-INSERT INTO bus_routes VALUES('178',2,20,'5609', null);
-INSERT INTO bus_routes VALUES('18',1,1,'912', null);
-INSERT INTO bus_routes VALUES('18',1,2,'545', null);
-INSERT INTO bus_routes VALUES('18',1,3,'547', null);
-INSERT INTO bus_routes VALUES('18',1,4,'2589', null);
-INSERT INTO bus_routes VALUES('18',1,5,'594', null);
-INSERT INTO bus_routes VALUES('18',1,6,'914', null);
-INSERT INTO bus_routes VALUES('18',1,7,'5507', null);
-INSERT INTO bus_routes VALUES('18',1,8,'1117', null);
-INSERT INTO bus_routes VALUES('18',1,9,'4518', null);
-INSERT INTO bus_routes VALUES('18',1,10,'1118', null);
-INSERT INTO bus_routes VALUES('18',1,11,'4484', null);
-INSERT INTO bus_routes VALUES('18',1,12,'1120', null);
-INSERT INTO bus_routes VALUES('18',1,13,'1122', null);
-INSERT INTO bus_routes VALUES('18',1,14,'1124', null);
-INSERT INTO bus_routes VALUES('18',1,15,'5718', null);
-INSERT INTO bus_routes VALUES('18',1,16,'5719', null);
-INSERT INTO bus_routes VALUES('18',1,17,'5720', null);
-INSERT INTO bus_routes VALUES('18',1,18,'1132', null);
-INSERT INTO bus_routes VALUES('18',1,19,'5378', null);
-INSERT INTO bus_routes VALUES('18',1,20,'1135', null);
-INSERT INTO bus_routes VALUES('18',1,21,'1137', null);
-INSERT INTO bus_routes VALUES('18',1,22,'1139', null);
-INSERT INTO bus_routes VALUES('18',1,23,'1141', null);
-INSERT INTO bus_routes VALUES('18',1,24,'1143', null);
-INSERT INTO bus_routes VALUES('18',1,25,'1144', null);
-INSERT INTO bus_routes VALUES('18',1,26,'1145', null);
-INSERT INTO bus_routes VALUES('18',1,27,'1189', null);
-INSERT INTO bus_routes VALUES('18',1,28,'1787', null);
-INSERT INTO bus_routes VALUES('18',1,29,'1789', null);
-INSERT INTO bus_routes VALUES('18',1,30,'3880', null);
-INSERT INTO bus_routes VALUES('18',2,1,'3880', null);
-INSERT INTO bus_routes VALUES('18',2,2,'1790', null);
-INSERT INTO bus_routes VALUES('18',2,3,'1788', null);
-INSERT INTO bus_routes VALUES('18',2,4,'1190', null);
-INSERT INTO bus_routes VALUES('18',2,5,'3878', null);
-INSERT INTO bus_routes VALUES('18',2,6,'1147', null);
-INSERT INTO bus_routes VALUES('18',2,7,'1148', null);
-INSERT INTO bus_routes VALUES('18',2,8,'1142', null);
-INSERT INTO bus_routes VALUES('18',2,9,'1140', null);
-INSERT INTO bus_routes VALUES('18',2,10,'4728', null);
-INSERT INTO bus_routes VALUES('18',2,11,'1138', null);
-INSERT INTO bus_routes VALUES('18',2,12,'1136', null);
-INSERT INTO bus_routes VALUES('18',2,13,'1134', null);
-INSERT INTO bus_routes VALUES('18',2,14,'5379', null);
-INSERT INTO bus_routes VALUES('18',2,15,'5380', null);
-INSERT INTO bus_routes VALUES('18',2,16,'5702', null);
-INSERT INTO bus_routes VALUES('18',2,17,'5703', null);
-INSERT INTO bus_routes VALUES('18',2,18,'5704', null);
-INSERT INTO bus_routes VALUES('18',2,19,'1125', null);
-INSERT INTO bus_routes VALUES('18',2,20,'1123', null);
-INSERT INTO bus_routes VALUES('18',2,21,'1121', null);
-INSERT INTO bus_routes VALUES('18',2,22,'4485', null);
-INSERT INTO bus_routes VALUES('18',2,23,'1119', null);
-INSERT INTO bus_routes VALUES('18',2,24,'4519', null);
-INSERT INTO bus_routes VALUES('18',2,25,'947', null);
-INSERT INTO bus_routes VALUES('18',2,26,'917', null);
-INSERT INTO bus_routes VALUES('18',2,27,'4481', null);
-INSERT INTO bus_routes VALUES('18',2,28,'915', null);
-INSERT INTO bus_routes VALUES('18',2,29,'593', null);
-INSERT INTO bus_routes VALUES('18',2,30,'4780', null);
-INSERT INTO bus_routes VALUES('18',2,31,'548', null);
-INSERT INTO bus_routes VALUES('18',2,32,'546', null);
-INSERT INTO bus_routes VALUES('18',2,33,'912', null);
-INSERT INTO bus_routes VALUES('180',1,1,'3644', null);
-INSERT INTO bus_routes VALUES('180',1,2,'5083', null);
-INSERT INTO bus_routes VALUES('180',2,1,'5083', null);
-INSERT INTO bus_routes VALUES('180',2,2,'2916', null);
-INSERT INTO bus_routes VALUES('180',2,3,'3644', null);
-INSERT INTO bus_routes VALUES('19',1,1,'5167', null);
-INSERT INTO bus_routes VALUES('19',1,2,'417', null);
-INSERT INTO bus_routes VALUES('19',1,3,'536', null);
-INSERT INTO bus_routes VALUES('19',1,4,'443', null);
-INSERT INTO bus_routes VALUES('19',1,5,'444', null);
-INSERT INTO bus_routes VALUES('19',1,6,'445', null);
-INSERT INTO bus_routes VALUES('19',1,7,'446', null);
-INSERT INTO bus_routes VALUES('19',1,8,'447', null);
-INSERT INTO bus_routes VALUES('19',1,9,'448', null);
-INSERT INTO bus_routes VALUES('19',1,10,'4710', null);
-INSERT INTO bus_routes VALUES('19',1,11,'449', null);
-INSERT INTO bus_routes VALUES('19',1,12,'451', null);
-INSERT INTO bus_routes VALUES('19',1,13,'452', null);
-INSERT INTO bus_routes VALUES('19',1,14,'2171', null);
-INSERT INTO bus_routes VALUES('19',1,15,'2172', null);
-INSERT INTO bus_routes VALUES('19',1,16,'2174', null);
-INSERT INTO bus_routes VALUES('19',1,17,'2176', null);
-INSERT INTO bus_routes VALUES('19',1,18,'5700', null);
-INSERT INTO bus_routes VALUES('19',1,19,'4839', null);
-INSERT INTO bus_routes VALUES('19',1,20,'1976', null);
-INSERT INTO bus_routes VALUES('19',1,21,'1186', null);
-INSERT INTO bus_routes VALUES('19',1,22,'1187', null);
-INSERT INTO bus_routes VALUES('19',1,23,'1188', null);
-INSERT INTO bus_routes VALUES('19',1,24,'1170', null);
-INSERT INTO bus_routes VALUES('19',1,25,'1171', null);
-INSERT INTO bus_routes VALUES('19',2,1,'1171', null);
-INSERT INTO bus_routes VALUES('19',2,2,'1182', null);
-INSERT INTO bus_routes VALUES('19',2,3,'5036', null);
-INSERT INTO bus_routes VALUES('19',2,4,'1183', null);
-INSERT INTO bus_routes VALUES('19',2,5,'1184', null);
-INSERT INTO bus_routes VALUES('19',2,6,'89', null);
-INSERT INTO bus_routes VALUES('19',2,7,'1166', null);
-INSERT INTO bus_routes VALUES('19',2,8,'1567', null);
-INSERT INTO bus_routes VALUES('19',2,9,'2177', null);
-INSERT INTO bus_routes VALUES('19',2,10,'2175', null);
-INSERT INTO bus_routes VALUES('19',2,11,'2173', null);
-INSERT INTO bus_routes VALUES('19',2,12,'162', null);
-INSERT INTO bus_routes VALUES('19',2,13,'423', null);
-INSERT INTO bus_routes VALUES('19',2,14,'424', null);
-INSERT INTO bus_routes VALUES('19',2,15,'425', null);
-INSERT INTO bus_routes VALUES('19',2,16,'426', null);
-INSERT INTO bus_routes VALUES('19',2,17,'427', null);
-INSERT INTO bus_routes VALUES('19',2,18,'428', null);
-INSERT INTO bus_routes VALUES('19',2,19,'5377', null);
-INSERT INTO bus_routes VALUES('19',2,20,'430', null);
-INSERT INTO bus_routes VALUES('19',2,21,'431', null);
-INSERT INTO bus_routes VALUES('19',2,22,'432', null);
-INSERT INTO bus_routes VALUES('19',2,23,'418', null);
-INSERT INTO bus_routes VALUES('19',2,24,'416', null);
-INSERT INTO bus_routes VALUES('19',2,25,'5167', null);
-INSERT INTO bus_routes VALUES('2',1,1,'3811', null);
-INSERT INTO bus_routes VALUES('2',1,2,'148', null);
-INSERT INTO bus_routes VALUES('2',1,3,'150', null);
-INSERT INTO bus_routes VALUES('2',1,4,'1256', null);
-INSERT INTO bus_routes VALUES('2',1,5,'199', null);
-INSERT INTO bus_routes VALUES('2',1,6,'2157', null);
-INSERT INTO bus_routes VALUES('2',1,7,'156', null);
-INSERT INTO bus_routes VALUES('2',1,8,'158', null);
-INSERT INTO bus_routes VALUES('2',1,9,'161', null);
-INSERT INTO bus_routes VALUES('2',1,10,'69', null);
-INSERT INTO bus_routes VALUES('2',1,11,'5135', null);
-INSERT INTO bus_routes VALUES('2',1,12,'5137', null);
-INSERT INTO bus_routes VALUES('2',1,13,'4094', null);
-INSERT INTO bus_routes VALUES('2',1,14,'9', null);
-INSERT INTO bus_routes VALUES('2',1,15,'168', null);
-INSERT INTO bus_routes VALUES('2',1,16,'283', null);
-INSERT INTO bus_routes VALUES('2',1,17,'1750', null);
-INSERT INTO bus_routes VALUES('2',1,18,'172', null);
-INSERT INTO bus_routes VALUES('2',1,19,'175', null);
-INSERT INTO bus_routes VALUES('2',1,20,'5219', null);
-INSERT INTO bus_routes VALUES('2',1,21,'177', null);
-INSERT INTO bus_routes VALUES('2',1,22,'4477', null);
-INSERT INTO bus_routes VALUES('2',1,23,'4478', null);
-INSERT INTO bus_routes VALUES('2',1,24,'4479', null);
-INSERT INTO bus_routes VALUES('2',1,25,'180', null);
-INSERT INTO bus_routes VALUES('2',1,26,'181', null);
-INSERT INTO bus_routes VALUES('2',1,27,'182', null);
-INSERT INTO bus_routes VALUES('2',1,28,'183', null);
-INSERT INTO bus_routes VALUES('2',1,29,'184', null);
-INSERT INTO bus_routes VALUES('2',1,30,'185', null);
-INSERT INTO bus_routes VALUES('2',1,31,'186', null);
-INSERT INTO bus_routes VALUES('2',2,1,'186', null);
-INSERT INTO bus_routes VALUES('2',2,2,'187', null);
-INSERT INTO bus_routes VALUES('2',2,3,'188', null);
-INSERT INTO bus_routes VALUES('2',2,4,'189', null);
-INSERT INTO bus_routes VALUES('2',2,5,'190', null);
-INSERT INTO bus_routes VALUES('2',2,6,'191', null);
-INSERT INTO bus_routes VALUES('2',2,7,'192', null);
-INSERT INTO bus_routes VALUES('2',2,8,'193', null);
-INSERT INTO bus_routes VALUES('2',2,9,'173', null);
-INSERT INTO bus_routes VALUES('2',2,10,'741', null);
-INSERT INTO bus_routes VALUES('2',2,11,'171', null);
-INSERT INTO bus_routes VALUES('2',2,12,'169', null);
-INSERT INTO bus_routes VALUES('2',2,13,'723', null);
-INSERT INTO bus_routes VALUES('2',2,14,'724', null);
-INSERT INTO bus_routes VALUES('2',2,15,'5138', null);
-INSERT INTO bus_routes VALUES('2',2,16,'164', null);
-INSERT INTO bus_routes VALUES('2',2,17,'70', null);
-INSERT INTO bus_routes VALUES('2',2,18,'162', null);
-INSERT INTO bus_routes VALUES('2',2,19,'174', null);
-INSERT INTO bus_routes VALUES('2',2,20,'3686', null);
-INSERT INTO bus_routes VALUES('2',2,21,'157', null);
-INSERT INTO bus_routes VALUES('2',2,22,'2156', null);
-INSERT INTO bus_routes VALUES('2',2,23,'2158', null);
-INSERT INTO bus_routes VALUES('2',2,24,'2160', null);
-INSERT INTO bus_routes VALUES('2',2,25,'2162', null);
-INSERT INTO bus_routes VALUES('2',2,26,'1257', null);
-INSERT INTO bus_routes VALUES('2',2,27,'5822', null);
-INSERT INTO bus_routes VALUES('2',2,28,'151', null);
-INSERT INTO bus_routes VALUES('2',2,29,'149', null);
-INSERT INTO bus_routes VALUES('2',2,30,'3811', null);
-INSERT INTO bus_routes VALUES('20',1,1,'2711', null);
-INSERT INTO bus_routes VALUES('20',1,2,'5239', null);
-INSERT INTO bus_routes VALUES('20',1,3,'70', null);
-INSERT INTO bus_routes VALUES('20',1,4,'162', null);
-INSERT INTO bus_routes VALUES('20',1,5,'174', null);
-INSERT INTO bus_routes VALUES('20',1,6,'159', null);
-INSERT INTO bus_routes VALUES('20',1,7,'195', null);
-INSERT INTO bus_routes VALUES('20',1,8,'814', null);
-INSERT INTO bus_routes VALUES('20',1,9,'816', null);
-INSERT INTO bus_routes VALUES('20',1,10,'818', null);
-INSERT INTO bus_routes VALUES('20',1,11,'820', null);
-INSERT INTO bus_routes VALUES('20',1,12,'822', null);
-INSERT INTO bus_routes VALUES('20',1,13,'824', null);
-INSERT INTO bus_routes VALUES('20',1,14,'826', null);
-INSERT INTO bus_routes VALUES('20',1,15,'828', null);
-INSERT INTO bus_routes VALUES('20',1,16,'830', null);
-INSERT INTO bus_routes VALUES('20',1,17,'832', null);
-INSERT INTO bus_routes VALUES('20',1,18,'5472', null);
-INSERT INTO bus_routes VALUES('20',1,19,'834', null);
-INSERT INTO bus_routes VALUES('20',1,20,'853', null);
-INSERT INTO bus_routes VALUES('20',1,21,'837', null);
-INSERT INTO bus_routes VALUES('20',1,22,'838', null);
-INSERT INTO bus_routes VALUES('20',1,23,'840', null);
-INSERT INTO bus_routes VALUES('20',1,24,'843', null);
-INSERT INTO bus_routes VALUES('20',1,25,'844', null);
-INSERT INTO bus_routes VALUES('20',1,26,'845', null);
-INSERT INTO bus_routes VALUES('20',1,27,'846', null);
-INSERT INTO bus_routes VALUES('20',1,28,'3661', null);
-INSERT INTO bus_routes VALUES('20',1,29,'847', null);
-INSERT INTO bus_routes VALUES('20',1,30,'1997', null);
-INSERT INTO bus_routes VALUES('20',1,31,'1999', null);
-INSERT INTO bus_routes VALUES('20',1,32,'4516', null);
-INSERT INTO bus_routes VALUES('20',1,33,'2731', null);
-INSERT INTO bus_routes VALUES('20',1,34,'3031', null);
-INSERT INTO bus_routes VALUES('20',2,1,'3031', null);
-INSERT INTO bus_routes VALUES('20',2,2,'2730', null);
-INSERT INTO bus_routes VALUES('20',2,3,'2001', null);
-INSERT INTO bus_routes VALUES('20',2,4,'2000', null);
-INSERT INTO bus_routes VALUES('20',2,5,'1998', null);
-INSERT INTO bus_routes VALUES('20',2,6,'849', null);
-INSERT INTO bus_routes VALUES('20',2,7,'850', null);
-INSERT INTO bus_routes VALUES('20',2,8,'841', null);
-INSERT INTO bus_routes VALUES('20',2,9,'839', null);
-INSERT INTO bus_routes VALUES('20',2,10,'851', null);
-INSERT INTO bus_routes VALUES('20',2,11,'852', null);
-INSERT INTO bus_routes VALUES('20',2,12,'835', null);
-INSERT INTO bus_routes VALUES('20',2,13,'5473', null);
-INSERT INTO bus_routes VALUES('20',2,14,'831', null);
-INSERT INTO bus_routes VALUES('20',2,15,'829', null);
-INSERT INTO bus_routes VALUES('20',2,16,'827', null);
-INSERT INTO bus_routes VALUES('20',2,17,'825', null);
-INSERT INTO bus_routes VALUES('20',2,18,'823', null);
-INSERT INTO bus_routes VALUES('20',2,19,'821', null);
-INSERT INTO bus_routes VALUES('20',2,20,'819', null);
-INSERT INTO bus_routes VALUES('20',2,21,'817', null);
-INSERT INTO bus_routes VALUES('20',2,22,'815', null);
-INSERT INTO bus_routes VALUES('20',2,23,'194', null);
-INSERT INTO bus_routes VALUES('20',2,24,'158', null);
-INSERT INTO bus_routes VALUES('20',2,25,'161', null);
-INSERT INTO bus_routes VALUES('20',2,26,'69', null);
-INSERT INTO bus_routes VALUES('20',2,27,'3689', null);
-INSERT INTO bus_routes VALUES('20',2,28,'2711', null);
-INSERT INTO bus_routes VALUES('200',1,1,'4244', null);
-INSERT INTO bus_routes VALUES('200',1,2,'1284', null);
-INSERT INTO bus_routes VALUES('200',1,3,'5617', null);
-INSERT INTO bus_routes VALUES('200',1,4,'3539', null);
-INSERT INTO bus_routes VALUES('200',1,5,'4853', null);
-INSERT INTO bus_routes VALUES('200',1,6,'3649', null);
-INSERT INTO bus_routes VALUES('200',2,1,'3649', null);
-INSERT INTO bus_routes VALUES('200',2,2,'4707', null);
-INSERT INTO bus_routes VALUES('200',2,3,'3542', null);
-INSERT INTO bus_routes VALUES('200',2,4,'5195', null);
-INSERT INTO bus_routes VALUES('200',2,5,'1293', null);
-INSERT INTO bus_routes VALUES('200',2,6,'1285', null);
-INSERT INTO bus_routes VALUES('200',2,7,'4244', null);
-INSERT INTO bus_routes VALUES('203',1,1,'5709', null);
-INSERT INTO bus_routes VALUES('203',1,2,'71', null);
-INSERT INTO bus_routes VALUES('203',1,3,'153', null);
-INSERT INTO bus_routes VALUES('203',1,4,'3539', null);
-INSERT INTO bus_routes VALUES('203',1,5,'4853', null);
-INSERT INTO bus_routes VALUES('203',1,6,'5726', null);
-INSERT INTO bus_routes VALUES('203',2,1,'5726', null);
-INSERT INTO bus_routes VALUES('203',2,2,'3542', null);
-INSERT INTO bus_routes VALUES('203',2,3,'3540', null);
-INSERT INTO bus_routes VALUES('203',2,4,'5620', null);
-INSERT INTO bus_routes VALUES('203',2,5,'69', null);
-INSERT INTO bus_routes VALUES('203',2,6,'5709', null);
-INSERT INTO bus_routes VALUES('21',1,1,'4232', null);
-INSERT INTO bus_routes VALUES('21',1,2,'4233', null);
-INSERT INTO bus_routes VALUES('21',1,3,'1217', null);
-INSERT INTO bus_routes VALUES('21',1,4,'1219', null);
-INSERT INTO bus_routes VALUES('21',1,5,'1222', null);
-INSERT INTO bus_routes VALUES('21',1,6,'1223', null);
-INSERT INTO bus_routes VALUES('21',1,7,'2967', null);
-INSERT INTO bus_routes VALUES('21',1,8,'1227', null);
-INSERT INTO bus_routes VALUES('21',1,9,'1229', null);
-INSERT INTO bus_routes VALUES('21',1,10,'5627', null);
-INSERT INTO bus_routes VALUES('21',1,11,'670', null);
-INSERT INTO bus_routes VALUES('21',1,12,'672', null);
-INSERT INTO bus_routes VALUES('21',1,13,'674', null);
-INSERT INTO bus_routes VALUES('21',1,14,'676', null);
-INSERT INTO bus_routes VALUES('21',1,15,'678', null);
-INSERT INTO bus_routes VALUES('21',1,16,'680', null);
-INSERT INTO bus_routes VALUES('21',1,17,'682', null);
-INSERT INTO bus_routes VALUES('21',1,18,'685', null);
-INSERT INTO bus_routes VALUES('21',1,19,'686', null);
-INSERT INTO bus_routes VALUES('21',1,20,'1233', null);
-INSERT INTO bus_routes VALUES('21',1,21,'1234', null);
-INSERT INTO bus_routes VALUES('21',1,22,'1236', null);
-INSERT INTO bus_routes VALUES('21',1,23,'2477', null);
-INSERT INTO bus_routes VALUES('21',1,24,'1238', null);
-INSERT INTO bus_routes VALUES('21',1,25,'1240', null);
-INSERT INTO bus_routes VALUES('21',1,26,'4520', null);
-INSERT INTO bus_routes VALUES('21',1,27,'1241', null);
-INSERT INTO bus_routes VALUES('21',1,28,'1242', null);
-INSERT INTO bus_routes VALUES('21',1,29,'1243', null);
-INSERT INTO bus_routes VALUES('21',1,30,'3659', null);
-INSERT INTO bus_routes VALUES('21',1,31,'3660', null);
-INSERT INTO bus_routes VALUES('21',1,32,'231', null);
-INSERT INTO bus_routes VALUES('21',1,33,'5153', null);
-INSERT INTO bus_routes VALUES('21',1,34,'229', null);
-INSERT INTO bus_routes VALUES('21',1,35,'5040', null);
-INSERT INTO bus_routes VALUES('21',2,1,'5040', null);
-INSERT INTO bus_routes VALUES('21',2,2,'1250', null);
-INSERT INTO bus_routes VALUES('21',2,3,'1248', null);
-INSERT INTO bus_routes VALUES('21',2,4,'1246', null);
-INSERT INTO bus_routes VALUES('21',2,5,'1244', null);
-INSERT INTO bus_routes VALUES('21',2,6,'1324', null);
-INSERT INTO bus_routes VALUES('21',2,7,'767', null);
-INSERT INTO bus_routes VALUES('21',2,8,'765', null);
-INSERT INTO bus_routes VALUES('21',2,9,'1239', null);
-INSERT INTO bus_routes VALUES('21',2,10,'2478', null);
-INSERT INTO bus_routes VALUES('21',2,11,'1237', null);
-INSERT INTO bus_routes VALUES('21',2,12,'1235', null);
-INSERT INTO bus_routes VALUES('21',2,13,'757', null);
-INSERT INTO bus_routes VALUES('21',2,14,'5146', null);
-INSERT INTO bus_routes VALUES('21',2,15,'684', null);
-INSERT INTO bus_routes VALUES('21',2,16,'683', null);
-INSERT INTO bus_routes VALUES('21',2,17,'681', null);
-INSERT INTO bus_routes VALUES('21',2,18,'679', null);
-INSERT INTO bus_routes VALUES('21',2,19,'4521', null);
-INSERT INTO bus_routes VALUES('21',2,20,'675', null);
-INSERT INTO bus_routes VALUES('21',2,21,'673', null);
-INSERT INTO bus_routes VALUES('21',2,22,'671', null);
-INSERT INTO bus_routes VALUES('21',2,23,'1232', null);
-INSERT INTO bus_routes VALUES('21',2,24,'1230', null);
-INSERT INTO bus_routes VALUES('21',2,25,'1228', null);
-INSERT INTO bus_routes VALUES('21',2,26,'1226', null);
-INSERT INTO bus_routes VALUES('21',2,27,'1224', null);
-INSERT INTO bus_routes VALUES('21',2,28,'1325', null);
-INSERT INTO bus_routes VALUES('21',2,29,'1221', null);
-INSERT INTO bus_routes VALUES('21',2,30,'1220', null);
-INSERT INTO bus_routes VALUES('21',2,31,'1218', null);
-INSERT INTO bus_routes VALUES('21',2,32,'4026', null);
-INSERT INTO bus_routes VALUES('21',2,33,'4232', null);
-INSERT INTO bus_routes VALUES('210',1,1,'5452', null);
-INSERT INTO bus_routes VALUES('210',1,2,'1247', null);
-INSERT INTO bus_routes VALUES('210',1,3,'811', null);
-INSERT INTO bus_routes VALUES('210',1,4,'3829', null);
-INSERT INTO bus_routes VALUES('210',1,5,'685', null);
-INSERT INTO bus_routes VALUES('210',1,6,'756', null);
-INSERT INTO bus_routes VALUES('210',1,7,'1078', null);
-INSERT INTO bus_routes VALUES('210',1,8,'3063', null);
-INSERT INTO bus_routes VALUES('210',1,9,'3065', null);
-INSERT INTO bus_routes VALUES('210',1,10,'3067', null);
-INSERT INTO bus_routes VALUES('210',1,11,'958', null);
-INSERT INTO bus_routes VALUES('210',1,12,'960', null);
-INSERT INTO bus_routes VALUES('210',1,13,'962', null);
-INSERT INTO bus_routes VALUES('210',1,14,'3069', null);
-INSERT INTO bus_routes VALUES('210',1,15,'3071', null);
-INSERT INTO bus_routes VALUES('210',1,16,'3073', null);
-INSERT INTO bus_routes VALUES('210',1,17,'4473', null);
-INSERT INTO bus_routes VALUES('210',1,18,'3076', null);
-INSERT INTO bus_routes VALUES('210',1,19,'3077', null);
-INSERT INTO bus_routes VALUES('210',1,20,'3078', null);
-INSERT INTO bus_routes VALUES('210',2,1,'3078', null);
-INSERT INTO bus_routes VALUES('210',2,2,'3735', null);
-INSERT INTO bus_routes VALUES('210',2,3,'3091', null);
-INSERT INTO bus_routes VALUES('210',2,4,'3074', null);
-INSERT INTO bus_routes VALUES('210',2,5,'3072', null);
-INSERT INTO bus_routes VALUES('210',2,6,'3070', null);
-INSERT INTO bus_routes VALUES('210',2,7,'965', null);
-INSERT INTO bus_routes VALUES('210',2,8,'963', null);
-INSERT INTO bus_routes VALUES('210',2,9,'961', null);
-INSERT INTO bus_routes VALUES('210',2,10,'959', null);
-INSERT INTO bus_routes VALUES('210',2,11,'3068', null);
-INSERT INTO bus_routes VALUES('210',2,12,'3066', null);
-INSERT INTO bus_routes VALUES('210',2,13,'3064', null);
-INSERT INTO bus_routes VALUES('210',2,14,'3093', null);
-INSERT INTO bus_routes VALUES('210',2,15,'3092', null);
-INSERT INTO bus_routes VALUES('210',2,16,'757', null);
-INSERT INTO bus_routes VALUES('210',2,17,'5146', null);
-INSERT INTO bus_routes VALUES('210',2,18,'684', null);
-INSERT INTO bus_routes VALUES('210',2,19,'782', null);
-INSERT INTO bus_routes VALUES('210',2,20,'784', null);
-INSERT INTO bus_routes VALUES('210',2,21,'5452', null);
-INSERT INTO bus_routes VALUES('215',1,1,'5298', null);
-INSERT INTO bus_routes VALUES('215',1,2,'2154', null);
-INSERT INTO bus_routes VALUES('215',1,3,'2156', null);
-INSERT INTO bus_routes VALUES('215',1,4,'2158', null);
-INSERT INTO bus_routes VALUES('215',1,5,'2160', null);
-INSERT INTO bus_routes VALUES('215',1,6,'2162', null);
-INSERT INTO bus_routes VALUES('215',1,7,'2164', null);
-INSERT INTO bus_routes VALUES('215',1,8,'4359', null);
-INSERT INTO bus_routes VALUES('215',1,9,'4361', null);
-INSERT INTO bus_routes VALUES('215',1,10,'4363', null);
-INSERT INTO bus_routes VALUES('215',2,1,'4363', null);
-INSERT INTO bus_routes VALUES('215',2,2,'4365', null);
-INSERT INTO bus_routes VALUES('215',2,3,'4362', null);
-INSERT INTO bus_routes VALUES('215',2,4,'4360', null);
-INSERT INTO bus_routes VALUES('215',2,5,'2165', null);
-INSERT INTO bus_routes VALUES('215',2,6,'2163', null);
-INSERT INTO bus_routes VALUES('215',2,7,'2161', null);
-INSERT INTO bus_routes VALUES('215',2,8,'2159', null);
-INSERT INTO bus_routes VALUES('215',2,9,'2157', null);
-INSERT INTO bus_routes VALUES('215',2,10,'2155', null);
-INSERT INTO bus_routes VALUES('215',2,11,'5034', null);
-INSERT INTO bus_routes VALUES('215',2,12,'5298', null);
-INSERT INTO bus_routes VALUES('22',1,1,'1425', null);
-INSERT INTO bus_routes VALUES('22',1,2,'5718', null);
-INSERT INTO bus_routes VALUES('22',1,3,'5719', null);
-INSERT INTO bus_routes VALUES('22',1,4,'5720', null);
-INSERT INTO bus_routes VALUES('22',1,5,'1132', null);
-INSERT INTO bus_routes VALUES('22',1,6,'5378', null);
-INSERT INTO bus_routes VALUES('22',1,7,'1135', null);
-INSERT INTO bus_routes VALUES('22',1,8,'1137', null);
-INSERT INTO bus_routes VALUES('22',1,9,'1172', null);
-INSERT INTO bus_routes VALUES('22',1,10,'4662', null);
-INSERT INTO bus_routes VALUES('22',1,11,'1174', null);
-INSERT INTO bus_routes VALUES('22',1,12,'4664', null);
-INSERT INTO bus_routes VALUES('22',1,13,'1790', null);
-INSERT INTO bus_routes VALUES('22',1,14,'1788', null);
-INSERT INTO bus_routes VALUES('22',1,15,'1191', null);
-INSERT INTO bus_routes VALUES('22',1,16,'1193', null);
-INSERT INTO bus_routes VALUES('22',1,17,'1195', null);
-INSERT INTO bus_routes VALUES('22',1,18,'5154', null);
-INSERT INTO bus_routes VALUES('22',1,19,'2179', null);
-INSERT INTO bus_routes VALUES('22',1,20,'2181', null);
-INSERT INTO bus_routes VALUES('22',1,21,'5211', null);
-INSERT INTO bus_routes VALUES('22',1,22,'3559', null);
-INSERT INTO bus_routes VALUES('22',1,23,'3899', null);
-INSERT INTO bus_routes VALUES('22',2,1,'3899', null);
-INSERT INTO bus_routes VALUES('22',2,2,'3562', null);
-INSERT INTO bus_routes VALUES('22',2,3,'2183', null);
-INSERT INTO bus_routes VALUES('22',2,4,'2182', null);
-INSERT INTO bus_routes VALUES('22',2,5,'2180', null);
-INSERT INTO bus_routes VALUES('22',2,6,'1197', null);
-INSERT INTO bus_routes VALUES('22',2,7,'1198', null);
-INSERT INTO bus_routes VALUES('22',2,8,'1194', null);
-INSERT INTO bus_routes VALUES('22',2,9,'1192', null);
-INSERT INTO bus_routes VALUES('22',2,10,'1787', null);
-INSERT INTO bus_routes VALUES('22',2,11,'1789', null);
-INSERT INTO bus_routes VALUES('22',2,12,'4665', null);
-INSERT INTO bus_routes VALUES('22',2,13,'1175', null);
-INSERT INTO bus_routes VALUES('22',2,14,'4663', null);
-INSERT INTO bus_routes VALUES('22',2,15,'1173', null);
-INSERT INTO bus_routes VALUES('22',2,16,'1138', null);
-INSERT INTO bus_routes VALUES('22',2,17,'1136', null);
-INSERT INTO bus_routes VALUES('22',2,18,'1134', null);
-INSERT INTO bus_routes VALUES('22',2,19,'5379', null);
-INSERT INTO bus_routes VALUES('22',2,20,'5380', null);
-INSERT INTO bus_routes VALUES('22',2,21,'5702', null);
-INSERT INTO bus_routes VALUES('22',2,22,'5703', null);
-INSERT INTO bus_routes VALUES('22',2,23,'5704', null);
-INSERT INTO bus_routes VALUES('22',2,24,'1425', null);
-INSERT INTO bus_routes VALUES('23',1,1,'912', null);
-INSERT INTO bus_routes VALUES('23',1,2,'545', null);
-INSERT INTO bus_routes VALUES('23',1,3,'547', null);
-INSERT INTO bus_routes VALUES('23',1,4,'2589', null);
-INSERT INTO bus_routes VALUES('23',1,5,'594', null);
-INSERT INTO bus_routes VALUES('23',1,6,'914', null);
-INSERT INTO bus_routes VALUES('23',1,7,'916', null);
-INSERT INTO bus_routes VALUES('23',1,8,'918', null);
-INSERT INTO bus_routes VALUES('23',1,9,'920', null);
-INSERT INTO bus_routes VALUES('23',1,10,'922', null);
-INSERT INTO bus_routes VALUES('23',1,11,'924', null);
-INSERT INTO bus_routes VALUES('23',1,12,'926', null);
-INSERT INTO bus_routes VALUES('23',1,13,'928', null);
-INSERT INTO bus_routes VALUES('23',1,14,'930', null);
-INSERT INTO bus_routes VALUES('23',1,15,'932', null);
-INSERT INTO bus_routes VALUES('23',1,16,'934', null);
-INSERT INTO bus_routes VALUES('23',1,17,'936', null);
-INSERT INTO bus_routes VALUES('23',1,18,'3192', null);
-INSERT INTO bus_routes VALUES('23',1,19,'5124', null);
-INSERT INTO bus_routes VALUES('23',1,20,'937', null);
-INSERT INTO bus_routes VALUES('23',1,21,'939', null);
-INSERT INTO bus_routes VALUES('23',1,22,'941', null);
-INSERT INTO bus_routes VALUES('23',1,23,'943', null);
-INSERT INTO bus_routes VALUES('23',1,24,'2839', null);
-INSERT INTO bus_routes VALUES('23',1,25,'4865', null);
-INSERT INTO bus_routes VALUES('23',1,26,'4867', null);
-INSERT INTO bus_routes VALUES('23',1,27,'5638', null);
-INSERT INTO bus_routes VALUES('23',1,28,'1800', null);
-INSERT INTO bus_routes VALUES('23',1,29,'1798', null);
-INSERT INTO bus_routes VALUES('23',1,30,'3199', null);
-INSERT INTO bus_routes VALUES('23',1,31,'3188', null);
-INSERT INTO bus_routes VALUES('23',1,32,'3418', null);
-INSERT INTO bus_routes VALUES('23',1,33,'3413', null);
-INSERT INTO bus_routes VALUES('23',1,34,'3414', null);
-INSERT INTO bus_routes VALUES('23',1,35,'1794', null);
-INSERT INTO bus_routes VALUES('23',1,36,'3880', null);
-INSERT INTO bus_routes VALUES('23',2,1,'3880', null);
-INSERT INTO bus_routes VALUES('23',2,2,'1793', null);
-INSERT INTO bus_routes VALUES('23',2,3,'3415', null);
-INSERT INTO bus_routes VALUES('23',2,4,'3200', null);
-INSERT INTO bus_routes VALUES('23',2,5,'3197', null);
-INSERT INTO bus_routes VALUES('23',2,6,'4871', null);
-INSERT INTO bus_routes VALUES('23',2,7,'1797', null);
-INSERT INTO bus_routes VALUES('23',2,8,'1799', null);
-INSERT INTO bus_routes VALUES('23',2,9,'5775', null);
-INSERT INTO bus_routes VALUES('23',2,10,'4868', null);
-INSERT INTO bus_routes VALUES('23',2,11,'4866', null);
-INSERT INTO bus_routes VALUES('23',2,12,'945', null);
-INSERT INTO bus_routes VALUES('23',2,13,'944', null);
-INSERT INTO bus_routes VALUES('23',2,14,'942', null);
-INSERT INTO bus_routes VALUES('23',2,15,'940', null);
-INSERT INTO bus_routes VALUES('23',2,16,'938', null);
-INSERT INTO bus_routes VALUES('23',2,17,'5125', null);
-INSERT INTO bus_routes VALUES('23',2,18,'946', null);
-INSERT INTO bus_routes VALUES('23',2,19,'935', null);
-INSERT INTO bus_routes VALUES('23',2,20,'933', null);
-INSERT INTO bus_routes VALUES('23',2,21,'931', null);
-INSERT INTO bus_routes VALUES('23',2,22,'929', null);
-INSERT INTO bus_routes VALUES('23',2,23,'927', null);
-INSERT INTO bus_routes VALUES('23',2,24,'925', null);
-INSERT INTO bus_routes VALUES('23',2,25,'923', null);
-INSERT INTO bus_routes VALUES('23',2,26,'921', null);
-INSERT INTO bus_routes VALUES('23',2,27,'919', null);
-INSERT INTO bus_routes VALUES('23',2,28,'917', null);
-INSERT INTO bus_routes VALUES('23',2,29,'4481', null);
-INSERT INTO bus_routes VALUES('23',2,30,'915', null);
-INSERT INTO bus_routes VALUES('23',2,31,'593', null);
-INSERT INTO bus_routes VALUES('23',2,32,'4780', null);
-INSERT INTO bus_routes VALUES('23',2,33,'548', null);
-INSERT INTO bus_routes VALUES('23',2,34,'546', null);
-INSERT INTO bus_routes VALUES('23',2,35,'912', null);
-INSERT INTO bus_routes VALUES('24',1,1,'5706', null);
-INSERT INTO bus_routes VALUES('24',1,2,'1402', null);
-INSERT INTO bus_routes VALUES('24',1,3,'1404', null);
-INSERT INTO bus_routes VALUES('24',1,4,'1406', null);
-INSERT INTO bus_routes VALUES('24',1,5,'1408', null);
-INSERT INTO bus_routes VALUES('24',1,6,'1410', null);
-INSERT INTO bus_routes VALUES('24',1,7,'2058', null);
-INSERT INTO bus_routes VALUES('24',1,8,'2059', null);
-INSERT INTO bus_routes VALUES('24',1,9,'2091', null);
-INSERT INTO bus_routes VALUES('24',1,10,'2184', null);
-INSERT INTO bus_routes VALUES('24',1,11,'2186', null);
-INSERT INTO bus_routes VALUES('24',1,12,'2188', null);
-INSERT INTO bus_routes VALUES('24',1,13,'2190', null);
-INSERT INTO bus_routes VALUES('24',1,14,'2192', null);
-INSERT INTO bus_routes VALUES('24',1,15,'5436', null);
-INSERT INTO bus_routes VALUES('24',1,16,'2194', null);
-INSERT INTO bus_routes VALUES('24',1,17,'1096', null);
-INSERT INTO bus_routes VALUES('24',1,18,'2196', null);
-INSERT INTO bus_routes VALUES('24',1,19,'2198', null);
-INSERT INTO bus_routes VALUES('24',1,20,'2200', null);
-INSERT INTO bus_routes VALUES('24',1,21,'2202', null);
-INSERT INTO bus_routes VALUES('24',1,22,'2204', null);
-INSERT INTO bus_routes VALUES('24',1,23,'2205', null);
-INSERT INTO bus_routes VALUES('24',1,24,'2206', null);
-INSERT INTO bus_routes VALUES('24',2,1,'2206', null);
-INSERT INTO bus_routes VALUES('24',2,2,'2207', null);
-INSERT INTO bus_routes VALUES('24',2,3,'2208', null);
-INSERT INTO bus_routes VALUES('24',2,4,'2209', null);
-INSERT INTO bus_routes VALUES('24',2,5,'2203', null);
-INSERT INTO bus_routes VALUES('24',2,6,'2201', null);
-INSERT INTO bus_routes VALUES('24',2,7,'2199', null);
-INSERT INTO bus_routes VALUES('24',2,8,'5332', null);
-INSERT INTO bus_routes VALUES('24',2,9,'2197', null);
-INSERT INTO bus_routes VALUES('24',2,10,'2195', null);
-INSERT INTO bus_routes VALUES('24',2,11,'2193', null);
-INSERT INTO bus_routes VALUES('24',2,12,'2191', null);
-INSERT INTO bus_routes VALUES('24',2,13,'2189', null);
-INSERT INTO bus_routes VALUES('24',2,14,'4674', null);
-INSERT INTO bus_routes VALUES('24',2,15,'2185', null);
-INSERT INTO bus_routes VALUES('24',2,16,'2061', null);
-INSERT INTO bus_routes VALUES('24',2,17,'1002', null);
-INSERT INTO bus_routes VALUES('24',2,18,'2057', null);
-INSERT INTO bus_routes VALUES('24',2,19,'1411', null);
-INSERT INTO bus_routes VALUES('24',2,20,'1409', null);
-INSERT INTO bus_routes VALUES('24',2,21,'1407', null);
-INSERT INTO bus_routes VALUES('24',2,22,'1405', null);
-INSERT INTO bus_routes VALUES('24',2,23,'1403', null);
-INSERT INTO bus_routes VALUES('24',2,24,'5706', null);
-INSERT INTO bus_routes VALUES('247',1,1,'2420', null);
-INSERT INTO bus_routes VALUES('247',1,2,'2421', null);
-INSERT INTO bus_routes VALUES('247',1,3,'1976', null);
-INSERT INTO bus_routes VALUES('247',1,4,'1186', null);
-INSERT INTO bus_routes VALUES('247',1,5,'1187', null);
-INSERT INTO bus_routes VALUES('247',1,6,'1188', null);
-INSERT INTO bus_routes VALUES('247',1,7,'1170', null);
-INSERT INTO bus_routes VALUES('247',1,8,'1935', null);
-INSERT INTO bus_routes VALUES('247',1,9,'2423', null);
-INSERT INTO bus_routes VALUES('247',1,10,'2424', null);
-INSERT INTO bus_routes VALUES('247',1,11,'2426', null);
-INSERT INTO bus_routes VALUES('247',1,12,'2428', null);
-INSERT INTO bus_routes VALUES('247',1,13,'2430', null);
-INSERT INTO bus_routes VALUES('247',1,14,'3929', null);
-INSERT INTO bus_routes VALUES('247',1,15,'2434', null);
-INSERT INTO bus_routes VALUES('247',1,16,'2436', null);
-INSERT INTO bus_routes VALUES('247',1,17,'2464', null);
-INSERT INTO bus_routes VALUES('247',1,18,'2465', null);
-INSERT INTO bus_routes VALUES('247',1,19,'2466', null);
-INSERT INTO bus_routes VALUES('247',1,20,'2467', null);
-INSERT INTO bus_routes VALUES('247',2,1,'2467', null);
-INSERT INTO bus_routes VALUES('247',2,2,'2468', null);
-INSERT INTO bus_routes VALUES('247',2,3,'2469', null);
-INSERT INTO bus_routes VALUES('247',2,4,'2470', null);
-INSERT INTO bus_routes VALUES('247',2,5,'2471', null);
-INSERT INTO bus_routes VALUES('247',2,6,'2472', null);
-INSERT INTO bus_routes VALUES('247',2,7,'4661', null);
-INSERT INTO bus_routes VALUES('247',2,8,'3903', null);
-INSERT INTO bus_routes VALUES('247',2,9,'2431', null);
-INSERT INTO bus_routes VALUES('247',2,10,'2429', null);
-INSERT INTO bus_routes VALUES('247',2,11,'2427', null);
-INSERT INTO bus_routes VALUES('247',2,12,'2425', null);
-INSERT INTO bus_routes VALUES('247',2,13,'4352', null);
-INSERT INTO bus_routes VALUES('247',2,14,'1936', null);
-INSERT INTO bus_routes VALUES('247',2,15,'3858', null);
-INSERT INTO bus_routes VALUES('247',2,16,'1182', null);
-INSERT INTO bus_routes VALUES('247',2,17,'5036', null);
-INSERT INTO bus_routes VALUES('247',2,18,'1183', null);
-INSERT INTO bus_routes VALUES('247',2,19,'1184', null);
-INSERT INTO bus_routes VALUES('247',2,20,'2420', null);
-INSERT INTO bus_routes VALUES('25',1,1,'5205', null);
-INSERT INTO bus_routes VALUES('25',1,2,'854', null);
-INSERT INTO bus_routes VALUES('25',1,3,'599', null);
-INSERT INTO bus_routes VALUES('25',1,4,'601', null);
-INSERT INTO bus_routes VALUES('25',1,5,'603', null);
-INSERT INTO bus_routes VALUES('25',1,6,'4070', null);
-INSERT INTO bus_routes VALUES('25',1,7,'606', null);
-INSERT INTO bus_routes VALUES('25',1,8,'608', null);
-INSERT INTO bus_routes VALUES('25',1,9,'4660', null);
-INSERT INTO bus_routes VALUES('25',1,10,'4906', null);
-INSERT INTO bus_routes VALUES('25',1,11,'614', null);
-INSERT INTO bus_routes VALUES('25',1,12,'616', null);
-INSERT INTO bus_routes VALUES('25',1,13,'4744', null);
-INSERT INTO bus_routes VALUES('25',1,14,'4746', null);
-INSERT INTO bus_routes VALUES('25',1,15,'4748', null);
-INSERT INTO bus_routes VALUES('25',1,16,'618', null);
-INSERT INTO bus_routes VALUES('25',1,17,'619', null);
-INSERT INTO bus_routes VALUES('25',1,18,'620', null);
-INSERT INTO bus_routes VALUES('25',1,19,'621', null);
-INSERT INTO bus_routes VALUES('25',1,20,'623', null);
-INSERT INTO bus_routes VALUES('25',1,21,'625', null);
-INSERT INTO bus_routes VALUES('25',1,22,'5178', null);
-INSERT INTO bus_routes VALUES('25',1,23,'629', null);
-INSERT INTO bus_routes VALUES('25',1,24,'631', null);
-INSERT INTO bus_routes VALUES('25',1,25,'633', null);
-INSERT INTO bus_routes VALUES('25',1,26,'5180', null);
-INSERT INTO bus_routes VALUES('25',1,27,'635', null);
-INSERT INTO bus_routes VALUES('25',1,28,'5181', null);
-INSERT INTO bus_routes VALUES('25',1,29,'5182', null);
-INSERT INTO bus_routes VALUES('25',1,30,'5185', null);
-INSERT INTO bus_routes VALUES('25',1,31,'5175', null);
-INSERT INTO bus_routes VALUES('25',2,1,'5175', null);
-INSERT INTO bus_routes VALUES('25',2,2,'5184', null);
-INSERT INTO bus_routes VALUES('25',2,3,'5183', null);
-INSERT INTO bus_routes VALUES('25',2,4,'638', null);
-INSERT INTO bus_routes VALUES('25',2,5,'636', null);
-INSERT INTO bus_routes VALUES('25',2,6,'3191', null);
-INSERT INTO bus_routes VALUES('25',2,7,'634', null);
-INSERT INTO bus_routes VALUES('25',2,8,'632', null);
-INSERT INTO bus_routes VALUES('25',2,9,'630', null);
-INSERT INTO bus_routes VALUES('25',2,10,'5179', null);
-INSERT INTO bus_routes VALUES('25',2,11,'626', null);
-INSERT INTO bus_routes VALUES('25',2,12,'624', null);
-INSERT INTO bus_routes VALUES('25',2,13,'622', null);
-INSERT INTO bus_routes VALUES('25',2,14,'639', null);
-INSERT INTO bus_routes VALUES('25',2,15,'5506', null);
-INSERT INTO bus_routes VALUES('25',2,16,'560', null);
-INSERT INTO bus_routes VALUES('25',2,17,'558', null);
-INSERT INTO bus_routes VALUES('25',2,18,'4749', null);
-INSERT INTO bus_routes VALUES('25',2,19,'4747', null);
-INSERT INTO bus_routes VALUES('25',2,20,'4745', null);
-INSERT INTO bus_routes VALUES('25',2,21,'554', null);
-INSERT INTO bus_routes VALUES('25',2,22,'617', null);
-INSERT INTO bus_routes VALUES('25',2,23,'615', null);
-INSERT INTO bus_routes VALUES('25',2,24,'4907', null);
-INSERT INTO bus_routes VALUES('25',2,25,'4213', null);
-INSERT INTO bus_routes VALUES('25',2,26,'609', null);
-INSERT INTO bus_routes VALUES('25',2,27,'607', null);
-INSERT INTO bus_routes VALUES('25',2,28,'5246', null);
-INSERT INTO bus_routes VALUES('25',2,29,'742', null);
-INSERT INTO bus_routes VALUES('25',2,30,'855', null);
-INSERT INTO bus_routes VALUES('25',2,31,'5205', null);
-INSERT INTO bus_routes VALUES('26',1,1,'1919', null);
-INSERT INTO bus_routes VALUES('26',1,2,'1921', null);
-INSERT INTO bus_routes VALUES('26',1,3,'1922', null);
-INSERT INTO bus_routes VALUES('26',1,4,'1924', null);
-INSERT INTO bus_routes VALUES('26',1,5,'1401', null);
-INSERT INTO bus_routes VALUES('26',1,6,'1401', null);
-INSERT INTO bus_routes VALUES('26',1,7,'2046', null);
-INSERT INTO bus_routes VALUES('26',1,8,'2048', null);
-INSERT INTO bus_routes VALUES('26',1,9,'2210', null);
-INSERT INTO bus_routes VALUES('26',1,10,'2212', null);
-INSERT INTO bus_routes VALUES('26',1,11,'817', null);
-INSERT INTO bus_routes VALUES('26',1,12,'2214', null);
-INSERT INTO bus_routes VALUES('26',1,13,'2157', null);
-INSERT INTO bus_routes VALUES('26',1,14,'2155', null);
-INSERT INTO bus_routes VALUES('26',1,15,'2215', null);
-INSERT INTO bus_routes VALUES('26',1,16,'2217', null);
-INSERT INTO bus_routes VALUES('26',1,17,'2219', null);
-INSERT INTO bus_routes VALUES('26',1,18,'2221', null);
-INSERT INTO bus_routes VALUES('26',1,19,'2223', null);
-INSERT INTO bus_routes VALUES('26',2,1,'2223', null);
-INSERT INTO bus_routes VALUES('26',2,2,'3807', null);
-INSERT INTO bus_routes VALUES('26',2,3,'2222', null);
-INSERT INTO bus_routes VALUES('26',2,4,'2220', null);
-INSERT INTO bus_routes VALUES('26',2,5,'2218', null);
-INSERT INTO bus_routes VALUES('26',2,6,'2216', null);
-INSERT INTO bus_routes VALUES('26',2,7,'2154', null);
-INSERT INTO bus_routes VALUES('26',2,8,'2156', null);
-INSERT INTO bus_routes VALUES('26',2,9,'814', null);
-INSERT INTO bus_routes VALUES('26',2,10,'816', null);
-INSERT INTO bus_routes VALUES('26',2,11,'2213', null);
-INSERT INTO bus_routes VALUES('26',2,12,'2211', null);
-INSERT INTO bus_routes VALUES('26',2,13,'2049', null);
-INSERT INTO bus_routes VALUES('26',2,14,'2047', null);
-INSERT INTO bus_routes VALUES('26',2,15,'2045', null);
-INSERT INTO bus_routes VALUES('26',2,16,'2044', null);
-INSERT INTO bus_routes VALUES('26',2,17,'1925', null);
-INSERT INTO bus_routes VALUES('26',2,18,'1923', null);
-INSERT INTO bus_routes VALUES('26',2,19,'1920', null);
-INSERT INTO bus_routes VALUES('26',2,20,'1918', null);
-INSERT INTO bus_routes VALUES('26',2,21,'1919', null);
-INSERT INTO bus_routes VALUES('27',1,1,'86', null);
-INSERT INTO bus_routes VALUES('27',1,2,'85', null);
-INSERT INTO bus_routes VALUES('27',1,3,'87', null);
-INSERT INTO bus_routes VALUES('27',1,4,'88', null);
-INSERT INTO bus_routes VALUES('27',1,5,'89', null);
-INSERT INTO bus_routes VALUES('27',1,6,'82', null);
-INSERT INTO bus_routes VALUES('27',1,7,'5511', null);
-INSERT INTO bus_routes VALUES('27',1,8,'78', null);
-INSERT INTO bus_routes VALUES('27',1,9,'5443', null);
-INSERT INTO bus_routes VALUES('27',1,10,'72', null);
-INSERT INTO bus_routes VALUES('27',1,11,'72', null);
-INSERT INTO bus_routes VALUES('27',1,12,'65', null);
-INSERT INTO bus_routes VALUES('27',1,13,'66', null);
-INSERT INTO bus_routes VALUES('27',1,14,'66', null);
-INSERT INTO bus_routes VALUES('27',1,15,'62', null);
-INSERT INTO bus_routes VALUES('27',1,16,'60', null);
-INSERT INTO bus_routes VALUES('27',1,17,'5333', null);
-INSERT INTO bus_routes VALUES('27',1,18,'56', null);
-INSERT INTO bus_routes VALUES('27',1,19,'54', null);
-INSERT INTO bus_routes VALUES('27',1,20,'52', null);
-INSERT INTO bus_routes VALUES('27',1,21,'50', null);
-INSERT INTO bus_routes VALUES('27',1,22,'47', null);
-INSERT INTO bus_routes VALUES('27',1,23,'42', null);
-INSERT INTO bus_routes VALUES('27',1,24,'44', null);
-INSERT INTO bus_routes VALUES('27',1,25,'39', null);
-INSERT INTO bus_routes VALUES('27',1,26,'37', null);
-INSERT INTO bus_routes VALUES('27',1,27,'35', null);
-INSERT INTO bus_routes VALUES('27',1,28,'33', null);
-INSERT INTO bus_routes VALUES('27',1,29,'29', null);
-INSERT INTO bus_routes VALUES('27',1,30,'5602', null);
-INSERT INTO bus_routes VALUES('27',2,1,'5602', null);
-INSERT INTO bus_routes VALUES('27',2,2,'28', null);
-INSERT INTO bus_routes VALUES('27',2,3,'32', null);
-INSERT INTO bus_routes VALUES('27',2,4,'34', null);
-INSERT INTO bus_routes VALUES('27',2,5,'36', null);
-INSERT INTO bus_routes VALUES('27',2,6,'38', null);
-INSERT INTO bus_routes VALUES('27',2,7,'41', null);
-INSERT INTO bus_routes VALUES('27',2,8,'46', null);
-INSERT INTO bus_routes VALUES('27',2,9,'48', null);
-INSERT INTO bus_routes VALUES('27',2,10,'5613', null);
-INSERT INTO bus_routes VALUES('27',2,11,'51', null);
-INSERT INTO bus_routes VALUES('27',2,12,'53', null);
-INSERT INTO bus_routes VALUES('27',2,13,'4337', null);
-INSERT INTO bus_routes VALUES('27',2,14,'57', null);
-INSERT INTO bus_routes VALUES('27',2,15,'59', null);
-INSERT INTO bus_routes VALUES('27',2,16,'61', null);
-INSERT INTO bus_routes VALUES('27',2,17,'63', null);
-INSERT INTO bus_routes VALUES('27',2,18,'5626', null);
-INSERT INTO bus_routes VALUES('27',2,19,'68', null);
-INSERT INTO bus_routes VALUES('27',2,20,'73', null);
-INSERT INTO bus_routes VALUES('27',2,21,'76', null);
-INSERT INTO bus_routes VALUES('27',2,22,'77', null);
-INSERT INTO bus_routes VALUES('27',2,23,'79', null);
-INSERT INTO bus_routes VALUES('27',2,24,'81', null);
-INSERT INTO bus_routes VALUES('27',2,25,'83', null);
-INSERT INTO bus_routes VALUES('27',2,26,'84', null);
-INSERT INTO bus_routes VALUES('27',2,27,'86', null);
-INSERT INTO bus_routes VALUES('28',1,1,'163', null);
-INSERT INTO bus_routes VALUES('28',1,2,'174', null);
-INSERT INTO bus_routes VALUES('28',1,3,'3686', null);
-INSERT INTO bus_routes VALUES('28',1,4,'157', null);
-INSERT INTO bus_routes VALUES('28',1,5,'155', null);
-INSERT INTO bus_routes VALUES('28',1,6,'153', null);
-INSERT INTO bus_routes VALUES('28',1,7,'950', null);
-INSERT INTO bus_routes VALUES('28',1,8,'2168', null);
-INSERT INTO bus_routes VALUES('28',1,9,'958', null);
-INSERT INTO bus_routes VALUES('28',1,10,'960', null);
-INSERT INTO bus_routes VALUES('28',1,11,'962', null);
-INSERT INTO bus_routes VALUES('28',1,12,'2495', null);
-INSERT INTO bus_routes VALUES('28',1,13,'966', null);
-INSERT INTO bus_routes VALUES('28',1,14,'968', null);
-INSERT INTO bus_routes VALUES('28',1,15,'970', null);
-INSERT INTO bus_routes VALUES('28',1,16,'4462', null);
-INSERT INTO bus_routes VALUES('28',1,17,'974', null);
-INSERT INTO bus_routes VALUES('28',1,18,'976', null);
-INSERT INTO bus_routes VALUES('28',1,19,'977', null);
-INSERT INTO bus_routes VALUES('28',1,20,'978', null);
-INSERT INTO bus_routes VALUES('28',1,21,'980', null);
-INSERT INTO bus_routes VALUES('28',1,22,'982', null);
-INSERT INTO bus_routes VALUES('28',1,23,'984', null);
-INSERT INTO bus_routes VALUES('28',1,24,'986', null);
-INSERT INTO bus_routes VALUES('28',1,25,'5155', null);
-INSERT INTO bus_routes VALUES('28',1,26,'990', null);
-INSERT INTO bus_routes VALUES('28',1,27,'4046', null);
-INSERT INTO bus_routes VALUES('28',1,28,'4047', null);
-INSERT INTO bus_routes VALUES('28',1,29,'3943', null);
-INSERT INTO bus_routes VALUES('28',1,30,'3944', null);
-INSERT INTO bus_routes VALUES('28',2,1,'3944', null);
-INSERT INTO bus_routes VALUES('28',2,2,'3945', null);
-INSERT INTO bus_routes VALUES('28',2,3,'3941', null);
-INSERT INTO bus_routes VALUES('28',2,4,'3942', null);
-INSERT INTO bus_routes VALUES('28',2,5,'993', null);
-INSERT INTO bus_routes VALUES('28',2,6,'991', null);
-INSERT INTO bus_routes VALUES('28',2,7,'989', null);
-INSERT INTO bus_routes VALUES('28',2,8,'987', null);
-INSERT INTO bus_routes VALUES('28',2,9,'985', null);
-INSERT INTO bus_routes VALUES('28',2,10,'983', null);
-INSERT INTO bus_routes VALUES('28',2,11,'981', null);
-INSERT INTO bus_routes VALUES('28',2,12,'979', null);
-INSERT INTO bus_routes VALUES('28',2,13,'999', null);
-INSERT INTO bus_routes VALUES('28',2,14,'975', null);
-INSERT INTO bus_routes VALUES('28',2,15,'5510', null);
-INSERT INTO bus_routes VALUES('28',2,16,'971', null);
-INSERT INTO bus_routes VALUES('28',2,17,'969', null);
-INSERT INTO bus_routes VALUES('28',2,18,'967', null);
-INSERT INTO bus_routes VALUES('28',2,19,'965', null);
-INSERT INTO bus_routes VALUES('28',2,20,'963', null);
-INSERT INTO bus_routes VALUES('28',2,21,'961', null);
-INSERT INTO bus_routes VALUES('28',2,22,'959', null);
-INSERT INTO bus_routes VALUES('28',2,23,'2169', null);
-INSERT INTO bus_routes VALUES('28',2,24,'4656', null);
-INSERT INTO bus_routes VALUES('28',2,25,'152', null);
-INSERT INTO bus_routes VALUES('28',2,26,'154', null);
-INSERT INTO bus_routes VALUES('28',2,27,'156', null);
-INSERT INTO bus_routes VALUES('28',2,28,'158', null);
-INSERT INTO bus_routes VALUES('28',2,29,'163', null);
-INSERT INTO bus_routes VALUES('29',1,1,'5075', null);
-INSERT INTO bus_routes VALUES('29',1,2,'5034', null);
-INSERT INTO bus_routes VALUES('29',1,3,'2225', null);
-INSERT INTO bus_routes VALUES('29',1,4,'2227', null);
-INSERT INTO bus_routes VALUES('29',1,5,'2229', null);
-INSERT INTO bus_routes VALUES('29',1,6,'4052', null);
-INSERT INTO bus_routes VALUES('29',1,7,'2233', null);
-INSERT INTO bus_routes VALUES('29',1,8,'5787', null);
-INSERT INTO bus_routes VALUES('29',1,9,'5237', null);
-INSERT INTO bus_routes VALUES('29',1,10,'2239', null);
-INSERT INTO bus_routes VALUES('29',1,11,'2241', null);
-INSERT INTO bus_routes VALUES('29',1,12,'2243', null);
-INSERT INTO bus_routes VALUES('29',1,13,'414', null);
-INSERT INTO bus_routes VALUES('29',1,14,'517', null);
-INSERT INTO bus_routes VALUES('29',1,15,'515', null);
-INSERT INTO bus_routes VALUES('29',1,16,'4849', null);
-INSERT INTO bus_routes VALUES('29',1,17,'439', null);
-INSERT INTO bus_routes VALUES('29',1,18,'4832', null);
-INSERT INTO bus_routes VALUES('29',1,19,'112', null);
-INSERT INTO bus_routes VALUES('29',1,20,'115', null);
-INSERT INTO bus_routes VALUES('29',1,21,'117', null);
-INSERT INTO bus_routes VALUES('29',1,22,'210', null);
-INSERT INTO bus_routes VALUES('29',1,23,'214', null);
-INSERT INTO bus_routes VALUES('29',1,24,'497', null);
-INSERT INTO bus_routes VALUES('29',1,25,'499', null);
-INSERT INTO bus_routes VALUES('29',1,26,'134', null);
-INSERT INTO bus_routes VALUES('29',1,27,'136', null);
-INSERT INTO bus_routes VALUES('29',1,28,'4946', null);
-INSERT INTO bus_routes VALUES('29',1,29,'4948', null);
-INSERT INTO bus_routes VALUES('29',1,30,'511', null);
-INSERT INTO bus_routes VALUES('29',2,1,'511', null);
-INSERT INTO bus_routes VALUES('29',2,2,'507', null);
-INSERT INTO bus_routes VALUES('29',2,3,'508', null);
-INSERT INTO bus_routes VALUES('29',2,4,'509', null);
-INSERT INTO bus_routes VALUES('29',2,5,'510', null);
-INSERT INTO bus_routes VALUES('29',2,6,'4949', null);
-INSERT INTO bus_routes VALUES('29',2,7,'4950', null);
-INSERT INTO bus_routes VALUES('29',2,8,'4947', null);
-INSERT INTO bus_routes VALUES('29',2,9,'135', null);
-INSERT INTO bus_routes VALUES('29',2,10,'133', null);
-INSERT INTO bus_routes VALUES('29',2,11,'513', null);
-INSERT INTO bus_routes VALUES('29',2,12,'500', null);
-INSERT INTO bus_routes VALUES('29',2,13,'498', null);
-INSERT INTO bus_routes VALUES('29',2,14,'1836', null);
-INSERT INTO bus_routes VALUES('29',2,15,'211', null);
-INSERT INTO bus_routes VALUES('29',2,16,'116', null);
-INSERT INTO bus_routes VALUES('29',2,17,'114', null);
-INSERT INTO bus_routes VALUES('29',2,18,'111', null);
-INSERT INTO bus_routes VALUES('29',2,19,'4831', null);
-INSERT INTO bus_routes VALUES('29',2,20,'440', null);
-INSERT INTO bus_routes VALUES('29',2,21,'4850', null);
-INSERT INTO bus_routes VALUES('29',2,22,'514', null);
-INSERT INTO bus_routes VALUES('29',2,23,'516', null);
-INSERT INTO bus_routes VALUES('29',2,24,'415', null);
-INSERT INTO bus_routes VALUES('29',2,25,'2244', null);
-INSERT INTO bus_routes VALUES('29',2,26,'2242', null);
-INSERT INTO bus_routes VALUES('29',2,27,'2240', null);
-INSERT INTO bus_routes VALUES('29',2,28,'2238', null);
-INSERT INTO bus_routes VALUES('29',2,29,'2236', null);
-INSERT INTO bus_routes VALUES('29',2,30,'2234', null);
-INSERT INTO bus_routes VALUES('29',2,31,'2232', null);
-INSERT INTO bus_routes VALUES('29',2,32,'2230', null);
-INSERT INTO bus_routes VALUES('29',2,33,'2228', null);
-INSERT INTO bus_routes VALUES('29',2,34,'2226', null);
-INSERT INTO bus_routes VALUES('29',2,35,'5075', null);
-INSERT INTO bus_routes VALUES('3',1,1,'5070', null);
-INSERT INTO bus_routes VALUES('3',1,2,'1884', null);
-INSERT INTO bus_routes VALUES('3',1,3,'1882', null);
-INSERT INTO bus_routes VALUES('3',1,4,'1880', null);
-INSERT INTO bus_routes VALUES('3',1,5,'1878', null);
-INSERT INTO bus_routes VALUES('3',1,6,'1876', null);
-INSERT INTO bus_routes VALUES('3',1,7,'855', null);
-INSERT INTO bus_routes VALUES('3',1,8,'171', null);
-INSERT INTO bus_routes VALUES('3',1,9,'169', null);
-INSERT INTO bus_routes VALUES('3',1,10,'723', null);
-INSERT INTO bus_routes VALUES('3',1,11,'724', null);
-INSERT INTO bus_routes VALUES('3',1,12,'5138', null);
-INSERT INTO bus_routes VALUES('3',1,13,'164', null);
-INSERT INTO bus_routes VALUES('3',1,14,'4108', null);
-INSERT INTO bus_routes VALUES('3',1,15,'5376', null);
-INSERT INTO bus_routes VALUES('3',1,16,'278', null);
-INSERT INTO bus_routes VALUES('3',1,17,'5639', null);
-INSERT INTO bus_routes VALUES('3',1,18,'1865', null);
-INSERT INTO bus_routes VALUES('3',1,19,'4675', null);
-INSERT INTO bus_routes VALUES('3',1,20,'1868', null);
-INSERT INTO bus_routes VALUES('3',1,21,'1869', null);
-INSERT INTO bus_routes VALUES('3',1,22,'1870', null);
-INSERT INTO bus_routes VALUES('3',1,23,'1397', null);
-INSERT INTO bus_routes VALUES('3',1,24,'1398', null);
-INSERT INTO bus_routes VALUES('3',1,25,'1399', null);
-INSERT INTO bus_routes VALUES('3',1,26,'1420', null);
-INSERT INTO bus_routes VALUES('3',1,27,'1568', null);
-INSERT INTO bus_routes VALUES('3',1,28,'1569', null);
-INSERT INTO bus_routes VALUES('3',1,29,'1860', null);
-INSERT INTO bus_routes VALUES('3',1,30,'1861', null);
-INSERT INTO bus_routes VALUES('3',1,31,'1855', null);
-INSERT INTO bus_routes VALUES('3',2,1,'1855', null);
-INSERT INTO bus_routes VALUES('3',2,2,'1856', null);
-INSERT INTO bus_routes VALUES('3',2,3,'1857', null);
-INSERT INTO bus_routes VALUES('3',2,4,'1858', null);
-INSERT INTO bus_routes VALUES('3',2,5,'1859', null);
-INSERT INTO bus_routes VALUES('3',2,6,'1570', null);
-INSERT INTO bus_routes VALUES('3',2,7,'1600', null);
-INSERT INTO bus_routes VALUES('3',2,8,'1419', null);
-INSERT INTO bus_routes VALUES('3',2,9,'1382', null);
-INSERT INTO bus_routes VALUES('3',2,10,'4496', null);
-INSERT INTO bus_routes VALUES('3',2,11,'807', null);
-INSERT INTO bus_routes VALUES('3',2,12,'1862', null);
-INSERT INTO bus_routes VALUES('3',2,13,'1386', null);
-INSERT INTO bus_routes VALUES('3',2,14,'538', null);
-INSERT INTO bus_routes VALUES('3',2,15,'3379', null);
-INSERT INTO bus_routes VALUES('3',2,16,'3377', null);
-INSERT INTO bus_routes VALUES('3',2,17,'3375', null);
-INSERT INTO bus_routes VALUES('3',2,18,'3493', null);
-INSERT INTO bus_routes VALUES('3',2,19,'1772', null);
-INSERT INTO bus_routes VALUES('3',2,20,'1770', null);
-INSERT INTO bus_routes VALUES('3',2,21,'1768', null);
-INSERT INTO bus_routes VALUES('3',2,22,'1766', null);
-INSERT INTO bus_routes VALUES('3',2,23,'170', null);
-INSERT INTO bus_routes VALUES('3',2,24,'854', null);
-INSERT INTO bus_routes VALUES('3',2,25,'1875', null);
-INSERT INTO bus_routes VALUES('3',2,26,'1877', null);
-INSERT INTO bus_routes VALUES('3',2,27,'1879', null);
-INSERT INTO bus_routes VALUES('3',2,28,'1881', null);
-INSERT INTO bus_routes VALUES('3',2,29,'5070', null);
-INSERT INTO bus_routes VALUES('30',1,1,'5092', null);
-INSERT INTO bus_routes VALUES('30',1,2,'255', null);
-INSERT INTO bus_routes VALUES('30',1,3,'1254', null);
-INSERT INTO bus_routes VALUES('30',1,4,'150', null);
-INSERT INTO bus_routes VALUES('30',1,5,'1256', null);
-INSERT INTO bus_routes VALUES('30',1,6,'4712', null);
-INSERT INTO bus_routes VALUES('30',1,7,'4714', null);
-INSERT INTO bus_routes VALUES('30',1,8,'822', null);
-INSERT INTO bus_routes VALUES('30',1,9,'824', null);
-INSERT INTO bus_routes VALUES('30',1,10,'826', null);
-INSERT INTO bus_routes VALUES('30',1,11,'4977', null);
-INSERT INTO bus_routes VALUES('30',1,12,'1260', null);
-INSERT INTO bus_routes VALUES('30',1,13,'1262', null);
-INSERT INTO bus_routes VALUES('30',1,14,'1264', null);
-INSERT INTO bus_routes VALUES('30',1,15,'1266', null);
-INSERT INTO bus_routes VALUES('30',1,16,'853', null);
-INSERT INTO bus_routes VALUES('30',1,17,'837', null);
-INSERT INTO bus_routes VALUES('30',1,18,'838', null);
-INSERT INTO bus_routes VALUES('30',1,19,'840', null);
-INSERT INTO bus_routes VALUES('30',1,20,'1268', null);
-INSERT INTO bus_routes VALUES('30',1,21,'1271', null);
-INSERT INTO bus_routes VALUES('30',1,22,'4641', null);
-INSERT INTO bus_routes VALUES('30',1,23,'1272', null);
-INSERT INTO bus_routes VALUES('30',1,24,'1274', null);
-INSERT INTO bus_routes VALUES('30',1,25,'5884', null);
-INSERT INTO bus_routes VALUES('30',1,26,'1278', null);
-INSERT INTO bus_routes VALUES('30',1,27,'4755', null);
-INSERT INTO bus_routes VALUES('30',1,28,'4757', null);
-INSERT INTO bus_routes VALUES('30',1,29,'4761', null);
-INSERT INTO bus_routes VALUES('30',1,30,'4760', null);
-INSERT INTO bus_routes VALUES('30',1,31,'5385', null);
-INSERT INTO bus_routes VALUES('30',1,32,'4374', null);
-INSERT INTO bus_routes VALUES('30',1,33,'2731', null);
-INSERT INTO bus_routes VALUES('30',1,34,'3027', null);
-INSERT INTO bus_routes VALUES('30',2,1,'3027', null);
-INSERT INTO bus_routes VALUES('30',2,2,'2730', null);
-INSERT INTO bus_routes VALUES('30',2,3,'5387', null);
-INSERT INTO bus_routes VALUES('30',2,4,'5386', null);
-INSERT INTO bus_routes VALUES('30',2,5,'5383', null);
-INSERT INTO bus_routes VALUES('30',2,6,'5384', null);
-INSERT INTO bus_routes VALUES('30',2,7,'4758', null);
-INSERT INTO bus_routes VALUES('30',2,8,'4756', null);
-INSERT INTO bus_routes VALUES('30',2,9,'1327', null);
-INSERT INTO bus_routes VALUES('30',2,10,'1277', null);
-INSERT INTO bus_routes VALUES('30',2,11,'1275', null);
-INSERT INTO bus_routes VALUES('30',2,12,'1273', null);
-INSERT INTO bus_routes VALUES('30',2,13,'4640', null);
-INSERT INTO bus_routes VALUES('30',2,14,'1270', null);
-INSERT INTO bus_routes VALUES('30',2,15,'1269', null);
-INSERT INTO bus_routes VALUES('30',2,16,'841', null);
-INSERT INTO bus_routes VALUES('30',2,17,'839', null);
-INSERT INTO bus_routes VALUES('30',2,18,'851', null);
-INSERT INTO bus_routes VALUES('30',2,19,'852', null);
-INSERT INTO bus_routes VALUES('30',2,20,'4475', null);
-INSERT INTO bus_routes VALUES('30',2,21,'1265', null);
-INSERT INTO bus_routes VALUES('30',2,22,'1263', null);
-INSERT INTO bus_routes VALUES('30',2,23,'1261', null);
-INSERT INTO bus_routes VALUES('30',2,24,'827', null);
-INSERT INTO bus_routes VALUES('30',2,25,'825', null);
-INSERT INTO bus_routes VALUES('30',2,26,'823', null);
-INSERT INTO bus_routes VALUES('30',2,27,'4715', null);
-INSERT INTO bus_routes VALUES('30',2,28,'4713', null);
-INSERT INTO bus_routes VALUES('30',2,29,'1257', null);
-INSERT INTO bus_routes VALUES('30',2,30,'5822', null);
-INSERT INTO bus_routes VALUES('30',2,31,'151', null);
-INSERT INTO bus_routes VALUES('30',2,32,'1255', null);
-INSERT INTO bus_routes VALUES('30',2,33,'1252', null);
-INSERT INTO bus_routes VALUES('30',2,34,'5092', null);
-INSERT INTO bus_routes VALUES('31',1,1,'5505', null);
-INSERT INTO bus_routes VALUES('31',1,2,'2247', null);
-INSERT INTO bus_routes VALUES('31',1,3,'2249', null);
-INSERT INTO bus_routes VALUES('31',1,4,'2251', null);
-INSERT INTO bus_routes VALUES('31',1,5,'2253', null);
-INSERT INTO bus_routes VALUES('31',1,6,'871', null);
-INSERT INTO bus_routes VALUES('31',1,7,'873', null);
-INSERT INTO bus_routes VALUES('31',1,8,'875', null);
-INSERT INTO bus_routes VALUES('31',1,9,'877', null);
-INSERT INTO bus_routes VALUES('31',1,10,'879', null);
-INSERT INTO bus_routes VALUES('31',1,11,'2255', null);
-INSERT INTO bus_routes VALUES('31',1,12,'2257', null);
-INSERT INTO bus_routes VALUES('31',1,13,'2259', null);
-INSERT INTO bus_routes VALUES('31',1,14,'5094', null);
-INSERT INTO bus_routes VALUES('31',1,15,'5100', null);
-INSERT INTO bus_routes VALUES('31',1,16,'621', null);
-INSERT INTO bus_routes VALUES('31',1,17,'623', null);
-INSERT INTO bus_routes VALUES('31',1,18,'625', null);
-INSERT INTO bus_routes VALUES('31',1,19,'2263', null);
-INSERT INTO bus_routes VALUES('31',1,20,'2265', null);
-INSERT INTO bus_routes VALUES('31',1,21,'4859', null);
-INSERT INTO bus_routes VALUES('31',1,22,'2269', null);
-INSERT INTO bus_routes VALUES('31',1,23,'2271', null);
-INSERT INTO bus_routes VALUES('31',1,24,'2273', null);
-INSERT INTO bus_routes VALUES('31',1,25,'2275', null);
-INSERT INTO bus_routes VALUES('31',1,26,'2277', null);
-INSERT INTO bus_routes VALUES('31',1,27,'5064', null);
-INSERT INTO bus_routes VALUES('31',2,1,'5064', null);
-INSERT INTO bus_routes VALUES('31',2,2,'2276', null);
-INSERT INTO bus_routes VALUES('31',2,3,'2274', null);
-INSERT INTO bus_routes VALUES('31',2,4,'2272', null);
-INSERT INTO bus_routes VALUES('31',2,5,'2270', null);
-INSERT INTO bus_routes VALUES('31',2,6,'5145', null);
-INSERT INTO bus_routes VALUES('31',2,7,'2268', null);
-INSERT INTO bus_routes VALUES('31',2,8,'2266', null);
-INSERT INTO bus_routes VALUES('31',2,9,'2264', null);
-INSERT INTO bus_routes VALUES('31',2,10,'626', null);
-INSERT INTO bus_routes VALUES('31',2,11,'624', null);
-INSERT INTO bus_routes VALUES('31',2,12,'622', null);
-INSERT INTO bus_routes VALUES('31',2,13,'2262', null);
-INSERT INTO bus_routes VALUES('31',2,14,'2260', null);
-INSERT INTO bus_routes VALUES('31',2,15,'2258', null);
-INSERT INTO bus_routes VALUES('31',2,16,'2256', null);
-INSERT INTO bus_routes VALUES('31',2,17,'880', null);
-INSERT INTO bus_routes VALUES('31',2,18,'878', null);
-INSERT INTO bus_routes VALUES('31',2,19,'876', null);
-INSERT INTO bus_routes VALUES('31',2,20,'874', null);
-INSERT INTO bus_routes VALUES('31',2,21,'872', null);
-INSERT INTO bus_routes VALUES('31',2,22,'2254', null);
-INSERT INTO bus_routes VALUES('31',2,23,'2252', null);
-INSERT INTO bus_routes VALUES('31',2,24,'2250', null);
-INSERT INTO bus_routes VALUES('31',2,25,'2248', null);
-INSERT INTO bus_routes VALUES('31',2,26,'5505', null);
-INSERT INTO bus_routes VALUES('310',1,1,'1977', null);
-INSERT INTO bus_routes VALUES('310',1,2,'1410', null);
-INSERT INTO bus_routes VALUES('310',1,3,'2058', null);
-INSERT INTO bus_routes VALUES('310',1,4,'2059', null);
-INSERT INTO bus_routes VALUES('310',1,5,'2091', null);
-INSERT INTO bus_routes VALUES('310',1,6,'2184', null);
-INSERT INTO bus_routes VALUES('310',1,7,'1103', null);
-INSERT INTO bus_routes VALUES('310',1,8,'1105', null);
-INSERT INTO bus_routes VALUES('310',1,9,'4990', null);
-INSERT INTO bus_routes VALUES('310',1,10,'2095', null);
-INSERT INTO bus_routes VALUES('310',1,11,'2097', null);
-INSERT INTO bus_routes VALUES('310',1,12,'2099', null);
-INSERT INTO bus_routes VALUES('310',1,13,'2101', null);
-INSERT INTO bus_routes VALUES('310',1,14,'2103', null);
-INSERT INTO bus_routes VALUES('310',1,15,'2085', null);
-INSERT INTO bus_routes VALUES('310',1,16,'2087', null);
-INSERT INTO bus_routes VALUES('310',1,17,'2106', null);
-INSERT INTO bus_routes VALUES('310',1,18,'4838', null);
-INSERT INTO bus_routes VALUES('310',1,19,'4837', null);
-INSERT INTO bus_routes VALUES('310',2,1,'4837', null);
-INSERT INTO bus_routes VALUES('310',2,2,'2107', null);
-INSERT INTO bus_routes VALUES('310',2,3,'2105', null);
-INSERT INTO bus_routes VALUES('310',2,4,'2086', null);
-INSERT INTO bus_routes VALUES('310',2,5,'2104', null);
-INSERT INTO bus_routes VALUES('310',2,6,'2102', null);
-INSERT INTO bus_routes VALUES('310',2,7,'2100', null);
-INSERT INTO bus_routes VALUES('310',2,8,'2098', null);
-INSERT INTO bus_routes VALUES('310',2,9,'2096', null);
-INSERT INTO bus_routes VALUES('310',2,10,'2943', null);
-INSERT INTO bus_routes VALUES('310',2,11,'1106', null);
-INSERT INTO bus_routes VALUES('310',2,12,'1104', null);
-INSERT INTO bus_routes VALUES('310',2,13,'2094', null);
-INSERT INTO bus_routes VALUES('310',2,14,'2061', null);
-INSERT INTO bus_routes VALUES('310',2,15,'1002', null);
-INSERT INTO bus_routes VALUES('310',2,16,'4864', null);
-INSERT INTO bus_routes VALUES('310',2,17,'1411', null);
-INSERT INTO bus_routes VALUES('310',2,18,'1978', null);
-INSERT INTO bus_routes VALUES('310',2,19,'1977', null);
-INSERT INTO bus_routes VALUES('32',1,1,'1918', null);
-INSERT INTO bus_routes VALUES('32',1,2,'1919', null);
-INSERT INTO bus_routes VALUES('32',1,3,'1921', null);
-INSERT INTO bus_routes VALUES('32',1,4,'1922', null);
-INSERT INTO bus_routes VALUES('32',1,5,'1924', null);
-INSERT INTO bus_routes VALUES('32',1,6,'1401', null);
-INSERT INTO bus_routes VALUES('32',1,7,'1401', null);
-INSERT INTO bus_routes VALUES('32',1,8,'2046', null);
-INSERT INTO bus_routes VALUES('32',1,9,'2048', null);
-INSERT INTO bus_routes VALUES('32',1,10,'2130', null);
-INSERT INTO bus_routes VALUES('32',1,11,'2128', null);
-INSERT INTO bus_routes VALUES('32',1,12,'2126', null);
-INSERT INTO bus_routes VALUES('32',1,13,'1434', null);
-INSERT INTO bus_routes VALUES('32',1,14,'822', null);
-INSERT INTO bus_routes VALUES('32',1,15,'824', null);
-INSERT INTO bus_routes VALUES('32',1,16,'826', null);
-INSERT INTO bus_routes VALUES('32',1,17,'4977', null);
-INSERT INTO bus_routes VALUES('32',1,18,'1260', null);
-INSERT INTO bus_routes VALUES('32',1,19,'1262', null);
-INSERT INTO bus_routes VALUES('32',1,20,'1264', null);
-INSERT INTO bus_routes VALUES('32',1,21,'1266', null);
-INSERT INTO bus_routes VALUES('32',1,22,'2280', null);
-INSERT INTO bus_routes VALUES('32',1,23,'2282', null);
-INSERT INTO bus_routes VALUES('32',1,24,'2286', null);
-INSERT INTO bus_routes VALUES('32',1,25,'1273', null);
-INSERT INTO bus_routes VALUES('32',1,26,'4640', null);
-INSERT INTO bus_routes VALUES('32',1,27,'3560', null);
-INSERT INTO bus_routes VALUES('32',1,28,'2288', null);
-INSERT INTO bus_routes VALUES('32',1,29,'2290', null);
-INSERT INTO bus_routes VALUES('32',1,30,'2292', null);
-INSERT INTO bus_routes VALUES('32',1,31,'2294', null);
-INSERT INTO bus_routes VALUES('32',1,32,'2731', null);
-INSERT INTO bus_routes VALUES('32',1,33,'3042', null);
-INSERT INTO bus_routes VALUES('32',1,34,'3042', null);
-INSERT INTO bus_routes VALUES('32',2,1,'3042', null);
-INSERT INTO bus_routes VALUES('32',2,2,'3042', null);
-INSERT INTO bus_routes VALUES('32',2,3,'2730', null);
-INSERT INTO bus_routes VALUES('32',2,4,'4537', null);
-INSERT INTO bus_routes VALUES('32',2,5,'2293', null);
-INSERT INTO bus_routes VALUES('32',2,6,'2291', null);
-INSERT INTO bus_routes VALUES('32',2,7,'2289', null);
-INSERT INTO bus_routes VALUES('32',2,8,'1271', null);
-INSERT INTO bus_routes VALUES('32',2,9,'4641', null);
-INSERT INTO bus_routes VALUES('32',2,10,'1272', null);
-INSERT INTO bus_routes VALUES('32',2,11,'2284', null);
-INSERT INTO bus_routes VALUES('32',2,12,'2287', null);
-INSERT INTO bus_routes VALUES('32',2,13,'2283', null);
-INSERT INTO bus_routes VALUES('32',2,14,'2281', null);
-INSERT INTO bus_routes VALUES('32',2,15,'4475', null);
-INSERT INTO bus_routes VALUES('32',2,16,'1265', null);
-INSERT INTO bus_routes VALUES('32',2,17,'1263', null);
-INSERT INTO bus_routes VALUES('32',2,18,'1261', null);
-INSERT INTO bus_routes VALUES('32',2,19,'827', null);
-INSERT INTO bus_routes VALUES('32',2,20,'825', null);
-INSERT INTO bus_routes VALUES('32',2,21,'2279', null);
-INSERT INTO bus_routes VALUES('32',2,22,'2278', null);
-INSERT INTO bus_routes VALUES('32',2,23,'2125', null);
-INSERT INTO bus_routes VALUES('32',2,24,'2127', null);
-INSERT INTO bus_routes VALUES('32',2,25,'2129', null);
-INSERT INTO bus_routes VALUES('32',2,26,'2049', null);
-INSERT INTO bus_routes VALUES('32',2,27,'2047', null);
-INSERT INTO bus_routes VALUES('32',2,28,'2045', null);
-INSERT INTO bus_routes VALUES('32',2,29,'2044', null);
-INSERT INTO bus_routes VALUES('32',2,30,'1925', null);
-INSERT INTO bus_routes VALUES('32',2,31,'1923', null);
-INSERT INTO bus_routes VALUES('32',2,32,'1920', null);
-INSERT INTO bus_routes VALUES('32',2,33,'1918', null);
-INSERT INTO bus_routes VALUES('33',1,1,'3907', null);
-INSERT INTO bus_routes VALUES('33',1,2,'605', null);
-INSERT INTO bus_routes VALUES('33',1,3,'606', null);
-INSERT INTO bus_routes VALUES('33',1,4,'608', null);
-INSERT INTO bus_routes VALUES('33',1,5,'871', null);
-INSERT INTO bus_routes VALUES('33',1,6,'873', null);
-INSERT INTO bus_routes VALUES('33',1,7,'875', null);
-INSERT INTO bus_routes VALUES('33',1,8,'877', null);
-INSERT INTO bus_routes VALUES('33',1,9,'879', null);
-INSERT INTO bus_routes VALUES('33',1,10,'4207', null);
-INSERT INTO bus_routes VALUES('33',1,11,'2298', null);
-INSERT INTO bus_routes VALUES('33',1,12,'5743', null);
-INSERT INTO bus_routes VALUES('33',1,13,'5744', null);
-INSERT INTO bus_routes VALUES('33',1,14,'2301', null);
-INSERT INTO bus_routes VALUES('33',1,15,'5173', null);
-INSERT INTO bus_routes VALUES('33',2,1,'5173', null);
-INSERT INTO bus_routes VALUES('33',2,2,'3940', null);
-INSERT INTO bus_routes VALUES('33',2,3,'2302', null);
-INSERT INTO bus_routes VALUES('33',2,4,'2303', null);
-INSERT INTO bus_routes VALUES('33',2,5,'2627', null);
-INSERT INTO bus_routes VALUES('33',2,6,'2305', null);
-INSERT INTO bus_routes VALUES('33',2,7,'2306', null);
-INSERT INTO bus_routes VALUES('33',2,8,'883', null);
-INSERT INTO bus_routes VALUES('33',2,9,'911', null);
-INSERT INTO bus_routes VALUES('33',2,10,'880', null);
-INSERT INTO bus_routes VALUES('33',2,11,'878', null);
-INSERT INTO bus_routes VALUES('33',2,12,'876', null);
-INSERT INTO bus_routes VALUES('33',2,13,'874', null);
-INSERT INTO bus_routes VALUES('33',2,14,'872', null);
-INSERT INTO bus_routes VALUES('33',2,15,'609', null);
-INSERT INTO bus_routes VALUES('33',2,16,'607', null);
-INSERT INTO bus_routes VALUES('33',2,17,'3907', null);
-INSERT INTO bus_routes VALUES('34',1,1,'74', null);
-INSERT INTO bus_routes VALUES('34',1,2,'77', null);
-INSERT INTO bus_routes VALUES('34',1,3,'79', null);
-INSERT INTO bus_routes VALUES('34',1,4,'81', null);
-INSERT INTO bus_routes VALUES('34',1,5,'83', null);
-INSERT INTO bus_routes VALUES('34',1,6,'84', null);
-INSERT INTO bus_routes VALUES('34',1,7,'320', null);
-INSERT INTO bus_routes VALUES('34',1,8,'322', null);
-INSERT INTO bus_routes VALUES('34',1,9,'324', null);
-INSERT INTO bus_routes VALUES('34',1,10,'326', null);
-INSERT INTO bus_routes VALUES('34',1,11,'4669', null);
-INSERT INTO bus_routes VALUES('34',1,12,'327', null);
-INSERT INTO bus_routes VALUES('34',1,13,'329', null);
-INSERT INTO bus_routes VALUES('34',1,14,'5624', null);
-INSERT INTO bus_routes VALUES('34',1,15,'4239', null);
-INSERT INTO bus_routes VALUES('34',1,16,'5560', null);
-INSERT INTO bus_routes VALUES('34',1,17,'3032', null);
-INSERT INTO bus_routes VALUES('34',1,18,'337', null);
-INSERT INTO bus_routes VALUES('34',1,19,'4078', null);
-INSERT INTO bus_routes VALUES('34',1,20,'4670', null);
-INSERT INTO bus_routes VALUES('34',1,21,'341', null);
-INSERT INTO bus_routes VALUES('34',1,22,'343', null);
-INSERT INTO bus_routes VALUES('34',1,23,'345', null);
-INSERT INTO bus_routes VALUES('34',1,24,'347', null);
-INSERT INTO bus_routes VALUES('34',1,25,'349', null);
-INSERT INTO bus_routes VALUES('34',1,26,'351', null);
-INSERT INTO bus_routes VALUES('34',1,27,'353', null);
-INSERT INTO bus_routes VALUES('34',1,28,'354', null);
-INSERT INTO bus_routes VALUES('34',1,29,'355', null);
-INSERT INTO bus_routes VALUES('34',1,30,'357', null);
-INSERT INTO bus_routes VALUES('34',1,31,'3817', null);
-INSERT INTO bus_routes VALUES('34',1,32,'4204', null);
-INSERT INTO bus_routes VALUES('34',1,33,'359', null);
-INSERT INTO bus_routes VALUES('34',1,34,'361', null);
-INSERT INTO bus_routes VALUES('34',1,35,'363', null);
-INSERT INTO bus_routes VALUES('34',1,36,'365', null);
-INSERT INTO bus_routes VALUES('34',1,37,'367', null);
-INSERT INTO bus_routes VALUES('34',1,38,'368', null);
-INSERT INTO bus_routes VALUES('34',1,39,'369', null);
-INSERT INTO bus_routes VALUES('34',1,40,'371', null);
-INSERT INTO bus_routes VALUES('34',1,41,'373', null);
-INSERT INTO bus_routes VALUES('34',2,1,'373', null);
-INSERT INTO bus_routes VALUES('34',2,2,'372', null);
-INSERT INTO bus_routes VALUES('34',2,3,'370', null);
-INSERT INTO bus_routes VALUES('34',2,4,'374', null);
-INSERT INTO bus_routes VALUES('34',2,5,'585', null);
-INSERT INTO bus_routes VALUES('34',2,6,'366', null);
-INSERT INTO bus_routes VALUES('34',2,7,'364', null);
-INSERT INTO bus_routes VALUES('34',2,8,'362', null);
-INSERT INTO bus_routes VALUES('34',2,9,'360', null);
-INSERT INTO bus_routes VALUES('34',2,10,'4205', null);
-INSERT INTO bus_routes VALUES('34',2,11,'3818', null);
-INSERT INTO bus_routes VALUES('34',2,12,'358', null);
-INSERT INTO bus_routes VALUES('34',2,13,'356', null);
-INSERT INTO bus_routes VALUES('34',2,14,'376', null);
-INSERT INTO bus_routes VALUES('34',2,15,'378', null);
-INSERT INTO bus_routes VALUES('34',2,16,'352', null);
-INSERT INTO bus_routes VALUES('34',2,17,'350', null);
-INSERT INTO bus_routes VALUES('34',2,18,'348', null);
-INSERT INTO bus_routes VALUES('34',2,19,'346', null);
-INSERT INTO bus_routes VALUES('34',2,20,'344', null);
-INSERT INTO bus_routes VALUES('34',2,21,'342', null);
-INSERT INTO bus_routes VALUES('34',2,22,'4671', null);
-INSERT INTO bus_routes VALUES('34',2,23,'340', null);
-INSERT INTO bus_routes VALUES('34',2,24,'338', null);
-INSERT INTO bus_routes VALUES('34',2,25,'336', null);
-INSERT INTO bus_routes VALUES('34',2,26,'334', null);
-INSERT INTO bus_routes VALUES('34',2,27,'5625', null);
-INSERT INTO bus_routes VALUES('34',2,28,'331', null);
-INSERT INTO bus_routes VALUES('34',2,29,'330', null);
-INSERT INTO bus_routes VALUES('34',2,30,'328', null);
-INSERT INTO bus_routes VALUES('34',2,31,'380', null);
-INSERT INTO bus_routes VALUES('34',2,32,'381', null);
-INSERT INTO bus_routes VALUES('34',2,33,'325', null);
-INSERT INTO bus_routes VALUES('34',2,34,'323', null);
-INSERT INTO bus_routes VALUES('34',2,35,'321', null);
-INSERT INTO bus_routes VALUES('34',2,36,'85', null);
-INSERT INTO bus_routes VALUES('34',2,37,'4985', null);
-INSERT INTO bus_routes VALUES('34',2,38,'82', null);
-INSERT INTO bus_routes VALUES('34',2,39,'5511', null);
-INSERT INTO bus_routes VALUES('34',2,40,'78', null);
-INSERT INTO bus_routes VALUES('34',2,41,'74', null);
-INSERT INTO bus_routes VALUES('35',1,1,'5454', null);
-INSERT INTO bus_routes VALUES('35',1,2,'545', null);
-INSERT INTO bus_routes VALUES('35',1,3,'547', null);
-INSERT INTO bus_routes VALUES('35',1,4,'2589', null);
-INSERT INTO bus_routes VALUES('35',1,5,'594', null);
-INSERT INTO bus_routes VALUES('35',1,6,'914', null);
-INSERT INTO bus_routes VALUES('35',1,7,'916', null);
-INSERT INTO bus_routes VALUES('35',1,8,'329', null);
-INSERT INTO bus_routes VALUES('35',1,9,'5624', null);
-INSERT INTO bus_routes VALUES('35',1,10,'4239', null);
-INSERT INTO bus_routes VALUES('35',1,11,'5560', null);
-INSERT INTO bus_routes VALUES('35',1,12,'3032', null);
-INSERT INTO bus_routes VALUES('35',1,13,'337', null);
-INSERT INTO bus_routes VALUES('35',1,14,'4078', null);
-INSERT INTO bus_routes VALUES('35',1,15,'4670', null);
-INSERT INTO bus_routes VALUES('35',1,16,'341', null);
-INSERT INTO bus_routes VALUES('35',1,17,'343', null);
-INSERT INTO bus_routes VALUES('35',1,18,'4846', null);
-INSERT INTO bus_routes VALUES('35',1,19,'590', null);
-INSERT INTO bus_routes VALUES('35',1,20,'1151', null);
-INSERT INTO bus_routes VALUES('35',1,21,'1152', null);
-INSERT INTO bus_routes VALUES('35',1,22,'1154', null);
-INSERT INTO bus_routes VALUES('35',1,23,'1156', null);
-INSERT INTO bus_routes VALUES('35',1,24,'379', null);
-INSERT INTO bus_routes VALUES('35',1,25,'377', null);
-INSERT INTO bus_routes VALUES('35',1,26,'4019', null);
-INSERT INTO bus_routes VALUES('35',1,27,'1158', null);
-INSERT INTO bus_routes VALUES('35',1,28,'1159', null);
-INSERT INTO bus_routes VALUES('35',1,29,'1160', null);
-INSERT INTO bus_routes VALUES('35',1,30,'1161', null);
-INSERT INTO bus_routes VALUES('35',1,31,'3632', null);
-INSERT INTO bus_routes VALUES('35',1,32,'640', null);
-INSERT INTO bus_routes VALUES('35',1,33,'3860', null);
-INSERT INTO bus_routes VALUES('35',1,34,'562', null);
-INSERT INTO bus_routes VALUES('35',1,35,'1169', null);
-INSERT INTO bus_routes VALUES('35',1,36,'4090', null);
-INSERT INTO bus_routes VALUES('35',1,37,'4091', null);
-INSERT INTO bus_routes VALUES('35',1,38,'4093', null);
-INSERT INTO bus_routes VALUES('35',1,39,'4084', null);
-INSERT INTO bus_routes VALUES('35',2,1,'4084', null);
-INSERT INTO bus_routes VALUES('35',2,2,'4092', null);
-INSERT INTO bus_routes VALUES('35',2,3,'2964', null);
-INSERT INTO bus_routes VALUES('35',2,4,'2965', null);
-INSERT INTO bus_routes VALUES('35',2,5,'649', null);
-INSERT INTO bus_routes VALUES('35',2,6,'3859', null);
-INSERT INTO bus_routes VALUES('35',2,7,'687', null);
-INSERT INTO bus_routes VALUES('35',2,8,'3633', null);
-INSERT INTO bus_routes VALUES('35',2,9,'3631', null);
-INSERT INTO bus_routes VALUES('35',2,10,'1162', null);
-INSERT INTO bus_routes VALUES('35',2,11,'1163', null);
-INSERT INTO bus_routes VALUES('35',2,12,'1164', null);
-INSERT INTO bus_routes VALUES('35',2,13,'1165', null);
-INSERT INTO bus_routes VALUES('35',2,14,'4020', null);
-INSERT INTO bus_routes VALUES('35',2,15,'376', null);
-INSERT INTO bus_routes VALUES('35',2,16,'378', null);
-INSERT INTO bus_routes VALUES('35',2,17,'1157', null);
-INSERT INTO bus_routes VALUES('35',2,18,'1155', null);
-INSERT INTO bus_routes VALUES('35',2,19,'1153', null);
-INSERT INTO bus_routes VALUES('35',2,20,'589', null);
-INSERT INTO bus_routes VALUES('35',2,21,'1150', null);
-INSERT INTO bus_routes VALUES('35',2,22,'1149', null);
-INSERT INTO bus_routes VALUES('35',2,23,'342', null);
-INSERT INTO bus_routes VALUES('35',2,24,'4671', null);
-INSERT INTO bus_routes VALUES('35',2,25,'340', null);
-INSERT INTO bus_routes VALUES('35',2,26,'338', null);
-INSERT INTO bus_routes VALUES('35',2,27,'336', null);
-INSERT INTO bus_routes VALUES('35',2,28,'334', null);
-INSERT INTO bus_routes VALUES('35',2,29,'5625', null);
-INSERT INTO bus_routes VALUES('35',2,30,'331', null);
-INSERT INTO bus_routes VALUES('35',2,31,'330', null);
-INSERT INTO bus_routes VALUES('35',2,32,'917', null);
-INSERT INTO bus_routes VALUES('35',2,33,'4481', null);
-INSERT INTO bus_routes VALUES('35',2,34,'915', null);
-INSERT INTO bus_routes VALUES('35',2,35,'593', null);
-INSERT INTO bus_routes VALUES('35',2,36,'4780', null);
-INSERT INTO bus_routes VALUES('35',2,37,'548', null);
-INSERT INTO bus_routes VALUES('35',2,38,'546', null);
-INSERT INTO bus_routes VALUES('35',2,39,'5454', null);
-INSERT INTO bus_routes VALUES('36',1,1,'2308', null);
-INSERT INTO bus_routes VALUES('36',1,2,'2309', null);
-INSERT INTO bus_routes VALUES('36',1,3,'84', null);
-INSERT INTO bus_routes VALUES('36',1,4,'320', null);
-INSERT INTO bus_routes VALUES('36',1,5,'322', null);
-INSERT INTO bus_routes VALUES('36',1,6,'324', null);
-INSERT INTO bus_routes VALUES('36',1,7,'326', null);
-INSERT INTO bus_routes VALUES('36',1,8,'4669', null);
-INSERT INTO bus_routes VALUES('36',1,9,'327', null);
-INSERT INTO bus_routes VALUES('36',1,10,'2310', null);
-INSERT INTO bus_routes VALUES('36',1,11,'2312', null);
-INSERT INTO bus_routes VALUES('36',1,12,'552', null);
-INSERT INTO bus_routes VALUES('36',1,13,'5642', null);
-INSERT INTO bus_routes VALUES('36',1,14,'2316', null);
-INSERT INTO bus_routes VALUES('36',1,15,'2317', null);
-INSERT INTO bus_routes VALUES('36',1,16,'2318', null);
-INSERT INTO bus_routes VALUES('36',1,17,'871', null);
-INSERT INTO bus_routes VALUES('36',1,18,'873', null);
-INSERT INTO bus_routes VALUES('36',1,19,'875', null);
-INSERT INTO bus_routes VALUES('36',1,20,'877', null);
-INSERT INTO bus_routes VALUES('36',1,21,'879', null);
-INSERT INTO bus_routes VALUES('36',1,22,'881', null);
-INSERT INTO bus_routes VALUES('36',1,23,'882', null);
-INSERT INTO bus_routes VALUES('36',1,24,'884', null);
-INSERT INTO bus_routes VALUES('36',1,25,'886', null);
-INSERT INTO bus_routes VALUES('36',1,26,'888', null);
-INSERT INTO bus_routes VALUES('36',1,27,'890', null);
-INSERT INTO bus_routes VALUES('36',1,28,'892', null);
-INSERT INTO bus_routes VALUES('36',1,29,'2324', null);
-INSERT INTO bus_routes VALUES('36',1,30,'3592', null);
-INSERT INTO bus_routes VALUES('36',1,31,'2325', null);
-INSERT INTO bus_routes VALUES('36',1,32,'3718', null);
-INSERT INTO bus_routes VALUES('36',2,1,'3718', null);
-INSERT INTO bus_routes VALUES('36',2,2,'891', null);
-INSERT INTO bus_routes VALUES('36',2,3,'889', null);
-INSERT INTO bus_routes VALUES('36',2,4,'887', null);
-INSERT INTO bus_routes VALUES('36',2,5,'885', null);
-INSERT INTO bus_routes VALUES('36',2,6,'883', null);
-INSERT INTO bus_routes VALUES('36',2,7,'911', null);
-INSERT INTO bus_routes VALUES('36',2,8,'880', null);
-INSERT INTO bus_routes VALUES('36',2,9,'878', null);
-INSERT INTO bus_routes VALUES('36',2,10,'876', null);
-INSERT INTO bus_routes VALUES('36',2,11,'874', null);
-INSERT INTO bus_routes VALUES('36',2,12,'872', null);
-INSERT INTO bus_routes VALUES('36',2,13,'5250', null);
-INSERT INTO bus_routes VALUES('36',2,14,'2320', null);
-INSERT INTO bus_routes VALUES('36',2,15,'2321', null);
-INSERT INTO bus_routes VALUES('36',2,16,'2322', null);
-INSERT INTO bus_routes VALUES('36',2,17,'2323', null);
-INSERT INTO bus_routes VALUES('36',2,18,'553', null);
-INSERT INTO bus_routes VALUES('36',2,19,'2313', null);
-INSERT INTO bus_routes VALUES('36',2,20,'2311', null);
-INSERT INTO bus_routes VALUES('36',2,21,'328', null);
-INSERT INTO bus_routes VALUES('36',2,22,'380', null);
-INSERT INTO bus_routes VALUES('36',2,23,'381', null);
-INSERT INTO bus_routes VALUES('36',2,24,'325', null);
-INSERT INTO bus_routes VALUES('36',2,25,'323', null);
-INSERT INTO bus_routes VALUES('36',2,26,'321', null);
-INSERT INTO bus_routes VALUES('36',2,27,'85', null);
-INSERT INTO bus_routes VALUES('36',2,28,'2308', null);
-INSERT INTO bus_routes VALUES('OO1',1,1,'5710', null);
-INSERT INTO bus_routes VALUES('OO1',1,2,'5453', null);
-INSERT INTO bus_routes VALUES('OO1',1,3,'82', null);
-INSERT INTO bus_routes VALUES('OO1',1,4,'5511', null);
-INSERT INTO bus_routes VALUES('OO1',1,5,'78', null);
-INSERT INTO bus_routes VALUES('OO1',1,6,'69', null);
-INSERT INTO bus_routes VALUES('OO1',1,7,'5135', null);
-INSERT INTO bus_routes VALUES('OO1',1,8,'5137', null);
-INSERT INTO bus_routes VALUES('OO1',1,9,'4094', null);
-INSERT INTO bus_routes VALUES('OO1',1,10,'9', null);
-INSERT INTO bus_routes VALUES('OO1',1,11,'168', null);
-INSERT INTO bus_routes VALUES('OO1',1,12,'283', null);
-INSERT INTO bus_routes VALUES('OO1',1,13,'1750', null);
-INSERT INTO bus_routes VALUES('OO1',1,14,'172', null);
-INSERT INTO bus_routes VALUES('OO1',1,15,'734', null);
-INSERT INTO bus_routes VALUES('OO1',1,16,'736', null);
-INSERT INTO bus_routes VALUES('OO1',1,17,'738', null);
-INSERT INTO bus_routes VALUES('OO1',1,18,'4816', null);
-INSERT INTO bus_routes VALUES('OO1',1,19,'2800', null);
-INSERT INTO bus_routes VALUES('OO1',2,1,'2800', null);
-INSERT INTO bus_routes VALUES('OO1',2,2,'737', null);
-INSERT INTO bus_routes VALUES('OO1',2,3,'735', null);
-INSERT INTO bus_routes VALUES('OO1',2,4,'193', null);
-INSERT INTO bus_routes VALUES('OO1',2,5,'173', null);
-INSERT INTO bus_routes VALUES('OO1',2,6,'741', null);
-INSERT INTO bus_routes VALUES('OO1',2,7,'171', null);
-INSERT INTO bus_routes VALUES('OO1',2,8,'169', null);
-INSERT INTO bus_routes VALUES('OO1',2,9,'723', null);
-INSERT INTO bus_routes VALUES('OO1',2,10,'724', null);
-INSERT INTO bus_routes VALUES('OO1',2,11,'5138', null);
-INSERT INTO bus_routes VALUES('OO1',2,12,'164', null);
-INSERT INTO bus_routes VALUES('OO1',2,13,'90', null);
-INSERT INTO bus_routes VALUES('OO1',2,14,'76', null);
-INSERT INTO bus_routes VALUES('OO1',2,15,'77', null);
-INSERT INTO bus_routes VALUES('OO1',2,16,'79', null);
-INSERT INTO bus_routes VALUES('OO1',2,17,'81', null);
-INSERT INTO bus_routes VALUES('OO1',2,18,'5710', null);
-INSERT INTO bus_routes VALUES('OO2',1,1,'80', null);
-INSERT INTO bus_routes VALUES('OO2',1,2,'548', null);
-INSERT INTO bus_routes VALUES('OO2',1,3,'546', null);
-INSERT INTO bus_routes VALUES('OO2',1,4,'4058', null);
-INSERT INTO bus_routes VALUES('OO2',1,5,'4038', null);
-INSERT INTO bus_routes VALUES('OO2',1,6,'4025', null);
-INSERT INTO bus_routes VALUES('OO2',1,7,'4039', null);
-INSERT INTO bus_routes VALUES('OO2',1,8,'1049', null);
-INSERT INTO bus_routes VALUES('OO2',1,9,'2559', null);
-INSERT INTO bus_routes VALUES('OO2',1,10,'4108', null);
-INSERT INTO bus_routes VALUES('OO2',1,11,'4094', null);
-INSERT INTO bus_routes VALUES('OO2',1,12,'4129', null);
-INSERT INTO bus_routes VALUES('OO2',1,13,'4130', null);
-INSERT INTO bus_routes VALUES('OO2',1,14,'4131', null);
-INSERT INTO bus_routes VALUES('OO2',1,15,'4132', null);
-INSERT INTO bus_routes VALUES('OO2',1,16,'4133', null);
-INSERT INTO bus_routes VALUES('OO2',1,17,'4134', null);
-INSERT INTO bus_routes VALUES('OO2',1,18,'4135', null);
-INSERT INTO bus_routes VALUES('OO2',1,19,'4136', null);
-INSERT INTO bus_routes VALUES('OO2',1,20,'1325', null);
-INSERT INTO bus_routes VALUES('OO2',1,21,'1221', null);
-INSERT INTO bus_routes VALUES('OO2',1,22,'4137', null);
-INSERT INTO bus_routes VALUES('OO2',1,23,'2111', null);
-INSERT INTO bus_routes VALUES('OO2',2,1,'2111', null);
-INSERT INTO bus_routes VALUES('OO2',2,2,'4138', null);
-INSERT INTO bus_routes VALUES('OO2',2,3,'4139', null);
-INSERT INTO bus_routes VALUES('OO2',2,4,'4140', null);
-INSERT INTO bus_routes VALUES('OO2',2,5,'4141', null);
-INSERT INTO bus_routes VALUES('OO2',2,6,'4142', null);
-INSERT INTO bus_routes VALUES('OO2',2,7,'4143', null);
-INSERT INTO bus_routes VALUES('OO2',2,8,'4144', null);
-INSERT INTO bus_routes VALUES('OO2',2,9,'4145', null);
-INSERT INTO bus_routes VALUES('OO2',2,10,'4096', null);
-INSERT INTO bus_routes VALUES('OO2',2,11,'5138', null);
-INSERT INTO bus_routes VALUES('OO2',2,12,'164', null);
-INSERT INTO bus_routes VALUES('OO2',2,13,'3689', null);
-INSERT INTO bus_routes VALUES('OO2',2,14,'4040', null);
-INSERT INTO bus_routes VALUES('OO2',2,15,'4041', null);
-INSERT INTO bus_routes VALUES('OO2',2,16,'4056', null);
-INSERT INTO bus_routes VALUES('OO2',2,17,'4042', null);
-INSERT INTO bus_routes VALUES('OO2',2,18,'5156', null);
-INSERT INTO bus_routes VALUES('OO2',2,19,'545', null);
-INSERT INTO bus_routes VALUES('OO2',2,20,'547', null);
-INSERT INTO bus_routes VALUES('OO2',2,21,'2589', null);
-INSERT INTO bus_routes VALUES('OO2',2,22,'80', null);
-INSERT INTO bus_routes VALUES('C03',1,1,'4870', null);
-INSERT INTO bus_routes VALUES('C03',1,2,'2358', null);
-INSERT INTO bus_routes VALUES('C03',1,3,'2356', null);
-INSERT INTO bus_routes VALUES('C03',1,4,'321', null);
-INSERT INTO bus_routes VALUES('C03',1,5,'85', null);
-INSERT INTO bus_routes VALUES('C03',1,6,'4985', null);
-INSERT INTO bus_routes VALUES('C03',1,7,'82', null);
-INSERT INTO bus_routes VALUES('C03',1,8,'5511', null);
-INSERT INTO bus_routes VALUES('C03',1,9,'78', null);
-INSERT INTO bus_routes VALUES('C03',1,10,'5443', null);
-INSERT INTO bus_routes VALUES('C03',1,11,'72', null);
-INSERT INTO bus_routes VALUES('C03',1,12,'72', null);
-INSERT INTO bus_routes VALUES('C03',1,13,'65', null);
-INSERT INTO bus_routes VALUES('C03',1,14,'1232', null);
-INSERT INTO bus_routes VALUES('C03',1,15,'1230', null);
-INSERT INTO bus_routes VALUES('C03',1,16,'1228', null);
-INSERT INTO bus_routes VALUES('C03',1,17,'1226', null);
-INSERT INTO bus_routes VALUES('C03',1,18,'1224', null);
-INSERT INTO bus_routes VALUES('C03',1,19,'1325', null);
-INSERT INTO bus_routes VALUES('C03',1,20,'1221', null);
-INSERT INTO bus_routes VALUES('C03',1,21,'4137', null);
-INSERT INTO bus_routes VALUES('C03',1,22,'289', null);
-INSERT INTO bus_routes VALUES('C03',2,1,'289', null);
-INSERT INTO bus_routes VALUES('C03',2,2,'1222', null);
-INSERT INTO bus_routes VALUES('C03',2,3,'1223', null);
-INSERT INTO bus_routes VALUES('C03',2,4,'2967', null);
-INSERT INTO bus_routes VALUES('C03',2,5,'1227', null);
-INSERT INTO bus_routes VALUES('C03',2,6,'1229', null);
-INSERT INTO bus_routes VALUES('C03',2,7,'5627', null);
-INSERT INTO bus_routes VALUES('C03',2,8,'68', null);
-INSERT INTO bus_routes VALUES('C03',2,9,'73', null);
-INSERT INTO bus_routes VALUES('C03',2,10,'76', null);
-INSERT INTO bus_routes VALUES('C03',2,11,'77', null);
-INSERT INTO bus_routes VALUES('C03',2,12,'79', null);
-INSERT INTO bus_routes VALUES('C03',2,13,'81', null);
-INSERT INTO bus_routes VALUES('C03',2,14,'83', null);
-INSERT INTO bus_routes VALUES('C03',2,15,'84', null);
-INSERT INTO bus_routes VALUES('C03',2,16,'320', null);
-INSERT INTO bus_routes VALUES('C03',2,17,'2355', null);
-INSERT INTO bus_routes VALUES('C03',2,18,'2357', null);
-INSERT INTO bus_routes VALUES('C03',2,19,'4870', null);
-INSERT INTO bus_routes VALUES('37',1,1,'1381', null);
-INSERT INTO bus_routes VALUES('37',1,2,'1382', null);
-INSERT INTO bus_routes VALUES('37',1,3,'4496', null);
-INSERT INTO bus_routes VALUES('37',1,4,'1383', null);
-INSERT INTO bus_routes VALUES('37',1,5,'1384', null);
-INSERT INTO bus_routes VALUES('37',1,6,'3389', null);
-INSERT INTO bus_routes VALUES('37',1,7,'3379', null);
-INSERT INTO bus_routes VALUES('37',1,8,'3377', null);
-INSERT INTO bus_routes VALUES('37',1,9,'3375', null);
-INSERT INTO bus_routes VALUES('37',1,10,'1227', null);
-INSERT INTO bus_routes VALUES('37',1,11,'1229', null);
-INSERT INTO bus_routes VALUES('37',1,12,'5627', null);
-INSERT INTO bus_routes VALUES('37',1,13,'68', null);
-INSERT INTO bus_routes VALUES('37',1,14,'73', null);
-INSERT INTO bus_routes VALUES('37',1,15,'76', null);
-INSERT INTO bus_routes VALUES('37',1,16,'77', null);
-INSERT INTO bus_routes VALUES('37',1,17,'79', null);
-INSERT INTO bus_routes VALUES('37',1,18,'81', null);
-INSERT INTO bus_routes VALUES('37',1,19,'1401', null);
-INSERT INTO bus_routes VALUES('37',1,20,'1401', null);
-INSERT INTO bus_routes VALUES('37',1,21,'1402', null);
-INSERT INTO bus_routes VALUES('37',1,22,'1404', null);
-INSERT INTO bus_routes VALUES('37',1,23,'1406', null);
-INSERT INTO bus_routes VALUES('37',1,24,'1408', null);
-INSERT INTO bus_routes VALUES('37',1,25,'1410', null);
-INSERT INTO bus_routes VALUES('37',1,26,'2058', null);
-INSERT INTO bus_routes VALUES('37',1,27,'1000', null);
-INSERT INTO bus_routes VALUES('37',2,1,'1000', null);
-INSERT INTO bus_routes VALUES('37',2,2,'1411', null);
-INSERT INTO bus_routes VALUES('37',2,3,'1409', null);
-INSERT INTO bus_routes VALUES('37',2,4,'1407', null);
-INSERT INTO bus_routes VALUES('37',2,5,'1405', null);
-INSERT INTO bus_routes VALUES('37',2,6,'1403', null);
-INSERT INTO bus_routes VALUES('37',2,7,'2044', null);
-INSERT INTO bus_routes VALUES('37',2,8,'82', null);
-INSERT INTO bus_routes VALUES('37',2,9,'5511', null);
-INSERT INTO bus_routes VALUES('37',2,10,'78', null);
-INSERT INTO bus_routes VALUES('37',2,11,'5443', null);
-INSERT INTO bus_routes VALUES('37',2,12,'72', null);
-INSERT INTO bus_routes VALUES('37',2,13,'72', null);
-INSERT INTO bus_routes VALUES('37',2,14,'5564', null);
-INSERT INTO bus_routes VALUES('37',2,15,'1393', null);
-INSERT INTO bus_routes VALUES('37',2,16,'5876', null);
-INSERT INTO bus_routes VALUES('37',2,17,'280', null);
-INSERT INTO bus_routes VALUES('37',2,18,'3555', null);
-INSERT INTO bus_routes VALUES('37',2,19,'1869', null);
-INSERT INTO bus_routes VALUES('37',2,20,'1870', null);
-INSERT INTO bus_routes VALUES('37',2,21,'1397', null);
-INSERT INTO bus_routes VALUES('37',2,22,'1398', null);
-INSERT INTO bus_routes VALUES('37',2,23,'1399', null);
-INSERT INTO bus_routes VALUES('37',2,24,'1420', null);
-INSERT INTO bus_routes VALUES('37',2,25,'1381', null);
-INSERT INTO bus_routes VALUES('172SF',1,1,'4603', null);
-INSERT INTO bus_routes VALUES('172SF',1,2,'480', null);
-INSERT INTO bus_routes VALUES('172SF',1,3,'481', null);
-INSERT INTO bus_routes VALUES('172SF',1,4,'483', null);
-INSERT INTO bus_routes VALUES('172SF',1,5,'485', null);
-INSERT INTO bus_routes VALUES('172SF',1,6,'487', null);
-INSERT INTO bus_routes VALUES('172SF',1,7,'4931', null);
-INSERT INTO bus_routes VALUES('172SF',1,8,'1844', null);
-INSERT INTO bus_routes VALUES('172SF',1,9,'1842', null);
-INSERT INTO bus_routes VALUES('172SF',1,10,'5338', null);
-INSERT INTO bus_routes VALUES('172SF',1,11,'5411', null);
-INSERT INTO bus_routes VALUES('172SF',1,12,'5413', null);
-INSERT INTO bus_routes VALUES('172SF',1,13,'5415', null);
-INSERT INTO bus_routes VALUES('172SF',1,14,'5417', null);
-INSERT INTO bus_routes VALUES('172SF',1,15,'5400', null);
-INSERT INTO bus_routes VALUES('172SF',1,16,'5398', null);
-INSERT INTO bus_routes VALUES('172SF',1,17,'5402', null);
-INSERT INTO bus_routes VALUES('172SF',1,18,'5419', null);
-INSERT INTO bus_routes VALUES('172SF',1,19,'5421', null);
-INSERT INTO bus_routes VALUES('172SF',1,20,'5423', null);
-INSERT INTO bus_routes VALUES('172SF',1,21,'5425', null);
-INSERT INTO bus_routes VALUES('172SF',1,22,'5515', null);
-INSERT INTO bus_routes VALUES('172SF',1,23,'5517', null);
-INSERT INTO bus_routes VALUES('172SF',1,24,'5865', null);
-INSERT INTO bus_routes VALUES('172SF',1,25,'5867', null);
-INSERT INTO bus_routes VALUES('172SF',1,26,'4488', null);
-INSERT INTO bus_routes VALUES('172SF',1,27,'4490', null);
-INSERT INTO bus_routes VALUES('172SF',1,28,'3869', null);
-INSERT INTO bus_routes VALUES('172SF',1,29,'3775', null);
-INSERT INTO bus_routes VALUES('172SF',1,30,'3773', null);
-INSERT INTO bus_routes VALUES('172SF',1,31,'4513', null);
-INSERT INTO bus_routes VALUES('172SF',1,32,'402', null);
-INSERT INTO bus_routes VALUES('172SF',1,33,'3767', null);
-INSERT INTO bus_routes VALUES('172SF',1,34,'3766', null);
-INSERT INTO bus_routes VALUES('172SF',2,1,'3766', null);
-INSERT INTO bus_routes VALUES('172SF',2,2,'4493', null);
-INSERT INTO bus_routes VALUES('172SF',2,3,'3796', null);
-INSERT INTO bus_routes VALUES('172SF',2,4,'4492', null);
-INSERT INTO bus_routes VALUES('172SF',2,5,'3774', null);
-INSERT INTO bus_routes VALUES('172SF',2,6,'3776', null);
-INSERT INTO bus_routes VALUES('172SF',2,7,'4491', null);
-INSERT INTO bus_routes VALUES('172SF',2,8,'4489', null);
-INSERT INTO bus_routes VALUES('172SF',2,9,'5868', null);
-INSERT INTO bus_routes VALUES('172SF',2,10,'5866', null);
-INSERT INTO bus_routes VALUES('172SF',2,11,'5850', null);
-INSERT INTO bus_routes VALUES('172SF',2,12,'5516', null);
-INSERT INTO bus_routes VALUES('172SF',2,13,'5426', null);
-INSERT INTO bus_routes VALUES('172SF',2,14,'5424', null);
-INSERT INTO bus_routes VALUES('172SF',2,15,'5427', null);
-INSERT INTO bus_routes VALUES('172SF',2,16,'5420', null);
-INSERT INTO bus_routes VALUES('172SF',2,17,'5396', null);
-INSERT INTO bus_routes VALUES('172SF',2,18,'5397', null);
-INSERT INTO bus_routes VALUES('172SF',2,19,'5399', null);
-INSERT INTO bus_routes VALUES('172SF',2,20,'5418', null);
-INSERT INTO bus_routes VALUES('172SF',2,21,'5416', null);
-INSERT INTO bus_routes VALUES('172SF',2,22,'5414', null);
-INSERT INTO bus_routes VALUES('172SF',2,23,'5412', null);
-INSERT INTO bus_routes VALUES('172SF',2,24,'5337', null);
-INSERT INTO bus_routes VALUES('172SF',2,25,'1841', null);
-INSERT INTO bus_routes VALUES('172SF',2,26,'1843', null);
-INSERT INTO bus_routes VALUES('172SF',2,27,'1845', null);
-INSERT INTO bus_routes VALUES('172SF',2,28,'2892', null);
-INSERT INTO bus_routes VALUES('172SF',2,29,'486', null);
-INSERT INTO bus_routes VALUES('172SF',2,30,'484', null);
-INSERT INTO bus_routes VALUES('172SF',2,31,'482', null);
-INSERT INTO bus_routes VALUES('172SF',2,32,'489', null);
-INSERT INTO bus_routes VALUES('172SF',2,33,'4599', null);
-INSERT INTO bus_routes VALUES('172SF',2,34,'4603', null);
-INSERT INTO bus_routes VALUES('38',1,1,'3761', null);
-INSERT INTO bus_routes VALUES('38',1,2,'685', null);
-INSERT INTO bus_routes VALUES('38',1,3,'756', null);
-INSERT INTO bus_routes VALUES('38',1,4,'758', null);
-INSERT INTO bus_routes VALUES('38',1,5,'2330', null);
-INSERT INTO bus_routes VALUES('38',1,6,'2332', null);
-INSERT INTO bus_routes VALUES('38',1,7,'2334', null);
-INSERT INTO bus_routes VALUES('38',1,8,'2336', null);
-INSERT INTO bus_routes VALUES('38',1,9,'5458', null);
-INSERT INTO bus_routes VALUES('38',1,10,'240', null);
-INSERT INTO bus_routes VALUES('38',1,11,'242', null);
-INSERT INTO bus_routes VALUES('38',1,12,'244', null);
-INSERT INTO bus_routes VALUES('38',1,13,'246', null);
-INSERT INTO bus_routes VALUES('38',1,14,'4708', null);
-INSERT INTO bus_routes VALUES('38',1,15,'250', null);
-INSERT INTO bus_routes VALUES('38',1,16,'2338', null);
-INSERT INTO bus_routes VALUES('38',1,17,'2340', null);
-INSERT INTO bus_routes VALUES('38',1,18,'2342', null);
-INSERT INTO bus_routes VALUES('38',1,19,'2344', null);
-INSERT INTO bus_routes VALUES('38',1,20,'2345', null);
-INSERT INTO bus_routes VALUES('38',1,21,'4441', null);
-INSERT INTO bus_routes VALUES('38',1,22,'2351', null);
-INSERT INTO bus_routes VALUES('38',1,23,'2349', null);
-INSERT INTO bus_routes VALUES('38',1,24,'2484', null);
-INSERT INTO bus_routes VALUES('38',1,25,'4783', null);
-INSERT INTO bus_routes VALUES('38',1,26,'4784', null);
-INSERT INTO bus_routes VALUES('38',1,27,'3409', null);
-INSERT INTO bus_routes VALUES('38',1,28,'4443', null);
-INSERT INTO bus_routes VALUES('38',1,29,'4445', null);
-INSERT INTO bus_routes VALUES('38',1,30,'4447', null);
-INSERT INTO bus_routes VALUES('38',1,31,'4449', null);
-INSERT INTO bus_routes VALUES('38',1,32,'4414', null);
-INSERT INTO bus_routes VALUES('38',1,33,'4399', null);
-INSERT INTO bus_routes VALUES('38',1,34,'4451', null);
-INSERT INTO bus_routes VALUES('38',2,1,'4451', null);
-INSERT INTO bus_routes VALUES('38',2,2,'4413', null);
-INSERT INTO bus_routes VALUES('38',2,3,'4450', null);
-INSERT INTO bus_routes VALUES('38',2,4,'4448', null);
-INSERT INTO bus_routes VALUES('38',2,5,'4446', null);
-INSERT INTO bus_routes VALUES('38',2,6,'4444', null);
-INSERT INTO bus_routes VALUES('38',2,7,'4394', null);
-INSERT INTO bus_routes VALUES('38',2,8,'4421', null);
-INSERT INTO bus_routes VALUES('38',2,9,'4393', null);
-INSERT INTO bus_routes VALUES('38',2,10,'2348', null);
-INSERT INTO bus_routes VALUES('38',2,11,'2350', null);
-INSERT INTO bus_routes VALUES('38',2,12,'4442', null);
-INSERT INTO bus_routes VALUES('38',2,13,'4391', null);
-INSERT INTO bus_routes VALUES('38',2,14,'4392', null);
-INSERT INTO bus_routes VALUES('38',2,15,'2343', null);
-INSERT INTO bus_routes VALUES('38',2,16,'2341', null);
-INSERT INTO bus_routes VALUES('38',2,17,'2339', null);
-INSERT INTO bus_routes VALUES('38',2,18,'252', null);
-INSERT INTO bus_routes VALUES('38',2,19,'248', null);
-INSERT INTO bus_routes VALUES('38',2,20,'247', null);
-INSERT INTO bus_routes VALUES('38',2,21,'245', null);
-INSERT INTO bus_routes VALUES('38',2,22,'243', null);
-INSERT INTO bus_routes VALUES('38',2,23,'241', null);
-INSERT INTO bus_routes VALUES('38',2,24,'239', null);
-INSERT INTO bus_routes VALUES('38',2,25,'2337', null);
-INSERT INTO bus_routes VALUES('38',2,26,'2335', null);
-INSERT INTO bus_routes VALUES('38',2,27,'5282', null);
-INSERT INTO bus_routes VALUES('38',2,28,'2331', null);
-INSERT INTO bus_routes VALUES('38',2,29,'759', null);
-INSERT INTO bus_routes VALUES('38',2,30,'757', null);
-INSERT INTO bus_routes VALUES('38',2,31,'5146', null);
-INSERT INTO bus_routes VALUES('38',2,32,'684', null);
-INSERT INTO bus_routes VALUES('38',2,33,'3761', null);
-INSERT INTO bus_routes VALUES('39',1,1,'5206', null);
-INSERT INTO bus_routes VALUES('39',1,2,'854', null);
-INSERT INTO bus_routes VALUES('39',1,3,'599', null);
-INSERT INTO bus_routes VALUES('39',1,4,'601', null);
-INSERT INTO bus_routes VALUES('39',1,5,'603', null);
-INSERT INTO bus_routes VALUES('39',1,6,'4070', null);
-INSERT INTO bus_routes VALUES('39',1,7,'606', null);
-INSERT INTO bus_routes VALUES('39',1,8,'608', null);
-INSERT INTO bus_routes VALUES('39',1,9,'871', null);
-INSERT INTO bus_routes VALUES('39',1,10,'873', null);
-INSERT INTO bus_routes VALUES('39',1,11,'875', null);
-INSERT INTO bus_routes VALUES('39',1,12,'877', null);
-INSERT INTO bus_routes VALUES('39',1,13,'879', null);
-INSERT INTO bus_routes VALUES('39',1,14,'881', null);
-INSERT INTO bus_routes VALUES('39',1,15,'882', null);
-INSERT INTO bus_routes VALUES('39',1,16,'884', null);
-INSERT INTO bus_routes VALUES('39',1,17,'886', null);
-INSERT INTO bus_routes VALUES('39',1,18,'888', null);
-INSERT INTO bus_routes VALUES('39',1,19,'890', null);
-INSERT INTO bus_routes VALUES('39',1,20,'892', null);
-INSERT INTO bus_routes VALUES('39',1,21,'894', null);
-INSERT INTO bus_routes VALUES('39',1,22,'896', null);
-INSERT INTO bus_routes VALUES('39',1,23,'898', null);
-INSERT INTO bus_routes VALUES('39',1,24,'900', null);
-INSERT INTO bus_routes VALUES('39',1,25,'901', null);
-INSERT INTO bus_routes VALUES('39',1,26,'4482', null);
-INSERT INTO bus_routes VALUES('39',1,27,'644', null);
-INSERT INTO bus_routes VALUES('39',1,28,'646', null);
-INSERT INTO bus_routes VALUES('39',1,29,'3810', null);
-INSERT INTO bus_routes VALUES('39',1,30,'3808', null);
-INSERT INTO bus_routes VALUES('39',1,31,'905', null);
-INSERT INTO bus_routes VALUES('39',1,32,'374', null);
-INSERT INTO bus_routes VALUES('39',1,33,'375', null);
-INSERT INTO bus_routes VALUES('39',2,1,'375', null);
-INSERT INTO bus_routes VALUES('39',2,2,'366', null);
-INSERT INTO bus_routes VALUES('39',2,3,'906', null);
-INSERT INTO bus_routes VALUES('39',2,4,'907', null);
-INSERT INTO bus_routes VALUES('39',2,5,'4334', null);
-INSERT INTO bus_routes VALUES('39',2,6,'3809', null);
-INSERT INTO bus_routes VALUES('39',2,7,'5159', null);
-INSERT INTO bus_routes VALUES('39',2,8,'647', null);
-INSERT INTO bus_routes VALUES('39',2,9,'909', null);
-INSERT INTO bus_routes VALUES('39',2,10,'910', null);
-INSERT INTO bus_routes VALUES('39',2,11,'899', null);
-INSERT INTO bus_routes VALUES('39',2,12,'897', null);
-INSERT INTO bus_routes VALUES('39',2,13,'895', null);
-INSERT INTO bus_routes VALUES('39',2,14,'893', null);
-INSERT INTO bus_routes VALUES('39',2,15,'891', null);
-INSERT INTO bus_routes VALUES('39',2,16,'889', null);
-INSERT INTO bus_routes VALUES('39',2,17,'887', null);
-INSERT INTO bus_routes VALUES('39',2,18,'885', null);
-INSERT INTO bus_routes VALUES('39',2,19,'883', null);
-INSERT INTO bus_routes VALUES('39',2,20,'911', null);
-INSERT INTO bus_routes VALUES('39',2,21,'880', null);
-INSERT INTO bus_routes VALUES('39',2,22,'878', null);
-INSERT INTO bus_routes VALUES('39',2,23,'876', null);
-INSERT INTO bus_routes VALUES('39',2,24,'874', null);
-INSERT INTO bus_routes VALUES('39',2,25,'872', null);
-INSERT INTO bus_routes VALUES('39',2,26,'609', null);
-INSERT INTO bus_routes VALUES('39',2,27,'607', null);
-INSERT INTO bus_routes VALUES('39',2,28,'5246', null);
-INSERT INTO bus_routes VALUES('39',2,29,'742', null);
-INSERT INTO bus_routes VALUES('39',2,30,'855', null);
-INSERT INTO bus_routes VALUES('39',2,31,'5206', null);
-INSERT INTO bus_routes VALUES('4',1,1,'1199', null);
-INSERT INTO bus_routes VALUES('4',1,2,'240', null);
-INSERT INTO bus_routes VALUES('4',1,3,'242', null);
-INSERT INTO bus_routes VALUES('4',1,4,'244', null);
-INSERT INTO bus_routes VALUES('4',1,5,'246', null);
-INSERT INTO bus_routes VALUES('4',1,6,'4708', null);
-INSERT INTO bus_routes VALUES('4',1,7,'250', null);
-INSERT INTO bus_routes VALUES('4',1,8,'1200', null);
-INSERT INTO bus_routes VALUES('4',1,9,'1202', null);
-INSERT INTO bus_routes VALUES('4',1,10,'1204', null);
-INSERT INTO bus_routes VALUES('4',1,11,'1206', null);
-INSERT INTO bus_routes VALUES('4',1,12,'5650', null);
-INSERT INTO bus_routes VALUES('4',1,13,'4195', null);
-INSERT INTO bus_routes VALUES('4',1,14,'4197', null);
-INSERT INTO bus_routes VALUES('4',1,15,'1210', null);
-INSERT INTO bus_routes VALUES('4',1,16,'4612', null);
-INSERT INTO bus_routes VALUES('4',1,17,'3758', null);
-INSERT INTO bus_routes VALUES('4',1,18,'1213', null);
-INSERT INTO bus_routes VALUES('4',1,19,'1076', null);
-INSERT INTO bus_routes VALUES('4',1,20,'1066', null);
-INSERT INTO bus_routes VALUES('4',1,21,'1067', null);
-INSERT INTO bus_routes VALUES('4',1,22,'4546', null);
-INSERT INTO bus_routes VALUES('4',1,23,'4552', null);
-INSERT INTO bus_routes VALUES('4',1,24,'4555', null);
-INSERT INTO bus_routes VALUES('4',1,25,'5321', null);
-INSERT INTO bus_routes VALUES('4',1,26,'1073', null);
-INSERT INTO bus_routes VALUES('4',1,27,'1073', null);
-INSERT INTO bus_routes VALUES('4',2,1,'1073', null);
-INSERT INTO bus_routes VALUES('4',2,2,'1073', null);
-INSERT INTO bus_routes VALUES('4',2,3,'5322', null);
-INSERT INTO bus_routes VALUES('4',2,4,'4556', null);
-INSERT INTO bus_routes VALUES('4',2,5,'1069', null);
-INSERT INTO bus_routes VALUES('4',2,6,'1074', null);
-INSERT INTO bus_routes VALUES('4',2,7,'4647', null);
-INSERT INTO bus_routes VALUES('4',2,8,'4549', null);
-INSERT INTO bus_routes VALUES('4',2,9,'1065', null);
-INSERT INTO bus_routes VALUES('4',2,10,'1214', null);
-INSERT INTO bus_routes VALUES('4',2,11,'1215', null);
-INSERT INTO bus_routes VALUES('4',2,12,'4613', null);
-INSERT INTO bus_routes VALUES('4',2,13,'1211', null);
-INSERT INTO bus_routes VALUES('4',2,14,'4611', null);
-INSERT INTO bus_routes VALUES('4',2,15,'4196', null);
-INSERT INTO bus_routes VALUES('4',2,16,'4192', null);
-INSERT INTO bus_routes VALUES('4',2,17,'1207', null);
-INSERT INTO bus_routes VALUES('4',2,18,'1205', null);
-INSERT INTO bus_routes VALUES('4',2,19,'1203', null);
-INSERT INTO bus_routes VALUES('4',2,20,'1201', null);
-INSERT INTO bus_routes VALUES('4',2,21,'252', null);
-INSERT INTO bus_routes VALUES('4',2,22,'248', null);
-INSERT INTO bus_routes VALUES('4',2,23,'247', null);
-INSERT INTO bus_routes VALUES('4',2,24,'245', null);
-INSERT INTO bus_routes VALUES('4',2,25,'243', null);
-INSERT INTO bus_routes VALUES('4',2,26,'241', null);
-INSERT INTO bus_routes VALUES('4',2,27,'239', null);
-INSERT INTO bus_routes VALUES('4',2,28,'1199', null);
-INSERT INTO bus_routes VALUES('40',1,1,'5542', null);
-INSERT INTO bus_routes VALUES('40',1,2,'280', null);
-INSERT INTO bus_routes VALUES('40',1,3,'3555', null);
-INSERT INTO bus_routes VALUES('40',1,4,'284', null);
-INSERT INTO bus_routes VALUES('40',1,5,'286', null);
-INSERT INTO bus_routes VALUES('40',1,6,'288', null);
-INSERT INTO bus_routes VALUES('40',1,7,'529', null);
-INSERT INTO bus_routes VALUES('40',1,8,'58', null);
-INSERT INTO bus_routes VALUES('40',1,9,'56', null);
-INSERT INTO bus_routes VALUES('40',1,10,'54', null);
-INSERT INTO bus_routes VALUES('40',1,11,'52', null);
-INSERT INTO bus_routes VALUES('40',1,12,'50', null);
-INSERT INTO bus_routes VALUES('40',1,13,'47', null);
-INSERT INTO bus_routes VALUES('40',1,14,'42', null);
-INSERT INTO bus_routes VALUES('40',1,15,'44', null);
-INSERT INTO bus_routes VALUES('40',1,16,'39', null);
-INSERT INTO bus_routes VALUES('40',1,17,'37', null);
-INSERT INTO bus_routes VALUES('40',1,18,'2116', null);
-INSERT INTO bus_routes VALUES('40',1,19,'293', null);
-INSERT INTO bus_routes VALUES('40',1,20,'295', null);
-INSERT INTO bus_routes VALUES('40',1,21,'297', null);
-INSERT INTO bus_routes VALUES('40',1,22,'299', null);
-INSERT INTO bus_routes VALUES('40',1,23,'300', null);
-INSERT INTO bus_routes VALUES('40',1,24,'302', null);
-INSERT INTO bus_routes VALUES('40',1,25,'304', null);
-INSERT INTO bus_routes VALUES('40',1,26,'306', null);
-INSERT INTO bus_routes VALUES('40',1,27,'308', null);
-INSERT INTO bus_routes VALUES('40',1,28,'310', null);
-INSERT INTO bus_routes VALUES('40',1,29,'310', null);
-INSERT INTO bus_routes VALUES('40',1,30,'312', null);
-INSERT INTO bus_routes VALUES('40',2,1,'312', null);
-INSERT INTO bus_routes VALUES('40',2,2,'313', null);
-INSERT INTO bus_routes VALUES('40',2,3,'311', null);
-INSERT INTO bus_routes VALUES('40',2,4,'309', null);
-INSERT INTO bus_routes VALUES('40',2,5,'307', null);
-INSERT INTO bus_routes VALUES('40',2,6,'305', null);
-INSERT INTO bus_routes VALUES('40',2,7,'303', null);
-INSERT INTO bus_routes VALUES('40',2,8,'2388', null);
-INSERT INTO bus_routes VALUES('40',2,9,'314', null);
-INSERT INTO bus_routes VALUES('40',2,10,'298', null);
-INSERT INTO bus_routes VALUES('40',2,11,'296', null);
-INSERT INTO bus_routes VALUES('40',2,12,'294', null);
-INSERT INTO bus_routes VALUES('40',2,13,'5882', null);
-INSERT INTO bus_routes VALUES('40',2,14,'34', null);
-INSERT INTO bus_routes VALUES('40',2,15,'36', null);
-INSERT INTO bus_routes VALUES('40',2,16,'38', null);
-INSERT INTO bus_routes VALUES('40',2,17,'41', null);
-INSERT INTO bus_routes VALUES('40',2,18,'46', null);
-INSERT INTO bus_routes VALUES('40',2,19,'48', null);
-INSERT INTO bus_routes VALUES('40',2,20,'49', null);
-INSERT INTO bus_routes VALUES('40',2,21,'51', null);
-INSERT INTO bus_routes VALUES('40',2,22,'53', null);
-INSERT INTO bus_routes VALUES('40',2,23,'4742', null);
-INSERT INTO bus_routes VALUES('40',2,24,'4338', null);
-INSERT INTO bus_routes VALUES('40',2,25,'316', null);
-INSERT INTO bus_routes VALUES('40',2,26,'287', null);
-INSERT INTO bus_routes VALUES('40',2,27,'317', null);
-INSERT INTO bus_routes VALUES('40',2,28,'285', null);
-INSERT INTO bus_routes VALUES('40',2,29,'282', null);
-INSERT INTO bus_routes VALUES('40',2,30,'281', null);
-INSERT INTO bus_routes VALUES('40',2,31,'3373', null);
-INSERT INTO bus_routes VALUES('40',2,32,'5542', null);
-INSERT INTO bus_routes VALUES('E1',1,1,'5727', null);
-INSERT INTO bus_routes VALUES('E1',1,2,'81', null);
-INSERT INTO bus_routes VALUES('E1',1,3,'1167', null);
-INSERT INTO bus_routes VALUES('E1',1,4,'2538', null);
-INSERT INTO bus_routes VALUES('E1',1,5,'3929', null);
-INSERT INTO bus_routes VALUES('E1',1,6,'3990', null);
-INSERT INTO bus_routes VALUES('E1',1,7,'3994', null);
-INSERT INTO bus_routes VALUES('E1',1,8,'4187', null);
-INSERT INTO bus_routes VALUES('E1',1,9,'2964', null);
-INSERT INTO bus_routes VALUES('E1',1,10,'649', null);
-INSERT INTO bus_routes VALUES('E1',1,11,'2646', null);
-INSERT INTO bus_routes VALUES('E1',2,1,'2646', null);
-INSERT INTO bus_routes VALUES('E1',2,2,'562', null);
-INSERT INTO bus_routes VALUES('E1',2,3,'4090', null);
-INSERT INTO bus_routes VALUES('E1',2,4,'4188', null);
-INSERT INTO bus_routes VALUES('E1',2,5,'3995', null);
-INSERT INTO bus_routes VALUES('E1',2,6,'3991', null);
-INSERT INTO bus_routes VALUES('E1',2,7,'3903', null);
-INSERT INTO bus_routes VALUES('E1',2,8,'2539', null);
-INSERT INTO bus_routes VALUES('E1',2,9,'2535', null);
-INSERT INTO bus_routes VALUES('E1',2,10,'1929', null);
-INSERT INTO bus_routes VALUES('E1',2,11,'4032', null);
-INSERT INTO bus_routes VALUES('E1',2,12,'5360', null);
-INSERT INTO bus_routes VALUES('E1',2,13,'82', null);
-INSERT INTO bus_routes VALUES('E1',2,14,'5727', null);
-INSERT INTO bus_routes VALUES('E2',1,1,'755', null);
-INSERT INTO bus_routes VALUES('E2',1,2,'5618', null);
-INSERT INTO bus_routes VALUES('E2',1,3,'153', null);
-INSERT INTO bus_routes VALUES('E2',1,4,'4763', null);
-INSERT INTO bus_routes VALUES('E2',1,5,'4635', null);
-INSERT INTO bus_routes VALUES('E2',1,6,'4636', null);
-INSERT INTO bus_routes VALUES('E2',1,7,'4637', null);
-INSERT INTO bus_routes VALUES('E2',1,8,'4210', null);
-INSERT INTO bus_routes VALUES('E2',1,9,'4407', null);
-INSERT INTO bus_routes VALUES('E2',1,10,'4411', null);
-INSERT INTO bus_routes VALUES('E2',1,11,'4415', null);
-INSERT INTO bus_routes VALUES('E2',1,12,'4417', null);
-INSERT INTO bus_routes VALUES('E2',1,13,'3409', null);
-INSERT INTO bus_routes VALUES('E2',2,1,'3409', null);
-INSERT INTO bus_routes VALUES('E2',2,2,'4416', null);
-INSERT INTO bus_routes VALUES('E2',2,3,'4412', null);
-INSERT INTO bus_routes VALUES('E2',2,4,'4408', null);
-INSERT INTO bus_routes VALUES('E2',2,5,'4509', null);
-INSERT INTO bus_routes VALUES('E2',2,6,'4507', null);
-INSERT INTO bus_routes VALUES('E2',2,7,'4655', null);
-INSERT INTO bus_routes VALUES('E2',2,8,'4762', null);
-INSERT INTO bus_routes VALUES('E2',2,9,'5620', null);
-INSERT INTO bus_routes VALUES('E2',2,10,'5619', null);
-INSERT INTO bus_routes VALUES('E2',2,11,'5034', null);
-INSERT INTO bus_routes VALUES('E2',2,12,'755', null);
-INSERT INTO bus_routes VALUES('E3',1,1,'755', null);
-INSERT INTO bus_routes VALUES('E3',1,2,'5618', null);
-INSERT INTO bus_routes VALUES('E3',1,3,'153', null);
-INSERT INTO bus_routes VALUES('E3',1,4,'1064', null);
-INSERT INTO bus_routes VALUES('E3',1,5,'4546', null);
-INSERT INTO bus_routes VALUES('E3',1,6,'4552', null);
-INSERT INTO bus_routes VALUES('E3',1,7,'5321', null);
-INSERT INTO bus_routes VALUES('E3',1,8,'5833', null);
-INSERT INTO bus_routes VALUES('E3',1,9,'5112', null);
-INSERT INTO bus_routes VALUES('E3',1,10,'5114', null);
-INSERT INTO bus_routes VALUES('E3',1,11,'5116', null);
-INSERT INTO bus_routes VALUES('E3',2,1,'5116', null);
-INSERT INTO bus_routes VALUES('E3',2,2,'5118', null);
-INSERT INTO bus_routes VALUES('E3',2,3,'5115', null);
-INSERT INTO bus_routes VALUES('E3',2,4,'4575', null);
-INSERT INTO bus_routes VALUES('E3',2,5,'4585', null);
-INSERT INTO bus_routes VALUES('E3',2,6,'5322', null);
-INSERT INTO bus_routes VALUES('E3',2,7,'1069', null);
-INSERT INTO bus_routes VALUES('E3',2,8,'1074', null);
-INSERT INTO bus_routes VALUES('E3',2,9,'1065', null);
-INSERT INTO bus_routes VALUES('E3',2,10,'5620', null);
-INSERT INTO bus_routes VALUES('E3',2,11,'5619', null);
-INSERT INTO bus_routes VALUES('E3',2,12,'5034', null);
-INSERT INTO bus_routes VALUES('E3',2,13,'755', null);
-INSERT INTO bus_routes VALUES('E4',1,1,'255', null);
-INSERT INTO bus_routes VALUES('E4',1,2,'150', null);
-INSERT INTO bus_routes VALUES('E4',1,3,'5362', null);
-INSERT INTO bus_routes VALUES('E4',1,4,'1059', null);
-INSERT INTO bus_routes VALUES('E4',1,5,'1057', null);
-INSERT INTO bus_routes VALUES('E4',1,6,'4371', null);
-INSERT INTO bus_routes VALUES('E4',1,7,'4373', null);
-INSERT INTO bus_routes VALUES('E4',1,8,'3495', null);
-INSERT INTO bus_routes VALUES('E4',1,9,'1048', null);
-INSERT INTO bus_routes VALUES('E4',1,10,'4586', null);
-INSERT INTO bus_routes VALUES('E4',2,1,'4586', null);
-INSERT INTO bus_routes VALUES('E4',2,2,'1824', null);
-INSERT INTO bus_routes VALUES('E4',2,3,'3496', null);
-INSERT INTO bus_routes VALUES('E4',2,4,'4374', null);
-INSERT INTO bus_routes VALUES('E4',2,5,'4372', null);
-INSERT INTO bus_routes VALUES('E4',2,6,'1056', null);
-INSERT INTO bus_routes VALUES('E4',2,7,'1058', null);
-INSERT INTO bus_routes VALUES('E4',2,8,'5361', null);
-INSERT INTO bus_routes VALUES('E4',2,9,'5620', null);
-INSERT INTO bus_routes VALUES('E4',2,10,'5619', null);
-INSERT INTO bus_routes VALUES('E4',2,11,'2215', null);
-INSERT INTO bus_routes VALUES('E4',2,12,'255', null);
-INSERT INTO bus_routes VALUES('E5',1,1,'3761', null);
-INSERT INTO bus_routes VALUES('E5',1,2,'1427', null);
-INSERT INTO bus_routes VALUES('E5',1,3,'150', null);
-INSERT INTO bus_routes VALUES('E5',1,4,'1064', null);
-INSERT INTO bus_routes VALUES('E5',1,5,'4546', null);
-INSERT INTO bus_routes VALUES('E5',1,6,'4552', null);
-INSERT INTO bus_routes VALUES('E5',1,7,'5321', null);
-INSERT INTO bus_routes VALUES('E5',1,8,'5109', null);
-INSERT INTO bus_routes VALUES('E5',1,9,'4801', null);
-INSERT INTO bus_routes VALUES('E5',1,10,'4723', null);
-INSERT INTO bus_routes VALUES('E5',1,11,'5049', null);
-INSERT INTO bus_routes VALUES('E5',2,1,'5049', null);
-INSERT INTO bus_routes VALUES('E5',2,2,'4722', null);
-INSERT INTO bus_routes VALUES('E5',2,3,'4803', null);
-INSERT INTO bus_routes VALUES('E5',2,4,'5108', null);
-INSERT INTO bus_routes VALUES('E5',2,5,'5322', null);
-INSERT INTO bus_routes VALUES('E5',2,6,'1069', null);
-INSERT INTO bus_routes VALUES('E5',2,7,'1074', null);
-INSERT INTO bus_routes VALUES('E5',2,8,'1065', null);
-INSERT INTO bus_routes VALUES('E5',2,9,'5620', null);
-INSERT INTO bus_routes VALUES('E5',2,10,'5619', null);
-INSERT INTO bus_routes VALUES('E5',2,11,'2215', null);
-INSERT INTO bus_routes VALUES('E5',2,12,'682', null);
-INSERT INTO bus_routes VALUES('E5',2,13,'3761', null);
-INSERT INTO bus_routes VALUES('41',1,1,'2308', null);
-INSERT INTO bus_routes VALUES('41',1,2,'2309', null);
-INSERT INTO bus_routes VALUES('41',1,3,'84', null);
-INSERT INTO bus_routes VALUES('41',1,4,'320', null);
-INSERT INTO bus_routes VALUES('41',1,5,'2355', null);
-INSERT INTO bus_routes VALUES('41',1,6,'2357', null);
-INSERT INTO bus_routes VALUES('41',1,7,'549', null);
-INSERT INTO bus_routes VALUES('41',1,8,'550', null);
-INSERT INTO bus_routes VALUES('41',1,9,'3812', null);
-INSERT INTO bus_routes VALUES('41',1,10,'3814', null);
-INSERT INTO bus_routes VALUES('41',1,11,'2365', null);
-INSERT INTO bus_routes VALUES('41',1,12,'609', null);
-INSERT INTO bus_routes VALUES('41',1,13,'607', null);
-INSERT INTO bus_routes VALUES('41',1,14,'2296', null);
-INSERT INTO bus_routes VALUES('41',1,15,'858', null);
-INSERT INTO bus_routes VALUES('41',1,16,'860', null);
-INSERT INTO bus_routes VALUES('41',1,17,'862', null);
-INSERT INTO bus_routes VALUES('41',1,18,'863', null);
-INSERT INTO bus_routes VALUES('41',1,19,'5761', null);
-INSERT INTO bus_routes VALUES('41',1,20,'865', null);
-INSERT INTO bus_routes VALUES('41',1,21,'867', null);
-INSERT INTO bus_routes VALUES('41',2,1,'867', null);
-INSERT INTO bus_routes VALUES('41',2,2,'866', null);
-INSERT INTO bus_routes VALUES('41',2,3,'868', null);
-INSERT INTO bus_routes VALUES('41',2,4,'869', null);
-INSERT INTO bus_routes VALUES('41',2,5,'870', null);
-INSERT INTO bus_routes VALUES('41',2,6,'861', null);
-INSERT INTO bus_routes VALUES('41',2,7,'859', null);
-INSERT INTO bus_routes VALUES('41',2,8,'857', null);
-INSERT INTO bus_routes VALUES('41',2,9,'605', null);
-INSERT INTO bus_routes VALUES('41',2,10,'606', null);
-INSERT INTO bus_routes VALUES('41',2,11,'2367', null);
-INSERT INTO bus_routes VALUES('41',2,12,'2366', null);
-INSERT INTO bus_routes VALUES('41',2,13,'3815', null);
-INSERT INTO bus_routes VALUES('41',2,14,'3813', null);
-INSERT INTO bus_routes VALUES('41',2,15,'551', null);
-INSERT INTO bus_routes VALUES('41',2,16,'593', null);
-INSERT INTO bus_routes VALUES('41',2,17,'2358', null);
-INSERT INTO bus_routes VALUES('41',2,18,'2356', null);
-INSERT INTO bus_routes VALUES('41',2,19,'321', null);
-INSERT INTO bus_routes VALUES('41',2,20,'85', null);
-INSERT INTO bus_routes VALUES('41',2,21,'2308', null);
-INSERT INTO bus_routes VALUES('42',1,1,'5611', null);
-INSERT INTO bus_routes VALUES('42',1,2,'3568', null);
-INSERT INTO bus_routes VALUES('42',1,3,'5016', null);
-INSERT INTO bus_routes VALUES('42',1,4,'5018', null);
-INSERT INTO bus_routes VALUES('42',1,5,'5020', null);
-INSERT INTO bus_routes VALUES('42',1,6,'1494', null);
-INSERT INTO bus_routes VALUES('42',1,7,'1496', null);
-INSERT INTO bus_routes VALUES('42',1,8,'1498', null);
-INSERT INTO bus_routes VALUES('42',1,9,'1500', null);
-INSERT INTO bus_routes VALUES('42',1,10,'1501', null);
-INSERT INTO bus_routes VALUES('42',1,11,'1503', null);
-INSERT INTO bus_routes VALUES('42',1,12,'1505', null);
-INSERT INTO bus_routes VALUES('42',1,13,'1507', null);
-INSERT INTO bus_routes VALUES('42',1,14,'1509', null);
-INSERT INTO bus_routes VALUES('42',1,15,'1511', null);
-INSERT INTO bus_routes VALUES('42',1,16,'3578', null);
-INSERT INTO bus_routes VALUES('42',1,17,'3580', null);
-INSERT INTO bus_routes VALUES('42',1,18,'1515', null);
-INSERT INTO bus_routes VALUES('42',1,19,'1517', null);
-INSERT INTO bus_routes VALUES('42',1,20,'3733', null);
-INSERT INTO bus_routes VALUES('42',1,21,'3821', null);
-INSERT INTO bus_routes VALUES('42',1,22,'1522', null);
-INSERT INTO bus_routes VALUES('42',2,1,'1522', null);
-INSERT INTO bus_routes VALUES('42',2,2,'1523', null);
-INSERT INTO bus_routes VALUES('42',2,3,'1520', null);
-INSERT INTO bus_routes VALUES('42',2,4,'1518', null);
-INSERT INTO bus_routes VALUES('42',2,5,'4149', null);
-INSERT INTO bus_routes VALUES('42',2,6,'3581', null);
-INSERT INTO bus_routes VALUES('42',2,7,'3579', null);
-INSERT INTO bus_routes VALUES('42',2,8,'1512', null);
-INSERT INTO bus_routes VALUES('42',2,9,'1510', null);
-INSERT INTO bus_routes VALUES('42',2,10,'1508', null);
-INSERT INTO bus_routes VALUES('42',2,11,'1506', null);
-INSERT INTO bus_routes VALUES('42',2,12,'1504', null);
-INSERT INTO bus_routes VALUES('42',2,13,'1502', null);
-INSERT INTO bus_routes VALUES('42',2,14,'1524', null);
-INSERT INTO bus_routes VALUES('42',2,15,'1499', null);
-INSERT INTO bus_routes VALUES('42',2,16,'1497', null);
-INSERT INTO bus_routes VALUES('42',2,17,'1495', null);
-INSERT INTO bus_routes VALUES('42',2,18,'5021', null);
-INSERT INTO bus_routes VALUES('42',2,19,'5019', null);
-INSERT INTO bus_routes VALUES('42',2,20,'5017', null);
-INSERT INTO bus_routes VALUES('42',2,21,'5015', null);
-INSERT INTO bus_routes VALUES('42',2,22,'5611', null);
-INSERT INTO bus_routes VALUES('43',1,1,'5002', null);
-INSERT INTO bus_routes VALUES('43',1,2,'753', null);
-INSERT INTO bus_routes VALUES('43',1,3,'5451', null);
-INSERT INTO bus_routes VALUES('43',1,4,'680', null);
-INSERT INTO bus_routes VALUES('43',1,5,'682', null);
-INSERT INTO bus_routes VALUES('43',1,6,'782', null);
-INSERT INTO bus_routes VALUES('43',1,7,'726', null);
-INSERT INTO bus_routes VALUES('43',1,8,'2369', null);
-INSERT INTO bus_routes VALUES('43',1,9,'2370', null);
-INSERT INTO bus_routes VALUES('43',1,10,'689', null);
-INSERT INTO bus_routes VALUES('43',1,11,'690', null);
-INSERT INTO bus_routes VALUES('43',1,12,'692', null);
-INSERT INTO bus_routes VALUES('43',1,13,'2374', null);
-INSERT INTO bus_routes VALUES('43',1,14,'3684', null);
-INSERT INTO bus_routes VALUES('43',1,15,'2377', null);
-INSERT INTO bus_routes VALUES('43',1,16,'2379', null);
-INSERT INTO bus_routes VALUES('43',1,17,'313', null);
-INSERT INTO bus_routes VALUES('43',1,18,'311', null);
-INSERT INTO bus_routes VALUES('43',1,19,'411', null);
-INSERT INTO bus_routes VALUES('43',1,20,'460', null);
-INSERT INTO bus_routes VALUES('43',1,21,'458', null);
-INSERT INTO bus_routes VALUES('43',1,22,'413', null);
-INSERT INTO bus_routes VALUES('43',1,23,'456', null);
-INSERT INTO bus_routes VALUES('43',1,24,'5470', null);
-INSERT INTO bus_routes VALUES('43',1,25,'4179', null);
-INSERT INTO bus_routes VALUES('43',1,26,'2383', null);
-INSERT INTO bus_routes VALUES('43',1,27,'5281', null);
-INSERT INTO bus_routes VALUES('43',1,28,'2386', null);
-INSERT INTO bus_routes VALUES('43',1,29,'1860', null);
-INSERT INTO bus_routes VALUES('43',2,1,'1860', null);
-INSERT INTO bus_routes VALUES('43',2,2,'1861', null);
-INSERT INTO bus_routes VALUES('43',2,3,'3381', null);
-INSERT INTO bus_routes VALUES('43',2,4,'2384', null);
-INSERT INTO bus_routes VALUES('43',2,5,'5469', null);
-INSERT INTO bus_routes VALUES('43',2,6,'453', null);
-INSERT INTO bus_routes VALUES('43',2,7,'455', null);
-INSERT INTO bus_routes VALUES('43',2,8,'412', null);
-INSERT INTO bus_routes VALUES('43',2,9,'457', null);
-INSERT INTO bus_routes VALUES('43',2,10,'459', null);
-INSERT INTO bus_routes VALUES('43',2,11,'410', null);
-INSERT INTO bus_routes VALUES('43',2,12,'310', null);
-INSERT INTO bus_routes VALUES('43',2,13,'310', null);
-INSERT INTO bus_routes VALUES('43',2,14,'2381', null);
-INSERT INTO bus_routes VALUES('43',2,15,'2380', null);
-INSERT INTO bus_routes VALUES('43',2,16,'2378', null);
-INSERT INTO bus_routes VALUES('43',2,17,'2376', null);
-INSERT INTO bus_routes VALUES('43',2,18,'3685', null);
-INSERT INTO bus_routes VALUES('43',2,19,'693', null);
-INSERT INTO bus_routes VALUES('43',2,20,'691', null);
-INSERT INTO bus_routes VALUES('43',2,21,'2373', null);
-INSERT INTO bus_routes VALUES('43',2,22,'2372', null);
-INSERT INTO bus_routes VALUES('43',2,23,'2371', null);
-INSERT INTO bus_routes VALUES('43',2,24,'811', null);
-INSERT INTO bus_routes VALUES('43',2,25,'3829', null);
-INSERT INTO bus_routes VALUES('43',2,26,'683', null);
-INSERT INTO bus_routes VALUES('43',2,27,'681', null);
-INSERT INTO bus_routes VALUES('43',2,28,'679', null);
-INSERT INTO bus_routes VALUES('43',2,29,'5002', null);
-INSERT INTO bus_routes VALUES('44',1,1,'5572', null);
-INSERT INTO bus_routes VALUES('44',1,2,'168', null);
-INSERT INTO bus_routes VALUES('44',1,3,'283', null);
-INSERT INTO bus_routes VALUES('44',1,4,'1750', null);
-INSERT INTO bus_routes VALUES('44',1,5,'172', null);
-INSERT INTO bus_routes VALUES('44',1,6,'734', null);
-INSERT INTO bus_routes VALUES('44',1,7,'736', null);
-INSERT INTO bus_routes VALUES('44',1,8,'738', null);
-INSERT INTO bus_routes VALUES('44',1,9,'4816', null);
-INSERT INTO bus_routes VALUES('44',1,10,'4021', null);
-INSERT INTO bus_routes VALUES('44',1,11,'743', null);
-INSERT INTO bus_routes VALUES('44',1,12,'803', null);
-INSERT INTO bus_routes VALUES('44',1,13,'2390', null);
-INSERT INTO bus_routes VALUES('44',1,14,'2392', null);
-INSERT INTO bus_routes VALUES('44',1,15,'2394', null);
-INSERT INTO bus_routes VALUES('44',1,16,'5591', null);
-INSERT INTO bus_routes VALUES('44',1,17,'1666', null);
-INSERT INTO bus_routes VALUES('44',1,18,'1668', null);
-INSERT INTO bus_routes VALUES('44',1,19,'1670', null);
-INSERT INTO bus_routes VALUES('44',1,20,'2396', null);
-INSERT INTO bus_routes VALUES('44',1,21,'2398', null);
-INSERT INTO bus_routes VALUES('44',1,22,'2400', null);
-INSERT INTO bus_routes VALUES('44',1,23,'1676', null);
-INSERT INTO bus_routes VALUES('44',1,24,'1678', null);
-INSERT INTO bus_routes VALUES('44',1,25,'2402', null);
-INSERT INTO bus_routes VALUES('44',1,26,'3895', null);
-INSERT INTO bus_routes VALUES('44',2,1,'3895', null);
-INSERT INTO bus_routes VALUES('44',2,2,'3682', null);
-INSERT INTO bus_routes VALUES('44',2,3,'2403', null);
-INSERT INTO bus_routes VALUES('44',2,4,'1679', null);
-INSERT INTO bus_routes VALUES('44',2,5,'1677', null);
-INSERT INTO bus_routes VALUES('44',2,6,'2401', null);
-INSERT INTO bus_routes VALUES('44',2,7,'2399', null);
-INSERT INTO bus_routes VALUES('44',2,8,'2397', null);
-INSERT INTO bus_routes VALUES('44',2,9,'1671', null);
-INSERT INTO bus_routes VALUES('44',2,10,'1669', null);
-INSERT INTO bus_routes VALUES('44',2,11,'1667', null);
-INSERT INTO bus_routes VALUES('44',2,12,'5098', null);
-INSERT INTO bus_routes VALUES('44',2,13,'2395', null);
-INSERT INTO bus_routes VALUES('44',2,14,'2393', null);
-INSERT INTO bus_routes VALUES('44',2,15,'2391', null);
-INSERT INTO bus_routes VALUES('44',2,16,'2389', null);
-INSERT INTO bus_routes VALUES('44',2,17,'4514', null);
-INSERT INTO bus_routes VALUES('44',2,18,'4022', null);
-INSERT INTO bus_routes VALUES('44',2,19,'3687', null);
-INSERT INTO bus_routes VALUES('44',2,20,'737', null);
-INSERT INTO bus_routes VALUES('44',2,21,'735', null);
-INSERT INTO bus_routes VALUES('44',2,22,'193', null);
-INSERT INTO bus_routes VALUES('44',2,23,'173', null);
-INSERT INTO bus_routes VALUES('44',2,24,'741', null);
-INSERT INTO bus_routes VALUES('44',2,25,'5139', null);
-INSERT INTO bus_routes VALUES('44',2,26,'5572', null);
-INSERT INTO bus_routes VALUES('45',1,1,'5128', null);
-INSERT INTO bus_routes VALUES('45',1,2,'1182', null);
-INSERT INTO bus_routes VALUES('45',1,3,'5036', null);
-INSERT INTO bus_routes VALUES('45',1,4,'1183', null);
-INSERT INTO bus_routes VALUES('45',1,5,'1184', null);
-INSERT INTO bus_routes VALUES('45',1,6,'89', null);
-INSERT INTO bus_routes VALUES('45',1,7,'82', null);
-INSERT INTO bus_routes VALUES('45',1,8,'5511', null);
-INSERT INTO bus_routes VALUES('45',1,9,'78', null);
-INSERT INTO bus_routes VALUES('45',1,10,'5443', null);
-INSERT INTO bus_routes VALUES('45',1,11,'72', null);
-INSERT INTO bus_routes VALUES('45',1,12,'72', null);
-INSERT INTO bus_routes VALUES('45',1,13,'65', null);
-INSERT INTO bus_routes VALUES('45',1,14,'66', null);
-INSERT INTO bus_routes VALUES('45',1,15,'66', null);
-INSERT INTO bus_routes VALUES('45',1,16,'62', null);
-INSERT INTO bus_routes VALUES('45',1,17,'60', null);
-INSERT INTO bus_routes VALUES('45',1,18,'5333', null);
-INSERT INTO bus_routes VALUES('45',1,19,'794', null);
-INSERT INTO bus_routes VALUES('45',1,20,'795', null);
-INSERT INTO bus_routes VALUES('45',1,21,'796', null);
-INSERT INTO bus_routes VALUES('45',1,22,'797', null);
-INSERT INTO bus_routes VALUES('45',1,23,'798', null);
-INSERT INTO bus_routes VALUES('45',1,24,'1399', null);
-INSERT INTO bus_routes VALUES('45',1,25,'1420', null);
-INSERT INTO bus_routes VALUES('45',1,26,'1418', null);
-INSERT INTO bus_routes VALUES('45',1,27,'1416', null);
-INSERT INTO bus_routes VALUES('45',1,28,'5500', null);
-INSERT INTO bus_routes VALUES('45',2,1,'5500', null);
-INSERT INTO bus_routes VALUES('45',2,2,'1414', null);
-INSERT INTO bus_routes VALUES('45',2,3,'1415', null);
-INSERT INTO bus_routes VALUES('45',2,4,'1417', null);
-INSERT INTO bus_routes VALUES('45',2,5,'4284', null);
-INSERT INTO bus_routes VALUES('45',2,6,'1419', null);
-INSERT INTO bus_routes VALUES('45',2,7,'1421', null);
-INSERT INTO bus_routes VALUES('45',2,8,'1422', null);
-INSERT INTO bus_routes VALUES('45',2,9,'1423', null);
-INSERT INTO bus_routes VALUES('45',2,10,'1424', null);
-INSERT INTO bus_routes VALUES('45',2,11,'5447', null);
-INSERT INTO bus_routes VALUES('45',2,12,'4337', null);
-INSERT INTO bus_routes VALUES('45',2,13,'57', null);
-INSERT INTO bus_routes VALUES('45',2,14,'59', null);
-INSERT INTO bus_routes VALUES('45',2,15,'61', null);
-INSERT INTO bus_routes VALUES('45',2,16,'63', null);
-INSERT INTO bus_routes VALUES('45',2,17,'5626', null);
-INSERT INTO bus_routes VALUES('45',2,18,'68', null);
-INSERT INTO bus_routes VALUES('45',2,19,'73', null);
-INSERT INTO bus_routes VALUES('45',2,20,'76', null);
-INSERT INTO bus_routes VALUES('45',2,21,'77', null);
-INSERT INTO bus_routes VALUES('45',2,22,'79', null);
-INSERT INTO bus_routes VALUES('45',2,23,'81', null);
-INSERT INTO bus_routes VALUES('45',2,24,'4839', null);
-INSERT INTO bus_routes VALUES('45',2,25,'1976', null);
-INSERT INTO bus_routes VALUES('45',2,26,'1186', null);
-INSERT INTO bus_routes VALUES('45',2,27,'1187', null);
-INSERT INTO bus_routes VALUES('45',2,28,'1188', null);
-INSERT INTO bus_routes VALUES('45',2,29,'1170', null);
-INSERT INTO bus_routes VALUES('45',2,30,'5128', null);
-INSERT INTO bus_routes VALUES('T11',1,1,'4602', null);
-INSERT INTO bus_routes VALUES('T11',1,2,'4900', null);
-INSERT INTO bus_routes VALUES('T11',1,3,'4901', null);
-INSERT INTO bus_routes VALUES('T11',1,4,'4896', null);
-INSERT INTO bus_routes VALUES('T11',1,5,'3884', null);
-INSERT INTO bus_routes VALUES('T11',1,6,'3885', null);
-INSERT INTO bus_routes VALUES('T11',1,7,'3887', null);
-INSERT INTO bus_routes VALUES('T11',1,8,'3889', null);
-INSERT INTO bus_routes VALUES('T11',1,9,'3891', null);
-INSERT INTO bus_routes VALUES('T11',1,10,'3892', null);
-INSERT INTO bus_routes VALUES('T11',2,1,'3892', null);
-INSERT INTO bus_routes VALUES('T11',2,2,'3893', null);
-INSERT INTO bus_routes VALUES('T11',2,3,'3890', null);
-INSERT INTO bus_routes VALUES('T11',2,4,'3888', null);
-INSERT INTO bus_routes VALUES('T11',2,5,'3886', null);
-INSERT INTO bus_routes VALUES('T11',2,6,'5548', null);
-INSERT INTO bus_routes VALUES('T11',2,7,'4895', null);
-INSERT INTO bus_routes VALUES('T11',2,8,'4897', null);
-INSERT INTO bus_routes VALUES('T11',2,9,'4602', null);
-INSERT INTO bus_routes VALUES('T23',1,1,'4011', null);
-INSERT INTO bus_routes VALUES('T23',1,2,'4012', null);
-INSERT INTO bus_routes VALUES('T23',1,3,'4014', null);
-INSERT INTO bus_routes VALUES('T23',1,4,'4016', null);
-INSERT INTO bus_routes VALUES('T23',1,5,'5684', null);
-INSERT INTO bus_routes VALUES('T23',1,6,'5683', null);
-INSERT INTO bus_routes VALUES('T23',2,1,'5683', null);
-INSERT INTO bus_routes VALUES('T23',2,2,'4018', null);
-INSERT INTO bus_routes VALUES('T23',2,3,'4017', null);
-INSERT INTO bus_routes VALUES('T23',2,4,'4015', null);
-INSERT INTO bus_routes VALUES('T23',2,5,'4013', null);
-INSERT INTO bus_routes VALUES('T23',2,6,'5839', null);
-INSERT INTO bus_routes VALUES('T23',2,7,'4011', null);
-INSERT INTO bus_routes VALUES('T32',1,1,'3644', null);
-INSERT INTO bus_routes VALUES('T32',1,2,'2905', null);
-INSERT INTO bus_routes VALUES('T32',1,3,'2907', null);
-INSERT INTO bus_routes VALUES('T32',1,4,'5081', null);
-INSERT INTO bus_routes VALUES('T32',1,5,'3740', null);
-INSERT INTO bus_routes VALUES('T32',1,6,'5083', null);
-INSERT INTO bus_routes VALUES('T32',1,7,'2909', null);
-INSERT INTO bus_routes VALUES('T32',1,8,'4173', null);
-INSERT INTO bus_routes VALUES('T32',1,9,'4805', null);
-INSERT INTO bus_routes VALUES('T32',1,10,'4806', null);
-INSERT INTO bus_routes VALUES('T32',1,11,'4808', null);
-INSERT INTO bus_routes VALUES('T32',1,12,'4810', null);
-INSERT INTO bus_routes VALUES('T32',1,13,'4812', null);
-INSERT INTO bus_routes VALUES('T32',2,1,'4812', null);
-INSERT INTO bus_routes VALUES('T32',2,2,'4811', null);
-INSERT INTO bus_routes VALUES('T32',2,3,'4809', null);
-INSERT INTO bus_routes VALUES('T32',2,4,'4807', null);
-INSERT INTO bus_routes VALUES('T32',2,5,'4630', null);
-INSERT INTO bus_routes VALUES('T32',2,6,'4174', null);
-INSERT INTO bus_routes VALUES('T32',2,7,'2910', null);
-INSERT INTO bus_routes VALUES('T32',2,8,'5084', null);
-INSERT INTO bus_routes VALUES('T32',2,9,'3741', null);
-INSERT INTO bus_routes VALUES('T32',2,10,'5082', null);
-INSERT INTO bus_routes VALUES('T32',2,11,'2908', null);
-INSERT INTO bus_routes VALUES('T32',2,12,'2906', null);
-INSERT INTO bus_routes VALUES('T32',2,13,'2916', null);
-INSERT INTO bus_routes VALUES('T32',2,14,'3644', null);
-INSERT INTO bus_routes VALUES('T31',1,1,'4837', null);
-INSERT INTO bus_routes VALUES('T31',1,2,'2113', null);
-INSERT INTO bus_routes VALUES('T31',1,3,'5039', null);
-INSERT INTO bus_routes VALUES('T31',1,4,'1805', null);
-INSERT INTO bus_routes VALUES('T31',1,5,'1807', null);
-INSERT INTO bus_routes VALUES('T31',1,6,'1809', null);
-INSERT INTO bus_routes VALUES('T31',1,7,'5326', null);
-INSERT INTO bus_routes VALUES('T31',1,8,'5758', null);
-INSERT INTO bus_routes VALUES('T31',1,9,'1813', null);
-INSERT INTO bus_routes VALUES('T31',1,10,'1815', null);
-INSERT INTO bus_routes VALUES('T31',1,11,'4693', null);
-INSERT INTO bus_routes VALUES('T31',1,12,'1027', null);
-INSERT INTO bus_routes VALUES('T31',2,1,'1027', null);
-INSERT INTO bus_routes VALUES('T31',2,2,'4694', null);
-INSERT INTO bus_routes VALUES('T31',2,3,'4704', null);
-INSERT INTO bus_routes VALUES('T31',2,4,'1814', null);
-INSERT INTO bus_routes VALUES('T31',2,5,'5759', null);
-INSERT INTO bus_routes VALUES('T31',2,6,'5327', null);
-INSERT INTO bus_routes VALUES('T31',2,7,'1810', null);
-INSERT INTO bus_routes VALUES('T31',2,8,'1808', null);
-INSERT INTO bus_routes VALUES('T31',2,9,'1806', null);
-INSERT INTO bus_routes VALUES('T31',2,10,'5038', null);
-INSERT INTO bus_routes VALUES('T31',2,11,'2114', null);
-INSERT INTO bus_routes VALUES('T31',2,12,'4837', null);
-INSERT INTO bus_routes VALUES('T61',1,1,'2994', null);
-INSERT INTO bus_routes VALUES('T61',1,2,'3386', null);
-INSERT INTO bus_routes VALUES('T61',1,3,'3881', null);
-INSERT INTO bus_routes VALUES('T61',1,4,'3984', null);
-INSERT INTO bus_routes VALUES('T61',1,5,'5872', null);
-INSERT INTO bus_routes VALUES('T61',1,6,'5864', null);
-INSERT INTO bus_routes VALUES('T61',1,7,'3766', null);
-INSERT INTO bus_routes VALUES('T61',1,8,'3615', null);
-INSERT INTO bus_routes VALUES('T61',1,9,'3611', null);
-INSERT INTO bus_routes VALUES('T61',1,10,'5865', null);
-INSERT INTO bus_routes VALUES('T61',1,11,'5867', null);
-INSERT INTO bus_routes VALUES('T61',1,12,'5869', null);
-INSERT INTO bus_routes VALUES('T61',1,13,'5871', null);
-INSERT INTO bus_routes VALUES('T61',2,1,'5871', null);
-INSERT INTO bus_routes VALUES('T61',2,2,'5870', null);
-INSERT INTO bus_routes VALUES('T61',2,3,'5868', null);
-INSERT INTO bus_routes VALUES('T61',2,4,'5866', null);
-INSERT INTO bus_routes VALUES('T61',2,5,'3610', null);
-INSERT INTO bus_routes VALUES('T61',2,6,'3614', null);
-INSERT INTO bus_routes VALUES('T61',2,7,'3767', null);
-INSERT INTO bus_routes VALUES('T61',2,8,'3765', null);
-INSERT INTO bus_routes VALUES('T61',2,9,'3763', null);
-INSERT INTO bus_routes VALUES('T61',2,10,'3985', null);
-INSERT INTO bus_routes VALUES('T61',2,11,'3882', null);
-INSERT INTO bus_routes VALUES('T61',2,12,'3399', null);
-INSERT INTO bus_routes VALUES('T61',2,13,'2994', null);
-INSERT INTO bus_routes VALUES('T41',1,1,'3899', null);
-INSERT INTO bus_routes VALUES('T41',1,2,'3562', null);
-INSERT INTO bus_routes VALUES('T41',1,3,'3569', null);
-INSERT INTO bus_routes VALUES('T41',1,4,'3554', null);
-INSERT INTO bus_routes VALUES('T41',1,5,'3552', null);
-INSERT INTO bus_routes VALUES('T41',1,6,'3505', null);
-INSERT INTO bus_routes VALUES('T41',1,7,'3499', null);
-INSERT INTO bus_routes VALUES('T41',1,8,'3490', null);
-INSERT INTO bus_routes VALUES('T41',1,9,'3486', null);
-INSERT INTO bus_routes VALUES('T41',1,10,'3482', null);
-INSERT INTO bus_routes VALUES('T41',1,11,'3465', null);
-INSERT INTO bus_routes VALUES('T41',1,12,'3617', null);
-INSERT INTO bus_routes VALUES('T41',1,13,'3464', null);
-INSERT INTO bus_routes VALUES('T41',2,1,'3464', null);
-INSERT INTO bus_routes VALUES('T41',2,2,'3616', null);
-INSERT INTO bus_routes VALUES('T41',2,3,'5284', null);
-INSERT INTO bus_routes VALUES('T41',2,4,'3484', null);
-INSERT INTO bus_routes VALUES('T41',2,5,'3488', null);
-INSERT INTO bus_routes VALUES('T41',2,6,'3494', null);
-INSERT INTO bus_routes VALUES('T41',2,7,'3501', null);
-INSERT INTO bus_routes VALUES('T41',2,8,'3551', null);
-INSERT INTO bus_routes VALUES('T41',2,9,'3553', null);
-INSERT INTO bus_routes VALUES('T41',2,10,'3558', null);
-INSERT INTO bus_routes VALUES('T41',2,11,'3574', null);
-INSERT INTO bus_routes VALUES('T41',2,12,'3559', null);
-INSERT INTO bus_routes VALUES('T41',2,13,'3899', null);
-INSERT INTO bus_routes VALUES('T62',1,1,'5459', null);
-INSERT INTO bus_routes VALUES('T62',1,2,'1486', null);
-INSERT INTO bus_routes VALUES('T62',1,3,'1487', null);
-INSERT INTO bus_routes VALUES('T62',1,4,'1488', null);
-INSERT INTO bus_routes VALUES('T62',1,5,'2788', null);
-INSERT INTO bus_routes VALUES('T62',1,6,'2787', null);
-INSERT INTO bus_routes VALUES('T62',1,7,'2791', null);
-INSERT INTO bus_routes VALUES('T62',1,8,'2792', null);
-INSERT INTO bus_routes VALUES('T62',2,1,'2792', null);
-INSERT INTO bus_routes VALUES('T62',2,2,'2790', null);
-INSERT INTO bus_routes VALUES('T62',2,3,'1917', null);
-INSERT INTO bus_routes VALUES('T62',2,4,'1916', null);
-INSERT INTO bus_routes VALUES('T62',2,5,'5459', null);
-INSERT INTO bus_routes VALUES('46',1,1,'2056', null);
-INSERT INTO bus_routes VALUES('46',1,2,'4108', null);
-INSERT INTO bus_routes VALUES('46',1,3,'4094', null);
-INSERT INTO bus_routes VALUES('46',1,4,'9', null);
-INSERT INTO bus_routes VALUES('46',1,5,'168', null);
-INSERT INTO bus_routes VALUES('46',1,6,'170', null);
-INSERT INTO bus_routes VALUES('46',1,7,'854', null);
-INSERT INTO bus_routes VALUES('46',1,8,'599', null);
-INSERT INTO bus_routes VALUES('46',1,9,'601', null);
-INSERT INTO bus_routes VALUES('46',1,10,'603', null);
-INSERT INTO bus_routes VALUES('46',1,11,'2296', null);
-INSERT INTO bus_routes VALUES('46',1,12,'858', null);
-INSERT INTO bus_routes VALUES('46',1,13,'860', null);
-INSERT INTO bus_routes VALUES('46',1,14,'2405', null);
-INSERT INTO bus_routes VALUES('46',1,15,'2407', null);
-INSERT INTO bus_routes VALUES('46',1,16,'2409', null);
-INSERT INTO bus_routes VALUES('46',1,17,'2411', null);
-INSERT INTO bus_routes VALUES('46',1,18,'4499', null);
-INSERT INTO bus_routes VALUES('46',1,19,'4500', null);
-INSERT INTO bus_routes VALUES('46',1,20,'2415', null);
-INSERT INTO bus_routes VALUES('46',1,21,'2417', null);
-INSERT INTO bus_routes VALUES('46',1,22,'1331', null);
-INSERT INTO bus_routes VALUES('46',1,23,'2419', null);
-INSERT INTO bus_routes VALUES('46',2,1,'2419', null);
-INSERT INTO bus_routes VALUES('46',2,2,'2418', null);
-INSERT INTO bus_routes VALUES('46',2,3,'2416', null);
-INSERT INTO bus_routes VALUES('46',2,4,'2414', null);
-INSERT INTO bus_routes VALUES('46',2,5,'4295', null);
-INSERT INTO bus_routes VALUES('46',2,6,'2412', null);
-INSERT INTO bus_routes VALUES('46',2,7,'2410', null);
-INSERT INTO bus_routes VALUES('46',2,8,'2408', null);
-INSERT INTO bus_routes VALUES('46',2,9,'2406', null);
-INSERT INTO bus_routes VALUES('46',2,10,'861', null);
-INSERT INTO bus_routes VALUES('46',2,11,'859', null);
-INSERT INTO bus_routes VALUES('46',2,12,'857', null);
-INSERT INTO bus_routes VALUES('46',2,13,'5246', null);
-INSERT INTO bus_routes VALUES('46',2,14,'742', null);
-INSERT INTO bus_routes VALUES('46',2,15,'855', null);
-INSERT INTO bus_routes VALUES('46',2,16,'171', null);
-INSERT INTO bus_routes VALUES('46',2,17,'169', null);
-INSERT INTO bus_routes VALUES('46',2,18,'723', null);
-INSERT INTO bus_routes VALUES('46',2,19,'724', null);
-INSERT INTO bus_routes VALUES('46',2,20,'5138', null);
-INSERT INTO bus_routes VALUES('46',2,21,'164', null);
-INSERT INTO bus_routes VALUES('46',2,22,'2056', null);
-INSERT INTO bus_routes VALUES('47',1,1,'2420', null);
-INSERT INTO bus_routes VALUES('47',1,2,'2421', null);
-INSERT INTO bus_routes VALUES('47',1,3,'1976', null);
-INSERT INTO bus_routes VALUES('47',1,4,'1186', null);
-INSERT INTO bus_routes VALUES('47',1,5,'1187', null);
-INSERT INTO bus_routes VALUES('47',1,6,'1188', null);
-INSERT INTO bus_routes VALUES('47',1,7,'1170', null);
-INSERT INTO bus_routes VALUES('47',1,8,'1935', null);
-INSERT INTO bus_routes VALUES('47',1,9,'2423', null);
-INSERT INTO bus_routes VALUES('47',1,10,'2424', null);
-INSERT INTO bus_routes VALUES('47',1,11,'2426', null);
-INSERT INTO bus_routes VALUES('47',1,12,'2428', null);
-INSERT INTO bus_routes VALUES('47',1,13,'2430', null);
-INSERT INTO bus_routes VALUES('47',1,14,'3929', null);
-INSERT INTO bus_routes VALUES('47',1,15,'2434', null);
-INSERT INTO bus_routes VALUES('47',1,16,'2436', null);
-INSERT INTO bus_routes VALUES('47',1,17,'2438', null);
-INSERT INTO bus_routes VALUES('47',1,18,'2439', null);
-INSERT INTO bus_routes VALUES('47',1,19,'2441', null);
-INSERT INTO bus_routes VALUES('47',1,20,'2443', null);
-INSERT INTO bus_routes VALUES('47',1,21,'2446', null);
-INSERT INTO bus_routes VALUES('47',1,22,'2448', null);
-INSERT INTO bus_routes VALUES('47',1,23,'2450', null);
-INSERT INTO bus_routes VALUES('47',1,24,'2452', null);
-INSERT INTO bus_routes VALUES('47',1,25,'2453', null);
-INSERT INTO bus_routes VALUES('47',1,26,'2456', null);
-INSERT INTO bus_routes VALUES('47',1,27,'2458', null);
-INSERT INTO bus_routes VALUES('47',1,28,'2460', null);
-INSERT INTO bus_routes VALUES('47',1,29,'2462', null);
-INSERT INTO bus_routes VALUES('47',1,30,'379', null);
-INSERT INTO bus_routes VALUES('47',1,31,'377', null);
-INSERT INTO bus_routes VALUES('47',1,32,'4019', null);
-INSERT INTO bus_routes VALUES('47',1,33,'1158', null);
-INSERT INTO bus_routes VALUES('47',1,34,'1159', null);
-INSERT INTO bus_routes VALUES('47',1,35,'1160', null);
-INSERT INTO bus_routes VALUES('47',1,36,'1161', null);
-INSERT INTO bus_routes VALUES('47',1,37,'1162', null);
-INSERT INTO bus_routes VALUES('47',2,1,'1162', null);
-INSERT INTO bus_routes VALUES('47',2,2,'1163', null);
-INSERT INTO bus_routes VALUES('47',2,3,'1164', null);
-INSERT INTO bus_routes VALUES('47',2,4,'1165', null);
-INSERT INTO bus_routes VALUES('47',2,5,'4020', null);
-INSERT INTO bus_routes VALUES('47',2,6,'376', null);
-INSERT INTO bus_routes VALUES('47',2,7,'378', null);
-INSERT INTO bus_routes VALUES('47',2,8,'2463', null);
-INSERT INTO bus_routes VALUES('47',2,9,'2461', null);
-INSERT INTO bus_routes VALUES('47',2,10,'2459', null);
-INSERT INTO bus_routes VALUES('47',2,11,'2457', null);
-INSERT INTO bus_routes VALUES('47',2,12,'2454', null);
-INSERT INTO bus_routes VALUES('47',2,13,'2455', null);
-INSERT INTO bus_routes VALUES('47',2,14,'2451', null);
-INSERT INTO bus_routes VALUES('47',2,15,'2449', null);
-INSERT INTO bus_routes VALUES('47',2,16,'2447', null);
-INSERT INTO bus_routes VALUES('47',2,17,'2444', null);
-INSERT INTO bus_routes VALUES('47',2,18,'2442', null);
-INSERT INTO bus_routes VALUES('47',2,19,'2440', null);
-INSERT INTO bus_routes VALUES('47',2,20,'5046', null);
-INSERT INTO bus_routes VALUES('47',2,21,'2437', null);
-INSERT INTO bus_routes VALUES('47',2,22,'4661', null);
-INSERT INTO bus_routes VALUES('47',2,23,'3903', null);
-INSERT INTO bus_routes VALUES('47',2,24,'2431', null);
-INSERT INTO bus_routes VALUES('47',2,25,'2429', null);
-INSERT INTO bus_routes VALUES('47',2,26,'2427', null);
-INSERT INTO bus_routes VALUES('47',2,27,'2425', null);
-INSERT INTO bus_routes VALUES('47',2,28,'4352', null);
-INSERT INTO bus_routes VALUES('47',2,29,'1936', null);
-INSERT INTO bus_routes VALUES('47',2,30,'3858', null);
-INSERT INTO bus_routes VALUES('47',2,31,'1182', null);
-INSERT INTO bus_routes VALUES('47',2,32,'5036', null);
-INSERT INTO bus_routes VALUES('47',2,33,'1183', null);
-INSERT INTO bus_routes VALUES('47',2,34,'1184', null);
-INSERT INTO bus_routes VALUES('47',2,35,'2420', null);
-INSERT INTO bus_routes VALUES('48',1,1,'3759', null);
-INSERT INTO bus_routes VALUES('48',1,2,'5311', null);
-INSERT INTO bus_routes VALUES('48',1,3,'2369', null);
-INSERT INTO bus_routes VALUES('48',1,4,'2370', null);
-INSERT INTO bus_routes VALUES('48',1,5,'2475', null);
-INSERT INTO bus_routes VALUES('48',1,6,'1236', null);
-INSERT INTO bus_routes VALUES('48',1,7,'2477', null);
-INSERT INTO bus_routes VALUES('48',1,8,'764', null);
-INSERT INTO bus_routes VALUES('48',1,9,'766', null);
-INSERT INTO bus_routes VALUES('48',1,10,'768', null);
-INSERT INTO bus_routes VALUES('48',1,11,'769', null);
-INSERT INTO bus_routes VALUES('48',1,12,'771', null);
-INSERT INTO bus_routes VALUES('48',1,13,'236', null);
-INSERT INTO bus_routes VALUES('48',1,14,'5458', null);
-INSERT INTO bus_routes VALUES('48',1,15,'240', null);
-INSERT INTO bus_routes VALUES('48',1,16,'242', null);
-INSERT INTO bus_routes VALUES('48',1,17,'244', null);
-INSERT INTO bus_routes VALUES('48',1,18,'246', null);
-INSERT INTO bus_routes VALUES('48',1,19,'4708', null);
-INSERT INTO bus_routes VALUES('48',1,20,'250', null);
-INSERT INTO bus_routes VALUES('48',1,21,'2338', null);
-INSERT INTO bus_routes VALUES('48',1,22,'2340', null);
-INSERT INTO bus_routes VALUES('48',1,23,'2342', null);
-INSERT INTO bus_routes VALUES('48',1,24,'3408', null);
-INSERT INTO bus_routes VALUES('48',1,25,'2353', null);
-INSERT INTO bus_routes VALUES('48',1,26,'4389', null);
-INSERT INTO bus_routes VALUES('48',1,27,'4522', null);
-INSERT INTO bus_routes VALUES('48',1,28,'3023', null);
-INSERT INTO bus_routes VALUES('48',1,29,'3021', null);
-INSERT INTO bus_routes VALUES('48',1,30,'4390', null);
-INSERT INTO bus_routes VALUES('48',1,31,'4497', null);
-INSERT INTO bus_routes VALUES('48',1,32,'3941', null);
-INSERT INTO bus_routes VALUES('48',1,33,'3942', null);
-INSERT INTO bus_routes VALUES('48',1,34,'993', null);
-INSERT INTO bus_routes VALUES('48',1,35,'4048', null);
-INSERT INTO bus_routes VALUES('48',1,36,'4049', null);
-INSERT INTO bus_routes VALUES('48',1,37,'3944', null);
-INSERT INTO bus_routes VALUES('48',2,1,'3944', null);
-INSERT INTO bus_routes VALUES('48',2,2,'3945', null);
-INSERT INTO bus_routes VALUES('48',2,3,'2491', null);
-INSERT INTO bus_routes VALUES('48',2,4,'2489', null);
-INSERT INTO bus_routes VALUES('48',2,5,'2485', null);
-INSERT INTO bus_routes VALUES('48',2,6,'2486', null);
-INSERT INTO bus_routes VALUES('48',2,7,'4523', null);
-INSERT INTO bus_routes VALUES('48',2,8,'2483', null);
-INSERT INTO bus_routes VALUES('48',2,9,'2352', null);
-INSERT INTO bus_routes VALUES('48',2,10,'2354', null);
-INSERT INTO bus_routes VALUES('48',2,11,'2343', null);
-INSERT INTO bus_routes VALUES('48',2,12,'2341', null);
-INSERT INTO bus_routes VALUES('48',2,13,'2339', null);
-INSERT INTO bus_routes VALUES('48',2,14,'252', null);
-INSERT INTO bus_routes VALUES('48',2,15,'248', null);
-INSERT INTO bus_routes VALUES('48',2,16,'247', null);
-INSERT INTO bus_routes VALUES('48',2,17,'245', null);
-INSERT INTO bus_routes VALUES('48',2,18,'243', null);
-INSERT INTO bus_routes VALUES('48',2,19,'241', null);
-INSERT INTO bus_routes VALUES('48',2,20,'239', null);
-INSERT INTO bus_routes VALUES('48',2,21,'237', null);
-INSERT INTO bus_routes VALUES('48',2,22,'4511', null);
-INSERT INTO bus_routes VALUES('48',2,23,'770', null);
-INSERT INTO bus_routes VALUES('48',2,24,'577', null);
-INSERT INTO bus_routes VALUES('48',2,25,'776', null);
-INSERT INTO bus_routes VALUES('48',2,26,'777', null);
-INSERT INTO bus_routes VALUES('48',2,27,'2478', null);
-INSERT INTO bus_routes VALUES('48',2,28,'1237', null);
-INSERT INTO bus_routes VALUES('48',2,29,'2476', null);
-INSERT INTO bus_routes VALUES('48',2,30,'2373', null);
-INSERT INTO bus_routes VALUES('48',2,31,'2372', null);
-INSERT INTO bus_routes VALUES('48',2,32,'2371', null);
-INSERT INTO bus_routes VALUES('48',2,33,'811', null);
-INSERT INTO bus_routes VALUES('48',2,34,'3759', null);
-INSERT INTO bus_routes VALUES('H1',1,1,'1027', null);
-INSERT INTO bus_routes VALUES('H1',1,2,'4693', null);
-INSERT INTO bus_routes VALUES('H1',1,3,'4105', null);
-INSERT INTO bus_routes VALUES('H1',1,4,'4061', null);
-INSERT INTO bus_routes VALUES('H1',1,5,'4062', null);
-INSERT INTO bus_routes VALUES('H1',2,1,'4062', null);
-INSERT INTO bus_routes VALUES('H1',2,2,'4063', null);
-INSERT INTO bus_routes VALUES('H1',2,3,'1027', null);
-INSERT INTO bus_routes VALUES('49',1,1,'5611', null);
-INSERT INTO bus_routes VALUES('49',1,2,'1530', null);
-INSERT INTO bus_routes VALUES('49',1,3,'1532', null);
-INSERT INTO bus_routes VALUES('49',1,4,'5632', null);
-INSERT INTO bus_routes VALUES('49',1,5,'5633', null);
-INSERT INTO bus_routes VALUES('49',1,6,'5634', null);
-INSERT INTO bus_routes VALUES('49',1,7,'5635', null);
-INSERT INTO bus_routes VALUES('49',1,8,'5636', null);
-INSERT INTO bus_routes VALUES('49',1,9,'4264', null);
-INSERT INTO bus_routes VALUES('49',1,10,'4354', null);
-INSERT INTO bus_routes VALUES('49',1,11,'1542', null);
-INSERT INTO bus_routes VALUES('49',1,12,'1503', null);
-INSERT INTO bus_routes VALUES('49',1,13,'1505', null);
-INSERT INTO bus_routes VALUES('49',1,14,'1364', null);
-INSERT INTO bus_routes VALUES('49',1,15,'1366', null);
-INSERT INTO bus_routes VALUES('49',1,16,'1368', null);
-INSERT INTO bus_routes VALUES('49',1,17,'1544', null);
-INSERT INTO bus_routes VALUES('49',1,18,'5329', null);
-INSERT INTO bus_routes VALUES('49',1,19,'1546', null);
-INSERT INTO bus_routes VALUES('49',1,20,'1548', null);
-INSERT INTO bus_routes VALUES('49',1,21,'4730', null);
-INSERT INTO bus_routes VALUES('49',1,22,'1357', null);
-INSERT INTO bus_routes VALUES('49',1,23,'1550', null);
-INSERT INTO bus_routes VALUES('49',1,24,'1552', null);
-INSERT INTO bus_routes VALUES('49',1,25,'1554', null);
-INSERT INTO bus_routes VALUES('49',1,26,'4777', null);
-INSERT INTO bus_routes VALUES('49',1,27,'1556', null);
-INSERT INTO bus_routes VALUES('49',1,28,'1558', null);
-INSERT INTO bus_routes VALUES('49',1,29,'4731', null);
-INSERT INTO bus_routes VALUES('49',1,30,'4736', null);
-INSERT INTO bus_routes VALUES('49',1,31,'3822', null);
-INSERT INTO bus_routes VALUES('49',1,32,'3823', null);
-INSERT INTO bus_routes VALUES('49',1,33,'4273', null);
-INSERT INTO bus_routes VALUES('49',1,34,'4732', null);
-INSERT INTO bus_routes VALUES('49',1,35,'4734', null);
-INSERT INTO bus_routes VALUES('49',2,1,'4734', null);
-INSERT INTO bus_routes VALUES('49',2,2,'4405', null);
-INSERT INTO bus_routes VALUES('49',2,3,'4274', null);
-INSERT INTO bus_routes VALUES('49',2,4,'3824', null);
-INSERT INTO bus_routes VALUES('49',2,5,'4740', null);
-INSERT INTO bus_routes VALUES('49',2,6,'4737', null);
-INSERT INTO bus_routes VALUES('49',2,7,'4436', null);
-INSERT INTO bus_routes VALUES('49',2,8,'1559', null);
-INSERT INTO bus_routes VALUES('49',2,9,'4735', null);
-INSERT INTO bus_routes VALUES('49',2,10,'4733', null);
-INSERT INTO bus_routes VALUES('49',2,11,'1555', null);
-INSERT INTO bus_routes VALUES('49',2,12,'1553', null);
-INSERT INTO bus_routes VALUES('49',2,13,'1551', null);
-INSERT INTO bus_routes VALUES('49',2,14,'5523', null);
-INSERT INTO bus_routes VALUES('49',2,15,'1565', null);
-INSERT INTO bus_routes VALUES('49',2,16,'1549', null);
-INSERT INTO bus_routes VALUES('49',2,17,'1547', null);
-INSERT INTO bus_routes VALUES('49',2,18,'5330', null);
-INSERT INTO bus_routes VALUES('49',2,19,'1545', null);
-INSERT INTO bus_routes VALUES('49',2,20,'93', null);
-INSERT INTO bus_routes VALUES('49',2,21,'1367', null);
-INSERT INTO bus_routes VALUES('49',2,22,'1365', null);
-INSERT INTO bus_routes VALUES('49',2,23,'1506', null);
-INSERT INTO bus_routes VALUES('49',2,24,'1504', null);
-INSERT INTO bus_routes VALUES('49',2,25,'1543', null);
-INSERT INTO bus_routes VALUES('49',2,26,'4355', null);
-INSERT INTO bus_routes VALUES('49',2,27,'1539', null);
-INSERT INTO bus_routes VALUES('49',2,28,'1537', null);
-INSERT INTO bus_routes VALUES('49',2,29,'4217', null);
-INSERT INTO bus_routes VALUES('49',2,30,'1535', null);
-INSERT INTO bus_routes VALUES('49',2,31,'5268', null);
-INSERT INTO bus_routes VALUES('49',2,32,'1533', null);
-INSERT INTO bus_routes VALUES('49',2,33,'1531', null);
-INSERT INTO bus_routes VALUES('49',2,34,'5611', null);
-INSERT INTO bus_routes VALUES('5',1,1,'5907', null);
-INSERT INTO bus_routes VALUES('5',1,2,'5239', null);
-INSERT INTO bus_routes VALUES('5',1,3,'72', null);
-INSERT INTO bus_routes VALUES('5',1,4,'72', null);
-INSERT INTO bus_routes VALUES('5',1,5,'65', null);
-INSERT INTO bus_routes VALUES('5',1,6,'66', null);
-INSERT INTO bus_routes VALUES('5',1,7,'66', null);
-INSERT INTO bus_routes VALUES('5',1,8,'62', null);
-INSERT INTO bus_routes VALUES('5',1,9,'60', null);
-INSERT INTO bus_routes VALUES('5',1,10,'530', null);
-INSERT INTO bus_routes VALUES('5',1,11,'1893', null);
-INSERT INTO bus_routes VALUES('5',1,12,'528', null);
-INSERT INTO bus_routes VALUES('5',1,13,'1895', null);
-INSERT INTO bus_routes VALUES('5',1,14,'1896', null);
-INSERT INTO bus_routes VALUES('5',1,15,'1898', null);
-INSERT INTO bus_routes VALUES('5',1,16,'1900', null);
-INSERT INTO bus_routes VALUES('5',1,17,'1902', null);
-INSERT INTO bus_routes VALUES('5',1,18,'3380', null);
-INSERT INTO bus_routes VALUES('5',1,19,'1904', null);
-INSERT INTO bus_routes VALUES('5',1,20,'1906', null);
-INSERT INTO bus_routes VALUES('5',1,21,'1909', null);
-INSERT INTO bus_routes VALUES('5',1,22,'1910', null);
-INSERT INTO bus_routes VALUES('5',1,23,'1912', null);
-INSERT INTO bus_routes VALUES('5',1,24,'4828', null);
-INSERT INTO bus_routes VALUES('5',1,25,'35', null);
-INSERT INTO bus_routes VALUES('5',1,26,'33', null);
-INSERT INTO bus_routes VALUES('5',1,27,'29', null);
-INSERT INTO bus_routes VALUES('5',1,28,'30', null);
-INSERT INTO bus_routes VALUES('5',1,29,'1914', null);
-INSERT INTO bus_routes VALUES('5',1,30,'1915', null);
-INSERT INTO bus_routes VALUES('5',1,31,'1917', null);
-INSERT INTO bus_routes VALUES('5',2,1,'1917', null);
-INSERT INTO bus_routes VALUES('5',2,2,'1916', null);
-INSERT INTO bus_routes VALUES('5',2,3,'4194', null);
-INSERT INTO bus_routes VALUES('5',2,4,'31', null);
-INSERT INTO bus_routes VALUES('5',2,5,'28', null);
-INSERT INTO bus_routes VALUES('5',2,6,'32', null);
-INSERT INTO bus_routes VALUES('5',2,7,'34', null);
-INSERT INTO bus_routes VALUES('5',2,8,'36', null);
-INSERT INTO bus_routes VALUES('5',2,9,'1913', null);
-INSERT INTO bus_routes VALUES('5',2,10,'1911', null);
-INSERT INTO bus_routes VALUES('5',2,11,'1908', null);
-INSERT INTO bus_routes VALUES('5',2,12,'1907', null);
-INSERT INTO bus_routes VALUES('5',2,13,'1905', null);
-INSERT INTO bus_routes VALUES('5',2,14,'1903', null);
-INSERT INTO bus_routes VALUES('5',2,15,'1901', null);
-INSERT INTO bus_routes VALUES('5',2,16,'1899', null);
-INSERT INTO bus_routes VALUES('5',2,17,'1897', null);
-INSERT INTO bus_routes VALUES('5',2,18,'527', null);
-INSERT INTO bus_routes VALUES('5',2,19,'1894', null);
-INSERT INTO bus_routes VALUES('5',2,20,'57', null);
-INSERT INTO bus_routes VALUES('5',2,21,'59', null);
-INSERT INTO bus_routes VALUES('5',2,22,'61', null);
-INSERT INTO bus_routes VALUES('5',2,23,'63', null);
-INSERT INTO bus_routes VALUES('5',2,24,'5626', null);
-INSERT INTO bus_routes VALUES('5',2,25,'68', null);
-INSERT INTO bus_routes VALUES('5',2,26,'73', null);
-INSERT INTO bus_routes VALUES('5',2,27,'3689', null);
-INSERT INTO bus_routes VALUES('5',2,28,'5907', null);
-INSERT INTO bus_routes VALUES('50',1,1,'5148', null);
-INSERT INTO bus_routes VALUES('50',1,2,'2247', null);
-INSERT INTO bus_routes VALUES('50',1,3,'2249', null);
-INSERT INTO bus_routes VALUES('50',1,4,'2251', null);
-INSERT INTO bus_routes VALUES('50',1,5,'5250', null);
-INSERT INTO bus_routes VALUES('50',1,6,'2320', null);
-INSERT INTO bus_routes VALUES('50',1,7,'2321', null);
-INSERT INTO bus_routes VALUES('50',1,8,'2322', null);
-INSERT INTO bus_routes VALUES('50',1,9,'2323', null);
-INSERT INTO bus_routes VALUES('50',1,10,'2498', null);
-INSERT INTO bus_routes VALUES('50',1,11,'3920', null);
-INSERT INTO bus_routes VALUES('50',1,12,'3921', null);
-INSERT INTO bus_routes VALUES('50',1,13,'3922', null);
-INSERT INTO bus_routes VALUES('50',1,14,'3923', null);
-INSERT INTO bus_routes VALUES('50',2,1,'3923', null);
-INSERT INTO bus_routes VALUES('50',2,2,'3924', null);
-INSERT INTO bus_routes VALUES('50',2,3,'3357', null);
-INSERT INTO bus_routes VALUES('50',2,4,'4652', null);
-INSERT INTO bus_routes VALUES('50',2,5,'2542', null);
-INSERT INTO bus_routes VALUES('50',2,6,'5642', null);
-INSERT INTO bus_routes VALUES('50',2,7,'2316', null);
-INSERT INTO bus_routes VALUES('50',2,8,'2317', null);
-INSERT INTO bus_routes VALUES('50',2,9,'2318', null);
-INSERT INTO bus_routes VALUES('50',2,10,'2254', null);
-INSERT INTO bus_routes VALUES('50',2,11,'2252', null);
-INSERT INTO bus_routes VALUES('50',2,12,'2250', null);
-INSERT INTO bus_routes VALUES('50',2,13,'2248', null);
-INSERT INTO bus_routes VALUES('50',2,14,'4038', null);
-INSERT INTO bus_routes VALUES('50',2,15,'5148', null);
-INSERT INTO bus_routes VALUES('N1',1,1,'72', null);
-INSERT INTO bus_routes VALUES('N1',1,2,'72', null);
-INSERT INTO bus_routes VALUES('N1',1,3,'65', null);
-INSERT INTO bus_routes VALUES('N1',1,4,'66', null);
-INSERT INTO bus_routes VALUES('N1',1,5,'66', null);
-INSERT INTO bus_routes VALUES('N1',1,6,'62', null);
-INSERT INTO bus_routes VALUES('N1',1,7,'60', null);
-INSERT INTO bus_routes VALUES('N1',1,8,'5333', null);
-INSERT INTO bus_routes VALUES('N1',1,9,'532', null);
-INSERT INTO bus_routes VALUES('N1',1,10,'430', null);
-INSERT INTO bus_routes VALUES('N1',1,11,'432', null);
-INSERT INTO bus_routes VALUES('N1',1,12,'418', null);
-INSERT INTO bus_routes VALUES('N1',1,13,'416', null);
-INSERT INTO bus_routes VALUES('N1',1,14,'414', null);
-INSERT INTO bus_routes VALUES('N1',1,15,'515', null);
-INSERT INTO bus_routes VALUES('N1',1,16,'439', null);
-INSERT INTO bus_routes VALUES('N1',1,17,'112', null);
-INSERT INTO bus_routes VALUES('N1',1,18,'115', null);
-INSERT INTO bus_routes VALUES('N1',1,19,'117', null);
-INSERT INTO bus_routes VALUES('N1',1,20,'210', null);
-INSERT INTO bus_routes VALUES('N1',1,21,'214', null);
-INSERT INTO bus_routes VALUES('N1',1,22,'497', null);
-INSERT INTO bus_routes VALUES('N1',1,23,'501', null);
-INSERT INTO bus_routes VALUES('N1',1,24,'503', null);
-INSERT INTO bus_routes VALUES('N1',1,25,'505', null);
-INSERT INTO bus_routes VALUES('N1',1,26,'507', null);
-INSERT INTO bus_routes VALUES('N1',1,27,'508', null);
-INSERT INTO bus_routes VALUES('N1',1,28,'3250', null);
-INSERT INTO bus_routes VALUES('N1',1,29,'3248', null);
-INSERT INTO bus_routes VALUES('N1',1,30,'3246', null);
-INSERT INTO bus_routes VALUES('N1',1,31,'5661', null);
-INSERT INTO bus_routes VALUES('N1',1,32,'5404', null);
-INSERT INTO bus_routes VALUES('N1',1,33,'5405', null);
-INSERT INTO bus_routes VALUES('N1',1,34,'5657', null);
-INSERT INTO bus_routes VALUES('N1',1,35,'5409', null);
-INSERT INTO bus_routes VALUES('N1',1,36,'3603', null);
-INSERT INTO bus_routes VALUES('N1',1,37,'3605', null);
-INSERT INTO bus_routes VALUES('N1',1,38,'3607', null);
-INSERT INTO bus_routes VALUES('N1',1,39,'5423', null);
-INSERT INTO bus_routes VALUES('N1',1,40,'5425', null);
-INSERT INTO bus_routes VALUES('N1',1,41,'4220', null);
-INSERT INTO bus_routes VALUES('N1',1,42,'4221', null);
-INSERT INTO bus_routes VALUES('N1',1,43,'5397', null);
-INSERT INTO bus_routes VALUES('N1',1,44,'5399', null);
-INSERT INTO bus_routes VALUES('N1',1,45,'5401', null);
-INSERT INTO bus_routes VALUES('N1',2,1,'5401', null);
-INSERT INTO bus_routes VALUES('N1',2,2,'5398', null);
-INSERT INTO bus_routes VALUES('N1',2,3,'5402', null);
-INSERT INTO bus_routes VALUES('N1',2,4,'5403', null);
-INSERT INTO bus_routes VALUES('N1',2,5,'139', null);
-INSERT INTO bus_routes VALUES('N1',2,6,'137', null);
-INSERT INTO bus_routes VALUES('N1',2,7,'4935', null);
-INSERT INTO bus_routes VALUES('N1',2,8,'513', null);
-INSERT INTO bus_routes VALUES('N1',2,9,'498', null);
-INSERT INTO bus_routes VALUES('N1',2,10,'1836', null);
-INSERT INTO bus_routes VALUES('N1',2,11,'211', null);
-INSERT INTO bus_routes VALUES('N1',2,12,'116', null);
-INSERT INTO bus_routes VALUES('N1',2,13,'114', null);
-INSERT INTO bus_routes VALUES('N1',2,14,'4831', null);
-INSERT INTO bus_routes VALUES('N1',2,15,'440', null);
-INSERT INTO bus_routes VALUES('N1',2,16,'438', null);
-INSERT INTO bus_routes VALUES('N1',2,17,'436', null);
-INSERT INTO bus_routes VALUES('N1',2,18,'441', null);
-INSERT INTO bus_routes VALUES('N1',2,19,'442', null);
-INSERT INTO bus_routes VALUES('N1',2,20,'443', null);
-INSERT INTO bus_routes VALUES('N1',2,21,'444', null);
-INSERT INTO bus_routes VALUES('N1',2,22,'446', null);
-INSERT INTO bus_routes VALUES('N1',2,23,'57', null);
-INSERT INTO bus_routes VALUES('N1',2,24,'59', null);
-INSERT INTO bus_routes VALUES('N1',2,25,'61', null);
-INSERT INTO bus_routes VALUES('N1',2,26,'63', null);
-INSERT INTO bus_routes VALUES('N1',2,27,'5626', null);
-INSERT INTO bus_routes VALUES('N1',2,28,'72', null);
-INSERT INTO bus_routes VALUES('N1',2,29,'72', null);
-INSERT INTO bus_routes VALUES('N2',1,1,'5727', null);
-INSERT INTO bus_routes VALUES('N2',1,2,'162', null);
-INSERT INTO bus_routes VALUES('N2',1,3,'751', null);
-INSERT INTO bus_routes VALUES('N2',1,4,'2227', null);
-INSERT INTO bus_routes VALUES('N2',1,5,'2229', null);
-INSERT INTO bus_routes VALUES('N2',1,6,'4052', null);
-INSERT INTO bus_routes VALUES('N2',1,7,'2233', null);
-INSERT INTO bus_routes VALUES('N2',1,8,'2235', null);
-INSERT INTO bus_routes VALUES('N2',1,9,'2009', null);
-INSERT INTO bus_routes VALUES('N2',1,10,'2011', null);
-INSERT INTO bus_routes VALUES('N2',1,11,'2013', null);
-INSERT INTO bus_routes VALUES('N2',1,12,'2015', null);
-INSERT INTO bus_routes VALUES('N2',1,13,'2017', null);
-INSERT INTO bus_routes VALUES('N2',1,14,'2020', null);
-INSERT INTO bus_routes VALUES('N2',1,15,'4721', null);
-INSERT INTO bus_routes VALUES('N2',1,16,'2022', null);
-INSERT INTO bus_routes VALUES('N2',1,17,'408', null);
-INSERT INTO bus_routes VALUES('N2',1,18,'2024', null);
-INSERT INTO bus_routes VALUES('N2',1,19,'2026', null);
-INSERT INTO bus_routes VALUES('N2',1,20,'2029', null);
-INSERT INTO bus_routes VALUES('N2',1,21,'2033', null);
-INSERT INTO bus_routes VALUES('N2',1,22,'2035', null);
-INSERT INTO bus_routes VALUES('N2',1,23,'2037', null);
-INSERT INTO bus_routes VALUES('N2',1,24,'1846', null);
-INSERT INTO bus_routes VALUES('N2',1,25,'2734', null);
-INSERT INTO bus_routes VALUES('N2',1,26,'2736', null);
-INSERT INTO bus_routes VALUES('N2',1,27,'2742', null);
-INSERT INTO bus_routes VALUES('N2',1,28,'2744', null);
-INSERT INTO bus_routes VALUES('N2',1,29,'2890', null);
-INSERT INTO bus_routes VALUES('N2',1,30,'5208', null);
-INSERT INTO bus_routes VALUES('N2',1,31,'4545', null);
-INSERT INTO bus_routes VALUES('N2',1,32,'5911', null);
-INSERT INTO bus_routes VALUES('N2',1,33,'5892', null);
-INSERT INTO bus_routes VALUES('N2',1,34,'5894', null);
-INSERT INTO bus_routes VALUES('N2',1,35,'4268', null);
-INSERT INTO bus_routes VALUES('N2',1,36,'5887', null);
-INSERT INTO bus_routes VALUES('N2',1,37,'4364', null);
-INSERT INTO bus_routes VALUES('N2',2,1,'4364', null);
-INSERT INTO bus_routes VALUES('N2',2,2,'4397', null);
-INSERT INTO bus_routes VALUES('N2',2,3,'4269', null);
-INSERT INTO bus_routes VALUES('N2',2,4,'5895', null);
-INSERT INTO bus_routes VALUES('N2',2,5,'5893', null);
-INSERT INTO bus_routes VALUES('N2',2,6,'5912', null);
-INSERT INTO bus_routes VALUES('N2',2,7,'5891', null);
-INSERT INTO bus_routes VALUES('N2',2,8,'5209', null);
-INSERT INTO bus_routes VALUES('N2',2,9,'2891', null);
-INSERT INTO bus_routes VALUES('N2',2,10,'3395', null);
-INSERT INTO bus_routes VALUES('N2',2,11,'1851', null);
-INSERT INTO bus_routes VALUES('N2',2,12,'1852', null);
-INSERT INTO bus_routes VALUES('N2',2,13,'1853', null);
-INSERT INTO bus_routes VALUES('N2',2,14,'1849', null);
-INSERT INTO bus_routes VALUES('N2',2,15,'1847', null);
-INSERT INTO bus_routes VALUES('N2',2,16,'2038', null);
-INSERT INTO bus_routes VALUES('N2',2,17,'2036', null);
-INSERT INTO bus_routes VALUES('N2',2,18,'2034', null);
-INSERT INTO bus_routes VALUES('N2',2,19,'2030', null);
-INSERT INTO bus_routes VALUES('N2',2,20,'218', null);
-INSERT INTO bus_routes VALUES('N2',2,21,'2025', null);
-INSERT INTO bus_routes VALUES('N2',2,22,'409', null);
-INSERT INTO bus_routes VALUES('N2',2,23,'462', null);
-INSERT INTO bus_routes VALUES('N2',2,24,'310', null);
-INSERT INTO bus_routes VALUES('N2',2,25,'310', null);
-INSERT INTO bus_routes VALUES('N2',2,26,'2021', null);
-INSERT INTO bus_routes VALUES('N2',2,27,'2021', null);
-INSERT INTO bus_routes VALUES('N2',2,28,'2018', null);
-INSERT INTO bus_routes VALUES('N2',2,29,'2016', null);
-INSERT INTO bus_routes VALUES('N2',2,30,'2014', null);
-INSERT INTO bus_routes VALUES('N2',2,31,'268', null);
-INSERT INTO bus_routes VALUES('N2',2,32,'5249', null);
-INSERT INTO bus_routes VALUES('N2',2,33,'2236', null);
-INSERT INTO bus_routes VALUES('N2',2,34,'2234', null);
-INSERT INTO bus_routes VALUES('N2',2,35,'2232', null);
-INSERT INTO bus_routes VALUES('N2',2,36,'2230', null);
-INSERT INTO bus_routes VALUES('N2',2,37,'2228', null);
-INSERT INTO bus_routes VALUES('N2',2,38,'4055', null);
-INSERT INTO bus_routes VALUES('N2',2,39,'2171', null);
-INSERT INTO bus_routes VALUES('N2',2,40,'5727', null);
-INSERT INTO bus_routes VALUES('N3',1,1,'5727', null);
-INSERT INTO bus_routes VALUES('N3',1,2,'162', null);
-INSERT INTO bus_routes VALUES('N3',1,3,'751', null);
-INSERT INTO bus_routes VALUES('N3',1,4,'5093', null);
-INSERT INTO bus_routes VALUES('N3',1,5,'2219', null);
-INSERT INTO bus_routes VALUES('N3',1,6,'2221', null);
-INSERT INTO bus_routes VALUES('N3',1,7,'1247', null);
-INSERT INTO bus_routes VALUES('N3',1,8,'2474', null);
-INSERT INTO bus_routes VALUES('N3',1,9,'2369', null);
-INSERT INTO bus_routes VALUES('N3',1,10,'689', null);
-INSERT INTO bus_routes VALUES('N3',1,11,'690', null);
-INSERT INTO bus_routes VALUES('N3',1,12,'692', null);
-INSERT INTO bus_routes VALUES('N3',1,13,'694', null);
-INSERT INTO bus_routes VALUES('N3',1,14,'696', null);
-INSERT INTO bus_routes VALUES('N3',1,15,'2121', null);
-INSERT INTO bus_routes VALUES('N3',1,16,'2123', null);
-INSERT INTO bus_routes VALUES('N3',1,17,'227', null);
-INSERT INTO bus_routes VALUES('N3',1,18,'225', null);
-INSERT INTO bus_routes VALUES('N3',1,19,'223', null);
-INSERT INTO bus_routes VALUES('N3',1,20,'221', null);
-INSERT INTO bus_routes VALUES('N3',1,21,'2026', null);
-INSERT INTO bus_routes VALUES('N3',1,22,'5545', null);
-INSERT INTO bus_routes VALUES('N3',1,23,'2757', null);
-INSERT INTO bus_routes VALUES('N3',1,24,'2759', null);
-INSERT INTO bus_routes VALUES('N3',1,25,'2761', null);
-INSERT INTO bus_routes VALUES('N3',1,26,'2763', null);
-INSERT INTO bus_routes VALUES('N3',1,27,'2765', null);
-INSERT INTO bus_routes VALUES('N3',1,28,'2767', null);
-INSERT INTO bus_routes VALUES('N3',1,29,'474', null);
-INSERT INTO bus_routes VALUES('N3',1,30,'472', null);
-INSERT INTO bus_routes VALUES('N3',1,31,'470', null);
-INSERT INTO bus_routes VALUES('N3',1,32,'468', null);
-INSERT INTO bus_routes VALUES('N3',2,1,'468', null);
-INSERT INTO bus_routes VALUES('N3',2,2,'466', null);
-INSERT INTO bus_routes VALUES('N3',2,3,'4912', null);
-INSERT INTO bus_routes VALUES('N3',2,4,'2768', null);
-INSERT INTO bus_routes VALUES('N3',2,5,'2766', null);
-INSERT INTO bus_routes VALUES('N3',2,6,'2764', null);
-INSERT INTO bus_routes VALUES('N3',2,7,'2762', null);
-INSERT INTO bus_routes VALUES('N3',2,8,'2760', null);
-INSERT INTO bus_routes VALUES('N3',2,9,'2758', null);
-INSERT INTO bus_routes VALUES('N3',2,10,'2756', null);
-INSERT INTO bus_routes VALUES('N3',2,11,'218', null);
-INSERT INTO bus_routes VALUES('N3',2,12,'220', null);
-INSERT INTO bus_routes VALUES('N3',2,13,'222', null);
-INSERT INTO bus_routes VALUES('N3',2,14,'224', null);
-INSERT INTO bus_routes VALUES('N3',2,15,'226', null);
-INSERT INTO bus_routes VALUES('N3',2,16,'2118', null);
-INSERT INTO bus_routes VALUES('N3',2,17,'2120', null);
-INSERT INTO bus_routes VALUES('N3',2,18,'276', null);
-INSERT INTO bus_routes VALUES('N3',2,19,'695', null);
-INSERT INTO bus_routes VALUES('N3',2,20,'693', null);
-INSERT INTO bus_routes VALUES('N3',2,21,'691', null);
-INSERT INTO bus_routes VALUES('N3',2,22,'2373', null);
-INSERT INTO bus_routes VALUES('N3',2,23,'2372', null);
-INSERT INTO bus_routes VALUES('N3',2,24,'2371', null);
-INSERT INTO bus_routes VALUES('N3',2,25,'3807', null);
-INSERT INTO bus_routes VALUES('N3',2,26,'2222', null);
-INSERT INTO bus_routes VALUES('N3',2,27,'2220', null);
-INSERT INTO bus_routes VALUES('N3',2,28,'754', null);
-INSERT INTO bus_routes VALUES('N3',2,29,'4055', null);
-INSERT INTO bus_routes VALUES('N3',2,30,'2171', null);
-INSERT INTO bus_routes VALUES('N3',2,31,'5727', null);
-INSERT INTO bus_routes VALUES('N4',1,1,'72', null);
-INSERT INTO bus_routes VALUES('N4',1,2,'72', null);
-INSERT INTO bus_routes VALUES('N4',1,3,'65', null);
-INSERT INTO bus_routes VALUES('N4',1,4,'424', null);
-INSERT INTO bus_routes VALUES('N4',1,5,'426', null);
-INSERT INTO bus_routes VALUES('N4',1,6,'427', null);
-INSERT INTO bus_routes VALUES('N4',1,7,'428', null);
-INSERT INTO bus_routes VALUES('N4',1,8,'793', null);
-INSERT INTO bus_routes VALUES('N4',1,9,'791', null);
-INSERT INTO bus_routes VALUES('N4',1,10,'5788', null);
-INSERT INTO bus_routes VALUES('N4',1,11,'1284', null);
-INSERT INTO bus_routes VALUES('N4',1,12,'3563', null);
-INSERT INTO bus_routes VALUES('N4',1,13,'3111', null);
-INSERT INTO bus_routes VALUES('N4',1,14,'3113', null);
-INSERT INTO bus_routes VALUES('N4',1,15,'3116', null);
-INSERT INTO bus_routes VALUES('N4',1,16,'4818', null);
-INSERT INTO bus_routes VALUES('N4',1,17,'3119', null);
-INSERT INTO bus_routes VALUES('N4',1,18,'5317', null);
-INSERT INTO bus_routes VALUES('N4',1,19,'5617', null);
-INSERT INTO bus_routes VALUES('N4',1,20,'5390', null);
-INSERT INTO bus_routes VALUES('N4',1,21,'2969', null);
-INSERT INTO bus_routes VALUES('N4',1,22,'2971', null);
-INSERT INTO bus_routes VALUES('N4',1,23,'2972', null);
-INSERT INTO bus_routes VALUES('N4',1,24,'2973', null);
-INSERT INTO bus_routes VALUES('N4',1,25,'1306', null);
-INSERT INTO bus_routes VALUES('N4',1,26,'1308', null);
-INSERT INTO bus_routes VALUES('N4',1,27,'4922', null);
-INSERT INTO bus_routes VALUES('N4',1,28,'1313', null);
-INSERT INTO bus_routes VALUES('N4',1,29,'1315', null);
-INSERT INTO bus_routes VALUES('N4',1,30,'1317', null);
-INSERT INTO bus_routes VALUES('N4',1,31,'1319', null);
-INSERT INTO bus_routes VALUES('N4',2,1,'1319', null);
-INSERT INTO bus_routes VALUES('N4',2,2,'4659', null);
-INSERT INTO bus_routes VALUES('N4',2,3,'1316', null);
-INSERT INTO bus_routes VALUES('N4',2,4,'1314', null);
-INSERT INTO bus_routes VALUES('N4',2,5,'4921', null);
-INSERT INTO bus_routes VALUES('N4',2,6,'4924', null);
-INSERT INTO bus_routes VALUES('N4',2,7,'1307', null);
-INSERT INTO bus_routes VALUES('N4',2,8,'2974', null);
-INSERT INTO bus_routes VALUES('N4',2,9,'1303', null);
-INSERT INTO bus_routes VALUES('N4',2,10,'1301', null);
-INSERT INTO bus_routes VALUES('N4',2,11,'1299', null);
-INSERT INTO bus_routes VALUES('N4',2,12,'1297', null);
-INSERT INTO bus_routes VALUES('N4',2,13,'1295', null);
-INSERT INTO bus_routes VALUES('N4',2,14,'1293', null);
-INSERT INTO bus_routes VALUES('N4',2,15,'5348', null);
-INSERT INTO bus_routes VALUES('N4',2,16,'4435', null);
-INSERT INTO bus_routes VALUES('N4',2,17,'3115', null);
-INSERT INTO bus_routes VALUES('N4',2,18,'3114', null);
-INSERT INTO bus_routes VALUES('N4',2,19,'3112', null);
-INSERT INTO bus_routes VALUES('N4',2,20,'4879', null);
-INSERT INTO bus_routes VALUES('N4',2,21,'4878', null);
-INSERT INTO bus_routes VALUES('N4',2,22,'229', null);
-INSERT INTO bus_routes VALUES('N4',2,23,'3125', null);
-INSERT INTO bus_routes VALUES('N4',2,24,'1283', null);
-INSERT INTO bus_routes VALUES('N4',2,25,'1282', null);
-INSERT INTO bus_routes VALUES('N4',2,26,'1280', null);
-INSERT INTO bus_routes VALUES('N4',2,27,'792', null);
-INSERT INTO bus_routes VALUES('N4',2,28,'447', null);
-INSERT INTO bus_routes VALUES('N4',2,29,'448', null);
-INSERT INTO bus_routes VALUES('N4',2,30,'449', null);
-INSERT INTO bus_routes VALUES('N4',2,31,'451', null);
-INSERT INTO bus_routes VALUES('N4',2,32,'452', null);
-INSERT INTO bus_routes VALUES('N4',2,33,'161', null);
-INSERT INTO bus_routes VALUES('N4',2,34,'72', null);
-INSERT INTO bus_routes VALUES('N4',2,35,'72', null);
-INSERT INTO bus_routes VALUES('N5',1,1,'70', null);
-INSERT INTO bus_routes VALUES('N5',1,2,'162', null);
-INSERT INTO bus_routes VALUES('N5',1,3,'751', null);
-INSERT INTO bus_routes VALUES('N5',1,4,'755', null);
-INSERT INTO bus_routes VALUES('N5',1,5,'680', null);
-INSERT INTO bus_routes VALUES('N5',1,6,'682', null);
-INSERT INTO bus_routes VALUES('N5',1,7,'685', null);
-INSERT INTO bus_routes VALUES('N5',1,8,'756', null);
-INSERT INTO bus_routes VALUES('N5',1,9,'758', null);
-INSERT INTO bus_routes VALUES('N5',1,10,'2330', null);
-INSERT INTO bus_routes VALUES('N5',1,11,'2332', null);
-INSERT INTO bus_routes VALUES('N5',1,12,'2334', null);
-INSERT INTO bus_routes VALUES('N5',1,13,'2336', null);
-INSERT INTO bus_routes VALUES('N5',1,14,'5076', null);
-INSERT INTO bus_routes VALUES('N5',1,15,'5077', null);
-INSERT INTO bus_routes VALUES('N5',1,16,'2945', null);
-INSERT INTO bus_routes VALUES('N5',1,17,'2947', null);
-INSERT INTO bus_routes VALUES('N5',1,18,'2949', null);
-INSERT INTO bus_routes VALUES('N5',1,19,'4531', null);
-INSERT INTO bus_routes VALUES('N5',1,20,'3762', null);
-INSERT INTO bus_routes VALUES('N5',1,21,'3016', null);
-INSERT INTO bus_routes VALUES('N5',1,22,'3018', null);
-INSERT INTO bus_routes VALUES('N5',1,23,'4497', null);
-INSERT INTO bus_routes VALUES('N5',1,24,'3941', null);
-INSERT INTO bus_routes VALUES('N5',1,25,'3942', null);
-INSERT INTO bus_routes VALUES('N5',1,26,'993', null);
-INSERT INTO bus_routes VALUES('N5',1,27,'991', null);
-INSERT INTO bus_routes VALUES('N5',1,28,'2951', null);
-INSERT INTO bus_routes VALUES('N5',1,29,'2953', null);
-INSERT INTO bus_routes VALUES('N5',1,30,'2955', null);
-INSERT INTO bus_routes VALUES('N5',1,31,'2956', null);
-INSERT INTO bus_routes VALUES('N5',1,32,'3398', null);
-INSERT INTO bus_routes VALUES('N5',1,33,'3403', null);
-INSERT INTO bus_routes VALUES('N5',1,34,'3508', null);
-INSERT INTO bus_routes VALUES('N5',1,35,'3509', null);
-INSERT INTO bus_routes VALUES('N5',1,36,'3510', null);
-INSERT INTO bus_routes VALUES('N5',1,37,'1396', null);
-INSERT INTO bus_routes VALUES('N5',1,38,'1412', null);
-INSERT INTO bus_routes VALUES('N5',1,39,'4065', null);
-INSERT INTO bus_routes VALUES('N5',1,40,'3513', null);
-INSERT INTO bus_routes VALUES('N5',1,41,'3672', null);
-INSERT INTO bus_routes VALUES('N5',1,42,'3527', null);
-INSERT INTO bus_routes VALUES('N5',2,1,'3527', null);
-INSERT INTO bus_routes VALUES('N5',2,2,'3673', null);
-INSERT INTO bus_routes VALUES('N5',2,3,'3514', null);
-INSERT INTO bus_routes VALUES('N5',2,4,'4053', null);
-INSERT INTO bus_routes VALUES('N5',2,5,'1426', null);
-INSERT INTO bus_routes VALUES('N5',2,6,'1400', null);
-INSERT INTO bus_routes VALUES('N5',2,7,'3530', null);
-INSERT INTO bus_routes VALUES('N5',2,8,'3531', null);
-INSERT INTO bus_routes VALUES('N5',2,9,'3405', null);
-INSERT INTO bus_routes VALUES('N5',2,10,'3404', null);
-INSERT INTO bus_routes VALUES('N5',2,11,'3406', null);
-INSERT INTO bus_routes VALUES('N5',2,12,'3533', null);
-INSERT INTO bus_routes VALUES('N5',2,13,'3407', null);
-INSERT INTO bus_routes VALUES('N5',2,14,'2954', null);
-INSERT INTO bus_routes VALUES('N5',2,15,'990', null);
-INSERT INTO bus_routes VALUES('N5',2,16,'4046', null);
-INSERT INTO bus_routes VALUES('N5',2,17,'4047', null);
-INSERT INTO bus_routes VALUES('N5',2,18,'994', null);
-INSERT INTO bus_routes VALUES('N5',2,19,'2491', null);
-INSERT INTO bus_routes VALUES('N5',2,20,'2489', null);
-INSERT INTO bus_routes VALUES('N5',2,21,'3019', null);
-INSERT INTO bus_routes VALUES('N5',2,22,'3017', null);
-INSERT INTO bus_routes VALUES('N5',2,23,'3015', null);
-INSERT INTO bus_routes VALUES('N5',2,24,'4959', null);
-INSERT INTO bus_routes VALUES('N5',2,25,'2948', null);
-INSERT INTO bus_routes VALUES('N5',2,26,'2946', null);
-INSERT INTO bus_routes VALUES('N5',2,27,'3534', null);
-INSERT INTO bus_routes VALUES('N5',2,28,'2977', null);
-INSERT INTO bus_routes VALUES('N5',2,29,'2337', null);
-INSERT INTO bus_routes VALUES('N5',2,30,'2335', null);
-INSERT INTO bus_routes VALUES('N5',2,31,'5282', null);
-INSERT INTO bus_routes VALUES('N5',2,32,'2331', null);
-INSERT INTO bus_routes VALUES('N5',2,33,'759', null);
-INSERT INTO bus_routes VALUES('N5',2,34,'757', null);
-INSERT INTO bus_routes VALUES('N5',2,35,'684', null);
-INSERT INTO bus_routes VALUES('N5',2,36,'683', null);
-INSERT INTO bus_routes VALUES('N5',2,37,'681', null);
-INSERT INTO bus_routes VALUES('N5',2,38,'754', null);
-INSERT INTO bus_routes VALUES('N5',2,39,'4055', null);
-INSERT INTO bus_routes VALUES('N5',2,40,'161', null);
-INSERT INTO bus_routes VALUES('N5',2,41,'70', null);
-INSERT INTO bus_routes VALUES('N6',1,1,'70', null);
-INSERT INTO bus_routes VALUES('N6',1,2,'162', null);
-INSERT INTO bus_routes VALUES('N6',1,3,'3686', null);
-INSERT INTO bus_routes VALUES('N6',1,4,'157', null);
-INSERT INTO bus_routes VALUES('N6',1,5,'155', null);
-INSERT INTO bus_routes VALUES('N6',1,6,'153', null);
-INSERT INTO bus_routes VALUES('N6',1,7,'2168', null);
-INSERT INTO bus_routes VALUES('N6',1,8,'958', null);
-INSERT INTO bus_routes VALUES('N6',1,9,'960', null);
-INSERT INTO bus_routes VALUES('N6',1,10,'962', null);
-INSERT INTO bus_routes VALUES('N6',1,11,'966', null);
-INSERT INTO bus_routes VALUES('N6',1,12,'968', null);
-INSERT INTO bus_routes VALUES('N6',1,13,'970', null);
-INSERT INTO bus_routes VALUES('N6',1,14,'4462', null);
-INSERT INTO bus_routes VALUES('N6',1,15,'974', null);
-INSERT INTO bus_routes VALUES('N6',1,16,'976', null);
-INSERT INTO bus_routes VALUES('N6',1,17,'977', null);
-INSERT INTO bus_routes VALUES('N6',1,18,'244', null);
-INSERT INTO bus_routes VALUES('N6',1,19,'4708', null);
-INSERT INTO bus_routes VALUES('N6',1,20,'250', null);
-INSERT INTO bus_routes VALUES('N6',1,21,'2338', null);
-INSERT INTO bus_routes VALUES('N6',1,22,'2340', null);
-INSERT INTO bus_routes VALUES('N6',1,23,'2342', null);
-INSERT INTO bus_routes VALUES('N6',1,24,'3408', null);
-INSERT INTO bus_routes VALUES('N6',1,25,'2353', null);
-INSERT INTO bus_routes VALUES('N6',1,26,'4522', null);
-INSERT INTO bus_routes VALUES('N6',1,27,'5238', null);
-INSERT INTO bus_routes VALUES('N6',1,28,'4443', null);
-INSERT INTO bus_routes VALUES('N6',1,29,'4416', null);
-INSERT INTO bus_routes VALUES('N6',1,30,'4414', null);
-INSERT INTO bus_routes VALUES('N6',1,31,'4451', null);
-INSERT INTO bus_routes VALUES('N6',2,1,'4451', null);
-INSERT INTO bus_routes VALUES('N6',2,2,'4413', null);
-INSERT INTO bus_routes VALUES('N6',2,3,'4415', null);
-INSERT INTO bus_routes VALUES('N6',2,4,'4444', null);
-INSERT INTO bus_routes VALUES('N6',2,5,'3410', null);
-INSERT INTO bus_routes VALUES('N6',2,6,'4523', null);
-INSERT INTO bus_routes VALUES('N6',2,7,'2352', null);
-INSERT INTO bus_routes VALUES('N6',2,8,'2354', null);
-INSERT INTO bus_routes VALUES('N6',2,9,'2343', null);
-INSERT INTO bus_routes VALUES('N6',2,10,'2341', null);
-INSERT INTO bus_routes VALUES('N6',2,11,'2339', null);
-INSERT INTO bus_routes VALUES('N6',2,12,'252', null);
-INSERT INTO bus_routes VALUES('N6',2,13,'248', null);
-INSERT INTO bus_routes VALUES('N6',2,14,'245', null);
-INSERT INTO bus_routes VALUES('N6',2,15,'999', null);
-INSERT INTO bus_routes VALUES('N6',2,16,'975', null);
-INSERT INTO bus_routes VALUES('N6',2,17,'5510', null);
-INSERT INTO bus_routes VALUES('N6',2,18,'971', null);
-INSERT INTO bus_routes VALUES('N6',2,19,'969', null);
-INSERT INTO bus_routes VALUES('N6',2,20,'967', null);
-INSERT INTO bus_routes VALUES('N6',2,21,'965', null);
-INSERT INTO bus_routes VALUES('N6',2,22,'961', null);
-INSERT INTO bus_routes VALUES('N6',2,23,'959', null);
-INSERT INTO bus_routes VALUES('N6',2,24,'2169', null);
-INSERT INTO bus_routes VALUES('N6',2,25,'152', null);
-INSERT INTO bus_routes VALUES('N6',2,26,'154', null);
-INSERT INTO bus_routes VALUES('N6',2,27,'156', null);
-INSERT INTO bus_routes VALUES('N6',2,28,'158', null);
-INSERT INTO bus_routes VALUES('N6',2,29,'161', null);
-INSERT INTO bus_routes VALUES('N6',2,30,'70', null);
-INSERT INTO bus_routes VALUES('N7',1,1,'70', null);
-INSERT INTO bus_routes VALUES('N7',1,2,'162', null);
-INSERT INTO bus_routes VALUES('N7',1,3,'751', null);
-INSERT INTO bus_routes VALUES('N7',1,4,'755', null);
-INSERT INTO bus_routes VALUES('N7',1,5,'680', null);
-INSERT INTO bus_routes VALUES('N7',1,6,'682', null);
-INSERT INTO bus_routes VALUES('N7',1,7,'685', null);
-INSERT INTO bus_routes VALUES('N7',1,8,'756', null);
-INSERT INTO bus_routes VALUES('N7',1,9,'1078', null);
-INSERT INTO bus_routes VALUES('N7',1,10,'4567', null);
-INSERT INTO bus_routes VALUES('N7',1,11,'1079', null);
-INSERT INTO bus_routes VALUES('N7',1,12,'953', null);
-INSERT INTO bus_routes VALUES('N7',1,13,'1080', null);
-INSERT INTO bus_routes VALUES('N7',1,14,'1082', null);
-INSERT INTO bus_routes VALUES('N7',1,15,'1084', null);
-INSERT INTO bus_routes VALUES('N7',1,16,'261', null);
-INSERT INTO bus_routes VALUES('N7',1,17,'257', null);
-INSERT INTO bus_routes VALUES('N7',1,18,'5323', null);
-INSERT INTO bus_routes VALUES('N7',1,19,'4635', null);
-INSERT INTO bus_routes VALUES('N7',1,20,'4636', null);
-INSERT INTO bus_routes VALUES('N7',1,21,'4637', null);
-INSERT INTO bus_routes VALUES('N7',1,22,'4210', null);
-INSERT INTO bus_routes VALUES('N7',1,23,'3758', null);
-INSERT INTO bus_routes VALUES('N7',1,24,'1076', null);
-INSERT INTO bus_routes VALUES('N7',1,25,'1066', null);
-INSERT INTO bus_routes VALUES('N7',1,26,'4546', null);
-INSERT INTO bus_routes VALUES('N7',1,27,'4552', null);
-INSERT INTO bus_routes VALUES('N7',1,28,'4555', null);
-INSERT INTO bus_routes VALUES('N7',1,29,'4570', null);
-INSERT INTO bus_routes VALUES('N7',1,30,'4563', null);
-INSERT INTO bus_routes VALUES('N7',1,31,'3875', null);
-INSERT INTO bus_routes VALUES('N7',1,32,'5108', null);
-INSERT INTO bus_routes VALUES('N7',1,33,'5110', null);
-INSERT INTO bus_routes VALUES('N7',1,34,'5112', null);
-INSERT INTO bus_routes VALUES('N7',1,35,'5116', null);
-INSERT INTO bus_routes VALUES('N7',2,1,'5116', null);
-INSERT INTO bus_routes VALUES('N7',2,2,'5115', null);
-INSERT INTO bus_routes VALUES('N7',2,3,'5113', null);
-INSERT INTO bus_routes VALUES('N7',2,4,'5111', null);
-INSERT INTO bus_routes VALUES('N7',2,5,'5109', null);
-INSERT INTO bus_routes VALUES('N7',2,6,'3876', null);
-INSERT INTO bus_routes VALUES('N7',2,7,'4564', null);
-INSERT INTO bus_routes VALUES('N7',2,8,'5532', null);
-INSERT INTO bus_routes VALUES('N7',2,9,'1069', null);
-INSERT INTO bus_routes VALUES('N7',2,10,'1074', null);
-INSERT INTO bus_routes VALUES('N7',2,11,'4549', null);
-INSERT INTO bus_routes VALUES('N7',2,12,'5367', null);
-INSERT INTO bus_routes VALUES('N7',2,13,'4548', null);
-INSERT INTO bus_routes VALUES('N7',2,14,'4611', null);
-INSERT INTO bus_routes VALUES('N7',2,15,'4509', null);
-INSERT INTO bus_routes VALUES('N7',2,16,'4507', null);
-INSERT INTO bus_routes VALUES('N7',2,17,'4400', null);
-INSERT INTO bus_routes VALUES('N7',2,18,'4655', null);
-INSERT INTO bus_routes VALUES('N7',2,19,'5324', null);
-INSERT INTO bus_routes VALUES('N7',2,20,'256', null);
-INSERT INTO bus_routes VALUES('N7',2,21,'260', null);
-INSERT INTO bus_routes VALUES('N7',2,22,'1085', null);
-INSERT INTO bus_routes VALUES('N7',2,23,'1083', null);
-INSERT INTO bus_routes VALUES('N7',2,24,'1081', null);
-INSERT INTO bus_routes VALUES('N7',2,25,'952', null);
-INSERT INTO bus_routes VALUES('N7',2,26,'1091', null);
-INSERT INTO bus_routes VALUES('N7',2,27,'1092', null);
-INSERT INTO bus_routes VALUES('N7',2,28,'759', null);
-INSERT INTO bus_routes VALUES('N7',2,29,'757', null);
-INSERT INTO bus_routes VALUES('N7',2,30,'684', null);
-INSERT INTO bus_routes VALUES('N7',2,31,'683', null);
-INSERT INTO bus_routes VALUES('N7',2,32,'681', null);
-INSERT INTO bus_routes VALUES('N7',2,33,'754', null);
-INSERT INTO bus_routes VALUES('N7',2,34,'4055', null);
-INSERT INTO bus_routes VALUES('N7',2,35,'161', null);
-INSERT INTO bus_routes VALUES('N7',2,36,'70', null);
-INSERT INTO bus_routes VALUES('N8',1,1,'3655', null);
-INSERT INTO bus_routes VALUES('N8',1,2,'162', null);
-INSERT INTO bus_routes VALUES('N8',1,3,'159', null);
-INSERT INTO bus_routes VALUES('N8',1,4,'195', null);
-INSERT INTO bus_routes VALUES('N8',1,5,'196', null);
-INSERT INTO bus_routes VALUES('N8',1,6,'2160', null);
-INSERT INTO bus_routes VALUES('N8',1,7,'4712', null);
-INSERT INTO bus_routes VALUES('N8',1,8,'4714', null);
-INSERT INTO bus_routes VALUES('N8',1,9,'822', null);
-INSERT INTO bus_routes VALUES('N8',1,10,'824', null);
-INSERT INTO bus_routes VALUES('N8',1,11,'826', null);
-INSERT INTO bus_routes VALUES('N8',1,12,'1260', null);
-INSERT INTO bus_routes VALUES('N8',1,13,'1262', null);
-INSERT INTO bus_routes VALUES('N8',1,14,'1264', null);
-INSERT INTO bus_routes VALUES('N8',1,15,'1266', null);
-INSERT INTO bus_routes VALUES('N8',1,16,'853', null);
-INSERT INTO bus_routes VALUES('N8',1,17,'837', null);
-INSERT INTO bus_routes VALUES('N8',1,18,'838', null);
-INSERT INTO bus_routes VALUES('N8',1,19,'840', null);
-INSERT INTO bus_routes VALUES('N8',1,20,'1995', null);
-INSERT INTO bus_routes VALUES('N8',1,21,'1996', null);
-INSERT INTO bus_routes VALUES('N8',1,22,'848', null);
-INSERT INTO bus_routes VALUES('N8',1,23,'3334', null);
-INSERT INTO bus_routes VALUES('N8',1,24,'1056', null);
-INSERT INTO bus_routes VALUES('N8',1,25,'2289', null);
-INSERT INTO bus_routes VALUES('N8',1,26,'4641', null);
-INSERT INTO bus_routes VALUES('N8',1,27,'1272', null);
-INSERT INTO bus_routes VALUES('N8',1,28,'1274', null);
-INSERT INTO bus_routes VALUES('N8',1,29,'5884', null);
-INSERT INTO bus_routes VALUES('N8',1,30,'1278', null);
-INSERT INTO bus_routes VALUES('N8',1,31,'4757', null);
-INSERT INTO bus_routes VALUES('N8',1,32,'4973', null);
-INSERT INTO bus_routes VALUES('N8',1,33,'1829', null);
-INSERT INTO bus_routes VALUES('N8',2,1,'1829', null);
-INSERT INTO bus_routes VALUES('N8',2,2,'1827', null);
-INSERT INTO bus_routes VALUES('N8',2,3,'3498', null);
-INSERT INTO bus_routes VALUES('N8',2,4,'3496', null);
-INSERT INTO bus_routes VALUES('N8',2,5,'4374', null);
-INSERT INTO bus_routes VALUES('N8',2,6,'2731', null);
-INSERT INTO bus_routes VALUES('N8',2,7,'4372', null);
-INSERT INTO bus_routes VALUES('N8',2,8,'3336', null);
-INSERT INTO bus_routes VALUES('N8',2,9,'849', null);
-INSERT INTO bus_routes VALUES('N8',2,10,'850', null);
-INSERT INTO bus_routes VALUES('N8',2,11,'841', null);
-INSERT INTO bus_routes VALUES('N8',2,12,'839', null);
-INSERT INTO bus_routes VALUES('N8',2,13,'851', null);
-INSERT INTO bus_routes VALUES('N8',2,14,'852', null);
-INSERT INTO bus_routes VALUES('N8',2,15,'4475', null);
-INSERT INTO bus_routes VALUES('N8',2,16,'1265', null);
-INSERT INTO bus_routes VALUES('N8',2,17,'1263', null);
-INSERT INTO bus_routes VALUES('N8',2,18,'1261', null);
-INSERT INTO bus_routes VALUES('N8',2,19,'827', null);
-INSERT INTO bus_routes VALUES('N8',2,20,'825', null);
-INSERT INTO bus_routes VALUES('N8',2,21,'823', null);
-INSERT INTO bus_routes VALUES('N8',2,22,'4713', null);
-INSERT INTO bus_routes VALUES('N8',2,23,'199', null);
-INSERT INTO bus_routes VALUES('N8',2,24,'197', null);
-INSERT INTO bus_routes VALUES('N8',2,25,'194', null);
-INSERT INTO bus_routes VALUES('N8',2,26,'158', null);
-INSERT INTO bus_routes VALUES('N8',2,27,'2171', null);
-INSERT INTO bus_routes VALUES('N8',2,28,'3655', null);
-INSERT INTO bus_routes VALUES('N9',1,1,'5443', null);
-INSERT INTO bus_routes VALUES('N9',1,2,'77', null);
-INSERT INTO bus_routes VALUES('N9',1,3,'79', null);
-INSERT INTO bus_routes VALUES('N9',1,4,'81', null);
-INSERT INTO bus_routes VALUES('N9',1,5,'1401', null);
-INSERT INTO bus_routes VALUES('N9',1,6,'1401', null);
-INSERT INTO bus_routes VALUES('N9',1,7,'2046', null);
-INSERT INTO bus_routes VALUES('N9',1,8,'2048', null);
-INSERT INTO bus_routes VALUES('N9',1,9,'2130', null);
-INSERT INTO bus_routes VALUES('N9',1,10,'2126', null);
-INSERT INTO bus_routes VALUES('N9',1,11,'2603', null);
-INSERT INTO bus_routes VALUES('N9',1,12,'2605', null);
-INSERT INTO bus_routes VALUES('N9',1,13,'2606', null);
-INSERT INTO bus_routes VALUES('N9',1,14,'2608', null);
-INSERT INTO bus_routes VALUES('N9',1,15,'4341', null);
-INSERT INTO bus_routes VALUES('N9',1,16,'3353', null);
-INSERT INTO bus_routes VALUES('N9',1,17,'2612', null);
-INSERT INTO bus_routes VALUES('N9',1,18,'2622', null);
-INSERT INTO bus_routes VALUES('N9',1,19,'2620', null);
-INSERT INTO bus_routes VALUES('N9',1,20,'2621', null);
-INSERT INTO bus_routes VALUES('N9',1,21,'2617', null);
-INSERT INTO bus_routes VALUES('N9',1,22,'3970', null);
-INSERT INTO bus_routes VALUES('N9',1,23,'5533', null);
-INSERT INTO bus_routes VALUES('N9',1,24,'1033', null);
-INSERT INTO bus_routes VALUES('N9',1,25,'4696', null);
-INSERT INTO bus_routes VALUES('N9',1,26,'4684', null);
-INSERT INTO bus_routes VALUES('N9',1,27,'4686', null);
-INSERT INTO bus_routes VALUES('N9',1,28,'4697', null);
-INSERT INTO bus_routes VALUES('N9',1,29,'3979', null);
-INSERT INTO bus_routes VALUES('N9',1,30,'3849', null);
-INSERT INTO bus_routes VALUES('N9',1,31,'3851', null);
-INSERT INTO bus_routes VALUES('N9',1,32,'3853', null);
-INSERT INTO bus_routes VALUES('N9',1,33,'3964', null);
-INSERT INTO bus_routes VALUES('N9',1,34,'3965', null);
-INSERT INTO bus_routes VALUES('N9',1,35,'3935', null);
-INSERT INTO bus_routes VALUES('N9',2,1,'3935', null);
-INSERT INTO bus_routes VALUES('N9',2,2,'5531', null);
-INSERT INTO bus_routes VALUES('N9',2,3,'5536', null);
-INSERT INTO bus_routes VALUES('N9',2,4,'4242', null);
-INSERT INTO bus_routes VALUES('N9',2,5,'4112', null);
-INSERT INTO bus_routes VALUES('N9',2,6,'3956', null);
-INSERT INTO bus_routes VALUES('N9',2,7,'5534', null);
-INSERT INTO bus_routes VALUES('N9',2,8,'3977', null);
-INSERT INTO bus_routes VALUES('N9',2,9,'3950', null);
-INSERT INTO bus_routes VALUES('N9',2,10,'3948', null);
-INSERT INTO bus_routes VALUES('N9',2,11,'4699', null);
-INSERT INTO bus_routes VALUES('N9',2,12,'5312', null);
-INSERT INTO bus_routes VALUES('N9',2,13,'4027', null);
-INSERT INTO bus_routes VALUES('N9',2,14,'1813', null);
-INSERT INTO bus_routes VALUES('N9',2,15,'1815', null);
-INSERT INTO bus_routes VALUES('N9',2,16,'5163', null);
-INSERT INTO bus_routes VALUES('N9',2,17,'1030', null);
-INSERT INTO bus_routes VALUES('N9',2,18,'1032', null);
-INSERT INTO bus_routes VALUES('N9',2,19,'1034', null);
-INSERT INTO bus_routes VALUES('N9',2,20,'4691', null);
-INSERT INTO bus_routes VALUES('N9',2,21,'2618', null);
-INSERT INTO bus_routes VALUES('N9',2,22,'2616', null);
-INSERT INTO bus_routes VALUES('N9',2,23,'2615', null);
-INSERT INTO bus_routes VALUES('N9',2,24,'2614', null);
-INSERT INTO bus_routes VALUES('N9',2,25,'2623', null);
-INSERT INTO bus_routes VALUES('N9',2,26,'2613', null);
-INSERT INTO bus_routes VALUES('N9',2,27,'2610', null);
-INSERT INTO bus_routes VALUES('N9',2,28,'2604', null);
-INSERT INTO bus_routes VALUES('N9',2,29,'4594', null);
-INSERT INTO bus_routes VALUES('N9',2,30,'4601', null);
-INSERT INTO bus_routes VALUES('N9',2,31,'2611', null);
-INSERT INTO bus_routes VALUES('N9',2,32,'2125', null);
-INSERT INTO bus_routes VALUES('N9',2,33,'2129', null);
-INSERT INTO bus_routes VALUES('N9',2,34,'2049', null);
-INSERT INTO bus_routes VALUES('N9',2,35,'2047', null);
-INSERT INTO bus_routes VALUES('N9',2,36,'2178', null);
-INSERT INTO bus_routes VALUES('N9',2,37,'82', null);
-INSERT INTO bus_routes VALUES('N9',2,38,'5511', null);
-INSERT INTO bus_routes VALUES('N9',2,39,'78', null);
-INSERT INTO bus_routes VALUES('N9',2,40,'5443', null);
-INSERT INTO bus_routes VALUES('51',1,1,'3698', null);
-INSERT INTO bus_routes VALUES('51',1,2,'1049', null);
-INSERT INTO bus_routes VALUES('51',1,3,'5239', null);
-INSERT INTO bus_routes VALUES('51',1,4,'70', null);
-INSERT INTO bus_routes VALUES('51',1,5,'162', null);
-INSERT INTO bus_routes VALUES('51',1,6,'423', null);
-INSERT INTO bus_routes VALUES('51',1,7,'424', null);
-INSERT INTO bus_routes VALUES('51',1,8,'425', null);
-INSERT INTO bus_routes VALUES('51',1,9,'426', null);
-INSERT INTO bus_routes VALUES('51',1,10,'427', null);
-INSERT INTO bus_routes VALUES('51',1,11,'428', null);
-INSERT INTO bus_routes VALUES('51',1,12,'5377', null);
-INSERT INTO bus_routes VALUES('51',1,13,'430', null);
-INSERT INTO bus_routes VALUES('51',1,14,'431', null);
-INSERT INTO bus_routes VALUES('51',1,15,'432', null);
-INSERT INTO bus_routes VALUES('51',1,16,'418', null);
-INSERT INTO bus_routes VALUES('51',1,17,'416', null);
-INSERT INTO bus_routes VALUES('51',1,18,'433', null);
-INSERT INTO bus_routes VALUES('51',1,19,'434', null);
-INSERT INTO bus_routes VALUES('51',1,20,'435', null);
-INSERT INTO bus_routes VALUES('51',1,21,'437', null);
-INSERT INTO bus_routes VALUES('51',1,22,'4849', null);
-INSERT INTO bus_routes VALUES('51',1,23,'439', null);
-INSERT INTO bus_routes VALUES('51',1,24,'4832', null);
-INSERT INTO bus_routes VALUES('51',1,25,'113', null);
-INSERT INTO bus_routes VALUES('51',2,1,'113', null);
-INSERT INTO bus_routes VALUES('51',2,2,'440', null);
-INSERT INTO bus_routes VALUES('51',2,3,'4850', null);
-INSERT INTO bus_routes VALUES('51',2,4,'438', null);
-INSERT INTO bus_routes VALUES('51',2,5,'436', null);
-INSERT INTO bus_routes VALUES('51',2,6,'441', null);
-INSERT INTO bus_routes VALUES('51',2,7,'442', null);
-INSERT INTO bus_routes VALUES('51',2,8,'443', null);
-INSERT INTO bus_routes VALUES('51',2,9,'444', null);
-INSERT INTO bus_routes VALUES('51',2,10,'445', null);
-INSERT INTO bus_routes VALUES('51',2,11,'446', null);
-INSERT INTO bus_routes VALUES('51',2,12,'447', null);
-INSERT INTO bus_routes VALUES('51',2,13,'448', null);
-INSERT INTO bus_routes VALUES('51',2,14,'4710', null);
-INSERT INTO bus_routes VALUES('51',2,15,'449', null);
-INSERT INTO bus_routes VALUES('51',2,16,'451', null);
-INSERT INTO bus_routes VALUES('51',2,17,'452', null);
-INSERT INTO bus_routes VALUES('51',2,18,'161', null);
-INSERT INTO bus_routes VALUES('51',2,19,'69', null);
-INSERT INTO bus_routes VALUES('51',2,20,'3698', null);
-INSERT INTO bus_routes VALUES('N10',1,1,'5443', null);
-INSERT INTO bus_routes VALUES('N10',1,2,'77', null);
-INSERT INTO bus_routes VALUES('N10',1,3,'79', null);
-INSERT INTO bus_routes VALUES('N10',1,4,'81', null);
-INSERT INTO bus_routes VALUES('N10',1,5,'1401', null);
-INSERT INTO bus_routes VALUES('N10',1,6,'1401', null);
-INSERT INTO bus_routes VALUES('N10',1,7,'1404', null);
-INSERT INTO bus_routes VALUES('N10',1,8,'1408', null);
-INSERT INTO bus_routes VALUES('N10',1,9,'2058', null);
-INSERT INTO bus_routes VALUES('N10',1,10,'1001', null);
-INSERT INTO bus_routes VALUES('N10',1,11,'1003', null);
-INSERT INTO bus_routes VALUES('N10',1,12,'2561', null);
-INSERT INTO bus_routes VALUES('N10',1,13,'2095', null);
-INSERT INTO bus_routes VALUES('N10',1,14,'2097', null);
-INSERT INTO bus_routes VALUES('N10',1,15,'3301', null);
-INSERT INTO bus_routes VALUES('N10',1,16,'2070', null);
-INSERT INTO bus_routes VALUES('N10',1,17,'2072', null);
-INSERT INTO bus_routes VALUES('N10',1,18,'2075', null);
-INSERT INTO bus_routes VALUES('N10',1,19,'2077', null);
-INSERT INTO bus_routes VALUES('N10',1,20,'2082', null);
-INSERT INTO bus_routes VALUES('N10',1,21,'3346', null);
-INSERT INTO bus_routes VALUES('N10',1,22,'3344', null);
-INSERT INTO bus_routes VALUES('N10',1,23,'2533', null);
-INSERT INTO bus_routes VALUES('N10',1,24,'2527', null);
-INSERT INTO bus_routes VALUES('N10',2,1,'2527', null);
-INSERT INTO bus_routes VALUES('N10',2,2,'2523', null);
-INSERT INTO bus_routes VALUES('N10',2,3,'2521', null);
-INSERT INTO bus_routes VALUES('N10',2,4,'5056', null);
-INSERT INTO bus_routes VALUES('N10',2,5,'2519', null);
-INSERT INTO bus_routes VALUES('N10',2,6,'2517', null);
-INSERT INTO bus_routes VALUES('N10',2,7,'2515', null);
-INSERT INTO bus_routes VALUES('N10',2,8,'1008', null);
-INSERT INTO bus_routes VALUES('N10',2,9,'1006', null);
-INSERT INTO bus_routes VALUES('N10',2,10,'1004', null);
-INSERT INTO bus_routes VALUES('N10',2,11,'1002', null);
-INSERT INTO bus_routes VALUES('N10',2,12,'4864', null);
-INSERT INTO bus_routes VALUES('N10',2,13,'1409', null);
-INSERT INTO bus_routes VALUES('N10',2,14,'1405', null);
-INSERT INTO bus_routes VALUES('N10',2,15,'2178', null);
-INSERT INTO bus_routes VALUES('N10',2,16,'82', null);
-INSERT INTO bus_routes VALUES('N10',2,17,'5511', null);
-INSERT INTO bus_routes VALUES('N10',2,18,'78', null);
-INSERT INTO bus_routes VALUES('N10',2,19,'5443', null);
-INSERT INTO bus_routes VALUES('N11',1,1,'5443', null);
-INSERT INTO bus_routes VALUES('N11',1,2,'77', null);
-INSERT INTO bus_routes VALUES('N11',1,3,'79', null);
-INSERT INTO bus_routes VALUES('N11',1,4,'81', null);
-INSERT INTO bus_routes VALUES('N11',1,5,'1401', null);
-INSERT INTO bus_routes VALUES('N11',1,6,'1401', null);
-INSERT INTO bus_routes VALUES('N11',1,7,'5262', null);
-INSERT INTO bus_routes VALUES('N11',1,8,'3913', null);
-INSERT INTO bus_routes VALUES('N11',1,9,'1967', null);
-INSERT INTO bus_routes VALUES('N11',1,10,'1969', null);
-INSERT INTO bus_routes VALUES('N11',1,11,'2917', null);
-INSERT INTO bus_routes VALUES('N11',1,12,'2920', null);
-INSERT INTO bus_routes VALUES('N11',1,13,'2922', null);
-INSERT INTO bus_routes VALUES('N11',1,14,'2924', null);
-INSERT INTO bus_routes VALUES('N11',1,15,'2926', null);
-INSERT INTO bus_routes VALUES('N11',1,16,'2928', null);
-INSERT INTO bus_routes VALUES('N11',1,17,'2929', null);
-INSERT INTO bus_routes VALUES('N11',1,18,'1115', null);
-INSERT INTO bus_routes VALUES('N11',1,19,'1116', null);
-INSERT INTO bus_routes VALUES('N11',1,20,'1093', null);
-INSERT INTO bus_routes VALUES('N11',1,21,'2934', null);
-INSERT INTO bus_routes VALUES('N11',1,22,'2209', null);
-INSERT INTO bus_routes VALUES('N11',1,23,'4645', null);
-INSERT INTO bus_routes VALUES('N11',1,24,'2577', null);
-INSERT INTO bus_routes VALUES('N11',1,25,'3304', null);
-INSERT INTO bus_routes VALUES('N11',1,26,'3306', null);
-INSERT INTO bus_routes VALUES('N11',1,27,'3308', null);
-INSERT INTO bus_routes VALUES('N11',1,28,'4597', null);
-INSERT INTO bus_routes VALUES('N11',2,1,'4597', null);
-INSERT INTO bus_routes VALUES('N11',2,2,'3309', null);
-INSERT INTO bus_routes VALUES('N11',2,3,'3307', null);
-INSERT INTO bus_routes VALUES('N11',2,4,'3305', null);
-INSERT INTO bus_routes VALUES('N11',2,5,'4838', null);
-INSERT INTO bus_routes VALUES('N11',2,6,'4644', null);
-INSERT INTO bus_routes VALUES('N11',2,7,'4657', null);
-INSERT INTO bus_routes VALUES('N11',2,8,'4658', null);
-INSERT INTO bus_routes VALUES('N11',2,9,'1094', null);
-INSERT INTO bus_routes VALUES('N11',2,10,'1095', null);
-INSERT INTO bus_routes VALUES('N11',2,11,'5437', null);
-INSERT INTO bus_routes VALUES('N11',2,12,'2941', null);
-INSERT INTO bus_routes VALUES('N11',2,13,'2942', null);
-INSERT INTO bus_routes VALUES('N11',2,14,'2927', null);
-INSERT INTO bus_routes VALUES('N11',2,15,'2925', null);
-INSERT INTO bus_routes VALUES('N11',2,16,'2923', null);
-INSERT INTO bus_routes VALUES('N11',2,17,'2921', null);
-INSERT INTO bus_routes VALUES('N11',2,18,'1970', null);
-INSERT INTO bus_routes VALUES('N11',2,19,'1968', null);
-INSERT INTO bus_routes VALUES('N11',2,20,'1971', null);
-INSERT INTO bus_routes VALUES('N11',2,21,'5221', null);
-INSERT INTO bus_routes VALUES('N11',2,22,'5222', null);
-INSERT INTO bus_routes VALUES('N11',2,23,'82', null);
-INSERT INTO bus_routes VALUES('N11',2,24,'5511', null);
-INSERT INTO bus_routes VALUES('N11',2,25,'78', null);
-INSERT INTO bus_routes VALUES('N11',2,26,'5443', null);
-INSERT INTO bus_routes VALUES('N12',1,1,'5442', null);
-INSERT INTO bus_routes VALUES('N12',1,2,'5442', null);
-INSERT INTO bus_routes VALUES('N12',1,3,'77', null);
-INSERT INTO bus_routes VALUES('N12',1,4,'79', null);
-INSERT INTO bus_routes VALUES('N12',1,5,'81', null);
-INSERT INTO bus_routes VALUES('N12',1,6,'83', null);
-INSERT INTO bus_routes VALUES('N12',1,7,'84', null);
-INSERT INTO bus_routes VALUES('N12',1,8,'320', null);
-INSERT INTO bus_routes VALUES('N12',1,9,'322', null);
-INSERT INTO bus_routes VALUES('N12',1,10,'326', null);
-INSERT INTO bus_routes VALUES('N12',1,11,'327', null);
-INSERT INTO bus_routes VALUES('N12',1,12,'4518', null);
-INSERT INTO bus_routes VALUES('N12',1,13,'1118', null);
-INSERT INTO bus_routes VALUES('N12',1,14,'4484', null);
-INSERT INTO bus_routes VALUES('N12',1,15,'1120', null);
-INSERT INTO bus_routes VALUES('N12',1,16,'1122', null);
-INSERT INTO bus_routes VALUES('N12',1,17,'1124', null);
-INSERT INTO bus_routes VALUES('N12',1,18,'930', null);
-INSERT INTO bus_routes VALUES('N12',1,19,'932', null);
-INSERT INTO bus_routes VALUES('N12',1,20,'934', null);
-INSERT INTO bus_routes VALUES('N12',1,21,'936', null);
-INSERT INTO bus_routes VALUES('N12',1,22,'5124', null);
-INSERT INTO bus_routes VALUES('N12',1,23,'937', null);
-INSERT INTO bus_routes VALUES('N12',1,24,'939', null);
-INSERT INTO bus_routes VALUES('N12',1,25,'943', null);
-INSERT INTO bus_routes VALUES('N12',1,26,'2839', null);
-INSERT INTO bus_routes VALUES('N12',1,27,'4865', null);
-INSERT INTO bus_routes VALUES('N12',1,28,'4867', null);
-INSERT INTO bus_routes VALUES('N12',1,29,'5638', null);
-INSERT INTO bus_routes VALUES('N12',1,30,'5244', null);
-INSERT INTO bus_routes VALUES('N12',1,31,'5253', null);
-INSERT INTO bus_routes VALUES('N12',1,32,'4982', null);
-INSERT INTO bus_routes VALUES('N12',1,33,'3203', null);
-INSERT INTO bus_routes VALUES('N12',1,34,'5072', null);
-INSERT INTO bus_routes VALUES('N12',1,35,'3205', null);
-INSERT INTO bus_routes VALUES('N12',1,36,'5074', null);
-INSERT INTO bus_routes VALUES('N12',1,37,'4312', null);
-INSERT INTO bus_routes VALUES('N12',1,38,'4314', null);
-INSERT INTO bus_routes VALUES('N12',2,1,'4314', null);
-INSERT INTO bus_routes VALUES('N12',2,2,'4313', null);
-INSERT INTO bus_routes VALUES('N12',2,3,'5073', null);
-INSERT INTO bus_routes VALUES('N12',2,4,'3255', null);
-INSERT INTO bus_routes VALUES('N12',2,5,'4984', null);
-INSERT INTO bus_routes VALUES('N12',2,6,'3257', null);
-INSERT INTO bus_routes VALUES('N12',2,7,'4983', null);
-INSERT INTO bus_routes VALUES('N12',2,8,'3752', null);
-INSERT INTO bus_routes VALUES('N12',2,9,'5245', null);
-INSERT INTO bus_routes VALUES('N12',2,10,'5775', null);
-INSERT INTO bus_routes VALUES('N12',2,11,'4868', null);
-INSERT INTO bus_routes VALUES('N12',2,12,'4866', null);
-INSERT INTO bus_routes VALUES('N12',2,13,'945', null);
-INSERT INTO bus_routes VALUES('N12',2,14,'944', null);
-INSERT INTO bus_routes VALUES('N12',2,15,'940', null);
-INSERT INTO bus_routes VALUES('N12',2,16,'938', null);
-INSERT INTO bus_routes VALUES('N12',2,17,'5125', null);
-INSERT INTO bus_routes VALUES('N12',2,18,'935', null);
-INSERT INTO bus_routes VALUES('N12',2,19,'933', null);
-INSERT INTO bus_routes VALUES('N12',2,20,'931', null);
-INSERT INTO bus_routes VALUES('N12',2,21,'1125', null);
-INSERT INTO bus_routes VALUES('N12',2,22,'1123', null);
-INSERT INTO bus_routes VALUES('N12',2,23,'1121', null);
-INSERT INTO bus_routes VALUES('N12',2,24,'4485', null);
-INSERT INTO bus_routes VALUES('N12',2,25,'1119', null);
-INSERT INTO bus_routes VALUES('N12',2,26,'4519', null);
-INSERT INTO bus_routes VALUES('N12',2,27,'328', null);
-INSERT INTO bus_routes VALUES('N12',2,28,'381', null);
-INSERT INTO bus_routes VALUES('N12',2,29,'323', null);
-INSERT INTO bus_routes VALUES('N12',2,30,'321', null);
-INSERT INTO bus_routes VALUES('N12',2,31,'85', null);
-INSERT INTO bus_routes VALUES('N12',2,32,'4985', null);
-INSERT INTO bus_routes VALUES('N12',2,33,'82', null);
-INSERT INTO bus_routes VALUES('N12',2,34,'5511', null);
-INSERT INTO bus_routes VALUES('N12',2,35,'78', null);
-INSERT INTO bus_routes VALUES('N12',2,36,'5442', null);
-INSERT INTO bus_routes VALUES('N12',2,37,'5442', null);
-INSERT INTO bus_routes VALUES('N13',1,1,'76', null);
-INSERT INTO bus_routes VALUES('N13',1,2,'77', null);
-INSERT INTO bus_routes VALUES('N13',1,3,'79', null);
-INSERT INTO bus_routes VALUES('N13',1,4,'81', null);
-INSERT INTO bus_routes VALUES('N13',1,5,'1401', null);
-INSERT INTO bus_routes VALUES('N13',1,6,'1401', null);
-INSERT INTO bus_routes VALUES('N13',1,7,'5262', null);
-INSERT INTO bus_routes VALUES('N13',1,8,'3913', null);
-INSERT INTO bus_routes VALUES('N13',1,9,'1967', null);
-INSERT INTO bus_routes VALUES('N13',1,10,'1969', null);
-INSERT INTO bus_routes VALUES('N13',1,11,'3366', null);
-INSERT INTO bus_routes VALUES('N13',1,12,'3360', null);
-INSERT INTO bus_routes VALUES('N13',1,13,'5512', null);
-INSERT INTO bus_routes VALUES('N13',1,14,'2916', null);
-INSERT INTO bus_routes VALUES('N13',1,15,'5718', null);
-INSERT INTO bus_routes VALUES('N13',1,16,'5719', null);
-INSERT INTO bus_routes VALUES('N13',1,17,'5720', null);
-INSERT INTO bus_routes VALUES('N13',1,18,'1132', null);
-INSERT INTO bus_routes VALUES('N13',1,19,'1135', null);
-INSERT INTO bus_routes VALUES('N13',1,20,'1137', null);
-INSERT INTO bus_routes VALUES('N13',1,21,'3195', null);
-INSERT INTO bus_routes VALUES('N13',1,22,'3413', null);
-INSERT INTO bus_routes VALUES('N13',1,23,'3414', null);
-INSERT INTO bus_routes VALUES('N13',1,24,'1794', null);
-INSERT INTO bus_routes VALUES('N13',1,25,'1176', null);
-INSERT INTO bus_routes VALUES('N13',1,26,'1178', null);
-INSERT INTO bus_routes VALUES('N13',1,27,'1179', null);
-INSERT INTO bus_routes VALUES('N13',1,28,'1180', null);
-INSERT INTO bus_routes VALUES('N13',2,1,'1180', null);
-INSERT INTO bus_routes VALUES('N13',2,2,'1181', null);
-INSERT INTO bus_routes VALUES('N13',2,3,'1177', null);
-INSERT INTO bus_routes VALUES('N13',2,4,'1440', null);
-INSERT INTO bus_routes VALUES('N13',2,5,'1444', null);
-INSERT INTO bus_routes VALUES('N13',2,6,'1446', null);
-INSERT INTO bus_routes VALUES('N13',2,7,'4825', null);
-INSERT INTO bus_routes VALUES('N13',2,8,'3415', null);
-INSERT INTO bus_routes VALUES('N13',2,9,'3200', null);
-INSERT INTO bus_routes VALUES('N13',2,10,'3196', null);
-INSERT INTO bus_routes VALUES('N13',2,11,'4728', null);
-INSERT INTO bus_routes VALUES('N13',2,12,'1138', null);
-INSERT INTO bus_routes VALUES('N13',2,13,'1136', null);
-INSERT INTO bus_routes VALUES('N13',2,14,'1134', null);
-INSERT INTO bus_routes VALUES('N13',2,15,'5380', null);
-INSERT INTO bus_routes VALUES('N13',2,16,'5702', null);
-INSERT INTO bus_routes VALUES('N13',2,17,'5703', null);
-INSERT INTO bus_routes VALUES('N13',2,18,'5704', null);
-INSERT INTO bus_routes VALUES('N13',2,19,'3201', null);
-INSERT INTO bus_routes VALUES('N13',2,20,'3201', null);
-INSERT INTO bus_routes VALUES('N13',2,21,'5054', null);
-INSERT INTO bus_routes VALUES('N13',2,22,'3359', null);
-INSERT INTO bus_routes VALUES('N13',2,23,'3365', null);
-INSERT INTO bus_routes VALUES('N13',2,24,'1970', null);
-INSERT INTO bus_routes VALUES('N13',2,25,'1968', null);
-INSERT INTO bus_routes VALUES('N13',2,26,'1971', null);
-INSERT INTO bus_routes VALUES('N13',2,27,'5221', null);
-INSERT INTO bus_routes VALUES('N13',2,28,'5222', null);
-INSERT INTO bus_routes VALUES('N13',2,29,'82', null);
-INSERT INTO bus_routes VALUES('N13',2,30,'5511', null);
-INSERT INTO bus_routes VALUES('N13',2,31,'78', null);
-INSERT INTO bus_routes VALUES('N13',2,32,'76', null);
-INSERT INTO bus_routes VALUES('N14',1,1,'76', null);
-INSERT INTO bus_routes VALUES('N14',1,2,'77', null);
-INSERT INTO bus_routes VALUES('N14',1,3,'79', null);
-INSERT INTO bus_routes VALUES('N14',1,4,'81', null);
-INSERT INTO bus_routes VALUES('N14',1,5,'1167', null);
-INSERT INTO bus_routes VALUES('N14',1,6,'1926', null);
-INSERT INTO bus_routes VALUES('N14',1,7,'1927', null);
-INSERT INTO bus_routes VALUES('N14',1,8,'1931', null);
-INSERT INTO bus_routes VALUES('N14',1,9,'1933', null);
-INSERT INTO bus_routes VALUES('N14',1,10,'1122', null);
-INSERT INTO bus_routes VALUES('N14',1,11,'1124', null);
-INSERT INTO bus_routes VALUES('N14',1,12,'5718', null);
-INSERT INTO bus_routes VALUES('N14',1,13,'5719', null);
-INSERT INTO bus_routes VALUES('N14',1,14,'5720', null);
-INSERT INTO bus_routes VALUES('N14',1,15,'1132', null);
-INSERT INTO bus_routes VALUES('N14',1,16,'1135', null);
-INSERT INTO bus_routes VALUES('N14',1,17,'1137', null);
-INSERT INTO bus_routes VALUES('N14',1,18,'1139', null);
-INSERT INTO bus_routes VALUES('N14',1,19,'1143', null);
-INSERT INTO bus_routes VALUES('N14',1,20,'1145', null);
-INSERT INTO bus_routes VALUES('N14',1,21,'1189', null);
-INSERT INTO bus_routes VALUES('N14',1,22,'1191', null);
-INSERT INTO bus_routes VALUES('N14',1,23,'1193', null);
-INSERT INTO bus_routes VALUES('N14',1,24,'1195', null);
-INSERT INTO bus_routes VALUES('N14',1,25,'1196', null);
-INSERT INTO bus_routes VALUES('N14',1,26,'2179', null);
-INSERT INTO bus_routes VALUES('N14',1,27,'2181', null);
-INSERT INTO bus_routes VALUES('N14',1,28,'2857', null);
-INSERT INTO bus_routes VALUES('N14',1,29,'3901', null);
-INSERT INTO bus_routes VALUES('N14',1,30,'2852', null);
-INSERT INTO bus_routes VALUES('N14',1,31,'2848', null);
-INSERT INTO bus_routes VALUES('N14',2,1,'2848', null);
-INSERT INTO bus_routes VALUES('N14',2,2,'2851', null);
-INSERT INTO bus_routes VALUES('N14',2,3,'3900', null);
-INSERT INTO bus_routes VALUES('N14',2,4,'2856', null);
-INSERT INTO bus_routes VALUES('N14',2,5,'5211', null);
-INSERT INTO bus_routes VALUES('N14',2,6,'5214', null);
-INSERT INTO bus_routes VALUES('N14',2,7,'2813', null);
-INSERT INTO bus_routes VALUES('N14',2,8,'2811', null);
-INSERT INTO bus_routes VALUES('N14',2,9,'1194', null);
-INSERT INTO bus_routes VALUES('N14',2,10,'1192', null);
-INSERT INTO bus_routes VALUES('N14',2,11,'1190', null);
-INSERT INTO bus_routes VALUES('N14',2,12,'3878', null);
-INSERT INTO bus_routes VALUES('N14',2,13,'1147', null);
-INSERT INTO bus_routes VALUES('N14',2,14,'1148', null);
-INSERT INTO bus_routes VALUES('N14',2,15,'1140', null);
-INSERT INTO bus_routes VALUES('N14',2,16,'4728', null);
-INSERT INTO bus_routes VALUES('N14',2,17,'1138', null);
-INSERT INTO bus_routes VALUES('N14',2,18,'1136', null);
-INSERT INTO bus_routes VALUES('N14',2,19,'1134', null);
-INSERT INTO bus_routes VALUES('N14',2,20,'5380', null);
-INSERT INTO bus_routes VALUES('N14',2,21,'5702', null);
-INSERT INTO bus_routes VALUES('N14',2,22,'5703', null);
-INSERT INTO bus_routes VALUES('N14',2,23,'5704', null);
-INSERT INTO bus_routes VALUES('N14',2,24,'1125', null);
-INSERT INTO bus_routes VALUES('N14',2,25,'1123', null);
-INSERT INTO bus_routes VALUES('N14',2,26,'1934', null);
-INSERT INTO bus_routes VALUES('N14',2,27,'1932', null);
-INSERT INTO bus_routes VALUES('N14',2,28,'1929', null);
-INSERT INTO bus_routes VALUES('N14',2,29,'1930', null);
-INSERT INTO bus_routes VALUES('N14',2,30,'1184', null);
-INSERT INTO bus_routes VALUES('N14',2,31,'89', null);
-INSERT INTO bus_routes VALUES('N14',2,32,'82', null);
-INSERT INTO bus_routes VALUES('N14',2,33,'5511', null);
-INSERT INTO bus_routes VALUES('N14',2,34,'78', null);
-INSERT INTO bus_routes VALUES('N14',2,35,'76', null);
-INSERT INTO bus_routes VALUES('N15',1,1,'5442', null);
-INSERT INTO bus_routes VALUES('N15',1,2,'5442', null);
-INSERT INTO bus_routes VALUES('N15',1,3,'77', null);
-INSERT INTO bus_routes VALUES('N15',1,4,'79', null);
-INSERT INTO bus_routes VALUES('N15',1,5,'81', null);
-INSERT INTO bus_routes VALUES('N15',1,6,'83', null);
-INSERT INTO bus_routes VALUES('N15',1,7,'84', null);
-INSERT INTO bus_routes VALUES('N15',1,8,'320', null);
-INSERT INTO bus_routes VALUES('N15',1,9,'322', null);
-INSERT INTO bus_routes VALUES('N15',1,10,'326', null);
-INSERT INTO bus_routes VALUES('N15',1,11,'327', null);
-INSERT INTO bus_routes VALUES('N15',1,12,'918', null);
-INSERT INTO bus_routes VALUES('N15',1,13,'920', null);
-INSERT INTO bus_routes VALUES('N15',1,14,'922', null);
-INSERT INTO bus_routes VALUES('N15',1,15,'924', null);
-INSERT INTO bus_routes VALUES('N15',1,16,'928', null);
-INSERT INTO bus_routes VALUES('N15',1,17,'2423', null);
-INSERT INTO bus_routes VALUES('N15',1,18,'2424', null);
-INSERT INTO bus_routes VALUES('N15',1,19,'2426', null);
-INSERT INTO bus_routes VALUES('N15',1,20,'5875', null);
-INSERT INTO bus_routes VALUES('N15',1,21,'1947', null);
-INSERT INTO bus_routes VALUES('N15',1,22,'1951', null);
-INSERT INTO bus_routes VALUES('N15',1,23,'1953', null);
-INSERT INTO bus_routes VALUES('N15',1,24,'1957', null);
-INSERT INTO bus_routes VALUES('N15',1,25,'2824', null);
-INSERT INTO bus_routes VALUES('N15',1,26,'4624', null);
-INSERT INTO bus_routes VALUES('N15',1,27,'2828', null);
-INSERT INTO bus_routes VALUES('N15',1,28,'2830', null);
-INSERT INTO bus_routes VALUES('N15',1,29,'2832', null);
-INSERT INTO bus_routes VALUES('N15',1,30,'5217', null);
-INSERT INTO bus_routes VALUES('N15',2,1,'5217', null);
-INSERT INTO bus_routes VALUES('N15',2,2,'5256', null);
-INSERT INTO bus_routes VALUES('N15',2,3,'2875', null);
-INSERT INTO bus_routes VALUES('N15',2,4,'3172', null);
-INSERT INTO bus_routes VALUES('N15',2,5,'4814', null);
-INSERT INTO bus_routes VALUES('N15',2,6,'4815', null);
-INSERT INTO bus_routes VALUES('N15',2,7,'1952', null);
-INSERT INTO bus_routes VALUES('N15',2,8,'1948', null);
-INSERT INTO bus_routes VALUES('N15',2,9,'4646', null);
-INSERT INTO bus_routes VALUES('N15',2,10,'2427', null);
-INSERT INTO bus_routes VALUES('N15',2,11,'2425', null);
-INSERT INTO bus_routes VALUES('N15',2,12,'4352', null);
-INSERT INTO bus_routes VALUES('N15',2,13,'929', null);
-INSERT INTO bus_routes VALUES('N15',2,14,'925', null);
-INSERT INTO bus_routes VALUES('N15',2,15,'923', null);
-INSERT INTO bus_routes VALUES('N15',2,16,'921', null);
-INSERT INTO bus_routes VALUES('N15',2,17,'919', null);
-INSERT INTO bus_routes VALUES('N15',2,18,'328', null);
-INSERT INTO bus_routes VALUES('N15',2,19,'381', null);
-INSERT INTO bus_routes VALUES('N15',2,20,'323', null);
-INSERT INTO bus_routes VALUES('N15',2,21,'321', null);
-INSERT INTO bus_routes VALUES('N15',2,22,'85', null);
-INSERT INTO bus_routes VALUES('N15',2,23,'4985', null);
-INSERT INTO bus_routes VALUES('N15',2,24,'82', null);
-INSERT INTO bus_routes VALUES('N15',2,25,'5511', null);
-INSERT INTO bus_routes VALUES('N15',2,26,'78', null);
-INSERT INTO bus_routes VALUES('N15',2,27,'5442', null);
-INSERT INTO bus_routes VALUES('N15',2,28,'5442', null);
-INSERT INTO bus_routes VALUES('N16',1,1,'69', null);
-INSERT INTO bus_routes VALUES('N16',1,2,'5137', null);
-INSERT INTO bus_routes VALUES('N16',1,3,'4094', null);
-INSERT INTO bus_routes VALUES('N16',1,4,'9', null);
-INSERT INTO bus_routes VALUES('N16',1,5,'168', null);
-INSERT INTO bus_routes VALUES('N16',1,6,'170', null);
-INSERT INTO bus_routes VALUES('N16',1,7,'1875', null);
-INSERT INTO bus_routes VALUES('N16',1,8,'1879', null);
-INSERT INTO bus_routes VALUES('N16',1,9,'1883', null);
-INSERT INTO bus_routes VALUES('N16',1,10,'550', null);
-INSERT INTO bus_routes VALUES('N16',1,11,'552', null);
-INSERT INTO bus_routes VALUES('N16',1,12,'554', null);
-INSERT INTO bus_routes VALUES('N16',1,13,'555', null);
-INSERT INTO bus_routes VALUES('N16',1,14,'557', null);
-INSERT INTO bus_routes VALUES('N16',1,15,'559', null);
-INSERT INTO bus_routes VALUES('N16',1,16,'563', null);
-INSERT INTO bus_routes VALUES('N16',1,17,'2552', null);
-INSERT INTO bus_routes VALUES('N16',1,18,'2550', null);
-INSERT INTO bus_routes VALUES('N16',1,19,'2548', null);
-INSERT INTO bus_routes VALUES('N16',1,20,'5601', null);
-INSERT INTO bus_routes VALUES('N16',1,21,'3033', null);
-INSERT INTO bus_routes VALUES('N16',1,22,'4609', null);
-INSERT INTO bus_routes VALUES('N16',1,23,'3036', null);
-INSERT INTO bus_routes VALUES('N16',1,24,'3040', null);
-INSERT INTO bus_routes VALUES('N16',1,25,'4595', null);
-INSERT INTO bus_routes VALUES('N16',1,26,'2446', null);
-INSERT INTO bus_routes VALUES('N16',1,27,'2448', null);
-INSERT INTO bus_routes VALUES('N16',1,28,'2450', null);
-INSERT INTO bus_routes VALUES('N16',1,29,'2452', null);
-INSERT INTO bus_routes VALUES('N16',1,30,'2453', null);
-INSERT INTO bus_routes VALUES('N16',1,31,'2456', null);
-INSERT INTO bus_routes VALUES('N16',1,32,'3048', null);
-INSERT INTO bus_routes VALUES('N16',1,33,'3050', null);
-INSERT INTO bus_routes VALUES('N16',1,34,'4183', null);
-INSERT INTO bus_routes VALUES('N16',1,35,'4185', null);
-INSERT INTO bus_routes VALUES('N16',1,36,'4187', null);
-INSERT INTO bus_routes VALUES('N16',1,37,'4092', null);
-INSERT INTO bus_routes VALUES('N16',1,38,'2964', null);
-INSERT INTO bus_routes VALUES('N16',1,39,'2965', null);
-INSERT INTO bus_routes VALUES('N16',1,40,'4219', null);
-INSERT INTO bus_routes VALUES('N16',2,1,'4219', null);
-INSERT INTO bus_routes VALUES('N16',2,2,'4090', null);
-INSERT INTO bus_routes VALUES('N16',2,3,'4091', null);
-INSERT INTO bus_routes VALUES('N16',2,4,'4188', null);
-INSERT INTO bus_routes VALUES('N16',2,5,'4186', null);
-INSERT INTO bus_routes VALUES('N16',2,6,'4184', null);
-INSERT INTO bus_routes VALUES('N16',2,7,'3051', null);
-INSERT INTO bus_routes VALUES('N16',2,8,'5059', null);
-INSERT INTO bus_routes VALUES('N16',2,9,'2454', null);
-INSERT INTO bus_routes VALUES('N16',2,10,'2455', null);
-INSERT INTO bus_routes VALUES('N16',2,11,'2451', null);
-INSERT INTO bus_routes VALUES('N16',2,12,'2449', null);
-INSERT INTO bus_routes VALUES('N16',2,13,'2447', null);
-INSERT INTO bus_routes VALUES('N16',2,14,'3041', null);
-INSERT INTO bus_routes VALUES('N16',2,15,'3037', null);
-INSERT INTO bus_routes VALUES('N16',2,16,'2470', null);
-INSERT INTO bus_routes VALUES('N16',2,17,'3034', null);
-INSERT INTO bus_routes VALUES('N16',2,18,'5600', null);
-INSERT INTO bus_routes VALUES('N16',2,19,'2547', null);
-INSERT INTO bus_routes VALUES('N16',2,20,'2549', null);
-INSERT INTO bus_routes VALUES('N16',2,21,'2551', null);
-INSERT INTO bus_routes VALUES('N16',2,22,'5506', null);
-INSERT INTO bus_routes VALUES('N16',2,23,'560', null);
-INSERT INTO bus_routes VALUES('N16',2,24,'558', null);
-INSERT INTO bus_routes VALUES('N16',2,25,'556', null);
-INSERT INTO bus_routes VALUES('N16',2,26,'592', null);
-INSERT INTO bus_routes VALUES('N16',2,27,'553', null);
-INSERT INTO bus_routes VALUES('N16',2,28,'551', null);
-INSERT INTO bus_routes VALUES('N16',2,29,'593', null);
-INSERT INTO bus_routes VALUES('N16',2,30,'1884', null);
-INSERT INTO bus_routes VALUES('N16',2,31,'1880', null);
-INSERT INTO bus_routes VALUES('N16',2,32,'1876', null);
-INSERT INTO bus_routes VALUES('N16',2,33,'171', null);
-INSERT INTO bus_routes VALUES('N16',2,34,'169', null);
-INSERT INTO bus_routes VALUES('N16',2,35,'723', null);
-INSERT INTO bus_routes VALUES('N16',2,36,'724', null);
-INSERT INTO bus_routes VALUES('N16',2,37,'5138', null);
-INSERT INTO bus_routes VALUES('N16',2,38,'90', null);
-INSERT INTO bus_routes VALUES('N16',2,39,'69', null);
-INSERT INTO bus_routes VALUES('N17',1,1,'69', null);
-INSERT INTO bus_routes VALUES('N17',1,2,'77', null);
-INSERT INTO bus_routes VALUES('N17',1,3,'79', null);
-INSERT INTO bus_routes VALUES('N17',1,4,'81', null);
-INSERT INTO bus_routes VALUES('N17',1,5,'83', null);
-INSERT INTO bus_routes VALUES('N17',1,6,'84', null);
-INSERT INTO bus_routes VALUES('N17',1,7,'2591', null);
-INSERT INTO bus_routes VALUES('N17',1,8,'2818', null);
-INSERT INTO bus_routes VALUES('N17',1,9,'5623', null);
-INSERT INTO bus_routes VALUES('N17',1,10,'2536', null);
-INSERT INTO bus_routes VALUES('N17',1,11,'2538', null);
-INSERT INTO bus_routes VALUES('N17',1,12,'2540', null);
-INSERT INTO bus_routes VALUES('N17',1,13,'3135', null);
-INSERT INTO bus_routes VALUES('N17',1,14,'2966', null);
-INSERT INTO bus_routes VALUES('N17',1,15,'4587', null);
-INSERT INTO bus_routes VALUES('N17',1,16,'5549', null);
-INSERT INTO bus_routes VALUES('N17',1,17,'5550', null);
-INSERT INTO bus_routes VALUES('N17',1,18,'4670', null);
-INSERT INTO bus_routes VALUES('N17',1,19,'341', null);
-INSERT INTO bus_routes VALUES('N17',1,20,'343', null);
-INSERT INTO bus_routes VALUES('N17',1,21,'4846', null);
-INSERT INTO bus_routes VALUES('N17',1,22,'4528', null);
-INSERT INTO bus_routes VALUES('N17',1,23,'1151', null);
-INSERT INTO bus_routes VALUES('N17',1,24,'1152', null);
-INSERT INTO bus_routes VALUES('N17',1,25,'1154', null);
-INSERT INTO bus_routes VALUES('N17',1,26,'1156', null);
-INSERT INTO bus_routes VALUES('N17',1,27,'379', null);
-INSERT INTO bus_routes VALUES('N17',1,28,'4019', null);
-INSERT INTO bus_routes VALUES('N17',1,29,'1158', null);
-INSERT INTO bus_routes VALUES('N17',1,30,'1159', null);
-INSERT INTO bus_routes VALUES('N17',1,31,'1160', null);
-INSERT INTO bus_routes VALUES('N17',1,32,'1161', null);
-INSERT INTO bus_routes VALUES('N17',1,33,'3632', null);
-INSERT INTO bus_routes VALUES('N17',1,34,'640', null);
-INSERT INTO bus_routes VALUES('N17',1,35,'3860', null);
-INSERT INTO bus_routes VALUES('N17',1,36,'562', null);
-INSERT INTO bus_routes VALUES('N17',2,1,'562', null);
-INSERT INTO bus_routes VALUES('N17',2,2,'3859', null);
-INSERT INTO bus_routes VALUES('N17',2,3,'687', null);
-INSERT INTO bus_routes VALUES('N17',2,4,'3633', null);
-INSERT INTO bus_routes VALUES('N17',2,5,'3631', null);
-INSERT INTO bus_routes VALUES('N17',2,6,'1162', null);
-INSERT INTO bus_routes VALUES('N17',2,7,'1164', null);
-INSERT INTO bus_routes VALUES('N17',2,8,'1165', null);
-INSERT INTO bus_routes VALUES('N17',2,9,'4020', null);
-INSERT INTO bus_routes VALUES('N17',2,10,'378', null);
-INSERT INTO bus_routes VALUES('N17',2,11,'1157', null);
-INSERT INTO bus_routes VALUES('N17',2,12,'1155', null);
-INSERT INTO bus_routes VALUES('N17',2,13,'1153', null);
-INSERT INTO bus_routes VALUES('N17',2,14,'589', null);
-INSERT INTO bus_routes VALUES('N17',2,15,'1150', null);
-INSERT INTO bus_routes VALUES('N17',2,16,'1149', null);
-INSERT INTO bus_routes VALUES('N17',2,17,'342', null);
-INSERT INTO bus_routes VALUES('N17',2,18,'4671', null);
-INSERT INTO bus_routes VALUES('N17',2,19,'5601', null);
-INSERT INTO bus_routes VALUES('N17',2,20,'2471', null);
-INSERT INTO bus_routes VALUES('N17',2,21,'2472', null);
-INSERT INTO bus_routes VALUES('N17',2,22,'5051', null);
-INSERT INTO bus_routes VALUES('N17',2,23,'2543', null);
-INSERT INTO bus_routes VALUES('N17',2,24,'2541', null);
-INSERT INTO bus_routes VALUES('N17',2,25,'2539', null);
-INSERT INTO bus_routes VALUES('N17',2,26,'2537', null);
-INSERT INTO bus_routes VALUES('N17',2,27,'2535', null);
-INSERT INTO bus_routes VALUES('N17',2,28,'5335', null);
-INSERT INTO bus_routes VALUES('N17',2,29,'2819', null);
-INSERT INTO bus_routes VALUES('N17',2,30,'2592', null);
-INSERT INTO bus_routes VALUES('N17',2,31,'85', null);
-INSERT INTO bus_routes VALUES('N17',2,32,'4985', null);
-INSERT INTO bus_routes VALUES('N17',2,33,'82', null);
-INSERT INTO bus_routes VALUES('N17',2,34,'5511', null);
-INSERT INTO bus_routes VALUES('N17',2,35,'78', null);
-INSERT INTO bus_routes VALUES('N17',2,36,'69', null);
-INSERT INTO bus_routes VALUES('N18',1,1,'69', null);
-INSERT INTO bus_routes VALUES('N18',1,2,'5137', null);
-INSERT INTO bus_routes VALUES('N18',1,3,'4094', null);
-INSERT INTO bus_routes VALUES('N18',1,4,'9', null);
-INSERT INTO bus_routes VALUES('N18',1,5,'168', null);
-INSERT INTO bus_routes VALUES('N18',1,6,'170', null);
-INSERT INTO bus_routes VALUES('N18',1,7,'599', null);
-INSERT INTO bus_routes VALUES('N18',1,8,'603', null);
-INSERT INTO bus_routes VALUES('N18',1,9,'4070', null);
-INSERT INTO bus_routes VALUES('N18',1,10,'608', null);
-INSERT INTO bus_routes VALUES('N18',1,11,'871', null);
-INSERT INTO bus_routes VALUES('N18',1,12,'4542', null);
-INSERT INTO bus_routes VALUES('N18',1,13,'1454', null);
-INSERT INTO bus_routes VALUES('N18',1,14,'4633', null);
-INSERT INTO bus_routes VALUES('N18',1,15,'1459', null);
-INSERT INTO bus_routes VALUES('N18',1,16,'1463', null);
-INSERT INTO bus_routes VALUES('N18',1,17,'1467', null);
-INSERT INTO bus_routes VALUES('N18',1,18,'1471', null);
-INSERT INTO bus_routes VALUES('N18',1,19,'1474', null);
-INSERT INTO bus_routes VALUES('N18',1,20,'4782', null);
-INSERT INTO bus_routes VALUES('N18',1,21,'5094', null);
-INSERT INTO bus_routes VALUES('N18',1,22,'621', null);
-INSERT INTO bus_routes VALUES('N18',1,23,'623', null);
-INSERT INTO bus_routes VALUES('N18',1,24,'625', null);
-INSERT INTO bus_routes VALUES('N18',1,25,'5178', null);
-INSERT INTO bus_routes VALUES('N18',1,26,'629', null);
-INSERT INTO bus_routes VALUES('N18',1,27,'631', null);
-INSERT INTO bus_routes VALUES('N18',1,28,'3416', null);
-INSERT INTO bus_routes VALUES('N18',1,29,'3417', null);
-INSERT INTO bus_routes VALUES('N18',1,30,'5064', null);
-INSERT INTO bus_routes VALUES('N18',2,1,'5064', null);
-INSERT INTO bus_routes VALUES('N18',2,2,'2276', null);
-INSERT INTO bus_routes VALUES('N18',2,3,'2274', null);
-INSERT INTO bus_routes VALUES('N18',2,4,'2272', null);
-INSERT INTO bus_routes VALUES('N18',2,5,'630', null);
-INSERT INTO bus_routes VALUES('N18',2,6,'5179', null);
-INSERT INTO bus_routes VALUES('N18',2,7,'626', null);
-INSERT INTO bus_routes VALUES('N18',2,8,'624', null);
-INSERT INTO bus_routes VALUES('N18',2,9,'622', null);
-INSERT INTO bus_routes VALUES('N18',2,10,'2262', null);
-INSERT INTO bus_routes VALUES('N18',2,11,'2558', null);
-INSERT INTO bus_routes VALUES('N18',2,12,'1475', null);
-INSERT INTO bus_routes VALUES('N18',2,13,'1470', null);
-INSERT INTO bus_routes VALUES('N18',2,14,'1468', null);
-INSERT INTO bus_routes VALUES('N18',2,15,'1464', null);
-INSERT INTO bus_routes VALUES('N18',2,16,'1460', null);
-INSERT INTO bus_routes VALUES('N18',2,17,'4634', null);
-INSERT INTO bus_routes VALUES('N18',2,18,'1455', null);
-INSERT INTO bus_routes VALUES('N18',2,19,'1456', null);
-INSERT INTO bus_routes VALUES('N18',2,20,'872', null);
-INSERT INTO bus_routes VALUES('N18',2,21,'609', null);
-INSERT INTO bus_routes VALUES('N18',2,22,'604', null);
-INSERT INTO bus_routes VALUES('N18',2,23,'742', null);
-INSERT INTO bus_routes VALUES('N18',2,24,'171', null);
-INSERT INTO bus_routes VALUES('N18',2,25,'169', null);
-INSERT INTO bus_routes VALUES('N18',2,26,'723', null);
-INSERT INTO bus_routes VALUES('N18',2,27,'724', null);
-INSERT INTO bus_routes VALUES('N18',2,28,'5138', null);
-INSERT INTO bus_routes VALUES('N18',2,29,'69', null);
-INSERT INTO bus_routes VALUES('N19',1,1,'69', null);
-INSERT INTO bus_routes VALUES('N19',1,2,'5137', null);
-INSERT INTO bus_routes VALUES('N19',1,3,'4094', null);
-INSERT INTO bus_routes VALUES('N19',1,4,'9', null);
-INSERT INTO bus_routes VALUES('N19',1,5,'168', null);
-INSERT INTO bus_routes VALUES('N19',1,6,'170', null);
-INSERT INTO bus_routes VALUES('N19',1,7,'599', null);
-INSERT INTO bus_routes VALUES('N19',1,8,'603', null);
-INSERT INTO bus_routes VALUES('N19',1,9,'4070', null);
-INSERT INTO bus_routes VALUES('N19',1,10,'608', null);
-INSERT INTO bus_routes VALUES('N19',1,11,'871', null);
-INSERT INTO bus_routes VALUES('N19',1,12,'873', null);
-INSERT INTO bus_routes VALUES('N19',1,13,'875', null);
-INSERT INTO bus_routes VALUES('N19',1,14,'877', null);
-INSERT INTO bus_routes VALUES('N19',1,15,'879', null);
-INSERT INTO bus_routes VALUES('N19',1,16,'881', null);
-INSERT INTO bus_routes VALUES('N19',1,17,'882', null);
-INSERT INTO bus_routes VALUES('N19',1,18,'884', null);
-INSERT INTO bus_routes VALUES('N19',1,19,'886', null);
-INSERT INTO bus_routes VALUES('N19',1,20,'888', null);
-INSERT INTO bus_routes VALUES('N19',1,21,'890', null);
-INSERT INTO bus_routes VALUES('N19',1,22,'892', null);
-INSERT INTO bus_routes VALUES('N19',1,23,'894', null);
-INSERT INTO bus_routes VALUES('N19',1,24,'896', null);
-INSERT INTO bus_routes VALUES('N19',1,25,'898', null);
-INSERT INTO bus_routes VALUES('N19',1,26,'900', null);
-INSERT INTO bus_routes VALUES('N19',1,27,'901', null);
-INSERT INTO bus_routes VALUES('N19',1,28,'4482', null);
-INSERT INTO bus_routes VALUES('N19',1,29,'644', null);
-INSERT INTO bus_routes VALUES('N19',1,30,'646', null);
-INSERT INTO bus_routes VALUES('N19',1,31,'5215', null);
-INSERT INTO bus_routes VALUES('N19',1,32,'3150', null);
-INSERT INTO bus_routes VALUES('N19',1,33,'374', null);
-INSERT INTO bus_routes VALUES('N19',1,34,'375', null);
-INSERT INTO bus_routes VALUES('N19',2,1,'375', null);
-INSERT INTO bus_routes VALUES('N19',2,2,'366', null);
-INSERT INTO bus_routes VALUES('N19',2,3,'364', null);
-INSERT INTO bus_routes VALUES('N19',2,4,'362', null);
-INSERT INTO bus_routes VALUES('N19',2,5,'360', null);
-INSERT INTO bus_routes VALUES('N19',2,6,'5640', null);
-INSERT INTO bus_routes VALUES('N19',2,7,'5641', null);
-INSERT INTO bus_routes VALUES('N19',2,8,'651', null);
-INSERT INTO bus_routes VALUES('N19',2,9,'3809', null);
-INSERT INTO bus_routes VALUES('N19',2,10,'5159', null);
-INSERT INTO bus_routes VALUES('N19',2,11,'647', null);
-INSERT INTO bus_routes VALUES('N19',2,12,'909', null);
-INSERT INTO bus_routes VALUES('N19',2,13,'910', null);
-INSERT INTO bus_routes VALUES('N19',2,14,'899', null);
-INSERT INTO bus_routes VALUES('N19',2,15,'897', null);
-INSERT INTO bus_routes VALUES('N19',2,16,'895', null);
-INSERT INTO bus_routes VALUES('N19',2,17,'893', null);
-INSERT INTO bus_routes VALUES('N19',2,18,'889', null);
-INSERT INTO bus_routes VALUES('N19',2,19,'887', null);
-INSERT INTO bus_routes VALUES('N19',2,20,'885', null);
-INSERT INTO bus_routes VALUES('N19',2,21,'883', null);
-INSERT INTO bus_routes VALUES('N19',2,22,'911', null);
-INSERT INTO bus_routes VALUES('N19',2,23,'880', null);
-INSERT INTO bus_routes VALUES('N19',2,24,'878', null);
-INSERT INTO bus_routes VALUES('N19',2,25,'876', null);
-INSERT INTO bus_routes VALUES('N19',2,26,'874', null);
-INSERT INTO bus_routes VALUES('N19',2,27,'872', null);
-INSERT INTO bus_routes VALUES('N19',2,28,'609', null);
-INSERT INTO bus_routes VALUES('N19',2,29,'604', null);
-INSERT INTO bus_routes VALUES('N19',2,30,'742', null);
-INSERT INTO bus_routes VALUES('N19',2,31,'171', null);
-INSERT INTO bus_routes VALUES('N19',2,32,'169', null);
-INSERT INTO bus_routes VALUES('N19',2,33,'723', null);
-INSERT INTO bus_routes VALUES('N19',2,34,'724', null);
-INSERT INTO bus_routes VALUES('N19',2,35,'5138', null);
-INSERT INTO bus_routes VALUES('N19',2,36,'69', null);
-INSERT INTO bus_routes VALUES('52',1,1,'1773', null);
-INSERT INTO bus_routes VALUES('52',1,2,'90', null);
-INSERT INTO bus_routes VALUES('52',1,3,'70', null);
-INSERT INTO bus_routes VALUES('52',1,4,'162', null);
-INSERT INTO bus_routes VALUES('52',1,5,'751', null);
-INSERT INTO bus_routes VALUES('52',1,6,'2225', null);
-INSERT INTO bus_routes VALUES('52',1,7,'2227', null);
-INSERT INTO bus_routes VALUES('52',1,8,'2229', null);
-INSERT INTO bus_routes VALUES('52',1,9,'4052', null);
-INSERT INTO bus_routes VALUES('52',1,10,'2233', null);
-INSERT INTO bus_routes VALUES('52',1,11,'5787', null);
-INSERT INTO bus_routes VALUES('52',1,12,'5237', null);
-INSERT INTO bus_routes VALUES('52',1,13,'2239', null);
-INSERT INTO bus_routes VALUES('52',1,14,'2241', null);
-INSERT INTO bus_routes VALUES('52',1,15,'2243', null);
-INSERT INTO bus_routes VALUES('52',1,16,'414', null);
-INSERT INTO bus_routes VALUES('52',1,17,'412', null);
-INSERT INTO bus_routes VALUES('52',1,18,'2503', null);
-INSERT INTO bus_routes VALUES('52',1,19,'2504', null);
-INSERT INTO bus_routes VALUES('52',1,20,'2505', null);
-INSERT INTO bus_routes VALUES('52',1,21,'2506', null);
-INSERT INTO bus_routes VALUES('52',1,22,'2507', null);
-INSERT INTO bus_routes VALUES('52',1,23,'2508', null);
-INSERT INTO bus_routes VALUES('52',2,1,'2508', null);
-INSERT INTO bus_routes VALUES('52',2,2,'2509', null);
-INSERT INTO bus_routes VALUES('52',2,3,'2510', null);
-INSERT INTO bus_routes VALUES('52',2,4,'2511', null);
-INSERT INTO bus_routes VALUES('52',2,5,'2512', null);
-INSERT INTO bus_routes VALUES('52',2,6,'2513', null);
-INSERT INTO bus_routes VALUES('52',2,7,'413', null);
-INSERT INTO bus_routes VALUES('52',2,8,'415', null);
-INSERT INTO bus_routes VALUES('52',2,9,'2244', null);
-INSERT INTO bus_routes VALUES('52',2,10,'2242', null);
-INSERT INTO bus_routes VALUES('52',2,11,'2240', null);
-INSERT INTO bus_routes VALUES('52',2,12,'2238', null);
-INSERT INTO bus_routes VALUES('52',2,13,'2236', null);
-INSERT INTO bus_routes VALUES('52',2,14,'2234', null);
-INSERT INTO bus_routes VALUES('52',2,15,'2232', null);
-INSERT INTO bus_routes VALUES('52',2,16,'2230', null);
-INSERT INTO bus_routes VALUES('52',2,17,'2228', null);
-INSERT INTO bus_routes VALUES('52',2,18,'4925', null);
-INSERT INTO bus_routes VALUES('52',2,19,'4055', null);
-INSERT INTO bus_routes VALUES('52',2,20,'161', null);
-INSERT INTO bus_routes VALUES('52',2,21,'69', null);
-INSERT INTO bus_routes VALUES('52',2,22,'1773', null);
-INSERT INTO bus_routes VALUES('N20',1,1,'3729', null);
-INSERT INTO bus_routes VALUES('N20',1,2,'5137', null);
-INSERT INTO bus_routes VALUES('N20',1,3,'4094', null);
-INSERT INTO bus_routes VALUES('N20',1,4,'9', null);
-INSERT INTO bus_routes VALUES('N20',1,5,'168', null);
-INSERT INTO bus_routes VALUES('N20',1,6,'170', null);
-INSERT INTO bus_routes VALUES('N20',1,7,'599', null);
-INSERT INTO bus_routes VALUES('N20',1,8,'603', null);
-INSERT INTO bus_routes VALUES('N20',1,9,'2296', null);
-INSERT INTO bus_routes VALUES('N20',1,10,'860', null);
-INSERT INTO bus_routes VALUES('N20',1,11,'2407', null);
-INSERT INTO bus_routes VALUES('N20',1,12,'2411', null);
-INSERT INTO bus_routes VALUES('N20',1,13,'4499', null);
-INSERT INTO bus_routes VALUES('N20',1,14,'4500', null);
-INSERT INTO bus_routes VALUES('N20',1,15,'2415', null);
-INSERT INTO bus_routes VALUES('N20',1,16,'1684', null);
-INSERT INTO bus_routes VALUES('N20',1,17,'1687', null);
-INSERT INTO bus_routes VALUES('N20',1,18,'1691', null);
-INSERT INTO bus_routes VALUES('N20',1,19,'1693', null);
-INSERT INTO bus_routes VALUES('N20',1,20,'4285', null);
-INSERT INTO bus_routes VALUES('N20',1,21,'1697', null);
-INSERT INTO bus_routes VALUES('N20',1,22,'1699', null);
-INSERT INTO bus_routes VALUES('N20',1,23,'1701', null);
-INSERT INTO bus_routes VALUES('N20',1,24,'1703', null);
-INSERT INTO bus_routes VALUES('N20',1,25,'1705', null);
-INSERT INTO bus_routes VALUES('N20',1,26,'3391', null);
-INSERT INTO bus_routes VALUES('N20',1,27,'1711', null);
-INSERT INTO bus_routes VALUES('N20',1,28,'3733', null);
-INSERT INTO bus_routes VALUES('N20',1,29,'3821', null);
-INSERT INTO bus_routes VALUES('N20',1,30,'1593', null);
-INSERT INTO bus_routes VALUES('N20',1,31,'1353', null);
-INSERT INTO bus_routes VALUES('N20',1,32,'1720', null);
-INSERT INTO bus_routes VALUES('N20',1,33,'1722', null);
-INSERT INTO bus_routes VALUES('N20',1,34,'1724', null);
-INSERT INTO bus_routes VALUES('N20',1,35,'1726', null);
-INSERT INTO bus_routes VALUES('N20',1,36,'1632', null);
-INSERT INTO bus_routes VALUES('N20',1,37,'4819', null);
-INSERT INTO bus_routes VALUES('N20',1,38,'4823', null);
-INSERT INTO bus_routes VALUES('N20',1,39,'4292', null);
-INSERT INTO bus_routes VALUES('N20',2,1,'4292', null);
-INSERT INTO bus_routes VALUES('N20',2,2,'4824', null);
-INSERT INTO bus_routes VALUES('N20',2,3,'4820', null);
-INSERT INTO bus_routes VALUES('N20',2,4,'1630', null);
-INSERT INTO bus_routes VALUES('N20',2,5,'1628', null);
-INSERT INTO bus_routes VALUES('N20',2,6,'1626', null);
-INSERT INTO bus_routes VALUES('N20',2,7,'1551', null);
-INSERT INTO bus_routes VALUES('N20',2,8,'1598', null);
-INSERT INTO bus_routes VALUES('N20',2,9,'1522', null);
-INSERT INTO bus_routes VALUES('N20',2,10,'1592', null);
-INSERT INTO bus_routes VALUES('N20',2,11,'1590', null);
-INSERT INTO bus_routes VALUES('N20',2,12,'1588', null);
-INSERT INTO bus_routes VALUES('N20',2,13,'1706', null);
-INSERT INTO bus_routes VALUES('N20',2,14,'1704', null);
-INSERT INTO bus_routes VALUES('N20',2,15,'5309', null);
-INSERT INTO bus_routes VALUES('N20',2,16,'1700', null);
-INSERT INTO bus_routes VALUES('N20',2,17,'1698', null);
-INSERT INTO bus_routes VALUES('N20',2,18,'1696', null);
-INSERT INTO bus_routes VALUES('N20',2,19,'1694', null);
-INSERT INTO bus_routes VALUES('N20',2,20,'1692', null);
-INSERT INTO bus_routes VALUES('N20',2,21,'1688', null);
-INSERT INTO bus_routes VALUES('N20',2,22,'1685', null);
-INSERT INTO bus_routes VALUES('N20',2,23,'2416', null);
-INSERT INTO bus_routes VALUES('N20',2,24,'2414', null);
-INSERT INTO bus_routes VALUES('N20',2,25,'4295', null);
-INSERT INTO bus_routes VALUES('N20',2,26,'2412', null);
-INSERT INTO bus_routes VALUES('N20',2,27,'2408', null);
-INSERT INTO bus_routes VALUES('N20',2,28,'861', null);
-INSERT INTO bus_routes VALUES('N20',2,29,'857', null);
-INSERT INTO bus_routes VALUES('N20',2,30,'604', null);
-INSERT INTO bus_routes VALUES('N20',2,31,'742', null);
-INSERT INTO bus_routes VALUES('N20',2,32,'171', null);
-INSERT INTO bus_routes VALUES('N20',2,33,'169', null);
-INSERT INTO bus_routes VALUES('N20',2,34,'723', null);
-INSERT INTO bus_routes VALUES('N20',2,35,'724', null);
-INSERT INTO bus_routes VALUES('N20',2,36,'5138', null);
-INSERT INTO bus_routes VALUES('N20',2,37,'3729', null);
-INSERT INTO bus_routes VALUES('N21',1,1,'3729', null);
-INSERT INTO bus_routes VALUES('N21',1,2,'5137', null);
-INSERT INTO bus_routes VALUES('N21',1,3,'4094', null);
-INSERT INTO bus_routes VALUES('N21',1,4,'9', null);
-INSERT INTO bus_routes VALUES('N21',1,5,'168', null);
-INSERT INTO bus_routes VALUES('N21',1,6,'283', null);
-INSERT INTO bus_routes VALUES('N21',1,7,'1750', null);
-INSERT INTO bus_routes VALUES('N21',1,8,'172', null);
-INSERT INTO bus_routes VALUES('N21',1,9,'736', null);
-INSERT INTO bus_routes VALUES('N21',1,10,'738', null);
-INSERT INTO bus_routes VALUES('N21',1,11,'3688', null);
-INSERT INTO bus_routes VALUES('N21',1,12,'4021', null);
-INSERT INTO bus_routes VALUES('N21',1,13,'803', null);
-INSERT INTO bus_routes VALUES('N21',1,14,'2392', null);
-INSERT INTO bus_routes VALUES('N21',1,15,'2394', null);
-INSERT INTO bus_routes VALUES('N21',1,16,'1666', null);
-INSERT INTO bus_routes VALUES('N21',1,17,'1670', null);
-INSERT INTO bus_routes VALUES('N21',1,18,'1672', null);
-INSERT INTO bus_routes VALUES('N21',1,19,'1674', null);
-INSERT INTO bus_routes VALUES('N21',1,20,'1577', null);
-INSERT INTO bus_routes VALUES('N21',1,21,'1643', null);
-INSERT INTO bus_routes VALUES('N21',1,22,'1645', null);
-INSERT INTO bus_routes VALUES('N21',1,23,'1647', null);
-INSERT INTO bus_routes VALUES('N21',1,24,'1649', null);
-INSERT INTO bus_routes VALUES('N21',1,25,'1653', null);
-INSERT INTO bus_routes VALUES('N21',1,26,'1655', null);
-INSERT INTO bus_routes VALUES('N21',1,27,'1657', null);
-INSERT INTO bus_routes VALUES('N21',1,28,'1516', null);
-INSERT INTO bus_routes VALUES('N21',1,29,'1514', null);
-INSERT INTO bus_routes VALUES('N21',1,30,'1624', null);
-INSERT INTO bus_routes VALUES('N21',1,31,'1622', null);
-INSERT INTO bus_routes VALUES('N21',1,32,'1620', null);
-INSERT INTO bus_routes VALUES('N21',1,33,'1361', null);
-INSERT INTO bus_routes VALUES('N21',1,34,'1595', null);
-INSERT INTO bus_routes VALUES('N21',1,35,'1564', null);
-INSERT INTO bus_routes VALUES('N21',1,36,'4735', null);
-INSERT INTO bus_routes VALUES('N21',1,37,'5207', null);
-INSERT INTO bus_routes VALUES('N21',1,38,'5223', null);
-INSERT INTO bus_routes VALUES('N21',2,1,'5223', null);
-INSERT INTO bus_routes VALUES('N21',2,2,'1596', null);
-INSERT INTO bus_routes VALUES('N21',2,3,'1358', null);
-INSERT INTO bus_routes VALUES('N21',2,4,'1619', null);
-INSERT INTO bus_routes VALUES('N21',2,5,'1621', null);
-INSERT INTO bus_routes VALUES('N21',2,6,'1623', null);
-INSERT INTO bus_routes VALUES('N21',2,7,'1513', null);
-INSERT INTO bus_routes VALUES('N21',2,8,'1515', null);
-INSERT INTO bus_routes VALUES('N21',2,9,'1658', null);
-INSERT INTO bus_routes VALUES('N21',2,10,'1656', null);
-INSERT INTO bus_routes VALUES('N21',2,11,'1654', null);
-INSERT INTO bus_routes VALUES('N21',2,12,'1650', null);
-INSERT INTO bus_routes VALUES('N21',2,13,'1648', null);
-INSERT INTO bus_routes VALUES('N21',2,14,'1646', null);
-INSERT INTO bus_routes VALUES('N21',2,15,'1644', null);
-INSERT INTO bus_routes VALUES('N21',2,16,'1578', null);
-INSERT INTO bus_routes VALUES('N21',2,17,'1675', null);
-INSERT INTO bus_routes VALUES('N21',2,18,'1673', null);
-INSERT INTO bus_routes VALUES('N21',2,19,'1671', null);
-INSERT INTO bus_routes VALUES('N21',2,20,'1667', null);
-INSERT INTO bus_routes VALUES('N21',2,21,'2395', null);
-INSERT INTO bus_routes VALUES('N21',2,22,'2393', null);
-INSERT INTO bus_routes VALUES('N21',2,23,'2389', null);
-INSERT INTO bus_routes VALUES('N21',2,24,'4022', null);
-INSERT INTO bus_routes VALUES('N21',2,25,'3687', null);
-INSERT INTO bus_routes VALUES('N21',2,26,'737', null);
-INSERT INTO bus_routes VALUES('N21',2,27,'735', null);
-INSERT INTO bus_routes VALUES('N21',2,28,'173', null);
-INSERT INTO bus_routes VALUES('N21',2,29,'741', null);
-INSERT INTO bus_routes VALUES('N21',2,30,'171', null);
-INSERT INTO bus_routes VALUES('N21',2,31,'169', null);
-INSERT INTO bus_routes VALUES('N21',2,32,'723', null);
-INSERT INTO bus_routes VALUES('N21',2,33,'724', null);
-INSERT INTO bus_routes VALUES('N21',2,34,'5138', null);
-INSERT INTO bus_routes VALUES('N21',2,35,'3729', null);
-INSERT INTO bus_routes VALUES('N22',1,1,'72', null);
-INSERT INTO bus_routes VALUES('N22',1,2,'72', null);
-INSERT INTO bus_routes VALUES('N22',1,3,'65', null);
-INSERT INTO bus_routes VALUES('N22',1,4,'66', null);
-INSERT INTO bus_routes VALUES('N22',1,5,'66', null);
-INSERT INTO bus_routes VALUES('N22',1,6,'62', null);
-INSERT INTO bus_routes VALUES('N22',1,7,'60', null);
-INSERT INTO bus_routes VALUES('N22',1,8,'5333', null);
-INSERT INTO bus_routes VALUES('N22',1,9,'56', null);
-INSERT INTO bus_routes VALUES('N22',1,10,'54', null);
-INSERT INTO bus_routes VALUES('N22',1,11,'52', null);
-INSERT INTO bus_routes VALUES('N22',1,12,'50', null);
-INSERT INTO bus_routes VALUES('N22',1,13,'47', null);
-INSERT INTO bus_routes VALUES('N22',1,14,'42', null);
-INSERT INTO bus_routes VALUES('N22',1,15,'37', null);
-INSERT INTO bus_routes VALUES('N22',1,16,'35', null);
-INSERT INTO bus_routes VALUES('N22',1,17,'33', null);
-INSERT INTO bus_routes VALUES('N22',1,18,'29', null);
-INSERT INTO bus_routes VALUES('N22',1,19,'1532', null);
-INSERT INTO bus_routes VALUES('N22',1,20,'5632', null);
-INSERT INTO bus_routes VALUES('N22',1,21,'5633', null);
-INSERT INTO bus_routes VALUES('N22',1,22,'5634', null);
-INSERT INTO bus_routes VALUES('N22',1,23,'5635', null);
-INSERT INTO bus_routes VALUES('N22',1,24,'5636', null);
-INSERT INTO bus_routes VALUES('N22',1,25,'4264', null);
-INSERT INTO bus_routes VALUES('N22',1,26,'4354', null);
-INSERT INTO bus_routes VALUES('N22',1,27,'1542', null);
-INSERT INTO bus_routes VALUES('N22',1,28,'1503', null);
-INSERT INTO bus_routes VALUES('N22',1,29,'1364', null);
-INSERT INTO bus_routes VALUES('N22',1,30,'1366', null);
-INSERT INTO bus_routes VALUES('N22',1,31,'1368', null);
-INSERT INTO bus_routes VALUES('N22',1,32,'1546', null);
-INSERT INTO bus_routes VALUES('N22',1,33,'5218', null);
-INSERT INTO bus_routes VALUES('N22',1,34,'1375', null);
-INSERT INTO bus_routes VALUES('N22',1,35,'1379', null);
-INSERT INTO bus_routes VALUES('N22',1,36,'1371', null);
-INSERT INTO bus_routes VALUES('N22',1,37,'1369', null);
-INSERT INTO bus_routes VALUES('N22',2,1,'1369', null);
-INSERT INTO bus_routes VALUES('N22',2,2,'1367', null);
-INSERT INTO bus_routes VALUES('N22',2,3,'1365', null);
-INSERT INTO bus_routes VALUES('N22',2,4,'1504', null);
-INSERT INTO bus_routes VALUES('N22',2,5,'1543', null);
-INSERT INTO bus_routes VALUES('N22',2,6,'4355', null);
-INSERT INTO bus_routes VALUES('N22',2,7,'1539', null);
-INSERT INTO bus_routes VALUES('N22',2,8,'1537', null);
-INSERT INTO bus_routes VALUES('N22',2,9,'1535', null);
-INSERT INTO bus_routes VALUES('N22',2,10,'5268', null);
-INSERT INTO bus_routes VALUES('N22',2,11,'1533', null);
-INSERT INTO bus_routes VALUES('N22',2,12,'28', null);
-INSERT INTO bus_routes VALUES('N22',2,13,'32', null);
-INSERT INTO bus_routes VALUES('N22',2,14,'34', null);
-INSERT INTO bus_routes VALUES('N22',2,15,'36', null);
-INSERT INTO bus_routes VALUES('N22',2,16,'41', null);
-INSERT INTO bus_routes VALUES('N22',2,17,'46', null);
-INSERT INTO bus_routes VALUES('N22',2,18,'49', null);
-INSERT INTO bus_routes VALUES('N22',2,19,'51', null);
-INSERT INTO bus_routes VALUES('N22',2,20,'53', null);
-INSERT INTO bus_routes VALUES('N22',2,21,'4337', null);
-INSERT INTO bus_routes VALUES('N22',2,22,'57', null);
-INSERT INTO bus_routes VALUES('N22',2,23,'59', null);
-INSERT INTO bus_routes VALUES('N22',2,24,'61', null);
-INSERT INTO bus_routes VALUES('N22',2,25,'63', null);
-INSERT INTO bus_routes VALUES('N22',2,26,'5626', null);
-INSERT INTO bus_routes VALUES('N22',2,27,'72', null);
-INSERT INTO bus_routes VALUES('N22',2,28,'72', null);
-INSERT INTO bus_routes VALUES('N23',1,1,'73', null);
-INSERT INTO bus_routes VALUES('N23',1,2,'65', null);
-INSERT INTO bus_routes VALUES('N23',1,3,'1232', null);
-INSERT INTO bus_routes VALUES('N23',1,4,'1230', null);
-INSERT INTO bus_routes VALUES('N23',1,5,'1865', null);
-INSERT INTO bus_routes VALUES('N23',1,6,'1868', null);
-INSERT INTO bus_routes VALUES('N23',1,7,'1869', null);
-INSERT INTO bus_routes VALUES('N23',1,8,'1397', null);
-INSERT INTO bus_routes VALUES('N23',1,9,'1398', null);
-INSERT INTO bus_routes VALUES('N23',1,10,'1420', null);
-INSERT INTO bus_routes VALUES('N23',1,11,'1568', null);
-INSERT INTO bus_routes VALUES('N23',1,12,'1571', null);
-INSERT INTO bus_routes VALUES('N23',1,13,'4083', null);
-INSERT INTO bus_routes VALUES('N23',1,14,'2651', null);
-INSERT INTO bus_routes VALUES('N23',1,15,'1533', null);
-INSERT INTO bus_routes VALUES('N23',1,16,'5014', null);
-INSERT INTO bus_routes VALUES('N23',1,17,'5016', null);
-INSERT INTO bus_routes VALUES('N23',1,18,'5018', null);
-INSERT INTO bus_routes VALUES('N23',1,19,'5020', null);
-INSERT INTO bus_routes VALUES('N23',1,20,'5212', null);
-INSERT INTO bus_routes VALUES('N23',1,21,'5213', null);
-INSERT INTO bus_routes VALUES('N23',1,22,'1544', null);
-INSERT INTO bus_routes VALUES('N23',1,23,'1546', null);
-INSERT INTO bus_routes VALUES('N23',1,24,'1636', null);
-INSERT INTO bus_routes VALUES('N23',1,25,'5382', null);
-INSERT INTO bus_routes VALUES('N23',1,26,'1637', null);
-INSERT INTO bus_routes VALUES('N23',1,27,'3293', null);
-INSERT INTO bus_routes VALUES('N23',1,28,'3294', null);
-INSERT INTO bus_routes VALUES('N23',1,29,'3571', null);
-INSERT INTO bus_routes VALUES('N23',1,30,'1753', null);
-INSERT INTO bus_routes VALUES('N23',1,31,'1762', null);
-INSERT INTO bus_routes VALUES('N23',1,32,'3623', null);
-INSERT INTO bus_routes VALUES('N23',1,33,'2864', null);
-INSERT INTO bus_routes VALUES('N23',1,34,'2968', null);
-INSERT INTO bus_routes VALUES('N23',1,35,'2970', null);
-INSERT INTO bus_routes VALUES('N23',1,36,'1021', null);
-INSERT INTO bus_routes VALUES('N23',1,37,'1022', null);
-INSERT INTO bus_routes VALUES('N23',1,38,'1025', null);
-INSERT INTO bus_routes VALUES('N23',1,39,'3279', null);
-INSERT INTO bus_routes VALUES('N23',2,1,'3279', null);
-INSERT INTO bus_routes VALUES('N23',2,2,'1026', null);
-INSERT INTO bus_routes VALUES('N23',2,3,'1028', null);
-INSERT INTO bus_routes VALUES('N23',2,4,'1029', null);
-INSERT INTO bus_routes VALUES('N23',2,5,'3626', null);
-INSERT INTO bus_routes VALUES('N23',2,6,'3628', null);
-INSERT INTO bus_routes VALUES('N23',2,7,'3625', null);
-INSERT INTO bus_routes VALUES('N23',2,8,'3624', null);
-INSERT INTO bus_routes VALUES('N23',2,9,'3622', null);
-INSERT INTO bus_routes VALUES('N23',2,10,'1761', null);
-INSERT INTO bus_routes VALUES('N23',2,11,'3996', null);
-INSERT INTO bus_routes VALUES('N23',2,12,'3572', null);
-INSERT INTO bus_routes VALUES('N23',2,13,'3295', null);
-INSERT INTO bus_routes VALUES('N23',2,14,'3228', null);
-INSERT INTO bus_routes VALUES('N23',2,15,'3229', null);
-INSERT INTO bus_routes VALUES('N23',2,16,'1612', null);
-INSERT INTO bus_routes VALUES('N23',2,17,'1547', null);
-INSERT INTO bus_routes VALUES('N23',2,18,'1545', null);
-INSERT INTO bus_routes VALUES('N23',2,19,'1778', null);
-INSERT INTO bus_routes VALUES('N23',2,20,'1777', null);
-INSERT INTO bus_routes VALUES('N23',2,21,'5021', null);
-INSERT INTO bus_routes VALUES('N23',2,22,'5019', null);
-INSERT INTO bus_routes VALUES('N23',2,23,'5017', null);
-INSERT INTO bus_routes VALUES('N23',2,24,'5015', null);
-INSERT INTO bus_routes VALUES('N23',2,25,'1532', null);
-INSERT INTO bus_routes VALUES('N23',2,26,'4147', null);
-INSERT INTO bus_routes VALUES('N23',2,27,'569', null);
-INSERT INTO bus_routes VALUES('N23',2,28,'1859', null);
-INSERT INTO bus_routes VALUES('N23',2,29,'1600', null);
-INSERT INTO bus_routes VALUES('N23',2,30,'1419', null);
-INSERT INTO bus_routes VALUES('N23',2,31,'4496', null);
-INSERT INTO bus_routes VALUES('N23',2,32,'1383', null);
-INSERT INTO bus_routes VALUES('N23',2,33,'3389', null);
-INSERT INTO bus_routes VALUES('N23',2,34,'3379', null);
-INSERT INTO bus_routes VALUES('N23',2,35,'3375', null);
-INSERT INTO bus_routes VALUES('N23',2,36,'1227', null);
-INSERT INTO bus_routes VALUES('N23',2,37,'1229', null);
-INSERT INTO bus_routes VALUES('N23',2,38,'5626', null);
-INSERT INTO bus_routes VALUES('N23',2,39,'73', null);
-INSERT INTO bus_routes VALUES('N24',1,1,'72', null);
-INSERT INTO bus_routes VALUES('N24',1,2,'72', null);
-INSERT INTO bus_routes VALUES('N24',1,3,'65', null);
-INSERT INTO bus_routes VALUES('N24',1,4,'66', null);
-INSERT INTO bus_routes VALUES('N24',1,5,'66', null);
-INSERT INTO bus_routes VALUES('N24',1,6,'62', null);
-INSERT INTO bus_routes VALUES('N24',1,7,'60', null);
-INSERT INTO bus_routes VALUES('N24',1,8,'5333', null);
-INSERT INTO bus_routes VALUES('N24',1,9,'56', null);
-INSERT INTO bus_routes VALUES('N24',1,10,'54', null);
-INSERT INTO bus_routes VALUES('N24',1,11,'52', null);
-INSERT INTO bus_routes VALUES('N24',1,12,'50', null);
-INSERT INTO bus_routes VALUES('N24',1,13,'47', null);
-INSERT INTO bus_routes VALUES('N24',1,14,'42', null);
-INSERT INTO bus_routes VALUES('N24',1,15,'37', null);
-INSERT INTO bus_routes VALUES('N24',1,16,'35', null);
-INSERT INTO bus_routes VALUES('N24',1,17,'33', null);
-INSERT INTO bus_routes VALUES('N24',1,18,'29', null);
-INSERT INTO bus_routes VALUES('N24',1,19,'1486', null);
-INSERT INTO bus_routes VALUES('N24',1,20,'1487', null);
-INSERT INTO bus_routes VALUES('N24',1,21,'3826', null);
-INSERT INTO bus_routes VALUES('N24',1,22,'1489', null);
-INSERT INTO bus_routes VALUES('N24',1,23,'1602', null);
-INSERT INTO bus_routes VALUES('N24',1,24,'1606', null);
-INSERT INTO bus_routes VALUES('N24',1,25,'3222', null);
-INSERT INTO bus_routes VALUES('N24',1,26,'3223', null);
-INSERT INTO bus_routes VALUES('N24',1,27,'2664', null);
-INSERT INTO bus_routes VALUES('N24',1,28,'2666', null);
-INSERT INTO bus_routes VALUES('N24',1,29,'2668', null);
-INSERT INTO bus_routes VALUES('N24',1,30,'2670', null);
-INSERT INTO bus_routes VALUES('N24',1,31,'2672', null);
-INSERT INTO bus_routes VALUES('N24',1,32,'2676', null);
-INSERT INTO bus_routes VALUES('N24',1,33,'2678', null);
-INSERT INTO bus_routes VALUES('N24',1,34,'5543', null);
-INSERT INTO bus_routes VALUES('N24',1,35,'399', null);
-INSERT INTO bus_routes VALUES('N24',1,36,'5535', null);
-INSERT INTO bus_routes VALUES('N24',1,37,'3792', null);
-INSERT INTO bus_routes VALUES('N24',1,38,'3789', null);
-INSERT INTO bus_routes VALUES('N24',1,39,'3777', null);
-INSERT INTO bus_routes VALUES('N24',1,40,'3775', null);
-INSERT INTO bus_routes VALUES('N24',1,41,'3870', null);
-INSERT INTO bus_routes VALUES('N24',1,42,'3800', null);
-INSERT INTO bus_routes VALUES('N24',1,43,'3801', null);
-INSERT INTO bus_routes VALUES('N24',1,44,'3871', null);
-INSERT INTO bus_routes VALUES('N24',1,45,'3873', null);
-INSERT INTO bus_routes VALUES('N24',1,46,'3805', null);
-INSERT INTO bus_routes VALUES('N24',1,47,'4222', null);
-INSERT INTO bus_routes VALUES('N24',2,1,'4222', null);
-INSERT INTO bus_routes VALUES('N24',2,2,'3882', null);
-INSERT INTO bus_routes VALUES('N24',2,3,'5544', null);
-INSERT INTO bus_routes VALUES('N24',2,4,'2679', null);
-INSERT INTO bus_routes VALUES('N24',2,5,'2677', null);
-INSERT INTO bus_routes VALUES('N24',2,6,'2675', null);
-INSERT INTO bus_routes VALUES('N24',2,7,'2673', null);
-INSERT INTO bus_routes VALUES('N24',2,8,'2671', null);
-INSERT INTO bus_routes VALUES('N24',2,9,'2669', null);
-INSERT INTO bus_routes VALUES('N24',2,10,'2667', null);
-INSERT INTO bus_routes VALUES('N24',2,11,'2663', null);
-INSERT INTO bus_routes VALUES('N24',2,12,'3234', null);
-INSERT INTO bus_routes VALUES('N24',2,13,'3235', null);
-INSERT INTO bus_routes VALUES('N24',2,14,'3237', null);
-INSERT INTO bus_routes VALUES('N24',2,15,'1607', null);
-INSERT INTO bus_routes VALUES('N24',2,16,'5363', null);
-INSERT INTO bus_routes VALUES('N24',2,17,'1640', null);
-INSERT INTO bus_routes VALUES('N24',2,18,'3933', null);
-INSERT INTO bus_routes VALUES('N24',2,19,'1527', null);
-INSERT INTO bus_routes VALUES('N24',2,20,'3568', null);
-INSERT INTO bus_routes VALUES('N24',2,21,'28', null);
-INSERT INTO bus_routes VALUES('N24',2,22,'32', null);
-INSERT INTO bus_routes VALUES('N24',2,23,'34', null);
-INSERT INTO bus_routes VALUES('N24',2,24,'36', null);
-INSERT INTO bus_routes VALUES('N24',2,25,'41', null);
-INSERT INTO bus_routes VALUES('N24',2,26,'46', null);
-INSERT INTO bus_routes VALUES('N24',2,27,'49', null);
-INSERT INTO bus_routes VALUES('N24',2,28,'51', null);
-INSERT INTO bus_routes VALUES('N24',2,29,'53', null);
-INSERT INTO bus_routes VALUES('N24',2,30,'4337', null);
-INSERT INTO bus_routes VALUES('N24',2,31,'57', null);
-INSERT INTO bus_routes VALUES('N24',2,32,'59', null);
-INSERT INTO bus_routes VALUES('N24',2,33,'61', null);
-INSERT INTO bus_routes VALUES('N24',2,34,'63', null);
-INSERT INTO bus_routes VALUES('N24',2,35,'5626', null);
-INSERT INTO bus_routes VALUES('N24',2,36,'72', null);
-INSERT INTO bus_routes VALUES('N24',2,37,'72', null);
-INSERT INTO bus_routes VALUES('N25',1,1,'491', null);
-INSERT INTO bus_routes VALUES('N25',1,2,'61', null);
-INSERT INTO bus_routes VALUES('N25',1,3,'63', null);
-INSERT INTO bus_routes VALUES('N25',1,4,'5626', null);
-INSERT INTO bus_routes VALUES('N25',1,5,'73', null);
-INSERT INTO bus_routes VALUES('N25',1,6,'1049', null);
-INSERT INTO bus_routes VALUES('N25',1,7,'77', null);
-INSERT INTO bus_routes VALUES('N25',1,8,'79', null);
-INSERT INTO bus_routes VALUES('N25',1,9,'81', null);
-INSERT INTO bus_routes VALUES('N25',1,10,'1401', null);
-INSERT INTO bus_routes VALUES('N25',1,11,'1401', null);
-INSERT INTO bus_routes VALUES('N25',1,12,'1404', null);
-INSERT INTO bus_routes VALUES('N25',1,13,'1408', null);
-INSERT INTO bus_routes VALUES('N25',1,14,'2058', null);
-INSERT INTO bus_routes VALUES('N25',1,15,'1001', null);
-INSERT INTO bus_routes VALUES('N25',1,16,'1003', null);
-INSERT INTO bus_routes VALUES('N25',1,17,'1005', null);
-INSERT INTO bus_routes VALUES('N25',1,18,'1007', null);
-INSERT INTO bus_routes VALUES('N25',1,19,'1009', null);
-INSERT INTO bus_routes VALUES('N25',1,20,'1013', null);
-INSERT INTO bus_routes VALUES('N25',1,21,'1015', null);
-INSERT INTO bus_routes VALUES('N25',1,22,'1017', null);
-INSERT INTO bus_routes VALUES('N25',1,23,'1019', null);
-INSERT INTO bus_routes VALUES('N25',1,24,'1023', null);
-INSERT INTO bus_routes VALUES('N25',1,25,'5163', null);
-INSERT INTO bus_routes VALUES('N25',1,26,'1030', null);
-INSERT INTO bus_routes VALUES('N25',2,1,'1030', null);
-INSERT INTO bus_routes VALUES('N25',2,2,'4367', null);
-INSERT INTO bus_routes VALUES('N25',2,3,'1024', null);
-INSERT INTO bus_routes VALUES('N25',2,4,'1020', null);
-INSERT INTO bus_routes VALUES('N25',2,5,'1018', null);
-INSERT INTO bus_routes VALUES('N25',2,6,'1016', null);
-INSERT INTO bus_routes VALUES('N25',2,7,'1014', null);
-INSERT INTO bus_routes VALUES('N25',2,8,'1010', null);
-INSERT INTO bus_routes VALUES('N25',2,9,'1008', null);
-INSERT INTO bus_routes VALUES('N25',2,10,'1006', null);
-INSERT INTO bus_routes VALUES('N25',2,11,'1004', null);
-INSERT INTO bus_routes VALUES('N25',2,12,'1002', null);
-INSERT INTO bus_routes VALUES('N25',2,13,'4864', null);
-INSERT INTO bus_routes VALUES('N25',2,14,'1409', null);
-INSERT INTO bus_routes VALUES('N25',2,15,'1405', null);
-INSERT INTO bus_routes VALUES('N25',2,16,'2178', null);
-INSERT INTO bus_routes VALUES('N25',2,17,'82', null);
-INSERT INTO bus_routes VALUES('N25',2,18,'5511', null);
-INSERT INTO bus_routes VALUES('N25',2,19,'78', null);
-INSERT INTO bus_routes VALUES('N25',2,20,'5443', null);
-INSERT INTO bus_routes VALUES('N25',2,21,'72', null);
-INSERT INTO bus_routes VALUES('N25',2,22,'72', null);
-INSERT INTO bus_routes VALUES('N25',2,23,'65', null);
-INSERT INTO bus_routes VALUES('N25',2,24,'1232', null);
-INSERT INTO bus_routes VALUES('N25',2,25,'491', null);
-INSERT INTO bus_routes VALUES('N26',1,1,'491', null);
-INSERT INTO bus_routes VALUES('N26',1,2,'61', null);
-INSERT INTO bus_routes VALUES('N26',1,3,'63', null);
-INSERT INTO bus_routes VALUES('N26',1,4,'5626', null);
-INSERT INTO bus_routes VALUES('N26',1,5,'73', null);
-INSERT INTO bus_routes VALUES('N26',1,6,'77', null);
-INSERT INTO bus_routes VALUES('N26',1,7,'79', null);
-INSERT INTO bus_routes VALUES('N26',1,8,'81', null);
-INSERT INTO bus_routes VALUES('N26',1,9,'1920', null);
-INSERT INTO bus_routes VALUES('N26',1,10,'1918', null);
-INSERT INTO bus_routes VALUES('N26',1,11,'913', null);
-INSERT INTO bus_routes VALUES('N26',1,12,'545', null);
-INSERT INTO bus_routes VALUES('N26',1,13,'547', null);
-INSERT INTO bus_routes VALUES('N26',1,14,'594', null);
-INSERT INTO bus_routes VALUES('N26',1,15,'914', null);
-INSERT INTO bus_routes VALUES('N26',1,16,'916', null);
-INSERT INTO bus_routes VALUES('N26',1,17,'329', null);
-INSERT INTO bus_routes VALUES('N26',1,18,'5624', null);
-INSERT INTO bus_routes VALUES('N26',1,19,'4239', null);
-INSERT INTO bus_routes VALUES('N26',1,20,'5560', null);
-INSERT INTO bus_routes VALUES('N26',1,21,'3032', null);
-INSERT INTO bus_routes VALUES('N26',1,22,'337', null);
-INSERT INTO bus_routes VALUES('N26',1,23,'4078', null);
-INSERT INTO bus_routes VALUES('N26',1,24,'2547', null);
-INSERT INTO bus_routes VALUES('N26',1,25,'3715', null);
-INSERT INTO bus_routes VALUES('N26',1,26,'4528', null);
-INSERT INTO bus_routes VALUES('N26',1,27,'1151', null);
-INSERT INTO bus_routes VALUES('N26',1,28,'5881', null);
-INSERT INTO bus_routes VALUES('N26',1,29,'4881', null);
-INSERT INTO bus_routes VALUES('N26',1,30,'570', null);
-INSERT INTO bus_routes VALUES('N26',1,31,'4543', null);
-INSERT INTO bus_routes VALUES('N26',1,32,'2277', null);
-INSERT INTO bus_routes VALUES('N26',1,33,'5064', null);
-INSERT INTO bus_routes VALUES('N26',2,1,'5064', null);
-INSERT INTO bus_routes VALUES('N26',2,2,'4544', null);
-INSERT INTO bus_routes VALUES('N26',2,3,'571', null);
-INSERT INTO bus_routes VALUES('N26',2,4,'4705', null);
-INSERT INTO bus_routes VALUES('N26',2,5,'4706', null);
-INSERT INTO bus_routes VALUES('N26',2,6,'589', null);
-INSERT INTO bus_routes VALUES('N26',2,7,'590', null);
-INSERT INTO bus_routes VALUES('N26',2,8,'3716', null);
-INSERT INTO bus_routes VALUES('N26',2,9,'2548', null);
-INSERT INTO bus_routes VALUES('N26',2,10,'340', null);
-INSERT INTO bus_routes VALUES('N26',2,11,'338', null);
-INSERT INTO bus_routes VALUES('N26',2,12,'336', null);
-INSERT INTO bus_routes VALUES('N26',2,13,'334', null);
-INSERT INTO bus_routes VALUES('N26',2,14,'5625', null);
-INSERT INTO bus_routes VALUES('N26',2,15,'331', null);
-INSERT INTO bus_routes VALUES('N26',2,16,'330', null);
-INSERT INTO bus_routes VALUES('N26',2,17,'917', null);
-INSERT INTO bus_routes VALUES('N26',2,18,'915', null);
-INSERT INTO bus_routes VALUES('N26',2,19,'593', null);
-INSERT INTO bus_routes VALUES('N26',2,20,'548', null);
-INSERT INTO bus_routes VALUES('N26',2,21,'546', null);
-INSERT INTO bus_routes VALUES('N26',2,22,'1919', null);
-INSERT INTO bus_routes VALUES('N26',2,23,'1921', null);
-INSERT INTO bus_routes VALUES('N26',2,24,'82', null);
-INSERT INTO bus_routes VALUES('N26',2,25,'5511', null);
-INSERT INTO bus_routes VALUES('N26',2,26,'78', null);
-INSERT INTO bus_routes VALUES('N26',2,27,'72', null);
-INSERT INTO bus_routes VALUES('N26',2,28,'72', null);
-INSERT INTO bus_routes VALUES('N26',2,29,'65', null);
-INSERT INTO bus_routes VALUES('N26',2,30,'1232', null);
-INSERT INTO bus_routes VALUES('N26',2,31,'491', null);
-INSERT INTO bus_routes VALUES('N27',1,1,'71', null);
-INSERT INTO bus_routes VALUES('N27',1,2,'153', null);
-INSERT INTO bus_routes VALUES('N27',1,3,'3539', null);
-INSERT INTO bus_routes VALUES('N27',1,4,'4853', null);
-INSERT INTO bus_routes VALUES('N27',1,5,'5726', null);
-INSERT INTO bus_routes VALUES('N27',2,1,'5726', null);
-INSERT INTO bus_routes VALUES('N27',2,2,'3542', null);
-INSERT INTO bus_routes VALUES('N27',2,3,'3540', null);
-INSERT INTO bus_routes VALUES('N27',2,4,'5620', null);
-INSERT INTO bus_routes VALUES('N27',2,5,'71', null);
-INSERT INTO bus_routes VALUES('N28',1,1,'2419', null);
-INSERT INTO bus_routes VALUES('N28',1,2,'1330', null);
-INSERT INTO bus_routes VALUES('N28',1,3,'2416', null);
-INSERT INTO bus_routes VALUES('N28',1,4,'4295', null);
-INSERT INTO bus_routes VALUES('N28',1,5,'3425', null);
-INSERT INTO bus_routes VALUES('N28',1,6,'3427', null);
-INSERT INTO bus_routes VALUES('N28',1,7,'3431', null);
-INSERT INTO bus_routes VALUES('N28',1,8,'5599', null);
-INSERT INTO bus_routes VALUES('N28',1,9,'4578', null);
-INSERT INTO bus_routes VALUES('N28',1,10,'4584', null);
-INSERT INTO bus_routes VALUES('N28',1,11,'4790', null);
-INSERT INTO bus_routes VALUES('N28',1,12,'4793', null);
-INSERT INTO bus_routes VALUES('N28',1,13,'5645', null);
-INSERT INTO bus_routes VALUES('N28',1,14,'3443', null);
-INSERT INTO bus_routes VALUES('N28',1,15,'4190', null);
-INSERT INTO bus_routes VALUES('N28',1,16,'3445', null);
-INSERT INTO bus_routes VALUES('N28',2,1,'3445', null);
-INSERT INTO bus_routes VALUES('N28',2,2,'3840', null);
-INSERT INTO bus_routes VALUES('N28',2,3,'3447', null);
-INSERT INTO bus_routes VALUES('N28',2,4,'4794', null);
-INSERT INTO bus_routes VALUES('N28',2,5,'4791', null);
-INSERT INTO bus_routes VALUES('N28',2,6,'4792', null);
-INSERT INTO bus_routes VALUES('N28',2,7,'4579', null);
-INSERT INTO bus_routes VALUES('N28',2,8,'5598', null);
-INSERT INTO bus_routes VALUES('N28',2,9,'3432', null);
-INSERT INTO bus_routes VALUES('N28',2,10,'3428', null);
-INSERT INTO bus_routes VALUES('N28',2,11,'3426', null);
-INSERT INTO bus_routes VALUES('N28',2,12,'4198', null);
-INSERT INTO bus_routes VALUES('N28',2,13,'3449', null);
-INSERT INTO bus_routes VALUES('N28',2,14,'2419', null);
-INSERT INTO bus_routes VALUES('53',1,1,'2004', null);
-INSERT INTO bus_routes VALUES('53',1,2,'5239', null);
-INSERT INTO bus_routes VALUES('53',1,3,'72', null);
-INSERT INTO bus_routes VALUES('53',1,4,'72', null);
-INSERT INTO bus_routes VALUES('53',1,5,'65', null);
-INSERT INTO bus_routes VALUES('53',1,6,'670', null);
-INSERT INTO bus_routes VALUES('53',1,7,'672', null);
-INSERT INTO bus_routes VALUES('53',1,8,'674', null);
-INSERT INTO bus_routes VALUES('53',1,9,'676', null);
-INSERT INTO bus_routes VALUES('53',1,10,'5451', null);
-INSERT INTO bus_routes VALUES('53',1,11,'680', null);
-INSERT INTO bus_routes VALUES('53',1,12,'682', null);
-INSERT INTO bus_routes VALUES('53',1,13,'685', null);
-INSERT INTO bus_routes VALUES('53',1,14,'686', null);
-INSERT INTO bus_routes VALUES('53',1,15,'1233', null);
-INSERT INTO bus_routes VALUES('53',1,16,'688', null);
-INSERT INTO bus_routes VALUES('53',1,17,'689', null);
-INSERT INTO bus_routes VALUES('53',1,18,'690', null);
-INSERT INTO bus_routes VALUES('53',1,19,'5817', null);
-INSERT INTO bus_routes VALUES('53',1,20,'694', null);
-INSERT INTO bus_routes VALUES('53',1,21,'696', null);
-INSERT INTO bus_routes VALUES('53',1,22,'5466', null);
-INSERT INTO bus_routes VALUES('53',1,23,'699', null);
-INSERT INTO bus_routes VALUES('53',1,24,'701', null);
-INSERT INTO bus_routes VALUES('53',1,25,'703', null);
-INSERT INTO bus_routes VALUES('53',1,26,'705', null);
-INSERT INTO bus_routes VALUES('53',1,27,'707', null);
-INSERT INTO bus_routes VALUES('53',1,28,'2024', null);
-INSERT INTO bus_routes VALUES('53',1,29,'5768', null);
-INSERT INTO bus_routes VALUES('53',2,1,'5768', null);
-INSERT INTO bus_routes VALUES('53',2,2,'2025', null);
-INSERT INTO bus_routes VALUES('53',2,3,'708', null);
-INSERT INTO bus_routes VALUES('53',2,4,'706', null);
-INSERT INTO bus_routes VALUES('53',2,5,'704', null);
-INSERT INTO bus_routes VALUES('53',2,6,'702', null);
-INSERT INTO bus_routes VALUES('53',2,7,'700', null);
-INSERT INTO bus_routes VALUES('53',2,8,'698', null);
-INSERT INTO bus_routes VALUES('53',2,9,'276', null);
-INSERT INTO bus_routes VALUES('53',2,10,'695', null);
-INSERT INTO bus_routes VALUES('53',2,11,'709', null);
-INSERT INTO bus_routes VALUES('53',2,12,'693', null);
-INSERT INTO bus_routes VALUES('53',2,13,'691', null);
-INSERT INTO bus_routes VALUES('53',2,14,'710', null);
-INSERT INTO bus_routes VALUES('53',2,15,'711', null);
-INSERT INTO bus_routes VALUES('53',2,16,'712', null);
-INSERT INTO bus_routes VALUES('53',2,17,'5146', null);
-INSERT INTO bus_routes VALUES('53',2,18,'684', null);
-INSERT INTO bus_routes VALUES('53',2,19,'683', null);
-INSERT INTO bus_routes VALUES('53',2,20,'681', null);
-INSERT INTO bus_routes VALUES('53',2,21,'679', null);
-INSERT INTO bus_routes VALUES('53',2,22,'4521', null);
-INSERT INTO bus_routes VALUES('53',2,23,'675', null);
-INSERT INTO bus_routes VALUES('53',2,24,'673', null);
-INSERT INTO bus_routes VALUES('53',2,25,'671', null);
-INSERT INTO bus_routes VALUES('53',2,26,'5626', null);
-INSERT INTO bus_routes VALUES('53',2,27,'68', null);
-INSERT INTO bus_routes VALUES('53',2,28,'69', null);
-INSERT INTO bus_routes VALUES('53',2,29,'3689', null);
-INSERT INTO bus_routes VALUES('53',2,30,'2004', null);
-INSERT INTO bus_routes VALUES('54',1,1,'5705', null);
-INSERT INTO bus_routes VALUES('54',1,2,'1402', null);
-INSERT INTO bus_routes VALUES('54',1,3,'1404', null);
-INSERT INTO bus_routes VALUES('54',1,4,'1406', null);
-INSERT INTO bus_routes VALUES('54',1,5,'1408', null);
-INSERT INTO bus_routes VALUES('54',1,6,'1410', null);
-INSERT INTO bus_routes VALUES('54',1,7,'2058', null);
-INSERT INTO bus_routes VALUES('54',1,8,'1001', null);
-INSERT INTO bus_routes VALUES('54',1,9,'1003', null);
-INSERT INTO bus_routes VALUES('54',1,10,'1005', null);
-INSERT INTO bus_routes VALUES('54',1,11,'1007', null);
-INSERT INTO bus_routes VALUES('54',1,12,'1009', null);
-INSERT INTO bus_routes VALUES('54',1,13,'2514', null);
-INSERT INTO bus_routes VALUES('54',1,14,'2516', null);
-INSERT INTO bus_routes VALUES('54',1,15,'2518', null);
-INSERT INTO bus_routes VALUES('54',1,16,'5055', null);
-INSERT INTO bus_routes VALUES('54',1,17,'2520', null);
-INSERT INTO bus_routes VALUES('54',1,18,'2522', null);
-INSERT INTO bus_routes VALUES('54',1,19,'2524', null);
-INSERT INTO bus_routes VALUES('54',1,20,'2526', null);
-INSERT INTO bus_routes VALUES('54',1,21,'4102', null);
-INSERT INTO bus_routes VALUES('54',1,22,'2528', null);
-INSERT INTO bus_routes VALUES('54',1,23,'2530', null);
-INSERT INTO bus_routes VALUES('54',1,24,'2532', null);
-INSERT INTO bus_routes VALUES('54',1,25,'1017', null);
-INSERT INTO bus_routes VALUES('54',1,26,'1019', null);
-INSERT INTO bus_routes VALUES('54',1,27,'4725', null);
-INSERT INTO bus_routes VALUES('54',1,28,'4727', null);
-INSERT INTO bus_routes VALUES('54',1,29,'4682', null);
-INSERT INTO bus_routes VALUES('54',1,30,'1027', null);
-INSERT INTO bus_routes VALUES('54',1,31,'5163', null);
-INSERT INTO bus_routes VALUES('54',1,32,'4368', null);
-INSERT INTO bus_routes VALUES('54',1,33,'4696', null);
-INSERT INTO bus_routes VALUES('54',1,34,'4684', null);
-INSERT INTO bus_routes VALUES('54',1,35,'4686', null);
-INSERT INTO bus_routes VALUES('54',1,36,'4697', null);
-INSERT INTO bus_routes VALUES('54',1,37,'3663', null);
-INSERT INTO bus_routes VALUES('54',2,1,'3663', null);
-INSERT INTO bus_routes VALUES('54',2,2,'4687', null);
-INSERT INTO bus_routes VALUES('54',2,3,'4685', null);
-INSERT INTO bus_routes VALUES('54',2,4,'1051', null);
-INSERT INTO bus_routes VALUES('54',2,5,'1031', null);
-INSERT INTO bus_routes VALUES('54',2,6,'4367', null);
-INSERT INTO bus_routes VALUES('54',2,7,'4683', null);
-INSERT INTO bus_routes VALUES('54',2,8,'4729', null);
-INSERT INTO bus_routes VALUES('54',2,9,'4726', null);
-INSERT INTO bus_routes VALUES('54',2,10,'1020', null);
-INSERT INTO bus_routes VALUES('54',2,11,'1018', null);
-INSERT INTO bus_routes VALUES('54',2,12,'2533', null);
-INSERT INTO bus_routes VALUES('54',2,13,'2531', null);
-INSERT INTO bus_routes VALUES('54',2,14,'2529', null);
-INSERT INTO bus_routes VALUES('54',2,15,'4103', null);
-INSERT INTO bus_routes VALUES('54',2,16,'2527', null);
-INSERT INTO bus_routes VALUES('54',2,17,'2525', null);
-INSERT INTO bus_routes VALUES('54',2,18,'2523', null);
-INSERT INTO bus_routes VALUES('54',2,19,'2521', null);
-INSERT INTO bus_routes VALUES('54',2,20,'5056', null);
-INSERT INTO bus_routes VALUES('54',2,21,'2519', null);
-INSERT INTO bus_routes VALUES('54',2,22,'2517', null);
-INSERT INTO bus_routes VALUES('54',2,23,'2515', null);
-INSERT INTO bus_routes VALUES('54',2,24,'1008', null);
-INSERT INTO bus_routes VALUES('54',2,25,'1006', null);
-INSERT INTO bus_routes VALUES('54',2,26,'1004', null);
-INSERT INTO bus_routes VALUES('54',2,27,'1002', null);
-INSERT INTO bus_routes VALUES('54',2,28,'2057', null);
-INSERT INTO bus_routes VALUES('54',2,29,'1411', null);
-INSERT INTO bus_routes VALUES('54',2,30,'1409', null);
-INSERT INTO bus_routes VALUES('54',2,31,'1407', null);
-INSERT INTO bus_routes VALUES('54',2,32,'1405', null);
-INSERT INTO bus_routes VALUES('54',2,33,'1403', null);
-INSERT INTO bus_routes VALUES('54',2,34,'5705', null);
-INSERT INTO bus_routes VALUES('55',1,1,'2420', null);
-INSERT INTO bus_routes VALUES('55',1,2,'2421', null);
-INSERT INTO bus_routes VALUES('55',1,3,'3593', null);
-INSERT INTO bus_routes VALUES('55',1,4,'1927', null);
-INSERT INTO bus_routes VALUES('55',1,5,'5623', null);
-INSERT INTO bus_routes VALUES('55',1,6,'2536', null);
-INSERT INTO bus_routes VALUES('55',1,7,'2538', null);
-INSERT INTO bus_routes VALUES('55',1,8,'2540', null);
-INSERT INTO bus_routes VALUES('55',1,9,'3135', null);
-INSERT INTO bus_routes VALUES('55',1,10,'2966', null);
-INSERT INTO bus_routes VALUES('55',1,11,'4587', null);
-INSERT INTO bus_routes VALUES('55',1,12,'5549', null);
-INSERT INTO bus_routes VALUES('55',1,13,'5600', null);
-INSERT INTO bus_routes VALUES('55',1,14,'2547', null);
-INSERT INTO bus_routes VALUES('55',1,15,'2549', null);
-INSERT INTO bus_routes VALUES('55',1,16,'2551', null);
-INSERT INTO bus_routes VALUES('55',1,17,'2553', null);
-INSERT INTO bus_routes VALUES('55',1,18,'2554', null);
-INSERT INTO bus_routes VALUES('55',1,19,'2262', null);
-INSERT INTO bus_routes VALUES('55',1,20,'2556', null);
-INSERT INTO bus_routes VALUES('55',1,21,'2558', null);
-INSERT INTO bus_routes VALUES('55',1,22,'4781', null);
-INSERT INTO bus_routes VALUES('55',1,23,'5186', null);
-INSERT INTO bus_routes VALUES('55',1,24,'5188', null);
-INSERT INTO bus_routes VALUES('55',1,25,'2635', null);
-INSERT INTO bus_routes VALUES('55',1,26,'2633', null);
-INSERT INTO bus_routes VALUES('55',1,27,'2631', null);
-INSERT INTO bus_routes VALUES('55',1,28,'2629', null);
-INSERT INTO bus_routes VALUES('55',1,29,'3936', null);
-INSERT INTO bus_routes VALUES('55',2,1,'3936', null);
-INSERT INTO bus_routes VALUES('55',2,2,'2628', null);
-INSERT INTO bus_routes VALUES('55',2,3,'2630', null);
-INSERT INTO bus_routes VALUES('55',2,4,'2632', null);
-INSERT INTO bus_routes VALUES('55',2,5,'5336', null);
-INSERT INTO bus_routes VALUES('55',2,6,'5192', null);
-INSERT INTO bus_routes VALUES('55',2,7,'5187', null);
-INSERT INTO bus_routes VALUES('55',2,8,'5381', null);
-INSERT INTO bus_routes VALUES('55',2,9,'4782', null);
-INSERT INTO bus_routes VALUES('55',2,10,'2557', null);
-INSERT INTO bus_routes VALUES('55',2,11,'5094', null);
-INSERT INTO bus_routes VALUES('55',2,12,'5100', null);
-INSERT INTO bus_routes VALUES('55',2,13,'2555', null);
-INSERT INTO bus_routes VALUES('55',2,14,'639', null);
-INSERT INTO bus_routes VALUES('55',2,15,'4766', null);
-INSERT INTO bus_routes VALUES('55',2,16,'2552', null);
-INSERT INTO bus_routes VALUES('55',2,17,'2550', null);
-INSERT INTO bus_routes VALUES('55',2,18,'2548', null);
-INSERT INTO bus_routes VALUES('55',2,19,'5601', null);
-INSERT INTO bus_routes VALUES('55',2,20,'2471', null);
-INSERT INTO bus_routes VALUES('55',2,21,'2472', null);
-INSERT INTO bus_routes VALUES('55',2,22,'5051', null);
-INSERT INTO bus_routes VALUES('55',2,23,'2543', null);
-INSERT INTO bus_routes VALUES('55',2,24,'2541', null);
-INSERT INTO bus_routes VALUES('55',2,25,'2539', null);
-INSERT INTO bus_routes VALUES('55',2,26,'2537', null);
-INSERT INTO bus_routes VALUES('55',2,27,'2535', null);
-INSERT INTO bus_routes VALUES('55',2,28,'5335', null);
-INSERT INTO bus_routes VALUES('55',2,29,'1929', null);
-INSERT INTO bus_routes VALUES('55',2,30,'1930', null);
-INSERT INTO bus_routes VALUES('55',2,31,'1184', null);
-INSERT INTO bus_routes VALUES('55',2,32,'2420', null);
-INSERT INTO bus_routes VALUES('56',1,1,'2224', null);
-INSERT INTO bus_routes VALUES('56',1,2,'1247', null);
-INSERT INTO bus_routes VALUES('56',1,3,'811', null);
-INSERT INTO bus_routes VALUES('56',1,4,'3829', null);
-INSERT INTO bus_routes VALUES('56',1,5,'1427', null);
-INSERT INTO bus_routes VALUES('56',1,6,'148', null);
-INSERT INTO bus_routes VALUES('56',1,7,'150', null);
-INSERT INTO bus_routes VALUES('56',1,8,'1256', null);
-INSERT INTO bus_routes VALUES('56',1,9,'4712', null);
-INSERT INTO bus_routes VALUES('56',1,10,'4714', null);
-INSERT INTO bus_routes VALUES('56',1,11,'1431', null);
-INSERT INTO bus_routes VALUES('56',1,12,'1433', null);
-INSERT INTO bus_routes VALUES('56',1,13,'4716', null);
-INSERT INTO bus_routes VALUES('56',1,14,'1435', null);
-INSERT INTO bus_routes VALUES('56',1,15,'5471', null);
-INSERT INTO bus_routes VALUES('56',1,16,'1410', null);
-INSERT INTO bus_routes VALUES('56',1,17,'2058', null);
-INSERT INTO bus_routes VALUES('56',1,18,'1000', null);
-INSERT INTO bus_routes VALUES('56',2,1,'1000', null);
-INSERT INTO bus_routes VALUES('56',2,2,'1411', null);
-INSERT INTO bus_routes VALUES('56',2,3,'1978', null);
-INSERT INTO bus_routes VALUES('56',2,4,'1436', null);
-INSERT INTO bus_routes VALUES('56',2,5,'4717', null);
-INSERT INTO bus_routes VALUES('56',2,6,'1434', null);
-INSERT INTO bus_routes VALUES('56',2,7,'1432', null);
-INSERT INTO bus_routes VALUES('56',2,8,'4715', null);
-INSERT INTO bus_routes VALUES('56',2,9,'4713', null);
-INSERT INTO bus_routes VALUES('56',2,10,'1257', null);
-INSERT INTO bus_routes VALUES('56',2,11,'5822', null);
-INSERT INTO bus_routes VALUES('56',2,12,'151', null);
-INSERT INTO bus_routes VALUES('56',2,13,'149', null);
-INSERT INTO bus_routes VALUES('56',2,14,'1428', null);
-INSERT INTO bus_routes VALUES('56',2,15,'782', null);
-INSERT INTO bus_routes VALUES('56',2,16,'784', null);
-INSERT INTO bus_routes VALUES('56',2,17,'2224', null);
-INSERT INTO bus_routes VALUES('57',1,1,'5705', null);
-INSERT INTO bus_routes VALUES('57',1,2,'1402', null);
-INSERT INTO bus_routes VALUES('57',1,3,'1404', null);
-INSERT INTO bus_routes VALUES('57',1,4,'1406', null);
-INSERT INTO bus_routes VALUES('57',1,5,'1408', null);
-INSERT INTO bus_routes VALUES('57',1,6,'1410', null);
-INSERT INTO bus_routes VALUES('57',1,7,'2058', null);
-INSERT INTO bus_routes VALUES('57',1,8,'1001', null);
-INSERT INTO bus_routes VALUES('57',1,9,'1003', null);
-INSERT INTO bus_routes VALUES('57',1,10,'2561', null);
-INSERT INTO bus_routes VALUES('57',1,11,'2064', null);
-INSERT INTO bus_routes VALUES('57',1,12,'1104', null);
-INSERT INTO bus_routes VALUES('57',1,13,'5667', null);
-INSERT INTO bus_routes VALUES('57',1,14,'2569', null);
-INSERT INTO bus_routes VALUES('57',1,15,'4597', null);
-INSERT INTO bus_routes VALUES('57',1,16,'4598', null);
-INSERT INTO bus_routes VALUES('57',1,17,'2575', null);
-INSERT INTO bus_routes VALUES('57',1,18,'2576', null);
-INSERT INTO bus_routes VALUES('57',1,19,'2109', null);
-INSERT INTO bus_routes VALUES('57',1,20,'2577', null);
-INSERT INTO bus_routes VALUES('57',1,21,'2088', null);
-INSERT INTO bus_routes VALUES('57',1,22,'2582', null);
-INSERT INTO bus_routes VALUES('57',1,23,'2584', null);
-INSERT INTO bus_routes VALUES('57',1,24,'2586', null);
-INSERT INTO bus_routes VALUES('57',1,25,'4088', null);
-INSERT INTO bus_routes VALUES('57',2,1,'4088', null);
-INSERT INTO bus_routes VALUES('57',2,2,'1013', null);
-INSERT INTO bus_routes VALUES('57',2,3,'2587', null);
-INSERT INTO bus_routes VALUES('57',2,4,'2585', null);
-INSERT INTO bus_routes VALUES('57',2,5,'2583', null);
-INSERT INTO bus_routes VALUES('57',2,6,'2581', null);
-INSERT INTO bus_routes VALUES('57',2,7,'2578', null);
-INSERT INTO bus_routes VALUES('57',2,8,'2579', null);
-INSERT INTO bus_routes VALUES('57',2,9,'2580', null);
-INSERT INTO bus_routes VALUES('57',2,10,'2574', null);
-INSERT INTO bus_routes VALUES('57',2,11,'2572', null);
-INSERT INTO bus_routes VALUES('57',2,12,'2570', null);
-INSERT INTO bus_routes VALUES('57',2,13,'2568', null);
-INSERT INTO bus_routes VALUES('57',2,14,'2566', null);
-INSERT INTO bus_routes VALUES('57',2,15,'2065', null);
-INSERT INTO bus_routes VALUES('57',2,16,'2562', null);
-INSERT INTO bus_routes VALUES('57',2,17,'1004', null);
-INSERT INTO bus_routes VALUES('57',2,18,'1002', null);
-INSERT INTO bus_routes VALUES('57',2,19,'2057', null);
-INSERT INTO bus_routes VALUES('57',2,20,'1411', null);
-INSERT INTO bus_routes VALUES('57',2,21,'1409', null);
-INSERT INTO bus_routes VALUES('57',2,22,'1407', null);
-INSERT INTO bus_routes VALUES('57',2,23,'1405', null);
-INSERT INTO bus_routes VALUES('57',2,24,'1403', null);
-INSERT INTO bus_routes VALUES('57',2,25,'5705', null);
-INSERT INTO bus_routes VALUES('58',1,1,'1000', null);
-INSERT INTO bus_routes VALUES('58',1,2,'1001', null);
-INSERT INTO bus_routes VALUES('58',1,3,'1003', null);
-INSERT INTO bus_routes VALUES('58',1,4,'1005', null);
-INSERT INTO bus_routes VALUES('58',1,5,'1007', null);
-INSERT INTO bus_routes VALUES('58',1,6,'1009', null);
-INSERT INTO bus_routes VALUES('58',1,7,'1011', null);
-INSERT INTO bus_routes VALUES('58',1,8,'1013', null);
-INSERT INTO bus_routes VALUES('58',1,9,'1015', null);
-INSERT INTO bus_routes VALUES('58',1,10,'1017', null);
-INSERT INTO bus_routes VALUES('58',1,11,'1019', null);
-INSERT INTO bus_routes VALUES('58',1,12,'4680', null);
-INSERT INTO bus_routes VALUES('58',1,13,'1023', null);
-INSERT INTO bus_routes VALUES('58',1,14,'4682', null);
-INSERT INTO bus_routes VALUES('58',1,15,'1027', null);
-INSERT INTO bus_routes VALUES('58',1,16,'5163', null);
-INSERT INTO bus_routes VALUES('58',1,17,'4368', null);
-INSERT INTO bus_routes VALUES('58',1,18,'1032', null);
-INSERT INTO bus_routes VALUES('58',1,19,'1034', null);
-INSERT INTO bus_routes VALUES('58',1,20,'1036', null);
-INSERT INTO bus_routes VALUES('58',1,21,'4691', null);
-INSERT INTO bus_routes VALUES('58',1,22,'1038', null);
-INSERT INTO bus_routes VALUES('58',1,23,'2619', null);
-INSERT INTO bus_routes VALUES('58',1,24,'1039', null);
-INSERT INTO bus_routes VALUES('58',1,25,'1040', null);
-INSERT INTO bus_routes VALUES('58',1,26,'1041', null);
-INSERT INTO bus_routes VALUES('58',1,27,'4787', null);
-INSERT INTO bus_routes VALUES('58',1,28,'1042', null);
-INSERT INTO bus_routes VALUES('58',1,29,'1043', null);
-INSERT INTO bus_routes VALUES('58',1,30,'1044', null);
-INSERT INTO bus_routes VALUES('58',1,31,'1045', null);
-INSERT INTO bus_routes VALUES('58',1,32,'1046', null);
-INSERT INTO bus_routes VALUES('58',2,1,'1046', null);
-INSERT INTO bus_routes VALUES('58',2,2,'4692', null);
-INSERT INTO bus_routes VALUES('58',2,3,'1037', null);
-INSERT INTO bus_routes VALUES('58',2,4,'1035', null);
-INSERT INTO bus_routes VALUES('58',2,5,'1033', null);
-INSERT INTO bus_routes VALUES('58',2,6,'1031', null);
-INSERT INTO bus_routes VALUES('58',2,7,'4367', null);
-INSERT INTO bus_routes VALUES('58',2,8,'4683', null);
-INSERT INTO bus_routes VALUES('58',2,9,'1024', null);
-INSERT INTO bus_routes VALUES('58',2,10,'4681', null);
-INSERT INTO bus_routes VALUES('58',2,11,'1020', null);
-INSERT INTO bus_routes VALUES('58',2,12,'1018', null);
-INSERT INTO bus_routes VALUES('58',2,13,'1016', null);
-INSERT INTO bus_routes VALUES('58',2,14,'1014', null);
-INSERT INTO bus_routes VALUES('58',2,15,'1012', null);
-INSERT INTO bus_routes VALUES('58',2,16,'1010', null);
-INSERT INTO bus_routes VALUES('58',2,17,'1008', null);
-INSERT INTO bus_routes VALUES('58',2,18,'1006', null);
-INSERT INTO bus_routes VALUES('58',2,19,'1004', null);
-INSERT INTO bus_routes VALUES('58',2,20,'1002', null);
-INSERT INTO bus_routes VALUES('58',2,21,'3576', null);
-INSERT INTO bus_routes VALUES('58',2,22,'1000', null);
-INSERT INTO bus_routes VALUES('59',1,1,'50011', null);
-INSERT INTO bus_routes VALUES('59',1,2,'1167', null);
-INSERT INTO bus_routes VALUES('59',1,3,'1926', null);
-INSERT INTO bus_routes VALUES('59',1,4,'1927', null);
-INSERT INTO bus_routes VALUES('59',1,5,'1928', null);
-INSERT INTO bus_routes VALUES('59',1,6,'1168', null);
-INSERT INTO bus_routes VALUES('59',1,7,'1188', null);
-INSERT INTO bus_routes VALUES('59',1,8,'1170', null);
-INSERT INTO bus_routes VALUES('59',1,9,'5718', null);
-INSERT INTO bus_routes VALUES('59',1,10,'5719', null);
-INSERT INTO bus_routes VALUES('59',1,11,'5720', null);
-INSERT INTO bus_routes VALUES('59',1,12,'1132', null);
-INSERT INTO bus_routes VALUES('59',1,13,'5378', null);
-INSERT INTO bus_routes VALUES('59',1,14,'1135', null);
-INSERT INTO bus_routes VALUES('59',1,15,'1137', null);
-INSERT INTO bus_routes VALUES('59',1,16,'1172', null);
-INSERT INTO bus_routes VALUES('59',1,17,'4662', null);
-INSERT INTO bus_routes VALUES('59',1,18,'1174', null);
-INSERT INTO bus_routes VALUES('59',1,19,'4664', null);
-INSERT INTO bus_routes VALUES('59',1,20,'1176', null);
-INSERT INTO bus_routes VALUES('59',1,21,'1178', null);
-INSERT INTO bus_routes VALUES('59',1,22,'1179', null);
-INSERT INTO bus_routes VALUES('59',1,23,'1180', null);
-INSERT INTO bus_routes VALUES('59',2,1,'1180', null);
-INSERT INTO bus_routes VALUES('59',2,2,'1181', null);
-INSERT INTO bus_routes VALUES('59',2,3,'1177', null);
-INSERT INTO bus_routes VALUES('59',2,4,'4665', null);
-INSERT INTO bus_routes VALUES('59',2,5,'1175', null);
-INSERT INTO bus_routes VALUES('59',2,6,'4663', null);
-INSERT INTO bus_routes VALUES('59',2,7,'1173', null);
-INSERT INTO bus_routes VALUES('59',2,8,'1138', null);
-INSERT INTO bus_routes VALUES('59',2,9,'1136', null);
-INSERT INTO bus_routes VALUES('59',2,10,'1134', null);
-INSERT INTO bus_routes VALUES('59',2,11,'5379', null);
-INSERT INTO bus_routes VALUES('59',2,12,'5380', null);
-INSERT INTO bus_routes VALUES('59',2,13,'5702', null);
-INSERT INTO bus_routes VALUES('59',2,14,'5703', null);
-INSERT INTO bus_routes VALUES('59',2,15,'5704', null);
-INSERT INTO bus_routes VALUES('59',2,16,'3858', null);
-INSERT INTO bus_routes VALUES('59',2,17,'1182', null);
-INSERT INTO bus_routes VALUES('59',2,18,'5036', null);
-INSERT INTO bus_routes VALUES('59',2,19,'1183', null);
-INSERT INTO bus_routes VALUES('59',2,20,'1184', null);
-INSERT INTO bus_routes VALUES('59',2,21,'5360', null);
-INSERT INTO bus_routes VALUES('59',2,22,'50011', null);
-INSERT INTO bus_routes VALUES('6',1,1,'1918', null);
-INSERT INTO bus_routes VALUES('6',1,2,'1919', null);
-INSERT INTO bus_routes VALUES('6',1,3,'1921', null);
-INSERT INTO bus_routes VALUES('6',1,4,'1922', null);
-INSERT INTO bus_routes VALUES('6',1,5,'1924', null);
-INSERT INTO bus_routes VALUES('6',1,6,'1167', null);
-INSERT INTO bus_routes VALUES('6',1,7,'1926', null);
-INSERT INTO bus_routes VALUES('6',1,8,'1927', null);
-INSERT INTO bus_routes VALUES('6',1,9,'1928', null);
-INSERT INTO bus_routes VALUES('6',1,10,'1931', null);
-INSERT INTO bus_routes VALUES('6',1,11,'1933', null);
-INSERT INTO bus_routes VALUES('6',1,12,'1122', null);
-INSERT INTO bus_routes VALUES('6',1,13,'1124', null);
-INSERT INTO bus_routes VALUES('6',1,14,'1935', null);
-INSERT INTO bus_routes VALUES('6',1,15,'1938', null);
-INSERT INTO bus_routes VALUES('6',1,16,'1939', null);
-INSERT INTO bus_routes VALUES('6',1,17,'1941', null);
-INSERT INTO bus_routes VALUES('6',1,18,'1943', null);
-INSERT INTO bus_routes VALUES('6',1,19,'1945', null);
-INSERT INTO bus_routes VALUES('6',1,20,'1947', null);
-INSERT INTO bus_routes VALUES('6',1,21,'1949', null);
-INSERT INTO bus_routes VALUES('6',1,22,'1951', null);
-INSERT INTO bus_routes VALUES('6',1,23,'1953', null);
-INSERT INTO bus_routes VALUES('6',1,24,'1955', null);
-INSERT INTO bus_routes VALUES('6',1,25,'1957', null);
-INSERT INTO bus_routes VALUES('6',1,26,'1958', null);
-INSERT INTO bus_routes VALUES('6',1,27,'1959', null);
-INSERT INTO bus_routes VALUES('6',1,28,'292', null);
-INSERT INTO bus_routes VALUES('6',1,29,'315', null);
-INSERT INTO bus_routes VALUES('6',1,30,'332', null);
-INSERT INTO bus_routes VALUES('6',1,31,'5359', null);
-INSERT INTO bus_routes VALUES('6',2,1,'5359', null);
-INSERT INTO bus_routes VALUES('6',2,2,'1961', null);
-INSERT INTO bus_routes VALUES('6',2,3,'1962', null);
-INSERT INTO bus_routes VALUES('6',2,4,'1963', null);
-INSERT INTO bus_routes VALUES('6',2,5,'4814', null);
-INSERT INTO bus_routes VALUES('6',2,6,'4815', null);
-INSERT INTO bus_routes VALUES('6',2,7,'1952', null);
-INSERT INTO bus_routes VALUES('6',2,8,'1950', null);
-INSERT INTO bus_routes VALUES('6',2,9,'1948', null);
-INSERT INTO bus_routes VALUES('6',2,10,'1946', null);
-INSERT INTO bus_routes VALUES('6',2,11,'5272', null);
-INSERT INTO bus_routes VALUES('6',2,12,'1942', null);
-INSERT INTO bus_routes VALUES('6',2,13,'5358', null);
-INSERT INTO bus_routes VALUES('6',2,14,'3912', null);
-INSERT INTO bus_routes VALUES('6',2,15,'1125', null);
-INSERT INTO bus_routes VALUES('6',2,16,'1123', null);
-INSERT INTO bus_routes VALUES('6',2,17,'1934', null);
-INSERT INTO bus_routes VALUES('6',2,18,'1932', null);
-INSERT INTO bus_routes VALUES('6',2,19,'1929', null);
-INSERT INTO bus_routes VALUES('6',2,20,'1930', null);
-INSERT INTO bus_routes VALUES('6',2,21,'1184', null);
-INSERT INTO bus_routes VALUES('6',2,22,'89', null);
-INSERT INTO bus_routes VALUES('6',2,23,'1925', null);
-INSERT INTO bus_routes VALUES('6',2,24,'1923', null);
-INSERT INTO bus_routes VALUES('6',2,25,'1920', null);
-INSERT INTO bus_routes VALUES('6',2,26,'1918', null);
-INSERT INTO bus_routes VALUES('60',1,1,'2588', null);
-INSERT INTO bus_routes VALUES('60',1,2,'547', null);
-INSERT INTO bus_routes VALUES('60',1,3,'2589', null);
-INSERT INTO bus_routes VALUES('60',1,4,'2358', null);
-INSERT INTO bus_routes VALUES('60',1,5,'2356', null);
-INSERT INTO bus_routes VALUES('60',1,6,'2591', null);
-INSERT INTO bus_routes VALUES('60',1,7,'2818', null);
-INSERT INTO bus_routes VALUES('60',1,8,'5623', null);
-INSERT INTO bus_routes VALUES('60',1,9,'2536', null);
-INSERT INTO bus_routes VALUES('60',1,10,'2538', null);
-INSERT INTO bus_routes VALUES('60',1,11,'2540', null);
-INSERT INTO bus_routes VALUES('60',1,12,'3135', null);
-INSERT INTO bus_routes VALUES('60',1,13,'5050', null);
-INSERT INTO bus_routes VALUES('60',1,14,'2429', null);
-INSERT INTO bus_routes VALUES('60',1,15,'1947', null);
-INSERT INTO bus_routes VALUES('60',1,16,'1949', null);
-INSERT INTO bus_routes VALUES('60',1,17,'1951', null);
-INSERT INTO bus_routes VALUES('60',1,18,'1953', null);
-INSERT INTO bus_routes VALUES('60',1,19,'1955', null);
-INSERT INTO bus_routes VALUES('60',1,20,'1957', null);
-INSERT INTO bus_routes VALUES('60',1,21,'3075', null);
-INSERT INTO bus_routes VALUES('60',1,22,'3152', null);
-INSERT INTO bus_routes VALUES('60',1,23,'3154', null);
-INSERT INTO bus_routes VALUES('60',1,24,'3171', null);
-INSERT INTO bus_routes VALUES('60',1,25,'3189', null);
-INSERT INTO bus_routes VALUES('60',1,26,'5008', null);
-INSERT INTO bus_routes VALUES('60',1,27,'5010', null);
-INSERT INTO bus_routes VALUES('60',1,28,'5012', null);
-INSERT INTO bus_routes VALUES('60',2,1,'5012', null);
-INSERT INTO bus_routes VALUES('60',2,2,'5011', null);
-INSERT INTO bus_routes VALUES('60',2,3,'5009', null);
-INSERT INTO bus_routes VALUES('60',2,4,'3736', null);
-INSERT INTO bus_routes VALUES('60',2,5,'5007', null);
-INSERT INTO bus_routes VALUES('60',2,6,'1960', null);
-INSERT INTO bus_routes VALUES('60',2,7,'1961', null);
-INSERT INTO bus_routes VALUES('60',2,8,'1962', null);
-INSERT INTO bus_routes VALUES('60',2,9,'1963', null);
-INSERT INTO bus_routes VALUES('60',2,10,'4814', null);
-INSERT INTO bus_routes VALUES('60',2,11,'4815', null);
-INSERT INTO bus_routes VALUES('60',2,12,'1952', null);
-INSERT INTO bus_routes VALUES('60',2,13,'1950', null);
-INSERT INTO bus_routes VALUES('60',2,14,'1948', null);
-INSERT INTO bus_routes VALUES('60',2,15,'2428', null);
-INSERT INTO bus_routes VALUES('60',2,16,'2596', null);
-INSERT INTO bus_routes VALUES('60',2,17,'2541', null);
-INSERT INTO bus_routes VALUES('60',2,18,'2539', null);
-INSERT INTO bus_routes VALUES('60',2,19,'2537', null);
-INSERT INTO bus_routes VALUES('60',2,20,'2535', null);
-INSERT INTO bus_routes VALUES('60',2,21,'5335', null);
-INSERT INTO bus_routes VALUES('60',2,22,'2819', null);
-INSERT INTO bus_routes VALUES('60',2,23,'2592', null);
-INSERT INTO bus_routes VALUES('60',2,24,'2355', null);
-INSERT INTO bus_routes VALUES('60',2,25,'2357', null);
-INSERT INTO bus_routes VALUES('60',2,26,'1884', null);
-INSERT INTO bus_routes VALUES('60',2,27,'1882', null);
-INSERT INTO bus_routes VALUES('60',2,28,'2590', null);
-INSERT INTO bus_routes VALUES('60',2,29,'2588', null);
-INSERT INTO bus_routes VALUES('M1',1,1,'5837', null);
-INSERT INTO bus_routes VALUES('M1',1,2,'4040', null);
-INSERT INTO bus_routes VALUES('M1',1,3,'4041', null);
-INSERT INTO bus_routes VALUES('M1',1,4,'4056', null);
-INSERT INTO bus_routes VALUES('M1',1,5,'4042', null);
-INSERT INTO bus_routes VALUES('M1',1,6,'1919', null);
-INSERT INTO bus_routes VALUES('M1',1,7,'4043', null);
-INSERT INTO bus_routes VALUES('M1',1,8,'4044', null);
-INSERT INTO bus_routes VALUES('M1',1,9,'4045', null);
-INSERT INTO bus_routes VALUES('M1',1,10,'4060', null);
-INSERT INTO bus_routes VALUES('M1',1,11,'4057', null);
-INSERT INTO bus_routes VALUES('M1',2,1,'4057', null);
-INSERT INTO bus_routes VALUES('M1',2,2,'4035', null);
-INSERT INTO bus_routes VALUES('M1',2,3,'4036', null);
-INSERT INTO bus_routes VALUES('M1',2,4,'4037', null);
-INSERT INTO bus_routes VALUES('M1',2,5,'4058', null);
-INSERT INTO bus_routes VALUES('M1',2,6,'4038', null);
-INSERT INTO bus_routes VALUES('M1',2,7,'4025', null);
-INSERT INTO bus_routes VALUES('M1',2,8,'4039', null);
-INSERT INTO bus_routes VALUES('M1',2,9,'1049', null);
-INSERT INTO bus_routes VALUES('M1',2,10,'5837', null);
-INSERT INTO bus_routes VALUES('61',1,1,'543', null);
-INSERT INTO bus_routes VALUES('61',1,2,'520', null);
-INSERT INTO bus_routes VALUES('61',1,3,'521', null);
-INSERT INTO bus_routes VALUES('61',1,4,'522', null);
-INSERT INTO bus_routes VALUES('61',1,5,'523', null);
-INSERT INTO bus_routes VALUES('61',1,6,'524', null);
-INSERT INTO bus_routes VALUES('61',1,7,'525', null);
-INSERT INTO bus_routes VALUES('61',1,8,'527', null);
-INSERT INTO bus_routes VALUES('61',1,9,'1894', null);
-INSERT INTO bus_routes VALUES('61',1,10,'529', null);
-INSERT INTO bus_routes VALUES('61',1,11,'2602', null);
-INSERT INTO bus_routes VALUES('61',1,12,'2601', null);
-INSERT INTO bus_routes VALUES('61',1,13,'2599', null);
-INSERT INTO bus_routes VALUES('61',1,14,'3738', null);
-INSERT INTO bus_routes VALUES('61',1,15,'2597', null);
-INSERT INTO bus_routes VALUES('61',1,16,'3739', null);
-INSERT INTO bus_routes VALUES('61',1,17,'1286', null);
-INSERT INTO bus_routes VALUES('61',1,18,'2222', null);
-INSERT INTO bus_routes VALUES('61',1,19,'2220', null);
-INSERT INTO bus_routes VALUES('61',1,20,'2218', null);
-INSERT INTO bus_routes VALUES('61',1,21,'2216', null);
-INSERT INTO bus_routes VALUES('61',1,22,'2154', null);
-INSERT INTO bus_routes VALUES('61',1,23,'2156', null);
-INSERT INTO bus_routes VALUES('61',1,24,'3937', null);
-INSERT INTO bus_routes VALUES('61',2,1,'3937', null);
-INSERT INTO bus_routes VALUES('61',2,2,'2214', null);
-INSERT INTO bus_routes VALUES('61',2,3,'2157', null);
-INSERT INTO bus_routes VALUES('61',2,4,'2155', null);
-INSERT INTO bus_routes VALUES('61',2,5,'2215', null);
-INSERT INTO bus_routes VALUES('61',2,6,'2217', null);
-INSERT INTO bus_routes VALUES('61',2,7,'2219', null);
-INSERT INTO bus_routes VALUES('61',2,8,'2221', null);
-INSERT INTO bus_routes VALUES('61',2,9,'4358', null);
-INSERT INTO bus_routes VALUES('61',2,10,'1429', null);
-INSERT INTO bus_routes VALUES('61',2,11,'2595', null);
-INSERT INTO bus_routes VALUES('61',2,12,'3641', null);
-INSERT INTO bus_routes VALUES('61',2,13,'2598', null);
-INSERT INTO bus_routes VALUES('61',2,14,'2600', null);
-INSERT INTO bus_routes VALUES('61',2,15,'537', null);
-INSERT INTO bus_routes VALUES('61',2,16,'530', null);
-INSERT INTO bus_routes VALUES('61',2,17,'1893', null);
-INSERT INTO bus_routes VALUES('61',2,18,'528', null);
-INSERT INTO bus_routes VALUES('61',2,19,'1895', null);
-INSERT INTO bus_routes VALUES('61',2,20,'526', null);
-INSERT INTO bus_routes VALUES('61',2,21,'538', null);
-INSERT INTO bus_routes VALUES('61',2,22,'540', null);
-INSERT INTO bus_routes VALUES('61',2,23,'541', null);
-INSERT INTO bus_routes VALUES('61',2,24,'542', null);
-INSERT INTO bus_routes VALUES('61',2,25,'543', null);
-INSERT INTO bus_routes VALUES('62',1,1,'4608', null);
-INSERT INTO bus_routes VALUES('62',1,2,'4022', null);
-INSERT INTO bus_routes VALUES('62',1,3,'3687', null);
-INSERT INTO bus_routes VALUES('62',1,4,'4026', null);
-INSERT INTO bus_routes VALUES('62',1,5,'1216', null);
-INSERT INTO bus_routes VALUES('62',1,6,'596', null);
-INSERT INTO bus_routes VALUES('62',1,7,'599', null);
-INSERT INTO bus_routes VALUES('62',1,8,'601', null);
-INSERT INTO bus_routes VALUES('62',1,9,'603', null);
-INSERT INTO bus_routes VALUES('62',1,10,'4070', null);
-INSERT INTO bus_routes VALUES('62',1,11,'606', null);
-INSERT INTO bus_routes VALUES('62',1,12,'2367', null);
-INSERT INTO bus_routes VALUES('62',1,13,'2366', null);
-INSERT INTO bus_routes VALUES('62',1,14,'4115', null);
-INSERT INTO bus_routes VALUES('62',1,15,'2322', null);
-INSERT INTO bus_routes VALUES('62',1,16,'2323', null);
-INSERT INTO bus_routes VALUES('62',1,17,'553', null);
-INSERT INTO bus_routes VALUES('62',1,18,'2313', null);
-INSERT INTO bus_routes VALUES('62',1,19,'2311', null);
-INSERT INTO bus_routes VALUES('62',1,20,'328', null);
-INSERT INTO bus_routes VALUES('62',1,21,'380', null);
-INSERT INTO bus_routes VALUES('62',1,22,'381', null);
-INSERT INTO bus_routes VALUES('62',1,23,'325', null);
-INSERT INTO bus_routes VALUES('62',1,24,'4118', null);
-INSERT INTO bus_routes VALUES('62',1,25,'4120', null);
-INSERT INTO bus_routes VALUES('62',1,26,'4121', null);
-INSERT INTO bus_routes VALUES('62',1,27,'1120', null);
-INSERT INTO bus_routes VALUES('62',1,28,'4150', null);
-INSERT INTO bus_routes VALUES('62',1,29,'4152', null);
-INSERT INTO bus_routes VALUES('62',1,30,'4154', null);
-INSERT INTO bus_routes VALUES('62',1,31,'1170', null);
-INSERT INTO bus_routes VALUES('62',1,32,'3201', null);
-INSERT INTO bus_routes VALUES('62',1,33,'3201', null);
-INSERT INTO bus_routes VALUES('62',1,34,'5054', null);
-INSERT INTO bus_routes VALUES('62',1,35,'2905', null);
-INSERT INTO bus_routes VALUES('62',1,36,'2907', null);
-INSERT INTO bus_routes VALUES('62',1,37,'3204', null);
-INSERT INTO bus_routes VALUES('62',1,38,'3207', null);
-INSERT INTO bus_routes VALUES('62',1,39,'3206', null);
-INSERT INTO bus_routes VALUES('62',2,1,'3206', null);
-INSERT INTO bus_routes VALUES('62',2,2,'4673', null);
-INSERT INTO bus_routes VALUES('62',2,3,'2908', null);
-INSERT INTO bus_routes VALUES('62',2,4,'2906', null);
-INSERT INTO bus_routes VALUES('62',2,5,'5512', null);
-INSERT INTO bus_routes VALUES('62',2,6,'2916', null);
-INSERT INTO bus_routes VALUES('62',2,7,'3858', null);
-INSERT INTO bus_routes VALUES('62',2,8,'5741', null);
-INSERT INTO bus_routes VALUES('62',2,9,'5776', null);
-INSERT INTO bus_routes VALUES('62',2,10,'4151', null);
-INSERT INTO bus_routes VALUES('62',2,11,'1121', null);
-INSERT INTO bus_routes VALUES('62',2,12,'4122', null);
-INSERT INTO bus_routes VALUES('62',2,13,'4119', null);
-INSERT INTO bus_routes VALUES('62',2,14,'5820', null);
-INSERT INTO bus_routes VALUES('62',2,15,'324', null);
-INSERT INTO bus_routes VALUES('62',2,16,'326', null);
-INSERT INTO bus_routes VALUES('62',2,17,'4669', null);
-INSERT INTO bus_routes VALUES('62',2,18,'327', null);
-INSERT INTO bus_routes VALUES('62',2,19,'2310', null);
-INSERT INTO bus_routes VALUES('62',2,20,'2312', null);
-INSERT INTO bus_routes VALUES('62',2,21,'4123', null);
-INSERT INTO bus_routes VALUES('62',2,22,'4124', null);
-INSERT INTO bus_routes VALUES('62',2,23,'2316', null);
-INSERT INTO bus_routes VALUES('62',2,24,'2317', null);
-INSERT INTO bus_routes VALUES('62',2,25,'2318', null);
-INSERT INTO bus_routes VALUES('62',2,26,'609', null);
-INSERT INTO bus_routes VALUES('62',2,27,'1562', null);
-INSERT INTO bus_routes VALUES('62',2,28,'5246', null);
-INSERT INTO bus_routes VALUES('62',2,29,'742', null);
-INSERT INTO bus_routes VALUES('62',2,30,'5522', null);
-INSERT INTO bus_routes VALUES('62',2,31,'2753', null);
-INSERT INTO bus_routes VALUES('62',2,32,'2785', null);
-INSERT INTO bus_routes VALUES('62',2,33,'2786', null);
-INSERT INTO bus_routes VALUES('62',2,34,'2746', null);
-INSERT INTO bus_routes VALUES('62',2,35,'15525', null);
-INSERT INTO bus_routes VALUES('62',2,36,'4021', null);
-INSERT INTO bus_routes VALUES('62',2,37,'743', null);
-INSERT INTO bus_routes VALUES('62',2,38,'4608', null);
-INSERT INTO bus_routes VALUES('63',1,1,'2153', null);
-INSERT INTO bus_routes VALUES('63',1,2,'2153', null);
-INSERT INTO bus_routes VALUES('63',1,3,'2154', null);
-INSERT INTO bus_routes VALUES('63',1,4,'2156', null);
-INSERT INTO bus_routes VALUES('63',1,5,'814', null);
-INSERT INTO bus_routes VALUES('63',1,6,'816', null);
-INSERT INTO bus_routes VALUES('63',1,7,'2213', null);
-INSERT INTO bus_routes VALUES('63',1,8,'2130', null);
-INSERT INTO bus_routes VALUES('63',1,9,'2128', null);
-INSERT INTO bus_routes VALUES('63',1,10,'2126', null);
-INSERT INTO bus_routes VALUES('63',1,11,'2603', null);
-INSERT INTO bus_routes VALUES('63',1,12,'2605', null);
-INSERT INTO bus_routes VALUES('63',1,13,'2606', null);
-INSERT INTO bus_routes VALUES('63',1,14,'2607', null);
-INSERT INTO bus_routes VALUES('63',1,15,'2608', null);
-INSERT INTO bus_routes VALUES('63',1,16,'4341', null);
-INSERT INTO bus_routes VALUES('63',1,17,'3353', null);
-INSERT INTO bus_routes VALUES('63',1,18,'5150', null);
-INSERT INTO bus_routes VALUES('63',1,19,'2612', null);
-INSERT INTO bus_routes VALUES('63',1,20,'1041', null);
-INSERT INTO bus_routes VALUES('63',1,21,'4787', null);
-INSERT INTO bus_routes VALUES('63',1,22,'1042', null);
-INSERT INTO bus_routes VALUES('63',1,23,'1043', null);
-INSERT INTO bus_routes VALUES('63',1,24,'1044', null);
-INSERT INTO bus_routes VALUES('63',1,25,'1045', null);
-INSERT INTO bus_routes VALUES('63',1,26,'1038', null);
-INSERT INTO bus_routes VALUES('63',1,27,'2619', null);
-INSERT INTO bus_routes VALUES('63',1,28,'1039', null);
-INSERT INTO bus_routes VALUES('63',2,1,'1039', null);
-INSERT INTO bus_routes VALUES('63',2,2,'2620', null);
-INSERT INTO bus_routes VALUES('63',2,3,'2621', null);
-INSERT INTO bus_routes VALUES('63',2,4,'2618', null);
-INSERT INTO bus_routes VALUES('63',2,5,'2617', null);
-INSERT INTO bus_routes VALUES('63',2,6,'2616', null);
-INSERT INTO bus_routes VALUES('63',2,7,'2615', null);
-INSERT INTO bus_routes VALUES('63',2,8,'4788', null);
-INSERT INTO bus_routes VALUES('63',2,9,'2614', null);
-INSERT INTO bus_routes VALUES('63',2,10,'2622', null);
-INSERT INTO bus_routes VALUES('63',2,11,'2623', null);
-INSERT INTO bus_routes VALUES('63',2,12,'2613', null);
-INSERT INTO bus_routes VALUES('63',2,13,'2610', null);
-INSERT INTO bus_routes VALUES('63',2,14,'2604', null);
-INSERT INTO bus_routes VALUES('63',2,15,'4594', null);
-INSERT INTO bus_routes VALUES('63',2,16,'4601', null);
-INSERT INTO bus_routes VALUES('63',2,17,'2611', null);
-INSERT INTO bus_routes VALUES('63',2,18,'4539', null);
-INSERT INTO bus_routes VALUES('63',2,19,'2125', null);
-INSERT INTO bus_routes VALUES('63',2,20,'2127', null);
-INSERT INTO bus_routes VALUES('63',2,21,'2210', null);
-INSERT INTO bus_routes VALUES('63',2,22,'2212', null);
-INSERT INTO bus_routes VALUES('63',2,23,'817', null);
-INSERT INTO bus_routes VALUES('63',2,24,'2214', null);
-INSERT INTO bus_routes VALUES('63',2,25,'2157', null);
-INSERT INTO bus_routes VALUES('63',2,26,'2155', null);
-INSERT INTO bus_routes VALUES('63',2,27,'2153', null);
-INSERT INTO bus_routes VALUES('63',2,28,'2153', null);
-INSERT INTO bus_routes VALUES('64',1,1,'1566', null);
-INSERT INTO bus_routes VALUES('64',1,2,'1568', null);
-INSERT INTO bus_routes VALUES('64',1,3,'1569', null);
-INSERT INTO bus_routes VALUES('64',1,4,'1571', null);
-INSERT INTO bus_routes VALUES('64',1,5,'1572', null);
-INSERT INTO bus_routes VALUES('64',1,6,'1573', null);
-INSERT INTO bus_routes VALUES('64',1,7,'1575', null);
-INSERT INTO bus_routes VALUES('64',1,8,'1577', null);
-INSERT INTO bus_routes VALUES('64',1,9,'1579', null);
-INSERT INTO bus_routes VALUES('64',1,10,'1581', null);
-INSERT INTO bus_routes VALUES('64',1,11,'1583', null);
-INSERT INTO bus_routes VALUES('64',1,12,'1585', null);
-INSERT INTO bus_routes VALUES('64',1,13,'1587', null);
-INSERT INTO bus_routes VALUES('64',1,14,'1589', null);
-INSERT INTO bus_routes VALUES('64',1,15,'1591', null);
-INSERT INTO bus_routes VALUES('64',1,16,'3733', null);
-INSERT INTO bus_routes VALUES('64',1,17,'3821', null);
-INSERT INTO bus_routes VALUES('64',1,18,'1593', null);
-INSERT INTO bus_routes VALUES('64',1,19,'1594', null);
-INSERT INTO bus_routes VALUES('64',1,20,'1354', null);
-INSERT INTO bus_routes VALUES('64',1,21,'5456', null);
-INSERT INTO bus_routes VALUES('64',1,22,'1356', null);
-INSERT INTO bus_routes VALUES('64',1,23,'1565', null);
-INSERT INTO bus_routes VALUES('64',1,24,'1595', null);
-INSERT INTO bus_routes VALUES('64',1,25,'1563', null);
-INSERT INTO bus_routes VALUES('64',1,26,'4436', null);
-INSERT INTO bus_routes VALUES('64',1,27,'4402', null);
-INSERT INTO bus_routes VALUES('64',1,28,'4404', null);
-INSERT INTO bus_routes VALUES('64',1,29,'4282', null);
-INSERT INTO bus_routes VALUES('64',1,30,'4292', null);
-INSERT INTO bus_routes VALUES('64',2,1,'4292', null);
-INSERT INTO bus_routes VALUES('64',2,2,'4405', null);
-INSERT INTO bus_routes VALUES('64',2,3,'4403', null);
-INSERT INTO bus_routes VALUES('64',2,4,'4437', null);
-INSERT INTO bus_routes VALUES('64',2,5,'1559', null);
-INSERT INTO bus_routes VALUES('64',2,6,'1597', null);
-INSERT INTO bus_routes VALUES('64',2,7,'1596', null);
-INSERT INTO bus_routes VALUES('64',2,8,'1357', null);
-INSERT INTO bus_routes VALUES('64',2,9,'1355', null);
-INSERT INTO bus_routes VALUES('64',2,10,'5652', null);
-INSERT INTO bus_routes VALUES('64',2,11,'1598', null);
-INSERT INTO bus_routes VALUES('64',2,12,'3699', null);
-INSERT INTO bus_routes VALUES('64',2,13,'1592', null);
-INSERT INTO bus_routes VALUES('64',2,14,'1590', null);
-INSERT INTO bus_routes VALUES('64',2,15,'1588', null);
-INSERT INTO bus_routes VALUES('64',2,16,'5628', null);
-INSERT INTO bus_routes VALUES('64',2,17,'1584', null);
-INSERT INTO bus_routes VALUES('64',2,18,'1582', null);
-INSERT INTO bus_routes VALUES('64',2,19,'1580', null);
-INSERT INTO bus_routes VALUES('64',2,20,'1578', null);
-INSERT INTO bus_routes VALUES('64',2,21,'1576', null);
-INSERT INTO bus_routes VALUES('64',2,22,'5252', null);
-INSERT INTO bus_routes VALUES('64',2,23,'1599', null);
-INSERT INTO bus_routes VALUES('64',2,24,'1570', null);
-INSERT INTO bus_routes VALUES('64',2,25,'1600', null);
-INSERT INTO bus_routes VALUES('64',2,26,'1566', null);
-INSERT INTO bus_routes VALUES('65',1,1,'1918', null);
-INSERT INTO bus_routes VALUES('65',1,2,'2247', null);
-INSERT INTO bus_routes VALUES('65',1,3,'2249', null);
-INSERT INTO bus_routes VALUES('65',1,4,'2251', null);
-INSERT INTO bus_routes VALUES('65',1,5,'2253', null);
-INSERT INTO bus_routes VALUES('65',1,6,'871', null);
-INSERT INTO bus_routes VALUES('65',1,7,'873', null);
-INSERT INTO bus_routes VALUES('65',1,8,'875', null);
-INSERT INTO bus_routes VALUES('65',1,9,'877', null);
-INSERT INTO bus_routes VALUES('65',1,10,'879', null);
-INSERT INTO bus_routes VALUES('65',1,11,'881', null);
-INSERT INTO bus_routes VALUES('65',1,12,'882', null);
-INSERT INTO bus_routes VALUES('65',1,13,'884', null);
-INSERT INTO bus_routes VALUES('65',1,14,'4987', null);
-INSERT INTO bus_routes VALUES('65',1,15,'2626', null);
-INSERT INTO bus_routes VALUES('65',1,16,'2628', null);
-INSERT INTO bus_routes VALUES('65',1,17,'2630', null);
-INSERT INTO bus_routes VALUES('65',1,18,'2632', null);
-INSERT INTO bus_routes VALUES('65',1,19,'5336', null);
-INSERT INTO bus_routes VALUES('65',1,20,'3877', null);
-INSERT INTO bus_routes VALUES('65',1,21,'2636', null);
-INSERT INTO bus_routes VALUES('65',1,22,'2637', null);
-INSERT INTO bus_routes VALUES('65',1,23,'2638', null);
-INSERT INTO bus_routes VALUES('65',1,24,'5325', null);
-INSERT INTO bus_routes VALUES('65',1,25,'2641', null);
-INSERT INTO bus_routes VALUES('65',1,26,'2643', null);
-INSERT INTO bus_routes VALUES('65',2,1,'2643', null);
-INSERT INTO bus_routes VALUES('65',2,2,'2642', null);
-INSERT INTO bus_routes VALUES('65',2,3,'2640', null);
-INSERT INTO bus_routes VALUES('65',2,4,'2644', null);
-INSERT INTO bus_routes VALUES('65',2,5,'2645', null);
-INSERT INTO bus_routes VALUES('65',2,6,'2635', null);
-INSERT INTO bus_routes VALUES('65',2,7,'2633', null);
-INSERT INTO bus_routes VALUES('65',2,8,'2631', null);
-INSERT INTO bus_routes VALUES('65',2,9,'2629', null);
-INSERT INTO bus_routes VALUES('65',2,10,'2627', null);
-INSERT INTO bus_routes VALUES('65',2,11,'2305', null);
-INSERT INTO bus_routes VALUES('65',2,12,'2306', null);
-INSERT INTO bus_routes VALUES('65',2,13,'883', null);
-INSERT INTO bus_routes VALUES('65',2,14,'911', null);
-INSERT INTO bus_routes VALUES('65',2,15,'880', null);
-INSERT INTO bus_routes VALUES('65',2,16,'878', null);
-INSERT INTO bus_routes VALUES('65',2,17,'876', null);
-INSERT INTO bus_routes VALUES('65',2,18,'874', null);
-INSERT INTO bus_routes VALUES('65',2,19,'872', null);
-INSERT INTO bus_routes VALUES('65',2,20,'2254', null);
-INSERT INTO bus_routes VALUES('65',2,21,'2252', null);
-INSERT INTO bus_routes VALUES('65',2,22,'2250', null);
-INSERT INTO bus_routes VALUES('65',2,23,'2248', null);
-INSERT INTO bus_routes VALUES('65',2,24,'4038', null);
-INSERT INTO bus_routes VALUES('65',2,25,'1918', null);
-INSERT INTO bus_routes VALUES('66',1,1,'3219', null);
-INSERT INTO bus_routes VALUES('66',1,2,'1568', null);
-INSERT INTO bus_routes VALUES('66',1,3,'1569', null);
-INSERT INTO bus_routes VALUES('66',1,4,'1571', null);
-INSERT INTO bus_routes VALUES('66',1,5,'2647', null);
-INSERT INTO bus_routes VALUES('66',1,6,'4083', null);
-INSERT INTO bus_routes VALUES('66',1,7,'4085', null);
-INSERT INTO bus_routes VALUES('66',1,8,'2651', null);
-INSERT INTO bus_routes VALUES('66',1,9,'1533', null);
-INSERT INTO bus_routes VALUES('66',1,10,'1531', null);
-INSERT INTO bus_routes VALUES('66',1,11,'1486', null);
-INSERT INTO bus_routes VALUES('66',1,12,'1487', null);
-INSERT INTO bus_routes VALUES('66',1,13,'1488', null);
-INSERT INTO bus_routes VALUES('66',1,14,'2653', null);
-INSERT INTO bus_routes VALUES('66',1,15,'2654', null);
-INSERT INTO bus_routes VALUES('66',1,16,'2655', null);
-INSERT INTO bus_routes VALUES('66',1,17,'2656', null);
-INSERT INTO bus_routes VALUES('66',1,18,'2662', null);
-INSERT INTO bus_routes VALUES('66',1,19,'2664', null);
-INSERT INTO bus_routes VALUES('66',1,20,'2666', null);
-INSERT INTO bus_routes VALUES('66',1,21,'2668', null);
-INSERT INTO bus_routes VALUES('66',1,22,'2670', null);
-INSERT INTO bus_routes VALUES('66',1,23,'2672', null);
-INSERT INTO bus_routes VALUES('66',1,24,'2674', null);
-INSERT INTO bus_routes VALUES('66',1,25,'2676', null);
-INSERT INTO bus_routes VALUES('66',1,26,'2678', null);
-INSERT INTO bus_routes VALUES('66',1,27,'2680', null);
-INSERT INTO bus_routes VALUES('66',1,28,'2682', null);
-INSERT INTO bus_routes VALUES('66',1,29,'2684', null);
-INSERT INTO bus_routes VALUES('66',1,30,'2686', null);
-INSERT INTO bus_routes VALUES('66',1,31,'2688', null);
-INSERT INTO bus_routes VALUES('66',1,32,'2690', null);
-INSERT INTO bus_routes VALUES('66',1,33,'5105', null);
-INSERT INTO bus_routes VALUES('66',2,1,'5105', null);
-INSERT INTO bus_routes VALUES('66',2,2,'2689', null);
-INSERT INTO bus_routes VALUES('66',2,3,'2687', null);
-INSERT INTO bus_routes VALUES('66',2,4,'2685', null);
-INSERT INTO bus_routes VALUES('66',2,5,'2683', null);
-INSERT INTO bus_routes VALUES('66',2,6,'2681', null);
-INSERT INTO bus_routes VALUES('66',2,7,'2679', null);
-INSERT INTO bus_routes VALUES('66',2,8,'2677', null);
-INSERT INTO bus_routes VALUES('66',2,9,'2675', null);
-INSERT INTO bus_routes VALUES('66',2,10,'2673', null);
-INSERT INTO bus_routes VALUES('66',2,11,'2671', null);
-INSERT INTO bus_routes VALUES('66',2,12,'2669', null);
-INSERT INTO bus_routes VALUES('66',2,13,'2667', null);
-INSERT INTO bus_routes VALUES('66',2,14,'2663', null);
-INSERT INTO bus_routes VALUES('66',2,15,'2657', null);
-INSERT INTO bus_routes VALUES('66',2,16,'2658', null);
-INSERT INTO bus_routes VALUES('66',2,17,'2659', null);
-INSERT INTO bus_routes VALUES('66',2,18,'2660', null);
-INSERT INTO bus_routes VALUES('66',2,19,'2661', null);
-INSERT INTO bus_routes VALUES('66',2,20,'4194', null);
-INSERT INTO bus_routes VALUES('66',2,21,'31', null);
-INSERT INTO bus_routes VALUES('66',2,22,'1530', null);
-INSERT INTO bus_routes VALUES('66',2,23,'1532', null);
-INSERT INTO bus_routes VALUES('66',2,24,'4147', null);
-INSERT INTO bus_routes VALUES('66',2,25,'5365', null);
-INSERT INTO bus_routes VALUES('66',2,26,'569', null);
-INSERT INTO bus_routes VALUES('66',2,27,'1858', null);
-INSERT INTO bus_routes VALUES('66',2,28,'1859', null);
-INSERT INTO bus_routes VALUES('66',2,29,'1570', null);
-INSERT INTO bus_routes VALUES('66',2,30,'1600', null);
-INSERT INTO bus_routes VALUES('66',2,31,'3219', null);
-INSERT INTO bus_routes VALUES('67',1,1,'5605', null);
-INSERT INTO bus_routes VALUES('67',1,2,'1487', null);
-INSERT INTO bus_routes VALUES('67',1,3,'3826', null);
-INSERT INTO bus_routes VALUES('67',1,4,'1489', null);
-INSERT INTO bus_routes VALUES('67',1,5,'1602', null);
-INSERT INTO bus_routes VALUES('67',1,6,'1604', null);
-INSERT INTO bus_routes VALUES('67',1,7,'1606', null);
-INSERT INTO bus_routes VALUES('67',1,8,'1608', null);
-INSERT INTO bus_routes VALUES('67',1,9,'1610', null);
-INSERT INTO bus_routes VALUES('67',1,10,'1374', null);
-INSERT INTO bus_routes VALUES('67',1,11,'1376', null);
-INSERT INTO bus_routes VALUES('67',1,12,'1377', null);
-INSERT INTO bus_routes VALUES('67',1,13,'1612', null);
-INSERT INTO bus_routes VALUES('67',1,14,'4741', null);
-INSERT INTO bus_routes VALUES('67',1,15,'1615', null);
-INSERT INTO bus_routes VALUES('67',1,16,'1617', null);
-INSERT INTO bus_routes VALUES('67',1,17,'1360', null);
-INSERT INTO bus_routes VALUES('67',1,18,'1619', null);
-INSERT INTO bus_routes VALUES('67',1,19,'1621', null);
-INSERT INTO bus_routes VALUES('67',1,20,'1623', null);
-INSERT INTO bus_routes VALUES('67',1,21,'1550', null);
-INSERT INTO bus_routes VALUES('67',1,22,'1625', null);
-INSERT INTO bus_routes VALUES('67',1,23,'1627', null);
-INSERT INTO bus_routes VALUES('67',1,24,'1629', null);
-INSERT INTO bus_routes VALUES('67',1,25,'1631', null);
-INSERT INTO bus_routes VALUES('67',1,26,'1633', null);
-INSERT INTO bus_routes VALUES('67',1,27,'1635', null);
-INSERT INTO bus_routes VALUES('67',2,1,'1635', null);
-INSERT INTO bus_routes VALUES('67',2,2,'1634', null);
-INSERT INTO bus_routes VALUES('67',2,3,'1632', null);
-INSERT INTO bus_routes VALUES('67',2,4,'1630', null);
-INSERT INTO bus_routes VALUES('67',2,5,'1628', null);
-INSERT INTO bus_routes VALUES('67',2,6,'1626', null);
-INSERT INTO bus_routes VALUES('67',2,7,'1551', null);
-INSERT INTO bus_routes VALUES('67',2,8,'1624', null);
-INSERT INTO bus_routes VALUES('67',2,9,'1622', null);
-INSERT INTO bus_routes VALUES('67',2,10,'1620', null);
-INSERT INTO bus_routes VALUES('67',2,11,'1359', null);
-INSERT INTO bus_routes VALUES('67',2,12,'1618', null);
-INSERT INTO bus_routes VALUES('67',2,13,'1616', null);
-INSERT INTO bus_routes VALUES('67',2,14,'1614', null);
-INSERT INTO bus_routes VALUES('67',2,15,'1636', null);
-INSERT INTO bus_routes VALUES('67',2,16,'5382', null);
-INSERT INTO bus_routes VALUES('67',2,17,'1637', null);
-INSERT INTO bus_routes VALUES('67',2,18,'5862', null);
-INSERT INTO bus_routes VALUES('67',2,19,'1638', null);
-INSERT INTO bus_routes VALUES('67',2,20,'1639', null);
-INSERT INTO bus_routes VALUES('67',2,21,'1611', null);
-INSERT INTO bus_routes VALUES('67',2,22,'1609', null);
-INSERT INTO bus_routes VALUES('67',2,23,'1607', null);
-INSERT INTO bus_routes VALUES('67',2,24,'1605', null);
-INSERT INTO bus_routes VALUES('67',2,25,'5363', null);
-INSERT INTO bus_routes VALUES('67',2,26,'1640', null);
-INSERT INTO bus_routes VALUES('67',2,27,'3932', null);
-INSERT INTO bus_routes VALUES('67',2,28,'3933', null);
-INSERT INTO bus_routes VALUES('67',2,29,'1526', null);
-INSERT INTO bus_routes VALUES('67',2,30,'1527', null);
-INSERT INTO bus_routes VALUES('67',2,31,'5605', null);
-INSERT INTO bus_routes VALUES('C1',1,1,'1890', null);
-INSERT INTO bus_routes VALUES('C1',1,2,'1890', null);
-INSERT INTO bus_routes VALUES('C1',1,3,'2693', null);
-INSERT INTO bus_routes VALUES('C1',1,4,'2695', null);
-INSERT INTO bus_routes VALUES('C1',1,5,'2696', null);
-INSERT INTO bus_routes VALUES('C1',1,6,'421', null);
-INSERT INTO bus_routes VALUES('C1',1,7,'420', null);
-INSERT INTO bus_routes VALUES('C1',1,8,'4678', null);
-INSERT INTO bus_routes VALUES('C1',1,9,'2698', null);
-INSERT INTO bus_routes VALUES('C1',1,10,'4676', null);
-INSERT INTO bus_routes VALUES('C1',1,11,'2700', null);
-INSERT INTO bus_routes VALUES('C1',1,12,'789', null);
-INSERT INTO bus_routes VALUES('C1',1,13,'786', null);
-INSERT INTO bus_routes VALUES('C1',1,14,'811', null);
-INSERT INTO bus_routes VALUES('C1',1,15,'3829', null);
-INSERT INTO bus_routes VALUES('C1',1,16,'1427', null);
-INSERT INTO bus_routes VALUES('C1',1,17,'148', null);
-INSERT INTO bus_routes VALUES('C1',1,18,'1252', null);
-INSERT INTO bus_routes VALUES('C1',1,19,'5093', null);
-INSERT INTO bus_routes VALUES('C1',1,20,'2154', null);
-INSERT INTO bus_routes VALUES('C1',1,21,'2156', null);
-INSERT INTO bus_routes VALUES('C1',1,22,'814', null);
-INSERT INTO bus_routes VALUES('C1',1,23,'816', null);
-INSERT INTO bus_routes VALUES('C1',1,24,'2213', null);
-INSERT INTO bus_routes VALUES('C1',1,25,'2211', null);
-INSERT INTO bus_routes VALUES('C1',1,26,'2049', null);
-INSERT INTO bus_routes VALUES('C1',1,27,'2047', null);
-INSERT INTO bus_routes VALUES('C1',1,28,'2045', null);
-INSERT INTO bus_routes VALUES('C1',1,29,'2178', null);
-INSERT INTO bus_routes VALUES('C1',1,30,'83', null);
-INSERT INTO bus_routes VALUES('C1',1,31,'84', null);
-INSERT INTO bus_routes VALUES('C1',1,32,'320', null);
-INSERT INTO bus_routes VALUES('C1',1,33,'2355', null);
-INSERT INTO bus_routes VALUES('C1',2,1,'2355', null);
-INSERT INTO bus_routes VALUES('C1',2,2,'2357', null);
-INSERT INTO bus_routes VALUES('C1',2,3,'2359', null);
-INSERT INTO bus_routes VALUES('C1',2,4,'2361', null);
-INSERT INTO bus_routes VALUES('C1',2,5,'2363', null);
-INSERT INTO bus_routes VALUES('C1',2,6,'2365', null);
-INSERT INTO bus_routes VALUES('C1',2,7,'609', null);
-INSERT INTO bus_routes VALUES('C1',2,8,'1562', null);
-INSERT INTO bus_routes VALUES('C1',2,9,'5246', null);
-INSERT INTO bus_routes VALUES('C1',2,10,'742', null);
-INSERT INTO bus_routes VALUES('C1',2,11,'1750', null);
-INSERT INTO bus_routes VALUES('C1',2,12,'172', null);
-INSERT INTO bus_routes VALUES('C1',2,13,'734', null);
-INSERT INTO bus_routes VALUES('C1',2,14,'736', null);
-INSERT INTO bus_routes VALUES('C1',2,15,'738', null);
-INSERT INTO bus_routes VALUES('C1',2,16,'4816', null);
-INSERT INTO bus_routes VALUES('C1',2,17,'4021', null);
-INSERT INTO bus_routes VALUES('C1',2,18,'743', null);
-INSERT INTO bus_routes VALUES('C1',2,19,'2704', null);
-INSERT INTO bus_routes VALUES('C1',2,20,'2706', null);
-INSERT INTO bus_routes VALUES('C1',2,21,'5263', null);
-INSERT INTO bus_routes VALUES('C1',2,22,'2710', null);
-INSERT INTO bus_routes VALUES('C1',2,23,'185', null);
-INSERT INTO bus_routes VALUES('C1',2,24,'1415', null);
-INSERT INTO bus_routes VALUES('C1',2,25,'1417', null);
-INSERT INTO bus_routes VALUES('C1',2,26,'1890', null);
-INSERT INTO bus_routes VALUES('C1',2,27,'1890', null);
-INSERT INTO bus_routes VALUES('C2',1,1,'1940', null);
-INSERT INTO bus_routes VALUES('C2',1,2,'1418', null);
-INSERT INTO bus_routes VALUES('C2',1,3,'1416', null);
-INSERT INTO bus_routes VALUES('C2',1,4,'2712', null);
-INSERT INTO bus_routes VALUES('C2',1,5,'2713', null);
-INSERT INTO bus_routes VALUES('C2',1,6,'5141', null);
-INSERT INTO bus_routes VALUES('C2',1,7,'2709', null);
-INSERT INTO bus_routes VALUES('C2',1,8,'2707', null);
-INSERT INTO bus_routes VALUES('C2',1,9,'2705', null);
-INSERT INTO bus_routes VALUES('C2',1,10,'4514', null);
-INSERT INTO bus_routes VALUES('C2',1,11,'4022', null);
-INSERT INTO bus_routes VALUES('C2',1,12,'3687', null);
-INSERT INTO bus_routes VALUES('C2',1,13,'737', null);
-INSERT INTO bus_routes VALUES('C2',1,14,'735', null);
-INSERT INTO bus_routes VALUES('C2',1,15,'193', null);
-INSERT INTO bus_routes VALUES('C2',1,16,'173', null);
-INSERT INTO bus_routes VALUES('C2',1,17,'741', null);
-INSERT INTO bus_routes VALUES('C2',1,18,'854', null);
-INSERT INTO bus_routes VALUES('C2',1,19,'599', null);
-INSERT INTO bus_routes VALUES('C2',1,20,'601', null);
-INSERT INTO bus_routes VALUES('C2',1,21,'603', null);
-INSERT INTO bus_routes VALUES('C2',1,22,'4070', null);
-INSERT INTO bus_routes VALUES('C2',1,23,'606', null);
-INSERT INTO bus_routes VALUES('C2',1,24,'2367', null);
-INSERT INTO bus_routes VALUES('C2',1,25,'2366', null);
-INSERT INTO bus_routes VALUES('C2',1,26,'2364', null);
-INSERT INTO bus_routes VALUES('C2',1,27,'2362', null);
-INSERT INTO bus_routes VALUES('C2',1,28,'2360', null);
-INSERT INTO bus_routes VALUES('C2',1,29,'2358', null);
-INSERT INTO bus_routes VALUES('C2',1,30,'2356', null);
-INSERT INTO bus_routes VALUES('C2',1,31,'5104', null);
-INSERT INTO bus_routes VALUES('C2',2,1,'5104', null);
-INSERT INTO bus_routes VALUES('C2',2,2,'85', null);
-INSERT INTO bus_routes VALUES('C2',2,3,'4985', null);
-INSERT INTO bus_routes VALUES('C2',2,4,'1401', null);
-INSERT INTO bus_routes VALUES('C2',2,5,'1401', null);
-INSERT INTO bus_routes VALUES('C2',2,6,'2046', null);
-INSERT INTO bus_routes VALUES('C2',2,7,'2048', null);
-INSERT INTO bus_routes VALUES('C2',2,8,'2210', null);
-INSERT INTO bus_routes VALUES('C2',2,9,'2212', null);
-INSERT INTO bus_routes VALUES('C2',2,10,'817', null);
-INSERT INTO bus_routes VALUES('C2',2,11,'2214', null);
-INSERT INTO bus_routes VALUES('C2',2,12,'2157', null);
-INSERT INTO bus_routes VALUES('C2',2,13,'2155', null);
-INSERT INTO bus_routes VALUES('C2',2,14,'2703', null);
-INSERT INTO bus_routes VALUES('C2',2,15,'2702', null);
-INSERT INTO bus_routes VALUES('C2',2,16,'149', null);
-INSERT INTO bus_routes VALUES('C2',2,17,'1428', null);
-INSERT INTO bus_routes VALUES('C2',2,18,'782', null);
-INSERT INTO bus_routes VALUES('C2',2,19,'784', null);
-INSERT INTO bus_routes VALUES('C2',2,20,'5296', null);
-INSERT INTO bus_routes VALUES('C2',2,21,'788', null);
-INSERT INTO bus_routes VALUES('C2',2,22,'2701', null);
-INSERT INTO bus_routes VALUES('C2',2,23,'4677', null);
-INSERT INTO bus_routes VALUES('C2',2,24,'4999', null);
-INSERT INTO bus_routes VALUES('C2',2,25,'5394', null);
-INSERT INTO bus_routes VALUES('C2',2,26,'419', null);
-INSERT INTO bus_routes VALUES('C2',2,27,'422', null);
-INSERT INTO bus_routes VALUES('C2',2,28,'2697', null);
-INSERT INTO bus_routes VALUES('C2',2,29,'2694', null);
-INSERT INTO bus_routes VALUES('C2',2,30,'5449', null);
-INSERT INTO bus_routes VALUES('C2',2,31,'1940', null);
-INSERT INTO bus_routes VALUES('7',1,1,'491', null);
-INSERT INTO bus_routes VALUES('7',1,2,'492', null);
-INSERT INTO bus_routes VALUES('7',1,3,'494', null);
-INSERT INTO bus_routes VALUES('7',1,4,'529', null);
-INSERT INTO bus_routes VALUES('7',1,5,'58', null);
-INSERT INTO bus_routes VALUES('7',1,6,'56', null);
-INSERT INTO bus_routes VALUES('7',1,7,'54', null);
-INSERT INTO bus_routes VALUES('7',1,8,'52', null);
-INSERT INTO bus_routes VALUES('7',1,9,'421', null);
-INSERT INTO bus_routes VALUES('7',1,10,'420', null);
-INSERT INTO bus_routes VALUES('7',1,11,'5318', null);
-INSERT INTO bus_routes VALUES('7',1,12,'416', null);
-INSERT INTO bus_routes VALUES('7',1,13,'433', null);
-INSERT INTO bus_routes VALUES('7',1,14,'434', null);
-INSERT INTO bus_routes VALUES('7',1,15,'435', null);
-INSERT INTO bus_routes VALUES('7',1,16,'437', null);
-INSERT INTO bus_routes VALUES('7',1,17,'4849', null);
-INSERT INTO bus_routes VALUES('7',1,18,'439', null);
-INSERT INTO bus_routes VALUES('7',1,19,'299', null);
-INSERT INTO bus_routes VALUES('7',1,20,'300', null);
-INSERT INTO bus_routes VALUES('7',1,21,'302', null);
-INSERT INTO bus_routes VALUES('7',1,22,'217', null);
-INSERT INTO bus_routes VALUES('7',1,23,'216', null);
-INSERT INTO bus_routes VALUES('7',1,24,'214', null);
-INSERT INTO bus_routes VALUES('7',1,25,'497', null);
-INSERT INTO bus_routes VALUES('7',1,26,'499', null);
-INSERT INTO bus_routes VALUES('7',1,27,'501', null);
-INSERT INTO bus_routes VALUES('7',1,28,'503', null);
-INSERT INTO bus_routes VALUES('7',1,29,'505', null);
-INSERT INTO bus_routes VALUES('7',1,30,'507', null);
-INSERT INTO bus_routes VALUES('7',1,31,'508', null);
-INSERT INTO bus_routes VALUES('7',1,32,'509', null);
-INSERT INTO bus_routes VALUES('7',1,33,'510', null);
-INSERT INTO bus_routes VALUES('7',1,34,'511', null);
-INSERT INTO bus_routes VALUES('7',2,1,'511', null);
-INSERT INTO bus_routes VALUES('7',2,2,'512', null);
-INSERT INTO bus_routes VALUES('7',2,3,'506', null);
-INSERT INTO bus_routes VALUES('7',2,4,'504', null);
-INSERT INTO bus_routes VALUES('7',2,5,'502', null);
-INSERT INTO bus_routes VALUES('7',2,6,'513', null);
-INSERT INTO bus_routes VALUES('7',2,7,'500', null);
-INSERT INTO bus_routes VALUES('7',2,8,'498', null);
-INSERT INTO bus_routes VALUES('7',2,9,'212', null);
-INSERT INTO bus_routes VALUES('7',2,10,'215', null);
-INSERT INTO bus_routes VALUES('7',2,11,'303', null);
-INSERT INTO bus_routes VALUES('7',2,12,'2388', null);
-INSERT INTO bus_routes VALUES('7',2,13,'314', null);
-INSERT INTO bus_routes VALUES('7',2,14,'440', null);
-INSERT INTO bus_routes VALUES('7',2,15,'4850', null);
-INSERT INTO bus_routes VALUES('7',2,16,'514', null);
-INSERT INTO bus_routes VALUES('7',2,17,'516', null);
-INSERT INTO bus_routes VALUES('7',2,18,'456', null);
-INSERT INTO bus_routes VALUES('7',2,19,'441', null);
-INSERT INTO bus_routes VALUES('7',2,20,'442', null);
-INSERT INTO bus_routes VALUES('7',2,21,'419', null);
-INSERT INTO bus_routes VALUES('7',2,22,'422', null);
-INSERT INTO bus_routes VALUES('7',2,23,'49', null);
-INSERT INTO bus_routes VALUES('7',2,24,'51', null);
-INSERT INTO bus_routes VALUES('7',2,25,'53', null);
-INSERT INTO bus_routes VALUES('7',2,26,'4742', null);
-INSERT INTO bus_routes VALUES('7',2,27,'4338', null);
-INSERT INTO bus_routes VALUES('7',2,28,'495', null);
-INSERT INTO bus_routes VALUES('7',2,29,'493', null);
-INSERT INTO bus_routes VALUES('7',2,30,'518', null);
-INSERT INTO bus_routes VALUES('7',2,31,'491', null);
-INSERT INTO bus_routes VALUES('70',1,1,'5603', null);
-INSERT INTO bus_routes VALUES('70',1,2,'30', null);
-INSERT INTO bus_routes VALUES('70',1,3,'203', null);
-INSERT INTO bus_routes VALUES('70',1,4,'205', null);
-INSERT INTO bus_routes VALUES('70',1,5,'207', null);
-INSERT INTO bus_routes VALUES('70',1,6,'208', null);
-INSERT INTO bus_routes VALUES('70',1,7,'210', null);
-INSERT INTO bus_routes VALUES('70',1,8,'212', null);
-INSERT INTO bus_routes VALUES('70',1,9,'215', null);
-INSERT INTO bus_routes VALUES('70',1,10,'218', null);
-INSERT INTO bus_routes VALUES('70',1,11,'220', null);
-INSERT INTO bus_routes VALUES('70',1,12,'222', null);
-INSERT INTO bus_routes VALUES('70',1,13,'224', null);
-INSERT INTO bus_routes VALUES('70',1,14,'226', null);
-INSERT INTO bus_routes VALUES('70',1,15,'228', null);
-INSERT INTO bus_routes VALUES('70',1,16,'230', null);
-INSERT INTO bus_routes VALUES('70',1,17,'232', null);
-INSERT INTO bus_routes VALUES('70',1,18,'234', null);
-INSERT INTO bus_routes VALUES('70',1,19,'236', null);
-INSERT INTO bus_routes VALUES('70',1,20,'5458', null);
-INSERT INTO bus_routes VALUES('70',1,21,'240', null);
-INSERT INTO bus_routes VALUES('70',1,22,'242', null);
-INSERT INTO bus_routes VALUES('70',1,23,'244', null);
-INSERT INTO bus_routes VALUES('70',1,24,'246', null);
-INSERT INTO bus_routes VALUES('70',1,25,'4708', null);
-INSERT INTO bus_routes VALUES('70',1,26,'250', null);
-INSERT INTO bus_routes VALUES('70',1,27,'253', null);
-INSERT INTO bus_routes VALUES('70',1,28,'4230', null);
-INSERT INTO bus_routes VALUES('70',1,29,'5747', null);
-INSERT INTO bus_routes VALUES('70',2,1,'5747', null);
-INSERT INTO bus_routes VALUES('70',2,2,'5324', null);
-INSERT INTO bus_routes VALUES('70',2,3,'256', null);
-INSERT INTO bus_routes VALUES('70',2,4,'258', null);
-INSERT INTO bus_routes VALUES('70',2,5,'260', null);
-INSERT INTO bus_routes VALUES('70',2,6,'262', null);
-INSERT INTO bus_routes VALUES('70',2,7,'264', null);
-INSERT INTO bus_routes VALUES('70',2,8,'265', null);
-INSERT INTO bus_routes VALUES('70',2,9,'5823', null);
-INSERT INTO bus_routes VALUES('70',2,10,'251', null);
-INSERT INTO bus_routes VALUES('70',2,11,'248', null);
-INSERT INTO bus_routes VALUES('70',2,12,'247', null);
-INSERT INTO bus_routes VALUES('70',2,13,'245', null);
-INSERT INTO bus_routes VALUES('70',2,14,'243', null);
-INSERT INTO bus_routes VALUES('70',2,15,'241', null);
-INSERT INTO bus_routes VALUES('70',2,16,'239', null);
-INSERT INTO bus_routes VALUES('70',2,17,'237', null);
-INSERT INTO bus_routes VALUES('70',2,18,'235', null);
-INSERT INTO bus_routes VALUES('70',2,19,'233', null);
-INSERT INTO bus_routes VALUES('70',2,20,'231', null);
-INSERT INTO bus_routes VALUES('70',2,21,'229', null);
-INSERT INTO bus_routes VALUES('70',2,22,'227', null);
-INSERT INTO bus_routes VALUES('70',2,23,'225', null);
-INSERT INTO bus_routes VALUES('70',2,24,'4331', null);
-INSERT INTO bus_routes VALUES('70',2,25,'223', null);
-INSERT INTO bus_routes VALUES('70',2,26,'221', null);
-INSERT INTO bus_routes VALUES('70',2,27,'219', null);
-INSERT INTO bus_routes VALUES('70',2,28,'217', null);
-INSERT INTO bus_routes VALUES('70',2,29,'216', null);
-INSERT INTO bus_routes VALUES('70',2,30,'213', null);
-INSERT INTO bus_routes VALUES('70',2,31,'211', null);
-INSERT INTO bus_routes VALUES('70',2,32,'209', null);
-INSERT INTO bus_routes VALUES('70',2,33,'266', null);
-INSERT INTO bus_routes VALUES('70',2,34,'206', null);
-INSERT INTO bus_routes VALUES('70',2,35,'204', null);
-INSERT INTO bus_routes VALUES('70',2,36,'31', null);
-INSERT INTO bus_routes VALUES('70',2,37,'5603', null);
-INSERT INTO bus_routes VALUES('SE702',1,1,'3906', null);
-INSERT INTO bus_routes VALUES('SE702',1,2,'5349', null);
-INSERT INTO bus_routes VALUES('SE702',1,3,'5350', null);
-INSERT INTO bus_routes VALUES('SE702',1,4,'5351', null);
-INSERT INTO bus_routes VALUES('SE702',1,5,'5352', null);
-INSERT INTO bus_routes VALUES('SE702',1,6,'5354', null);
-INSERT INTO bus_routes VALUES('SE702',2,1,'5354', null);
-INSERT INTO bus_routes VALUES('SE702',2,2,'5353', null);
-INSERT INTO bus_routes VALUES('SE702',2,3,'5355', null);
-INSERT INTO bus_routes VALUES('SE702',2,4,'5356', null);
-INSERT INTO bus_routes VALUES('SE702',2,5,'3906', null);
-INSERT INTO bus_routes VALUES('SE704',1,1,'5459', null);
-INSERT INTO bus_routes VALUES('SE704',1,2,'1486', null);
-INSERT INTO bus_routes VALUES('SE704',1,3,'1487', null);
-INSERT INTO bus_routes VALUES('SE704',1,4,'1488', null);
-INSERT INTO bus_routes VALUES('SE704',1,5,'2653', null);
-INSERT INTO bus_routes VALUES('SE704',1,6,'2654', null);
-INSERT INTO bus_routes VALUES('SE704',1,7,'2655', null);
-INSERT INTO bus_routes VALUES('SE704',1,8,'2656', null);
-INSERT INTO bus_routes VALUES('SE704',1,9,'2662', null);
-INSERT INTO bus_routes VALUES('SE704',1,10,'2664', null);
-INSERT INTO bus_routes VALUES('SE704',1,11,'2666', null);
-INSERT INTO bus_routes VALUES('SE704',1,12,'2668', null);
-INSERT INTO bus_routes VALUES('SE704',1,13,'2670', null);
-INSERT INTO bus_routes VALUES('SE704',1,14,'2672', null);
-INSERT INTO bus_routes VALUES('SE704',1,15,'2674', null);
-INSERT INTO bus_routes VALUES('SE704',1,16,'2676', null);
-INSERT INTO bus_routes VALUES('SE704',1,17,'2678', null);
-INSERT INTO bus_routes VALUES('SE704',1,18,'4486', null);
-INSERT INTO bus_routes VALUES('SE704',2,1,'4486', null);
-INSERT INTO bus_routes VALUES('SE704',2,2,'2679', null);
-INSERT INTO bus_routes VALUES('SE704',2,3,'2677', null);
-INSERT INTO bus_routes VALUES('SE704',2,4,'2675', null);
-INSERT INTO bus_routes VALUES('SE704',2,5,'2673', null);
-INSERT INTO bus_routes VALUES('SE704',2,6,'2671', null);
-INSERT INTO bus_routes VALUES('SE704',2,7,'2669', null);
-INSERT INTO bus_routes VALUES('SE704',2,8,'2667', null);
-INSERT INTO bus_routes VALUES('SE704',2,9,'2663', null);
-INSERT INTO bus_routes VALUES('SE704',2,10,'2657', null);
-INSERT INTO bus_routes VALUES('SE704',2,11,'2658', null);
-INSERT INTO bus_routes VALUES('SE704',2,12,'2659', null);
-INSERT INTO bus_routes VALUES('SE704',2,13,'2660', null);
-INSERT INTO bus_routes VALUES('SE704',2,14,'2661', null);
-INSERT INTO bus_routes VALUES('SE704',2,15,'5459', null);
-INSERT INTO bus_routes VALUES('SE709',1,1,'407', null);
-INSERT INTO bus_routes VALUES('SE709',1,2,'2911', null);
-INSERT INTO bus_routes VALUES('SE709',1,3,'4888', null);
-INSERT INTO bus_routes VALUES('SE709',2,1,'4888', null);
-INSERT INTO bus_routes VALUES('SE709',2,2,'2912', null);
-INSERT INTO bus_routes VALUES('SE709',2,3,'407', null);
-INSERT INTO bus_routes VALUES('71',1,1,'3811', null);
-INSERT INTO bus_routes VALUES('71',1,2,'148', null);
-INSERT INTO bus_routes VALUES('71',1,3,'150', null);
-INSERT INTO bus_routes VALUES('71',1,4,'950', null);
-INSERT INTO bus_routes VALUES('71',1,5,'2168', null);
-INSERT INTO bus_routes VALUES('71',1,6,'957', null);
-INSERT INTO bus_routes VALUES('71',1,7,'1448', null);
-INSERT INTO bus_routes VALUES('71',1,8,'2714', null);
-INSERT INTO bus_routes VALUES('71',1,9,'2716', null);
-INSERT INTO bus_routes VALUES('71',1,10,'2718', null);
-INSERT INTO bus_routes VALUES('71',1,11,'2720', null);
-INSERT INTO bus_routes VALUES('71',1,12,'2726', null);
-INSERT INTO bus_routes VALUES('71',1,13,'2722', null);
-INSERT INTO bus_routes VALUES('71',1,14,'2724', null);
-INSERT INTO bus_routes VALUES('71',1,15,'4978', null);
-INSERT INTO bus_routes VALUES('71',1,16,'1269', null);
-INSERT INTO bus_routes VALUES('71',1,17,'840', null);
-INSERT INTO bus_routes VALUES('71',1,18,'1052', null);
-INSERT INTO bus_routes VALUES('71',1,19,'2728', null);
-INSERT INTO bus_routes VALUES('71',1,20,'4371', null);
-INSERT INTO bus_routes VALUES('71',1,21,'2730', null);
-INSERT INTO bus_routes VALUES('71',1,22,'4373', null);
-INSERT INTO bus_routes VALUES('71',1,23,'3495', null);
-INSERT INTO bus_routes VALUES('71',1,24,'5028', null);
-INSERT INTO bus_routes VALUES('71',1,25,'5030', null);
-INSERT INTO bus_routes VALUES('71',1,26,'3497', null);
-INSERT INTO bus_routes VALUES('71',1,27,'1826', null);
-INSERT INTO bus_routes VALUES('71',1,28,'1828', null);
-INSERT INTO bus_routes VALUES('71',1,29,'3556', null);
-INSERT INTO bus_routes VALUES('71',1,30,'5482', null);
-INSERT INTO bus_routes VALUES('71',1,31,'1430', null);
-INSERT INTO bus_routes VALUES('71',1,32,'1439', null);
-INSERT INTO bus_routes VALUES('71',1,33,'1447', null);
-INSERT INTO bus_routes VALUES('71',1,34,'1823', null);
-INSERT INTO bus_routes VALUES('71',1,35,'5483', null);
-INSERT INTO bus_routes VALUES('71',1,36,'5484', null);
-INSERT INTO bus_routes VALUES('71',1,37,'3827', null);
-INSERT INTO bus_routes VALUES('71',1,38,'5486', null);
-INSERT INTO bus_routes VALUES('71',1,39,'5115', null);
-INSERT INTO bus_routes VALUES('71',1,40,'5113', null);
-INSERT INTO bus_routes VALUES('71',1,41,'5111', null);
-INSERT INTO bus_routes VALUES('71',1,42,'5838', null);
-INSERT INTO bus_routes VALUES('71',1,43,'5838', null);
-INSERT INTO bus_routes VALUES('71',2,1,'5838', null);
-INSERT INTO bus_routes VALUES('71',2,2,'5838', null);
-INSERT INTO bus_routes VALUES('71',2,3,'5110', null);
-INSERT INTO bus_routes VALUES('71',2,4,'5112', null);
-INSERT INTO bus_routes VALUES('71',2,5,'5114', null);
-INSERT INTO bus_routes VALUES('71',2,6,'5487', null);
-INSERT INTO bus_routes VALUES('71',2,7,'3828', null);
-INSERT INTO bus_routes VALUES('71',2,8,'5485', null);
-INSERT INTO bus_routes VALUES('71',2,9,'5489', null);
-INSERT INTO bus_routes VALUES('71',2,10,'1822', null);
-INSERT INTO bus_routes VALUES('71',2,11,'5490', null);
-INSERT INTO bus_routes VALUES('71',2,12,'5491', null);
-INSERT INTO bus_routes VALUES('71',2,13,'1831', null);
-INSERT INTO bus_routes VALUES('71',2,14,'1829', null);
-INSERT INTO bus_routes VALUES('71',2,15,'1827', null);
-INSERT INTO bus_routes VALUES('71',2,16,'5027', null);
-INSERT INTO bus_routes VALUES('71',2,17,'5031', null);
-INSERT INTO bus_routes VALUES('71',2,18,'5029', null);
-INSERT INTO bus_routes VALUES('71',2,19,'3496', null);
-INSERT INTO bus_routes VALUES('71',2,20,'4374', null);
-INSERT INTO bus_routes VALUES('71',2,21,'2731', null);
-INSERT INTO bus_routes VALUES('71',2,22,'4372', null);
-INSERT INTO bus_routes VALUES('71',2,23,'2729', null);
-INSERT INTO bus_routes VALUES('71',2,24,'1053', null);
-INSERT INTO bus_routes VALUES('71',2,25,'842', null);
-INSERT INTO bus_routes VALUES('71',2,26,'1268', null);
-INSERT INTO bus_routes VALUES('71',2,27,'4979', null);
-INSERT INTO bus_routes VALUES('71',2,28,'2725', null);
-INSERT INTO bus_routes VALUES('71',2,29,'2723', null);
-INSERT INTO bus_routes VALUES('71',2,30,'2727', null);
-INSERT INTO bus_routes VALUES('71',2,31,'2721', null);
-INSERT INTO bus_routes VALUES('71',2,32,'2719', null);
-INSERT INTO bus_routes VALUES('71',2,33,'2717', null);
-INSERT INTO bus_routes VALUES('71',2,34,'2715', null);
-INSERT INTO bus_routes VALUES('71',2,35,'1557', null);
-INSERT INTO bus_routes VALUES('71',2,36,'956', null);
-INSERT INTO bus_routes VALUES('71',2,37,'2169', null);
-INSERT INTO bus_routes VALUES('71',2,38,'4656', null);
-INSERT INTO bus_routes VALUES('71',2,39,'151', null);
-INSERT INTO bus_routes VALUES('71',2,40,'149', null);
-INSERT INTO bus_routes VALUES('71',2,41,'3811', null);
-INSERT INTO bus_routes VALUES('SE712',1,1,'4040', null);
-INSERT INTO bus_routes VALUES('SE712',1,2,'4041', null);
-INSERT INTO bus_routes VALUES('SE712',1,3,'4056', null);
-INSERT INTO bus_routes VALUES('SE712',1,4,'4042', null);
-INSERT INTO bus_routes VALUES('SE712',1,5,'5156', null);
-INSERT INTO bus_routes VALUES('SE712',1,6,'545', null);
-INSERT INTO bus_routes VALUES('SE712',1,7,'2246', null);
-INSERT INTO bus_routes VALUES('SE712',1,8,'1879', null);
-INSERT INTO bus_routes VALUES('SE712',1,9,'1881', null);
-INSERT INTO bus_routes VALUES('SE712',1,10,'1883', null);
-INSERT INTO bus_routes VALUES('SE712',1,11,'1884', null);
-INSERT INTO bus_routes VALUES('SE712',2,1,'1884', null);
-INSERT INTO bus_routes VALUES('SE712',2,2,'1882', null);
-INSERT INTO bus_routes VALUES('SE712',2,3,'1880', null);
-INSERT INTO bus_routes VALUES('SE712',2,4,'1878', null);
-INSERT INTO bus_routes VALUES('SE712',2,5,'1876', null);
-INSERT INTO bus_routes VALUES('SE712',2,6,'1886', null);
-INSERT INTO bus_routes VALUES('SE712',2,7,'5749', null);
-INSERT INTO bus_routes VALUES('SE712',2,8,'1887', null);
-INSERT INTO bus_routes VALUES('SE712',2,9,'2115', null);
-INSERT INTO bus_routes VALUES('SE712',2,10,'913', null);
-INSERT INTO bus_routes VALUES('SE712',2,11,'4058', null);
-INSERT INTO bus_routes VALUES('SE712',2,12,'4038', null);
-INSERT INTO bus_routes VALUES('SE712',2,13,'4025', null);
-INSERT INTO bus_routes VALUES('SE712',2,14,'4039', null);
-INSERT INTO bus_routes VALUES('SE712',2,15,'4040', null);
-INSERT INTO bus_routes VALUES('SE718',1,1,'4011', null);
-INSERT INTO bus_routes VALUES('SE718',1,2,'4050', null);
-INSERT INTO bus_routes VALUES('SE718',1,3,'4406', null);
-INSERT INTO bus_routes VALUES('SE718',2,1,'4406', null);
-INSERT INTO bus_routes VALUES('SE718',2,2,'4051', null);
-INSERT INTO bus_routes VALUES('SE718',2,3,'5839', null);
-INSERT INTO bus_routes VALUES('SE718',2,4,'4011', null);
-INSERT INTO bus_routes VALUES('72',1,1,'785', null);
-INSERT INTO bus_routes VALUES('72',1,2,'788', null);
-INSERT INTO bus_routes VALUES('72',1,3,'5788', null);
-INSERT INTO bus_routes VALUES('72',1,4,'1281', null);
-INSERT INTO bus_routes VALUES('72',1,5,'717', null);
-INSERT INTO bus_routes VALUES('72',1,6,'2732', null);
-INSERT INTO bus_routes VALUES('72',1,7,'2733', null);
-INSERT INTO bus_routes VALUES('72',1,8,'2377', null);
-INSERT INTO bus_routes VALUES('72',1,9,'2379', null);
-INSERT INTO bus_routes VALUES('72',1,10,'313', null);
-INSERT INTO bus_routes VALUES('72',1,11,'4721', null);
-INSERT INTO bus_routes VALUES('72',1,12,'2022', null);
-INSERT INTO bus_routes VALUES('72',1,13,'408', null);
-INSERT INTO bus_routes VALUES('72',1,14,'2024', null);
-INSERT INTO bus_routes VALUES('72',1,15,'2026', null);
-INSERT INTO bus_routes VALUES('72',1,16,'2027', null);
-INSERT INTO bus_routes VALUES('72',1,17,'2029', null);
-INSERT INTO bus_routes VALUES('72',1,18,'3927', null);
-INSERT INTO bus_routes VALUES('72',1,19,'2033', null);
-INSERT INTO bus_routes VALUES('72',1,20,'2035', null);
-INSERT INTO bus_routes VALUES('72',1,21,'2037', null);
-INSERT INTO bus_routes VALUES('72',1,22,'1846', null);
-INSERT INTO bus_routes VALUES('72',1,23,'2734', null);
-INSERT INTO bus_routes VALUES('72',1,24,'2735', null);
-INSERT INTO bus_routes VALUES('72',1,25,'2736', null);
-INSERT INTO bus_routes VALUES('72',1,26,'2738', null);
-INSERT INTO bus_routes VALUES('72',1,27,'2741', null);
-INSERT INTO bus_routes VALUES('72',2,1,'2741', null);
-INSERT INTO bus_routes VALUES('72',2,2,'2740', null);
-INSERT INTO bus_routes VALUES('72',2,3,'2742', null);
-INSERT INTO bus_routes VALUES('72',2,4,'2744', null);
-INSERT INTO bus_routes VALUES('72',2,5,'2747', null);
-INSERT INTO bus_routes VALUES('72',2,6,'2748', null);
-INSERT INTO bus_routes VALUES('72',2,7,'1847', null);
-INSERT INTO bus_routes VALUES('72',2,8,'2038', null);
-INSERT INTO bus_routes VALUES('72',2,9,'2036', null);
-INSERT INTO bus_routes VALUES('72',2,10,'2034', null);
-INSERT INTO bus_routes VALUES('72',2,11,'3928', null);
-INSERT INTO bus_routes VALUES('72',2,12,'2030', null);
-INSERT INTO bus_routes VALUES('72',2,13,'4538', null);
-INSERT INTO bus_routes VALUES('72',2,14,'218', null);
-INSERT INTO bus_routes VALUES('72',2,15,'2025', null);
-INSERT INTO bus_routes VALUES('72',2,16,'409', null);
-INSERT INTO bus_routes VALUES('72',2,17,'462', null);
-INSERT INTO bus_routes VALUES('72',2,18,'310', null);
-INSERT INTO bus_routes VALUES('72',2,19,'310', null);
-INSERT INTO bus_routes VALUES('72',2,20,'2381', null);
-INSERT INTO bus_routes VALUES('72',2,21,'2749', null);
-INSERT INTO bus_routes VALUES('72',2,22,'2750', null);
-INSERT INTO bus_routes VALUES('72',2,23,'2751', null);
-INSERT INTO bus_routes VALUES('72',2,24,'2752', null);
-INSERT INTO bus_routes VALUES('72',2,25,'718', null);
-INSERT INTO bus_routes VALUES('72',2,26,'1280', null);
-INSERT INTO bus_routes VALUES('72',2,27,'789', null);
-INSERT INTO bus_routes VALUES('72',2,28,'787', null);
-INSERT INTO bus_routes VALUES('72',2,29,'785', null);
-INSERT INTO bus_routes VALUES('SE721',1,1,'4592', null);
-INSERT INTO bus_routes VALUES('SE721',1,2,'4649', null);
-INSERT INTO bus_routes VALUES('SE721',2,1,'4649', null);
-INSERT INTO bus_routes VALUES('SE721',2,2,'2951', null);
-INSERT INTO bus_routes VALUES('SE721',2,3,'4592', null);
-INSERT INTO bus_routes VALUES('SE727',1,1,'1573', null);
-INSERT INTO bus_routes VALUES('SE727',1,2,'1676', null);
-INSERT INTO bus_routes VALUES('SE727',1,3,'1678', null);
-INSERT INTO bus_routes VALUES('SE727',1,4,'4939', null);
-INSERT INTO bus_routes VALUES('SE727',2,1,'4939', null);
-INSERT INTO bus_routes VALUES('SE727',2,2,'1679', null);
-INSERT INTO bus_routes VALUES('SE727',2,3,'1677', null);
-INSERT INTO bus_routes VALUES('SE727',2,4,'1573', null);
-INSERT INTO bus_routes VALUES('73',1,1,'785', null);
-INSERT INTO bus_routes VALUES('73',1,2,'788', null);
-INSERT INTO bus_routes VALUES('73',1,3,'2009', null);
-INSERT INTO bus_routes VALUES('73',1,4,'2011', null);
-INSERT INTO bus_routes VALUES('73',1,5,'2013', null);
-INSERT INTO bus_routes VALUES('73',1,6,'2015', null);
-INSERT INTO bus_routes VALUES('73',1,7,'2017', null);
-INSERT INTO bus_routes VALUES('73',1,8,'2020', null);
-INSERT INTO bus_routes VALUES('73',1,9,'4721', null);
-INSERT INTO bus_routes VALUES('73',1,10,'2022', null);
-INSERT INTO bus_routes VALUES('73',1,11,'408', null);
-INSERT INTO bus_routes VALUES('73',1,12,'2024', null);
-INSERT INTO bus_routes VALUES('73',1,13,'2026', null);
-INSERT INTO bus_routes VALUES('73',1,14,'2027', null);
-INSERT INTO bus_routes VALUES('73',1,15,'5545', null);
-INSERT INTO bus_routes VALUES('73',1,16,'2757', null);
-INSERT INTO bus_routes VALUES('73',1,17,'2759', null);
-INSERT INTO bus_routes VALUES('73',1,18,'2761', null);
-INSERT INTO bus_routes VALUES('73',1,19,'2763', null);
-INSERT INTO bus_routes VALUES('73',1,20,'2765', null);
-INSERT INTO bus_routes VALUES('73',1,21,'2767', null);
-INSERT INTO bus_routes VALUES('73',1,22,'474', null);
-INSERT INTO bus_routes VALUES('73',1,23,'472', null);
-INSERT INTO bus_routes VALUES('73',1,24,'470', null);
-INSERT INTO bus_routes VALUES('73',1,25,'2769', null);
-INSERT INTO bus_routes VALUES('73',1,26,'2771', null);
-INSERT INTO bus_routes VALUES('73',1,27,'2571', null);
-INSERT INTO bus_routes VALUES('73',1,28,'407', null);
-INSERT INTO bus_routes VALUES('73',2,1,'407', null);
-INSERT INTO bus_routes VALUES('73',2,2,'2573', null);
-INSERT INTO bus_routes VALUES('73',2,3,'2772', null);
-INSERT INTO bus_routes VALUES('73',2,4,'2770', null);
-INSERT INTO bus_routes VALUES('73',2,5,'469', null);
-INSERT INTO bus_routes VALUES('73',2,6,'471', null);
-INSERT INTO bus_routes VALUES('73',2,7,'473', null);
-INSERT INTO bus_routes VALUES('73',2,8,'2768', null);
-INSERT INTO bus_routes VALUES('73',2,9,'2766', null);
-INSERT INTO bus_routes VALUES('73',2,10,'2764', null);
-INSERT INTO bus_routes VALUES('73',2,11,'2762', null);
-INSERT INTO bus_routes VALUES('73',2,12,'2760', null);
-INSERT INTO bus_routes VALUES('73',2,13,'2758', null);
-INSERT INTO bus_routes VALUES('73',2,14,'2756', null);
-INSERT INTO bus_routes VALUES('73',2,15,'4538', null);
-INSERT INTO bus_routes VALUES('73',2,16,'218', null);
-INSERT INTO bus_routes VALUES('73',2,17,'2025', null);
-INSERT INTO bus_routes VALUES('73',2,18,'409', null);
-INSERT INTO bus_routes VALUES('73',2,19,'462', null);
-INSERT INTO bus_routes VALUES('73',2,20,'310', null);
-INSERT INTO bus_routes VALUES('73',2,21,'310', null);
-INSERT INTO bus_routes VALUES('73',2,22,'2021', null);
-INSERT INTO bus_routes VALUES('73',2,23,'2021', null);
-INSERT INTO bus_routes VALUES('73',2,24,'2018', null);
-INSERT INTO bus_routes VALUES('73',2,25,'2016', null);
-INSERT INTO bus_routes VALUES('73',2,26,'2014', null);
-INSERT INTO bus_routes VALUES('73',2,27,'268', null);
-INSERT INTO bus_routes VALUES('73',2,28,'5249', null);
-INSERT INTO bus_routes VALUES('73',2,29,'5784', null);
-INSERT INTO bus_routes VALUES('73',2,30,'789', null);
-INSERT INTO bus_routes VALUES('73',2,31,'787', null);
-INSERT INTO bus_routes VALUES('73',2,32,'785', null);
-INSERT INTO bus_routes VALUES('74',1,1,'4234', null);
-INSERT INTO bus_routes VALUES('74',1,2,'1216', null);
-INSERT INTO bus_routes VALUES('74',1,3,'596', null);
-INSERT INTO bus_routes VALUES('74',1,4,'2777', null);
-INSERT INTO bus_routes VALUES('74',1,5,'173', null);
-INSERT INTO bus_routes VALUES('74',1,6,'741', null);
-INSERT INTO bus_routes VALUES('74',1,7,'171', null);
-INSERT INTO bus_routes VALUES('74',1,8,'169', null);
-INSERT INTO bus_routes VALUES('74',1,9,'723', null);
-INSERT INTO bus_routes VALUES('74',1,10,'724', null);
-INSERT INTO bus_routes VALUES('74',1,11,'5138', null);
-INSERT INTO bus_routes VALUES('74',1,12,'164', null);
-INSERT INTO bus_routes VALUES('74',1,13,'70', null);
-INSERT INTO bus_routes VALUES('74',1,14,'162', null);
-INSERT INTO bus_routes VALUES('74',1,15,'423', null);
-INSERT INTO bus_routes VALUES('74',1,16,'424', null);
-INSERT INTO bus_routes VALUES('74',1,17,'425', null);
-INSERT INTO bus_routes VALUES('74',1,18,'426', null);
-INSERT INTO bus_routes VALUES('74',1,19,'731', null);
-INSERT INTO bus_routes VALUES('74',1,20,'729', null);
-INSERT INTO bus_routes VALUES('74',1,21,'727', null);
-INSERT INTO bus_routes VALUES('74',1,22,'726', null);
-INSERT INTO bus_routes VALUES('74',1,23,'2778', null);
-INSERT INTO bus_routes VALUES('74',1,24,'688', null);
-INSERT INTO bus_routes VALUES('74',1,25,'689', null);
-INSERT INTO bus_routes VALUES('74',1,26,'690', null);
-INSERT INTO bus_routes VALUES('74',1,27,'692', null);
-INSERT INTO bus_routes VALUES('74',1,28,'2374', null);
-INSERT INTO bus_routes VALUES('74',1,29,'5025', null);
-INSERT INTO bus_routes VALUES('74',2,1,'5025', null);
-INSERT INTO bus_routes VALUES('74',2,2,'3685', null);
-INSERT INTO bus_routes VALUES('74',2,3,'693', null);
-INSERT INTO bus_routes VALUES('74',2,4,'691', null);
-INSERT INTO bus_routes VALUES('74',2,5,'710', null);
-INSERT INTO bus_routes VALUES('74',2,6,'711', null);
-INSERT INTO bus_routes VALUES('74',2,7,'2779', null);
-INSERT INTO bus_routes VALUES('74',2,8,'725', null);
-INSERT INTO bus_routes VALUES('74',2,9,'728', null);
-INSERT INTO bus_routes VALUES('74',2,10,'730', null);
-INSERT INTO bus_routes VALUES('74',2,11,'732', null);
-INSERT INTO bus_routes VALUES('74',2,12,'733', null);
-INSERT INTO bus_routes VALUES('74',2,13,'449', null);
-INSERT INTO bus_routes VALUES('74',2,14,'451', null);
-INSERT INTO bus_routes VALUES('74',2,15,'452', null);
-INSERT INTO bus_routes VALUES('74',2,16,'161', null);
-INSERT INTO bus_routes VALUES('74',2,17,'69', null);
-INSERT INTO bus_routes VALUES('74',2,18,'5135', null);
-INSERT INTO bus_routes VALUES('74',2,19,'5137', null);
-INSERT INTO bus_routes VALUES('74',2,20,'4094', null);
-INSERT INTO bus_routes VALUES('74',2,21,'9', null);
-INSERT INTO bus_routes VALUES('74',2,22,'168', null);
-INSERT INTO bus_routes VALUES('74',2,23,'170', null);
-INSERT INTO bus_routes VALUES('74',2,24,'854', null);
-INSERT INTO bus_routes VALUES('74',2,25,'5522', null);
-INSERT INTO bus_routes VALUES('74',2,26,'2753', null);
-INSERT INTO bus_routes VALUES('74',2,27,'2785', null);
-INSERT INTO bus_routes VALUES('74',2,28,'2786', null);
-INSERT INTO bus_routes VALUES('74',2,29,'4235', null);
-INSERT INTO bus_routes VALUES('74',2,30,'4234', null);
-INSERT INTO bus_routes VALUES('75',1,1,'5569', null);
-INSERT INTO bus_routes VALUES('75',1,2,'168', null);
-INSERT INTO bus_routes VALUES('75',1,3,'170', null);
-INSERT INTO bus_routes VALUES('75',1,4,'854', null);
-INSERT INTO bus_routes VALUES('75',1,5,'599', null);
-INSERT INTO bus_routes VALUES('75',1,6,'601', null);
-INSERT INTO bus_routes VALUES('75',1,7,'603', null);
-INSERT INTO bus_routes VALUES('75',1,8,'2296', null);
-INSERT INTO bus_routes VALUES('75',1,9,'858', null);
-INSERT INTO bus_routes VALUES('75',1,10,'860', null);
-INSERT INTO bus_routes VALUES('75',1,11,'862', null);
-INSERT INTO bus_routes VALUES('75',1,12,'863', null);
-INSERT INTO bus_routes VALUES('75',1,13,'5761', null);
-INSERT INTO bus_routes VALUES('75',1,14,'865', null);
-INSERT INTO bus_routes VALUES('75',1,15,'867', null);
-INSERT INTO bus_routes VALUES('75',2,1,'867', null);
-INSERT INTO bus_routes VALUES('75',2,2,'866', null);
-INSERT INTO bus_routes VALUES('75',2,3,'868', null);
-INSERT INTO bus_routes VALUES('75',2,4,'869', null);
-INSERT INTO bus_routes VALUES('75',2,5,'870', null);
-INSERT INTO bus_routes VALUES('75',2,6,'861', null);
-INSERT INTO bus_routes VALUES('75',2,7,'859', null);
-INSERT INTO bus_routes VALUES('75',2,8,'857', null);
-INSERT INTO bus_routes VALUES('75',2,9,'5246', null);
-INSERT INTO bus_routes VALUES('75',2,10,'742', null);
-INSERT INTO bus_routes VALUES('75',2,11,'855', null);
-INSERT INTO bus_routes VALUES('75',2,12,'5139', null);
-INSERT INTO bus_routes VALUES('75',2,13,'5569', null);
-INSERT INTO bus_routes VALUES('76',1,1,'4154', null);
-INSERT INTO bus_routes VALUES('76',1,2,'1170', null);
-INSERT INTO bus_routes VALUES('76',1,3,'5718', null);
-INSERT INTO bus_routes VALUES('76',1,4,'5719', null);
-INSERT INTO bus_routes VALUES('76',1,5,'5720', null);
-INSERT INTO bus_routes VALUES('76',1,6,'1132', null);
-INSERT INTO bus_routes VALUES('76',1,7,'5378', null);
-INSERT INTO bus_routes VALUES('76',1,8,'2794', null);
-INSERT INTO bus_routes VALUES('76',1,9,'2801', null);
-INSERT INTO bus_routes VALUES('76',1,10,'2797', null);
-INSERT INTO bus_routes VALUES('76',1,11,'2799', null);
-INSERT INTO bus_routes VALUES('76',1,12,'2803', null);
-INSERT INTO bus_routes VALUES('76',1,13,'2795', null);
-INSERT INTO bus_routes VALUES('76',1,14,'5069', null);
-INSERT INTO bus_routes VALUES('76',1,15,'5013', null);
-INSERT INTO bus_routes VALUES('76',1,16,'5273', null);
-INSERT INTO bus_routes VALUES('76',1,17,'1193', null);
-INSERT INTO bus_routes VALUES('76',1,18,'2810', null);
-INSERT INTO bus_routes VALUES('76',1,19,'2812', null);
-INSERT INTO bus_routes VALUES('76',1,20,'2814', null);
-INSERT INTO bus_routes VALUES('76',1,21,'2816', null);
-INSERT INTO bus_routes VALUES('76',2,1,'2816', null);
-INSERT INTO bus_routes VALUES('76',2,2,'3657', null);
-INSERT INTO bus_routes VALUES('76',2,3,'2815', null);
-INSERT INTO bus_routes VALUES('76',2,4,'2813', null);
-INSERT INTO bus_routes VALUES('76',2,5,'2811', null);
-INSERT INTO bus_routes VALUES('76',2,6,'1194', null);
-INSERT INTO bus_routes VALUES('76',2,7,'2808', null);
-INSERT INTO bus_routes VALUES('76',2,8,'5068', null);
-INSERT INTO bus_routes VALUES('76',2,9,'2796', null);
-INSERT INTO bus_routes VALUES('76',2,10,'2804', null);
-INSERT INTO bus_routes VALUES('76',2,11,'3640', null);
-INSERT INTO bus_routes VALUES('76',2,12,'2798', null);
-INSERT INTO bus_routes VALUES('76',2,13,'2802', null);
-INSERT INTO bus_routes VALUES('76',2,14,'3727', null);
-INSERT INTO bus_routes VALUES('76',2,15,'1134', null);
-INSERT INTO bus_routes VALUES('76',2,16,'5379', null);
-INSERT INTO bus_routes VALUES('76',2,17,'5380', null);
-INSERT INTO bus_routes VALUES('76',2,18,'5702', null);
-INSERT INTO bus_routes VALUES('76',2,19,'5703', null);
-INSERT INTO bus_routes VALUES('76',2,20,'5704', null);
-INSERT INTO bus_routes VALUES('76',2,21,'3858', null);
-INSERT INTO bus_routes VALUES('76',2,22,'2793', null);
-INSERT INTO bus_routes VALUES('76',2,23,'4154', null);
-INSERT INTO bus_routes VALUES('77',1,1,'1199', null);
-INSERT INTO bus_routes VALUES('77',1,2,'5076', null);
-INSERT INTO bus_routes VALUES('77',1,3,'5077', null);
-INSERT INTO bus_routes VALUES('77',1,4,'2945', null);
-INSERT INTO bus_routes VALUES('77',1,5,'2947', null);
-INSERT INTO bus_routes VALUES('77',1,6,'2949', null);
-INSERT INTO bus_routes VALUES('77',1,7,'3506', null);
-INSERT INTO bus_routes VALUES('77',1,8,'2951', null);
-INSERT INTO bus_routes VALUES('77',1,9,'2953', null);
-INSERT INTO bus_routes VALUES('77',1,10,'2955', null);
-INSERT INTO bus_routes VALUES('77',1,11,'2956', null);
-INSERT INTO bus_routes VALUES('77',1,12,'3398', null);
-INSERT INTO bus_routes VALUES('77',1,13,'3403', null);
-INSERT INTO bus_routes VALUES('77',1,14,'4827', null);
-INSERT INTO bus_routes VALUES('77',1,15,'3508', null);
-INSERT INTO bus_routes VALUES('77',1,16,'3509', null);
-INSERT INTO bus_routes VALUES('77',1,17,'3510', null);
-INSERT INTO bus_routes VALUES('77',1,18,'1396', null);
-INSERT INTO bus_routes VALUES('77',1,19,'1412', null);
-INSERT INTO bus_routes VALUES('77',1,20,'4065', null);
-INSERT INTO bus_routes VALUES('77',1,21,'3513', null);
-INSERT INTO bus_routes VALUES('77',1,22,'5574', null);
-INSERT INTO bus_routes VALUES('77',1,23,'3672', null);
-INSERT INTO bus_routes VALUES('77',1,24,'3674', null);
-INSERT INTO bus_routes VALUES('77',1,25,'3676', null);
-INSERT INTO bus_routes VALUES('77',1,26,'3678', null);
-INSERT INTO bus_routes VALUES('77',1,27,'3524', null);
-INSERT INTO bus_routes VALUES('77',1,28,'5528', null);
-INSERT INTO bus_routes VALUES('77',1,29,'5781', null);
-INSERT INTO bus_routes VALUES('77',1,30,'3527', null);
-INSERT INTO bus_routes VALUES('77',2,1,'3527', null);
-INSERT INTO bus_routes VALUES('77',2,2,'3526', null);
-INSERT INTO bus_routes VALUES('77',2,3,'3528', null);
-INSERT INTO bus_routes VALUES('77',2,4,'3679', null);
-INSERT INTO bus_routes VALUES('77',2,5,'3677', null);
-INSERT INTO bus_routes VALUES('77',2,6,'4077', null);
-INSERT INTO bus_routes VALUES('77',2,7,'3673', null);
-INSERT INTO bus_routes VALUES('77',2,8,'3518', null);
-INSERT INTO bus_routes VALUES('77',2,9,'3516', null);
-INSERT INTO bus_routes VALUES('77',2,10,'3514', null);
-INSERT INTO bus_routes VALUES('77',2,11,'4053', null);
-INSERT INTO bus_routes VALUES('77',2,12,'1426', null);
-INSERT INTO bus_routes VALUES('77',2,13,'1400', null);
-INSERT INTO bus_routes VALUES('77',2,14,'3530', null);
-INSERT INTO bus_routes VALUES('77',2,15,'3531', null);
-INSERT INTO bus_routes VALUES('77',2,16,'3405', null);
-INSERT INTO bus_routes VALUES('77',2,17,'3404', null);
-INSERT INTO bus_routes VALUES('77',2,18,'3406', null);
-INSERT INTO bus_routes VALUES('77',2,19,'3533', null);
-INSERT INTO bus_routes VALUES('77',2,20,'3407', null);
-INSERT INTO bus_routes VALUES('77',2,21,'2954', null);
-INSERT INTO bus_routes VALUES('77',2,22,'2952', null);
-INSERT INTO bus_routes VALUES('77',2,23,'3507', null);
-INSERT INTO bus_routes VALUES('77',2,24,'2950', null);
-INSERT INTO bus_routes VALUES('77',2,25,'2948', null);
-INSERT INTO bus_routes VALUES('77',2,26,'2946', null);
-INSERT INTO bus_routes VALUES('77',2,27,'3534', null);
-INSERT INTO bus_routes VALUES('77',2,28,'2944', null);
-INSERT INTO bus_routes VALUES('77',2,29,'2977', null);
-INSERT INTO bus_routes VALUES('77',2,30,'1199', null);
-INSERT INTO bus_routes VALUES('78',1,1,'3126', null);
-INSERT INTO bus_routes VALUES('78',1,2,'2818', null);
-INSERT INTO bus_routes VALUES('78',1,3,'1928', null);
-INSERT INTO bus_routes VALUES('78',1,4,'1931', null);
-INSERT INTO bus_routes VALUES('78',1,5,'1933', null);
-INSERT INTO bus_routes VALUES('78',1,6,'1122', null);
-INSERT INTO bus_routes VALUES('78',1,7,'1124', null);
-INSERT INTO bus_routes VALUES('78',1,8,'1935', null);
-INSERT INTO bus_routes VALUES('78',1,9,'1938', null);
-INSERT INTO bus_routes VALUES('78',1,10,'1939', null);
-INSERT INTO bus_routes VALUES('78',1,11,'2817', null);
-INSERT INTO bus_routes VALUES('78',1,12,'4524', null);
-INSERT INTO bus_routes VALUES('78',1,13,'2820', null);
-INSERT INTO bus_routes VALUES('78',1,14,'2822', null);
-INSERT INTO bus_routes VALUES('78',1,15,'5087', null);
-INSERT INTO bus_routes VALUES('78',1,16,'4616', null);
-INSERT INTO bus_routes VALUES('78',1,17,'4618', null);
-INSERT INTO bus_routes VALUES('78',1,18,'4620', null);
-INSERT INTO bus_routes VALUES('78',1,19,'4622', null);
-INSERT INTO bus_routes VALUES('78',1,20,'1955', null);
-INSERT INTO bus_routes VALUES('78',1,21,'1957', null);
-INSERT INTO bus_routes VALUES('78',1,22,'2824', null);
-INSERT INTO bus_routes VALUES('78',1,23,'4624', null);
-INSERT INTO bus_routes VALUES('78',1,24,'2828', null);
-INSERT INTO bus_routes VALUES('78',1,25,'2830', null);
-INSERT INTO bus_routes VALUES('78',1,26,'2832', null);
-INSERT INTO bus_routes VALUES('78',1,27,'2838', null);
-INSERT INTO bus_routes VALUES('78',1,28,'5217', null);
-INSERT INTO bus_routes VALUES('78',1,29,'4880', null);
-INSERT INTO bus_routes VALUES('78',1,30,'2836', null);
-INSERT INTO bus_routes VALUES('78',1,31,'2802', null);
-INSERT INTO bus_routes VALUES('78',1,32,'945', null);
-INSERT INTO bus_routes VALUES('78',1,33,'944', null);
-INSERT INTO bus_routes VALUES('78',1,34,'942', null);
-INSERT INTO bus_routes VALUES('78',1,35,'940', null);
-INSERT INTO bus_routes VALUES('78',1,36,'938', null);
-INSERT INTO bus_routes VALUES('78',1,37,'2267', null);
-INSERT INTO bus_routes VALUES('78',2,1,'2267', null);
-INSERT INTO bus_routes VALUES('78',2,2,'937', null);
-INSERT INTO bus_routes VALUES('78',2,3,'939', null);
-INSERT INTO bus_routes VALUES('78',2,4,'941', null);
-INSERT INTO bus_routes VALUES('78',2,5,'943', null);
-INSERT INTO bus_routes VALUES('78',2,6,'2839', null);
-INSERT INTO bus_routes VALUES('78',2,7,'2801', null);
-INSERT INTO bus_routes VALUES('78',2,8,'2840', null);
-INSERT INTO bus_routes VALUES('78',2,9,'2841', null);
-INSERT INTO bus_routes VALUES('78',2,10,'2835', null);
-INSERT INTO bus_routes VALUES('78',2,11,'2833', null);
-INSERT INTO bus_routes VALUES('78',2,12,'2831', null);
-INSERT INTO bus_routes VALUES('78',2,13,'2829', null);
-INSERT INTO bus_routes VALUES('78',2,14,'4625', null);
-INSERT INTO bus_routes VALUES('78',2,15,'2825', null);
-INSERT INTO bus_routes VALUES('78',2,16,'2842', null);
-INSERT INTO bus_routes VALUES('78',2,17,'4814', null);
-INSERT INTO bus_routes VALUES('78',2,18,'4623', null);
-INSERT INTO bus_routes VALUES('78',2,19,'4621', null);
-INSERT INTO bus_routes VALUES('78',2,20,'4619', null);
-INSERT INTO bus_routes VALUES('78',2,21,'4617', null);
-INSERT INTO bus_routes VALUES('78',2,22,'1952', null);
-INSERT INTO bus_routes VALUES('78',2,23,'2823', null);
-INSERT INTO bus_routes VALUES('78',2,24,'2821', null);
-INSERT INTO bus_routes VALUES('78',2,25,'4525', null);
-INSERT INTO bus_routes VALUES('78',2,26,'2593', null);
-INSERT INTO bus_routes VALUES('78',2,27,'5358', null);
-INSERT INTO bus_routes VALUES('78',2,28,'3912', null);
-INSERT INTO bus_routes VALUES('78',2,29,'1125', null);
-INSERT INTO bus_routes VALUES('78',2,30,'1123', null);
-INSERT INTO bus_routes VALUES('78',2,31,'1934', null);
-INSERT INTO bus_routes VALUES('78',2,32,'1932', null);
-INSERT INTO bus_routes VALUES('78',2,33,'3561', null);
-INSERT INTO bus_routes VALUES('78',2,34,'2819', null);
-INSERT INTO bus_routes VALUES('78',2,35,'2592', null);
-INSERT INTO bus_routes VALUES('78',2,36,'3126', null);
-INSERT INTO bus_routes VALUES('79',1,1,'1425', null);
-INSERT INTO bus_routes VALUES('79',1,2,'5718', null);
-INSERT INTO bus_routes VALUES('79',1,3,'5719', null);
-INSERT INTO bus_routes VALUES('79',1,4,'5720', null);
-INSERT INTO bus_routes VALUES('79',1,5,'1132', null);
-INSERT INTO bus_routes VALUES('79',1,6,'5378', null);
-INSERT INTO bus_routes VALUES('79',1,7,'1135', null);
-INSERT INTO bus_routes VALUES('79',1,8,'1137', null);
-INSERT INTO bus_routes VALUES('79',1,9,'1172', null);
-INSERT INTO bus_routes VALUES('79',1,10,'4662', null);
-INSERT INTO bus_routes VALUES('79',1,11,'1174', null);
-INSERT INTO bus_routes VALUES('79',1,12,'4664', null);
-INSERT INTO bus_routes VALUES('79',1,13,'1176', null);
-INSERT INTO bus_routes VALUES('79',1,14,'1178', null);
-INSERT INTO bus_routes VALUES('79',1,15,'5460', null);
-INSERT INTO bus_routes VALUES('79',1,16,'5461', null);
-INSERT INTO bus_routes VALUES('79',1,17,'5462', null);
-INSERT INTO bus_routes VALUES('79',1,18,'3925', null);
-INSERT INTO bus_routes VALUES('79',1,19,'2843', null);
-INSERT INTO bus_routes VALUES('79',1,20,'2845', null);
-INSERT INTO bus_routes VALUES('79',1,21,'2847', null);
-INSERT INTO bus_routes VALUES('79',1,22,'2849', null);
-INSERT INTO bus_routes VALUES('79',1,23,'2850', null);
-INSERT INTO bus_routes VALUES('79',1,24,'2855', null);
-INSERT INTO bus_routes VALUES('79',1,25,'2851', null);
-INSERT INTO bus_routes VALUES('79',1,26,'3900', null);
-INSERT INTO bus_routes VALUES('79',1,27,'2856', null);
-INSERT INTO bus_routes VALUES('79',1,28,'2182', null);
-INSERT INTO bus_routes VALUES('79',1,29,'2180', null);
-INSERT INTO bus_routes VALUES('79',1,30,'1197', null);
-INSERT INTO bus_routes VALUES('79',2,1,'1197', null);
-INSERT INTO bus_routes VALUES('79',2,2,'1195', null);
-INSERT INTO bus_routes VALUES('79',2,3,'5154', null);
-INSERT INTO bus_routes VALUES('79',2,4,'2179', null);
-INSERT INTO bus_routes VALUES('79',2,5,'2181', null);
-INSERT INTO bus_routes VALUES('79',2,6,'2857', null);
-INSERT INTO bus_routes VALUES('79',2,7,'3901', null);
-INSERT INTO bus_routes VALUES('79',2,8,'2852', null);
-INSERT INTO bus_routes VALUES('79',2,9,'2858', null);
-INSERT INTO bus_routes VALUES('79',2,10,'2859', null);
-INSERT INTO bus_routes VALUES('79',2,11,'5883', null);
-INSERT INTO bus_routes VALUES('79',2,12,'2848', null);
-INSERT INTO bus_routes VALUES('79',2,13,'2846', null);
-INSERT INTO bus_routes VALUES('79',2,14,'2860', null);
-INSERT INTO bus_routes VALUES('79',2,15,'2261', null);
-INSERT INTO bus_routes VALUES('79',2,16,'2862', null);
-INSERT INTO bus_routes VALUES('79',2,17,'2844', null);
-INSERT INTO bus_routes VALUES('79',2,18,'1179', null);
-INSERT INTO bus_routes VALUES('79',2,19,'1180', null);
-INSERT INTO bus_routes VALUES('79',2,20,'1181', null);
-INSERT INTO bus_routes VALUES('79',2,21,'1177', null);
-INSERT INTO bus_routes VALUES('79',2,22,'4665', null);
-INSERT INTO bus_routes VALUES('79',2,23,'1175', null);
-INSERT INTO bus_routes VALUES('79',2,24,'4663', null);
-INSERT INTO bus_routes VALUES('79',2,25,'1173', null);
-INSERT INTO bus_routes VALUES('79',2,26,'1138', null);
-INSERT INTO bus_routes VALUES('79',2,27,'1136', null);
-INSERT INTO bus_routes VALUES('79',2,28,'1134', null);
-INSERT INTO bus_routes VALUES('79',2,29,'5379', null);
-INSERT INTO bus_routes VALUES('79',2,30,'5380', null);
-INSERT INTO bus_routes VALUES('79',2,31,'5702', null);
-INSERT INTO bus_routes VALUES('79',2,32,'5703', null);
-INSERT INTO bus_routes VALUES('79',2,33,'5704', null);
-INSERT INTO bus_routes VALUES('79',2,34,'1425', null);
-INSERT INTO bus_routes VALUES('8',1,1,'5128', null);
-INSERT INTO bus_routes VALUES('8',1,2,'1182', null);
-INSERT INTO bus_routes VALUES('8',1,3,'5036', null);
-INSERT INTO bus_routes VALUES('8',1,4,'1964', null);
-INSERT INTO bus_routes VALUES('8',1,5,'5558', null);
-INSERT INTO bus_routes VALUES('8',1,6,'1966', null);
-INSERT INTO bus_routes VALUES('8',1,7,'1965', null);
-INSERT INTO bus_routes VALUES('8',1,8,'1967', null);
-INSERT INTO bus_routes VALUES('8',1,9,'5467', null);
-INSERT INTO bus_routes VALUES('8',1,10,'4802', null);
-INSERT INTO bus_routes VALUES('8',1,11,'5471', null);
-INSERT INTO bus_routes VALUES('8',1,12,'1410', null);
-INSERT INTO bus_routes VALUES('8',1,13,'2058', null);
-INSERT INTO bus_routes VALUES('8',1,14,'4325', null);
-INSERT INTO bus_routes VALUES('8',1,15,'1980', null);
-INSERT INTO bus_routes VALUES('8',1,16,'5540', null);
-INSERT INTO bus_routes VALUES('8',1,17,'5541', null);
-INSERT INTO bus_routes VALUES('8',1,18,'1984', null);
-INSERT INTO bus_routes VALUES('8',1,19,'3317', null);
-INSERT INTO bus_routes VALUES('8',1,20,'5242', null);
-INSERT INTO bus_routes VALUES('8',1,21,'5472', null);
-INSERT INTO bus_routes VALUES('8',1,22,'834', null);
-INSERT INTO bus_routes VALUES('8',1,23,'3354', null);
-INSERT INTO bus_routes VALUES('8',1,24,'1990', null);
-INSERT INTO bus_routes VALUES('8',1,25,'1992', null);
-INSERT INTO bus_routes VALUES('8',1,26,'1994', null);
-INSERT INTO bus_routes VALUES('8',1,27,'1995', null);
-INSERT INTO bus_routes VALUES('8',1,28,'1996', null);
-INSERT INTO bus_routes VALUES('8',1,29,'1997', null);
-INSERT INTO bus_routes VALUES('8',1,30,'1999', null);
-INSERT INTO bus_routes VALUES('8',1,31,'4516', null);
-INSERT INTO bus_routes VALUES('8',1,32,'4373', null);
-INSERT INTO bus_routes VALUES('8',1,33,'3495', null);
-INSERT INTO bus_routes VALUES('8',1,34,'5028', null);
-INSERT INTO bus_routes VALUES('8',1,35,'5030', null);
-INSERT INTO bus_routes VALUES('8',1,36,'3497', null);
-INSERT INTO bus_routes VALUES('8',1,37,'1826', null);
-INSERT INTO bus_routes VALUES('8',1,38,'1828', null);
-INSERT INTO bus_routes VALUES('8',1,39,'5032', null);
-INSERT INTO bus_routes VALUES('8',1,40,'5033', null);
-INSERT INTO bus_routes VALUES('8',2,1,'5033', null);
-INSERT INTO bus_routes VALUES('8',2,2,'1829', null);
-INSERT INTO bus_routes VALUES('8',2,3,'1827', null);
-INSERT INTO bus_routes VALUES('8',2,4,'5027', null);
-INSERT INTO bus_routes VALUES('8',2,5,'5031', null);
-INSERT INTO bus_routes VALUES('8',2,6,'5029', null);
-INSERT INTO bus_routes VALUES('8',2,7,'3496', null);
-INSERT INTO bus_routes VALUES('8',2,8,'4374', null);
-INSERT INTO bus_routes VALUES('8',2,9,'2001', null);
-INSERT INTO bus_routes VALUES('8',2,10,'2000', null);
-INSERT INTO bus_routes VALUES('8',2,11,'1998', null);
-INSERT INTO bus_routes VALUES('8',2,12,'849', null);
-INSERT INTO bus_routes VALUES('8',2,13,'850', null);
-INSERT INTO bus_routes VALUES('8',2,14,'844', null);
-INSERT INTO bus_routes VALUES('8',2,15,'1993', null);
-INSERT INTO bus_routes VALUES('8',2,16,'1991', null);
-INSERT INTO bus_routes VALUES('8',2,17,'1989', null);
-INSERT INTO bus_routes VALUES('8',2,18,'835', null);
-INSERT INTO bus_routes VALUES('8',2,19,'5473', null);
-INSERT INTO bus_routes VALUES('8',2,20,'1988', null);
-INSERT INTO bus_routes VALUES('8',2,21,'5241', null);
-INSERT INTO bus_routes VALUES('8',2,22,'5243', null);
-INSERT INTO bus_routes VALUES('8',2,23,'1983', null);
-INSERT INTO bus_routes VALUES('8',2,24,'1981', null);
-INSERT INTO bus_routes VALUES('8',2,25,'1979', null);
-INSERT INTO bus_routes VALUES('8',2,26,'3371', null);
-INSERT INTO bus_routes VALUES('8',2,27,'4976', null);
-INSERT INTO bus_routes VALUES('8',2,28,'3369', null);
-INSERT INTO bus_routes VALUES('8',2,29,'2918', null);
-INSERT INTO bus_routes VALUES('8',2,30,'1970', null);
-INSERT INTO bus_routes VALUES('8',2,31,'1968', null);
-INSERT INTO bus_routes VALUES('8',2,32,'1971', null);
-INSERT INTO bus_routes VALUES('8',2,33,'5144', null);
-INSERT INTO bus_routes VALUES('8',2,34,'1973', null);
-INSERT INTO bus_routes VALUES('8',2,35,'2421', null);
-INSERT INTO bus_routes VALUES('8',2,36,'1976', null);
-INSERT INTO bus_routes VALUES('8',2,37,'1186', null);
-INSERT INTO bus_routes VALUES('8',2,38,'1187', null);
-INSERT INTO bus_routes VALUES('8',2,39,'1188', null);
-INSERT INTO bus_routes VALUES('8',2,40,'1170', null);
-INSERT INTO bus_routes VALUES('8',2,41,'5128', null);
-INSERT INTO bus_routes VALUES('81',1,1,'5550', null);
-INSERT INTO bus_routes VALUES('81',1,2,'2471', null);
-INSERT INTO bus_routes VALUES('81',1,3,'2472', null);
-INSERT INTO bus_routes VALUES('81',1,4,'5051', null);
-INSERT INTO bus_routes VALUES('81',1,5,'5050', null);
-INSERT INTO bus_routes VALUES('81',1,6,'2429', null);
-INSERT INTO bus_routes VALUES('81',1,7,'1947', null);
-INSERT INTO bus_routes VALUES('81',1,8,'1949', null);
-INSERT INTO bus_routes VALUES('81',1,9,'1951', null);
-INSERT INTO bus_routes VALUES('81',1,10,'1953', null);
-INSERT INTO bus_routes VALUES('81',1,11,'1955', null);
-INSERT INTO bus_routes VALUES('81',1,12,'1957', null);
-INSERT INTO bus_routes VALUES('81',1,13,'2824', null);
-INSERT INTO bus_routes VALUES('81',1,14,'4624', null);
-INSERT INTO bus_routes VALUES('81',1,15,'2828', null);
-INSERT INTO bus_routes VALUES('81',1,16,'2868', null);
-INSERT INTO bus_routes VALUES('81',1,17,'5045', null);
-INSERT INTO bus_routes VALUES('81',1,18,'2870', null);
-INSERT INTO bus_routes VALUES('81',1,19,'2871', null);
-INSERT INTO bus_routes VALUES('81',1,20,'2872', null);
-INSERT INTO bus_routes VALUES('81',1,21,'4995', null);
-INSERT INTO bus_routes VALUES('81',2,1,'4995', null);
-INSERT INTO bus_routes VALUES('81',2,2,'5721', null);
-INSERT INTO bus_routes VALUES('81',2,3,'5378', null);
-INSERT INTO bus_routes VALUES('81',2,4,'2873', null);
-INSERT INTO bus_routes VALUES('81',2,5,'2874', null);
-INSERT INTO bus_routes VALUES('81',2,6,'2875', null);
-INSERT INTO bus_routes VALUES('81',2,7,'2869', null);
-INSERT INTO bus_routes VALUES('81',2,8,'2829', null);
-INSERT INTO bus_routes VALUES('81',2,9,'4625', null);
-INSERT INTO bus_routes VALUES('81',2,10,'2825', null);
-INSERT INTO bus_routes VALUES('81',2,11,'2842', null);
-INSERT INTO bus_routes VALUES('81',2,12,'4814', null);
-INSERT INTO bus_routes VALUES('81',2,13,'4815', null);
-INSERT INTO bus_routes VALUES('81',2,14,'1952', null);
-INSERT INTO bus_routes VALUES('81',2,15,'1950', null);
-INSERT INTO bus_routes VALUES('81',2,16,'1948', null);
-INSERT INTO bus_routes VALUES('81',2,17,'2428', null);
-INSERT INTO bus_routes VALUES('81',2,18,'2430', null);
-INSERT INTO bus_routes VALUES('81',2,19,'2966', null);
-INSERT INTO bus_routes VALUES('81',2,20,'4587', null);
-INSERT INTO bus_routes VALUES('81',2,21,'5549', null);
-INSERT INTO bus_routes VALUES('81',2,22,'5550', null);
-INSERT INTO bus_routes VALUES('82',1,1,'1329', null);
-INSERT INTO bus_routes VALUES('82',1,2,'3688', null);
-INSERT INTO bus_routes VALUES('82',1,3,'4021', null);
-INSERT INTO bus_routes VALUES('82',1,4,'743', null);
-INSERT INTO bus_routes VALUES('82',1,5,'4175', null);
-INSERT INTO bus_routes VALUES('82',1,6,'1684', null);
-INSERT INTO bus_routes VALUES('82',1,7,'1686', null);
-INSERT INTO bus_routes VALUES('82',1,8,'1687', null);
-INSERT INTO bus_routes VALUES('82',1,9,'1689', null);
-INSERT INTO bus_routes VALUES('82',1,10,'1691', null);
-INSERT INTO bus_routes VALUES('82',1,11,'1693', null);
-INSERT INTO bus_routes VALUES('82',1,12,'4285', null);
-INSERT INTO bus_routes VALUES('82',1,13,'1697', null);
-INSERT INTO bus_routes VALUES('82',1,14,'1699', null);
-INSERT INTO bus_routes VALUES('82',1,15,'1701', null);
-INSERT INTO bus_routes VALUES('82',1,16,'1703', null);
-INSERT INTO bus_routes VALUES('82',1,17,'1705', null);
-INSERT INTO bus_routes VALUES('82',1,18,'3391', null);
-INSERT INTO bus_routes VALUES('82',1,19,'1709', null);
-INSERT INTO bus_routes VALUES('82',1,20,'1711', null);
-INSERT INTO bus_routes VALUES('82',1,21,'3756', null);
-INSERT INTO bus_routes VALUES('82',1,22,'1716', null);
-INSERT INTO bus_routes VALUES('82',1,23,'1718', null);
-INSERT INTO bus_routes VALUES('82',1,24,'1720', null);
-INSERT INTO bus_routes VALUES('82',1,25,'1722', null);
-INSERT INTO bus_routes VALUES('82',1,26,'1724', null);
-INSERT INTO bus_routes VALUES('82',1,27,'1726', null);
-INSERT INTO bus_routes VALUES('82',1,28,'1633', null);
-INSERT INTO bus_routes VALUES('82',1,29,'1635', null);
-INSERT INTO bus_routes VALUES('82',1,30,'1730', null);
-INSERT INTO bus_routes VALUES('82',1,31,'5729', null);
-INSERT INTO bus_routes VALUES('82',1,32,'1629', null);
-INSERT INTO bus_routes VALUES('82',1,33,'4819', null);
-INSERT INTO bus_routes VALUES('82',1,34,'4821', null);
-INSERT INTO bus_routes VALUES('82',1,35,'4823', null);
-INSERT INTO bus_routes VALUES('82',1,36,'4282', null);
-INSERT INTO bus_routes VALUES('82',1,37,'4292', null);
-INSERT INTO bus_routes VALUES('82',2,1,'4292', null);
-INSERT INTO bus_routes VALUES('82',2,2,'4824', null);
-INSERT INTO bus_routes VALUES('82',2,3,'4822', null);
-INSERT INTO bus_routes VALUES('82',2,4,'4820', null);
-INSERT INTO bus_routes VALUES('82',2,5,'1630', null);
-INSERT INTO bus_routes VALUES('82',2,6,'1738', null);
-INSERT INTO bus_routes VALUES('82',2,7,'1731', null);
-INSERT INTO bus_routes VALUES('82',2,8,'1729', null);
-INSERT INTO bus_routes VALUES('82',2,9,'1634', null);
-INSERT INTO bus_routes VALUES('82',2,10,'1727', null);
-INSERT INTO bus_routes VALUES('82',2,11,'1725', null);
-INSERT INTO bus_routes VALUES('82',2,12,'1723', null);
-INSERT INTO bus_routes VALUES('82',2,13,'1721', null);
-INSERT INTO bus_routes VALUES('82',2,14,'1719', null);
-INSERT INTO bus_routes VALUES('82',2,15,'1717', null);
-INSERT INTO bus_routes VALUES('82',2,16,'1715', null);
-INSERT INTO bus_routes VALUES('82',2,17,'1713', null);
-INSERT INTO bus_routes VALUES('82',2,18,'1712', null);
-INSERT INTO bus_routes VALUES('82',2,19,'1710', null);
-INSERT INTO bus_routes VALUES('82',2,20,'5716', null);
-INSERT INTO bus_routes VALUES('82',2,21,'1706', null);
-INSERT INTO bus_routes VALUES('82',2,22,'1704', null);
-INSERT INTO bus_routes VALUES('82',2,23,'5309', null);
-INSERT INTO bus_routes VALUES('82',2,24,'1700', null);
-INSERT INTO bus_routes VALUES('82',2,25,'1698', null);
-INSERT INTO bus_routes VALUES('82',2,26,'5370', null);
-INSERT INTO bus_routes VALUES('82',2,27,'1696', null);
-INSERT INTO bus_routes VALUES('82',2,28,'1694', null);
-INSERT INTO bus_routes VALUES('82',2,29,'1692', null);
-INSERT INTO bus_routes VALUES('82',2,30,'1690', null);
-INSERT INTO bus_routes VALUES('82',2,31,'1688', null);
-INSERT INTO bus_routes VALUES('82',2,32,'1685', null);
-INSERT INTO bus_routes VALUES('82',2,33,'1331', null);
-INSERT INTO bus_routes VALUES('82',2,34,'4514', null);
-INSERT INTO bus_routes VALUES('82',2,35,'4022', null);
-INSERT INTO bus_routes VALUES('82',2,36,'3047', null);
-INSERT INTO bus_routes VALUES('82',2,37,'1329', null);
-INSERT INTO bus_routes VALUES('83',1,1,'6003', null);
-INSERT INTO bus_routes VALUES('83',1,2,'3688', null);
-INSERT INTO bus_routes VALUES('83',1,3,'1330', null);
-INSERT INTO bus_routes VALUES('83',1,4,'1332', null);
-INSERT INTO bus_routes VALUES('83',1,5,'1334', null);
-INSERT INTO bus_routes VALUES('83',1,6,'1336', null);
-INSERT INTO bus_routes VALUES('83',1,7,'1338', null);
-INSERT INTO bus_routes VALUES('83',1,8,'1340', null);
-INSERT INTO bus_routes VALUES('83',1,9,'1341', null);
-INSERT INTO bus_routes VALUES('83',1,10,'1343', null);
-INSERT INTO bus_routes VALUES('83',1,11,'5793', null);
-INSERT INTO bus_routes VALUES('83',1,12,'1347', null);
-INSERT INTO bus_routes VALUES('83',1,13,'1349', null);
-INSERT INTO bus_routes VALUES('83',1,14,'1351', null);
-INSERT INTO bus_routes VALUES('83',1,15,'1352', null);
-INSERT INTO bus_routes VALUES('83',1,16,'1354', null);
-INSERT INTO bus_routes VALUES('83',1,17,'5456', null);
-INSERT INTO bus_routes VALUES('83',1,18,'1356', null);
-INSERT INTO bus_routes VALUES('83',1,19,'1358', null);
-INSERT INTO bus_routes VALUES('83',1,20,'1359', null);
-INSERT INTO bus_routes VALUES('83',1,21,'1362', null);
-INSERT INTO bus_routes VALUES('83',1,22,'1364', null);
-INSERT INTO bus_routes VALUES('83',1,23,'1366', null);
-INSERT INTO bus_routes VALUES('83',1,24,'1368', null);
-INSERT INTO bus_routes VALUES('83',1,25,'1370', null);
-INSERT INTO bus_routes VALUES('83',1,26,'1372', null);
-INSERT INTO bus_routes VALUES('83',1,27,'1373', null);
-INSERT INTO bus_routes VALUES('83',1,28,'1374', null);
-INSERT INTO bus_routes VALUES('83',1,29,'1376', null);
-INSERT INTO bus_routes VALUES('83',2,1,'1376', null);
-INSERT INTO bus_routes VALUES('83',2,2,'1377', null);
-INSERT INTO bus_routes VALUES('83',2,3,'1378', null);
-INSERT INTO bus_routes VALUES('83',2,4,'1375', null);
-INSERT INTO bus_routes VALUES('83',2,5,'1379', null);
-INSERT INTO bus_routes VALUES('83',2,6,'1380', null);
-INSERT INTO bus_routes VALUES('83',2,7,'1371', null);
-INSERT INTO bus_routes VALUES('83',2,8,'93', null);
-INSERT INTO bus_routes VALUES('83',2,9,'1367', null);
-INSERT INTO bus_routes VALUES('83',2,10,'1365', null);
-INSERT INTO bus_routes VALUES('83',2,11,'1363', null);
-INSERT INTO bus_routes VALUES('83',2,12,'1360', null);
-INSERT INTO bus_routes VALUES('83',2,13,'1361', null);
-INSERT INTO bus_routes VALUES('83',2,14,'1357', null);
-INSERT INTO bus_routes VALUES('83',2,15,'1355', null);
-INSERT INTO bus_routes VALUES('83',2,16,'5652', null);
-INSERT INTO bus_routes VALUES('83',2,17,'1353', null);
-INSERT INTO bus_routes VALUES('83',2,18,'1350', null);
-INSERT INTO bus_routes VALUES('83',2,19,'1348', null);
-INSERT INTO bus_routes VALUES('83',2,20,'1346', null);
-INSERT INTO bus_routes VALUES('83',2,21,'1344', null);
-INSERT INTO bus_routes VALUES('83',2,22,'1342', null);
-INSERT INTO bus_routes VALUES('83',2,23,'23', null);
-INSERT INTO bus_routes VALUES('83',2,24,'1335', null);
-INSERT INTO bus_routes VALUES('83',2,25,'1333', null);
-INSERT INTO bus_routes VALUES('83',2,26,'1331', null);
-INSERT INTO bus_routes VALUES('83',2,27,'740', null);
-INSERT INTO bus_routes VALUES('83',2,28,'6003', null);
-INSERT INTO bus_routes VALUES('85',1,1,'5708', null);
-INSERT INTO bus_routes VALUES('85',1,2,'1167', null);
-INSERT INTO bus_routes VALUES('85',1,3,'1926', null);
-INSERT INTO bus_routes VALUES('85',1,4,'1927', null);
-INSERT INTO bus_routes VALUES('85',1,5,'1928', null);
-INSERT INTO bus_routes VALUES('85',1,6,'1168', null);
-INSERT INTO bus_routes VALUES('85',1,7,'1188', null);
-INSERT INTO bus_routes VALUES('85',1,8,'1170', null);
-INSERT INTO bus_routes VALUES('85',1,9,'5718', null);
-INSERT INTO bus_routes VALUES('85',1,10,'5719', null);
-INSERT INTO bus_routes VALUES('85',1,11,'5720', null);
-INSERT INTO bus_routes VALUES('85',1,12,'1132', null);
-INSERT INTO bus_routes VALUES('85',1,13,'5378', null);
-INSERT INTO bus_routes VALUES('85',1,14,'1135', null);
-INSERT INTO bus_routes VALUES('85',1,15,'1137', null);
-INSERT INTO bus_routes VALUES('85',1,16,'1172', null);
-INSERT INTO bus_routes VALUES('85',1,17,'4662', null);
-INSERT INTO bus_routes VALUES('85',1,18,'1174', null);
-INSERT INTO bus_routes VALUES('85',1,19,'4664', null);
-INSERT INTO bus_routes VALUES('85',1,20,'1440', null);
-INSERT INTO bus_routes VALUES('85',1,21,'1442', null);
-INSERT INTO bus_routes VALUES('85',1,22,'1444', null);
-INSERT INTO bus_routes VALUES('85',1,23,'1446', null);
-INSERT INTO bus_routes VALUES('85',1,24,'5085', null);
-INSERT INTO bus_routes VALUES('85',1,25,'4980', null);
-INSERT INTO bus_routes VALUES('85',1,26,'4981', null);
-INSERT INTO bus_routes VALUES('85',1,27,'5856', null);
-INSERT INTO bus_routes VALUES('85',1,28,'4982', null);
-INSERT INTO bus_routes VALUES('85',1,29,'3203', null);
-INSERT INTO bus_routes VALUES('85',1,30,'5072', null);
-INSERT INTO bus_routes VALUES('85',1,31,'3205', null);
-INSERT INTO bus_routes VALUES('85',1,32,'5074', null);
-INSERT INTO bus_routes VALUES('85',1,33,'4312', null);
-INSERT INTO bus_routes VALUES('85',1,34,'4739', null);
-INSERT INTO bus_routes VALUES('85',1,35,'4314', null);
-INSERT INTO bus_routes VALUES('85',2,1,'4314', null);
-INSERT INTO bus_routes VALUES('85',2,2,'4313', null);
-INSERT INTO bus_routes VALUES('85',2,3,'5073', null);
-INSERT INTO bus_routes VALUES('85',2,4,'3255', null);
-INSERT INTO bus_routes VALUES('85',2,5,'4984', null);
-INSERT INTO bus_routes VALUES('85',2,6,'3257', null);
-INSERT INTO bus_routes VALUES('85',2,7,'3753', null);
-INSERT INTO bus_routes VALUES('85',2,8,'4983', null);
-INSERT INTO bus_routes VALUES('85',2,9,'3752', null);
-INSERT INTO bus_routes VALUES('85',2,10,'1449', null);
-INSERT INTO bus_routes VALUES('85',2,11,'5086', null);
-INSERT INTO bus_routes VALUES('85',2,12,'1450', null);
-INSERT INTO bus_routes VALUES('85',2,13,'1445', null);
-INSERT INTO bus_routes VALUES('85',2,14,'1443', null);
-INSERT INTO bus_routes VALUES('85',2,15,'1441', null);
-INSERT INTO bus_routes VALUES('85',2,16,'4665', null);
-INSERT INTO bus_routes VALUES('85',2,17,'1175', null);
-INSERT INTO bus_routes VALUES('85',2,18,'4663', null);
-INSERT INTO bus_routes VALUES('85',2,19,'1173', null);
-INSERT INTO bus_routes VALUES('85',2,20,'1138', null);
-INSERT INTO bus_routes VALUES('85',2,21,'1136', null);
-INSERT INTO bus_routes VALUES('85',2,22,'1134', null);
-INSERT INTO bus_routes VALUES('85',2,23,'5379', null);
-INSERT INTO bus_routes VALUES('85',2,24,'5380', null);
-INSERT INTO bus_routes VALUES('85',2,25,'5702', null);
-INSERT INTO bus_routes VALUES('85',2,26,'5703', null);
-INSERT INTO bus_routes VALUES('85',2,27,'5704', null);
-INSERT INTO bus_routes VALUES('85',2,28,'3858', null);
-INSERT INTO bus_routes VALUES('85',2,29,'1182', null);
-INSERT INTO bus_routes VALUES('85',2,30,'5036', null);
-INSERT INTO bus_routes VALUES('85',2,31,'1183', null);
-INSERT INTO bus_routes VALUES('85',2,32,'1184', null);
-INSERT INTO bus_routes VALUES('85',2,33,'5360', null);
-INSERT INTO bus_routes VALUES('85',2,34,'5708', null);
-INSERT INTO bus_routes VALUES('86',1,1,'5707', null);
-INSERT INTO bus_routes VALUES('86',1,2,'4839', null);
-INSERT INTO bus_routes VALUES('86',1,3,'1976', null);
-INSERT INTO bus_routes VALUES('86',1,4,'1186', null);
-INSERT INTO bus_routes VALUES('86',1,5,'1187', null);
-INSERT INTO bus_routes VALUES('86',1,6,'1188', null);
-INSERT INTO bus_routes VALUES('86',1,7,'1170', null);
-INSERT INTO bus_routes VALUES('86',1,8,'5718', null);
-INSERT INTO bus_routes VALUES('86',1,9,'5719', null);
-INSERT INTO bus_routes VALUES('86',1,10,'5720', null);
-INSERT INTO bus_routes VALUES('86',1,11,'1132', null);
-INSERT INTO bus_routes VALUES('86',1,12,'5378', null);
-INSERT INTO bus_routes VALUES('86',1,13,'1135', null);
-INSERT INTO bus_routes VALUES('86',1,14,'1137', null);
-INSERT INTO bus_routes VALUES('86',1,15,'1139', null);
-INSERT INTO bus_routes VALUES('86',1,16,'1141', null);
-INSERT INTO bus_routes VALUES('86',1,17,'1143', null);
-INSERT INTO bus_routes VALUES('86',1,18,'1144', null);
-INSERT INTO bus_routes VALUES('86',1,19,'1145', null);
-INSERT INTO bus_routes VALUES('86',1,20,'1189', null);
-INSERT INTO bus_routes VALUES('86',1,21,'1191', null);
-INSERT INTO bus_routes VALUES('86',1,22,'1193', null);
-INSERT INTO bus_routes VALUES('86',1,23,'1195', null);
-INSERT INTO bus_routes VALUES('86',1,24,'1196', null);
-INSERT INTO bus_routes VALUES('86',2,1,'1196', null);
-INSERT INTO bus_routes VALUES('86',2,2,'1197', null);
-INSERT INTO bus_routes VALUES('86',2,3,'1198', null);
-INSERT INTO bus_routes VALUES('86',2,4,'1194', null);
-INSERT INTO bus_routes VALUES('86',2,5,'1192', null);
-INSERT INTO bus_routes VALUES('86',2,6,'1190', null);
-INSERT INTO bus_routes VALUES('86',2,7,'3878', null);
-INSERT INTO bus_routes VALUES('86',2,8,'1147', null);
-INSERT INTO bus_routes VALUES('86',2,9,'1148', null);
-INSERT INTO bus_routes VALUES('86',2,10,'1142', null);
-INSERT INTO bus_routes VALUES('86',2,11,'1140', null);
-INSERT INTO bus_routes VALUES('86',2,12,'4728', null);
-INSERT INTO bus_routes VALUES('86',2,13,'1138', null);
-INSERT INTO bus_routes VALUES('86',2,14,'1136', null);
-INSERT INTO bus_routes VALUES('86',2,15,'1134', null);
-INSERT INTO bus_routes VALUES('86',2,16,'5379', null);
-INSERT INTO bus_routes VALUES('86',2,17,'5380', null);
-INSERT INTO bus_routes VALUES('86',2,18,'5702', null);
-INSERT INTO bus_routes VALUES('86',2,19,'5703', null);
-INSERT INTO bus_routes VALUES('86',2,20,'5704', null);
-INSERT INTO bus_routes VALUES('86',2,21,'3858', null);
-INSERT INTO bus_routes VALUES('86',2,22,'1182', null);
-INSERT INTO bus_routes VALUES('86',2,23,'5036', null);
-INSERT INTO bus_routes VALUES('86',2,24,'1183', null);
-INSERT INTO bus_routes VALUES('86',2,25,'1184', null);
-INSERT INTO bus_routes VALUES('86',2,26,'5360', null);
-INSERT INTO bus_routes VALUES('86',2,27,'5707', null);
-INSERT INTO bus_routes VALUES('87',1,1,'4951', null);
-INSERT INTO bus_routes VALUES('87',1,2,'300', null);
-INSERT INTO bus_routes VALUES('87',1,3,'302', null);
-INSERT INTO bus_routes VALUES('87',1,4,'2878', null);
-INSERT INTO bus_routes VALUES('87',1,5,'2879', null);
-INSERT INTO bus_routes VALUES('87',1,6,'2880', null);
-INSERT INTO bus_routes VALUES('87',1,7,'2882', null);
-INSERT INTO bus_routes VALUES('87',1,8,'2884', null);
-INSERT INTO bus_routes VALUES('87',1,9,'2886', null);
-INSERT INTO bus_routes VALUES('87',1,10,'489', null);
-INSERT INTO bus_routes VALUES('87',1,11,'4599', null);
-INSERT INTO bus_routes VALUES('87',1,12,'2888', null);
-INSERT INTO bus_routes VALUES('87',1,13,'2736', null);
-INSERT INTO bus_routes VALUES('87',1,14,'2738', null);
-INSERT INTO bus_routes VALUES('87',1,15,'2742', null);
-INSERT INTO bus_routes VALUES('87',1,16,'2744', null);
-INSERT INTO bus_routes VALUES('87',1,17,'2890', null);
-INSERT INTO bus_routes VALUES('87',1,18,'5208', null);
-INSERT INTO bus_routes VALUES('87',1,19,'2894', null);
-INSERT INTO bus_routes VALUES('87',1,20,'4785', null);
-INSERT INTO bus_routes VALUES('87',1,21,'2896', null);
-INSERT INTO bus_routes VALUES('87',2,1,'2896', null);
-INSERT INTO bus_routes VALUES('87',2,2,'2897', null);
-INSERT INTO bus_routes VALUES('87',2,3,'4786', null);
-INSERT INTO bus_routes VALUES('87',2,4,'4270', null);
-INSERT INTO bus_routes VALUES('87',2,5,'2899', null);
-INSERT INTO bus_routes VALUES('87',2,6,'2900', null);
-INSERT INTO bus_routes VALUES('87',2,7,'2901', null);
-INSERT INTO bus_routes VALUES('87',2,8,'3020', null);
-INSERT INTO bus_routes VALUES('87',2,9,'3022', null);
-INSERT INTO bus_routes VALUES('87',2,10,'2891', null);
-INSERT INTO bus_routes VALUES('87',2,11,'2745', null);
-INSERT INTO bus_routes VALUES('87',2,12,'2743', null);
-INSERT INTO bus_routes VALUES('87',2,13,'2739', null);
-INSERT INTO bus_routes VALUES('87',2,14,'2737', null);
-INSERT INTO bus_routes VALUES('87',2,15,'2889', null);
-INSERT INTO bus_routes VALUES('87',2,16,'480', null);
-INSERT INTO bus_routes VALUES('87',2,17,'2887', null);
-INSERT INTO bus_routes VALUES('87',2,18,'2885', null);
-INSERT INTO bus_routes VALUES('87',2,19,'2883', null);
-INSERT INTO bus_routes VALUES('87',2,20,'4600', null);
-INSERT INTO bus_routes VALUES('87',2,21,'2881', null);
-INSERT INTO bus_routes VALUES('87',2,22,'3926', null);
-INSERT INTO bus_routes VALUES('87',2,23,'2903', null);
-INSERT INTO bus_routes VALUES('87',2,24,'2904', null);
-INSERT INTO bus_routes VALUES('87',2,25,'303', null);
-INSERT INTO bus_routes VALUES('87',2,26,'2388', null);
-INSERT INTO bus_routes VALUES('87',2,27,'314', null);
-INSERT INTO bus_routes VALUES('87',2,28,'4951', null);
-INSERT INTO bus_routes VALUES('9',1,1,'3411', null);
-INSERT INTO bus_routes VALUES('9',1,2,'90', null);
-INSERT INTO bus_routes VALUES('9',1,3,'70', null);
-INSERT INTO bus_routes VALUES('9',1,4,'162', null);
-INSERT INTO bus_routes VALUES('9',1,5,'423', null);
-INSERT INTO bus_routes VALUES('9',1,6,'424', null);
-INSERT INTO bus_routes VALUES('9',1,7,'425', null);
-INSERT INTO bus_routes VALUES('9',1,8,'426', null);
-INSERT INTO bus_routes VALUES('9',1,9,'427', null);
-INSERT INTO bus_routes VALUES('9',1,10,'428', null);
-INSERT INTO bus_routes VALUES('9',1,11,'5377', null);
-INSERT INTO bus_routes VALUES('9',1,12,'2007', null);
-INSERT INTO bus_routes VALUES('9',1,13,'2009', null);
-INSERT INTO bus_routes VALUES('9',1,14,'2011', null);
-INSERT INTO bus_routes VALUES('9',1,15,'2013', null);
-INSERT INTO bus_routes VALUES('9',1,16,'2015', null);
-INSERT INTO bus_routes VALUES('9',1,17,'2017', null);
-INSERT INTO bus_routes VALUES('9',1,18,'2020', null);
-INSERT INTO bus_routes VALUES('9',1,19,'4721', null);
-INSERT INTO bus_routes VALUES('9',1,20,'2022', null);
-INSERT INTO bus_routes VALUES('9',1,21,'408', null);
-INSERT INTO bus_routes VALUES('9',1,22,'2024', null);
-INSERT INTO bus_routes VALUES('9',1,23,'2026', null);
-INSERT INTO bus_routes VALUES('9',1,24,'2027', null);
-INSERT INTO bus_routes VALUES('9',1,25,'2029', null);
-INSERT INTO bus_routes VALUES('9',1,26,'3927', null);
-INSERT INTO bus_routes VALUES('9',1,27,'2033', null);
-INSERT INTO bus_routes VALUES('9',1,28,'2035', null);
-INSERT INTO bus_routes VALUES('9',1,29,'2037', null);
-INSERT INTO bus_routes VALUES('9',1,30,'1846', null);
-INSERT INTO bus_routes VALUES('9',1,31,'1848', null);
-INSERT INTO bus_routes VALUES('9',1,32,'2039', null);
-INSERT INTO bus_routes VALUES('9',1,33,'3550', null);
-INSERT INTO bus_routes VALUES('9',1,34,'2043', null);
-INSERT INTO bus_routes VALUES('9',2,1,'2043', null);
-INSERT INTO bus_routes VALUES('9',2,2,'2042', null);
-INSERT INTO bus_routes VALUES('9',2,3,'2041', null);
-INSERT INTO bus_routes VALUES('9',2,4,'2040', null);
-INSERT INTO bus_routes VALUES('9',2,5,'2560', null);
-INSERT INTO bus_routes VALUES('9',2,6,'1849', null);
-INSERT INTO bus_routes VALUES('9',2,7,'1847', null);
-INSERT INTO bus_routes VALUES('9',2,8,'2038', null);
-INSERT INTO bus_routes VALUES('9',2,9,'2036', null);
-INSERT INTO bus_routes VALUES('9',2,10,'2034', null);
-INSERT INTO bus_routes VALUES('9',2,11,'3928', null);
-INSERT INTO bus_routes VALUES('9',2,12,'2030', null);
-INSERT INTO bus_routes VALUES('9',2,13,'4538', null);
-INSERT INTO bus_routes VALUES('9',2,14,'218', null);
-INSERT INTO bus_routes VALUES('9',2,15,'2025', null);
-INSERT INTO bus_routes VALUES('9',2,16,'409', null);
-INSERT INTO bus_routes VALUES('9',2,17,'462', null);
-INSERT INTO bus_routes VALUES('9',2,18,'310', null);
-INSERT INTO bus_routes VALUES('9',2,19,'310', null);
-INSERT INTO bus_routes VALUES('9',2,20,'2021', null);
-INSERT INTO bus_routes VALUES('9',2,21,'2021', null);
-INSERT INTO bus_routes VALUES('9',2,22,'2018', null);
-INSERT INTO bus_routes VALUES('9',2,23,'2016', null);
-INSERT INTO bus_routes VALUES('9',2,24,'2014', null);
-INSERT INTO bus_routes VALUES('9',2,25,'268', null);
-INSERT INTO bus_routes VALUES('9',2,26,'5249', null);
-INSERT INTO bus_routes VALUES('9',2,27,'2008', null);
-INSERT INTO bus_routes VALUES('9',2,28,'2006', null);
-INSERT INTO bus_routes VALUES('9',2,29,'446', null);
-INSERT INTO bus_routes VALUES('9',2,30,'447', null);
-INSERT INTO bus_routes VALUES('9',2,31,'448', null);
-INSERT INTO bus_routes VALUES('9',2,32,'4710', null);
-INSERT INTO bus_routes VALUES('9',2,33,'449', null);
-INSERT INTO bus_routes VALUES('9',2,34,'451', null);
-INSERT INTO bus_routes VALUES('9',2,35,'452', null);
-INSERT INTO bus_routes VALUES('9',2,36,'161', null);
-INSERT INTO bus_routes VALUES('9',2,37,'69', null);
-INSERT INTO bus_routes VALUES('9',2,38,'3411', null);
-INSERT INTO bus_routes VALUES('E',1,1,'2603', null);
-INSERT INTO bus_routes VALUES('E',1,2,'3350', null);
-INSERT INTO bus_routes VALUES('E',1,3,'3351', null);
-INSERT INTO bus_routes VALUES('E',1,4,'3353', null);
-INSERT INTO bus_routes VALUES('E',1,5,'4278', null);
-INSERT INTO bus_routes VALUES('E',1,6,'4279', null);
-INSERT INTO bus_routes VALUES('E',1,7,'4280', null);
-INSERT INTO bus_routes VALUES('E',1,8,'4702', null);
-INSERT INTO bus_routes VALUES('E',1,9,'5561', null);
-INSERT INTO bus_routes VALUES('E',1,10,'1027', null);
-INSERT INTO bus_routes VALUES('E',2,1,'1027', null);
-INSERT INTO bus_routes VALUES('E',2,2,'5562', null);
-INSERT INTO bus_routes VALUES('E',2,3,'4281', null);
-INSERT INTO bus_routes VALUES('E',2,4,'2612', null);
-INSERT INTO bus_routes VALUES('E',2,5,'2613', null);
-INSERT INTO bus_routes VALUES('E',2,6,'4283', null);
-INSERT INTO bus_routes VALUES('E',2,7,'3352', null);
-INSERT INTO bus_routes VALUES('E',2,8,'2611', null);
-INSERT INTO bus_routes VALUES('E',2,9,'2603', null);
-INSERT INTO bus_routes VALUES('F',1,1,'2480', null);
-INSERT INTO bus_routes VALUES('F',1,2,'1418', null);
-INSERT INTO bus_routes VALUES('F',1,3,'1416', null);
-INSERT INTO bus_routes VALUES('F',1,4,'2712', null);
-INSERT INTO bus_routes VALUES('F',1,5,'3278', null);
-INSERT INTO bus_routes VALUES('F',1,6,'5140', null);
-INSERT INTO bus_routes VALUES('F',1,7,'3292', null);
-INSERT INTO bus_routes VALUES('F',1,8,'3274', null);
-INSERT INTO bus_routes VALUES('F',1,9,'1693', null);
-INSERT INTO bus_routes VALUES('F',1,10,'4285', null);
-INSERT INTO bus_routes VALUES('F',1,11,'5370', null);
-INSERT INTO bus_routes VALUES('F',1,12,'1696', null);
-INSERT INTO bus_routes VALUES('F',1,13,'1694', null);
-INSERT INTO bus_routes VALUES('F',1,14,'4287', null);
-INSERT INTO bus_routes VALUES('F',1,15,'4289', null);
-INSERT INTO bus_routes VALUES('F',1,16,'4290', null);
-INSERT INTO bus_routes VALUES('F',2,1,'4290', null);
-INSERT INTO bus_routes VALUES('F',2,2,'4288', null);
-INSERT INTO bus_routes VALUES('F',2,3,'4291', null);
-INSERT INTO bus_routes VALUES('F',2,4,'3273', null);
-INSERT INTO bus_routes VALUES('F',2,5,'3276', null);
-INSERT INTO bus_routes VALUES('F',2,6,'5316', null);
-INSERT INTO bus_routes VALUES('F',2,7,'185', null);
-INSERT INTO bus_routes VALUES('F',2,8,'1415', null);
-INSERT INTO bus_routes VALUES('F',2,9,'1417', null);
-INSERT INTO bus_routes VALUES('F',2,10,'4284', null);
-INSERT INTO bus_routes VALUES('F',2,11,'2480', null);
-INSERT INTO bus_routes VALUES('G',1,1,'2419', null);
-INSERT INTO bus_routes VALUES('G',1,2,'3688', null);
-INSERT INTO bus_routes VALUES('G',1,3,'1684', null);
-INSERT INTO bus_routes VALUES('G',1,4,'1686', null);
-INSERT INTO bus_routes VALUES('G',1,5,'1687', null);
-INSERT INTO bus_routes VALUES('G',1,6,'1689', null);
-INSERT INTO bus_routes VALUES('G',1,7,'1691', null);
-INSERT INTO bus_routes VALUES('G',1,8,'1693', null);
-INSERT INTO bus_routes VALUES('G',1,9,'4285', null);
-INSERT INTO bus_routes VALUES('G',1,10,'5370', null);
-INSERT INTO bus_routes VALUES('G',1,11,'1696', null);
-INSERT INTO bus_routes VALUES('G',1,12,'1694', null);
-INSERT INTO bus_routes VALUES('G',1,13,'4287', null);
-INSERT INTO bus_routes VALUES('G',1,14,'4289', null);
-INSERT INTO bus_routes VALUES('G',1,15,'4290', null);
-INSERT INTO bus_routes VALUES('G',2,1,'4290', null);
-INSERT INTO bus_routes VALUES('G',2,2,'4288', null);
-INSERT INTO bus_routes VALUES('G',2,3,'1692', null);
-INSERT INTO bus_routes VALUES('G',2,4,'1690', null);
-INSERT INTO bus_routes VALUES('G',2,5,'1688', null);
-INSERT INTO bus_routes VALUES('G',2,6,'1685', null);
-INSERT INTO bus_routes VALUES('G',2,7,'1331', null);
-INSERT INTO bus_routes VALUES('G',2,8,'2419', null);
-INSERT INTO bus_routes VALUES('A',1,1,'5147', null);
-INSERT INTO bus_routes VALUES('A',1,2,'3423', null);
-INSERT INTO bus_routes VALUES('A',1,3,'3424', null);
-INSERT INTO bus_routes VALUES('A',1,4,'3425', null);
-INSERT INTO bus_routes VALUES('A',1,5,'6446', null);
-INSERT INTO bus_routes VALUES('A',1,6,'4299', null);
-INSERT INTO bus_routes VALUES('A',2,1,'4299', null);
-INSERT INTO bus_routes VALUES('A',2,2,'4300', null);
-INSERT INTO bus_routes VALUES('A',2,3,'6447', null);
-INSERT INTO bus_routes VALUES('A',2,4,'3426', null);
-INSERT INTO bus_routes VALUES('A',2,5,'4198', null);
-INSERT INTO bus_routes VALUES('A',2,6,'3448', null);
-INSERT INTO bus_routes VALUES('A',2,7,'3449', null);
-INSERT INTO bus_routes VALUES('A',2,8,'5147', null);
-INSERT INTO bus_routes VALUES('H',1,1,'5686', null);
-INSERT INTO bus_routes VALUES('H',1,2,'4301', null);
-INSERT INTO bus_routes VALUES('H',1,3,'4303', null);
-INSERT INTO bus_routes VALUES('H',1,4,'3208', null);
-INSERT INTO bus_routes VALUES('H',1,5,'4302', null);
-INSERT INTO bus_routes VALUES('H',1,6,'6446', null);
-INSERT INTO bus_routes VALUES('H',1,7,'4299', null);
-INSERT INTO bus_routes VALUES('H',2,1,'4299', null);
-INSERT INTO bus_routes VALUES('H',2,2,'4300', null);
-INSERT INTO bus_routes VALUES('H',2,3,'6447', null);
-INSERT INTO bus_routes VALUES('H',2,4,'5325', null);
-INSERT INTO bus_routes VALUES('H',2,5,'5731', null);
-INSERT INTO bus_routes VALUES('H',2,6,'3592', null);
-INSERT INTO bus_routes VALUES('H',2,7,'3209', null);
-INSERT INTO bus_routes VALUES('H',2,8,'5686', null);
-INSERT INTO bus_routes VALUES('U',1,1,'2415', null);
-INSERT INTO bus_routes VALUES('U',1,2,'2417', null);
-INSERT INTO bus_routes VALUES('U',1,3,'1684', null);
-INSERT INTO bus_routes VALUES('U',1,4,'1686', null);
-INSERT INTO bus_routes VALUES('U',1,5,'1687', null);
-INSERT INTO bus_routes VALUES('U',1,6,'1689', null);
-INSERT INTO bus_routes VALUES('U',1,7,'1691', null);
-INSERT INTO bus_routes VALUES('U',1,8,'1693', null);
-INSERT INTO bus_routes VALUES('U',1,9,'4285', null);
-INSERT INTO bus_routes VALUES('U',1,10,'3861', null);
-INSERT INTO bus_routes VALUES('U',1,11,'3862', null);
-INSERT INTO bus_routes VALUES('U',2,1,'3862', null);
-INSERT INTO bus_routes VALUES('U',2,2,'3863', null);
-INSERT INTO bus_routes VALUES('U',2,3,'1696', null);
-INSERT INTO bus_routes VALUES('U',2,4,'1694', null);
-INSERT INTO bus_routes VALUES('U',2,5,'1692', null);
-INSERT INTO bus_routes VALUES('U',2,6,'1690', null);
-INSERT INTO bus_routes VALUES('U',2,7,'1688', null);
-INSERT INTO bus_routes VALUES('U',2,8,'1685', null);
-INSERT INTO bus_routes VALUES('U',2,9,'1331', null);
-INSERT INTO bus_routes VALUES('U',2,10,'4306', null);
-INSERT INTO bus_routes VALUES('U',2,11,'2413', null);
-INSERT INTO bus_routes VALUES('U',2,12,'2415', null);
+'1',1,1,'4514',NULL
+'1',1,2,'4022',NULL
+'1',1,3,'3687',NULL
+'1',1,4,'737',NULL
+'1',1,5,'735',NULL
+'1',1,6,'193',NULL
+'1',1,7,'173',NULL
+'1',1,8,'741',NULL
+'1',1,9,'171',NULL
+'1',1,10,'169',NULL
+'1',1,11,'723',NULL
+'1',1,12,'724',NULL
+'1',1,13,'5138',NULL
+'1',1,14,'164',NULL
+'1',1,15,'70',NULL
+'1',1,16,'162',NULL
+'1',1,17,'423',NULL
+'1',1,18,'424',NULL
+'1',1,19,'425',NULL
+'1',1,20,'426',NULL
+'1',1,21,'731',NULL
+'1',1,22,'729',NULL
+'1',1,23,'727',NULL
+'1',1,24,'726',NULL
+'1',1,25,'2304',NULL
+'1',1,26,'721',NULL
+'1',1,27,'717',NULL
+'1',1,28,'715',NULL
+'1',1,29,'745',NULL
+'1',1,30,'273',NULL
+'1',2,1,'273',NULL
+'1',2,2,'716',NULL
+'1',2,3,'718',NULL
+'1',2,4,'722',NULL
+'1',2,5,'2307',NULL
+'1',2,6,'725',NULL
+'1',2,7,'728',NULL
+'1',2,8,'730',NULL
+'1',2,9,'732',NULL
+'1',2,10,'733',NULL
+'1',2,11,'449',NULL
+'1',2,12,'451',NULL
+'1',2,13,'452',NULL
+'1',2,14,'161',NULL
+'1',2,15,'69',NULL
+'1',2,16,'5135',NULL
+'1',2,17,'5137',NULL
+'1',2,18,'4094',NULL
+'1',2,19,'9',NULL
+'1',2,20,'168',NULL
+'1',2,21,'283',NULL
+'1',2,22,'1750',NULL
+'1',2,23,'172',NULL
+'1',2,24,'734',NULL
+'1',2,25,'736',NULL
+'1',2,26,'738',NULL
+'1',2,27,'4816',NULL
+'1',2,28,'4021',NULL
+'1',2,29,'743',NULL
+'1',2,30,'4514',NULL
+'10',1,1,'5442',NULL
+'10',1,2,'77',NULL
+'10',1,3,'79',NULL
+'10',1,4,'81',NULL
+'10',1,5,'1401',NULL
+'10',1,6,'1402',NULL
+'10',1,7,'2048',NULL
+'10',1,8,'2050',NULL
+'10',1,9,'2052',NULL
+'10',1,10,'1435',NULL
+'10',1,11,'1437',NULL
+'10',1,12,'1410',NULL
+'10',1,13,'2058',NULL
+'10',1,14,'2059',NULL
+'10',1,15,'2091',NULL
+'10',1,16,'4861',NULL
+'10',1,17,'2064',NULL
+'10',1,18,'2066',NULL
+'10',1,19,'2068',NULL
+'10',1,20,'2070',NULL
+'10',1,21,'2072',NULL
+'10',1,22,'4540',NULL
+'10',1,23,'2075',NULL
+'10',1,24,'2077',NULL
+'10',1,25,'2079',NULL
+'10',1,26,'2081',NULL
+'10',1,27,'2083',NULL
+'10',1,28,'2085',NULL
+'10',1,29,'2087',NULL
+'10',1,30,'4517',NULL
+'10',1,31,'2106',NULL
+'10',1,32,'5774',NULL
+'10',2,1,'5774',NULL
+'10',2,2,'2109',NULL
+'10',2,3,'2577',NULL
+'10',2,4,'2088',NULL
+'10',2,5,'2086',NULL
+'10',2,6,'2084',NULL
+'10',2,7,'2082',NULL
+'10',2,8,'2080',NULL
+'10',2,9,'2078',NULL
+'10',2,10,'2076',NULL
+'10',2,11,'2074',NULL
+'10',2,12,'2073',NULL
+'10',2,13,'2071',NULL
+'10',2,14,'2069',NULL
+'10',2,15,'2067',NULL
+'10',2,16,'2065',NULL
+'10',2,17,'2063',NULL
+'10',2,18,'5681',NULL
+'10',2,19,'1002',NULL
+'10',2,20,'4864',NULL
+'10',2,21,'1411',NULL
+'10',2,22,'1978',NULL
+'10',2,23,'2055',NULL
+'10',2,24,'2053',NULL
+'10',2,25,'2051',NULL
+'10',2,26,'1405',NULL
+'10',2,27,'1403',NULL
+'10',2,28,'4904',NULL
+'10',2,29,'5453',NULL
+'10',2,30,'82',NULL
+'10',2,31,'5511',NULL
+'10',2,32,'78',NULL
+'10',2,33,'5442',NULL
+'100',1,1,'3504',NULL
+'100',1,2,'853',NULL
+'100',1,3,'837',NULL
+'100',1,4,'838',NULL
+'100',1,5,'51015',NULL
+'100',1,6,'1052',NULL
+'100',1,7,'1054',NULL
+'100',1,8,'1056',NULL
+'100',1,9,'1058',NULL
+'100',1,10,'4757',NULL
+'100',1,11,'4973',NULL
+'100',1,12,'1060',NULL
+'100',1,13,'4576',NULL
+'100',1,14,'1064',NULL
+'100',1,15,'1066',NULL
+'100',1,16,'1067',NULL
+'100',1,17,'1075',NULL
+'100',1,18,'4548',NULL
+'100',1,19,'4559',NULL
+'100',1,20,'4561',NULL
+'100',1,21,'4563',NULL
+'100',1,22,'3875',NULL
+'100',1,23,'5108',NULL
+'100',1,24,'5110',NULL
+'100',1,25,'5112',NULL
+'100',1,26,'5114',NULL
+'100',1,27,'5116',NULL
+'100',2,1,'5116',NULL
+'100',2,2,'5118',NULL
+'100',2,3,'5115',NULL
+'100',2,4,'5113',NULL
+'100',2,5,'5111',NULL
+'100',2,6,'5109',NULL
+'100',2,7,'51027',NULL
+'100',2,8,'4564',NULL
+'100',2,9,'4562',NULL
+'100',2,10,'4560',NULL
+'100',2,11,'3758',NULL
+'100',2,12,'1213',NULL
+'100',2,13,'4547',NULL
+'100',2,14,'4565',NULL
+'100',2,15,'4647',NULL
+'100',2,16,'4549',NULL
+'100',2,17,'1835',NULL
+'100',2,18,'1062',NULL
+'100',2,19,'1061',NULL
+'100',2,20,'4974',NULL
+'100',2,21,'4758',NULL
+'100',2,22,'1059',NULL
+'100',2,23,'1057',NULL
+'100',2,24,'1055',NULL
+'100',2,25,'1053',NULL
+'100',2,26,'842',NULL
+'100',2,27,'839',NULL
+'100',2,28,'851',NULL
+'100',2,29,'3504',NULL
+'101',1,1,'51195',NULL
+'101',1,2,'2108',NULL
+'101',1,3,'3535',NULL
+'101',1,4,'2978',NULL
+'101',1,5,'2980',NULL
+'101',1,6,'2982',NULL
+'101',1,7,'3536',NULL
+'101',1,8,'3121',NULL
+'101',1,9,'3537',NULL
+'101',1,10,'1985',NULL
+'101',1,11,'3539',NULL
+'101',1,12,'4853',NULL
+'101',1,13,'3546',NULL
+'101',1,14,'3548',NULL
+'101',1,15,'1319',NULL
+'101',2,1,'1319',NULL
+'101',2,2,'3549',NULL
+'101',2,3,'3547',NULL
+'101',2,4,'4707',NULL
+'101',2,5,'3542',NULL
+'101',2,6,'5195',NULL
+'101',2,7,'3868',NULL
+'101',2,8,'5665',NULL
+'101',2,9,'1301',NULL
+'101',2,10,'1299',NULL
+'101',2,11,'1297',NULL
+'101',2,12,'1295',NULL
+'101',2,13,'1293',NULL
+'101',2,14,'51195',NULL
+'102',1,1,'5853',NULL
+'102',1,2,'1402',NULL
+'102',1,3,'5160',NULL
+'102',1,4,'3913',NULL
+'102',1,5,'1967',NULL
+'102',1,6,'1969',NULL
+'102',1,7,'2917',NULL
+'102',1,8,'2920',NULL
+'102',1,9,'2922',NULL
+'102',1,10,'2924',NULL
+'102',1,11,'2926',NULL
+'102',1,12,'2928',NULL
+'102',1,13,'2929',NULL
+'102',1,14,'2930',NULL
+'102',1,15,'2931',NULL
+'102',1,16,'2933',NULL
+'102',1,17,'1093',NULL
+'102',1,18,'4840',NULL
+'102',1,19,'2934',NULL
+'102',1,20,'2204',NULL
+'102',1,21,'2205',NULL
+'102',1,22,'2206',NULL
+'102',1,23,'4841',NULL
+'102',1,24,'4843',NULL
+'102',1,25,'4837',NULL
+'102',2,1,'4837',NULL
+'102',2,2,'4844',NULL
+'102',2,3,'4842',NULL
+'102',2,4,'2207',NULL
+'102',2,5,'2208',NULL
+'102',2,6,'2209',NULL
+'102',2,7,'4657',NULL
+'102',2,8,'4658',NULL
+'102',2,9,'2936',NULL
+'102',2,10,'4845',NULL
+'102',2,11,'2937',NULL
+'102',2,12,'2938',NULL
+'102',2,13,'2939',NULL
+'102',2,14,'2932',NULL
+'102',2,15,'2940',NULL
+'102',2,16,'2941',NULL
+'102',2,17,'2942',NULL
+'102',2,18,'2927',NULL
+'102',2,19,'2925',NULL
+'102',2,20,'2923',NULL
+'102',2,21,'92',NULL
+'102',2,22,'2918',NULL
+'102',2,23,'1970',NULL
+'102',2,24,'1968',NULL
+'102',2,25,'1971',NULL
+'102',2,26,'5144',NULL
+'102',2,27,'1973',NULL
+'102',2,28,'2421',NULL
+'102',2,29,'5360',NULL
+'102',2,30,'5853',NULL
+'103',1,1,'4837',NULL
+'103',1,2,'4657',NULL
+'103',1,3,'4658',NULL
+'103',1,4,'1094',NULL
+'103',1,5,'1095',NULL
+'103',1,6,'1096',NULL
+'103',1,7,'1097',NULL
+'103',1,8,'1099',NULL
+'103',1,9,'1100',NULL
+'103',1,10,'1101',NULL
+'103',1,11,'1102',NULL
+'103',1,12,'1103',NULL
+'103',1,13,'1105',NULL
+'103',1,14,'1107',NULL
+'103',1,15,'1109',NULL
+'103',1,16,'1007',NULL
+'103',1,17,'1009',NULL
+'103',1,18,'1011',NULL
+'103',1,19,'1013',NULL
+'103',1,20,'1015',NULL
+'103',1,21,'1017',NULL
+'103',1,22,'1019',NULL
+'103',1,23,'4680',NULL
+'103',1,24,'1023',NULL
+'103',1,25,'4682',NULL
+'103',1,26,'1027',NULL
+'103',1,27,'5163',NULL
+'103',1,28,'4368',NULL
+'103',1,29,'4696',NULL
+'103',1,30,'3339',NULL
+'103',1,31,'3340',NULL
+'103',1,32,'4071',NULL
+'103',1,33,'4750',NULL
+'103',1,34,'5777',NULL
+'103',1,35,'5878',NULL
+'103',1,36,'5879',NULL
+'103',2,1,'5879',NULL
+'103',2,2,'4073',NULL
+'103',2,3,'4074',NULL
+'103',2,4,'4075',NULL
+'103',2,5,'4076',NULL
+'103',2,6,'4700',NULL
+'103',2,7,'4701',NULL
+'103',2,8,'1051',NULL
+'103',2,9,'1031',NULL
+'103',2,10,'4367',NULL
+'103',2,11,'4683',NULL
+'103',2,12,'51176',NULL
+'103',2,13,'51189',NULL
+'103',2,14,'1020',NULL
+'103',2,15,'1018',NULL
+'103',2,16,'1016',NULL
+'103',2,17,'1014',NULL
+'103',2,18,'1012',NULL
+'103',2,19,'1010',NULL
+'103',2,20,'1008',NULL
+'103',2,21,'1110',NULL
+'103',2,22,'1108',NULL
+'103',2,23,'1106',NULL
+'103',2,24,'1104',NULL
+'103',2,25,'1111',NULL
+'103',2,26,'1112',NULL
+'103',2,27,'1113',NULL
+'103',2,28,'1114',NULL
+'103',2,29,'1098',NULL
+'103',2,30,'1115',NULL
+'103',2,31,'1116',NULL
+'103',2,32,'1093',NULL
+'103',2,33,'4840',NULL
+'103',2,34,'2934',NULL
+'103',2,35,'2209',NULL
+'103',2,36,'4645',NULL
+'103',2,37,'4837',NULL
+'104',1,1,'1199',NULL
+'104',1,2,'5076',NULL
+'104',1,3,'5077',NULL
+'104',1,4,'2945',NULL
+'104',1,5,'2947',NULL
+'104',1,6,'2949',NULL
+'104',1,7,'4884',NULL
+'104',1,8,'4381',NULL
+'104',1,9,'4817',NULL
+'104',1,10,'5851',NULL
+'104',1,11,'5594',NULL
+'104',1,12,'3588',NULL
+'104',1,13,'4885',NULL
+'104',1,14,'5022',NULL
+'104',1,15,'5102',NULL
+'104',1,16,'4887',NULL
+'104',1,17,'4889',NULL
+'104',1,18,'4891',NULL
+'104',1,19,'4893',NULL
+'104',1,20,'5547',NULL
+'104',1,21,'4895',NULL
+'104',1,22,'4897',NULL
+'104',1,23,'5848',NULL
+'104',2,1,'5848',NULL
+'104',2,2,'4900',NULL
+'104',2,3,'4901',NULL
+'104',2,4,'4896',NULL
+'104',2,5,'5342',NULL
+'104',2,6,'4894',NULL
+'104',2,7,'4892',NULL
+'104',2,8,'4890',NULL
+'104',2,9,'5023',NULL
+'104',2,10,'4886',NULL
+'104',2,11,'4902',NULL
+'104',2,12,'5595',NULL
+'104',2,13,'5852',NULL
+'104',2,14,'4386',NULL
+'104',2,15,'4903',NULL
+'104',2,16,'4385',NULL
+'104',2,17,'2950',NULL
+'104',2,18,'2948',NULL
+'104',2,19,'2946',NULL
+'104',2,20,'3534',NULL
+'104',2,21,'2944',NULL
+'104',2,22,'2977',NULL
+'104',2,23,'1199',NULL
+'105',1,1,'5458',NULL
+'105',1,2,'240',NULL
+'105',1,3,'3006',NULL
+'105',1,4,'3008',NULL
+'105',1,5,'3010',NULL
+'105',1,6,'4764',NULL
+'105',1,7,'3012',NULL
+'105',1,8,'40',NULL
+'105',1,9,'4530',NULL
+'105',1,10,'4532',NULL
+'105',1,11,'2951',NULL
+'105',1,12,'2953',NULL
+'105',1,13,'2976',NULL
+'105',1,14,'1289',NULL
+'105',1,15,'2108',NULL
+'105',1,16,'3535',NULL
+'105',1,17,'2978',NULL
+'105',1,18,'2980',NULL
+'105',1,19,'2982',NULL
+'105',1,20,'2984',NULL
+'105',1,21,'1308',NULL
+'105',1,22,'1309',NULL
+'105',1,23,'1311',NULL
+'105',1,24,'4922',NULL
+'105',1,25,'1313',NULL
+'105',1,26,'1315',NULL
+'105',1,27,'1317',NULL
+'105',1,28,'5649',NULL
+'105',1,29,'1321',NULL
+'105',1,30,'2986',NULL
+'105',1,31,'2987',NULL
+'105',1,32,'5844',NULL
+'105',1,33,'2990',NULL
+'105',1,34,'2991',NULL
+'105',2,1,'2991',NULL
+'105',2,2,'2992',NULL
+'105',2,3,'5845',NULL
+'105',2,4,'2988',NULL
+'105',2,5,'5825',NULL
+'105',2,6,'1322',NULL
+'105',2,7,'1319',NULL
+'105',2,8,'4659',NULL
+'105',2,9,'1316',NULL
+'105',2,10,'1314',NULL
+'105',2,11,'4921',NULL
+'105',2,12,'1312',NULL
+'105',2,13,'4924',NULL
+'105',2,14,'1310',NULL
+'105',2,15,'2985',NULL
+'105',2,16,'2983',NULL
+'105',2,17,'2981',NULL
+'105',2,18,'1293',NULL
+'105',2,19,'1185',NULL
+'105',2,20,'1291',NULL
+'105',2,21,'2975',NULL
+'105',2,22,'2954',NULL
+'105',2,23,'2952',NULL
+'105',2,24,'4515',NULL
+'105',2,25,'4531',NULL
+'105',2,26,'4529',NULL
+'105',2,27,'3013',NULL
+'105',2,28,'4765',NULL
+'105',2,29,'3011',NULL
+'105',2,30,'3009',NULL
+'105',2,31,'3007',NULL
+'105',2,32,'241',NULL
+'105',2,33,'239',NULL
+'105',2,34,'5458',NULL
+'106',1,1,'3749',NULL
+'106',1,2,'685',NULL
+'106',1,3,'756',NULL
+'106',1,4,'1078',NULL
+'106',1,5,'4567',NULL
+'106',1,6,'1079',NULL
+'106',1,7,'953',NULL
+'106',1,8,'1080',NULL
+'106',1,9,'1082',NULL
+'106',1,10,'1084',NULL
+'106',1,11,'263',NULL
+'106',1,12,'261',NULL
+'106',1,13,'259',NULL
+'106',1,14,'257',NULL
+'106',1,15,'5323',NULL
+'106',1,16,'4635',NULL
+'106',1,17,'4636',NULL
+'106',1,18,'3658',NULL
+'106',1,19,'4637',NULL
+'106',1,20,'4210',NULL
+'106',1,21,'1210',NULL
+'106',1,22,'4612',NULL
+'106',1,23,'3758',NULL
+'106',1,24,'1213',NULL
+'106',1,25,'1076',NULL
+'106',1,26,'1066',NULL
+'106',1,27,'1067',NULL
+'106',1,28,'4546',NULL
+'106',1,29,'4552',NULL
+'106',1,30,'4555',NULL
+'106',1,31,'4568',NULL
+'106',1,32,'4570',NULL
+'106',1,33,'4563',NULL
+'106',1,34,'3875',NULL
+'106',1,35,'5772',NULL
+'106',1,36,'5445',NULL
+'106',2,1,'5445',NULL
+'106',2,2,'51027',NULL
+'106',2,3,'4564',NULL
+'106',2,4,'4571',NULL
+'106',2,5,'4569',NULL
+'106',2,6,'4556',NULL
+'106',2,7,'1069',NULL
+'106',2,8,'1074',NULL
+'106',2,9,'4647',NULL
+'106',2,10,'4549',NULL
+'106',2,11,'5367',NULL
+'106',2,12,'4548',NULL
+'106',2,13,'4613',NULL
+'106',2,14,'1211',NULL
+'106',2,15,'4611',NULL
+'106',2,16,'4509',NULL
+'106',2,17,'4507',NULL
+'106',2,18,'4400',NULL
+'106',2,19,'4655',NULL
+'106',2,20,'5324',NULL
+'106',2,21,'256',NULL
+'106',2,22,'258',NULL
+'106',2,23,'260',NULL
+'106',2,24,'262',NULL
+'106',2,25,'1086',NULL
+'106',2,26,'1085',NULL
+'106',2,27,'1083',NULL
+'106',2,28,'1081',NULL
+'106',2,29,'952',NULL
+'106',2,30,'1091',NULL
+'106',2,31,'1092',NULL
+'106',2,32,'759',NULL
+'106',2,33,'757',NULL
+'106',2,34,'5146',NULL
+'106',2,35,'684',NULL
+'106',2,36,'3749',NULL
+'107',1,1,'5722',NULL
+'107',1,2,'30',NULL
+'107',1,3,'203',NULL
+'107',1,4,'205',NULL
+'107',1,5,'207',NULL
+'107',1,6,'208',NULL
+'107',1,7,'210',NULL
+'107',1,8,'214',NULL
+'107',1,9,'497',NULL
+'107',1,10,'499',NULL
+'107',1,11,'501',NULL
+'107',1,12,'503',NULL
+'107',1,13,'1837',NULL
+'107',1,14,'1839',NULL
+'107',1,15,'5337',NULL
+'107',1,16,'1841',NULL
+'107',1,17,'1843',NULL
+'107',1,18,'1845',NULL
+'107',1,19,'1846',NULL
+'107',1,20,'1848',NULL
+'107',1,21,'1850',NULL
+'107',1,22,'1851',NULL
+'107',1,23,'4752',NULL
+'107',1,24,'1852',NULL
+'107',2,1,'1852',NULL
+'107',2,2,'1853',NULL
+'107',2,3,'2560',NULL
+'107',2,4,'1849',NULL
+'107',2,5,'1847',NULL
+'107',2,6,'4931',NULL
+'107',2,7,'1844',NULL
+'107',2,8,'1842',NULL
+'107',2,9,'5338',NULL
+'107',2,10,'1840',NULL
+'107',2,11,'1838',NULL
+'107',2,12,'504',NULL
+'107',2,13,'502',NULL
+'107',2,14,'513',NULL
+'107',2,15,'500',NULL
+'107',2,16,'498',NULL
+'107',2,17,'1836',NULL
+'107',2,18,'211',NULL
+'107',2,19,'209',NULL
+'107',2,20,'266',NULL
+'107',2,21,'206',NULL
+'107',2,22,'204',NULL
+'107',2,23,'31',NULL
+'107',2,24,'5722',NULL
+'108',1,1,'5550',NULL
+'108',1,2,'2471',NULL
+'108',1,3,'5662',NULL
+'108',1,4,'2438',NULL
+'108',1,5,'2439',NULL
+'108',1,6,'2441',NULL
+'108',1,7,'2443',NULL
+'108',1,8,'2446',NULL
+'108',1,9,'2448',NULL
+'108',1,10,'5328',NULL
+'108',1,11,'3043',NULL
+'108',1,12,'3044',NULL
+'108',1,13,'3045',NULL
+'108',1,14,'4857',NULL
+'108',1,15,'4858',NULL
+'108',1,16,'2456',NULL
+'108',1,17,'3048',NULL
+'108',1,18,'3050',NULL
+'108',1,19,'4181',NULL
+'108',1,20,'5099',NULL
+'108',2,1,'5099',NULL
+'108',2,2,'4182',NULL
+'108',2,3,'3051',NULL
+'108',2,4,'5059',NULL
+'108',2,5,'2457',NULL
+'108',2,6,'2454',NULL
+'108',2,7,'3054',NULL
+'108',2,8,'3055',NULL
+'108',2,9,'3056',NULL
+'108',2,10,'3057',NULL
+'108',2,11,'4653',NULL
+'108',2,12,'5058',NULL
+'108',2,13,'2449',NULL
+'108',2,14,'2447',NULL
+'108',2,15,'2444',NULL
+'108',2,16,'2442',NULL
+'108',2,17,'2440',NULL
+'108',2,18,'5046',NULL
+'108',2,19,'2437',NULL
+'108',2,20,'5663',NULL
+'108',2,21,'5549',NULL
+'108',2,22,'5550',NULL
+'109',1,1,'1199',NULL
+'109',1,2,'2337',NULL
+'109',1,3,'2335',NULL
+'109',1,4,'4454',NULL
+'109',1,5,'4455',NULL
+'109',1,6,'3004',NULL
+'109',1,7,'3002',NULL
+'109',1,8,'3000',NULL
+'109',1,9,'2997',NULL
+'109',1,10,'4456',NULL
+'109',1,11,'4458',NULL
+'109',1,12,'4460',NULL
+'109',1,13,'5300',NULL
+'109',1,14,'5688',NULL
+'109',1,15,'5689',NULL
+'109',1,16,'5690',NULL
+'109',1,17,'5691',NULL
+'109',2,1,'5691',NULL
+'109',2,2,'5692',NULL
+'109',2,3,'5693',NULL
+'109',2,4,'5694',NULL
+'109',2,5,'4708',NULL
+'109',2,6,'5695',NULL
+'109',2,7,'5696',NULL
+'109',2,8,'4459',NULL
+'109',2,9,'4457',NULL
+'109',2,10,'2996',NULL
+'109',2,11,'2999',NULL
+'109',2,12,'2876',NULL
+'109',2,13,'3003',NULL
+'109',2,14,'4462',NULL
+'109',2,15,'3005',NULL
+'109',2,16,'2334',NULL
+'109',2,17,'2336',NULL
+'109',2,18,'1199',NULL
+'11',1,1,'4293',NULL
+'11',1,2,'3997',NULL
+'11',1,3,'3999',NULL
+'11',1,4,'4001',NULL
+'11',1,5,'4003',NULL
+'11',1,6,'4005',NULL
+'11',1,7,'4007',NULL
+'11',1,8,'2116',NULL
+'11',1,9,'293',NULL
+'11',1,10,'295',NULL
+'11',1,11,'297',NULL
+'11',1,12,'299',NULL
+'11',1,13,'300',NULL
+'11',1,14,'302',NULL
+'11',1,15,'218',NULL
+'11',1,16,'220',NULL
+'11',1,17,'222',NULL
+'11',1,18,'224',NULL
+'11',1,19,'226',NULL
+'11',1,20,'2118',NULL
+'11',1,21,'2119',NULL
+'11',1,22,'2120',NULL
+'11',1,23,'697',NULL
+'11',2,1,'697',NULL
+'11',2,2,'2121',NULL
+'11',2,3,'2122',NULL
+'11',2,4,'2123',NULL
+'11',2,5,'227',NULL
+'11',2,6,'225',NULL
+'11',2,7,'4331',NULL
+'11',2,8,'223',NULL
+'11',2,9,'221',NULL
+'11',2,10,'219',NULL
+'11',2,11,'217',NULL
+'11',2,12,'303',NULL
+'11',2,13,'2388',NULL
+'11',2,14,'314',NULL
+'11',2,15,'298',NULL
+'11',2,16,'296',NULL
+'11',2,17,'294',NULL
+'11',2,18,'5882',NULL
+'11',2,19,'4008',NULL
+'11',2,20,'4006',NULL
+'11',2,21,'4004',NULL
+'11',2,22,'4002',NULL
+'11',2,23,'4000',NULL
+'11',2,24,'3998',NULL
+'11',2,25,'3682',NULL
+'11',2,26,'4293',NULL
+'110',1,1,'3761',NULL
+'110',1,2,'685',NULL
+'110',1,3,'756',NULL
+'110',1,4,'1078',NULL
+'110',1,5,'3063',NULL
+'110',1,6,'3065',NULL
+'110',1,7,'3067',NULL
+'110',1,8,'958',NULL
+'110',1,9,'960',NULL
+'110',1,10,'962',NULL
+'110',1,11,'3069',NULL
+'110',1,12,'3071',NULL
+'110',1,13,'3073',NULL
+'110',1,14,'4473',NULL
+'110',1,15,'3076',NULL
+'110',1,16,'3077',NULL
+'110',1,17,'3079',NULL
+'110',1,18,'3081',NULL
+'110',1,19,'3082',NULL
+'110',1,20,'3084',NULL
+'110',1,21,'3086',NULL
+'110',2,1,'3086',NULL
+'110',2,2,'3085',NULL
+'110',2,3,'3083',NULL
+'110',2,4,'3087',NULL
+'110',2,5,'3088',NULL
+'110',2,6,'3089',NULL
+'110',2,7,'3090',NULL
+'110',2,8,'3080',NULL
+'110',2,9,'3078',NULL
+'110',2,10,'3735',NULL
+'110',2,11,'3091',NULL
+'110',2,12,'3074',NULL
+'110',2,13,'3072',NULL
+'110',2,14,'3070',NULL
+'110',2,15,'965',NULL
+'110',2,16,'963',NULL
+'110',2,17,'961',NULL
+'110',2,18,'959',NULL
+'110',2,19,'3068',NULL
+'110',2,20,'3066',NULL
+'110',2,21,'3064',NULL
+'110',2,22,'3093',NULL
+'110',2,23,'3092',NULL
+'110',2,24,'757',NULL
+'110',2,25,'5146',NULL
+'110',2,26,'684',NULL
+'110',2,27,'3761',NULL
+'111',1,1,'1000',NULL
+'111',1,2,'2059',NULL
+'111',1,3,'2091',NULL
+'111',1,4,'2184',NULL
+'111',1,5,'1111',NULL
+'111',1,6,'1112',NULL
+'111',1,7,'1113',NULL
+'111',1,8,'1114',NULL
+'111',1,9,'1098',NULL
+'111',1,10,'5437',NULL
+'111',1,11,'3096',NULL
+'111',1,12,'2930',NULL
+'111',1,13,'2931',NULL
+'111',1,14,'3099',NULL
+'111',1,15,'3100',NULL
+'111',1,16,'2937',NULL
+'111',2,1,'2937',NULL
+'111',2,2,'2938',NULL
+'111',2,3,'2939',NULL
+'111',2,4,'2932',NULL
+'111',2,5,'2940',NULL
+'111',2,6,'3097',NULL
+'111',2,7,'1096',NULL
+'111',2,8,'1097',NULL
+'111',2,9,'1099',NULL
+'111',2,10,'1100',NULL
+'111',2,11,'1101',NULL
+'111',2,12,'1102',NULL
+'111',2,13,'2094',NULL
+'111',2,14,'2061',NULL
+'111',2,15,'1002',NULL
+'111',2,16,'3576',NULL
+'111',2,17,'1000',NULL
+'112',1,1,'24',NULL
+'112',1,2,'4910',NULL
+'112',1,3,'478',NULL
+'112',1,4,'476',NULL
+'112',1,5,'4911',NULL
+'112',1,6,'3582',NULL
+'112',1,7,'4913',NULL
+'112',1,8,'3584',NULL
+'112',1,9,'3586',NULL
+'112',1,10,'3588',NULL
+'112',1,11,'4885',NULL
+'112',1,12,'5022',NULL
+'112',1,13,'405',NULL
+'112',1,14,'4915',NULL
+'112',1,15,'4916',NULL
+'112',1,16,'3819',NULL
+'112',1,17,'4920',NULL
+'112',1,18,'1314',NULL
+'112',1,19,'4921',NULL
+'112',1,20,'1312',NULL
+'112',1,21,'4924',NULL
+'112',1,22,'1310',NULL
+'112',1,23,'5428',NULL
+'112',1,24,'2974',NULL
+'112',1,25,'1303',NULL
+'112',1,26,'1301',NULL
+'112',1,27,'3636',NULL
+'112',1,28,'5390',NULL
+'112',1,29,'2969',NULL
+'112',2,1,'2969',NULL
+'112',2,2,'3902',NULL
+'112',2,3,'5331',NULL
+'112',2,4,'1302',NULL
+'112',2,5,'3028',NULL
+'112',2,6,'5422',NULL
+'112',2,7,'1308',NULL
+'112',2,8,'1309',NULL
+'112',2,9,'1311',NULL
+'112',2,10,'4922',NULL
+'112',2,11,'1313',NULL
+'112',2,12,'4923',NULL
+'112',2,13,'3820',NULL
+'112',2,14,'4917',NULL
+'112',2,15,'5097',NULL
+'112',2,16,'406',NULL
+'112',2,17,'5023',NULL
+'112',2,18,'4886',NULL
+'112',2,19,'4902',NULL
+'112',2,20,'3587',NULL
+'112',2,21,'3585',NULL
+'112',2,22,'4914',NULL
+'112',2,23,'3583',NULL
+'112',2,24,'4912',NULL
+'112',2,25,'475',NULL
+'112',2,26,'477',NULL
+'112',2,27,'24',NULL
+'113',1,1,'4324',NULL
+'113',1,2,'3368',NULL
+'113',1,3,'4975',NULL
+'113',1,4,'5860',NULL
+'113',1,5,'4325',NULL
+'113',1,6,'1980',NULL
+'113',1,7,'5540',NULL
+'113',1,8,'5541',NULL
+'113',1,9,'1984',NULL
+'113',1,10,'1986',NULL
+'113',1,11,'833',NULL
+'113',1,12,'1263',NULL
+'113',1,13,'3102',NULL
+'113',1,14,'3103',NULL
+'113',1,15,'3078',NULL
+'113',1,16,'3735',NULL
+'113',1,17,'3091',NULL
+'113',1,18,'3074',NULL
+'113',1,19,'3072',NULL
+'113',1,20,'3070',NULL
+'113',1,21,'966',NULL
+'113',1,22,'3105',NULL
+'113',1,23,'5621',NULL
+'113',1,24,'2332',NULL
+'113',1,25,'2334',NULL
+'113',1,26,'2336',NULL
+'113',1,27,'1199',NULL
+'113',2,1,'1199',NULL
+'113',2,2,'2337',NULL
+'113',2,3,'2335',NULL
+'113',2,4,'2333',NULL
+'113',2,5,'5651',NULL
+'113',2,6,'3107',NULL
+'113',2,7,'967',NULL
+'113',2,8,'3069',NULL
+'113',2,9,'3071',NULL
+'113',2,10,'3073',NULL
+'113',2,11,'4473',NULL
+'113',2,12,'3076',NULL
+'113',2,13,'3077',NULL
+'113',2,14,'3104',NULL
+'113',2,15,'3101',NULL
+'113',2,16,'1262',NULL
+'113',2,17,'1988',NULL
+'113',2,18,'51000',NULL
+'113',2,19,'51001',NULL
+'113',2,20,'1983',NULL
+'113',2,21,'1981',NULL
+'113',2,22,'1979',NULL
+'113',2,23,'3371',NULL
+'113',2,24,'4976',NULL
+'113',2,25,'4323',NULL
+'113',2,26,'5566',NULL
+'113',2,27,'4324',NULL
+'114',1,1,'4246',NULL
+'114',1,2,'2123',NULL
+'114',1,3,'3500',NULL
+'114',1,4,'3108',NULL
+'114',1,5,'3563',NULL
+'114',1,6,'3110',NULL
+'114',1,7,'3111',NULL
+'114',1,8,'3113',NULL
+'114',1,9,'3116',NULL
+'114',1,10,'4434',NULL
+'114',1,11,'4818',NULL
+'114',1,12,'3119',NULL
+'114',1,13,'5317',NULL
+'114',1,14,'1289',NULL
+'114',1,15,'1292',NULL
+'114',1,16,'1294',NULL
+'114',1,17,'1296',NULL
+'114',1,18,'4953',NULL
+'114',1,19,'4955',NULL
+'114',1,20,'4956',NULL
+'114',1,21,'5331',NULL
+'114',1,22,'1302',NULL
+'114',1,23,'3121',NULL
+'114',1,24,'3122',NULL
+'114',1,25,'3537',NULL
+'114',1,26,'4376',NULL
+'114',1,27,'4378',NULL
+'114',1,28,'4380',NULL
+'114',1,29,'3636',NULL
+'114',1,30,'5390',NULL
+'114',1,31,'2969',NULL
+'114',2,1,'2969',NULL
+'114',2,2,'4379',NULL
+'114',2,3,'4377',NULL
+'114',2,4,'4375',NULL
+'114',2,5,'2971',NULL
+'114',2,6,'2972',NULL
+'114',2,7,'2973',NULL
+'114',2,8,'2974',NULL
+'114',2,9,'1303',NULL
+'114',2,10,'4957',NULL
+'114',2,11,'4958',NULL
+'114',2,12,'4954',NULL
+'114',2,13,'1297',NULL
+'114',2,14,'1295',NULL
+'114',2,15,'1293',NULL
+'114',2,16,'5348',NULL
+'114',2,17,'4435',NULL
+'114',2,18,'3115',NULL
+'114',2,19,'3114',NULL
+'114',2,20,'3112',NULL
+'114',2,21,'4879',NULL
+'114',2,22,'4878',NULL
+'114',2,23,'229',NULL
+'114',2,24,'3125',NULL
+'114',2,25,'1283',NULL
+'114',2,26,'4770',NULL
+'114',2,27,'4246',NULL
+'115',1,1,'4247',NULL
+'115',1,2,'1284',NULL
+'115',1,3,'3563',NULL
+'115',1,4,'5317',NULL
+'115',1,5,'1289',NULL
+'115',1,6,'1292',NULL
+'115',1,7,'1294',NULL
+'115',1,8,'1296',NULL
+'115',1,9,'1298',NULL
+'115',1,10,'5331',NULL
+'115',1,11,'1302',NULL
+'115',1,12,'3028',NULL
+'115',1,13,'5422',NULL
+'115',1,14,'1308',NULL
+'115',1,15,'1309',NULL
+'115',1,16,'1311',NULL
+'115',1,17,'4922',NULL
+'115',1,18,'1313',NULL
+'115',1,19,'1315',NULL
+'115',1,20,'1317',NULL
+'115',1,21,'5649',NULL
+'115',1,22,'1321',NULL
+'115',1,23,'1323',NULL
+'115',2,1,'1323',NULL
+'115',2,2,'1322',NULL
+'115',2,3,'1319',NULL
+'115',2,4,'4659',NULL
+'115',2,5,'1316',NULL
+'115',2,6,'1314',NULL
+'115',2,7,'4921',NULL
+'115',2,8,'1312',NULL
+'115',2,9,'4924',NULL
+'115',2,10,'1310',NULL
+'115',2,11,'5428',NULL
+'115',2,12,'2974',NULL
+'115',2,13,'1303',NULL
+'115',2,14,'1301',NULL
+'115',2,15,'1299',NULL
+'115',2,16,'1297',NULL
+'115',2,17,'1295',NULL
+'115',2,18,'1293',NULL
+'115',2,19,'1185',NULL
+'115',2,20,'1291',NULL
+'115',2,21,'3120',NULL
+'115',2,22,'1287',NULL
+'115',2,23,'1285',NULL
+'115',2,24,'1283',NULL
+'115',2,25,'4770',NULL
+'115',2,26,'4247',NULL
+'116',1,1,'3126',NULL
+'116',1,2,'324',NULL
+'116',1,3,'326',NULL
+'116',1,4,'4669',NULL
+'116',1,5,'327',NULL
+'116',1,6,'3127',NULL
+'116',1,7,'3129',NULL
+'116',1,8,'3131',NULL
+'116',1,9,'5079',NULL
+'116',1,10,'3135',NULL
+'116',1,11,'3929',NULL
+'116',1,12,'3986',NULL
+'116',1,13,'3988',NULL
+'116',1,14,'3990',NULL
+'116',1,15,'3992',NULL
+'116',1,16,'3994',NULL
+'116',1,17,'3181',NULL
+'116',1,18,'3180',NULL
+'116',1,19,'3178',NULL
+'116',1,20,'3139',NULL
+'116',1,21,'3141',NULL
+'116',1,22,'1963',NULL
+'116',1,23,'1957',NULL
+'116',1,24,'2824',NULL
+'116',1,25,'4624',NULL
+'116',1,26,'2828',NULL
+'116',1,27,'2830',NULL
+'116',1,28,'2832',NULL
+'116',1,29,'2838',NULL
+'116',1,30,'5287',NULL
+'116',1,31,'4880',NULL
+'116',1,32,'2836',NULL
+'116',1,33,'2797',NULL
+'116',1,34,'2799',NULL
+'116',1,35,'2803',NULL
+'116',1,36,'3596',NULL
+'116',1,37,'3144',NULL
+'116',1,38,'3597',NULL
+'116',1,39,'3598',NULL
+'116',1,40,'1144',NULL
+'116',1,41,'1145',NULL
+'116',1,42,'1189',NULL
+'116',1,43,'1787',NULL
+'116',1,44,'1789',NULL
+'116',1,45,'3880',NULL
+'116',2,1,'3880',NULL
+'116',2,2,'1790',NULL
+'116',2,3,'1788',NULL
+'116',2,4,'1190',NULL
+'116',2,5,'1146',NULL
+'116',2,6,'1146',NULL
+'116',2,7,'1147',NULL
+'116',2,8,'1148',NULL
+'116',2,9,'3147',NULL
+'116',2,10,'3148',NULL
+'116',2,11,'3145',NULL
+'116',2,12,'3599',NULL
+'116',2,13,'3640',NULL
+'116',2,14,'3630',NULL
+'116',2,15,'2840',NULL
+'116',2,16,'2841',NULL
+'116',2,17,'2835',NULL
+'116',2,18,'2833',NULL
+'116',2,19,'2831',NULL
+'116',2,20,'2829',NULL
+'116',2,21,'4625',NULL
+'116',2,22,'2825',NULL
+'116',2,23,'2842',NULL
+'116',2,24,'3176',NULL
+'116',2,25,'3142',NULL
+'116',2,26,'3140',NULL
+'116',2,27,'3177',NULL
+'116',2,28,'3179',NULL
+'116',2,29,'5057',NULL
+'116',2,30,'3995',NULL
+'116',2,31,'3993',NULL
+'116',2,32,'3991',NULL
+'116',2,33,'3989',NULL
+'116',2,34,'3987',NULL
+'116',2,35,'3903',NULL
+'116',2,36,'3136',NULL
+'116',2,37,'3134',NULL
+'116',2,38,'3132',NULL
+'116',2,39,'5080',NULL
+'116',2,40,'5078',NULL
+'116',2,41,'3128',NULL
+'116',2,42,'328',NULL
+'116',2,43,'380',NULL
+'116',2,44,'381',NULL
+'116',2,45,'325',NULL
+'116',2,46,'3126',NULL
+'118',1,1,'3126',NULL
+'118',1,2,'324',NULL
+'118',1,3,'326',NULL
+'118',1,4,'4669',NULL
+'118',1,5,'327',NULL
+'118',1,6,'329',NULL
+'118',1,7,'5624',NULL
+'118',1,8,'4239',NULL
+'118',1,9,'5560',NULL
+'118',1,10,'3032',NULL
+'118',1,11,'337',NULL
+'118',1,12,'5601',NULL
+'118',1,13,'3033',NULL
+'118',1,14,'4609',NULL
+'118',1,15,'3036',NULL
+'118',1,16,'3038',NULL
+'118',1,17,'3040',NULL
+'118',1,18,'4595',NULL
+'118',1,19,'2446',NULL
+'118',1,20,'2448',NULL
+'118',1,21,'2450',NULL
+'118',1,22,'2452',NULL
+'118',1,23,'2453',NULL
+'118',1,24,'2456',NULL
+'118',1,25,'3048',NULL
+'118',1,26,'3050',NULL
+'118',1,27,'4181',NULL
+'118',1,28,'4183',NULL
+'118',1,29,'4185',NULL
+'118',1,30,'4187',NULL
+'118',1,31,'4084',NULL
+'118',1,32,'4092',NULL
+'118',1,33,'2964',NULL
+'118',1,34,'2965',NULL
+'118',1,35,'649',NULL
+'118',1,36,'4180',NULL
+'118',2,1,'4180',NULL
+'118',2,2,'562',NULL
+'118',2,3,'1169',NULL
+'118',2,4,'4090',NULL
+'118',2,5,'4091',NULL
+'118',2,6,'4188',NULL
+'118',2,7,'4186',NULL
+'118',2,8,'4184',NULL
+'118',2,9,'4182',NULL
+'118',2,10,'3051',NULL
+'118',2,11,'5059',NULL
+'118',2,12,'2457',NULL
+'118',2,13,'2454',NULL
+'118',2,14,'2455',NULL
+'118',2,15,'2451',NULL
+'118',2,16,'2449',NULL
+'118',2,17,'2447',NULL
+'118',2,18,'2445',NULL
+'118',2,19,'3041',NULL
+'118',2,20,'3039',NULL
+'118',2,21,'3037',NULL
+'118',2,22,'2470',NULL
+'118',2,23,'3034',NULL
+'118',2,24,'3060',NULL
+'118',2,25,'3061',NULL
+'118',2,26,'3062',NULL
+'118',2,27,'334',NULL
+'118',2,28,'5625',NULL
+'118',2,29,'331',NULL
+'118',2,30,'330',NULL
+'118',2,31,'328',NULL
+'118',2,32,'380',NULL
+'118',2,33,'381',NULL
+'118',2,34,'325',NULL
+'118',2,35,'3126',NULL
+'119',1,1,'2308',NULL
+'119',1,2,'2309',NULL
+'119',1,3,'84',NULL
+'119',1,4,'320',NULL
+'119',1,5,'322',NULL
+'119',1,6,'324',NULL
+'119',1,7,'326',NULL
+'119',1,8,'4669',NULL
+'119',1,9,'327',NULL
+'119',1,10,'329',NULL
+'119',1,11,'5624',NULL
+'119',1,12,'4239',NULL
+'119',1,13,'5560',NULL
+'119',1,14,'3032',NULL
+'119',1,15,'3156',NULL
+'119',1,16,'3158',NULL
+'119',1,17,'3160',NULL
+'119',1,18,'3565',NULL
+'119',1,19,'3163',NULL
+'119',1,20,'3165',NULL
+'119',1,21,'2553',NULL
+'119',1,22,'2554',NULL
+'119',1,23,'2262',NULL
+'119',1,24,'3167',NULL
+'119',1,25,'3169',NULL
+'119',1,26,'4533',NULL
+'119',1,27,'4535',NULL
+'119',1,28,'4512',NULL
+'119',2,1,'4512',NULL
+'119',2,2,'5347',NULL
+'119',2,3,'4536',NULL
+'119',2,4,'4534',NULL
+'119',2,5,'3170',NULL
+'119',2,6,'3168',NULL
+'119',2,7,'5094',NULL
+'119',2,8,'5100',NULL
+'119',2,9,'2555',NULL
+'119',2,10,'639',NULL
+'119',2,11,'4766',NULL
+'119',2,12,'3166',NULL
+'119',2,13,'3914',NULL
+'119',2,14,'3915',NULL
+'119',2,15,'3916',NULL
+'119',2,16,'3917',NULL
+'119',2,17,'3157',NULL
+'119',2,18,'336',NULL
+'119',2,19,'334',NULL
+'119',2,20,'5625',NULL
+'119',2,21,'331',NULL
+'119',2,22,'330',NULL
+'119',2,23,'328',NULL
+'119',2,24,'380',NULL
+'119',2,25,'381',NULL
+'119',2,26,'325',NULL
+'119',2,27,'323',NULL
+'119',2,28,'321',NULL
+'119',2,29,'85',NULL
+'119',2,30,'2308',NULL
+'12',1,1,'4541',NULL
+'12',1,2,'803',NULL
+'12',1,3,'2390',NULL
+'12',1,4,'188',NULL
+'12',1,5,'805',NULL
+'12',1,6,'806',NULL
+'12',1,7,'807',NULL
+'12',1,8,'808',NULL
+'12',1,9,'4642',NULL
+'12',1,10,'809',NULL
+'12',1,11,'810',NULL
+'12',1,12,'532',NULL
+'12',1,13,'793',NULL
+'12',1,14,'791',NULL
+'12',1,15,'789',NULL
+'12',1,16,'786',NULL
+'12',1,17,'811',NULL
+'12',1,18,'3829',NULL
+'12',1,19,'685',NULL
+'12',1,20,'686',NULL
+'12',1,21,'51199',NULL
+'12',1,22,'813',NULL
+'12',1,23,'779',NULL
+'12',2,1,'779',NULL
+'12',2,2,'780',NULL
+'12',2,3,'781',NULL
+'12',2,4,'1428',NULL
+'12',2,5,'782',NULL
+'12',2,6,'784',NULL
+'12',2,7,'5296',NULL
+'12',2,8,'788',NULL
+'12',2,9,'5987',NULL
+'12',2,10,'792',NULL
+'12',2,11,'533',NULL
+'12',2,12,'794',NULL
+'12',2,13,'795',NULL
+'12',2,14,'796',NULL
+'12',2,15,'797',NULL
+'12',2,16,'798',NULL
+'12',2,17,'799',NULL
+'12',2,18,'800',NULL
+'12',2,19,'801',NULL
+'12',2,20,'4541',NULL
+'120',1,1,'45',NULL
+'120',1,2,'453',NULL
+'120',1,3,'455',NULL
+'120',1,4,'412',NULL
+'120',1,5,'457',NULL
+'120',1,6,'459',NULL
+'120',1,7,'410',NULL
+'120',1,8,'461',NULL
+'120',1,9,'408',NULL
+'120',1,10,'2062',NULL
+'120',1,11,'383',NULL
+'120',1,12,'385',NULL
+'120',1,13,'387',NULL
+'120',1,14,'389',NULL
+'120',1,15,'391',NULL
+'120',1,16,'393',NULL
+'120',1,17,'395',NULL
+'120',1,18,'397',NULL
+'120',1,19,'4080',NULL
+'120',1,20,'465',NULL
+'120',1,21,'467',NULL
+'120',1,22,'469',NULL
+'120',1,23,'471',NULL
+'120',1,24,'473',NULL
+'120',1,25,'475',NULL
+'120',1,26,'477',NULL
+'120',1,27,'4599',NULL
+'120',1,28,'479',NULL
+'120',1,29,'480',NULL
+'120',1,30,'481',NULL
+'120',1,31,'483',NULL
+'120',1,32,'485',NULL
+'120',1,33,'487',NULL
+'120',1,34,'488',NULL
+'120',2,1,'488',NULL
+'120',2,2,'2892',NULL
+'120',2,3,'486',NULL
+'120',2,4,'484',NULL
+'120',2,5,'482',NULL
+'120',2,6,'489',NULL
+'120',2,7,'490',NULL
+'120',2,8,'478',NULL
+'120',2,9,'476',NULL
+'120',2,10,'474',NULL
+'120',2,11,'472',NULL
+'120',2,12,'470',NULL
+'120',2,13,'468',NULL
+'120',2,14,'466',NULL
+'120',2,15,'4081',NULL
+'120',2,16,'398',NULL
+'120',2,17,'396',NULL
+'120',2,18,'394',NULL
+'120',2,19,'392',NULL
+'120',2,20,'390',NULL
+'120',2,21,'388',NULL
+'120',2,22,'386',NULL
+'120',2,23,'384',NULL
+'120',2,24,'464',NULL
+'120',2,25,'409',NULL
+'120',2,26,'462',NULL
+'120',2,27,'411',NULL
+'120',2,28,'460',NULL
+'120',2,29,'458',NULL
+'120',2,30,'413',NULL
+'120',2,31,'456',NULL
+'120',2,32,'454',NULL
+'120',2,33,'4179',NULL
+'120',2,34,'45',NULL
+'121',1,1,'3190',NULL
+'121',1,2,'5629',NULL
+'121',1,3,'3191',NULL
+'121',1,4,'634',NULL
+'121',1,5,'1480',NULL
+'121',1,6,'1482',NULL
+'121',1,7,'1484',NULL
+'121',1,8,'658',NULL
+'121',1,9,'660',NULL
+'121',1,10,'662',NULL
+'121',1,11,'3187',NULL
+'121',1,12,'2463',NULL
+'121',1,13,'2461',NULL
+'121',1,14,'2459',NULL
+'121',1,15,'2457',NULL
+'121',1,16,'3186',NULL
+'121',1,17,'3185',NULL
+'121',1,18,'3183',NULL
+'121',1,19,'3181',NULL
+'121',1,20,'3180',NULL
+'121',1,21,'3178',NULL
+'121',1,22,'3139',NULL
+'121',1,23,'3141',NULL
+'121',1,24,'1963',NULL
+'121',1,25,'3175',NULL
+'121',1,26,'3173',NULL
+'121',1,27,'5045',NULL
+'121',1,28,'2870',NULL
+'121',1,29,'2871',NULL
+'121',1,30,'2872',NULL
+'121',1,31,'3898',NULL
+'121',2,1,'3898',NULL
+'121',2,2,'2873',NULL
+'121',2,3,'2874',NULL
+'121',2,4,'2875',NULL
+'121',2,5,'3172',NULL
+'121',2,6,'3174',NULL
+'121',2,7,'3176',NULL
+'121',2,8,'3142',NULL
+'121',2,9,'3140',NULL
+'121',2,10,'3177',NULL
+'121',2,11,'3179',NULL
+'121',2,12,'5057',NULL
+'121',2,13,'3182',NULL
+'121',2,14,'3184',NULL
+'121',2,15,'2453',NULL
+'121',2,16,'2456',NULL
+'121',2,17,'2458',NULL
+'121',2,18,'2460',NULL
+'121',2,19,'2462',NULL
+'121',2,20,'667',NULL
+'121',2,21,'663',NULL
+'121',2,22,'661',NULL
+'121',2,23,'659',NULL
+'121',2,24,'51180',NULL
+'121',2,25,'2274',NULL
+'121',2,26,'2272',NULL
+'121',2,27,'631',NULL
+'121',2,28,'633',NULL
+'121',2,29,'5180',NULL
+'121',2,30,'635',NULL
+'121',2,31,'5790',NULL
+'121',2,32,'3190',NULL
+'122',1,1,'4245',NULL
+'122',1,2,'3908',NULL
+'122',1,3,'5817',NULL
+'122',1,4,'694',NULL
+'122',1,5,'696',NULL
+'122',1,6,'5466',NULL
+'122',1,7,'699',NULL
+'122',1,8,'701',NULL
+'122',1,9,'3909',NULL
+'122',1,10,'3910',NULL
+'122',1,11,'225',NULL
+'122',1,12,'4331',NULL
+'122',1,13,'223',NULL
+'122',1,14,'383',NULL
+'122',1,15,'385',NULL
+'122',1,16,'387',NULL
+'122',1,17,'389',NULL
+'122',1,18,'391',NULL
+'122',1,19,'393',NULL
+'122',1,20,'395',NULL
+'122',1,21,'397',NULL
+'122',1,22,'3582',NULL
+'122',1,23,'4913',NULL
+'122',1,24,'3584',NULL
+'122',1,25,'3586',NULL
+'122',1,26,'3588',NULL
+'122',1,27,'4885',NULL
+'122',1,28,'5022',NULL
+'122',1,29,'405',NULL
+'122',1,30,'5827',NULL
+'122',2,1,'5827',NULL
+'122',2,2,'5097',NULL
+'122',2,3,'406',NULL
+'122',2,4,'5023',NULL
+'122',2,5,'4886',NULL
+'122',2,6,'4902',NULL
+'122',2,7,'3587',NULL
+'122',2,8,'3585',NULL
+'122',2,9,'4914',NULL
+'122',2,10,'3583',NULL
+'122',2,11,'398',NULL
+'122',2,12,'396',NULL
+'122',2,13,'394',NULL
+'122',2,14,'392',NULL
+'122',2,15,'390',NULL
+'122',2,16,'388',NULL
+'122',2,17,'386',NULL
+'122',2,18,'384',NULL
+'122',2,19,'222',NULL
+'122',2,20,'224',NULL
+'122',2,21,'3125',NULL
+'122',2,22,'3911',NULL
+'122',2,23,'700',NULL
+'122',2,24,'698',NULL
+'122',2,25,'276',NULL
+'122',2,26,'695',NULL
+'122',2,27,'709',NULL
+'122',2,28,'2374',NULL
+'122',2,29,'3684',NULL
+'122',2,30,'4770',NULL
+'122',2,31,'4245',NULL
+'123',1,1,'1425',NULL
+'123',1,2,'930',NULL
+'123',1,3,'932',NULL
+'123',1,4,'934',NULL
+'123',1,5,'936',NULL
+'123',1,6,'3192',NULL
+'123',1,7,'5124',NULL
+'123',1,8,'937',NULL
+'123',1,9,'939',NULL
+'123',1,10,'941',NULL
+'123',1,11,'943',NULL
+'123',1,12,'2839',NULL
+'123',1,13,'4113',NULL
+'123',1,14,'3193',NULL
+'123',1,15,'3195',NULL
+'123',1,16,'3197',NULL
+'123',1,17,'4871',NULL
+'123',1,18,'3198',NULL
+'123',1,19,'4833',NULL
+'123',1,20,'1796',NULL
+'123',1,21,'1794',NULL
+'123',1,22,'1440',NULL
+'123',1,23,'1442',NULL
+'123',1,24,'1444',NULL
+'123',1,25,'1446',NULL
+'123',1,26,'5085',NULL
+'123',1,27,'4980',NULL
+'123',1,28,'4981',NULL
+'123',1,29,'5856',NULL
+'123',1,30,'4982',NULL
+'123',1,31,'3203',NULL
+'123',1,32,'5072',NULL
+'123',1,33,'3205',NULL
+'123',1,34,'5074',NULL
+'123',1,35,'4312',NULL
+'123',1,36,'4739',NULL
+'123',1,37,'4314',NULL
+'123',2,1,'4314',NULL
+'123',2,2,'4313',NULL
+'123',2,3,'5073',NULL
+'123',2,4,'3255',NULL
+'123',2,5,'4984',NULL
+'123',2,6,'3257',NULL
+'123',2,7,'3753',NULL
+'123',2,8,'4983',NULL
+'123',2,9,'3752',NULL
+'123',2,10,'1449',NULL
+'123',2,11,'5086',NULL
+'123',2,12,'1450',NULL
+'123',2,13,'1445',NULL
+'123',2,14,'1443',NULL
+'123',2,15,'1441',NULL
+'123',2,16,'1793',NULL
+'123',2,17,'1795',NULL
+'123',2,18,'4834',NULL
+'123',2,19,'3199',NULL
+'123',2,20,'5371',NULL
+'123',2,21,'3200',NULL
+'123',2,22,'3196',NULL
+'123',2,23,'3194',NULL
+'123',2,24,'4114',NULL
+'123',2,25,'945',NULL
+'123',2,26,'944',NULL
+'123',2,27,'942',NULL
+'123',2,28,'940',NULL
+'123',2,29,'938',NULL
+'123',2,30,'5125',NULL
+'123',2,31,'946',NULL
+'123',2,32,'935',NULL
+'123',2,33,'933',NULL
+'123',2,34,'931',NULL
+'123',2,35,'1425',NULL
+'124',1,1,'4966',NULL
+'124',1,2,'1568',NULL
+'124',1,3,'1569',NULL
+'124',1,4,'1571',NULL
+'124',1,5,'2647',NULL
+'124',1,6,'4083',NULL
+'124',1,7,'4085',NULL
+'124',1,8,'2651',NULL
+'124',1,9,'1533',NULL
+'124',1,10,'1531',NULL
+'124',1,11,'1486',NULL
+'124',1,12,'1487',NULL
+'124',1,13,'3826',NULL
+'124',1,14,'1489',NULL
+'124',1,15,'1602',NULL
+'124',1,16,'3220',NULL
+'124',1,17,'3222',NULL
+'124',1,18,'3223',NULL
+'124',1,19,'2662',NULL
+'124',1,20,'2664',NULL
+'124',1,21,'2666',NULL
+'124',1,22,'2668',NULL
+'124',1,23,'3224',NULL
+'124',1,24,'3226',NULL
+'124',1,25,'3228',NULL
+'124',1,26,'3229',NULL
+'124',1,27,'1612',NULL
+'124',1,28,'4741',NULL
+'124',1,29,'1615',NULL
+'124',1,30,'1617',NULL
+'124',1,31,'1360',NULL
+'124',1,32,'1361',NULL
+'124',1,33,'1565',NULL
+'124',2,1,'1565',NULL
+'124',2,2,'3230',NULL
+'124',2,3,'3567',NULL
+'124',2,4,'3231',NULL
+'124',2,5,'3232',NULL
+'124',2,6,'3227',NULL
+'124',2,7,'3225',NULL
+'124',2,8,'2669',NULL
+'124',2,9,'2667',NULL
+'124',2,10,'2663',NULL
+'124',2,11,'3233',NULL
+'124',2,12,'3234',NULL
+'124',2,13,'3235',NULL
+'124',2,14,'3236',NULL
+'124',2,15,'3237',NULL
+'124',2,16,'3221',NULL
+'124',2,17,'5363',NULL
+'124',2,18,'1640',NULL
+'124',2,19,'3932',NULL
+'124',2,20,'51209',NULL
+'124',2,21,'1527',NULL
+'124',2,22,'3568',NULL
+'124',2,23,'1530',NULL
+'124',2,24,'1532',NULL
+'124',2,25,'4147',NULL
+'124',2,26,'5365',NULL
+'124',2,27,'569',NULL
+'124',2,28,'1858',NULL
+'124',2,29,'1859',NULL
+'124',2,30,'1570',NULL
+'124',2,31,'1600',NULL
+'124',2,32,'4966',NULL
+'125',1,1,'24',NULL
+'125',1,2,'479',NULL
+'125',1,3,'480',NULL
+'125',1,4,'481',NULL
+'125',1,5,'483',NULL
+'125',1,6,'485',NULL
+'125',1,7,'487',NULL
+'125',1,8,'4931',NULL
+'125',1,9,'1844',NULL
+'125',1,10,'1842',NULL
+'125',1,11,'5338',NULL
+'125',1,12,'1840',NULL
+'125',1,13,'1838',NULL
+'125',1,14,'504',NULL
+'125',1,15,'134',NULL
+'125',1,16,'136',NULL
+'125',1,17,'138',NULL
+'125',1,18,'140',NULL
+'125',1,19,'4932',NULL
+'125',1,20,'3270',NULL
+'125',2,1,'3270',NULL
+'125',2,2,'3271',NULL
+'125',2,3,'4934',NULL
+'125',2,4,'139',NULL
+'125',2,5,'137',NULL
+'125',2,6,'135',NULL
+'125',2,7,'4935',NULL
+'125',2,8,'501',NULL
+'125',2,9,'503',NULL
+'125',2,10,'1837',NULL
+'125',2,11,'1839',NULL
+'125',2,12,'5337',NULL
+'125',2,13,'1841',NULL
+'125',2,14,'1843',NULL
+'125',2,15,'1845',NULL
+'125',2,16,'2892',NULL
+'125',2,17,'486',NULL
+'125',2,18,'484',NULL
+'125',2,19,'482',NULL
+'125',2,20,'489',NULL
+'125',2,21,'24',NULL
+'126',1,1,'3570',NULL
+'126',1,2,'50',NULL
+'126',1,3,'47',NULL
+'126',1,4,'42',NULL
+'126',1,5,'44',NULL
+'126',1,6,'39',NULL
+'126',1,7,'37',NULL
+'126',1,8,'1913',NULL
+'126',1,9,'3238',NULL
+'126',1,10,'1857',NULL
+'126',1,11,'1572',NULL
+'126',1,12,'1573',NULL
+'126',1,13,'1575',NULL
+'126',1,14,'1577',NULL
+'126',1,15,'1643',NULL
+'126',1,16,'1645',NULL
+'126',1,17,'1647',NULL
+'126',1,18,'1649',NULL
+'126',1,19,'51026',NULL
+'126',1,20,'3241',NULL
+'126',1,21,'3243',NULL
+'126',1,22,'1542',NULL
+'126',1,23,'1503',NULL
+'126',1,24,'1505',NULL
+'126',1,25,'1507',NULL
+'126',1,26,'1785',NULL
+'126',2,1,'1785',NULL
+'126',2,2,'1786',NULL
+'126',2,3,'1506',NULL
+'126',2,4,'1504',NULL
+'126',2,5,'1543',NULL
+'126',2,6,'3244',NULL
+'126',2,7,'3242',NULL
+'126',2,8,'4643',NULL
+'126',2,9,'1652',NULL
+'126',2,10,'1650',NULL
+'126',2,11,'1648',NULL
+'126',2,12,'1646',NULL
+'126',2,13,'1644',NULL
+'126',2,14,'1578',NULL
+'126',2,15,'1576',NULL
+'126',2,16,'1574',NULL
+'126',2,17,'5524',NULL
+'126',2,18,'1571',NULL
+'126',2,19,'2647',NULL
+'126',2,20,'3240',NULL
+'126',2,21,'3239',NULL
+'126',2,22,'1912',NULL
+'126',2,23,'38',NULL
+'126',2,24,'41',NULL
+'126',2,25,'5266',NULL
+'126',2,26,'3570',NULL
+'127',1,1,'2480',NULL
+'127',1,2,'1418',NULL
+'127',1,3,'1666',NULL
+'127',1,4,'1668',NULL
+'127',1,5,'1670',NULL
+'127',1,6,'1672',NULL
+'127',1,7,'1674',NULL
+'127',1,8,'1577',NULL
+'127',1,9,'1643',NULL
+'127',1,10,'1645',NULL
+'127',1,11,'1647',NULL
+'127',1,12,'1649',NULL
+'127',1,13,'51026',NULL
+'127',1,14,'1653',NULL
+'127',1,15,'1655',NULL
+'127',1,16,'1657',NULL
+'127',1,17,'1516',NULL
+'127',1,18,'1514',NULL
+'127',1,19,'1663',NULL
+'127',1,20,'1624',NULL
+'127',1,21,'1622',NULL
+'127',1,22,'1620',NULL
+'127',1,23,'1359',NULL
+'127',1,24,'1618',NULL
+'127',1,25,'1616',NULL
+'127',1,26,'1614',NULL
+'127',1,27,'1665',NULL
+'127',2,1,'1665',NULL
+'127',2,2,'3421',NULL
+'127',2,3,'1615',NULL
+'127',2,4,'1617',NULL
+'127',2,5,'1360',NULL
+'127',2,6,'1619',NULL
+'127',2,7,'1621',NULL
+'127',2,8,'1623',NULL
+'127',2,9,'1664',NULL
+'127',2,10,'1513',NULL
+'127',2,11,'1515',NULL
+'127',2,12,'1658',NULL
+'127',2,13,'1656',NULL
+'127',2,14,'1654',NULL
+'127',2,15,'4643',NULL
+'127',2,16,'1652',NULL
+'127',2,17,'1650',NULL
+'127',2,18,'1648',NULL
+'127',2,19,'1646',NULL
+'127',2,20,'1644',NULL
+'127',2,21,'1578',NULL
+'127',2,22,'1675',NULL
+'127',2,23,'1673',NULL
+'127',2,24,'1671',NULL
+'127',2,25,'1669',NULL
+'127',2,26,'1667',NULL
+'127',2,27,'5098',NULL
+'127',2,28,'1417',NULL
+'127',2,29,'4284',NULL
+'127',2,30,'2480',NULL
+'128',1,1,'2482',NULL
+'128',1,2,'1568',NULL
+'128',1,3,'1569',NULL
+'128',1,4,'1571',NULL
+'128',1,5,'1572',NULL
+'128',1,6,'1573',NULL
+'128',1,7,'1575',NULL
+'128',1,8,'1676',NULL
+'128',1,9,'1678',NULL
+'128',1,10,'1680',NULL
+'128',1,11,'1682',NULL
+'128',1,12,'1542',NULL
+'128',1,13,'1503',NULL
+'128',1,14,'1505',NULL
+'128',1,15,'1364',NULL
+'128',1,16,'1366',NULL
+'128',1,17,'1368',NULL
+'128',1,18,'1369',NULL
+'128',2,1,'1369',NULL
+'128',2,2,'1367',NULL
+'128',2,3,'1365',NULL
+'128',2,4,'1506',NULL
+'128',2,5,'1504',NULL
+'128',2,6,'1543',NULL
+'128',2,7,'1683',NULL
+'128',2,8,'1681',NULL
+'128',2,9,'1679',NULL
+'128',2,10,'1677',NULL
+'128',2,11,'1576',NULL
+'128',2,12,'1574',NULL
+'128',2,13,'1599',NULL
+'128',2,14,'1570',NULL
+'128',2,15,'1600',NULL
+'128',2,16,'2482',NULL
+'129',1,1,'5606',NULL
+'129',1,2,'30',NULL
+'129',1,3,'203',NULL
+'129',1,4,'205',NULL
+'129',1,5,'207',NULL
+'129',1,6,'2148',NULL
+'129',1,7,'2150',NULL
+'129',1,8,'146',NULL
+'129',1,9,'145',NULL
+'129',1,10,'3594',NULL
+'129',1,11,'126',NULL
+'129',1,12,'128',NULL
+'129',1,13,'130',NULL
+'129',1,14,'132',NULL
+'129',1,15,'134',NULL
+'129',1,16,'136',NULL
+'129',1,17,'138',NULL
+'129',1,18,'140',NULL
+'129',1,19,'3245',NULL
+'129',1,20,'3247',NULL
+'129',1,21,'3249',NULL
+'129',1,22,'509',NULL
+'129',1,23,'510',NULL
+'129',1,24,'5133',NULL
+'129',2,1,'5133',NULL
+'129',2,2,'507',NULL
+'129',2,3,'508',NULL
+'129',2,4,'3250',NULL
+'129',2,5,'3248',NULL
+'129',2,6,'3246',NULL
+'129',2,7,'139',NULL
+'129',2,8,'137',NULL
+'129',2,9,'135',NULL
+'129',2,10,'133',NULL
+'129',2,11,'131',NULL
+'129',2,12,'129',NULL
+'129',2,13,'127',NULL
+'129',2,14,'125',NULL
+'129',2,15,'124',NULL
+'129',2,16,'123',NULL
+'129',2,17,'3251',NULL
+'129',2,18,'2151',NULL
+'129',2,19,'2149',NULL
+'129',2,20,'206',NULL
+'129',2,21,'204',NULL
+'129',2,22,'31',NULL
+'129',2,23,'5606',NULL
+'130',1,1,'5339',NULL
+'130',1,2,'1198',NULL
+'130',1,3,'1194',NULL
+'130',1,4,'1192',NULL
+'130',1,5,'1787',NULL
+'130',1,6,'1789',NULL
+'130',1,7,'1793',NULL
+'130',1,8,'1795',NULL
+'130',1,9,'4834',NULL
+'130',1,10,'1797',NULL
+'130',1,11,'1799',NULL
+'130',1,12,'3844',NULL
+'130',1,13,'4807',NULL
+'130',1,14,'4630',NULL
+'130',1,15,'1801',NULL
+'130',1,16,'1803',NULL
+'130',1,17,'5039',NULL
+'130',1,18,'1805',NULL
+'130',1,19,'1807',NULL
+'130',1,20,'1809',NULL
+'130',1,21,'5326',NULL
+'130',1,22,'5758',NULL
+'130',1,23,'1813',NULL
+'130',1,24,'1815',NULL
+'130',1,25,'4693',NULL
+'130',1,26,'5752',NULL
+'130',1,27,'1820',NULL
+'130',1,28,'1822',NULL
+'130',1,29,'1824',NULL
+'130',1,30,'1826',NULL
+'130',1,31,'1828',NULL
+'130',1,32,'3556',NULL
+'130',1,33,'4353',NULL
+'130',1,34,'4576',NULL
+'130',1,35,'1064',NULL
+'130',1,36,'1066',NULL
+'130',1,37,'1067',NULL
+'130',1,38,'4566',NULL
+'130',2,1,'4566',NULL
+'130',2,2,'1076',NULL
+'130',2,3,'1077',NULL
+'130',2,4,'1835',NULL
+'130',2,5,'1062',NULL
+'130',2,6,'1831',NULL
+'130',2,7,'1829',NULL
+'130',2,8,'1827',NULL
+'130',2,9,'1825',NULL
+'130',2,10,'1823',NULL
+'130',2,11,'1821',NULL
+'130',2,12,'5751',NULL
+'130',2,13,'1027',NULL
+'130',2,14,'4694',NULL
+'130',2,15,'4704',NULL
+'130',2,16,'1814',NULL
+'130',2,17,'5759',NULL
+'130',2,18,'5327',NULL
+'130',2,19,'1810',NULL
+'130',2,20,'1808',NULL
+'130',2,21,'1806',NULL
+'130',2,22,'5037',NULL
+'130',2,23,'1804',NULL
+'130',2,24,'4805',NULL
+'130',2,25,'4806',NULL
+'130',2,26,'51219',NULL
+'130',2,27,'1800',NULL
+'130',2,28,'1798',NULL
+'130',2,29,'4833',NULL
+'130',2,30,'1796',NULL
+'130',2,31,'1794',NULL
+'130',2,32,'1790',NULL
+'130',2,33,'1788',NULL
+'130',2,34,'1191',NULL
+'130',2,35,'1193',NULL
+'130',2,36,'1195',NULL
+'130',2,37,'5339',NULL
+'131',1,1,'5301',NULL
+'131',1,2,'3208',NULL
+'131',1,3,'3211',NULL
+'131',1,4,'3209',NULL
+'131',1,5,'658',NULL
+'131',1,6,'660',NULL
+'131',1,7,'662',NULL
+'131',1,8,'3187',NULL
+'131',1,9,'2463',NULL
+'131',1,10,'2461',NULL
+'131',1,11,'2459',NULL
+'131',1,12,'2457',NULL
+'131',1,13,'3186',NULL
+'131',1,14,'3185',NULL
+'131',1,15,'3183',NULL
+'131',1,16,'3181',NULL
+'131',1,17,'3180',NULL
+'131',1,18,'3178',NULL
+'131',1,19,'3139',NULL
+'131',1,20,'3141',NULL
+'131',1,21,'1963',NULL
+'131',1,22,'1957',NULL
+'131',1,23,'1958',NULL
+'131',1,24,'1959',NULL
+'131',1,25,'292',NULL
+'131',1,26,'5465',NULL
+'131',1,27,'4626',NULL
+'131',1,28,'3215',NULL
+'131',1,29,'4237',NULL
+'131',1,30,'3217',NULL
+'131',1,31,'1195',NULL
+'131',1,32,'1196',NULL
+'131',2,1,'1196',NULL
+'131',2,2,'1198',NULL
+'131',2,3,'3218',NULL
+'131',2,4,'4238',NULL
+'131',2,5,'3216',NULL
+'131',2,6,'4627',NULL
+'131',2,7,'5455',NULL
+'131',2,8,'3736',NULL
+'131',2,9,'3214',NULL
+'131',2,10,'3213',NULL
+'131',2,11,'2842',NULL
+'131',2,12,'3176',NULL
+'131',2,13,'3142',NULL
+'131',2,14,'3140',NULL
+'131',2,15,'3177',NULL
+'131',2,16,'3179',NULL
+'131',2,17,'5057',NULL
+'131',2,18,'3182',NULL
+'131',2,19,'3184',NULL
+'131',2,20,'2453',NULL
+'131',2,21,'2456',NULL
+'131',2,22,'2458',NULL
+'131',2,23,'2460',NULL
+'131',2,24,'2462',NULL
+'131',2,25,'667',NULL
+'131',2,26,'663',NULL
+'131',2,27,'661',NULL
+'131',2,28,'659',NULL
+'131',2,29,'3210',NULL
+'131',2,30,'3212',NULL
+'131',2,31,'2325',NULL
+'131',2,32,'4632',NULL
+'131',2,33,'5301',NULL
+'132',1,1,'1329',NULL
+'132',1,2,'3688',NULL
+'132',1,3,'4021',NULL
+'132',1,4,'743',NULL
+'132',1,5,'4175',NULL
+'132',1,6,'1684',NULL
+'132',1,7,'1686',NULL
+'132',1,8,'1687',NULL
+'132',1,9,'1689',NULL
+'132',1,10,'1691',NULL
+'132',1,11,'3273',NULL
+'132',1,12,'3276',NULL
+'132',1,13,'3277',NULL
+'132',1,14,'3278',NULL
+'132',1,15,'5140',NULL
+'132',1,16,'3281',NULL
+'132',1,17,'3283',NULL
+'132',1,18,'3285',NULL
+'132',1,19,'1674',NULL
+'132',1,20,'1577',NULL
+'132',1,21,'1643',NULL
+'132',1,22,'1645',NULL
+'132',1,23,'1647',NULL
+'132',1,24,'1649',NULL
+'132',1,25,'51026',NULL
+'132',1,26,'1653',NULL
+'132',1,27,'1655',NULL
+'132',1,28,'1657',NULL
+'132',1,29,'1516',NULL
+'132',1,30,'1514',NULL
+'132',1,31,'1512',NULL
+'132',1,32,'1510',NULL
+'132',1,33,'1786',NULL
+'132',1,34,'1364',NULL
+'132',1,35,'1366',NULL
+'132',1,36,'1368',NULL
+'132',1,37,'1370',NULL
+'132',1,38,'1372',NULL
+'132',1,39,'1373',NULL
+'132',1,40,'3288',NULL
+'132',1,41,'3290',NULL
+'132',1,42,'1605',NULL
+'132',1,43,'1602',NULL
+'132',2,1,'1602',NULL
+'132',2,2,'1604',NULL
+'132',2,3,'3291',NULL
+'132',2,4,'3289',NULL
+'132',2,5,'1379',NULL
+'132',2,6,'1380',NULL
+'132',2,7,'1371',NULL
+'132',2,8,'93',NULL
+'132',2,9,'1367',NULL
+'132',2,10,'1365',NULL
+'132',2,11,'3287',NULL
+'132',2,12,'1509',NULL
+'132',2,13,'1511',NULL
+'132',2,14,'1513',NULL
+'132',2,15,'1515',NULL
+'132',2,16,'1658',NULL
+'132',2,17,'1656',NULL
+'132',2,18,'1654',NULL
+'132',2,19,'4643',NULL
+'132',2,20,'1652',NULL
+'132',2,21,'1650',NULL
+'132',2,22,'1648',NULL
+'132',2,23,'1646',NULL
+'132',2,24,'1644',NULL
+'132',2,25,'1578',NULL
+'132',2,26,'1675',NULL
+'132',2,27,'51018',NULL
+'132',2,28,'3284',NULL
+'132',2,29,'3282',NULL
+'132',2,30,'3280',NULL
+'132',2,31,'3292',NULL
+'132',2,32,'3274',NULL
+'132',2,33,'1692',NULL
+'132',2,34,'1690',NULL
+'132',2,35,'1688',NULL
+'132',2,36,'1685',NULL
+'132',2,37,'1331',NULL
+'132',2,38,'4514',NULL
+'132',2,39,'4022',NULL
+'132',2,40,'1329',NULL
+'133',1,1,'5573',NULL
+'133',1,2,'168',NULL
+'133',1,3,'283',NULL
+'133',1,4,'1750',NULL
+'133',1,5,'172',NULL
+'133',1,6,'734',NULL
+'133',1,7,'736',NULL
+'133',1,8,'738',NULL
+'133',1,9,'3688',NULL
+'133',1,10,'1330',NULL
+'133',1,11,'1332',NULL
+'133',1,12,'1334',NULL
+'133',1,13,'1336',NULL
+'133',1,14,'1338',NULL
+'133',1,15,'1340',NULL
+'133',1,16,'1341',NULL
+'133',1,17,'1343',NULL
+'133',1,18,'5793',NULL
+'133',1,19,'1347',NULL
+'133',1,20,'1349',NULL
+'133',1,21,'1351',NULL
+'133',1,22,'1352',NULL
+'133',1,23,'1354',NULL
+'133',1,24,'5456',NULL
+'133',1,25,'1356',NULL
+'133',1,26,'1358',NULL
+'133',1,27,'1359',NULL
+'133',1,28,'1618',NULL
+'133',1,29,'1616',NULL
+'133',1,30,'1614',NULL
+'133',1,31,'1636',NULL
+'133',1,32,'5382',NULL
+'133',1,33,'1637',NULL
+'133',1,34,'3293',NULL
+'133',1,35,'3294',NULL
+'133',1,36,'3571',NULL
+'133',1,37,'3296',NULL
+'133',1,38,'1745',NULL
+'133',1,39,'4968',NULL
+'133',2,1,'4968',NULL
+'133',2,2,'1749',NULL
+'133',2,3,'3572',NULL
+'133',2,4,'51091',NULL
+'133',2,5,'3228',NULL
+'133',2,6,'3229',NULL
+'133',2,7,'1612',NULL
+'133',2,8,'4741',NULL
+'133',2,9,'1615',NULL
+'133',2,10,'1617',NULL
+'133',2,11,'1360',NULL
+'133',2,12,'1361',NULL
+'133',2,13,'1357',NULL
+'133',2,14,'1355',NULL
+'133',2,15,'5652',NULL
+'133',2,16,'1353',NULL
+'133',2,17,'1350',NULL
+'133',2,18,'1348',NULL
+'133',2,19,'1346',NULL
+'133',2,20,'1344',NULL
+'133',2,21,'1342',NULL
+'133',2,22,'23',NULL
+'133',2,23,'1335',NULL
+'133',2,24,'1333',NULL
+'133',2,25,'1331',NULL
+'133',2,26,'740',NULL
+'133',2,27,'737',NULL
+'133',2,28,'735',NULL
+'133',2,29,'193',NULL
+'133',2,30,'173',NULL
+'133',2,31,'741',NULL
+'133',2,32,'5139',NULL
+'133',2,33,'5573',NULL
+'134',1,1,'5610',NULL
+'134',1,2,'1487',NULL
+'134',1,3,'3826',NULL
+'134',1,4,'1489',NULL
+'134',1,5,'1732',NULL
+'134',1,6,'4651',NULL
+'134',1,7,'1734',NULL
+'134',1,8,'1736',NULL
+'134',1,9,'1544',NULL
+'134',1,10,'5329',NULL
+'134',1,11,'1546',NULL
+'134',1,12,'1548',NULL
+'134',1,13,'5982',NULL
+'134',1,14,'1739',NULL
+'134',1,15,'1741',NULL
+'134',1,16,'1743',NULL
+'134',1,17,'1745',NULL
+'134',1,18,'4968',NULL
+'134',1,19,'1749',NULL
+'134',1,20,'1751',NULL
+'134',1,21,'1753',NULL
+'134',1,22,'1762',NULL
+'134',1,23,'1760',NULL
+'134',1,24,'3623',NULL
+'134',1,25,'3634',NULL
+'134',1,26,'2864',NULL
+'134',1,27,'2968',NULL
+'134',1,28,'2970',NULL
+'134',1,29,'1021',NULL
+'134',1,30,'1022',NULL
+'134',1,31,'1025',NULL
+'134',1,32,'3279',NULL
+'134',2,1,'3279',NULL
+'134',2,2,'1026',NULL
+'134',2,3,'1028',NULL
+'134',2,4,'1029',NULL
+'134',2,5,'3626',NULL
+'134',2,6,'3628',NULL
+'134',2,7,'3627',NULL
+'134',2,8,'3625',NULL
+'134',2,9,'3624',NULL
+'134',2,10,'3635',NULL
+'134',2,11,'3622',NULL
+'134',2,12,'1759',NULL
+'134',2,13,'1761',NULL
+'134',2,14,'3996',NULL
+'134',2,15,'1752',NULL
+'134',2,16,'3296',NULL
+'134',2,17,'1748',NULL
+'134',2,18,'1746',NULL
+'134',2,19,'1744',NULL
+'134',2,20,'1742',NULL
+'134',2,21,'1740',NULL
+'134',2,22,'1549',NULL
+'134',2,23,'1547',NULL
+'134',2,24,'5330',NULL
+'134',2,25,'1545',NULL
+'134',2,26,'3392',NULL
+'134',2,27,'1737',NULL
+'134',2,28,'1735',NULL
+'134',2,29,'1733',NULL
+'134',2,30,'5363',NULL
+'134',2,31,'1640',NULL
+'134',2,32,'3932',NULL
+'134',2,33,'51209',NULL
+'134',2,34,'1527',NULL
+'134',2,35,'5610',NULL
+'135',1,1,'5604',NULL
+'135',1,2,'1487',NULL
+'135',1,3,'3826',NULL
+'135',1,4,'1489',NULL
+'135',1,5,'1602',NULL
+'135',1,6,'3272',NULL
+'135',1,7,'3269',NULL
+'135',1,8,'3270',NULL
+'135',2,1,'3270',NULL
+'135',2,2,'3271',NULL
+'135',2,3,'3573',NULL
+'135',2,4,'3221',NULL
+'135',2,5,'5363',NULL
+'135',2,6,'1640',NULL
+'135',2,7,'3932',NULL
+'135',2,8,'51209',NULL
+'135',2,9,'1527',NULL
+'135',2,10,'5604',NULL
+'136',1,1,'5471',NULL
+'136',1,2,'1410',NULL
+'136',1,3,'2058',NULL
+'136',1,4,'1001',NULL
+'136',1,5,'1003',NULL
+'136',1,6,'1005',NULL
+'136',1,7,'1007',NULL
+'136',1,8,'1009',NULL
+'136',1,9,'3297',NULL
+'136',1,10,'3299',NULL
+'136',1,11,'3300',NULL
+'136',1,12,'3302',NULL
+'136',1,13,'3304',NULL
+'136',1,14,'3306',NULL
+'136',1,15,'3308',NULL
+'136',1,16,'3310',NULL
+'136',1,17,'2576',NULL
+'136',1,18,'2109',NULL
+'136',1,19,'3312',NULL
+'136',2,1,'3312',NULL
+'136',2,2,'3313',NULL
+'136',2,3,'3311',NULL
+'136',2,4,'3309',NULL
+'136',2,5,'3307',NULL
+'136',2,6,'3305',NULL
+'136',2,7,'3303',NULL
+'136',2,8,'3301',NULL
+'136',2,9,'2071',NULL
+'136',2,10,'3298',NULL
+'136',2,11,'1010',NULL
+'136',2,12,'1008',NULL
+'136',2,13,'1006',NULL
+'136',2,14,'1004',NULL
+'136',2,15,'1002',NULL
+'136',2,16,'4864',NULL
+'136',2,17,'1411',NULL
+'136',2,18,'1978',NULL
+'136',2,19,'5471',NULL
+'137',1,1,'5698',NULL
+'137',1,2,'1703',NULL
+'137',1,3,'1705',NULL
+'137',1,4,'3391',NULL
+'137',1,5,'1709',NULL
+'137',1,6,'1711',NULL
+'137',1,7,'1523',NULL
+'137',1,8,'1520',NULL
+'137',1,9,'1659',NULL
+'137',1,10,'1661',NULL
+'137',1,11,'1512',NULL
+'137',1,12,'1510',NULL
+'137',1,13,'1786',NULL
+'137',1,14,'1364',NULL
+'137',1,15,'1366',NULL
+'137',1,16,'1368',NULL
+'137',1,17,'3392',NULL
+'137',1,18,'1737',NULL
+'137',1,19,'1735',NULL
+'137',1,20,'1733',NULL
+'137',1,21,'1602',NULL
+'137',1,22,'3220',NULL
+'137',1,23,'3222',NULL
+'137',1,24,'3223',NULL
+'137',1,25,'2662',NULL
+'137',1,26,'2664',NULL
+'137',1,27,'2666',NULL
+'137',1,28,'2668',NULL
+'137',1,29,'2670',NULL
+'137',1,30,'2672',NULL
+'137',1,31,'2674',NULL
+'137',1,32,'2676',NULL
+'137',1,33,'2678',NULL
+'137',1,34,'2680',NULL
+'137',1,35,'2682',NULL
+'137',1,36,'2684',NULL
+'137',1,37,'2686',NULL
+'137',1,38,'2688',NULL
+'137',1,39,'2690',NULL
+'137',1,40,'2691',NULL
+'137',2,1,'2691',NULL
+'137',2,2,'2689',NULL
+'137',2,3,'2687',NULL
+'137',2,4,'2685',NULL
+'137',2,5,'2683',NULL
+'137',2,6,'2681',NULL
+'137',2,7,'2679',NULL
+'137',2,8,'2677',NULL
+'137',2,9,'2675',NULL
+'137',2,10,'2673',NULL
+'137',2,11,'2671',NULL
+'137',2,12,'2669',NULL
+'137',2,13,'2667',NULL
+'137',2,14,'2663',NULL
+'137',2,15,'3233',NULL
+'137',2,16,'3234',NULL
+'137',2,17,'3235',NULL
+'137',2,18,'3236',NULL
+'137',2,19,'3237',NULL
+'137',2,20,'3221',NULL
+'137',2,21,'1732',NULL
+'137',2,22,'4651',NULL
+'137',2,23,'1734',NULL
+'137',2,24,'1736',NULL
+'137',2,25,'3393',NULL
+'137',2,26,'93',NULL
+'137',2,27,'1367',NULL
+'137',2,28,'1365',NULL
+'137',2,29,'3287',NULL
+'137',2,30,'1509',NULL
+'137',2,31,'1511',NULL
+'137',2,32,'5791',NULL
+'137',2,33,'3821',NULL
+'137',2,34,'5996',NULL
+'137',2,35,'1592',NULL
+'137',2,36,'1590',NULL
+'137',2,37,'1588',NULL
+'137',2,38,'3394',NULL
+'137',2,39,'1706',NULL
+'137',2,40,'1704',NULL
+'137',2,41,'5309',NULL
+'137',2,42,'5698',NULL
+'138',1,1,'4608',NULL
+'138',1,2,'4022',NULL
+'138',1,3,'3687',NULL
+'138',1,4,'737',NULL
+'138',1,5,'735',NULL
+'138',1,6,'193',NULL
+'138',1,7,'173',NULL
+'138',1,8,'741',NULL
+'138',1,9,'854',NULL
+'138',1,10,'599',NULL
+'138',1,11,'601',NULL
+'138',1,12,'603',NULL
+'138',1,13,'4070',NULL
+'138',1,14,'606',NULL
+'138',1,15,'608',NULL
+'138',1,16,'1452',NULL
+'138',1,17,'1453',NULL
+'138',1,18,'1454',NULL
+'138',1,19,'1457',NULL
+'138',1,20,'4633',NULL
+'138',1,21,'1459',NULL
+'138',1,22,'1461',NULL
+'138',1,23,'1463',NULL
+'138',1,24,'1465',NULL
+'138',1,25,'1467',NULL
+'138',1,26,'1469',NULL
+'138',1,27,'1471',NULL
+'138',1,28,'1472',NULL
+'138',1,29,'1474',NULL
+'138',1,30,'1476',NULL
+'138',1,31,'1478',NULL
+'138',1,32,'1480',NULL
+'138',1,33,'1482',NULL
+'138',1,34,'1484',NULL
+'138',1,35,'575',NULL
+'138',1,36,'4505',NULL
+'138',1,37,'578',NULL
+'138',1,38,'580',NULL
+'138',1,39,'582',NULL
+'138',1,40,'3149',NULL
+'138',1,41,'653',NULL
+'138',1,42,'651',NULL
+'138',1,43,'5481',NULL
+'138',2,1,'5481',NULL
+'138',2,2,'5159',NULL
+'138',2,3,'3150',NULL
+'138',2,4,'374',NULL
+'138',2,5,'585',NULL
+'138',2,6,'366',NULL
+'138',2,7,'583',NULL
+'138',2,8,'581',NULL
+'138',2,9,'579',NULL
+'138',2,10,'5065',NULL
+'138',2,11,'3734',NULL
+'138',2,12,'1483',NULL
+'138',2,13,'1481',NULL
+'138',2,14,'1479',NULL
+'138',2,15,'1477',NULL
+'138',2,16,'1475',NULL
+'138',2,17,'1473',NULL
+'138',2,18,'1470',NULL
+'138',2,19,'1468',NULL
+'138',2,20,'1466',NULL
+'138',2,21,'1464',NULL
+'138',2,22,'1462',NULL
+'138',2,23,'1460',NULL
+'138',2,24,'4634',NULL
+'138',2,25,'1458',NULL
+'138',2,26,'1455',NULL
+'138',2,27,'1456',NULL
+'138',2,28,'872',NULL
+'138',2,29,'609',NULL
+'138',2,30,'1562',NULL
+'138',2,31,'5246',NULL
+'138',2,32,'742',NULL
+'138',2,33,'1750',NULL
+'138',2,34,'172',NULL
+'138',2,35,'734',NULL
+'138',2,36,'736',NULL
+'138',2,37,'738',NULL
+'138',2,38,'4816',NULL
+'138',2,39,'4021',NULL
+'138',2,40,'743',NULL
+'138',2,41,'4608',NULL
+'139',1,1,'641',NULL
+'139',1,2,'642',NULL
+'139',1,3,'643',NULL
+'139',1,4,'644',NULL
+'139',1,5,'646',NULL
+'139',1,6,'3810',NULL
+'139',1,7,'650',NULL
+'139',1,8,'5654',NULL
+'139',1,9,'652',NULL
+'139',1,10,'365',NULL
+'139',1,11,'584',NULL
+'139',1,12,'587',NULL
+'139',1,13,'654',NULL
+'139',1,14,'656',NULL
+'139',1,15,'4504',NULL
+'139',1,16,'658',NULL
+'139',1,17,'660',NULL
+'139',1,18,'662',NULL
+'139',1,19,'3187',NULL
+'139',1,20,'353',NULL
+'139',1,21,'664',NULL
+'139',1,22,'665',NULL
+'139',1,23,'666',NULL
+'139',2,1,'666',NULL
+'139',2,2,'356',NULL
+'139',2,3,'376',NULL
+'139',2,4,'378',NULL
+'139',2,5,'667',NULL
+'139',2,6,'663',NULL
+'139',2,7,'661',NULL
+'139',2,8,'659',NULL
+'139',2,9,'4505',NULL
+'139',2,10,'657',NULL
+'139',2,11,'655',NULL
+'139',2,12,'586',NULL
+'139',2,13,'585',NULL
+'139',2,14,'366',NULL
+'139',2,15,'653',NULL
+'139',2,16,'651',NULL
+'139',2,17,'3809',NULL
+'139',2,18,'5159',NULL
+'139',2,19,'647',NULL
+'139',2,20,'645',NULL
+'139',2,21,'668',NULL
+'139',2,22,'4826',NULL
+'139',2,23,'669',NULL
+'139',2,24,'641',NULL
+'14',1,1,'51201',NULL
+'14',1,2,'2055',NULL
+'14',1,3,'2053',NULL
+'14',1,4,'2051',NULL
+'14',1,5,'1405',NULL
+'14',1,6,'1403',NULL
+'14',1,7,'4904',NULL
+'14',1,8,'5453',NULL
+'14',1,9,'82',NULL
+'14',1,10,'5511',NULL
+'14',1,11,'78',NULL
+'14',1,12,'5443',NULL
+'14',1,13,'72',NULL
+'14',1,14,'72',NULL
+'14',1,15,'65',NULL
+'14',1,16,'66',NULL
+'14',1,17,'66',NULL
+'14',1,18,'62',NULL
+'14',1,19,'60',NULL
+'14',1,20,'5333',NULL
+'14',1,21,'56',NULL
+'14',1,22,'54',NULL
+'14',1,23,'52',NULL
+'14',1,24,'2131',NULL
+'14',1,25,'2132',NULL
+'14',1,26,'2133',NULL
+'14',1,27,'2134',NULL
+'14',1,28,'2136',NULL
+'14',1,29,'2138',NULL
+'14',1,30,'2140',NULL
+'14',1,31,'2142',NULL
+'14',1,32,'2144',NULL
+'14',1,33,'2146',NULL
+'14',1,34,'2148',NULL
+'14',1,35,'2150',NULL
+'14',1,36,'11',NULL
+'14',1,37,'1728',NULL
+'14',2,1,'1728',NULL
+'14',2,2,'2151',NULL
+'14',2,3,'2149',NULL
+'14',2,4,'2147',NULL
+'14',2,5,'2145',NULL
+'14',2,6,'2143',NULL
+'14',2,7,'2141',NULL
+'14',2,8,'2139',NULL
+'14',2,9,'2137',NULL
+'14',2,10,'2135',NULL
+'14',2,11,'4179',NULL
+'14',2,12,'41',NULL
+'14',2,13,'5340',NULL
+'14',2,14,'48',NULL
+'14',2,15,'49',NULL
+'14',2,16,'51',NULL
+'14',2,17,'53',NULL
+'14',2,18,'4337',NULL
+'14',2,19,'57',NULL
+'14',2,20,'59',NULL
+'14',2,21,'61',NULL
+'14',2,22,'63',NULL
+'14',2,23,'5626',NULL
+'14',2,24,'68',NULL
+'14',2,25,'73',NULL
+'14',2,26,'76',NULL
+'14',2,27,'77',NULL
+'14',2,28,'79',NULL
+'14',2,29,'81',NULL
+'14',2,30,'1401',NULL
+'14',2,31,'1402',NULL
+'14',2,32,'2048',NULL
+'14',2,33,'2130',NULL
+'14',2,34,'2128',NULL
+'14',2,35,'2126',NULL
+'14',2,36,'51201',NULL
+'140',1,1,'3031',NULL
+'140',1,2,'1054',NULL
+'140',1,3,'1056',NULL
+'140',1,4,'1058',NULL
+'140',1,5,'4395',NULL
+'140',1,6,'5361',NULL
+'140',1,7,'4763',NULL
+'140',1,8,'4635',NULL
+'140',1,9,'4636',NULL
+'140',1,10,'3658',NULL
+'140',1,11,'4637',NULL
+'140',1,12,'4210',NULL
+'140',1,13,'4407',NULL
+'140',1,14,'4409',NULL
+'140',1,15,'4411',NULL
+'140',1,16,'4413',NULL
+'140',1,17,'4415',NULL
+'140',1,18,'4417',NULL
+'140',1,19,'4419',NULL
+'140',1,20,'4421',NULL
+'140',1,21,'4497',NULL
+'140',1,22,'3941',NULL
+'140',1,23,'3942',NULL
+'140',1,24,'4423',NULL
+'140',1,25,'5998',NULL
+'140',1,26,'2951',NULL
+'140',1,27,'2953',NULL
+'140',1,28,'2955',NULL
+'140',1,29,'4639',NULL
+'140',1,30,'5713',NULL
+'140',2,1,'5713',NULL
+'140',2,2,'3407',NULL
+'140',2,3,'2954',NULL
+'140',2,4,'4427',NULL
+'140',2,5,'4426',NULL
+'140',2,6,'4424',NULL
+'140',2,7,'994',NULL
+'140',2,8,'2491',NULL
+'140',2,9,'2489',NULL
+'140',2,10,'4783',NULL
+'140',2,11,'4784',NULL
+'140',2,12,'4420',NULL
+'140',2,13,'4418',NULL
+'140',2,14,'4416',NULL
+'140',2,15,'4414',NULL
+'140',2,16,'4412',NULL
+'140',2,17,'4410',NULL
+'140',2,18,'4408',NULL
+'140',2,19,'51011',NULL
+'140',2,20,'4509',NULL
+'140',2,21,'4507',NULL
+'140',2,22,'4400',NULL
+'140',2,23,'4655',NULL
+'140',2,24,'4762',NULL
+'140',2,25,'5362',NULL
+'140',2,26,'4396',NULL
+'140',2,27,'1059',NULL
+'140',2,28,'1057',NULL
+'140',2,29,'1055',NULL
+'140',2,30,'3031',NULL
+'141',1,1,'5717',NULL
+'141',1,2,'1402',NULL
+'141',1,3,'1404',NULL
+'141',1,4,'1406',NULL
+'141',1,5,'1408',NULL
+'141',1,6,'1410',NULL
+'141',1,7,'2058',NULL
+'141',1,8,'4325',NULL
+'141',1,9,'1980',NULL
+'141',1,10,'3314',NULL
+'141',1,11,'3315',NULL
+'141',1,12,'3330',NULL
+'141',1,13,'3317',NULL
+'141',1,14,'3333',NULL
+'141',1,15,'3319',NULL
+'141',1,16,'3321',NULL
+'141',1,17,'3323',NULL
+'141',1,18,'3325',NULL
+'141',1,19,'3327',NULL
+'141',1,20,'2517',NULL
+'141',1,21,'5671',NULL
+'141',2,1,'5671',NULL
+'141',2,2,'2516',NULL
+'141',2,3,'3328',NULL
+'141',2,4,'3326',NULL
+'141',2,5,'3324',NULL
+'141',2,6,'3322',NULL
+'141',2,7,'3320',NULL
+'141',2,8,'3318',NULL
+'141',2,9,'3332',NULL
+'141',2,10,'3331',NULL
+'141',2,11,'3316',NULL
+'141',2,12,'3329',NULL
+'141',2,13,'1981',NULL
+'141',2,14,'1979',NULL
+'141',2,15,'2057',NULL
+'141',2,16,'1411',NULL
+'141',2,17,'1409',NULL
+'141',2,18,'1407',NULL
+'141',2,19,'1405',NULL
+'141',2,20,'1403',NULL
+'141',2,21,'5717',NULL
+'142',1,1,'3030',NULL
+'142',1,2,'3026',NULL
+'142',1,3,'3336',NULL
+'142',1,4,'3335',NULL
+'142',1,5,'2522',NULL
+'142',1,6,'3338',NULL
+'142',1,7,'1015',NULL
+'142',1,8,'1017',NULL
+'142',1,9,'1019',NULL
+'142',1,10,'4680',NULL
+'142',1,11,'1023',NULL
+'142',1,12,'4682',NULL
+'142',1,13,'1027',NULL
+'142',1,14,'5163',NULL
+'142',1,15,'4368',NULL
+'142',1,16,'4696',NULL
+'142',1,17,'3339',NULL
+'142',1,18,'3340',NULL
+'142',1,19,'3341',NULL
+'142',1,20,'3342',NULL
+'142',1,21,'4689',NULL
+'142',1,22,'3946',NULL
+'142',1,23,'3947',NULL
+'142',1,24,'3949',NULL
+'142',1,25,'3847',NULL
+'142',1,26,'3951',NULL
+'142',1,27,'3953',NULL
+'142',1,28,'3955',NULL
+'142',1,29,'4315',NULL
+'142',1,30,'3851',NULL
+'142',1,31,'3853',NULL
+'142',1,32,'3855',NULL
+'142',1,33,'3964',NULL
+'142',1,34,'3965',NULL
+'142',1,35,'3935',NULL
+'142',2,1,'3935',NULL
+'142',2,2,'3966',NULL
+'142',2,3,'4317',NULL
+'142',2,4,'3854',NULL
+'142',2,5,'4318',NULL
+'142',2,6,'4112',NULL
+'142',2,7,'3956',NULL
+'142',2,8,'3954',NULL
+'142',2,9,'3952',NULL
+'142',2,10,'3848',NULL
+'142',2,11,'3950',NULL
+'142',2,12,'4223',NULL
+'142',2,13,'3948',NULL
+'142',2,14,'5052',NULL
+'142',2,15,'5053',NULL
+'142',2,16,'4698',NULL
+'142',2,17,'4699',NULL
+'142',2,18,'4700',NULL
+'142',2,19,'4701',NULL
+'142',2,20,'1051',NULL
+'142',2,21,'1031',NULL
+'142',2,22,'4367',NULL
+'142',2,23,'4683',NULL
+'142',2,24,'51176',NULL
+'142',2,25,'51189',NULL
+'142',2,26,'1020',NULL
+'142',2,27,'1018',NULL
+'142',2,28,'1016',NULL
+'142',2,29,'3337',NULL
+'142',2,30,'2523',NULL
+'142',2,31,'847',NULL
+'142',2,32,'848',NULL
+'142',2,33,'3334',NULL
+'142',2,34,'3030',NULL
+'143',1,1,'147',NULL
+'143',1,2,'1427',NULL
+'143',1,3,'148',NULL
+'143',1,4,'150',NULL
+'143',1,5,'1256',NULL
+'143',1,6,'4712',NULL
+'143',1,7,'4714',NULL
+'143',1,8,'822',NULL
+'143',1,9,'824',NULL
+'143',1,10,'826',NULL
+'143',1,11,'828',NULL
+'143',1,12,'830',NULL
+'143',1,13,'1988',NULL
+'143',1,14,'2605',NULL
+'143',1,15,'2606',NULL
+'143',1,16,'2607',NULL
+'143',1,17,'3355',NULL
+'143',1,18,'2517',NULL
+'143',1,19,'2515',NULL
+'143',1,20,'1011',NULL
+'143',1,21,'1013',NULL
+'143',1,22,'1015',NULL
+'143',1,23,'1017',NULL
+'143',1,24,'1019',NULL
+'143',1,25,'4680',NULL
+'143',1,26,'1023',NULL
+'143',1,27,'4682',NULL
+'143',1,28,'1027',NULL
+'143',1,29,'5163',NULL
+'143',1,30,'1030',NULL
+'143',2,1,'1030',NULL
+'143',2,2,'4367',NULL
+'143',2,3,'4683',NULL
+'143',2,4,'51176',NULL
+'143',2,5,'51189',NULL
+'143',2,6,'1020',NULL
+'143',2,7,'1018',NULL
+'143',2,8,'1016',NULL
+'143',2,9,'1014',NULL
+'143',2,10,'1012',NULL
+'143',2,11,'2514',NULL
+'143',2,12,'2516',NULL
+'143',2,13,'3356',NULL
+'143',2,14,'4601',NULL
+'143',2,15,'1993',NULL
+'143',2,16,'1991',NULL
+'143',2,17,'1989',NULL
+'143',2,18,'5473',NULL
+'143',2,19,'831',NULL
+'143',2,20,'829',NULL
+'143',2,21,'827',NULL
+'143',2,22,'825',NULL
+'143',2,23,'823',NULL
+'143',2,24,'4715',NULL
+'143',2,25,'4713',NULL
+'143',2,26,'1257',NULL
+'143',2,27,'5822',NULL
+'143',2,28,'151',NULL
+'143',2,29,'149',NULL
+'143',2,30,'1428',NULL
+'143',2,31,'147',NULL
+'144',1,1,'3035',NULL
+'144',1,2,'3026',NULL
+'144',1,3,'3336',NULL
+'144',1,4,'3335',NULL
+'144',1,5,'2522',NULL
+'144',1,6,'2524',NULL
+'144',1,7,'2526',NULL
+'144',1,8,'2532',NULL
+'144',1,9,'3343',NULL
+'144',1,10,'3345',NULL
+'144',1,11,'2081',NULL
+'144',1,12,'2083',NULL
+'144',1,13,'2085',NULL
+'144',1,14,'2581',NULL
+'144',1,15,'3304',NULL
+'144',1,16,'2579',NULL
+'144',1,17,'2580',NULL
+'144',1,18,'2574',NULL
+'144',1,19,'2572',NULL
+'144',1,20,'2570',NULL
+'144',1,21,'2568',NULL
+'144',1,22,'1111',NULL
+'144',1,23,'1112',NULL
+'144',1,24,'1113',NULL
+'144',1,25,'1114',NULL
+'144',1,26,'4743',NULL
+'144',1,27,'4751',NULL
+'144',2,1,'4751',NULL
+'144',2,2,'1099',NULL
+'144',2,3,'1100',NULL
+'144',2,4,'3347',NULL
+'144',2,5,'4597',NULL
+'144',2,6,'4598',NULL
+'144',2,7,'2575',NULL
+'144',2,8,'2576',NULL
+'144',2,9,'3307',NULL
+'144',2,10,'3305',NULL
+'144',2,11,'2088',NULL
+'144',2,12,'2086',NULL
+'144',2,13,'2084',NULL
+'144',2,14,'2082',NULL
+'144',2,15,'3346',NULL
+'144',2,16,'3344',NULL
+'144',2,17,'2533',NULL
+'144',2,18,'2527',NULL
+'144',2,19,'2525',NULL
+'144',2,20,'2523',NULL
+'144',2,21,'847',NULL
+'144',2,22,'848',NULL
+'144',2,23,'3334',NULL
+'144',2,24,'3035',NULL
+'145',1,1,'51159',NULL
+'145',1,2,'3350',NULL
+'145',1,3,'3351',NULL
+'145',1,4,'3353',NULL
+'145',1,5,'5150',NULL
+'145',1,6,'2612',NULL
+'145',1,7,'2622',NULL
+'145',1,8,'3967',NULL
+'145',1,9,'3968',NULL
+'145',1,10,'3969',NULL
+'145',1,11,'2618',NULL
+'145',1,12,'2617',NULL
+'145',1,13,'3970',NULL
+'145',1,14,'3972',NULL
+'145',1,15,'3975',NULL
+'145',1,16,'3977',NULL
+'145',1,17,'3979',NULL
+'145',1,18,'3849',NULL
+'145',1,19,'4319',NULL
+'145',1,20,'3957',NULL
+'145',1,21,'3959',NULL
+'145',1,22,'4321',NULL
+'145',1,23,'5859',NULL
+'145',1,24,'4322',NULL
+'145',1,25,'51081',NULL
+'145',1,26,'51036',NULL
+'145',1,27,'3935',NULL
+'145',2,1,'3935',NULL
+'145',2,2,'51082',NULL
+'145',2,3,'5531',NULL
+'145',2,4,'5536',NULL
+'145',2,5,'4242',NULL
+'145',2,6,'4112',NULL
+'145',2,7,'4315',NULL
+'145',2,8,'4320',NULL
+'145',2,9,'3850',NULL
+'145',2,10,'3980',NULL
+'145',2,11,'3978',NULL
+'145',2,12,'3976',NULL
+'145',2,13,'3973',NULL
+'145',2,14,'2616',NULL
+'145',2,15,'2615',NULL
+'145',2,16,'4788',NULL
+'145',2,17,'2614',NULL
+'145',2,18,'2623',NULL
+'145',2,19,'2613',NULL
+'145',2,20,'4283',NULL
+'145',2,21,'3352',NULL
+'145',2,22,'2611',NULL
+'145',2,23,'2127',NULL
+'145',2,24,'2050',NULL
+'145',2,25,'51159',NULL
+'146',1,1,'5568',NULL
+'146',1,2,'169',NULL
+'146',1,3,'723',NULL
+'146',1,4,'724',NULL
+'146',1,5,'5138',NULL
+'146',1,6,'164',NULL
+'146',1,7,'90',NULL
+'146',1,8,'70',NULL
+'146',1,9,'162',NULL
+'146',1,10,'751',NULL
+'146',1,11,'753',NULL
+'146',1,12,'678',NULL
+'146',1,13,'680',NULL
+'146',1,14,'682',NULL
+'146',1,15,'685',NULL
+'146',1,16,'756',NULL
+'146',1,17,'758',NULL
+'146',1,18,'760',NULL
+'146',1,19,'762',NULL
+'146',1,20,'764',NULL
+'146',1,21,'766',NULL
+'146',1,22,'768',NULL
+'146',1,23,'769',NULL
+'146',1,24,'771',NULL
+'146',1,25,'773',NULL
+'146',1,26,'4428',NULL
+'146',1,27,'4430',NULL
+'146',1,28,'4432',NULL
+'146',1,29,'3111',NULL
+'146',1,30,'3113',NULL
+'146',1,31,'3116',NULL
+'146',1,32,'4434',NULL
+'146',1,33,'4510',NULL
+'146',2,1,'4510',NULL
+'146',2,2,'3115',NULL
+'146',2,3,'3114',NULL
+'146',2,4,'3112',NULL
+'146',2,5,'4433',NULL
+'146',2,6,'4431',NULL
+'146',2,7,'4429',NULL
+'146',2,8,'4511',NULL
+'146',2,9,'770',NULL
+'146',2,10,'577',NULL
+'146',2,11,'776',NULL
+'146',2,12,'777',NULL
+'146',2,13,'763',NULL
+'146',2,14,'761',NULL
+'146',2,15,'759',NULL
+'146',2,16,'757',NULL
+'146',2,17,'5146',NULL
+'146',2,18,'684',NULL
+'146',2,19,'683',NULL
+'146',2,20,'681',NULL
+'146',2,21,'679',NULL
+'146',2,22,'754',NULL
+'146',2,23,'778',NULL
+'146',2,24,'4055',NULL
+'146',2,25,'161',NULL
+'146',2,26,'69',NULL
+'146',2,27,'5135',NULL
+'146',2,28,'5137',NULL
+'146',2,29,'4094',NULL
+'146',2,30,'9',NULL
+'146',2,31,'5568',NULL
+'147',1,1,'5570',NULL
+'147',1,2,'168',NULL
+'147',1,3,'1765',NULL
+'147',1,4,'1767',NULL
+'147',1,5,'1769',NULL
+'147',1,6,'1771',NULL
+'147',1,7,'2967',NULL
+'147',1,8,'3555',NULL
+'147',1,9,'284',NULL
+'147',1,10,'286',NULL
+'147',1,11,'288',NULL
+'147',1,12,'529',NULL
+'147',1,13,'58',NULL
+'147',1,14,'56',NULL
+'147',1,15,'54',NULL
+'147',1,16,'52',NULL
+'147',1,17,'50',NULL
+'147',1,18,'47',NULL
+'147',1,19,'42',NULL
+'147',1,20,'44',NULL
+'147',1,21,'39',NULL
+'147',1,22,'37',NULL
+'147',1,23,'35',NULL
+'147',1,24,'33',NULL
+'147',1,25,'29',NULL
+'147',1,26,'1486',NULL
+'147',1,27,'1487',NULL
+'147',1,28,'3826',NULL
+'147',1,29,'4156',NULL
+'147',1,30,'1490',NULL
+'147',1,31,'1492',NULL
+'147',1,32,'1776',NULL
+'147',1,33,'4754',NULL
+'147',1,34,'1780',NULL
+'147',1,35,'1781',NULL
+'147',1,36,'1783',NULL
+'147',1,37,'1505',NULL
+'147',1,38,'1507',NULL
+'147',1,39,'1785',NULL
+'147',2,1,'1785',NULL
+'147',2,2,'1786',NULL
+'147',2,3,'1506',NULL
+'147',2,4,'1784',NULL
+'147',2,5,'1782',NULL
+'147',2,6,'1778',NULL
+'147',2,7,'1777',NULL
+'147',2,8,'1493',NULL
+'147',2,9,'1491',NULL
+'147',2,10,'1525',NULL
+'147',2,11,'51209',NULL
+'147',2,12,'1527',NULL
+'147',2,13,'3568',NULL
+'147',2,14,'28',NULL
+'147',2,15,'32',NULL
+'147',2,16,'34',NULL
+'147',2,17,'36',NULL
+'147',2,18,'38',NULL
+'147',2,19,'41',NULL
+'147',2,20,'5340',NULL
+'147',2,21,'48',NULL
+'147',2,22,'49',NULL
+'147',2,23,'51',NULL
+'147',2,24,'53',NULL
+'147',2,25,'4742',NULL
+'147',2,26,'4338',NULL
+'147',2,27,'316',NULL
+'147',2,28,'287',NULL
+'147',2,29,'317',NULL
+'147',2,30,'285',NULL
+'147',2,31,'1774',NULL
+'147',2,32,'1226',NULL
+'147',2,33,'3493',NULL
+'147',2,34,'1772',NULL
+'147',2,35,'1770',NULL
+'147',2,36,'1768',NULL
+'147',2,37,'1766',NULL
+'147',2,38,'5570',NULL
+'148',1,1,'5571',NULL
+'148',1,2,'168',NULL
+'148',1,3,'170',NULL
+'148',1,4,'854',NULL
+'148',1,5,'1875',NULL
+'148',1,6,'1877',NULL
+'148',1,7,'1879',NULL
+'148',1,8,'1881',NULL
+'148',1,9,'1883',NULL
+'148',1,10,'2358',NULL
+'148',1,11,'2356',NULL
+'148',1,12,'2591',NULL
+'148',1,13,'2818',NULL
+'148',1,14,'1928',NULL
+'148',1,15,'1931',NULL
+'148',1,16,'1933',NULL
+'148',1,17,'1122',NULL
+'148',1,18,'1124',NULL
+'148',1,19,'3644',NULL
+'148',1,20,'5054',NULL
+'148',1,21,'2905',NULL
+'148',1,22,'3359',NULL
+'148',1,23,'4100',NULL
+'148',1,24,'3365',NULL
+'148',1,25,'2917',NULL
+'148',1,26,'2920',NULL
+'148',1,27,'3368',NULL
+'148',1,28,'4975',NULL
+'148',1,29,'3662',NULL
+'148',2,1,'3662',NULL
+'148',2,2,'3371',NULL
+'148',2,3,'4976',NULL
+'148',2,4,'3369',NULL
+'148',2,5,'92',NULL
+'148',2,6,'3367',NULL
+'148',2,7,'3366',NULL
+'148',2,8,'4101',NULL
+'148',2,9,'3360',NULL
+'148',2,10,'2906',NULL
+'148',2,11,'5512',NULL
+'148',2,12,'2916',NULL
+'148',2,13,'1125',NULL
+'148',2,14,'1123',NULL
+'148',2,15,'1934',NULL
+'148',2,16,'1932',NULL
+'148',2,17,'3561',NULL
+'148',2,18,'2819',NULL
+'148',2,19,'2592',NULL
+'148',2,20,'2355',NULL
+'148',2,21,'2357',NULL
+'148',2,22,'1884',NULL
+'148',2,23,'1882',NULL
+'148',2,24,'1880',NULL
+'148',2,25,'1878',NULL
+'148',2,26,'1876',NULL
+'148',2,27,'855',NULL
+'148',2,28,'5139',NULL
+'148',2,29,'5571',NULL
+'149',1,1,'4229',NULL
+'149',1,2,'3374',NULL
+'149',1,3,'3376',NULL
+'149',1,4,'3378',NULL
+'149',1,5,'1387',NULL
+'149',1,6,'1395',NULL
+'149',1,7,'5514',NULL
+'149',1,8,'1397',NULL
+'149',1,9,'1398',NULL
+'149',1,10,'1399',NULL
+'149',1,11,'1420',NULL
+'149',1,12,'2693',NULL
+'149',1,13,'3380',NULL
+'149',1,14,'1904',NULL
+'149',1,15,'1906',NULL
+'149',1,16,'3381',NULL
+'149',1,17,'3382',NULL
+'149',1,18,'3383',NULL
+'149',1,19,'3384',NULL
+'149',1,20,'3385',NULL
+'149',1,21,'4340',NULL
+'149',1,22,'1531',NULL
+'149',2,1,'1531',NULL
+'149',2,2,'4615',NULL
+'149',2,3,'3387',NULL
+'149',2,4,'3388',NULL
+'149',2,5,'1911',NULL
+'149',2,6,'1908',NULL
+'149',2,7,'1907',NULL
+'149',2,8,'1905',NULL
+'149',2,9,'1903',NULL
+'149',2,10,'2694',NULL
+'149',2,11,'5449',NULL
+'149',2,12,'4494',NULL
+'149',2,13,'1419',NULL
+'149',2,14,'1382',NULL
+'149',2,15,'4496',NULL
+'149',2,16,'1383',NULL
+'149',2,17,'1384',NULL
+'149',2,18,'3389',NULL
+'149',2,19,'3379',NULL
+'149',2,20,'3377',NULL
+'149',2,21,'3375',NULL
+'149',2,22,'3373',NULL
+'149',2,23,'4229',NULL
+'15',1,1,'2711',NULL
+'15',1,2,'5239',NULL
+'15',1,3,'70',NULL
+'15',1,4,'162',NULL
+'15',1,5,'751',NULL
+'15',1,6,'5093',NULL
+'15',1,7,'2154',NULL
+'15',1,8,'2156',NULL
+'15',1,9,'2158',NULL
+'15',1,10,'2160',NULL
+'15',1,11,'2162',NULL
+'15',1,12,'2164',NULL
+'15',1,13,'2166',NULL
+'15',1,14,'2168',NULL
+'15',1,15,'958',NULL
+'15',1,16,'960',NULL
+'15',1,17,'962',NULL
+'15',1,18,'4369',NULL
+'15',1,19,'4474',NULL
+'15',2,1,'4474',NULL
+'15',2,2,'4370',NULL
+'15',2,3,'965',NULL
+'15',2,4,'963',NULL
+'15',2,5,'961',NULL
+'15',2,6,'959',NULL
+'15',2,7,'2169',NULL
+'15',2,8,'2167',NULL
+'15',2,9,'2165',NULL
+'15',2,10,'2163',NULL
+'15',2,11,'2161',NULL
+'15',2,12,'2159',NULL
+'15',2,13,'2157',NULL
+'15',2,14,'2155',NULL
+'15',2,15,'5034',NULL
+'15',2,16,'778',NULL
+'15',2,17,'4055',NULL
+'15',2,18,'161',NULL
+'15',2,19,'69',NULL
+'15',2,20,'3689',NULL
+'15',2,21,'2711',NULL
+'150',1,1,'5907',NULL
+'150',1,2,'5239',NULL
+'150',1,3,'72',NULL
+'150',1,4,'72',NULL
+'150',1,5,'65',NULL
+'150',1,6,'66',NULL
+'150',1,7,'66',NULL
+'150',1,8,'62',NULL
+'150',1,9,'60',NULL
+'150',1,10,'5333',NULL
+'150',1,11,'56',NULL
+'150',1,12,'54',NULL
+'150',1,13,'52',NULL
+'150',1,14,'50',NULL
+'150',1,15,'47',NULL
+'150',1,16,'42',NULL
+'150',1,17,'44',NULL
+'150',1,18,'4709',NULL
+'150',1,19,'98',NULL
+'150',1,20,'100',NULL
+'150',1,21,'102',NULL
+'150',1,22,'104',NULL
+'150',1,23,'106',NULL
+'150',1,24,'108',NULL
+'150',1,25,'110',NULL
+'150',1,26,'112',NULL
+'150',1,27,'115',NULL
+'150',1,28,'117',NULL
+'150',1,29,'119',NULL
+'150',1,30,'3629',NULL
+'150',1,31,'146',NULL
+'150',1,32,'145',NULL
+'150',1,33,'3594',NULL
+'150',1,34,'126',NULL
+'150',1,35,'128',NULL
+'150',1,36,'130',NULL
+'150',1,37,'132',NULL
+'150',1,38,'134',NULL
+'150',1,39,'136',NULL
+'150',1,40,'138',NULL
+'150',1,41,'140',NULL
+'150',1,42,'5846',NULL
+'150',1,43,'5661',NULL
+'150',1,44,'5404',NULL
+'150',1,45,'5405',NULL
+'150',1,46,'5407',NULL
+'150',2,1,'5407',NULL
+'150',2,2,'5658',NULL
+'150',2,3,'5659',NULL
+'150',2,4,'3648',NULL
+'150',2,5,'5660',NULL
+'150',2,6,'139',NULL
+'150',2,7,'137',NULL
+'150',2,8,'135',NULL
+'150',2,9,'133',NULL
+'150',2,10,'131',NULL
+'150',2,11,'129',NULL
+'150',2,12,'127',NULL
+'150',2,13,'125',NULL
+'150',2,14,'124',NULL
+'150',2,15,'123',NULL
+'150',2,16,'120',NULL
+'150',2,17,'118',NULL
+'150',2,18,'116',NULL
+'150',2,19,'114',NULL
+'150',2,20,'535',NULL
+'150',2,21,'109',NULL
+'150',2,22,'107',NULL
+'150',2,23,'105',NULL
+'150',2,24,'103',NULL
+'150',2,25,'101',NULL
+'150',2,26,'99',NULL
+'150',2,27,'97',NULL
+'150',2,28,'51173',NULL
+'150',2,29,'4179',NULL
+'150',2,30,'41',NULL
+'150',2,31,'5340',NULL
+'150',2,32,'48',NULL
+'150',2,33,'49',NULL
+'150',2,34,'51',NULL
+'150',2,35,'53',NULL
+'150',2,36,'4337',NULL
+'150',2,37,'57',NULL
+'150',2,38,'59',NULL
+'150',2,39,'61',NULL
+'150',2,40,'63',NULL
+'150',2,41,'5626',NULL
+'150',2,42,'68',NULL
+'150',2,43,'73',NULL
+'150',2,44,'3689',NULL
+'150',2,45,'5907',NULL
+'151',1,1,'5715',NULL
+'151',1,2,'2108',NULL
+'151',1,3,'3535',NULL
+'151',1,4,'2978',NULL
+'151',1,5,'2980',NULL
+'151',1,6,'2982',NULL
+'151',1,7,'3536',NULL
+'151',1,8,'3028',NULL
+'151',1,9,'5422',NULL
+'151',1,10,'1308',NULL
+'151',1,11,'1309',NULL
+'151',1,12,'5197',NULL
+'151',1,13,'5198',NULL
+'151',1,14,'5199',NULL
+'151',1,15,'4170',NULL
+'151',1,16,'4158',NULL
+'151',1,17,'5845',NULL
+'151',1,18,'4162',NULL
+'151',1,19,'5592',NULL
+'151',1,20,'4164',NULL
+'151',1,21,'4166',NULL
+'151',1,22,'51135',NULL
+'151',1,23,'4169',NULL
+'151',2,1,'4169',NULL
+'151',2,2,'4167',NULL
+'151',2,3,'4165',NULL
+'151',2,4,'5593',NULL
+'151',2,5,'4163',NULL
+'151',2,6,'5844',NULL
+'151',2,7,'4159',NULL
+'151',2,8,'4171',NULL
+'151',2,9,'5202',NULL
+'151',2,10,'5203',NULL
+'151',2,11,'5204',NULL
+'151',2,12,'4924',NULL
+'151',2,13,'1310',NULL
+'151',2,14,'5428',NULL
+'151',2,15,'2974',NULL
+'151',2,16,'1303',NULL
+'151',2,17,'1301',NULL
+'151',2,18,'1299',NULL
+'151',2,19,'1297',NULL
+'151',2,20,'1295',NULL
+'151',2,21,'1293',NULL
+'151',2,22,'5715',NULL
+'152',1,1,'5091',NULL
+'152',1,2,'778',NULL
+'152',1,3,'5230',NULL
+'152',1,4,'195',NULL
+'152',1,5,'814',NULL
+'152',1,6,'816',NULL
+'152',1,7,'2213',NULL
+'152',1,8,'2211',NULL
+'152',1,9,'5232',NULL
+'152',1,10,'5234',NULL
+'152',1,11,'5160',NULL
+'152',1,12,'3913',NULL
+'152',1,13,'1967',NULL
+'152',1,14,'1969',NULL
+'152',1,15,'2917',NULL
+'152',1,16,'2920',NULL
+'152',1,17,'2921',NULL
+'152',2,1,'2921',NULL
+'152',2,2,'2918',NULL
+'152',2,3,'1970',NULL
+'152',2,4,'1968',NULL
+'152',2,5,'1971',NULL
+'152',2,6,'5236',NULL
+'152',2,7,'5235',NULL
+'152',2,8,'5233',NULL
+'152',2,9,'2210',NULL
+'152',2,10,'2212',NULL
+'152',2,11,'817',NULL
+'152',2,12,'815',NULL
+'152',2,13,'194',NULL
+'152',2,14,'5231',NULL
+'152',2,15,'753',NULL
+'152',2,16,'5091',NULL
+'153',1,1,'1070',NULL
+'153',1,2,'1072',NULL
+'153',1,3,'4410',NULL
+'153',1,4,'4408',NULL
+'153',1,5,'51011',NULL
+'153',1,6,'1209',NULL
+'153',1,7,'1087',NULL
+'153',1,8,'2483',NULL
+'153',1,9,'2351',NULL
+'153',1,10,'2349',NULL
+'153',1,11,'2484',NULL
+'153',1,12,'3019',NULL
+'153',1,13,'3017',NULL
+'153',1,14,'1088',NULL
+'153',1,15,'986',NULL
+'153',1,16,'5155',NULL
+'153',1,17,'5998',NULL
+'153',1,18,'2951',NULL
+'153',1,19,'2953',NULL
+'153',1,20,'2976',NULL
+'153',1,21,'1185',NULL
+'153',1,22,'1249',NULL
+'153',1,23,'1258',NULL
+'153',1,24,'1259',NULL
+'153',1,25,'1305',NULL
+'153',1,26,'3587',NULL
+'153',1,27,'3585',NULL
+'153',1,28,'4914',NULL
+'153',1,29,'3583',NULL
+'153',1,30,'4912',NULL
+'153',1,31,'475',NULL
+'153',1,32,'477',NULL
+'153',1,33,'5847',NULL
+'153',2,1,'5847',NULL
+'153',2,2,'4910',NULL
+'153',2,3,'478',NULL
+'153',2,4,'476',NULL
+'153',2,5,'4911',NULL
+'153',2,6,'3582',NULL
+'153',2,7,'4913',NULL
+'153',2,8,'3584',NULL
+'153',2,9,'3586',NULL
+'153',2,10,'3588',NULL
+'153',2,11,'1326',NULL
+'153',2,12,'1328',NULL
+'153',2,13,'1253',NULL
+'153',2,14,'1291',NULL
+'153',2,15,'2975',NULL
+'153',2,16,'2954',NULL
+'153',2,17,'4427',NULL
+'153',2,18,'1133',NULL
+'153',2,19,'989',NULL
+'153',2,20,'987',NULL
+'153',2,21,'1089',NULL
+'153',2,22,'3016',NULL
+'153',2,23,'3018',NULL
+'153',2,24,'4393',NULL
+'153',2,25,'2348',NULL
+'153',2,26,'2350',NULL
+'153',2,27,'4389',NULL
+'153',2,28,'1337',NULL
+'153',2,29,'1208',NULL
+'153',2,30,'4210',NULL
+'153',2,31,'4407',NULL
+'153',2,32,'4409',NULL
+'153',2,33,'4411',NULL
+'153',2,34,'1070',NULL
+'155',1,1,'3906',NULL
+'155',1,2,'3177',NULL
+'155',1,3,'3179',NULL
+'155',1,4,'5057',NULL
+'155',1,5,'3182',NULL
+'155',1,6,'3184',NULL
+'155',1,7,'2453',NULL
+'155',1,8,'3726',NULL
+'155',1,9,'2960',NULL
+'155',1,10,'2961',NULL
+'155',1,11,'2962',NULL
+'155',1,12,'3883',NULL
+'155',1,13,'2964',NULL
+'155',1,14,'2965',NULL
+'155',1,15,'649',NULL
+'155',1,16,'3859',NULL
+'155',1,17,'687',NULL
+'155',1,18,'719',NULL
+'155',1,19,'720',NULL
+'155',1,20,'4265',NULL
+'155',1,21,'359',NULL
+'155',1,22,'361',NULL
+'155',1,23,'774',NULL
+'155',1,24,'802',NULL
+'155',1,25,'903',NULL
+'155',1,26,'904',NULL
+'155',1,27,'5685',NULL
+'155',2,1,'5685',NULL
+'155',2,2,'4505',NULL
+'155',2,3,'591',NULL
+'155',2,4,'598',NULL
+'155',2,5,'611',NULL
+'155',2,6,'362',NULL
+'155',2,7,'360',NULL
+'155',2,8,'627',NULL
+'155',2,9,'628',NULL
+'155',2,10,'637',NULL
+'155',2,11,'640',NULL
+'155',2,12,'3860',NULL
+'155',2,13,'562',NULL
+'155',2,14,'1169',NULL
+'155',2,15,'1891',NULL
+'155',2,16,'2809',NULL
+'155',2,17,'2861',NULL
+'155',2,18,'2863',NULL
+'155',2,19,'2877',NULL
+'155',2,20,'2895',NULL
+'155',2,21,'2935',NULL
+'155',2,22,'3185',NULL
+'155',2,23,'3183',NULL
+'155',2,24,'3181',NULL
+'155',2,25,'3180',NULL
+'155',2,26,'3178',NULL
+'155',2,27,'5687',NULL
+'155',2,28,'3906',NULL
+'156',1,1,'147',NULL
+'156',1,2,'1427',NULL
+'156',1,3,'148',NULL
+'156',1,4,'150',NULL
+'156',1,5,'1256',NULL
+'156',1,6,'4712',NULL
+'156',1,7,'4714',NULL
+'156',1,8,'1431',NULL
+'156',1,9,'1433',NULL
+'156',1,10,'4716',NULL
+'156',1,11,'1435',NULL
+'156',1,12,'1437',NULL
+'156',1,13,'3719',NULL
+'156',1,14,'3367',NULL
+'156',1,15,'3366',NULL
+'156',1,16,'4101',NULL
+'156',1,17,'3360',NULL
+'156',1,18,'2906',NULL
+'156',1,19,'5512',NULL
+'156',1,20,'2916',NULL
+'156',1,21,'51095',NULL
+'156',2,1,'51095',NULL
+'156',2,2,'5054',NULL
+'156',2,3,'2905',NULL
+'156',2,4,'3359',NULL
+'156',2,5,'4100',NULL
+'156',2,6,'3365',NULL
+'156',2,7,'4802',NULL
+'156',2,8,'3720',NULL
+'156',2,9,'1436',NULL
+'156',2,10,'4717',NULL
+'156',2,11,'5972',NULL
+'156',2,12,'1432',NULL
+'156',2,13,'4715',NULL
+'156',2,14,'4713',NULL
+'156',2,15,'1257',NULL
+'156',2,16,'5822',NULL
+'156',2,17,'151',NULL
+'156',2,18,'149',NULL
+'156',2,19,'1428',NULL
+'156',2,20,'147',NULL
+'158',1,1,'1747',NULL
+'158',1,2,'854',NULL
+'158',1,3,'599',NULL
+'158',1,4,'601',NULL
+'158',1,5,'603',NULL
+'158',1,6,'4070',NULL
+'158',1,7,'608',NULL
+'158',1,8,'871',NULL
+'158',1,9,'873',NULL
+'158',1,10,'10774',NULL
+'158',1,11,'10775',NULL
+'158',1,12,'10776',NULL
+'158',1,13,'10777',NULL
+'158',1,14,'51114',NULL
+'158',1,15,'10779',NULL
+'158',1,16,'10780',NULL
+'158',1,17,'10781',NULL
+'158',1,18,'2255',NULL
+'158',1,19,'5559',NULL
+'158',1,20,'2259',NULL
+'158',1,21,'5094',NULL
+'158',1,22,'2555',NULL
+'158',1,23,'15695',NULL
+'158',2,1,'15695',NULL
+'158',2,2,'2262',NULL
+'158',2,3,'2260',NULL
+'158',2,4,'2258',NULL
+'158',2,5,'10790',NULL
+'158',2,6,'51111',NULL
+'158',2,7,'51112',NULL
+'158',2,8,'51113',NULL
+'158',2,9,'10794',NULL
+'158',2,10,'10795',NULL
+'158',2,11,'10796',NULL
+'158',2,12,'10797',NULL
+'158',2,13,'10798',NULL
+'158',2,14,'10799',NULL
+'158',2,15,'10900',NULL
+'158',2,16,'874',NULL
+'158',2,17,'872',NULL
+'158',2,18,'609',NULL
+'158',2,19,'607',NULL
+'158',2,20,'5246',NULL
+'158',2,21,'742',NULL
+'158',2,22,'855',NULL
+'158',2,23,'1747',NULL
+'159',1,1,'4588',NULL
+'159',1,2,'4636',NULL
+'159',1,3,'3658',NULL
+'159',1,4,'4637',NULL
+'159',1,5,'4210',NULL
+'159',1,6,'1210',NULL
+'159',1,7,'4612',NULL
+'159',1,8,'5306',NULL
+'159',1,9,'4559',NULL
+'159',1,10,'4561',NULL
+'159',1,11,'4563',NULL
+'159',1,12,'3875',NULL
+'159',1,13,'7101',NULL
+'159',1,14,'7102',NULL
+'159',1,15,'4796',NULL
+'159',1,16,'4801',NULL
+'159',1,17,'51003',NULL
+'159',1,18,'5299',NULL
+'159',1,19,'5302',NULL
+'159',1,20,'5308',NULL
+'159',1,21,'51006',NULL
+'159',1,22,'5313',NULL
+'159',2,1,'5313',NULL
+'159',2,2,'51007',NULL
+'159',2,3,'5310',NULL
+'159',2,4,'5304',NULL
+'159',2,5,'50007',NULL
+'159',2,6,'4722',NULL
+'159',2,7,'4803',NULL
+'159',2,8,'4797',NULL
+'159',2,9,'7182',NULL
+'159',2,10,'7183',NULL
+'159',2,11,'51027',NULL
+'159',2,12,'4564',NULL
+'159',2,13,'4562',NULL
+'159',2,14,'4560',NULL
+'159',2,15,'5307',NULL
+'159',2,16,'4613',NULL
+'159',2,17,'1211',NULL
+'159',2,18,'4611',NULL
+'159',2,19,'4509',NULL
+'159',2,20,'4507',NULL
+'159',2,21,'4400',NULL
+'159',2,22,'4588',NULL
+'16',1,1,'543',NULL
+'16',1,2,'520',NULL
+'16',1,3,'521',NULL
+'16',1,4,'522',NULL
+'16',1,5,'523',NULL
+'16',1,6,'524',NULL
+'16',1,7,'525',NULL
+'16',1,8,'527',NULL
+'16',1,9,'1894',NULL
+'16',1,10,'529',NULL
+'16',1,11,'58',NULL
+'16',1,12,'532',NULL
+'16',1,13,'534',NULL
+'16',1,14,'430',NULL
+'16',1,15,'432',NULL
+'16',1,16,'418',NULL
+'16',1,17,'416',NULL
+'16',1,18,'414',NULL
+'16',1,19,'517',NULL
+'16',1,20,'515',NULL
+'16',1,21,'51202',NULL
+'16',1,22,'439',NULL
+'16',1,23,'4832',NULL
+'16',1,24,'112',NULL
+'16',1,25,'115',NULL
+'16',1,26,'117',NULL
+'16',1,27,'119',NULL
+'16',1,28,'3629',NULL
+'16',1,29,'1728',NULL
+'16',2,1,'1728',NULL
+'16',2,2,'118',NULL
+'16',2,3,'116',NULL
+'16',2,4,'114',NULL
+'16',2,5,'111',NULL
+'16',2,6,'4831',NULL
+'16',2,7,'440',NULL
+'16',2,8,'4850',NULL
+'16',2,9,'514',NULL
+'16',2,10,'516',NULL
+'16',2,11,'415',NULL
+'16',2,12,'417',NULL
+'16',2,13,'536',NULL
+'16',2,14,'443',NULL
+'16',2,15,'444',NULL
+'16',2,16,'445',NULL
+'16',2,17,'446',NULL
+'16',2,18,'447',NULL
+'16',2,19,'537',NULL
+'16',2,20,'530',NULL
+'16',2,21,'1893',NULL
+'16',2,22,'528',NULL
+'16',2,23,'1895',NULL
+'16',2,24,'526',NULL
+'16',2,25,'538',NULL
+'16',2,26,'540',NULL
+'16',2,27,'541',NULL
+'16',2,28,'542',NULL
+'16',2,29,'543',NULL
+'160',1,1,'11980',NULL
+'160',1,2,'1330',NULL
+'160',1,3,'2418',NULL
+'160',1,4,'2416',NULL
+'160',1,5,'2414',NULL
+'160',1,6,'3424',NULL
+'160',1,7,'3425',NULL
+'160',1,8,'3427',NULL
+'160',1,9,'3668',NULL
+'160',1,10,'3429',NULL
+'160',1,11,'3431',NULL
+'160',1,12,'3433',NULL
+'160',1,13,'3600',NULL
+'160',1,14,'5599',NULL
+'160',1,15,'3435',NULL
+'160',1,16,'4577',NULL
+'160',1,17,'4578',NULL
+'160',1,18,'4580',NULL
+'160',1,19,'4582',NULL
+'160',1,20,'4584',NULL
+'160',1,21,'4789',NULL
+'160',1,22,'4790',NULL
+'160',1,23,'4793',NULL
+'160',1,24,'3440',NULL
+'160',1,25,'5645',NULL
+'160',1,26,'5646',NULL
+'160',1,27,'6272',NULL
+'160',1,28,'3443',NULL
+'160',1,29,'3444',NULL
+'160',1,30,'4190',NULL
+'160',1,31,'4795',NULL
+'160',1,32,'3445',NULL
+'160',2,1,'3445',NULL
+'160',2,2,'3840',NULL
+'160',2,3,'3447',NULL
+'160',2,4,'3441',NULL
+'160',2,5,'4794',NULL
+'160',2,6,'4791',NULL
+'160',2,7,'4792',NULL
+'160',2,8,'4583',NULL
+'160',2,9,'4581',NULL
+'160',2,10,'4579',NULL
+'160',2,11,'3437',NULL
+'160',2,12,'3436',NULL
+'160',2,13,'5598',NULL
+'160',2,14,'3601',NULL
+'160',2,15,'3434',NULL
+'160',2,16,'3432',NULL
+'160',2,17,'3430',NULL
+'160',2,18,'3428',NULL
+'160',2,19,'3426',NULL
+'160',2,20,'4198',NULL
+'160',2,21,'3448',NULL
+'160',2,22,'3449',NULL
+'160',2,23,'11980',NULL
+'161',1,1,'2419',NULL
+'161',1,2,'1330',NULL
+'161',1,3,'2418',NULL
+'161',1,4,'2416',NULL
+'161',1,5,'2414',NULL
+'161',1,6,'3424',NULL
+'161',1,7,'3425',NULL
+'161',1,8,'3427',NULL
+'161',1,9,'3451',NULL
+'161',1,10,'4771',NULL
+'161',1,11,'3452',NULL
+'161',1,12,'3454',NULL
+'161',1,13,'3456',NULL
+'161',1,14,'3458',NULL
+'161',1,15,'3460',NULL
+'161',1,16,'3462',NULL
+'161',1,17,'1',NULL
+'161',1,18,'2',NULL
+'161',1,19,'3466',NULL
+'161',1,20,'3',NULL
+'161',1,21,'4',NULL
+'161',1,22,'5',NULL
+'161',1,23,'3447',NULL
+'161',1,24,'3441',NULL
+'161',1,25,'4794',NULL
+'161',1,26,'4791',NULL
+'161',1,27,'4792',NULL
+'161',1,28,'4583',NULL
+'161',1,29,'4581',NULL
+'161',1,30,'4579',NULL
+'161',1,31,'3575',NULL
+'161',1,32,'3130',NULL
+'161',1,33,'3059',NULL
+'161',2,1,'3059',NULL
+'161',2,2,'3133',NULL
+'161',2,3,'4578',NULL
+'161',2,4,'4580',NULL
+'161',2,5,'4582',NULL
+'161',2,6,'4584',NULL
+'161',2,7,'4789',NULL
+'161',2,8,'4790',NULL
+'161',2,9,'4793',NULL
+'161',2,10,'3440',NULL
+'161',2,11,'5645',NULL
+'161',2,12,'6272',NULL
+'161',2,13,'3443',NULL
+'161',2,14,'6',NULL
+'161',2,15,'3467',NULL
+'161',2,16,'7',NULL
+'161',2,17,'8',NULL
+'161',2,18,'3463',NULL
+'161',2,19,'3461',NULL
+'161',2,20,'3459',NULL
+'161',2,21,'3457',NULL
+'161',2,22,'3455',NULL
+'161',2,23,'3453',NULL
+'161',2,24,'4772',NULL
+'161',2,25,'3450',NULL
+'161',2,26,'3428',NULL
+'161',2,27,'3426',NULL
+'161',2,28,'4198',NULL
+'161',2,29,'3448',NULL
+'161',2,30,'3449',NULL
+'161',2,31,'2419',NULL
+'162',1,1,'2419',NULL
+'162',1,2,'1330',NULL
+'162',1,3,'1332',NULL
+'162',1,4,'1334',NULL
+'162',1,5,'1336',NULL
+'162',1,6,'1338',NULL
+'162',1,7,'4308',NULL
+'162',1,8,'4309',NULL
+'162',1,9,'3468',NULL
+'162',1,10,'3470',NULL
+'162',1,11,'5345',NULL
+'162',1,12,'3472',NULL
+'162',1,13,'5678',NULL
+'162',1,14,'3476',NULL
+'162',1,15,'3478',NULL
+'162',1,16,'4628',NULL
+'162',1,17,'4307',NULL
+'162',1,18,'5832',NULL
+'162',1,19,'5071',NULL
+'162',1,20,'3483',NULL
+'162',1,21,'13',NULL
+'162',1,22,'3491',NULL
+'162',1,23,'5127',NULL
+'162',1,24,'3489',NULL
+'162',1,25,'4877',NULL
+'162',1,26,'3487',NULL
+'162',1,27,'3485',NULL
+'162',1,28,'14',NULL
+'162',1,29,'16',NULL
+'162',1,30,'3798',NULL
+'162',2,1,'3798',NULL
+'162',2,2,'18',NULL
+'162',2,3,'19',NULL
+'162',2,4,'20',NULL
+'162',2,5,'21',NULL
+'162',2,6,'22',NULL
+'162',2,7,'3492',NULL
+'162',2,8,'4629',NULL
+'162',2,9,'3479',NULL
+'162',2,10,'3477',NULL
+'162',2,11,'5679',NULL
+'162',2,12,'3473',NULL
+'162',2,13,'5346',NULL
+'162',2,14,'3471',NULL
+'162',2,15,'3469',NULL
+'162',2,16,'4311',NULL
+'162',2,17,'23',NULL
+'162',2,18,'1335',NULL
+'162',2,19,'1333',NULL
+'162',2,20,'1331',NULL
+'162',2,21,'2419',NULL
+'163',1,1,'3575',NULL
+'163',1,2,'4578',NULL
+'163',1,3,'4580',NULL
+'163',1,4,'4584',NULL
+'163',1,5,'17688',NULL
+'163',1,6,'18927',NULL
+'163',1,7,'50019',NULL
+'163',1,8,'17644',NULL
+'163',1,9,'50022',NULL
+'163',1,10,'18',NULL
+'163',1,11,'6225',NULL
+'163',1,12,'6226',NULL
+'163',1,13,'6228',NULL
+'163',1,14,'6229',NULL
+'163',1,15,'6257',NULL
+'163',2,1,'6257',NULL
+'163',2,2,'6258',NULL
+'163',2,3,'6260',NULL
+'163',2,4,'6261',NULL
+'163',2,5,'16',NULL
+'163',2,6,'17',NULL
+'163',2,7,'17643',NULL
+'163',2,8,'50018',NULL
+'163',2,9,'18928',NULL
+'163',2,10,'4795',NULL
+'163',2,11,'4779',NULL
+'163',2,12,'4581',NULL
+'163',2,13,'4579',NULL
+'163',2,14,'3575',NULL
+'164',1,1,'15525',NULL
+'164',1,2,'1330',NULL
+'164',1,3,'1332',NULL
+'164',1,4,'1334',NULL
+'164',1,5,'1338',NULL
+'164',1,6,'1341',NULL
+'164',1,7,'1343',NULL
+'164',1,8,'5793',NULL
+'164',1,9,'6315',NULL
+'164',1,10,'6316',NULL
+'164',1,11,'6317',NULL
+'164',1,12,'6318',NULL
+'164',1,13,'6319',NULL
+'164',1,14,'10887',NULL
+'164',1,15,'6320',NULL
+'164',1,16,'6321',NULL
+'164',1,17,'6322',NULL
+'164',1,18,'6323',NULL
+'164',1,19,'6324',NULL
+'164',1,20,'51106',NULL
+'164',1,21,'6325',NULL
+'164',2,1,'6325',NULL
+'164',2,2,'6326',NULL
+'164',2,3,'6327',NULL
+'164',2,4,'6328',NULL
+'164',2,5,'6329',NULL
+'164',2,6,'6330',NULL
+'164',2,7,'6331',NULL
+'164',2,8,'6332',NULL
+'164',2,9,'6333',NULL
+'164',2,10,'6334',NULL
+'164',2,11,'1346',NULL
+'164',2,12,'1344',NULL
+'164',2,13,'1342',NULL
+'164',2,14,'23',NULL
+'164',2,15,'1335',NULL
+'164',2,16,'1333',NULL
+'164',2,17,'1331',NULL
+'164',2,18,'740',NULL
+'164',2,19,'15525',NULL
+'165',1,1,'4398',NULL
+'165',1,2,'2338',NULL
+'165',1,3,'2342',NULL
+'165',1,4,'2353',NULL
+'165',1,5,'2349',NULL
+'165',1,6,'2484',NULL
+'165',1,7,'5998',NULL
+'165',1,8,'2953',NULL
+'165',1,9,'5617',NULL
+'165',1,10,'2108',NULL
+'165',1,11,'4932',NULL
+'165',1,12,'3270',NULL
+'165',2,1,'3270',NULL
+'165',2,2,'3271',NULL
+'165',2,3,'4934',NULL
+'165',2,4,'7396',NULL
+'165',2,5,'3533',NULL
+'165',2,6,'2954',NULL
+'165',2,7,'4426',NULL
+'165',2,8,'4393',NULL
+'165',2,9,'2348',NULL
+'165',2,10,'2352',NULL
+'165',2,11,'2343',NULL
+'165',2,12,'2339',NULL
+'165',2,13,'4398',NULL
+'166',1,1,'2969',NULL
+'166',1,2,'1302',NULL
+'166',1,3,'5422',NULL
+'166',1,4,'1309',NULL
+'166',1,5,'5198',NULL
+'166',1,6,'4170',NULL
+'166',1,7,'5845',NULL
+'166',1,8,'4162',NULL
+'166',1,9,'4164',NULL
+'166',1,10,'4168',NULL
+'166',1,11,'1322',NULL
+'166',1,12,'4659',NULL
+'166',1,13,'1316',NULL
+'166',1,14,'4932',NULL
+'166',1,15,'3270',NULL
+'166',2,1,'3270',NULL
+'166',2,2,'3271',NULL
+'166',2,3,'4934',NULL
+'166',2,4,'1315',NULL
+'166',2,5,'1317',NULL
+'166',2,6,'1321',NULL
+'166',2,7,'4169',NULL
+'166',2,8,'4165',NULL
+'166',2,9,'4163',NULL
+'166',2,10,'5844',NULL
+'166',2,11,'4171',NULL
+'166',2,12,'5203',NULL
+'166',2,13,'4924',NULL
+'166',2,14,'5428',NULL
+'166',2,15,'3121',NULL
+'166',2,16,'5390',NULL
+'166',2,17,'2969',NULL
+'167',1,1,'5746',NULL
+'167',1,2,'4847',NULL
+'167',1,3,'4848',NULL
+'167',1,4,'2338',NULL
+'167',1,5,'2340',NULL
+'167',1,6,'2342',NULL
+'167',1,7,'3408',NULL
+'167',1,8,'2353',NULL
+'167',1,9,'4389',NULL
+'167',1,10,'4522',NULL
+'167',1,11,'3023',NULL
+'167',1,12,'3021',NULL
+'167',1,13,'4390',NULL
+'167',1,14,'4783',NULL
+'167',1,15,'4784',NULL
+'167',1,16,'17388',NULL
+'167',1,17,'3513',NULL
+'167',1,18,'5574',NULL
+'167',1,19,'3672',NULL
+'167',1,20,'3674',NULL
+'167',1,21,'3676',NULL
+'167',1,22,'3678',NULL
+'167',1,23,'3524',NULL
+'167',1,24,'5528',NULL
+'167',1,25,'5781',NULL
+'167',1,26,'5529',NULL
+'167',2,1,'5529',NULL
+'167',2,2,'3526',NULL
+'167',2,3,'3528',NULL
+'167',2,4,'3679',NULL
+'167',2,5,'3677',NULL
+'167',2,6,'4077',NULL
+'167',2,7,'3673',NULL
+'167',2,8,'3518',NULL
+'167',2,9,'3516',NULL
+'167',2,10,'3514',NULL
+'167',2,11,'50009',NULL
+'167',2,12,'7192',NULL
+'167',2,13,'11760',NULL
+'167',2,14,'2485',NULL
+'167',2,15,'2486',NULL
+'167',2,16,'4523',NULL
+'167',2,17,'2483',NULL
+'167',2,18,'2352',NULL
+'167',2,19,'2354',NULL
+'167',2,20,'2343',NULL
+'167',2,21,'2341',NULL
+'167',2,22,'2339',NULL
+'167',2,23,'253',NULL
+'167',2,24,'4230',NULL
+'167',2,25,'5746',NULL
+'17',1,1,'544',NULL
+'17',1,2,'545',NULL
+'17',1,3,'547',NULL
+'17',1,4,'2589',NULL
+'17',1,5,'549',NULL
+'17',1,6,'550',NULL
+'17',1,7,'552',NULL
+'17',1,8,'554',NULL
+'17',1,9,'555',NULL
+'17',1,10,'557',NULL
+'17',1,11,'559',NULL
+'17',1,12,'561',NULL
+'17',1,13,'563',NULL
+'17',1,14,'564',NULL
+'17',1,15,'566',NULL
+'17',1,16,'4528',NULL
+'17',1,17,'1151',NULL
+'17',1,18,'5880',NULL
+'17',1,19,'5881',NULL
+'17',1,20,'4881',NULL
+'17',1,21,'570',NULL
+'17',1,22,'4543',NULL
+'17',1,23,'572',NULL
+'17',1,24,'574',NULL
+'17',1,25,'575',NULL
+'17',1,26,'4505',NULL
+'17',1,27,'578',NULL
+'17',1,28,'580',NULL
+'17',1,29,'582',NULL
+'17',1,30,'365',NULL
+'17',1,31,'584',NULL
+'17',1,32,'587',NULL
+'17',1,33,'3833',NULL
+'17',1,34,'3835',NULL
+'17',1,35,'3837',NULL
+'17',1,36,'3838',NULL
+'17',2,1,'3838',NULL
+'17',2,2,'3836',NULL
+'17',2,3,'3834',NULL
+'17',2,4,'372',NULL
+'17',2,5,'371',NULL
+'17',2,6,'3124',NULL
+'17',2,7,'585',NULL
+'17',2,8,'366',NULL
+'17',2,9,'583',NULL
+'17',2,10,'581',NULL
+'17',2,11,'579',NULL
+'17',2,12,'5064',NULL
+'17',2,13,'573',NULL
+'17',2,14,'4544',NULL
+'17',2,15,'571',NULL
+'17',2,16,'4705',NULL
+'17',2,17,'4706',NULL
+'17',2,18,'588',NULL
+'17',2,19,'589',NULL
+'17',2,20,'590',NULL
+'17',2,21,'4711',NULL
+'17',2,22,'565',NULL
+'17',2,23,'5506',NULL
+'17',2,24,'560',NULL
+'17',2,25,'558',NULL
+'17',2,26,'556',NULL
+'17',2,27,'592',NULL
+'17',2,28,'553',NULL
+'17',2,29,'551',NULL
+'17',2,30,'593',NULL
+'17',2,31,'4780',NULL
+'17',2,32,'548',NULL
+'17',2,33,'546',NULL
+'17',2,34,'544',NULL
+'170',1,1,'5170',NULL
+'170',1,2,'5169',NULL
+'170',1,3,'5174',NULL
+'170',1,4,'5176',NULL
+'170',1,5,'4405',NULL
+'170',1,6,'4274',NULL
+'170',1,7,'5165',NULL
+'170',1,8,'1757',NULL
+'170',1,9,'3623',NULL
+'170',1,10,'51009',NULL
+'170',1,11,'51010',NULL
+'170',1,12,'51035',NULL
+'170',1,13,'2864',NULL
+'170',1,14,'2968',NULL
+'170',1,15,'2970',NULL
+'170',1,16,'1021',NULL
+'170',1,17,'1022',NULL
+'170',1,18,'1025',NULL
+'170',1,19,'5130',NULL
+'170',1,20,'3881',NULL
+'170',1,21,'5152',NULL
+'170',1,22,'3766',NULL
+'170',1,23,'3615',NULL
+'170',1,24,'3611',NULL
+'170',1,25,'3609',NULL
+'170',1,26,'5850',NULL
+'170',1,27,'5943',NULL
+'170',1,28,'5129',NULL
+'170',1,29,'4220',NULL
+'170',1,30,'4221',NULL
+'170',1,31,'5397',NULL
+'170',1,32,'5399',NULL
+'170',1,33,'5401',NULL
+'170',2,1,'5401',NULL
+'170',2,2,'5398',NULL
+'170',2,3,'5121',NULL
+'170',2,4,'5122',NULL
+'170',2,5,'5123',NULL
+'170',2,6,'5927',NULL
+'170',2,7,'5928',NULL
+'170',2,8,'3608',NULL
+'170',2,9,'3610',NULL
+'170',2,10,'3614',NULL
+'170',2,11,'3767',NULL
+'170',2,12,'5151',NULL
+'170',2,13,'3882',NULL
+'170',2,14,'5166',NULL
+'170',2,15,'1026',NULL
+'170',2,16,'1028',NULL
+'170',2,17,'1029',NULL
+'170',2,18,'3626',NULL
+'170',2,19,'3628',NULL
+'170',2,20,'3627',NULL
+'170',2,21,'3625',NULL
+'170',2,22,'3624',NULL
+'170',2,23,'3635',NULL
+'170',2,24,'3622',NULL
+'170',2,25,'1758',NULL
+'170',2,26,'5164',NULL
+'170',2,27,'4273',NULL
+'170',2,28,'4732',NULL
+'170',2,29,'4703',NULL
+'170',2,30,'4824',NULL
+'170',2,31,'4822',NULL
+'170',2,32,'5170',NULL
+'171',1,1,'4898',NULL
+'171',1,2,'4900',NULL
+'171',1,3,'4901',NULL
+'171',1,4,'4896',NULL
+'171',1,5,'5888',NULL
+'171',1,6,'51058',NULL
+'171',1,7,'5890',NULL
+'171',1,8,'5899',NULL
+'171',1,9,'5911',NULL
+'171',1,10,'3664',NULL
+'171',1,11,'5892',NULL
+'171',1,12,'4033',NULL
+'171',1,13,'5894',NULL
+'171',1,14,'4266',NULL
+'171',1,15,'4268',NULL
+'171',1,16,'3544',NULL
+'171',1,17,'5887',NULL
+'171',1,18,'51023',NULL
+'171',1,19,'51022',NULL
+'171',2,1,'51022',NULL
+'171',2,2,'4397',NULL
+'171',2,3,'3545',NULL
+'171',2,4,'4269',NULL
+'171',2,5,'4267',NULL
+'171',2,6,'5895',NULL
+'171',2,7,'4034',NULL
+'171',2,8,'5893',NULL
+'171',2,9,'51065',NULL
+'171',2,10,'5912',NULL
+'171',2,11,'5916',NULL
+'171',2,12,'5891',NULL
+'171',2,13,'5889',NULL
+'171',2,14,'4895',NULL
+'171',2,15,'4897',NULL
+'171',2,16,'4898',NULL
+'172',1,1,'4603',NULL
+'172',1,2,'480',NULL
+'172',1,3,'481',NULL
+'172',1,4,'483',NULL
+'172',1,5,'485',NULL
+'172',1,6,'487',NULL
+'172',1,7,'4931',NULL
+'172',1,8,'1844',NULL
+'172',1,9,'1842',NULL
+'172',1,10,'5338',NULL
+'172',1,11,'5411',NULL
+'172',1,12,'5413',NULL
+'172',1,13,'5415',NULL
+'172',1,14,'5417',NULL
+'172',1,15,'5400',NULL
+'172',1,16,'5255',NULL
+'172',1,17,'5402',NULL
+'172',1,18,'51060',NULL
+'172',1,19,'5419',NULL
+'172',1,20,'5421',NULL
+'172',1,21,'5927',NULL
+'172',1,22,'5928',NULL
+'172',1,23,'5865',NULL
+'172',1,24,'5867',NULL
+'172',1,25,'4488',NULL
+'172',1,26,'4490',NULL
+'172',1,27,'3869',NULL
+'172',1,28,'3775',NULL
+'172',1,29,'3773',NULL
+'172',1,30,'4513',NULL
+'172',1,31,'402',NULL
+'172',1,32,'3767',NULL
+'172',1,33,'3765',NULL
+'172',1,34,'3763',NULL
+'172',1,35,'5872',NULL
+'172',2,1,'5872',NULL
+'172',2,2,'5864',NULL
+'172',2,3,'3766',NULL
+'172',2,4,'4493',NULL
+'172',2,5,'3796',NULL
+'172',2,6,'4492',NULL
+'172',2,7,'3774',NULL
+'172',2,8,'51031',NULL
+'172',2,9,'4491',NULL
+'172',2,10,'4489',NULL
+'172',2,11,'5868',NULL
+'172',2,12,'5866',NULL
+'172',2,13,'5850',NULL
+'172',2,14,'5426',NULL
+'172',2,15,'5427',NULL
+'172',2,16,'5420',NULL
+'172',2,17,'51059',NULL
+'172',2,18,'5921',NULL
+'172',2,19,'5397',NULL
+'172',2,20,'5399',NULL
+'172',2,21,'5418',NULL
+'172',2,22,'5416',NULL
+'172',2,23,'5414',NULL
+'172',2,24,'5412',NULL
+'172',2,25,'5337',NULL
+'172',2,26,'1841',NULL
+'172',2,27,'1843',NULL
+'172',2,28,'1845',NULL
+'172',2,29,'2892',NULL
+'172',2,30,'486',NULL
+'172',2,31,'484',NULL
+'172',2,32,'482',NULL
+'172',2,33,'489',NULL
+'172',2,34,'4599',NULL
+'172',2,35,'4603',NULL
+'173',1,1,'5612',NULL
+'173',1,2,'1487',NULL
+'173',1,3,'1488',NULL
+'173',1,4,'2653',NULL
+'173',1,5,'51193',NULL
+'173',1,6,'3566',NULL
+'173',1,7,'3261',NULL
+'173',1,8,'3603',NULL
+'173',1,9,'3605',NULL
+'173',1,10,'5926',NULL
+'173',1,11,'5927',NULL
+'173',1,12,'5517',NULL
+'173',1,13,'5518',NULL
+'173',2,1,'5518',NULL
+'173',2,2,'5426',NULL
+'173',2,3,'5925',NULL
+'173',2,4,'3606',NULL
+'173',2,5,'3604',NULL
+'173',2,6,'3602',NULL
+'173',2,7,'3264',NULL
+'173',2,8,'3265',NULL
+'173',2,9,'3932',NULL
+'173',2,10,'51209',NULL
+'173',2,11,'1527',NULL
+'173',2,12,'5612',NULL
+'174',1,1,'5612',NULL
+'174',1,2,'1487',NULL
+'174',1,3,'1488',NULL
+'174',1,4,'2653',NULL
+'174',1,5,'51193',NULL
+'174',1,6,'3267',NULL
+'174',1,7,'3254',NULL
+'174',1,8,'3256',NULL
+'174',1,9,'3258',NULL
+'174',1,10,'3260',NULL
+'174',1,11,'5395',NULL
+'174',1,12,'5921',NULL
+'174',1,13,'5397',NULL
+'174',1,14,'5399',NULL
+'174',1,15,'4366',NULL
+'174',1,16,'5919',NULL
+'174',1,17,'5917',NULL
+'174',1,18,'5915',NULL
+'174',1,19,'5899',NULL
+'174',1,20,'5911',NULL
+'174',1,21,'3664',NULL
+'174',1,22,'5892',NULL
+'174',1,23,'4033',NULL
+'174',1,24,'5894',NULL
+'174',1,25,'4266',NULL
+'174',1,26,'4268',NULL
+'174',1,27,'3544',NULL
+'174',1,28,'5887',NULL
+'174',1,29,'51023',NULL
+'174',1,30,'51022',NULL
+'174',2,1,'51022',NULL
+'174',2,2,'4397',NULL
+'174',2,3,'3545',NULL
+'174',2,4,'4269',NULL
+'174',2,5,'4267',NULL
+'174',2,6,'5895',NULL
+'174',2,7,'4034',NULL
+'174',2,8,'5893',NULL
+'174',2,9,'51065',NULL
+'174',2,10,'5912',NULL
+'174',2,11,'5916',NULL
+'174',2,12,'5918',NULL
+'174',2,13,'5920',NULL
+'174',2,14,'5922',NULL
+'174',2,15,'3894',NULL
+'174',2,16,'5400',NULL
+'174',2,17,'5255',NULL
+'174',2,18,'5402',NULL
+'174',2,19,'5403',NULL
+'174',2,20,'5404',NULL
+'174',2,21,'5405',NULL
+'174',2,22,'5657',NULL
+'174',2,23,'5408',NULL
+'174',2,24,'5409',NULL
+'174',2,25,'3268',NULL
+'174',2,26,'3261',NULL
+'174',2,27,'3602',NULL
+'174',2,28,'3264',NULL
+'174',2,29,'3265',NULL
+'174',2,30,'5061',NULL
+'174',2,31,'3266',NULL
+'174',2,32,'125',NULL
+'174',2,33,'124',NULL
+'174',2,34,'123',NULL
+'174',2,35,'3251',NULL
+'174',2,36,'2151',NULL
+'174',2,37,'2149',NULL
+'174',2,38,'206',NULL
+'174',2,39,'204',NULL
+'174',2,40,'31',NULL
+'174',2,41,'5612',NULL
+'175',1,1,'5608',NULL
+'175',1,2,'1487',NULL
+'175',1,3,'1488',NULL
+'175',1,4,'2653',NULL
+'175',1,5,'51192',NULL
+'175',1,6,'3670',NULL
+'175',1,7,'3918',NULL
+'175',1,8,'399',NULL
+'175',1,9,'4501',NULL
+'175',1,10,'4382',NULL
+'175',1,11,'4502',NULL
+'175',1,12,'4493',NULL
+'175',1,13,'3796',NULL
+'175',1,14,'3870',NULL
+'175',1,15,'3771',NULL
+'175',1,16,'3769',NULL
+'175',1,17,'4508',NULL
+'175',2,1,'4508',NULL
+'175',2,2,'3768',NULL
+'175',2,3,'3770',NULL
+'175',2,4,'3772',NULL
+'175',2,5,'4513',NULL
+'175',2,6,'402',NULL
+'175',2,7,'4503',NULL
+'175',2,8,'4506',NULL
+'175',2,9,'3882',NULL
+'175',2,10,'955',NULL
+'175',2,11,'51194',NULL
+'175',2,12,'51209',NULL
+'175',2,13,'1527',NULL
+'175',2,14,'5608',NULL
+'176',1,1,'5607',NULL
+'176',1,2,'1487',NULL
+'176',1,3,'1488',NULL
+'176',1,4,'2653',NULL
+'176',1,5,'51193',NULL
+'176',1,6,'3566',NULL
+'176',1,7,'3261',NULL
+'176',1,8,'269',NULL
+'176',1,9,'271',NULL
+'176',1,10,'3778',NULL
+'176',1,11,'3869',NULL
+'176',1,12,'3790',NULL
+'176',1,13,'5984',NULL
+'176',1,14,'3671',NULL
+'176',1,15,'3794',NULL
+'176',1,16,'402',NULL
+'176',1,17,'1866',NULL
+'176',1,18,'3874',NULL
+'176',1,19,'3872',NULL
+'176',1,20,'4495',NULL
+'176',2,1,'4495',NULL
+'176',2,2,'3873',NULL
+'176',2,3,'3805',NULL
+'176',2,4,'4493',NULL
+'176',2,5,'3797',NULL
+'176',2,6,'3795',NULL
+'176',2,7,'3793',NULL
+'176',2,8,'5535',NULL
+'176',2,9,'3792',NULL
+'176',2,10,'3789',NULL
+'176',2,11,'3787',NULL
+'176',2,12,'496',NULL
+'176',2,13,'272',NULL
+'176',2,14,'270',NULL
+'176',2,15,'3602',NULL
+'176',2,16,'3264',NULL
+'176',2,17,'3265',NULL
+'176',2,18,'3932',NULL
+'176',2,19,'51209',NULL
+'176',2,20,'1527',NULL
+'176',2,21,'5607',NULL
+'177',1,1,'5606',NULL
+'177',1,2,'5798',NULL
+'177',1,3,'5799',NULL
+'177',1,4,'5800',NULL
+'177',1,5,'5801',NULL
+'177',1,6,'5802',NULL
+'177',1,7,'5803',NULL
+'177',1,8,'5020',NULL
+'177',1,9,'5804',NULL
+'177',1,10,'5805',NULL
+'177',1,11,'5806',NULL
+'177',1,12,'1537',NULL
+'177',1,13,'5807',NULL
+'177',1,14,'3683',NULL
+'177',2,1,'3683',NULL
+'177',2,2,'5808',NULL
+'177',2,3,'5809',NULL
+'177',2,4,'5810',NULL
+'177',2,5,'5812',NULL
+'177',2,6,'5813',NULL
+'177',2,7,'5814',NULL
+'177',2,8,'5815',NULL
+'177',2,9,'5816',NULL
+'177',2,10,'5606',NULL
+'178',1,1,'5609',NULL
+'178',1,2,'1487',NULL
+'178',1,3,'1488',NULL
+'178',1,4,'2653',NULL
+'178',1,5,'51192',NULL
+'178',1,6,'3670',NULL
+'178',1,7,'3918',NULL
+'178',1,8,'3620',NULL
+'178',1,9,'3621',NULL
+'178',1,10,'1762',NULL
+'178',1,11,'1760',NULL
+'178',1,12,'3623',NULL
+'178',1,13,'3634',NULL
+'178',1,14,'2864',NULL
+'178',1,15,'2968',NULL
+'178',1,16,'2970',NULL
+'178',1,17,'1021',NULL
+'178',1,18,'1022',NULL
+'178',1,19,'1025',NULL
+'178',1,20,'3279',NULL
+'178',2,1,'3279',NULL
+'178',2,2,'1026',NULL
+'178',2,3,'1028',NULL
+'178',2,4,'1029',NULL
+'178',2,5,'3626',NULL
+'178',2,6,'3628',NULL
+'178',2,7,'3627',NULL
+'178',2,8,'3625',NULL
+'178',2,9,'3624',NULL
+'178',2,10,'3635',NULL
+'178',2,11,'3622',NULL
+'178',2,12,'1759',NULL
+'178',2,13,'1761',NULL
+'178',2,14,'1763',NULL
+'178',2,15,'955',NULL
+'178',2,16,'51194',NULL
+'178',2,17,'51209',NULL
+'178',2,18,'1527',NULL
+'178',2,19,'5609',NULL
+'179',1,1,'4855',NULL
+'179',1,2,'1486',NULL
+'179',1,3,'1487',NULL
+'179',1,4,'3826',NULL
+'179',1,5,'1489',NULL
+'179',1,6,'1602',NULL
+'179',1,7,'4651',NULL
+'179',1,8,'1734',NULL
+'179',1,9,'1736',NULL
+'179',1,10,'93',NULL
+'179',1,11,'1367',NULL
+'179',1,12,'3287',NULL
+'179',1,13,'1663',NULL
+'179',1,14,'1355',NULL
+'179',1,15,'5652',NULL
+'179',1,16,'1353',NULL
+'179',1,17,'1350',NULL
+'179',1,18,'1348',NULL
+'179',1,19,'6315',NULL
+'179',1,20,'6316',NULL
+'179',1,21,'6317',NULL
+'179',1,22,'6318',NULL
+'179',1,23,'6319',NULL
+'179',1,24,'10887',NULL
+'179',1,25,'6320',NULL
+'179',1,26,'6321',NULL
+'179',1,27,'6322',NULL
+'179',1,28,'6323',NULL
+'179',1,29,'6324',NULL
+'179',1,30,'51106',NULL
+'179',1,31,'6325',NULL
+'179',2,1,'6325',NULL
+'179',2,2,'6326',NULL
+'179',2,3,'6327',NULL
+'179',2,4,'6328',NULL
+'179',2,5,'6329',NULL
+'179',2,6,'6330',NULL
+'179',2,7,'6331',NULL
+'179',2,8,'6332',NULL
+'179',2,9,'6333',NULL
+'179',2,10,'6334',NULL
+'179',2,11,'5793',NULL
+'179',2,12,'1347',NULL
+'179',2,13,'1351',NULL
+'179',2,14,'1352',NULL
+'179',2,15,'1354',NULL
+'179',2,16,'1664',NULL
+'179',2,17,'1786',NULL
+'179',2,18,'1366',NULL
+'179',2,19,'1368',NULL
+'179',2,20,'1737',NULL
+'179',2,21,'1735',NULL
+'179',2,22,'1733',NULL
+'179',2,23,'5363',NULL
+'179',2,24,'1640',NULL
+'179',2,25,'3932',NULL
+'179',2,26,'51209',NULL
+'179',2,27,'1527',NULL
+'179',2,28,'3568',NULL
+'179',2,29,'4855',NULL
+'18',1,1,'912',NULL
+'18',1,2,'545',NULL
+'18',1,3,'547',NULL
+'18',1,4,'2589',NULL
+'18',1,5,'594',NULL
+'18',1,6,'914',NULL
+'18',1,7,'5507',NULL
+'18',1,8,'1117',NULL
+'18',1,9,'4518',NULL
+'18',1,10,'1118',NULL
+'18',1,11,'4484',NULL
+'18',1,12,'1120',NULL
+'18',1,13,'1122',NULL
+'18',1,14,'1124',NULL
+'18',1,15,'5718',NULL
+'18',1,16,'5719',NULL
+'18',1,17,'5720',NULL
+'18',1,18,'1132',NULL
+'18',1,19,'5378',NULL
+'18',1,20,'1135',NULL
+'18',1,21,'1137',NULL
+'18',1,22,'1139',NULL
+'18',1,23,'1141',NULL
+'18',1,24,'1143',NULL
+'18',1,25,'1144',NULL
+'18',1,26,'1145',NULL
+'18',1,27,'1189',NULL
+'18',1,28,'1787',NULL
+'18',1,29,'1789',NULL
+'18',1,30,'3880',NULL
+'18',2,1,'3880',NULL
+'18',2,2,'1790',NULL
+'18',2,3,'1788',NULL
+'18',2,4,'1190',NULL
+'18',2,5,'1146',NULL
+'18',2,6,'1146',NULL
+'18',2,7,'1147',NULL
+'18',2,8,'1148',NULL
+'18',2,9,'1142',NULL
+'18',2,10,'1140',NULL
+'18',2,11,'4728',NULL
+'18',2,12,'1138',NULL
+'18',2,13,'1136',NULL
+'18',2,14,'1134',NULL
+'18',2,15,'5379',NULL
+'18',2,16,'5380',NULL
+'18',2,17,'5702',NULL
+'18',2,18,'5703',NULL
+'18',2,19,'5704',NULL
+'18',2,20,'1125',NULL
+'18',2,21,'1123',NULL
+'18',2,22,'1121',NULL
+'18',2,23,'4485',NULL
+'18',2,24,'1119',NULL
+'18',2,25,'4519',NULL
+'18',2,26,'947',NULL
+'18',2,27,'917',NULL
+'18',2,28,'4481',NULL
+'18',2,29,'915',NULL
+'18',2,30,'593',NULL
+'18',2,31,'4780',NULL
+'18',2,32,'548',NULL
+'18',2,33,'546',NULL
+'18',2,34,'912',NULL
+'180',1,1,'51160',NULL
+'180',1,2,'2594',NULL
+'180',1,3,'3644',NULL
+'180',1,4,'2905',NULL
+'180',1,5,'2907',NULL
+'180',1,6,'5081',NULL
+'180',1,7,'3740',NULL
+'180',1,8,'5083',NULL
+'180',1,9,'2909',NULL
+'180',1,10,'4173',NULL
+'180',1,11,'4841',NULL
+'180',1,12,'51078',NULL
+'180',2,1,'51078',NULL
+'180',2,2,'2204',NULL
+'180',2,3,'2205',NULL
+'180',2,4,'4174',NULL
+'180',2,5,'2910',NULL
+'180',2,6,'5084',NULL
+'180',2,7,'3741',NULL
+'180',2,8,'5082',NULL
+'180',2,9,'2908',NULL
+'180',2,10,'2906',NULL
+'180',2,11,'2916',NULL
+'180',2,12,'3858',NULL
+'180',2,13,'51160',NULL
+'19',1,1,'5167',NULL
+'19',1,2,'417',NULL
+'19',1,3,'536',NULL
+'19',1,4,'443',NULL
+'19',1,5,'444',NULL
+'19',1,6,'445',NULL
+'19',1,7,'446',NULL
+'19',1,8,'447',NULL
+'19',1,9,'448',NULL
+'19',1,10,'4710',NULL
+'19',1,11,'449',NULL
+'19',1,12,'451',NULL
+'19',1,13,'452',NULL
+'19',1,14,'2171',NULL
+'19',1,15,'2172',NULL
+'19',1,16,'2174',NULL
+'19',1,17,'2176',NULL
+'19',1,18,'5700',NULL
+'19',1,19,'4839',NULL
+'19',1,20,'1976',NULL
+'19',1,21,'1186',NULL
+'19',1,22,'1187',NULL
+'19',1,23,'1188',NULL
+'19',1,24,'1170',NULL
+'19',1,25,'1171',NULL
+'19',2,1,'1171',NULL
+'19',2,2,'1182',NULL
+'19',2,3,'5036',NULL
+'19',2,4,'1183',NULL
+'19',2,5,'1184',NULL
+'19',2,6,'89',NULL
+'19',2,7,'1166',NULL
+'19',2,8,'1567',NULL
+'19',2,9,'2177',NULL
+'19',2,10,'2175',NULL
+'19',2,11,'2173',NULL
+'19',2,12,'162',NULL
+'19',2,13,'423',NULL
+'19',2,14,'424',NULL
+'19',2,15,'425',NULL
+'19',2,16,'426',NULL
+'19',2,17,'427',NULL
+'19',2,18,'428',NULL
+'19',2,19,'5377',NULL
+'19',2,20,'430',NULL
+'19',2,21,'432',NULL
+'19',2,22,'418',NULL
+'19',2,23,'416',NULL
+'19',2,24,'5167',NULL
+'2',1,1,'3811',NULL
+'2',1,2,'148',NULL
+'2',1,3,'150',NULL
+'2',1,4,'1256',NULL
+'2',1,5,'199',NULL
+'2',1,6,'2157',NULL
+'2',1,7,'156',NULL
+'2',1,8,'158',NULL
+'2',1,9,'161',NULL
+'2',1,10,'69',NULL
+'2',1,11,'5135',NULL
+'2',1,12,'5137',NULL
+'2',1,13,'4094',NULL
+'2',1,14,'9',NULL
+'2',1,15,'168',NULL
+'2',1,16,'283',NULL
+'2',1,17,'1750',NULL
+'2',1,18,'172',NULL
+'2',1,19,'175',NULL
+'2',1,20,'176',NULL
+'2',1,21,'177',NULL
+'2',1,22,'4477',NULL
+'2',1,23,'4478',NULL
+'2',1,24,'4479',NULL
+'2',1,25,'180',NULL
+'2',1,26,'181',NULL
+'2',1,27,'182',NULL
+'2',1,28,'183',NULL
+'2',1,29,'184',NULL
+'2',1,30,'185',NULL
+'2',1,31,'186',NULL
+'2',2,1,'186',NULL
+'2',2,2,'187',NULL
+'2',2,3,'188',NULL
+'2',2,4,'189',NULL
+'2',2,5,'190',NULL
+'2',2,6,'191',NULL
+'2',2,7,'192',NULL
+'2',2,8,'193',NULL
+'2',2,9,'173',NULL
+'2',2,10,'741',NULL
+'2',2,11,'171',NULL
+'2',2,12,'169',NULL
+'2',2,13,'723',NULL
+'2',2,14,'724',NULL
+'2',2,15,'5138',NULL
+'2',2,16,'164',NULL
+'2',2,17,'70',NULL
+'2',2,18,'162',NULL
+'2',2,19,'174',NULL
+'2',2,20,'3686',NULL
+'2',2,21,'157',NULL
+'2',2,22,'2156',NULL
+'2',2,23,'2158',NULL
+'2',2,24,'2160',NULL
+'2',2,25,'2162',NULL
+'2',2,26,'1257',NULL
+'2',2,27,'5822',NULL
+'2',2,28,'151',NULL
+'2',2,29,'149',NULL
+'2',2,30,'3811',NULL
+'20',1,1,'2711',NULL
+'20',1,2,'5239',NULL
+'20',1,3,'70',NULL
+'20',1,4,'162',NULL
+'20',1,5,'174',NULL
+'20',1,6,'159',NULL
+'20',1,7,'195',NULL
+'20',1,8,'814',NULL
+'20',1,9,'816',NULL
+'20',1,10,'818',NULL
+'20',1,11,'820',NULL
+'20',1,12,'822',NULL
+'20',1,13,'824',NULL
+'20',1,14,'826',NULL
+'20',1,15,'828',NULL
+'20',1,16,'830',NULL
+'20',1,17,'832',NULL
+'20',1,18,'5472',NULL
+'20',1,19,'834',NULL
+'20',1,20,'853',NULL
+'20',1,21,'837',NULL
+'20',1,22,'838',NULL
+'20',1,23,'51014',NULL
+'20',1,24,'843',NULL
+'20',1,25,'844',NULL
+'20',1,26,'845',NULL
+'20',1,27,'846',NULL
+'20',1,28,'3661',NULL
+'20',1,29,'847',NULL
+'20',1,30,'1997',NULL
+'20',1,31,'1999',NULL
+'20',1,32,'4516',NULL
+'20',1,33,'2731',NULL
+'20',1,34,'51046',NULL
+'20',2,1,'51046',NULL
+'20',2,2,'2730',NULL
+'20',2,3,'2001',NULL
+'20',2,4,'2000',NULL
+'20',2,5,'1998',NULL
+'20',2,6,'849',NULL
+'20',2,7,'850',NULL
+'20',2,8,'51013',NULL
+'20',2,9,'839',NULL
+'20',2,10,'851',NULL
+'20',2,11,'852',NULL
+'20',2,12,'835',NULL
+'20',2,13,'5473',NULL
+'20',2,14,'831',NULL
+'20',2,15,'829',NULL
+'20',2,16,'827',NULL
+'20',2,17,'825',NULL
+'20',2,18,'823',NULL
+'20',2,19,'821',NULL
+'20',2,20,'819',NULL
+'20',2,21,'817',NULL
+'20',2,22,'815',NULL
+'20',2,23,'194',NULL
+'20',2,24,'158',NULL
+'20',2,25,'161',NULL
+'20',2,26,'69',NULL
+'20',2,27,'3689',NULL
+'20',2,28,'2711',NULL
+'200',1,1,'4244',NULL
+'200',1,2,'1284',NULL
+'200',1,3,'5617',NULL
+'200',1,4,'3539',NULL
+'200',1,5,'4853',NULL
+'200',1,6,'3649',NULL
+'200',2,1,'3649',NULL
+'200',2,2,'4707',NULL
+'200',2,3,'3542',NULL
+'200',2,4,'5195',NULL
+'200',2,5,'1293',NULL
+'200',2,6,'1285',NULL
+'200',2,7,'4244',NULL
+'203',1,1,'5709',NULL
+'203',1,2,'71',NULL
+'203',1,3,'153',NULL
+'203',1,4,'3539',NULL
+'203',1,5,'4853',NULL
+'203',1,6,'5726',NULL
+'203',2,1,'5726',NULL
+'203',2,2,'3542',NULL
+'203',2,3,'3540',NULL
+'203',2,4,'5620',NULL
+'203',2,5,'69',NULL
+'203',2,6,'5709',NULL
+'21',1,1,'4232',NULL
+'21',1,2,'4233',NULL
+'21',1,3,'1217',NULL
+'21',1,4,'1219',NULL
+'21',1,5,'1222',NULL
+'21',1,6,'1223',NULL
+'21',1,7,'2967',NULL
+'21',1,8,'1227',NULL
+'21',1,9,'1229',NULL
+'21',1,10,'5627',NULL
+'21',1,11,'670',NULL
+'21',1,12,'672',NULL
+'21',1,13,'674',NULL
+'21',1,14,'676',NULL
+'21',1,15,'678',NULL
+'21',1,16,'680',NULL
+'21',1,17,'682',NULL
+'21',1,18,'685',NULL
+'21',1,19,'686',NULL
+'21',1,20,'1233',NULL
+'21',1,21,'1234',NULL
+'21',1,22,'1236',NULL
+'21',1,23,'2477',NULL
+'21',1,24,'1238',NULL
+'21',1,25,'1240',NULL
+'21',1,26,'4520',NULL
+'21',1,27,'1241',NULL
+'21',1,28,'1242',NULL
+'21',1,29,'1243',NULL
+'21',1,30,'3659',NULL
+'21',1,31,'3660',NULL
+'21',1,32,'231',NULL
+'21',1,33,'5153',NULL
+'21',1,34,'229',NULL
+'21',1,35,'5040',NULL
+'21',2,1,'5040',NULL
+'21',2,2,'1250',NULL
+'21',2,3,'1248',NULL
+'21',2,4,'1246',NULL
+'21',2,5,'1244',NULL
+'21',2,6,'1324',NULL
+'21',2,7,'767',NULL
+'21',2,8,'765',NULL
+'21',2,9,'1239',NULL
+'21',2,10,'2478',NULL
+'21',2,11,'1237',NULL
+'21',2,12,'1235',NULL
+'21',2,13,'757',NULL
+'21',2,14,'5146',NULL
+'21',2,15,'684',NULL
+'21',2,16,'683',NULL
+'21',2,17,'681',NULL
+'21',2,18,'679',NULL
+'21',2,19,'4521',NULL
+'21',2,20,'675',NULL
+'21',2,21,'673',NULL
+'21',2,22,'671',NULL
+'21',2,23,'1232',NULL
+'21',2,24,'1230',NULL
+'21',2,25,'1228',NULL
+'21',2,26,'1226',NULL
+'21',2,27,'1224',NULL
+'21',2,28,'1325',NULL
+'21',2,29,'1221',NULL
+'21',2,30,'1220',NULL
+'21',2,31,'1218',NULL
+'21',2,32,'4026',NULL
+'21',2,33,'4232',NULL
+'210',1,1,'5452',NULL
+'210',1,2,'1247',NULL
+'210',1,3,'811',NULL
+'210',1,4,'3829',NULL
+'210',1,5,'685',NULL
+'210',1,6,'756',NULL
+'210',1,7,'1078',NULL
+'210',1,8,'3063',NULL
+'210',1,9,'3065',NULL
+'210',1,10,'3067',NULL
+'210',1,11,'958',NULL
+'210',1,12,'960',NULL
+'210',1,13,'962',NULL
+'210',1,14,'3069',NULL
+'210',1,15,'3071',NULL
+'210',1,16,'3073',NULL
+'210',1,17,'4473',NULL
+'210',1,18,'3076',NULL
+'210',1,19,'3077',NULL
+'210',1,20,'3078',NULL
+'210',2,1,'3078',NULL
+'210',2,2,'3735',NULL
+'210',2,3,'3091',NULL
+'210',2,4,'3074',NULL
+'210',2,5,'3072',NULL
+'210',2,6,'3070',NULL
+'210',2,7,'965',NULL
+'210',2,8,'963',NULL
+'210',2,9,'961',NULL
+'210',2,10,'959',NULL
+'210',2,11,'3068',NULL
+'210',2,12,'3066',NULL
+'210',2,13,'3064',NULL
+'210',2,14,'3093',NULL
+'210',2,15,'3092',NULL
+'210',2,16,'757',NULL
+'210',2,17,'5146',NULL
+'210',2,18,'684',NULL
+'210',2,19,'782',NULL
+'210',2,20,'784',NULL
+'210',2,21,'5452',NULL
+'215',1,1,'5298',NULL
+'215',1,2,'2154',NULL
+'215',1,3,'2156',NULL
+'215',1,4,'2158',NULL
+'215',1,5,'2160',NULL
+'215',1,6,'2162',NULL
+'215',1,7,'2164',NULL
+'215',1,8,'4359',NULL
+'215',1,9,'4361',NULL
+'215',1,10,'4363',NULL
+'215',2,1,'4363',NULL
+'215',2,2,'4365',NULL
+'215',2,3,'4362',NULL
+'215',2,4,'4360',NULL
+'215',2,5,'2165',NULL
+'215',2,6,'2163',NULL
+'215',2,7,'2161',NULL
+'215',2,8,'2159',NULL
+'215',2,9,'2157',NULL
+'215',2,10,'2155',NULL
+'215',2,11,'5034',NULL
+'215',2,12,'5298',NULL
+'22',1,1,'1425',NULL
+'22',1,2,'5718',NULL
+'22',1,3,'5719',NULL
+'22',1,4,'5720',NULL
+'22',1,5,'1132',NULL
+'22',1,6,'5378',NULL
+'22',1,7,'1135',NULL
+'22',1,8,'1137',NULL
+'22',1,9,'1172',NULL
+'22',1,10,'4662',NULL
+'22',1,11,'1174',NULL
+'22',1,12,'4664',NULL
+'22',1,13,'1790',NULL
+'22',1,14,'1788',NULL
+'22',1,15,'1191',NULL
+'22',1,16,'1193',NULL
+'22',1,17,'1195',NULL
+'22',1,18,'5154',NULL
+'22',1,19,'2179',NULL
+'22',1,20,'2181',NULL
+'22',1,21,'5211',NULL
+'22',1,22,'3559',NULL
+'22',1,23,'3899',NULL
+'22',2,1,'3899',NULL
+'22',2,2,'3562',NULL
+'22',2,3,'2183',NULL
+'22',2,4,'2182',NULL
+'22',2,5,'2180',NULL
+'22',2,6,'5339',NULL
+'22',2,7,'1198',NULL
+'22',2,8,'1194',NULL
+'22',2,9,'1192',NULL
+'22',2,10,'1787',NULL
+'22',2,11,'1789',NULL
+'22',2,12,'4665',NULL
+'22',2,13,'1175',NULL
+'22',2,14,'4663',NULL
+'22',2,15,'1173',NULL
+'22',2,16,'1138',NULL
+'22',2,17,'1136',NULL
+'22',2,18,'1134',NULL
+'22',2,19,'5379',NULL
+'22',2,20,'5380',NULL
+'22',2,21,'5702',NULL
+'22',2,22,'5703',NULL
+'22',2,23,'5704',NULL
+'22',2,24,'1425',NULL
+'23',1,1,'912',NULL
+'23',1,2,'545',NULL
+'23',1,3,'547',NULL
+'23',1,4,'2589',NULL
+'23',1,5,'594',NULL
+'23',1,6,'914',NULL
+'23',1,7,'916',NULL
+'23',1,8,'918',NULL
+'23',1,9,'920',NULL
+'23',1,10,'922',NULL
+'23',1,11,'924',NULL
+'23',1,12,'926',NULL
+'23',1,13,'928',NULL
+'23',1,14,'930',NULL
+'23',1,15,'932',NULL
+'23',1,16,'934',NULL
+'23',1,17,'936',NULL
+'23',1,18,'3192',NULL
+'23',1,19,'5124',NULL
+'23',1,20,'937',NULL
+'23',1,21,'939',NULL
+'23',1,22,'941',NULL
+'23',1,23,'943',NULL
+'23',1,24,'2839',NULL
+'23',1,25,'4865',NULL
+'23',1,26,'4867',NULL
+'23',1,27,'5638',NULL
+'23',1,28,'1800',NULL
+'23',1,29,'1798',NULL
+'23',1,30,'3199',NULL
+'23',1,31,'3188',NULL
+'23',1,32,'3418',NULL
+'23',1,33,'3413',NULL
+'23',1,34,'3414',NULL
+'23',1,35,'1794',NULL
+'23',1,36,'3880',NULL
+'23',2,1,'3880',NULL
+'23',2,2,'1793',NULL
+'23',2,3,'3415',NULL
+'23',2,4,'3200',NULL
+'23',2,5,'3197',NULL
+'23',2,6,'4871',NULL
+'23',2,7,'1797',NULL
+'23',2,8,'1799',NULL
+'23',2,9,'5775',NULL
+'23',2,10,'4868',NULL
+'23',2,11,'4866',NULL
+'23',2,12,'945',NULL
+'23',2,13,'944',NULL
+'23',2,14,'942',NULL
+'23',2,15,'940',NULL
+'23',2,16,'938',NULL
+'23',2,17,'5125',NULL
+'23',2,18,'946',NULL
+'23',2,19,'935',NULL
+'23',2,20,'933',NULL
+'23',2,21,'931',NULL
+'23',2,22,'929',NULL
+'23',2,23,'927',NULL
+'23',2,24,'925',NULL
+'23',2,25,'923',NULL
+'23',2,26,'921',NULL
+'23',2,27,'919',NULL
+'23',2,28,'917',NULL
+'23',2,29,'4481',NULL
+'23',2,30,'915',NULL
+'23',2,31,'593',NULL
+'23',2,32,'4780',NULL
+'23',2,33,'548',NULL
+'23',2,34,'546',NULL
+'23',2,35,'912',NULL
+'24',1,1,'5706',NULL
+'24',1,2,'1402',NULL
+'24',1,3,'1404',NULL
+'24',1,4,'1406',NULL
+'24',1,5,'1408',NULL
+'24',1,6,'1410',NULL
+'24',1,7,'2058',NULL
+'24',1,8,'2059',NULL
+'24',1,9,'2091',NULL
+'24',1,10,'2184',NULL
+'24',1,11,'2093',NULL
+'24',1,12,'51208',NULL
+'24',1,13,'2190',NULL
+'24',1,14,'2192',NULL
+'24',1,15,'5436',NULL
+'24',1,16,'2194',NULL
+'24',1,17,'1096',NULL
+'24',1,18,'2196',NULL
+'24',1,19,'2198',NULL
+'24',1,20,'2200',NULL
+'24',1,21,'2202',NULL
+'24',1,22,'2204',NULL
+'24',1,23,'2205',NULL
+'24',1,24,'2206',NULL
+'24',1,25,'4841',NULL
+'24',1,26,'51078',NULL
+'24',2,1,'51078',NULL
+'24',2,2,'4842',NULL
+'24',2,3,'2207',NULL
+'24',2,4,'2208',NULL
+'24',2,5,'2209',NULL
+'24',2,6,'2203',NULL
+'24',2,7,'2201',NULL
+'24',2,8,'2199',NULL
+'24',2,9,'5332',NULL
+'24',2,10,'2197',NULL
+'24',2,11,'2195',NULL
+'24',2,12,'2193',NULL
+'24',2,13,'2191',NULL
+'24',2,14,'2189',NULL
+'24',2,15,'4674',NULL
+'24',2,16,'2185',NULL
+'24',2,17,'2061',NULL
+'24',2,18,'1002',NULL
+'24',2,19,'2057',NULL
+'24',2,20,'1411',NULL
+'24',2,21,'1409',NULL
+'24',2,22,'1407',NULL
+'24',2,23,'1405',NULL
+'24',2,24,'1403',NULL
+'24',2,25,'5706',NULL
+'247',1,1,'2420',NULL
+'247',1,2,'2421',NULL
+'247',1,3,'1976',NULL
+'247',1,4,'1186',NULL
+'247',1,5,'1187',NULL
+'247',1,6,'1188',NULL
+'247',1,7,'1170',NULL
+'247',1,8,'1935',NULL
+'247',1,9,'2423',NULL
+'247',1,10,'2424',NULL
+'247',1,11,'2426',NULL
+'247',1,12,'2428',NULL
+'247',1,13,'2430',NULL
+'247',1,14,'3929',NULL
+'247',1,15,'51093',NULL
+'247',1,16,'2434',NULL
+'247',1,17,'2436',NULL
+'247',1,18,'2464',NULL
+'247',1,19,'2465',NULL
+'247',1,20,'2466',NULL
+'247',1,21,'2467',NULL
+'247',2,1,'2467',NULL
+'247',2,2,'2468',NULL
+'247',2,3,'2469',NULL
+'247',2,4,'2470',NULL
+'247',2,5,'2471',NULL
+'247',2,6,'2472',NULL
+'247',2,7,'4661',NULL
+'247',2,8,'3903',NULL
+'247',2,9,'2431',NULL
+'247',2,10,'2429',NULL
+'247',2,11,'2427',NULL
+'247',2,12,'2425',NULL
+'247',2,13,'4352',NULL
+'247',2,14,'1936',NULL
+'247',2,15,'3858',NULL
+'247',2,16,'1182',NULL
+'247',2,17,'5036',NULL
+'247',2,18,'1183',NULL
+'247',2,19,'1184',NULL
+'247',2,20,'2420',NULL
+'25',1,1,'5205',NULL
+'25',1,2,'854',NULL
+'25',1,3,'599',NULL
+'25',1,4,'601',NULL
+'25',1,5,'603',NULL
+'25',1,6,'4070',NULL
+'25',1,7,'606',NULL
+'25',1,8,'608',NULL
+'25',1,9,'4660',NULL
+'25',1,10,'4906',NULL
+'25',1,11,'614',NULL
+'25',1,12,'616',NULL
+'25',1,13,'4744',NULL
+'25',1,14,'4746',NULL
+'25',1,15,'4748',NULL
+'25',1,16,'618',NULL
+'25',1,17,'619',NULL
+'25',1,18,'620',NULL
+'25',1,19,'621',NULL
+'25',1,20,'623',NULL
+'25',1,21,'625',NULL
+'25',1,22,'5178',NULL
+'25',1,23,'629',NULL
+'25',1,24,'631',NULL
+'25',1,25,'633',NULL
+'25',1,26,'5180',NULL
+'25',1,27,'635',NULL
+'25',1,28,'5181',NULL
+'25',1,29,'5182',NULL
+'25',1,30,'5185',NULL
+'25',1,31,'5175',NULL
+'25',2,1,'5175',NULL
+'25',2,2,'5184',NULL
+'25',2,3,'5183',NULL
+'25',2,4,'638',NULL
+'25',2,5,'636',NULL
+'25',2,6,'3191',NULL
+'25',2,7,'634',NULL
+'25',2,8,'632',NULL
+'25',2,9,'630',NULL
+'25',2,10,'5179',NULL
+'25',2,11,'626',NULL
+'25',2,12,'624',NULL
+'25',2,13,'622',NULL
+'25',2,14,'639',NULL
+'25',2,15,'5506',NULL
+'25',2,16,'560',NULL
+'25',2,17,'558',NULL
+'25',2,18,'4749',NULL
+'25',2,19,'4747',NULL
+'25',2,20,'4745',NULL
+'25',2,21,'554',NULL
+'25',2,22,'617',NULL
+'25',2,23,'615',NULL
+'25',2,24,'4907',NULL
+'25',2,25,'4213',NULL
+'25',2,26,'609',NULL
+'25',2,27,'607',NULL
+'25',2,28,'5246',NULL
+'25',2,29,'742',NULL
+'25',2,30,'855',NULL
+'25',2,31,'5205',NULL
+'26',1,1,'1919',NULL
+'26',1,2,'1921',NULL
+'26',1,3,'1922',NULL
+'26',1,4,'1924',NULL
+'26',1,5,'1401',NULL
+'26',1,6,'1402',NULL
+'26',1,7,'2048',NULL
+'26',1,8,'2210',NULL
+'26',1,9,'2212',NULL
+'26',1,10,'817',NULL
+'26',1,11,'2214',NULL
+'26',1,12,'2157',NULL
+'26',1,13,'2155',NULL
+'26',1,14,'2215',NULL
+'26',1,15,'2217',NULL
+'26',1,16,'2219',NULL
+'26',1,17,'2221',NULL
+'26',1,18,'2223',NULL
+'26',2,1,'2223',NULL
+'26',2,2,'3807',NULL
+'26',2,3,'2222',NULL
+'26',2,4,'2220',NULL
+'26',2,5,'2218',NULL
+'26',2,6,'2216',NULL
+'26',2,7,'2154',NULL
+'26',2,8,'2156',NULL
+'26',2,9,'814',NULL
+'26',2,10,'816',NULL
+'26',2,11,'2213',NULL
+'26',2,12,'2211',NULL
+'26',2,13,'1405',NULL
+'26',2,14,'1403',NULL
+'26',2,15,'4904',NULL
+'26',2,16,'2044',NULL
+'26',2,17,'1925',NULL
+'26',2,18,'1923',NULL
+'26',2,19,'1920',NULL
+'26',2,20,'1918',NULL
+'26',2,21,'1919',NULL
+'27',1,1,'86',NULL
+'27',1,2,'85',NULL
+'27',1,3,'87',NULL
+'27',1,4,'88',NULL
+'27',1,5,'89',NULL
+'27',1,6,'82',NULL
+'27',1,7,'5511',NULL
+'27',1,8,'78',NULL
+'27',1,9,'5443',NULL
+'27',1,10,'72',NULL
+'27',1,11,'72',NULL
+'27',1,12,'65',NULL
+'27',1,13,'66',NULL
+'27',1,14,'66',NULL
+'27',1,15,'62',NULL
+'27',1,16,'60',NULL
+'27',1,17,'5333',NULL
+'27',1,18,'56',NULL
+'27',1,19,'54',NULL
+'27',1,20,'52',NULL
+'27',1,21,'50',NULL
+'27',1,22,'47',NULL
+'27',1,23,'42',NULL
+'27',1,24,'44',NULL
+'27',1,25,'39',NULL
+'27',1,26,'37',NULL
+'27',1,27,'35',NULL
+'27',1,28,'33',NULL
+'27',1,29,'29',NULL
+'27',1,30,'5602',NULL
+'27',2,1,'5602',NULL
+'27',2,2,'28',NULL
+'27',2,3,'32',NULL
+'27',2,4,'34',NULL
+'27',2,5,'36',NULL
+'27',2,6,'38',NULL
+'27',2,7,'41',NULL
+'27',2,8,'5340',NULL
+'27',2,9,'48',NULL
+'27',2,10,'5613',NULL
+'27',2,11,'51',NULL
+'27',2,12,'53',NULL
+'27',2,13,'4337',NULL
+'27',2,14,'57',NULL
+'27',2,15,'59',NULL
+'27',2,16,'61',NULL
+'27',2,17,'63',NULL
+'27',2,18,'5626',NULL
+'27',2,19,'68',NULL
+'27',2,20,'73',NULL
+'27',2,21,'76',NULL
+'27',2,22,'77',NULL
+'27',2,23,'79',NULL
+'27',2,24,'81',NULL
+'27',2,25,'83',NULL
+'27',2,26,'84',NULL
+'27',2,27,'86',NULL
+'28',1,1,'163',NULL
+'28',1,2,'174',NULL
+'28',1,3,'3686',NULL
+'28',1,4,'157',NULL
+'28',1,5,'155',NULL
+'28',1,6,'153',NULL
+'28',1,7,'950',NULL
+'28',1,8,'2168',NULL
+'28',1,9,'958',NULL
+'28',1,10,'960',NULL
+'28',1,11,'962',NULL
+'28',1,12,'2495',NULL
+'28',1,13,'966',NULL
+'28',1,14,'968',NULL
+'28',1,15,'970',NULL
+'28',1,16,'4462',NULL
+'28',1,17,'974',NULL
+'28',1,18,'976',NULL
+'28',1,19,'977',NULL
+'28',1,20,'978',NULL
+'28',1,21,'980',NULL
+'28',1,22,'982',NULL
+'28',1,23,'984',NULL
+'28',1,24,'986',NULL
+'28',1,25,'5155',NULL
+'28',1,26,'990',NULL
+'28',1,27,'4046',NULL
+'28',1,28,'4047',NULL
+'28',1,29,'3943',NULL
+'28',1,30,'3944',NULL
+'28',2,1,'3944',NULL
+'28',2,2,'3945',NULL
+'28',2,3,'3941',NULL
+'28',2,4,'3942',NULL
+'28',2,5,'993',NULL
+'28',2,6,'991',NULL
+'28',2,7,'989',NULL
+'28',2,8,'987',NULL
+'28',2,9,'985',NULL
+'28',2,10,'983',NULL
+'28',2,11,'981',NULL
+'28',2,12,'979',NULL
+'28',2,13,'999',NULL
+'28',2,14,'975',NULL
+'28',2,15,'5510',NULL
+'28',2,16,'971',NULL
+'28',2,17,'969',NULL
+'28',2,18,'967',NULL
+'28',2,19,'965',NULL
+'28',2,20,'963',NULL
+'28',2,21,'961',NULL
+'28',2,22,'959',NULL
+'28',2,23,'2169',NULL
+'28',2,24,'4656',NULL
+'28',2,25,'152',NULL
+'28',2,26,'154',NULL
+'28',2,27,'156',NULL
+'28',2,28,'158',NULL
+'28',2,29,'163',NULL
+'29',1,1,'5075',NULL
+'29',1,2,'5034',NULL
+'29',1,3,'2225',NULL
+'29',1,4,'2227',NULL
+'29',1,5,'2229',NULL
+'29',1,6,'4052',NULL
+'29',1,7,'2233',NULL
+'29',1,8,'5787',NULL
+'29',1,9,'5237',NULL
+'29',1,10,'2239',NULL
+'29',1,11,'2241',NULL
+'29',1,12,'2243',NULL
+'29',1,13,'414',NULL
+'29',1,14,'517',NULL
+'29',1,15,'515',NULL
+'29',1,16,'51202',NULL
+'29',1,17,'439',NULL
+'29',1,18,'4832',NULL
+'29',1,19,'112',NULL
+'29',1,20,'115',NULL
+'29',1,21,'117',NULL
+'29',1,22,'210',NULL
+'29',1,23,'214',NULL
+'29',1,24,'497',NULL
+'29',1,25,'499',NULL
+'29',1,26,'134',NULL
+'29',1,27,'136',NULL
+'29',1,28,'4946',NULL
+'29',1,29,'4948',NULL
+'29',1,30,'511',NULL
+'29',2,1,'511',NULL
+'29',2,2,'507',NULL
+'29',2,3,'508',NULL
+'29',2,4,'509',NULL
+'29',2,5,'510',NULL
+'29',2,6,'4949',NULL
+'29',2,7,'4950',NULL
+'29',2,8,'4947',NULL
+'29',2,9,'135',NULL
+'29',2,10,'133',NULL
+'29',2,11,'513',NULL
+'29',2,12,'500',NULL
+'29',2,13,'498',NULL
+'29',2,14,'1836',NULL
+'29',2,15,'211',NULL
+'29',2,16,'116',NULL
+'29',2,17,'114',NULL
+'29',2,18,'111',NULL
+'29',2,19,'4831',NULL
+'29',2,20,'440',NULL
+'29',2,21,'4850',NULL
+'29',2,22,'514',NULL
+'29',2,23,'516',NULL
+'29',2,24,'415',NULL
+'29',2,25,'2244',NULL
+'29',2,26,'2242',NULL
+'29',2,27,'2240',NULL
+'29',2,28,'2238',NULL
+'29',2,29,'2236',NULL
+'29',2,30,'2234',NULL
+'29',2,31,'2232',NULL
+'29',2,32,'2230',NULL
+'29',2,33,'2228',NULL
+'29',2,34,'2226',NULL
+'29',2,35,'5075',NULL
+'3',1,1,'5070',NULL
+'3',1,2,'1884',NULL
+'3',1,3,'1882',NULL
+'3',1,4,'1880',NULL
+'3',1,5,'1878',NULL
+'3',1,6,'1876',NULL
+'3',1,7,'855',NULL
+'3',1,8,'171',NULL
+'3',1,9,'169',NULL
+'3',1,10,'723',NULL
+'3',1,11,'724',NULL
+'3',1,12,'5138',NULL
+'3',1,13,'164',NULL
+'3',1,14,'4108',NULL
+'3',1,15,'5376',NULL
+'3',1,16,'278',NULL
+'3',1,17,'5639',NULL
+'3',1,18,'1865',NULL
+'3',1,19,'4675',NULL
+'3',1,20,'1868',NULL
+'3',1,21,'1869',NULL
+'3',1,22,'1870',NULL
+'3',1,23,'1397',NULL
+'3',1,24,'1398',NULL
+'3',1,25,'1399',NULL
+'3',1,26,'1420',NULL
+'3',1,27,'1568',NULL
+'3',1,28,'1569',NULL
+'3',1,29,'1860',NULL
+'3',1,30,'1861',NULL
+'3',1,31,'1855',NULL
+'3',2,1,'1855',NULL
+'3',2,2,'1856',NULL
+'3',2,3,'1857',NULL
+'3',2,4,'1858',NULL
+'3',2,5,'1859',NULL
+'3',2,6,'1570',NULL
+'3',2,7,'1600',NULL
+'3',2,8,'1419',NULL
+'3',2,9,'1382',NULL
+'3',2,10,'4496',NULL
+'3',2,11,'807',NULL
+'3',2,12,'1862',NULL
+'3',2,13,'1386',NULL
+'3',2,14,'538',NULL
+'3',2,15,'3379',NULL
+'3',2,16,'3377',NULL
+'3',2,17,'3375',NULL
+'3',2,18,'3493',NULL
+'3',2,19,'1772',NULL
+'3',2,20,'1770',NULL
+'3',2,21,'1768',NULL
+'3',2,22,'1766',NULL
+'3',2,23,'170',NULL
+'3',2,24,'854',NULL
+'3',2,25,'1875',NULL
+'3',2,26,'1877',NULL
+'3',2,27,'1879',NULL
+'3',2,28,'1881',NULL
+'3',2,29,'5070',NULL
+'30',1,1,'5092',NULL
+'30',1,2,'255',NULL
+'30',1,3,'1254',NULL
+'30',1,4,'150',NULL
+'30',1,5,'1256',NULL
+'30',1,6,'4712',NULL
+'30',1,7,'4714',NULL
+'30',1,8,'822',NULL
+'30',1,9,'824',NULL
+'30',1,10,'826',NULL
+'30',1,11,'4977',NULL
+'30',1,12,'1260',NULL
+'30',1,13,'1262',NULL
+'30',1,14,'1264',NULL
+'30',1,15,'1266',NULL
+'30',1,16,'853',NULL
+'30',1,17,'837',NULL
+'30',1,18,'838',NULL
+'30',1,19,'51016',NULL
+'30',1,20,'1268',NULL
+'30',1,21,'1271',NULL
+'30',1,22,'4641',NULL
+'30',1,23,'1272',NULL
+'30',1,24,'1274',NULL
+'30',1,25,'5884',NULL
+'30',1,26,'1278',NULL
+'30',1,27,'4755',NULL
+'30',1,28,'4757',NULL
+'30',1,29,'4761',NULL
+'30',1,30,'4760',NULL
+'30',1,31,'5385',NULL
+'30',1,32,'4374',NULL
+'30',1,33,'2731',NULL
+'30',1,34,'4422',NULL
+'30',2,1,'4422',NULL
+'30',2,2,'2730',NULL
+'30',2,3,'5387',NULL
+'30',2,4,'5386',NULL
+'30',2,5,'5383',NULL
+'30',2,6,'5384',NULL
+'30',2,7,'4758',NULL
+'30',2,8,'4756',NULL
+'30',2,9,'1327',NULL
+'30',2,10,'1277',NULL
+'30',2,11,'1275',NULL
+'30',2,12,'1273',NULL
+'30',2,13,'4640',NULL
+'30',2,14,'1270',NULL
+'30',2,15,'1269',NULL
+'30',2,16,'51013',NULL
+'30',2,17,'839',NULL
+'30',2,18,'851',NULL
+'30',2,19,'852',NULL
+'30',2,20,'4475',NULL
+'30',2,21,'1265',NULL
+'30',2,22,'1263',NULL
+'30',2,23,'1261',NULL
+'30',2,24,'827',NULL
+'30',2,25,'825',NULL
+'30',2,26,'823',NULL
+'30',2,27,'4715',NULL
+'30',2,28,'4713',NULL
+'30',2,29,'1257',NULL
+'30',2,30,'5822',NULL
+'30',2,31,'151',NULL
+'30',2,32,'1255',NULL
+'30',2,33,'1252',NULL
+'30',2,34,'5092',NULL
+'31',1,1,'5505',NULL
+'31',1,2,'2247',NULL
+'31',1,3,'2249',NULL
+'31',1,4,'2251',NULL
+'31',1,5,'2253',NULL
+'31',1,6,'871',NULL
+'31',1,7,'873',NULL
+'31',1,8,'875',NULL
+'31',1,9,'877',NULL
+'31',1,10,'879',NULL
+'31',1,11,'2255',NULL
+'31',1,12,'5559',NULL
+'31',1,13,'2259',NULL
+'31',1,14,'5094',NULL
+'31',1,15,'5100',NULL
+'31',1,16,'621',NULL
+'31',1,17,'623',NULL
+'31',1,18,'625',NULL
+'31',1,19,'2263',NULL
+'31',1,20,'2265',NULL
+'31',1,21,'4859',NULL
+'31',1,22,'2269',NULL
+'31',1,23,'2271',NULL
+'31',1,24,'2273',NULL
+'31',1,25,'2275',NULL
+'31',1,26,'2277',NULL
+'31',1,27,'5064',NULL
+'31',2,1,'5064',NULL
+'31',2,2,'51180',NULL
+'31',2,3,'2274',NULL
+'31',2,4,'2272',NULL
+'31',2,5,'2270',NULL
+'31',2,6,'5145',NULL
+'31',2,7,'2268',NULL
+'31',2,8,'2266',NULL
+'31',2,9,'2264',NULL
+'31',2,10,'626',NULL
+'31',2,11,'624',NULL
+'31',2,12,'622',NULL
+'31',2,13,'2262',NULL
+'31',2,14,'2260',NULL
+'31',2,15,'2258',NULL
+'31',2,16,'2256',NULL
+'31',2,17,'880',NULL
+'31',2,18,'878',NULL
+'31',2,19,'876',NULL
+'31',2,20,'874',NULL
+'31',2,21,'872',NULL
+'31',2,22,'2254',NULL
+'31',2,23,'2252',NULL
+'31',2,24,'2250',NULL
+'31',2,25,'2248',NULL
+'31',2,26,'5505',NULL
+'310',1,1,'1977',NULL
+'310',1,2,'1410',NULL
+'310',1,3,'2058',NULL
+'310',1,4,'2059',NULL
+'310',1,5,'2091',NULL
+'310',1,6,'2184',NULL
+'310',1,7,'1103',NULL
+'310',1,8,'1105',NULL
+'310',1,9,'4990',NULL
+'310',1,10,'2095',NULL
+'310',1,11,'2097',NULL
+'310',1,12,'2099',NULL
+'310',1,13,'2101',NULL
+'310',1,14,'2103',NULL
+'310',1,15,'2085',NULL
+'310',1,16,'2087',NULL
+'310',1,17,'2106',NULL
+'310',1,18,'4838',NULL
+'310',1,19,'4837',NULL
+'310',2,1,'4837',NULL
+'310',2,2,'2107',NULL
+'310',2,3,'2105',NULL
+'310',2,4,'2086',NULL
+'310',2,5,'2104',NULL
+'310',2,6,'2102',NULL
+'310',2,7,'2100',NULL
+'310',2,8,'2098',NULL
+'310',2,9,'2096',NULL
+'310',2,10,'2943',NULL
+'310',2,11,'1106',NULL
+'310',2,12,'1104',NULL
+'310',2,13,'2094',NULL
+'310',2,14,'2061',NULL
+'310',2,15,'1002',NULL
+'310',2,16,'4864',NULL
+'310',2,17,'1411',NULL
+'310',2,18,'1978',NULL
+'310',2,19,'1977',NULL
+'32',1,1,'1918',NULL
+'32',1,2,'1919',NULL
+'32',1,3,'1921',NULL
+'32',1,4,'1922',NULL
+'32',1,5,'1924',NULL
+'32',1,6,'1401',NULL
+'32',1,7,'1402',NULL
+'32',1,8,'2048',NULL
+'32',1,9,'2130',NULL
+'32',1,10,'2128',NULL
+'32',1,11,'2126',NULL
+'32',1,12,'5972',NULL
+'32',1,13,'822',NULL
+'32',1,14,'824',NULL
+'32',1,15,'826',NULL
+'32',1,16,'4977',NULL
+'32',1,17,'1260',NULL
+'32',1,18,'1262',NULL
+'32',1,19,'1264',NULL
+'32',1,20,'1266',NULL
+'32',1,21,'2280',NULL
+'32',1,22,'2282',NULL
+'32',1,23,'2286',NULL
+'32',1,24,'1273',NULL
+'32',1,25,'4640',NULL
+'32',1,26,'3560',NULL
+'32',1,27,'2288',NULL
+'32',1,28,'2290',NULL
+'32',1,29,'2292',NULL
+'32',1,30,'2294',NULL
+'32',1,31,'2731',NULL
+'32',1,32,'3042',NULL
+'32',1,33,'3042',NULL
+'32',2,1,'3042',NULL
+'32',2,2,'3042',NULL
+'32',2,3,'2730',NULL
+'32',2,4,'4537',NULL
+'32',2,5,'2293',NULL
+'32',2,6,'2291',NULL
+'32',2,7,'2289',NULL
+'32',2,8,'1271',NULL
+'32',2,9,'4641',NULL
+'32',2,10,'1272',NULL
+'32',2,11,'2284',NULL
+'32',2,12,'2287',NULL
+'32',2,13,'2283',NULL
+'32',2,14,'2281',NULL
+'32',2,15,'4475',NULL
+'32',2,16,'1265',NULL
+'32',2,17,'1263',NULL
+'32',2,18,'1261',NULL
+'32',2,19,'827',NULL
+'32',2,20,'825',NULL
+'32',2,21,'2279',NULL
+'32',2,22,'2125',NULL
+'32',2,23,'2127',NULL
+'32',2,24,'2129',NULL
+'32',2,25,'1405',NULL
+'32',2,26,'1403',NULL
+'32',2,27,'4904',NULL
+'32',2,28,'2044',NULL
+'32',2,29,'1925',NULL
+'32',2,30,'1923',NULL
+'32',2,31,'1920',NULL
+'32',2,32,'1918',NULL
+'33',1,1,'3907',NULL
+'33',1,2,'605',NULL
+'33',1,3,'606',NULL
+'33',1,4,'608',NULL
+'33',1,5,'871',NULL
+'33',1,6,'51205',NULL
+'33',1,7,'51206',NULL
+'33',1,8,'51207',NULL
+'33',1,9,'4207',NULL
+'33',1,10,'2298',NULL
+'33',1,11,'5743',NULL
+'33',1,12,'5744',NULL
+'33',1,13,'2301',NULL
+'33',1,14,'5173',NULL
+'33',2,1,'5173',NULL
+'33',2,2,'3940',NULL
+'33',2,3,'51030',NULL
+'33',2,4,'2303',NULL
+'33',2,5,'2627',NULL
+'33',2,6,'2305',NULL
+'33',2,7,'51128',NULL
+'33',2,8,'51131',NULL
+'33',2,9,'2256',NULL
+'33',2,10,'880',NULL
+'33',2,11,'878',NULL
+'33',2,12,'876',NULL
+'33',2,13,'874',NULL
+'33',2,14,'872',NULL
+'33',2,15,'609',NULL
+'33',2,16,'607',NULL
+'33',2,17,'3907',NULL
+'34',1,1,'74',NULL
+'34',1,2,'77',NULL
+'34',1,3,'79',NULL
+'34',1,4,'81',NULL
+'34',1,5,'83',NULL
+'34',1,6,'84',NULL
+'34',1,7,'320',NULL
+'34',1,8,'322',NULL
+'34',1,9,'324',NULL
+'34',1,10,'326',NULL
+'34',1,11,'4669',NULL
+'34',1,12,'327',NULL
+'34',1,13,'329',NULL
+'34',1,14,'5624',NULL
+'34',1,15,'4239',NULL
+'34',1,16,'5560',NULL
+'34',1,17,'3032',NULL
+'34',1,18,'337',NULL
+'34',1,19,'4078',NULL
+'34',1,20,'4670',NULL
+'34',1,21,'341',NULL
+'34',1,22,'343',NULL
+'34',1,23,'345',NULL
+'34',1,24,'347',NULL
+'34',1,25,'349',NULL
+'34',1,26,'351',NULL
+'34',1,27,'353',NULL
+'34',1,28,'354',NULL
+'34',1,29,'355',NULL
+'34',1,30,'357',NULL
+'34',1,31,'3817',NULL
+'34',1,32,'4204',NULL
+'34',1,33,'359',NULL
+'34',1,34,'361',NULL
+'34',1,35,'363',NULL
+'34',1,36,'365',NULL
+'34',1,37,'367',NULL
+'34',1,38,'368',NULL
+'34',1,39,'369',NULL
+'34',1,40,'371',NULL
+'34',1,41,'373',NULL
+'34',2,1,'373',NULL
+'34',2,2,'372',NULL
+'34',2,3,'370',NULL
+'34',2,4,'374',NULL
+'34',2,5,'585',NULL
+'34',2,6,'366',NULL
+'34',2,7,'364',NULL
+'34',2,8,'362',NULL
+'34',2,9,'360',NULL
+'34',2,10,'4205',NULL
+'34',2,11,'3818',NULL
+'34',2,12,'358',NULL
+'34',2,13,'356',NULL
+'34',2,14,'376',NULL
+'34',2,15,'378',NULL
+'34',2,16,'352',NULL
+'34',2,17,'350',NULL
+'34',2,18,'348',NULL
+'34',2,19,'346',NULL
+'34',2,20,'344',NULL
+'34',2,21,'342',NULL
+'34',2,22,'4671',NULL
+'34',2,23,'340',NULL
+'34',2,24,'338',NULL
+'34',2,25,'336',NULL
+'34',2,26,'334',NULL
+'34',2,27,'5625',NULL
+'34',2,28,'331',NULL
+'34',2,29,'330',NULL
+'34',2,30,'328',NULL
+'34',2,31,'380',NULL
+'34',2,32,'381',NULL
+'34',2,33,'325',NULL
+'34',2,34,'323',NULL
+'34',2,35,'321',NULL
+'34',2,36,'85',NULL
+'34',2,37,'4985',NULL
+'34',2,38,'82',NULL
+'34',2,39,'5511',NULL
+'34',2,40,'78',NULL
+'34',2,41,'74',NULL
+'35',1,1,'5454',NULL
+'35',1,2,'545',NULL
+'35',1,3,'547',NULL
+'35',1,4,'2589',NULL
+'35',1,5,'594',NULL
+'35',1,6,'914',NULL
+'35',1,7,'916',NULL
+'35',1,8,'329',NULL
+'35',1,9,'5624',NULL
+'35',1,10,'4239',NULL
+'35',1,11,'5560',NULL
+'35',1,12,'3032',NULL
+'35',1,13,'337',NULL
+'35',1,14,'4078',NULL
+'35',1,15,'4670',NULL
+'35',1,16,'341',NULL
+'35',1,17,'343',NULL
+'35',1,18,'4846',NULL
+'35',1,19,'590',NULL
+'35',1,20,'1151',NULL
+'35',1,21,'1152',NULL
+'35',1,22,'1154',NULL
+'35',1,23,'1156',NULL
+'35',1,24,'379',NULL
+'35',1,25,'377',NULL
+'35',1,26,'4019',NULL
+'35',1,27,'1158',NULL
+'35',1,28,'1159',NULL
+'35',1,29,'1160',NULL
+'35',1,30,'1161',NULL
+'35',1,31,'3632',NULL
+'35',1,32,'640',NULL
+'35',1,33,'3860',NULL
+'35',1,34,'562',NULL
+'35',1,35,'1169',NULL
+'35',1,36,'4090',NULL
+'35',1,37,'4091',NULL
+'35',1,38,'4093',NULL
+'35',1,39,'4084',NULL
+'35',2,1,'4084',NULL
+'35',2,2,'4092',NULL
+'35',2,3,'2964',NULL
+'35',2,4,'2965',NULL
+'35',2,5,'649',NULL
+'35',2,6,'3859',NULL
+'35',2,7,'687',NULL
+'35',2,8,'3633',NULL
+'35',2,9,'3631',NULL
+'35',2,10,'1162',NULL
+'35',2,11,'1163',NULL
+'35',2,12,'1164',NULL
+'35',2,13,'1165',NULL
+'35',2,14,'4020',NULL
+'35',2,15,'376',NULL
+'35',2,16,'378',NULL
+'35',2,17,'1157',NULL
+'35',2,18,'1155',NULL
+'35',2,19,'1153',NULL
+'35',2,20,'589',NULL
+'35',2,21,'1150',NULL
+'35',2,22,'1149',NULL
+'35',2,23,'342',NULL
+'35',2,24,'4671',NULL
+'35',2,25,'340',NULL
+'35',2,26,'338',NULL
+'35',2,27,'336',NULL
+'35',2,28,'334',NULL
+'35',2,29,'5625',NULL
+'35',2,30,'331',NULL
+'35',2,31,'330',NULL
+'35',2,32,'917',NULL
+'35',2,33,'4481',NULL
+'35',2,34,'915',NULL
+'35',2,35,'593',NULL
+'35',2,36,'4780',NULL
+'35',2,37,'548',NULL
+'35',2,38,'546',NULL
+'35',2,39,'5454',NULL
+'36',1,1,'2308',NULL
+'36',1,2,'2309',NULL
+'36',1,3,'84',NULL
+'36',1,4,'320',NULL
+'36',1,5,'322',NULL
+'36',1,6,'324',NULL
+'36',1,7,'326',NULL
+'36',1,8,'4669',NULL
+'36',1,9,'327',NULL
+'36',1,10,'2310',NULL
+'36',1,11,'2312',NULL
+'36',1,12,'552',NULL
+'36',1,13,'5642',NULL
+'36',1,14,'2316',NULL
+'36',1,15,'2317',NULL
+'36',1,16,'2318',NULL
+'36',1,17,'871',NULL
+'36',1,18,'873',NULL
+'36',1,19,'875',NULL
+'36',1,20,'877',NULL
+'36',1,21,'879',NULL
+'36',1,22,'2255',NULL
+'36',1,23,'51130',NULL
+'36',1,24,'1471',NULL
+'36',1,25,'1472',NULL
+'36',1,26,'1474',NULL
+'36',1,27,'5188',NULL
+'36',1,28,'51125',NULL
+'36',1,29,'892',NULL
+'36',1,30,'2324',NULL
+'36',1,31,'3592',NULL
+'36',1,32,'2325',NULL
+'36',1,33,'3718',NULL
+'36',2,1,'3718',NULL
+'36',2,2,'51126',NULL
+'36',2,3,'5192',NULL
+'36',2,4,'1475',NULL
+'36',2,5,'1473',NULL
+'36',2,6,'51127',NULL
+'36',2,7,'51131',NULL
+'36',2,8,'2256',NULL
+'36',2,9,'880',NULL
+'36',2,10,'878',NULL
+'36',2,11,'876',NULL
+'36',2,12,'874',NULL
+'36',2,13,'872',NULL
+'36',2,14,'5250',NULL
+'36',2,15,'2320',NULL
+'36',2,16,'2321',NULL
+'36',2,17,'2322',NULL
+'36',2,18,'2323',NULL
+'36',2,19,'553',NULL
+'36',2,20,'2313',NULL
+'36',2,21,'2311',NULL
+'36',2,22,'328',NULL
+'36',2,23,'380',NULL
+'36',2,24,'381',NULL
+'36',2,25,'325',NULL
+'36',2,26,'323',NULL
+'36',2,27,'321',NULL
+'36',2,28,'85',NULL
+'36',2,29,'2308',NULL
+'001',1,1,'5710',NULL
+'001',1,2,'5453',NULL
+'001',1,3,'82',NULL
+'001',1,4,'5511',NULL
+'001',1,5,'78',NULL
+'001',1,6,'69',NULL
+'001',1,7,'5135',NULL
+'001',1,8,'5137',NULL
+'001',1,9,'4094',NULL
+'001',1,10,'9',NULL
+'001',1,11,'168',NULL
+'001',1,12,'283',NULL
+'001',1,13,'1750',NULL
+'001',1,14,'172',NULL
+'001',1,15,'734',NULL
+'001',1,16,'736',NULL
+'001',1,17,'738',NULL
+'001',1,18,'4816',NULL
+'001',1,19,'51033',NULL
+'001',2,1,'51033',NULL
+'001',2,2,'737',NULL
+'001',2,3,'735',NULL
+'001',2,4,'193',NULL
+'001',2,5,'173',NULL
+'001',2,6,'741',NULL
+'001',2,7,'171',NULL
+'001',2,8,'169',NULL
+'001',2,9,'723',NULL
+'001',2,10,'724',NULL
+'001',2,11,'5138',NULL
+'001',2,12,'164',NULL
+'001',2,13,'90',NULL
+'001',2,14,'76',NULL
+'001',2,15,'77',NULL
+'001',2,16,'79',NULL
+'001',2,17,'81',NULL
+'001',2,18,'5710',NULL
+'002',1,1,'80',NULL
+'002',1,2,'548',NULL
+'002',1,3,'546',NULL
+'002',1,4,'4038',NULL
+'002',1,5,'5962',NULL
+'002',1,6,'4039',NULL
+'002',1,7,'1049',NULL
+'002',1,8,'2559',NULL
+'002',1,9,'4108',NULL
+'002',1,10,'4094',NULL
+'002',1,11,'4131',NULL
+'002',1,12,'4132',NULL
+'002',1,13,'4133',NULL
+'002',1,14,'4134',NULL
+'002',1,15,'4135',NULL
+'002',1,16,'4136',NULL
+'002',1,17,'1325',NULL
+'002',1,18,'1221',NULL
+'002',1,19,'4137',NULL
+'002',1,20,'2111',NULL
+'002',2,1,'2111',NULL
+'002',2,2,'4138',NULL
+'002',2,3,'4139',NULL
+'002',2,4,'4140',NULL
+'002',2,5,'4141',NULL
+'002',2,6,'4142',NULL
+'002',2,7,'4876',NULL
+'002',2,8,'4144',NULL
+'002',2,9,'4145',NULL
+'002',2,10,'4096',NULL
+'002',2,11,'5138',NULL
+'002',2,12,'164',NULL
+'002',2,13,'3689',NULL
+'002',2,14,'4040',NULL
+'002',2,15,'4041',NULL
+'002',2,16,'4056',NULL
+'002',2,17,'4042',NULL
+'002',2,18,'5156',NULL
+'002',2,19,'545',NULL
+'002',2,20,'547',NULL
+'002',2,21,'2589',NULL
+'002',2,22,'80',NULL
+'C03',1,1,'4870',NULL
+'C03',1,2,'2358',NULL
+'C03',1,3,'2356',NULL
+'C03',1,4,'321',NULL
+'C03',1,5,'85',NULL
+'C03',1,6,'4985',NULL
+'C03',1,7,'82',NULL
+'C03',1,8,'5511',NULL
+'C03',1,9,'78',NULL
+'C03',1,10,'5443',NULL
+'C03',1,11,'72',NULL
+'C03',1,12,'72',NULL
+'C03',1,13,'65',NULL
+'C03',1,14,'1232',NULL
+'C03',1,15,'1230',NULL
+'C03',1,16,'1228',NULL
+'C03',1,17,'1226',NULL
+'C03',1,18,'1224',NULL
+'C03',1,19,'1325',NULL
+'C03',1,20,'1221',NULL
+'C03',1,21,'4137',NULL
+'C03',1,22,'289',NULL
+'C03',2,1,'289',NULL
+'C03',2,2,'1222',NULL
+'C03',2,3,'1223',NULL
+'C03',2,4,'2967',NULL
+'C03',2,5,'1227',NULL
+'C03',2,6,'1229',NULL
+'C03',2,7,'5627',NULL
+'C03',2,8,'68',NULL
+'C03',2,9,'73',NULL
+'C03',2,10,'76',NULL
+'C03',2,11,'77',NULL
+'C03',2,12,'79',NULL
+'C03',2,13,'81',NULL
+'C03',2,14,'83',NULL
+'C03',2,15,'84',NULL
+'C03',2,16,'320',NULL
+'C03',2,17,'2355',NULL
+'C03',2,18,'2357',NULL
+'C03',2,19,'4870',NULL
+'37',1,1,'1381',NULL
+'37',1,2,'1382',NULL
+'37',1,3,'4496',NULL
+'37',1,4,'1383',NULL
+'37',1,5,'1384',NULL
+'37',1,6,'3389',NULL
+'37',1,7,'3379',NULL
+'37',1,8,'3377',NULL
+'37',1,9,'3375',NULL
+'37',1,10,'1227',NULL
+'37',1,11,'1229',NULL
+'37',1,12,'5627',NULL
+'37',1,13,'68',NULL
+'37',1,14,'73',NULL
+'37',1,15,'76',NULL
+'37',1,16,'77',NULL
+'37',1,17,'79',NULL
+'37',1,18,'81',NULL
+'37',1,19,'1401',NULL
+'37',1,20,'1402',NULL
+'37',1,21,'1404',NULL
+'37',1,22,'1406',NULL
+'37',1,23,'1408',NULL
+'37',1,24,'1410',NULL
+'37',1,25,'2058',NULL
+'37',1,26,'1000',NULL
+'37',2,1,'1000',NULL
+'37',2,2,'1411',NULL
+'37',2,3,'1409',NULL
+'37',2,4,'1407',NULL
+'37',2,5,'1405',NULL
+'37',2,6,'1403',NULL
+'37',2,7,'2044',NULL
+'37',2,8,'82',NULL
+'37',2,9,'5511',NULL
+'37',2,10,'78',NULL
+'37',2,11,'5443',NULL
+'37',2,12,'72',NULL
+'37',2,13,'72',NULL
+'37',2,14,'5564',NULL
+'37',2,15,'1393',NULL
+'37',2,16,'5876',NULL
+'37',2,17,'280',NULL
+'37',2,18,'3555',NULL
+'37',2,19,'1869',NULL
+'37',2,20,'1870',NULL
+'37',2,21,'1397',NULL
+'37',2,22,'1398',NULL
+'37',2,23,'1399',NULL
+'37',2,24,'1420',NULL
+'37',2,25,'1381',NULL
+'172SF',1,1,'4603',NULL
+'172SF',1,2,'480',NULL
+'172SF',1,3,'481',NULL
+'172SF',1,4,'483',NULL
+'172SF',1,5,'485',NULL
+'172SF',1,6,'487',NULL
+'172SF',1,7,'4931',NULL
+'172SF',1,8,'1844',NULL
+'172SF',1,9,'1842',NULL
+'172SF',1,10,'5338',NULL
+'172SF',1,11,'5411',NULL
+'172SF',1,12,'5413',NULL
+'172SF',1,13,'5415',NULL
+'172SF',1,14,'5417',NULL
+'172SF',1,15,'5400',NULL
+'172SF',1,16,'5255',NULL
+'172SF',1,17,'5402',NULL
+'172SF',1,18,'5419',NULL
+'172SF',1,19,'5421',NULL
+'172SF',1,20,'5927',NULL
+'172SF',1,21,'5928',NULL
+'172SF',1,22,'5865',NULL
+'172SF',1,23,'5867',NULL
+'172SF',1,24,'4488',NULL
+'172SF',1,25,'4490',NULL
+'172SF',1,26,'3869',NULL
+'172SF',1,27,'3775',NULL
+'172SF',1,28,'3773',NULL
+'172SF',1,29,'4513',NULL
+'172SF',1,30,'402',NULL
+'172SF',1,31,'3767',NULL
+'172SF',1,32,'3766',NULL
+'172SF',2,1,'3766',NULL
+'172SF',2,2,'4493',NULL
+'172SF',2,3,'3796',NULL
+'172SF',2,4,'4492',NULL
+'172SF',2,5,'3774',NULL
+'172SF',2,6,'51031',NULL
+'172SF',2,7,'4491',NULL
+'172SF',2,8,'4489',NULL
+'172SF',2,9,'5868',NULL
+'172SF',2,10,'5866',NULL
+'172SF',2,11,'5850',NULL
+'172SF',2,12,'5426',NULL
+'172SF',2,13,'5427',NULL
+'172SF',2,14,'5420',NULL
+'172SF',2,15,'5921',NULL
+'172SF',2,16,'5397',NULL
+'172SF',2,17,'5399',NULL
+'172SF',2,18,'5418',NULL
+'172SF',2,19,'5416',NULL
+'172SF',2,20,'5414',NULL
+'172SF',2,21,'5412',NULL
+'172SF',2,22,'5337',NULL
+'172SF',2,23,'1841',NULL
+'172SF',2,24,'1843',NULL
+'172SF',2,25,'1845',NULL
+'172SF',2,26,'2892',NULL
+'172SF',2,27,'486',NULL
+'172SF',2,28,'484',NULL
+'172SF',2,29,'482',NULL
+'172SF',2,30,'489',NULL
+'172SF',2,31,'4599',NULL
+'172SF',2,32,'4603',NULL
+'38',1,1,'3761',NULL
+'38',1,2,'685',NULL
+'38',1,3,'756',NULL
+'38',1,4,'758',NULL
+'38',1,5,'2330',NULL
+'38',1,6,'2332',NULL
+'38',1,7,'2334',NULL
+'38',1,8,'2336',NULL
+'38',1,9,'5458',NULL
+'38',1,10,'240',NULL
+'38',1,11,'242',NULL
+'38',1,12,'244',NULL
+'38',1,13,'246',NULL
+'38',1,14,'4708',NULL
+'38',1,15,'250',NULL
+'38',1,16,'2338',NULL
+'38',1,17,'2340',NULL
+'38',1,18,'2342',NULL
+'38',1,19,'2344',NULL
+'38',1,20,'2345',NULL
+'38',1,21,'4441',NULL
+'38',1,22,'2351',NULL
+'38',1,23,'2349',NULL
+'38',1,24,'2484',NULL
+'38',1,25,'4783',NULL
+'38',1,26,'4784',NULL
+'38',1,27,'3409',NULL
+'38',1,28,'4443',NULL
+'38',1,29,'4445',NULL
+'38',1,30,'4447',NULL
+'38',1,31,'4449',NULL
+'38',1,32,'4414',NULL
+'38',1,33,'4399',NULL
+'38',1,34,'4451',NULL
+'38',2,1,'4451',NULL
+'38',2,2,'4413',NULL
+'38',2,3,'4450',NULL
+'38',2,4,'4448',NULL
+'38',2,5,'4446',NULL
+'38',2,6,'4444',NULL
+'38',2,7,'4394',NULL
+'38',2,8,'4421',NULL
+'38',2,9,'4393',NULL
+'38',2,10,'2348',NULL
+'38',2,11,'2350',NULL
+'38',2,12,'4442',NULL
+'38',2,13,'4391',NULL
+'38',2,14,'4392',NULL
+'38',2,15,'2343',NULL
+'38',2,16,'2341',NULL
+'38',2,17,'2339',NULL
+'38',2,18,'252',NULL
+'38',2,19,'248',NULL
+'38',2,20,'247',NULL
+'38',2,21,'245',NULL
+'38',2,22,'243',NULL
+'38',2,23,'241',NULL
+'38',2,24,'239',NULL
+'38',2,25,'2337',NULL
+'38',2,26,'2335',NULL
+'38',2,27,'2333',NULL
+'38',2,28,'2331',NULL
+'38',2,29,'759',NULL
+'38',2,30,'757',NULL
+'38',2,31,'5146',NULL
+'38',2,32,'684',NULL
+'38',2,33,'3761',NULL
+'39',1,1,'5206',NULL
+'39',1,2,'854',NULL
+'39',1,3,'599',NULL
+'39',1,4,'601',NULL
+'39',1,5,'603',NULL
+'39',1,6,'4070',NULL
+'39',1,7,'606',NULL
+'39',1,8,'608',NULL
+'39',1,9,'871',NULL
+'39',1,10,'873',NULL
+'39',1,11,'875',NULL
+'39',1,12,'877',NULL
+'39',1,13,'879',NULL
+'39',1,14,'2255',NULL
+'39',1,15,'5559',NULL
+'39',1,16,'2259',NULL
+'39',1,17,'2556',NULL
+'39',1,18,'2558',NULL
+'39',1,19,'4781',NULL
+'39',1,20,'5186',NULL
+'39',1,21,'5188',NULL
+'39',1,22,'51125',NULL
+'39',1,23,'892',NULL
+'39',1,24,'894',NULL
+'39',1,25,'51079',NULL
+'39',1,26,'898',NULL
+'39',1,27,'900',NULL
+'39',1,28,'901',NULL
+'39',1,29,'4482',NULL
+'39',1,30,'644',NULL
+'39',1,31,'646',NULL
+'39',1,32,'3810',NULL
+'39',1,33,'3808',NULL
+'39',1,34,'905',NULL
+'39',1,35,'374',NULL
+'39',1,36,'375',NULL
+'39',2,1,'375',NULL
+'39',2,2,'366',NULL
+'39',2,3,'906',NULL
+'39',2,4,'907',NULL
+'39',2,5,'4334',NULL
+'39',2,6,'3809',NULL
+'39',2,7,'5159',NULL
+'39',2,8,'647',NULL
+'39',2,9,'909',NULL
+'39',2,10,'910',NULL
+'39',2,11,'899',NULL
+'39',2,12,'51080',NULL
+'39',2,13,'895',NULL
+'39',2,14,'893',NULL
+'39',2,15,'51126',NULL
+'39',2,16,'5192',NULL
+'39',2,17,'5187',NULL
+'39',2,18,'5381',NULL
+'39',2,19,'4782',NULL
+'39',2,20,'2557',NULL
+'39',2,21,'2260',NULL
+'39',2,22,'2258',NULL
+'39',2,23,'2256',NULL
+'39',2,24,'880',NULL
+'39',2,25,'878',NULL
+'39',2,26,'876',NULL
+'39',2,27,'874',NULL
+'39',2,28,'872',NULL
+'39',2,29,'609',NULL
+'39',2,30,'607',NULL
+'39',2,31,'5246',NULL
+'39',2,32,'742',NULL
+'39',2,33,'855',NULL
+'39',2,34,'5206',NULL
+'4',1,1,'1199',NULL
+'4',1,2,'240',NULL
+'4',1,3,'242',NULL
+'4',1,4,'244',NULL
+'4',1,5,'246',NULL
+'4',1,6,'4708',NULL
+'4',1,7,'250',NULL
+'4',1,8,'1200',NULL
+'4',1,9,'1202',NULL
+'4',1,10,'1204',NULL
+'4',1,11,'1206',NULL
+'4',1,12,'5650',NULL
+'4',1,13,'4195',NULL
+'4',1,14,'4197',NULL
+'4',1,15,'1210',NULL
+'4',1,16,'4612',NULL
+'4',1,17,'3758',NULL
+'4',1,18,'1213',NULL
+'4',1,19,'1076',NULL
+'4',1,20,'1066',NULL
+'4',1,21,'1067',NULL
+'4',1,22,'4546',NULL
+'4',1,23,'4552',NULL
+'4',1,24,'4555',NULL
+'4',1,25,'5321',NULL
+'4',1,26,'1073',NULL
+'4',2,1,'1073',NULL
+'4',2,2,'5322',NULL
+'4',2,3,'4556',NULL
+'4',2,4,'1069',NULL
+'4',2,5,'1074',NULL
+'4',2,6,'4647',NULL
+'4',2,7,'4549',NULL
+'4',2,8,'1065',NULL
+'4',2,9,'1214',NULL
+'4',2,10,'1215',NULL
+'4',2,11,'4613',NULL
+'4',2,12,'1211',NULL
+'4',2,13,'4611',NULL
+'4',2,14,'4196',NULL
+'4',2,15,'4192',NULL
+'4',2,16,'1207',NULL
+'4',2,17,'1205',NULL
+'4',2,18,'1203',NULL
+'4',2,19,'1201',NULL
+'4',2,20,'252',NULL
+'4',2,21,'248',NULL
+'4',2,22,'247',NULL
+'4',2,23,'245',NULL
+'4',2,24,'243',NULL
+'4',2,25,'241',NULL
+'4',2,26,'239',NULL
+'4',2,27,'1199',NULL
+'40',1,1,'5542',NULL
+'40',1,2,'280',NULL
+'40',1,3,'3555',NULL
+'40',1,4,'284',NULL
+'40',1,5,'286',NULL
+'40',1,6,'288',NULL
+'40',1,7,'529',NULL
+'40',1,8,'58',NULL
+'40',1,9,'56',NULL
+'40',1,10,'54',NULL
+'40',1,11,'52',NULL
+'40',1,12,'50',NULL
+'40',1,13,'47',NULL
+'40',1,14,'42',NULL
+'40',1,15,'44',NULL
+'40',1,16,'39',NULL
+'40',1,17,'37',NULL
+'40',1,18,'2116',NULL
+'40',1,19,'293',NULL
+'40',1,20,'295',NULL
+'40',1,21,'297',NULL
+'40',1,22,'299',NULL
+'40',1,23,'300',NULL
+'40',1,24,'302',NULL
+'40',1,25,'304',NULL
+'40',1,26,'306',NULL
+'40',1,27,'308',NULL
+'40',1,28,'310',NULL
+'40',1,29,'310',NULL
+'40',1,30,'312',NULL
+'40',2,1,'312',NULL
+'40',2,2,'313',NULL
+'40',2,3,'311',NULL
+'40',2,4,'309',NULL
+'40',2,5,'307',NULL
+'40',2,6,'305',NULL
+'40',2,7,'303',NULL
+'40',2,8,'2388',NULL
+'40',2,9,'314',NULL
+'40',2,10,'298',NULL
+'40',2,11,'296',NULL
+'40',2,12,'294',NULL
+'40',2,13,'5882',NULL
+'40',2,14,'34',NULL
+'40',2,15,'36',NULL
+'40',2,16,'38',NULL
+'40',2,17,'41',NULL
+'40',2,18,'5340',NULL
+'40',2,19,'48',NULL
+'40',2,20,'49',NULL
+'40',2,21,'51',NULL
+'40',2,22,'53',NULL
+'40',2,23,'4742',NULL
+'40',2,24,'4338',NULL
+'40',2,25,'316',NULL
+'40',2,26,'287',NULL
+'40',2,27,'317',NULL
+'40',2,28,'285',NULL
+'40',2,29,'282',NULL
+'40',2,30,'281',NULL
+'40',2,31,'3373',NULL
+'40',2,32,'5542',NULL
+'E1',1,1,'5727',NULL
+'E1',1,2,'81',NULL
+'E1',1,3,'1167',NULL
+'E1',1,4,'2538',NULL
+'E1',1,5,'3929',NULL
+'E1',1,6,'3990',NULL
+'E1',1,7,'3994',NULL
+'E1',1,8,'5938',NULL
+'E1',1,9,'4187',NULL
+'E1',1,10,'2964',NULL
+'E1',1,11,'649',NULL
+'E1',1,12,'2646',NULL
+'E1',2,1,'2646',NULL
+'E1',2,2,'562',NULL
+'E1',2,3,'4090',NULL
+'E1',2,4,'4188',NULL
+'E1',2,5,'5939',NULL
+'E1',2,6,'3995',NULL
+'E1',2,7,'3991',NULL
+'E1',2,8,'3903',NULL
+'E1',2,9,'2539',NULL
+'E1',2,10,'2535',NULL
+'E1',2,11,'1929',NULL
+'E1',2,12,'4032',NULL
+'E1',2,13,'5360',NULL
+'E1',2,14,'82',NULL
+'E1',2,15,'5727',NULL
+'E2',1,1,'755',NULL
+'E2',1,2,'5618',NULL
+'E2',1,3,'153',NULL
+'E2',1,4,'4763',NULL
+'E2',1,5,'4635',NULL
+'E2',1,6,'4636',NULL
+'E2',1,7,'4637',NULL
+'E2',1,8,'4210',NULL
+'E2',1,9,'4407',NULL
+'E2',1,10,'4411',NULL
+'E2',1,11,'4415',NULL
+'E2',1,12,'4417',NULL
+'E2',1,13,'3409',NULL
+'E2',2,1,'3409',NULL
+'E2',2,2,'4416',NULL
+'E2',2,3,'4412',NULL
+'E2',2,4,'4408',NULL
+'E2',2,5,'4509',NULL
+'E2',2,6,'4507',NULL
+'E2',2,7,'4655',NULL
+'E2',2,8,'4762',NULL
+'E2',2,9,'5620',NULL
+'E2',2,10,'5619',NULL
+'E2',2,11,'5034',NULL
+'E2',2,12,'755',NULL
+'E3',1,1,'755',NULL
+'E3',1,2,'5618',NULL
+'E3',1,3,'153',NULL
+'E3',1,4,'1064',NULL
+'E3',1,5,'4546',NULL
+'E3',1,6,'4552',NULL
+'E3',1,7,'5321',NULL
+'E3',1,8,'5833',NULL
+'E3',1,9,'5112',NULL
+'E3',1,10,'5114',NULL
+'E3',1,11,'5116',NULL
+'E3',2,1,'5116',NULL
+'E3',2,2,'5118',NULL
+'E3',2,3,'5115',NULL
+'E3',2,4,'4575',NULL
+'E3',2,5,'4585',NULL
+'E3',2,6,'5322',NULL
+'E3',2,7,'1069',NULL
+'E3',2,8,'1074',NULL
+'E3',2,9,'1065',NULL
+'E3',2,10,'5620',NULL
+'E3',2,11,'5619',NULL
+'E3',2,12,'5034',NULL
+'E3',2,13,'755',NULL
+'E4',1,1,'255',NULL
+'E4',1,2,'150',NULL
+'E4',1,3,'5362',NULL
+'E4',1,4,'1059',NULL
+'E4',1,5,'1057',NULL
+'E4',1,6,'4371',NULL
+'E4',1,7,'4373',NULL
+'E4',1,8,'3495',NULL
+'E4',1,9,'1048',NULL
+'E4',1,10,'4586',NULL
+'E4',2,1,'4586',NULL
+'E4',2,2,'1824',NULL
+'E4',2,3,'3496',NULL
+'E4',2,4,'4374',NULL
+'E4',2,5,'4372',NULL
+'E4',2,6,'1056',NULL
+'E4',2,7,'1058',NULL
+'E4',2,8,'5361',NULL
+'E4',2,9,'5620',NULL
+'E4',2,10,'5619',NULL
+'E4',2,11,'2215',NULL
+'E4',2,12,'255',NULL
+'E5',1,1,'3761',NULL
+'E5',1,2,'1427',NULL
+'E5',1,3,'150',NULL
+'E5',1,4,'1064',NULL
+'E5',1,5,'4546',NULL
+'E5',1,6,'4552',NULL
+'E5',1,7,'5321',NULL
+'E5',1,8,'5109',NULL
+'E5',1,9,'4801',NULL
+'E5',1,10,'51003',NULL
+'E5',1,11,'5049',NULL
+'E5',2,1,'5049',NULL
+'E5',2,2,'4722',NULL
+'E5',2,3,'4803',NULL
+'E5',2,4,'5108',NULL
+'E5',2,5,'5322',NULL
+'E5',2,6,'1069',NULL
+'E5',2,7,'1074',NULL
+'E5',2,8,'1065',NULL
+'E5',2,9,'5620',NULL
+'E5',2,10,'5619',NULL
+'E5',2,11,'2215',NULL
+'E5',2,12,'682',NULL
+'E5',2,13,'3761',NULL
+'41',1,1,'2308',NULL
+'41',1,2,'2309',NULL
+'41',1,3,'84',NULL
+'41',1,4,'320',NULL
+'41',1,5,'2355',NULL
+'41',1,6,'2357',NULL
+'41',1,7,'549',NULL
+'41',1,8,'550',NULL
+'41',1,9,'3812',NULL
+'41',1,10,'3814',NULL
+'41',1,11,'2365',NULL
+'41',1,12,'609',NULL
+'41',1,13,'607',NULL
+'41',1,14,'2296',NULL
+'41',1,15,'858',NULL
+'41',1,16,'860',NULL
+'41',1,17,'862',NULL
+'41',1,18,'863',NULL
+'41',1,19,'5761',NULL
+'41',1,20,'865',NULL
+'41',1,21,'867',NULL
+'41',2,1,'867',NULL
+'41',2,2,'866',NULL
+'41',2,3,'868',NULL
+'41',2,4,'869',NULL
+'41',2,5,'870',NULL
+'41',2,6,'861',NULL
+'41',2,7,'859',NULL
+'41',2,8,'857',NULL
+'41',2,9,'605',NULL
+'41',2,10,'606',NULL
+'41',2,11,'2367',NULL
+'41',2,12,'2366',NULL
+'41',2,13,'3815',NULL
+'41',2,14,'3813',NULL
+'41',2,15,'551',NULL
+'41',2,16,'593',NULL
+'41',2,17,'2358',NULL
+'41',2,18,'2356',NULL
+'41',2,19,'321',NULL
+'41',2,20,'85',NULL
+'41',2,21,'2308',NULL
+'42',1,1,'5611',NULL
+'42',1,2,'3568',NULL
+'42',1,3,'5016',NULL
+'42',1,4,'5018',NULL
+'42',1,5,'5020',NULL
+'42',1,6,'1494',NULL
+'42',1,7,'1496',NULL
+'42',1,8,'1498',NULL
+'42',1,9,'1500',NULL
+'42',1,10,'1501',NULL
+'42',1,11,'1503',NULL
+'42',1,12,'1505',NULL
+'42',1,13,'1507',NULL
+'42',1,14,'1509',NULL
+'42',1,15,'1511',NULL
+'42',1,16,'3578',NULL
+'42',1,17,'3580',NULL
+'42',1,18,'1515',NULL
+'42',1,19,'1517',NULL
+'42',1,20,'3733',NULL
+'42',1,21,'3821',NULL
+'42',1,22,'5996',NULL
+'42',2,1,'5996',NULL
+'42',2,2,'1523',NULL
+'42',2,3,'1520',NULL
+'42',2,4,'1518',NULL
+'42',2,5,'4149',NULL
+'42',2,6,'3581',NULL
+'42',2,7,'3579',NULL
+'42',2,8,'1512',NULL
+'42',2,9,'1510',NULL
+'42',2,10,'1508',NULL
+'42',2,11,'1506',NULL
+'42',2,12,'1504',NULL
+'42',2,13,'1502',NULL
+'42',2,14,'1524',NULL
+'42',2,15,'1499',NULL
+'42',2,16,'1497',NULL
+'42',2,17,'1495',NULL
+'42',2,18,'5021',NULL
+'42',2,19,'5019',NULL
+'42',2,20,'5017',NULL
+'42',2,21,'5015',NULL
+'42',2,22,'5611',NULL
+'43',1,1,'5002',NULL
+'43',1,2,'753',NULL
+'43',1,3,'5451',NULL
+'43',1,4,'680',NULL
+'43',1,5,'682',NULL
+'43',1,6,'782',NULL
+'43',1,7,'726',NULL
+'43',1,8,'2369',NULL
+'43',1,9,'2370',NULL
+'43',1,10,'689',NULL
+'43',1,11,'690',NULL
+'43',1,12,'692',NULL
+'43',1,13,'2374',NULL
+'43',1,14,'3684',NULL
+'43',1,15,'2377',NULL
+'43',1,16,'2379',NULL
+'43',1,17,'313',NULL
+'43',1,18,'311',NULL
+'43',1,19,'411',NULL
+'43',1,20,'460',NULL
+'43',1,21,'458',NULL
+'43',1,22,'413',NULL
+'43',1,23,'456',NULL
+'43',1,24,'454',NULL
+'43',1,25,'4179',NULL
+'43',1,26,'2383',NULL
+'43',1,27,'2385',NULL
+'43',1,28,'2386',NULL
+'43',1,29,'1860',NULL
+'43',2,1,'1860',NULL
+'43',2,2,'1861',NULL
+'43',2,3,'3381',NULL
+'43',2,4,'2384',NULL
+'43',2,5,'51040',NULL
+'43',2,6,'453',NULL
+'43',2,7,'455',NULL
+'43',2,8,'412',NULL
+'43',2,9,'457',NULL
+'43',2,10,'459',NULL
+'43',2,11,'410',NULL
+'43',2,12,'310',NULL
+'43',2,13,'310',NULL
+'43',2,14,'2381',NULL
+'43',2,15,'2380',NULL
+'43',2,16,'2378',NULL
+'43',2,17,'2376',NULL
+'43',2,18,'3685',NULL
+'43',2,19,'693',NULL
+'43',2,20,'5264',NULL
+'43',2,21,'5264',NULL
+'43',2,22,'2373',NULL
+'43',2,23,'2372',NULL
+'43',2,24,'2371',NULL
+'43',2,25,'811',NULL
+'43',2,26,'3829',NULL
+'43',2,27,'683',NULL
+'43',2,28,'681',NULL
+'43',2,29,'679',NULL
+'43',2,30,'5002',NULL
+'44',1,1,'5572',NULL
+'44',1,2,'168',NULL
+'44',1,3,'283',NULL
+'44',1,4,'1750',NULL
+'44',1,5,'172',NULL
+'44',1,6,'734',NULL
+'44',1,7,'736',NULL
+'44',1,8,'738',NULL
+'44',1,9,'4816',NULL
+'44',1,10,'4021',NULL
+'44',1,11,'743',NULL
+'44',1,12,'803',NULL
+'44',1,13,'2390',NULL
+'44',1,14,'2392',NULL
+'44',1,15,'2394',NULL
+'44',1,16,'5591',NULL
+'44',1,17,'1666',NULL
+'44',1,18,'1668',NULL
+'44',1,19,'1670',NULL
+'44',1,20,'2396',NULL
+'44',1,21,'2398',NULL
+'44',1,22,'2400',NULL
+'44',1,23,'1676',NULL
+'44',1,24,'1678',NULL
+'44',1,25,'2402',NULL
+'44',1,26,'3895',NULL
+'44',2,1,'3895',NULL
+'44',2,2,'3682',NULL
+'44',2,3,'2403',NULL
+'44',2,4,'1679',NULL
+'44',2,5,'1677',NULL
+'44',2,6,'2401',NULL
+'44',2,7,'2399',NULL
+'44',2,8,'2397',NULL
+'44',2,9,'1671',NULL
+'44',2,10,'1669',NULL
+'44',2,11,'1667',NULL
+'44',2,12,'5098',NULL
+'44',2,13,'2395',NULL
+'44',2,14,'2393',NULL
+'44',2,15,'2391',NULL
+'44',2,16,'2389',NULL
+'44',2,17,'4514',NULL
+'44',2,18,'4022',NULL
+'44',2,19,'3687',NULL
+'44',2,20,'737',NULL
+'44',2,21,'735',NULL
+'44',2,22,'193',NULL
+'44',2,23,'173',NULL
+'44',2,24,'741',NULL
+'44',2,25,'5139',NULL
+'44',2,26,'5572',NULL
+'45',1,1,'5128',NULL
+'45',1,2,'1182',NULL
+'45',1,3,'5036',NULL
+'45',1,4,'1183',NULL
+'45',1,5,'1184',NULL
+'45',1,6,'89',NULL
+'45',1,7,'82',NULL
+'45',1,8,'5511',NULL
+'45',1,9,'78',NULL
+'45',1,10,'5443',NULL
+'45',1,11,'72',NULL
+'45',1,12,'72',NULL
+'45',1,13,'65',NULL
+'45',1,14,'66',NULL
+'45',1,15,'66',NULL
+'45',1,16,'62',NULL
+'45',1,17,'60',NULL
+'45',1,18,'5333',NULL
+'45',1,19,'794',NULL
+'45',1,20,'795',NULL
+'45',1,21,'796',NULL
+'45',1,22,'797',NULL
+'45',1,23,'798',NULL
+'45',1,24,'1399',NULL
+'45',1,25,'1420',NULL
+'45',1,26,'1418',NULL
+'45',1,27,'1416',NULL
+'45',1,28,'5500',NULL
+'45',2,1,'5500',NULL
+'45',2,2,'1414',NULL
+'45',2,3,'1415',NULL
+'45',2,4,'1417',NULL
+'45',2,5,'4284',NULL
+'45',2,6,'1419',NULL
+'45',2,7,'1421',NULL
+'45',2,8,'1422',NULL
+'45',2,9,'1423',NULL
+'45',2,10,'1424',NULL
+'45',2,11,'5447',NULL
+'45',2,12,'4337',NULL
+'45',2,13,'57',NULL
+'45',2,14,'59',NULL
+'45',2,15,'61',NULL
+'45',2,16,'63',NULL
+'45',2,17,'5626',NULL
+'45',2,18,'68',NULL
+'45',2,19,'73',NULL
+'45',2,20,'76',NULL
+'45',2,21,'77',NULL
+'45',2,22,'79',NULL
+'45',2,23,'81',NULL
+'45',2,24,'4839',NULL
+'45',2,25,'1976',NULL
+'45',2,26,'1186',NULL
+'45',2,27,'1187',NULL
+'45',2,28,'1188',NULL
+'45',2,29,'1170',NULL
+'45',2,30,'5128',NULL
+'T11',1,1,'4602',NULL
+'T11',1,2,'4900',NULL
+'T11',1,3,'4901',NULL
+'T11',1,4,'4896',NULL
+'T11',1,5,'3884',NULL
+'T11',1,6,'3885',NULL
+'T11',1,7,'3887',NULL
+'T11',1,8,'3889',NULL
+'T11',1,9,'3891',NULL
+'T11',1,10,'3892',NULL
+'T11',2,1,'3892',NULL
+'T11',2,2,'3893',NULL
+'T11',2,3,'3890',NULL
+'T11',2,4,'3888',NULL
+'T11',2,5,'3886',NULL
+'T11',2,6,'5548',NULL
+'T11',2,7,'4895',NULL
+'T11',2,8,'4897',NULL
+'T11',2,9,'4602',NULL
+'T23',1,1,'4011',NULL
+'T23',1,2,'4012',NULL
+'T23',1,3,'4014',NULL
+'T23',1,4,'4016',NULL
+'T23',1,5,'5684',NULL
+'T23',1,6,'5683',NULL
+'T23',2,1,'5683',NULL
+'T23',2,2,'4018',NULL
+'T23',2,3,'4017',NULL
+'T23',2,4,'4015',NULL
+'T23',2,5,'4013',NULL
+'T23',2,6,'5839',NULL
+'T23',2,7,'4011',NULL
+'T32',1,1,'51198',NULL
+'T32',1,2,'2905',NULL
+'T32',1,3,'2907',NULL
+'T32',1,4,'5081',NULL
+'T32',1,5,'3740',NULL
+'T32',1,6,'5083',NULL
+'T32',1,7,'2909',NULL
+'T32',1,8,'4173',NULL
+'T32',1,9,'4805',NULL
+'T32',1,10,'4806',NULL
+'T32',1,11,'51219',NULL
+'T32',1,12,'4810',NULL
+'T32',1,13,'4812',NULL
+'T32',2,1,'4812',NULL
+'T32',2,2,'4811',NULL
+'T32',2,3,'4809',NULL
+'T32',2,4,'4807',NULL
+'T32',2,5,'4630',NULL
+'T32',2,6,'4174',NULL
+'T32',2,7,'2910',NULL
+'T32',2,8,'5084',NULL
+'T32',2,9,'3741',NULL
+'T32',2,10,'5082',NULL
+'T32',2,11,'2908',NULL
+'T32',2,12,'2906',NULL
+'T32',2,13,'2916',NULL
+'T32',2,14,'51198',NULL
+'T31',1,1,'4837',NULL
+'T31',1,2,'2113',NULL
+'T31',1,3,'5039',NULL
+'T31',1,4,'1805',NULL
+'T31',1,5,'1807',NULL
+'T31',1,6,'1809',NULL
+'T31',1,7,'5326',NULL
+'T31',1,8,'5758',NULL
+'T31',1,9,'1813',NULL
+'T31',1,10,'1815',NULL
+'T31',1,11,'4693',NULL
+'T31',1,12,'51211',NULL
+'T31',2,1,'51211',NULL
+'T31',2,2,'4694',NULL
+'T31',2,3,'4704',NULL
+'T31',2,4,'1814',NULL
+'T31',2,5,'5759',NULL
+'T31',2,6,'5327',NULL
+'T31',2,7,'1810',NULL
+'T31',2,8,'1808',NULL
+'T31',2,9,'1806',NULL
+'T31',2,10,'5038',NULL
+'T31',2,11,'51057',NULL
+'T31',2,12,'4837',NULL
+'T61',1,1,'2994',NULL
+'T61',1,2,'3386',NULL
+'T61',1,3,'3881',NULL
+'T61',1,4,'3984',NULL
+'T61',1,5,'5872',NULL
+'T61',1,6,'5864',NULL
+'T61',1,7,'3766',NULL
+'T61',1,8,'3615',NULL
+'T61',1,9,'3611',NULL
+'T61',1,10,'5865',NULL
+'T61',1,11,'5867',NULL
+'T61',1,12,'5869',NULL
+'T61',1,13,'5871',NULL
+'T61',2,1,'5871',NULL
+'T61',2,2,'5870',NULL
+'T61',2,3,'5868',NULL
+'T61',2,4,'5866',NULL
+'T61',2,5,'3610',NULL
+'T61',2,6,'3614',NULL
+'T61',2,7,'3767',NULL
+'T61',2,8,'3765',NULL
+'T61',2,9,'3763',NULL
+'T61',2,10,'3985',NULL
+'T61',2,11,'3882',NULL
+'T61',2,12,'3399',NULL
+'T61',2,13,'2994',NULL
+'T41',1,1,'3899',NULL
+'T41',1,2,'3562',NULL
+'T41',1,3,'3569',NULL
+'T41',1,4,'3554',NULL
+'T41',1,5,'3552',NULL
+'T41',1,6,'3505',NULL
+'T41',1,7,'3499',NULL
+'T41',1,8,'3490',NULL
+'T41',1,9,'3486',NULL
+'T41',1,10,'3482',NULL
+'T41',1,11,'3465',NULL
+'T41',1,12,'3617',NULL
+'T41',1,13,'3464',NULL
+'T41',2,1,'3464',NULL
+'T41',2,2,'3616',NULL
+'T41',2,3,'3481',NULL
+'T41',2,4,'3484',NULL
+'T41',2,5,'3488',NULL
+'T41',2,6,'3494',NULL
+'T41',2,7,'3501',NULL
+'T41',2,8,'3551',NULL
+'T41',2,9,'3553',NULL
+'T41',2,10,'3558',NULL
+'T41',2,11,'3574',NULL
+'T41',2,12,'3559',NULL
+'T41',2,13,'3899',NULL
+'46',1,1,'2056',NULL
+'46',1,2,'4108',NULL
+'46',1,3,'4094',NULL
+'46',1,4,'9',NULL
+'46',1,5,'168',NULL
+'46',1,6,'170',NULL
+'46',1,7,'854',NULL
+'46',1,8,'599',NULL
+'46',1,9,'601',NULL
+'46',1,10,'2296',NULL
+'46',1,11,'858',NULL
+'46',1,12,'860',NULL
+'46',1,13,'2405',NULL
+'46',1,14,'2407',NULL
+'46',1,15,'2409',NULL
+'46',1,16,'2411',NULL
+'46',1,17,'4499',NULL
+'46',1,18,'4500',NULL
+'46',1,19,'2415',NULL
+'46',1,20,'2417',NULL
+'46',1,21,'1331',NULL
+'46',1,22,'5575',NULL
+'46',2,1,'5575',NULL
+'46',2,2,'2418',NULL
+'46',2,3,'2416',NULL
+'46',2,4,'2414',NULL
+'46',2,5,'4295',NULL
+'46',2,6,'2412',NULL
+'46',2,7,'2410',NULL
+'46',2,8,'2408',NULL
+'46',2,9,'2406',NULL
+'46',2,10,'861',NULL
+'46',2,11,'859',NULL
+'46',2,12,'857',NULL
+'46',2,13,'5246',NULL
+'46',2,14,'742',NULL
+'46',2,15,'855',NULL
+'46',2,16,'171',NULL
+'46',2,17,'169',NULL
+'46',2,18,'723',NULL
+'46',2,19,'724',NULL
+'46',2,20,'5138',NULL
+'46',2,21,'164',NULL
+'46',2,22,'2056',NULL
+'47',1,1,'2420',NULL
+'47',1,2,'2421',NULL
+'47',1,3,'1976',NULL
+'47',1,4,'1186',NULL
+'47',1,5,'1187',NULL
+'47',1,6,'1188',NULL
+'47',1,7,'1170',NULL
+'47',1,8,'1935',NULL
+'47',1,9,'2423',NULL
+'47',1,10,'2424',NULL
+'47',1,11,'2426',NULL
+'47',1,12,'2428',NULL
+'47',1,13,'2430',NULL
+'47',1,14,'3929',NULL
+'47',1,15,'51093',NULL
+'47',1,16,'2434',NULL
+'47',1,17,'2436',NULL
+'47',1,18,'2438',NULL
+'47',1,19,'2439',NULL
+'47',1,20,'2441',NULL
+'47',1,21,'2443',NULL
+'47',1,22,'2446',NULL
+'47',1,23,'2448',NULL
+'47',1,24,'2450',NULL
+'47',1,25,'2452',NULL
+'47',1,26,'2453',NULL
+'47',1,27,'2456',NULL
+'47',1,28,'2458',NULL
+'47',1,29,'2460',NULL
+'47',1,30,'2462',NULL
+'47',1,31,'379',NULL
+'47',1,32,'377',NULL
+'47',1,33,'4019',NULL
+'47',1,34,'1158',NULL
+'47',1,35,'1159',NULL
+'47',1,36,'1160',NULL
+'47',1,37,'1161',NULL
+'47',1,38,'1162',NULL
+'47',2,1,'1162',NULL
+'47',2,2,'1163',NULL
+'47',2,3,'1164',NULL
+'47',2,4,'1165',NULL
+'47',2,5,'4020',NULL
+'47',2,6,'376',NULL
+'47',2,7,'378',NULL
+'47',2,8,'2463',NULL
+'47',2,9,'2461',NULL
+'47',2,10,'2459',NULL
+'47',2,11,'2457',NULL
+'47',2,12,'2454',NULL
+'47',2,13,'2455',NULL
+'47',2,14,'2451',NULL
+'47',2,15,'2449',NULL
+'47',2,16,'2447',NULL
+'47',2,17,'2444',NULL
+'47',2,18,'2442',NULL
+'47',2,19,'2440',NULL
+'47',2,20,'5046',NULL
+'47',2,21,'2437',NULL
+'47',2,22,'4661',NULL
+'47',2,23,'3903',NULL
+'47',2,24,'2431',NULL
+'47',2,25,'2429',NULL
+'47',2,26,'2427',NULL
+'47',2,27,'2425',NULL
+'47',2,28,'4352',NULL
+'47',2,29,'1936',NULL
+'47',2,30,'3858',NULL
+'47',2,31,'1182',NULL
+'47',2,32,'5036',NULL
+'47',2,33,'1183',NULL
+'47',2,34,'1184',NULL
+'47',2,35,'2420',NULL
+'48',1,1,'3759',NULL
+'48',1,2,'5311',NULL
+'48',1,3,'2369',NULL
+'48',1,4,'2370',NULL
+'48',1,5,'2475',NULL
+'48',1,6,'1236',NULL
+'48',1,7,'2477',NULL
+'48',1,8,'764',NULL
+'48',1,9,'766',NULL
+'48',1,10,'768',NULL
+'48',1,11,'769',NULL
+'48',1,12,'771',NULL
+'48',1,13,'236',NULL
+'48',1,14,'5458',NULL
+'48',1,15,'240',NULL
+'48',1,16,'242',NULL
+'48',1,17,'244',NULL
+'48',1,18,'246',NULL
+'48',1,19,'4708',NULL
+'48',1,20,'250',NULL
+'48',1,21,'2338',NULL
+'48',1,22,'2340',NULL
+'48',1,23,'2342',NULL
+'48',1,24,'3408',NULL
+'48',1,25,'2353',NULL
+'48',1,26,'4389',NULL
+'48',1,27,'4522',NULL
+'48',1,28,'3023',NULL
+'48',1,29,'3021',NULL
+'48',1,30,'4390',NULL
+'48',1,31,'4497',NULL
+'48',1,32,'3941',NULL
+'48',1,33,'3942',NULL
+'48',1,34,'993',NULL
+'48',1,35,'4048',NULL
+'48',1,36,'4049',NULL
+'48',1,37,'3944',NULL
+'48',2,1,'3944',NULL
+'48',2,2,'3945',NULL
+'48',2,3,'2491',NULL
+'48',2,4,'2489',NULL
+'48',2,5,'2485',NULL
+'48',2,6,'2486',NULL
+'48',2,7,'4523',NULL
+'48',2,8,'2483',NULL
+'48',2,9,'2352',NULL
+'48',2,10,'2354',NULL
+'48',2,11,'2343',NULL
+'48',2,12,'2341',NULL
+'48',2,13,'2339',NULL
+'48',2,14,'252',NULL
+'48',2,15,'248',NULL
+'48',2,16,'247',NULL
+'48',2,17,'245',NULL
+'48',2,18,'243',NULL
+'48',2,19,'241',NULL
+'48',2,20,'239',NULL
+'48',2,21,'237',NULL
+'48',2,22,'4511',NULL
+'48',2,23,'770',NULL
+'48',2,24,'577',NULL
+'48',2,25,'776',NULL
+'48',2,26,'777',NULL
+'48',2,27,'2478',NULL
+'48',2,28,'1237',NULL
+'48',2,29,'2476',NULL
+'48',2,30,'2373',NULL
+'48',2,31,'2372',NULL
+'48',2,32,'2371',NULL
+'48',2,33,'811',NULL
+'48',2,34,'3759',NULL
+'H1',1,1,'51212',NULL
+'H1',1,2,'4693',NULL
+'H1',1,3,'51184',NULL
+'H1',1,4,'4105',NULL
+'H1',1,5,'4061',NULL
+'H1',1,6,'4062',NULL
+'H1',2,1,'4062',NULL
+'H1',2,2,'4063',NULL
+'H1',2,3,'51212',NULL
+'49',1,1,'5611',NULL
+'49',1,2,'1530',NULL
+'49',1,3,'1532',NULL
+'49',1,4,'5632',NULL
+'49',1,5,'5633',NULL
+'49',1,6,'5634',NULL
+'49',1,7,'5635',NULL
+'49',1,8,'5636',NULL
+'49',1,9,'4264',NULL
+'49',1,10,'4354',NULL
+'49',1,11,'1542',NULL
+'49',1,12,'1503',NULL
+'49',1,13,'1505',NULL
+'49',1,14,'1364',NULL
+'49',1,15,'1366',NULL
+'49',1,16,'1368',NULL
+'49',1,17,'1544',NULL
+'49',1,18,'5329',NULL
+'49',1,19,'1546',NULL
+'49',1,20,'1548',NULL
+'49',1,21,'5982',NULL
+'49',1,22,'1357',NULL
+'49',1,23,'1550',NULL
+'49',1,24,'1552',NULL
+'49',1,25,'1554',NULL
+'49',1,26,'4777',NULL
+'49',1,27,'1556',NULL
+'49',1,28,'1558',NULL
+'49',1,29,'4731',NULL
+'49',1,30,'4736',NULL
+'49',1,31,'3822',NULL
+'49',1,32,'3823',NULL
+'49',1,33,'4273',NULL
+'49',1,34,'4732',NULL
+'49',1,35,'4734',NULL
+'49',2,1,'4734',NULL
+'49',2,2,'4405',NULL
+'49',2,3,'4274',NULL
+'49',2,4,'3824',NULL
+'49',2,5,'4740',NULL
+'49',2,6,'4737',NULL
+'49',2,7,'4436',NULL
+'49',2,8,'1559',NULL
+'49',2,9,'51145',NULL
+'49',2,10,'4733',NULL
+'49',2,11,'1555',NULL
+'49',2,12,'1553',NULL
+'49',2,13,'1551',NULL
+'49',2,14,'5523',NULL
+'49',2,15,'1565',NULL
+'49',2,16,'1549',NULL
+'49',2,17,'1547',NULL
+'49',2,18,'5330',NULL
+'49',2,19,'1545',NULL
+'49',2,20,'93',NULL
+'49',2,21,'1367',NULL
+'49',2,22,'1365',NULL
+'49',2,23,'1506',NULL
+'49',2,24,'1504',NULL
+'49',2,25,'1543',NULL
+'49',2,26,'4355',NULL
+'49',2,27,'1539',NULL
+'49',2,28,'1537',NULL
+'49',2,29,'4217',NULL
+'49',2,30,'1535',NULL
+'49',2,31,'5268',NULL
+'49',2,32,'1533',NULL
+'49',2,33,'1531',NULL
+'49',2,34,'5611',NULL
+'5',1,1,'5907',NULL
+'5',1,2,'5239',NULL
+'5',1,3,'72',NULL
+'5',1,4,'72',NULL
+'5',1,5,'65',NULL
+'5',1,6,'66',NULL
+'5',1,7,'66',NULL
+'5',1,8,'62',NULL
+'5',1,9,'60',NULL
+'5',1,10,'530',NULL
+'5',1,11,'1893',NULL
+'5',1,12,'528',NULL
+'5',1,13,'1895',NULL
+'5',1,14,'1896',NULL
+'5',1,15,'1898',NULL
+'5',1,16,'1900',NULL
+'5',1,17,'1902',NULL
+'5',1,18,'3380',NULL
+'5',1,19,'1904',NULL
+'5',1,20,'1906',NULL
+'5',1,21,'1909',NULL
+'5',1,22,'1910',NULL
+'5',1,23,'1912',NULL
+'5',1,24,'5372',NULL
+'5',1,25,'35',NULL
+'5',1,26,'33',NULL
+'5',1,27,'29',NULL
+'5',1,28,'30',NULL
+'5',1,29,'1914',NULL
+'5',1,30,'1915',NULL
+'5',1,31,'1917',NULL
+'5',2,1,'1917',NULL
+'5',2,2,'1916',NULL
+'5',2,3,'4194',NULL
+'5',2,4,'31',NULL
+'5',2,5,'28',NULL
+'5',2,6,'32',NULL
+'5',2,7,'34',NULL
+'5',2,8,'36',NULL
+'5',2,9,'1913',NULL
+'5',2,10,'1911',NULL
+'5',2,11,'1908',NULL
+'5',2,12,'1907',NULL
+'5',2,13,'1905',NULL
+'5',2,14,'1903',NULL
+'5',2,15,'1901',NULL
+'5',2,16,'1899',NULL
+'5',2,17,'1897',NULL
+'5',2,18,'527',NULL
+'5',2,19,'1894',NULL
+'5',2,20,'57',NULL
+'5',2,21,'59',NULL
+'5',2,22,'61',NULL
+'5',2,23,'63',NULL
+'5',2,24,'5626',NULL
+'5',2,25,'68',NULL
+'5',2,26,'73',NULL
+'5',2,27,'3689',NULL
+'5',2,28,'5907',NULL
+'50',1,1,'912',NULL
+'50',1,2,'2247',NULL
+'50',1,3,'2249',NULL
+'50',1,4,'2251',NULL
+'50',1,5,'5250',NULL
+'50',1,6,'2320',NULL
+'50',1,7,'2321',NULL
+'50',1,8,'2322',NULL
+'50',1,9,'2323',NULL
+'50',1,10,'2498',NULL
+'50',1,11,'3920',NULL
+'50',1,12,'3921',NULL
+'50',1,13,'3922',NULL
+'50',1,14,'3923',NULL
+'50',2,1,'3923',NULL
+'50',2,2,'3924',NULL
+'50',2,3,'3357',NULL
+'50',2,4,'4652',NULL
+'50',2,5,'2542',NULL
+'50',2,6,'5642',NULL
+'50',2,7,'2316',NULL
+'50',2,8,'2317',NULL
+'50',2,9,'2318',NULL
+'50',2,10,'2254',NULL
+'50',2,11,'2252',NULL
+'50',2,12,'2250',NULL
+'50',2,13,'2248',NULL
+'50',2,14,'912',NULL
+'N1',1,1,'72',NULL
+'N1',1,2,'72',NULL
+'N1',1,3,'65',NULL
+'N1',1,4,'66',NULL
+'N1',1,5,'66',NULL
+'N1',1,6,'62',NULL
+'N1',1,7,'60',NULL
+'N1',1,8,'5333',NULL
+'N1',1,9,'532',NULL
+'N1',1,10,'430',NULL
+'N1',1,11,'432',NULL
+'N1',1,12,'418',NULL
+'N1',1,13,'416',NULL
+'N1',1,14,'414',NULL
+'N1',1,15,'515',NULL
+'N1',1,16,'439',NULL
+'N1',1,17,'112',NULL
+'N1',1,18,'115',NULL
+'N1',1,19,'117',NULL
+'N1',1,20,'210',NULL
+'N1',1,21,'214',NULL
+'N1',1,22,'497',NULL
+'N1',1,23,'501',NULL
+'N1',1,24,'503',NULL
+'N1',1,25,'505',NULL
+'N1',1,26,'507',NULL
+'N1',1,27,'508',NULL
+'N1',1,28,'3250',NULL
+'N1',1,29,'3248',NULL
+'N1',1,30,'3246',NULL
+'N1',1,31,'5661',NULL
+'N1',1,32,'5404',NULL
+'N1',1,33,'5405',NULL
+'N1',1,34,'5657',NULL
+'N1',1,35,'5409',NULL
+'N1',1,36,'3603',NULL
+'N1',1,37,'3605',NULL
+'N1',1,38,'5926',NULL
+'N1',1,39,'5943',NULL
+'N1',1,40,'4220',NULL
+'N1',1,41,'4221',NULL
+'N1',1,42,'5397',NULL
+'N1',1,43,'5399',NULL
+'N1',1,44,'5401',NULL
+'N1',2,1,'5401',NULL
+'N1',2,2,'5398',NULL
+'N1',2,3,'5402',NULL
+'N1',2,4,'5403',NULL
+'N1',2,5,'139',NULL
+'N1',2,6,'137',NULL
+'N1',2,7,'4935',NULL
+'N1',2,8,'513',NULL
+'N1',2,9,'498',NULL
+'N1',2,10,'1836',NULL
+'N1',2,11,'211',NULL
+'N1',2,12,'116',NULL
+'N1',2,13,'114',NULL
+'N1',2,14,'4831',NULL
+'N1',2,15,'440',NULL
+'N1',2,16,'438',NULL
+'N1',2,17,'436',NULL
+'N1',2,18,'441',NULL
+'N1',2,19,'442',NULL
+'N1',2,20,'443',NULL
+'N1',2,21,'444',NULL
+'N1',2,22,'446',NULL
+'N1',2,23,'57',NULL
+'N1',2,24,'59',NULL
+'N1',2,25,'61',NULL
+'N1',2,26,'63',NULL
+'N1',2,27,'5626',NULL
+'N1',2,28,'72',NULL
+'N1',2,29,'72',NULL
+'N2',1,1,'5727',NULL
+'N2',1,2,'162',NULL
+'N2',1,3,'751',NULL
+'N2',1,4,'2227',NULL
+'N2',1,5,'2229',NULL
+'N2',1,6,'4052',NULL
+'N2',1,7,'2233',NULL
+'N2',1,8,'2235',NULL
+'N2',1,9,'2009',NULL
+'N2',1,10,'2011',NULL
+'N2',1,11,'2013',NULL
+'N2',1,12,'2015',NULL
+'N2',1,13,'2017',NULL
+'N2',1,14,'2020',NULL
+'N2',1,15,'4721',NULL
+'N2',1,16,'2022',NULL
+'N2',1,17,'408',NULL
+'N2',1,18,'2024',NULL
+'N2',1,19,'2026',NULL
+'N2',1,20,'2029',NULL
+'N2',1,21,'2033',NULL
+'N2',1,22,'2035',NULL
+'N2',1,23,'2037',NULL
+'N2',1,24,'1846',NULL
+'N2',1,25,'2734',NULL
+'N2',1,26,'2736',NULL
+'N2',1,27,'2742',NULL
+'N2',1,28,'2744',NULL
+'N2',1,29,'2890',NULL
+'N2',1,30,'5208',NULL
+'N2',1,31,'4545',NULL
+'N2',1,32,'5911',NULL
+'N2',1,33,'5892',NULL
+'N2',1,34,'5894',NULL
+'N2',1,35,'4268',NULL
+'N2',1,36,'5887',NULL
+'N2',1,37,'51023',NULL
+'N2',1,38,'51022',NULL
+'N2',2,1,'51022',NULL
+'N2',2,2,'4397',NULL
+'N2',2,3,'4269',NULL
+'N2',2,4,'5895',NULL
+'N2',2,5,'5893',NULL
+'N2',2,6,'5912',NULL
+'N2',2,7,'5891',NULL
+'N2',2,8,'5209',NULL
+'N2',2,9,'2891',NULL
+'N2',2,10,'3395',NULL
+'N2',2,11,'1851',NULL
+'N2',2,12,'1852',NULL
+'N2',2,13,'1853',NULL
+'N2',2,14,'1849',NULL
+'N2',2,15,'1847',NULL
+'N2',2,16,'2038',NULL
+'N2',2,17,'2036',NULL
+'N2',2,18,'2034',NULL
+'N2',2,19,'2030',NULL
+'N2',2,20,'218',NULL
+'N2',2,21,'2025',NULL
+'N2',2,22,'409',NULL
+'N2',2,23,'462',NULL
+'N2',2,24,'310',NULL
+'N2',2,25,'310',NULL
+'N2',2,26,'2021',NULL
+'N2',2,27,'2021',NULL
+'N2',2,28,'2018',NULL
+'N2',2,29,'2016',NULL
+'N2',2,30,'2014',NULL
+'N2',2,31,'268',NULL
+'N2',2,32,'5249',NULL
+'N2',2,33,'2236',NULL
+'N2',2,34,'2234',NULL
+'N2',2,35,'2232',NULL
+'N2',2,36,'2230',NULL
+'N2',2,37,'2228',NULL
+'N2',2,38,'4055',NULL
+'N2',2,39,'2171',NULL
+'N2',2,40,'5727',NULL
+'N3',1,1,'5727',NULL
+'N3',1,2,'162',NULL
+'N3',1,3,'751',NULL
+'N3',1,4,'5093',NULL
+'N3',1,5,'2219',NULL
+'N3',1,6,'2221',NULL
+'N3',1,7,'1247',NULL
+'N3',1,8,'2474',NULL
+'N3',1,9,'2369',NULL
+'N3',1,10,'689',NULL
+'N3',1,11,'690',NULL
+'N3',1,12,'692',NULL
+'N3',1,13,'694',NULL
+'N3',1,14,'696',NULL
+'N3',1,15,'2121',NULL
+'N3',1,16,'2123',NULL
+'N3',1,17,'227',NULL
+'N3',1,18,'225',NULL
+'N3',1,19,'223',NULL
+'N3',1,20,'221',NULL
+'N3',1,21,'2026',NULL
+'N3',1,22,'5545',NULL
+'N3',1,23,'2757',NULL
+'N3',1,24,'2759',NULL
+'N3',1,25,'2761',NULL
+'N3',1,26,'2763',NULL
+'N3',1,27,'2765',NULL
+'N3',1,28,'2767',NULL
+'N3',1,29,'474',NULL
+'N3',1,30,'472',NULL
+'N3',1,31,'470',NULL
+'N3',1,32,'468',NULL
+'N3',1,33,'2771',NULL
+'N3',1,34,'5827',NULL
+'N3',2,1,'5827',NULL
+'N3',2,2,'2772',NULL
+'N3',2,3,'2770',NULL
+'N3',2,4,'466',NULL
+'N3',2,5,'4912',NULL
+'N3',2,6,'2768',NULL
+'N3',2,7,'2766',NULL
+'N3',2,8,'2764',NULL
+'N3',2,9,'2762',NULL
+'N3',2,10,'2760',NULL
+'N3',2,11,'2758',NULL
+'N3',2,12,'2756',NULL
+'N3',2,13,'218',NULL
+'N3',2,14,'220',NULL
+'N3',2,15,'222',NULL
+'N3',2,16,'224',NULL
+'N3',2,17,'226',NULL
+'N3',2,18,'2118',NULL
+'N3',2,19,'2120',NULL
+'N3',2,20,'276',NULL
+'N3',2,21,'695',NULL
+'N3',2,22,'693',NULL
+'N3',2,23,'5264',NULL
+'N3',2,24,'5264',NULL
+'N3',2,25,'2373',NULL
+'N3',2,26,'2372',NULL
+'N3',2,27,'2371',NULL
+'N3',2,28,'3807',NULL
+'N3',2,29,'2222',NULL
+'N3',2,30,'2220',NULL
+'N3',2,31,'754',NULL
+'N3',2,32,'4055',NULL
+'N3',2,33,'2171',NULL
+'N3',2,34,'5727',NULL
+'N4',1,1,'72',NULL
+'N4',1,2,'72',NULL
+'N4',1,3,'65',NULL
+'N4',1,4,'424',NULL
+'N4',1,5,'426',NULL
+'N4',1,6,'427',NULL
+'N4',1,7,'428',NULL
+'N4',1,8,'793',NULL
+'N4',1,9,'791',NULL
+'N4',1,10,'5788',NULL
+'N4',1,11,'1284',NULL
+'N4',1,12,'3563',NULL
+'N4',1,13,'3111',NULL
+'N4',1,14,'3113',NULL
+'N4',1,15,'3116',NULL
+'N4',1,16,'4818',NULL
+'N4',1,17,'3119',NULL
+'N4',1,18,'5317',NULL
+'N4',1,19,'5617',NULL
+'N4',1,20,'5390',NULL
+'N4',1,21,'2969',NULL
+'N4',1,22,'2971',NULL
+'N4',1,23,'2972',NULL
+'N4',1,24,'2973',NULL
+'N4',1,25,'5422',NULL
+'N4',1,26,'1308',NULL
+'N4',1,27,'4922',NULL
+'N4',1,28,'1313',NULL
+'N4',1,29,'1315',NULL
+'N4',1,30,'1317',NULL
+'N4',1,31,'5649',NULL
+'N4',1,32,'1321',NULL
+'N4',1,33,'4169',NULL
+'N4',2,1,'4169',NULL
+'N4',2,2,'4165',NULL
+'N4',2,3,'5825',NULL
+'N4',2,4,'1322',NULL
+'N4',2,5,'1316',NULL
+'N4',2,6,'1314',NULL
+'N4',2,7,'4921',NULL
+'N4',2,8,'4924',NULL
+'N4',2,9,'5428',NULL
+'N4',2,10,'2974',NULL
+'N4',2,11,'1303',NULL
+'N4',2,12,'1301',NULL
+'N4',2,13,'1299',NULL
+'N4',2,14,'1297',NULL
+'N4',2,15,'1295',NULL
+'N4',2,16,'1293',NULL
+'N4',2,17,'5348',NULL
+'N4',2,18,'4435',NULL
+'N4',2,19,'3115',NULL
+'N4',2,20,'3114',NULL
+'N4',2,21,'3112',NULL
+'N4',2,22,'4879',NULL
+'N4',2,23,'4878',NULL
+'N4',2,24,'229',NULL
+'N4',2,25,'3125',NULL
+'N4',2,26,'1283',NULL
+'N4',2,27,'1282',NULL
+'N4',2,28,'1280',NULL
+'N4',2,29,'792',NULL
+'N4',2,30,'447',NULL
+'N4',2,31,'448',NULL
+'N4',2,32,'449',NULL
+'N4',2,33,'451',NULL
+'N4',2,34,'452',NULL
+'N4',2,35,'161',NULL
+'N4',2,36,'72',NULL
+'N4',2,37,'72',NULL
+'N5',1,1,'70',NULL
+'N5',1,2,'162',NULL
+'N5',1,3,'751',NULL
+'N5',1,4,'755',NULL
+'N5',1,5,'680',NULL
+'N5',1,6,'682',NULL
+'N5',1,7,'685',NULL
+'N5',1,8,'756',NULL
+'N5',1,9,'758',NULL
+'N5',1,10,'2330',NULL
+'N5',1,11,'2332',NULL
+'N5',1,12,'2334',NULL
+'N5',1,13,'2336',NULL
+'N5',1,14,'5076',NULL
+'N5',1,15,'5077',NULL
+'N5',1,16,'2945',NULL
+'N5',1,17,'2947',NULL
+'N5',1,18,'2949',NULL
+'N5',1,19,'4531',NULL
+'N5',1,20,'3762',NULL
+'N5',1,21,'3016',NULL
+'N5',1,22,'3018',NULL
+'N5',1,23,'4497',NULL
+'N5',1,24,'3941',NULL
+'N5',1,25,'3942',NULL
+'N5',1,26,'993',NULL
+'N5',1,27,'991',NULL
+'N5',1,28,'2951',NULL
+'N5',1,29,'2953',NULL
+'N5',1,30,'2955',NULL
+'N5',1,31,'2956',NULL
+'N5',1,32,'3398',NULL
+'N5',1,33,'3403',NULL
+'N5',1,34,'3508',NULL
+'N5',1,35,'3509',NULL
+'N5',1,36,'3510',NULL
+'N5',1,37,'1396',NULL
+'N5',1,38,'1412',NULL
+'N5',1,39,'4065',NULL
+'N5',1,40,'3513',NULL
+'N5',1,41,'3672',NULL
+'N5',1,42,'3527',NULL
+'N5',2,1,'3527',NULL
+'N5',2,2,'3673',NULL
+'N5',2,3,'3514',NULL
+'N5',2,4,'4053',NULL
+'N5',2,5,'1426',NULL
+'N5',2,6,'1400',NULL
+'N5',2,7,'3530',NULL
+'N5',2,8,'3531',NULL
+'N5',2,9,'3405',NULL
+'N5',2,10,'3404',NULL
+'N5',2,11,'3406',NULL
+'N5',2,12,'3533',NULL
+'N5',2,13,'3407',NULL
+'N5',2,14,'2954',NULL
+'N5',2,15,'2952',NULL
+'N5',2,16,'990',NULL
+'N5',2,17,'4046',NULL
+'N5',2,18,'4047',NULL
+'N5',2,19,'994',NULL
+'N5',2,20,'2491',NULL
+'N5',2,21,'2489',NULL
+'N5',2,22,'3019',NULL
+'N5',2,23,'3017',NULL
+'N5',2,24,'3015',NULL
+'N5',2,25,'4959',NULL
+'N5',2,26,'2948',NULL
+'N5',2,27,'2946',NULL
+'N5',2,28,'3534',NULL
+'N5',2,29,'2977',NULL
+'N5',2,30,'2337',NULL
+'N5',2,31,'2335',NULL
+'N5',2,32,'2333',NULL
+'N5',2,33,'2331',NULL
+'N5',2,34,'759',NULL
+'N5',2,35,'757',NULL
+'N5',2,36,'684',NULL
+'N5',2,37,'683',NULL
+'N5',2,38,'681',NULL
+'N5',2,39,'754',NULL
+'N5',2,40,'4055',NULL
+'N5',2,41,'161',NULL
+'N5',2,42,'70',NULL
+'N6',1,1,'70',NULL
+'N6',1,2,'162',NULL
+'N6',1,3,'3686',NULL
+'N6',1,4,'157',NULL
+'N6',1,5,'155',NULL
+'N6',1,6,'153',NULL
+'N6',1,7,'2168',NULL
+'N6',1,8,'958',NULL
+'N6',1,9,'960',NULL
+'N6',1,10,'962',NULL
+'N6',1,11,'966',NULL
+'N6',1,12,'968',NULL
+'N6',1,13,'970',NULL
+'N6',1,14,'4462',NULL
+'N6',1,15,'974',NULL
+'N6',1,16,'976',NULL
+'N6',1,17,'977',NULL
+'N6',1,18,'244',NULL
+'N6',1,19,'4708',NULL
+'N6',1,20,'250',NULL
+'N6',1,21,'2338',NULL
+'N6',1,22,'2340',NULL
+'N6',1,23,'2342',NULL
+'N6',1,24,'3408',NULL
+'N6',1,25,'2353',NULL
+'N6',1,26,'4522',NULL
+'N6',1,27,'5238',NULL
+'N6',1,28,'4443',NULL
+'N6',1,29,'4416',NULL
+'N6',1,30,'4414',NULL
+'N6',1,31,'1070',NULL
+'N6',1,32,'4197',NULL
+'N6',1,33,'4559',NULL
+'N6',1,34,'4563',NULL
+'N6',1,35,'3875',NULL
+'N6',1,36,'4796',NULL
+'N6',1,37,'4801',NULL
+'N6',1,38,'51003',NULL
+'N6',1,39,'5049',NULL
+'N6',1,40,'5937',NULL
+'N6',2,1,'5937',NULL
+'N6',2,2,'5310',NULL
+'N6',2,3,'5304',NULL
+'N6',2,4,'50007',NULL
+'N6',2,5,'4722',NULL
+'N6',2,6,'4803',NULL
+'N6',2,7,'4797',NULL
+'N6',2,8,'51027',NULL
+'N6',2,9,'4564',NULL
+'N6',2,10,'4560',NULL
+'N6',2,11,'4611',NULL
+'N6',2,12,'4451',NULL
+'N6',2,13,'4413',NULL
+'N6',2,14,'4415',NULL
+'N6',2,15,'4444',NULL
+'N6',2,16,'3410',NULL
+'N6',2,17,'4523',NULL
+'N6',2,18,'2352',NULL
+'N6',2,19,'2354',NULL
+'N6',2,20,'2343',NULL
+'N6',2,21,'2341',NULL
+'N6',2,22,'2339',NULL
+'N6',2,23,'252',NULL
+'N6',2,24,'248',NULL
+'N6',2,25,'245',NULL
+'N6',2,26,'999',NULL
+'N6',2,27,'975',NULL
+'N6',2,28,'5510',NULL
+'N6',2,29,'971',NULL
+'N6',2,30,'969',NULL
+'N6',2,31,'967',NULL
+'N6',2,32,'965',NULL
+'N6',2,33,'961',NULL
+'N6',2,34,'959',NULL
+'N6',2,35,'2169',NULL
+'N6',2,36,'152',NULL
+'N6',2,37,'154',NULL
+'N6',2,38,'156',NULL
+'N6',2,39,'158',NULL
+'N6',2,40,'161',NULL
+'N6',2,41,'70',NULL
+'N7',1,1,'70',NULL
+'N7',1,2,'162',NULL
+'N7',1,3,'751',NULL
+'N7',1,4,'755',NULL
+'N7',1,5,'680',NULL
+'N7',1,6,'682',NULL
+'N7',1,7,'685',NULL
+'N7',1,8,'756',NULL
+'N7',1,9,'1078',NULL
+'N7',1,10,'4567',NULL
+'N7',1,11,'1079',NULL
+'N7',1,12,'953',NULL
+'N7',1,13,'1080',NULL
+'N7',1,14,'1082',NULL
+'N7',1,15,'1084',NULL
+'N7',1,16,'261',NULL
+'N7',1,17,'257',NULL
+'N7',1,18,'5323',NULL
+'N7',1,19,'4635',NULL
+'N7',1,20,'4636',NULL
+'N7',1,21,'4637',NULL
+'N7',1,22,'4210',NULL
+'N7',1,23,'3758',NULL
+'N7',1,24,'1076',NULL
+'N7',1,25,'1066',NULL
+'N7',1,26,'4546',NULL
+'N7',1,27,'4552',NULL
+'N7',1,28,'4555',NULL
+'N7',1,29,'4570',NULL
+'N7',1,30,'4563',NULL
+'N7',1,31,'3875',NULL
+'N7',1,32,'5108',NULL
+'N7',1,33,'5110',NULL
+'N7',1,34,'5112',NULL
+'N7',1,35,'5116',NULL
+'N7',2,1,'5116',NULL
+'N7',2,2,'5115',NULL
+'N7',2,3,'5113',NULL
+'N7',2,4,'5111',NULL
+'N7',2,5,'5109',NULL
+'N7',2,6,'51027',NULL
+'N7',2,7,'4564',NULL
+'N7',2,8,'5532',NULL
+'N7',2,9,'1069',NULL
+'N7',2,10,'1074',NULL
+'N7',2,11,'4549',NULL
+'N7',2,12,'5367',NULL
+'N7',2,13,'4548',NULL
+'N7',2,14,'4611',NULL
+'N7',2,15,'4509',NULL
+'N7',2,16,'4507',NULL
+'N7',2,17,'4400',NULL
+'N7',2,18,'4655',NULL
+'N7',2,19,'5324',NULL
+'N7',2,20,'256',NULL
+'N7',2,21,'260',NULL
+'N7',2,22,'1085',NULL
+'N7',2,23,'1083',NULL
+'N7',2,24,'1081',NULL
+'N7',2,25,'952',NULL
+'N7',2,26,'1091',NULL
+'N7',2,27,'1092',NULL
+'N7',2,28,'759',NULL
+'N7',2,29,'757',NULL
+'N7',2,30,'684',NULL
+'N7',2,31,'683',NULL
+'N7',2,32,'681',NULL
+'N7',2,33,'754',NULL
+'N7',2,34,'4055',NULL
+'N7',2,35,'161',NULL
+'N7',2,36,'70',NULL
+'N8',1,1,'3655',NULL
+'N8',1,2,'162',NULL
+'N8',1,3,'159',NULL
+'N8',1,4,'195',NULL
+'N8',1,5,'196',NULL
+'N8',1,6,'2160',NULL
+'N8',1,7,'4712',NULL
+'N8',1,8,'4714',NULL
+'N8',1,9,'822',NULL
+'N8',1,10,'824',NULL
+'N8',1,11,'826',NULL
+'N8',1,12,'1260',NULL
+'N8',1,13,'1262',NULL
+'N8',1,14,'1264',NULL
+'N8',1,15,'1266',NULL
+'N8',1,16,'853',NULL
+'N8',1,17,'837',NULL
+'N8',1,18,'838',NULL
+'N8',1,19,'51014',NULL
+'N8',1,20,'1995',NULL
+'N8',1,21,'1996',NULL
+'N8',1,22,'848',NULL
+'N8',1,23,'3334',NULL
+'N8',1,24,'1056',NULL
+'N8',1,25,'2289',NULL
+'N8',1,26,'4641',NULL
+'N8',1,27,'1272',NULL
+'N8',1,28,'1274',NULL
+'N8',1,29,'5884',NULL
+'N8',1,30,'1278',NULL
+'N8',1,31,'4757',NULL
+'N8',1,32,'1829',NULL
+'N8',1,33,'1827',NULL
+'N8',1,34,'3498',NULL
+'N8',1,35,'4374',NULL
+'N8',1,36,'4422',NULL
+'N8',2,1,'4422',NULL
+'N8',2,2,'4373',NULL
+'N8',2,3,'1048',NULL
+'N8',2,4,'1826',NULL
+'N8',2,5,'1828',NULL
+'N8',2,6,'4758',NULL
+'N8',2,7,'1327',NULL
+'N8',2,8,'1277',NULL
+'N8',2,9,'1275',NULL
+'N8',2,10,'1273',NULL
+'N8',2,11,'4640',NULL
+'N8',2,12,'2288',NULL
+'N8',2,13,'1057',NULL
+'N8',2,14,'3026',NULL
+'N8',2,15,'3336',NULL
+'N8',2,16,'849',NULL
+'N8',2,17,'850',NULL
+'N8',2,18,'51013',NULL
+'N8',2,19,'839',NULL
+'N8',2,20,'851',NULL
+'N8',2,21,'852',NULL
+'N8',2,22,'4475',NULL
+'N8',2,23,'1265',NULL
+'N8',2,24,'1263',NULL
+'N8',2,25,'1261',NULL
+'N8',2,26,'827',NULL
+'N8',2,27,'825',NULL
+'N8',2,28,'823',NULL
+'N8',2,29,'4713',NULL
+'N8',2,30,'199',NULL
+'N8',2,31,'197',NULL
+'N8',2,32,'194',NULL
+'N8',2,33,'158',NULL
+'N8',2,34,'2171',NULL
+'N8',2,35,'3655',NULL
+'N9',1,1,'5443',NULL
+'N9',1,2,'77',NULL
+'N9',1,3,'79',NULL
+'N9',1,4,'81',NULL
+'N9',1,5,'1401',NULL
+'N9',1,6,'1402',NULL
+'N9',1,7,'2048',NULL
+'N9',1,8,'2130',NULL
+'N9',1,9,'2128',NULL
+'N9',1,10,'2605',NULL
+'N9',1,11,'2606',NULL
+'N9',1,12,'2608',NULL
+'N9',1,13,'4341',NULL
+'N9',1,14,'3353',NULL
+'N9',1,15,'2612',NULL
+'N9',1,16,'2622',NULL
+'N9',1,17,'2620',NULL
+'N9',1,18,'2621',NULL
+'N9',1,19,'2617',NULL
+'N9',1,20,'3970',NULL
+'N9',1,21,'5533',NULL
+'N9',1,22,'1033',NULL
+'N9',1,23,'4696',NULL
+'N9',1,24,'4684',NULL
+'N9',1,25,'4686',NULL
+'N9',1,26,'4697',NULL
+'N9',1,27,'3979',NULL
+'N9',1,28,'3849',NULL
+'N9',1,29,'3851',NULL
+'N9',1,30,'3853',NULL
+'N9',1,31,'3964',NULL
+'N9',1,32,'3965',NULL
+'N9',1,33,'3935',NULL
+'N9',2,1,'3935',NULL
+'N9',2,2,'5531',NULL
+'N9',2,3,'5536',NULL
+'N9',2,4,'4242',NULL
+'N9',2,5,'4112',NULL
+'N9',2,6,'3956',NULL
+'N9',2,7,'5534',NULL
+'N9',2,8,'3977',NULL
+'N9',2,9,'3950',NULL
+'N9',2,10,'3948',NULL
+'N9',2,11,'4699',NULL
+'N9',2,12,'5312',NULL
+'N9',2,13,'4027',NULL
+'N9',2,14,'1813',NULL
+'N9',2,15,'1815',NULL
+'N9',2,16,'5163',NULL
+'N9',2,17,'1030',NULL
+'N9',2,18,'1032',NULL
+'N9',2,19,'1034',NULL
+'N9',2,20,'4691',NULL
+'N9',2,21,'2618',NULL
+'N9',2,22,'2616',NULL
+'N9',2,23,'2615',NULL
+'N9',2,24,'2614',NULL
+'N9',2,25,'2623',NULL
+'N9',2,26,'2613',NULL
+'N9',2,27,'2610',NULL
+'N9',2,28,'2604',NULL
+'N9',2,29,'4594',NULL
+'N9',2,30,'4601',NULL
+'N9',2,31,'2611',NULL
+'N9',2,32,'2127',NULL
+'N9',2,33,'2129',NULL
+'N9',2,34,'1405',NULL
+'N9',2,35,'1403',NULL
+'N9',2,36,'2178',NULL
+'N9',2,37,'82',NULL
+'N9',2,38,'5511',NULL
+'N9',2,39,'78',NULL
+'N9',2,40,'5443',NULL
+'51',1,1,'3698',NULL
+'51',1,2,'1049',NULL
+'51',1,3,'5239',NULL
+'51',1,4,'70',NULL
+'51',1,5,'162',NULL
+'51',1,6,'423',NULL
+'51',1,7,'424',NULL
+'51',1,8,'425',NULL
+'51',1,9,'426',NULL
+'51',1,10,'427',NULL
+'51',1,11,'428',NULL
+'51',1,12,'5377',NULL
+'51',1,13,'430',NULL
+'51',1,14,'432',NULL
+'51',1,15,'418',NULL
+'51',1,16,'416',NULL
+'51',1,17,'433',NULL
+'51',1,18,'434',NULL
+'51',1,19,'435',NULL
+'51',1,20,'437',NULL
+'51',1,21,'51202',NULL
+'51',1,22,'439',NULL
+'51',1,23,'4832',NULL
+'51',1,24,'113',NULL
+'51',2,1,'113',NULL
+'51',2,2,'440',NULL
+'51',2,3,'4850',NULL
+'51',2,4,'438',NULL
+'51',2,5,'436',NULL
+'51',2,6,'441',NULL
+'51',2,7,'442',NULL
+'51',2,8,'443',NULL
+'51',2,9,'444',NULL
+'51',2,10,'445',NULL
+'51',2,11,'446',NULL
+'51',2,12,'447',NULL
+'51',2,13,'448',NULL
+'51',2,14,'4710',NULL
+'51',2,15,'449',NULL
+'51',2,16,'451',NULL
+'51',2,17,'452',NULL
+'51',2,18,'161',NULL
+'51',2,19,'69',NULL
+'51',2,20,'3698',NULL
+'N10',1,1,'5443',NULL
+'N10',1,2,'77',NULL
+'N10',1,3,'79',NULL
+'N10',1,4,'81',NULL
+'N10',1,5,'1401',NULL
+'N10',1,6,'1404',NULL
+'N10',1,7,'1408',NULL
+'N10',1,8,'2058',NULL
+'N10',1,9,'1001',NULL
+'N10',1,10,'1003',NULL
+'N10',1,11,'2561',NULL
+'N10',1,12,'2563',NULL
+'N10',1,13,'1103',NULL
+'N10',1,14,'1105',NULL
+'N10',1,15,'2095',NULL
+'N10',1,16,'2097',NULL
+'N10',1,17,'3301',NULL
+'N10',1,18,'2070',NULL
+'N10',1,19,'2072',NULL
+'N10',1,20,'2075',NULL
+'N10',1,21,'2077',NULL
+'N10',1,22,'2082',NULL
+'N10',1,23,'3346',NULL
+'N10',1,24,'3344',NULL
+'N10',1,25,'2533',NULL
+'N10',1,26,'2527',NULL
+'N10',2,1,'2527',NULL
+'N10',2,2,'2523',NULL
+'N10',2,3,'2521',NULL
+'N10',2,4,'5056',NULL
+'N10',2,5,'2519',NULL
+'N10',2,6,'2517',NULL
+'N10',2,7,'2515',NULL
+'N10',2,8,'1008',NULL
+'N10',2,9,'1006',NULL
+'N10',2,10,'1004',NULL
+'N10',2,11,'1002',NULL
+'N10',2,12,'4864',NULL
+'N10',2,13,'1409',NULL
+'N10',2,14,'1405',NULL
+'N10',2,15,'2178',NULL
+'N10',2,16,'82',NULL
+'N10',2,17,'5511',NULL
+'N10',2,18,'78',NULL
+'N10',2,19,'5443',NULL
+'N11',1,1,'5443',NULL
+'N11',1,2,'77',NULL
+'N11',1,3,'79',NULL
+'N11',1,4,'81',NULL
+'N11',1,5,'1401',NULL
+'N11',1,6,'5160',NULL
+'N11',1,7,'3913',NULL
+'N11',1,8,'1967',NULL
+'N11',1,9,'1969',NULL
+'N11',1,10,'2917',NULL
+'N11',1,11,'2920',NULL
+'N11',1,12,'2922',NULL
+'N11',1,13,'2924',NULL
+'N11',1,14,'2926',NULL
+'N11',1,15,'2928',NULL
+'N11',1,16,'2929',NULL
+'N11',1,17,'1115',NULL
+'N11',1,18,'1116',NULL
+'N11',1,19,'1093',NULL
+'N11',1,20,'2934',NULL
+'N11',1,21,'2209',NULL
+'N11',1,22,'4645',NULL
+'N11',1,23,'2577',NULL
+'N11',1,24,'3304',NULL
+'N11',1,25,'3306',NULL
+'N11',1,26,'3308',NULL
+'N11',1,27,'2570',NULL
+'N11',1,28,'2568',NULL
+'N11',1,29,'1112',NULL
+'N11',1,30,'4597',NULL
+'N11',2,1,'4597',NULL
+'N11',2,2,'3309',NULL
+'N11',2,3,'3307',NULL
+'N11',2,4,'3305',NULL
+'N11',2,5,'4838',NULL
+'N11',2,6,'4644',NULL
+'N11',2,7,'4657',NULL
+'N11',2,8,'4658',NULL
+'N11',2,9,'1094',NULL
+'N11',2,10,'1095',NULL
+'N11',2,11,'5437',NULL
+'N11',2,12,'2941',NULL
+'N11',2,13,'2942',NULL
+'N11',2,14,'2927',NULL
+'N11',2,15,'2925',NULL
+'N11',2,16,'2923',NULL
+'N11',2,17,'2921',NULL
+'N11',2,18,'1970',NULL
+'N11',2,19,'1968',NULL
+'N11',2,20,'1971',NULL
+'N11',2,21,'5221',NULL
+'N11',2,22,'5222',NULL
+'N11',2,23,'82',NULL
+'N11',2,24,'5511',NULL
+'N11',2,25,'78',NULL
+'N11',2,26,'5443',NULL
+'N12',1,1,'5442',NULL
+'N12',1,2,'77',NULL
+'N12',1,3,'79',NULL
+'N12',1,4,'81',NULL
+'N12',1,5,'83',NULL
+'N12',1,6,'84',NULL
+'N12',1,7,'320',NULL
+'N12',1,8,'322',NULL
+'N12',1,9,'326',NULL
+'N12',1,10,'327',NULL
+'N12',1,11,'4518',NULL
+'N12',1,12,'1118',NULL
+'N12',1,13,'4484',NULL
+'N12',1,14,'1120',NULL
+'N12',1,15,'1122',NULL
+'N12',1,16,'1124',NULL
+'N12',1,17,'930',NULL
+'N12',1,18,'932',NULL
+'N12',1,19,'934',NULL
+'N12',1,20,'936',NULL
+'N12',1,21,'5124',NULL
+'N12',1,22,'937',NULL
+'N12',1,23,'939',NULL
+'N12',1,24,'943',NULL
+'N12',1,25,'2839',NULL
+'N12',1,26,'4865',NULL
+'N12',1,27,'4867',NULL
+'N12',1,28,'5638',NULL
+'N12',1,29,'5244',NULL
+'N12',1,30,'5253',NULL
+'N12',1,31,'4982',NULL
+'N12',1,32,'3203',NULL
+'N12',1,33,'5072',NULL
+'N12',1,34,'3205',NULL
+'N12',1,35,'5074',NULL
+'N12',1,36,'4312',NULL
+'N12',1,37,'4314',NULL
+'N12',2,1,'4314',NULL
+'N12',2,2,'4313',NULL
+'N12',2,3,'5073',NULL
+'N12',2,4,'3255',NULL
+'N12',2,5,'4984',NULL
+'N12',2,6,'3257',NULL
+'N12',2,7,'4983',NULL
+'N12',2,8,'3752',NULL
+'N12',2,9,'5245',NULL
+'N12',2,10,'5775',NULL
+'N12',2,11,'4868',NULL
+'N12',2,12,'4866',NULL
+'N12',2,13,'945',NULL
+'N12',2,14,'944',NULL
+'N12',2,15,'940',NULL
+'N12',2,16,'938',NULL
+'N12',2,17,'5125',NULL
+'N12',2,18,'935',NULL
+'N12',2,19,'933',NULL
+'N12',2,20,'931',NULL
+'N12',2,21,'1125',NULL
+'N12',2,22,'1123',NULL
+'N12',2,23,'1121',NULL
+'N12',2,24,'4485',NULL
+'N12',2,25,'1119',NULL
+'N12',2,26,'4519',NULL
+'N12',2,27,'328',NULL
+'N12',2,28,'381',NULL
+'N12',2,29,'323',NULL
+'N12',2,30,'321',NULL
+'N12',2,31,'85',NULL
+'N12',2,32,'4985',NULL
+'N12',2,33,'82',NULL
+'N12',2,34,'5511',NULL
+'N12',2,35,'78',NULL
+'N12',2,36,'5442',NULL
+'N13',1,1,'76',NULL
+'N13',1,2,'77',NULL
+'N13',1,3,'79',NULL
+'N13',1,4,'81',NULL
+'N13',1,5,'1401',NULL
+'N13',1,6,'5160',NULL
+'N13',1,7,'3913',NULL
+'N13',1,8,'1967',NULL
+'N13',1,9,'1969',NULL
+'N13',1,10,'3366',NULL
+'N13',1,11,'3360',NULL
+'N13',1,12,'5512',NULL
+'N13',1,13,'2916',NULL
+'N13',1,14,'5718',NULL
+'N13',1,15,'5719',NULL
+'N13',1,16,'5720',NULL
+'N13',1,17,'1132',NULL
+'N13',1,18,'1135',NULL
+'N13',1,19,'1137',NULL
+'N13',1,20,'3195',NULL
+'N13',1,21,'3413',NULL
+'N13',1,22,'3414',NULL
+'N13',1,23,'1794',NULL
+'N13',1,24,'1176',NULL
+'N13',1,25,'1178',NULL
+'N13',1,26,'1179',NULL
+'N13',1,27,'1180',NULL
+'N13',2,1,'1180',NULL
+'N13',2,2,'1181',NULL
+'N13',2,3,'1177',NULL
+'N13',2,4,'1440',NULL
+'N13',2,5,'1444',NULL
+'N13',2,6,'1446',NULL
+'N13',2,7,'4825',NULL
+'N13',2,8,'3415',NULL
+'N13',2,9,'3200',NULL
+'N13',2,10,'3196',NULL
+'N13',2,11,'4728',NULL
+'N13',2,12,'1138',NULL
+'N13',2,13,'1136',NULL
+'N13',2,14,'1134',NULL
+'N13',2,15,'5380',NULL
+'N13',2,16,'5702',NULL
+'N13',2,17,'5703',NULL
+'N13',2,18,'5704',NULL
+'N13',2,19,'3201',NULL
+'N13',2,20,'5054',NULL
+'N13',2,21,'3359',NULL
+'N13',2,22,'3365',NULL
+'N13',2,23,'1970',NULL
+'N13',2,24,'1968',NULL
+'N13',2,25,'1971',NULL
+'N13',2,26,'5221',NULL
+'N13',2,27,'5222',NULL
+'N13',2,28,'82',NULL
+'N13',2,29,'5511',NULL
+'N13',2,30,'78',NULL
+'N13',2,31,'76',NULL
+'N14',1,1,'76',NULL
+'N14',1,2,'77',NULL
+'N14',1,3,'79',NULL
+'N14',1,4,'81',NULL
+'N14',1,5,'1167',NULL
+'N14',1,6,'1926',NULL
+'N14',1,7,'1927',NULL
+'N14',1,8,'1931',NULL
+'N14',1,9,'1933',NULL
+'N14',1,10,'1122',NULL
+'N14',1,11,'1124',NULL
+'N14',1,12,'5718',NULL
+'N14',1,13,'5719',NULL
+'N14',1,14,'5720',NULL
+'N14',1,15,'1132',NULL
+'N14',1,16,'1135',NULL
+'N14',1,17,'1137',NULL
+'N14',1,18,'1139',NULL
+'N14',1,19,'1143',NULL
+'N14',1,20,'1145',NULL
+'N14',1,21,'1189',NULL
+'N14',1,22,'1191',NULL
+'N14',1,23,'1193',NULL
+'N14',1,24,'1195',NULL
+'N14',1,25,'1196',NULL
+'N14',1,26,'2179',NULL
+'N14',1,27,'2181',NULL
+'N14',1,28,'2857',NULL
+'N14',1,29,'3901',NULL
+'N14',1,30,'2852',NULL
+'N14',1,31,'2848',NULL
+'N14',2,1,'2848',NULL
+'N14',2,2,'2851',NULL
+'N14',2,3,'3900',NULL
+'N14',2,4,'2856',NULL
+'N14',2,5,'5211',NULL
+'N14',2,6,'5214',NULL
+'N14',2,7,'2813',NULL
+'N14',2,8,'2811',NULL
+'N14',2,9,'1194',NULL
+'N14',2,10,'1192',NULL
+'N14',2,11,'1190',NULL
+'N14',2,12,'1146',NULL
+'N14',2,13,'1146',NULL
+'N14',2,14,'1147',NULL
+'N14',2,15,'1148',NULL
+'N14',2,16,'1140',NULL
+'N14',2,17,'4728',NULL
+'N14',2,18,'1138',NULL
+'N14',2,19,'1136',NULL
+'N14',2,20,'1134',NULL
+'N14',2,21,'5380',NULL
+'N14',2,22,'5702',NULL
+'N14',2,23,'5703',NULL
+'N14',2,24,'5704',NULL
+'N14',2,25,'1125',NULL
+'N14',2,26,'1123',NULL
+'N14',2,27,'1934',NULL
+'N14',2,28,'1932',NULL
+'N14',2,29,'1929',NULL
+'N14',2,30,'1930',NULL
+'N14',2,31,'1184',NULL
+'N14',2,32,'89',NULL
+'N14',2,33,'82',NULL
+'N14',2,34,'5511',NULL
+'N14',2,35,'78',NULL
+'N14',2,36,'76',NULL
+'N15',1,1,'5442',NULL
+'N15',1,2,'77',NULL
+'N15',1,3,'79',NULL
+'N15',1,4,'81',NULL
+'N15',1,5,'83',NULL
+'N15',1,6,'84',NULL
+'N15',1,7,'320',NULL
+'N15',1,8,'322',NULL
+'N15',1,9,'326',NULL
+'N15',1,10,'327',NULL
+'N15',1,11,'918',NULL
+'N15',1,12,'920',NULL
+'N15',1,13,'922',NULL
+'N15',1,14,'924',NULL
+'N15',1,15,'928',NULL
+'N15',1,16,'2423',NULL
+'N15',1,17,'2424',NULL
+'N15',1,18,'2426',NULL
+'N15',1,19,'5875',NULL
+'N15',1,20,'1947',NULL
+'N15',1,21,'1951',NULL
+'N15',1,22,'1953',NULL
+'N15',1,23,'1957',NULL
+'N15',1,24,'2824',NULL
+'N15',1,25,'4624',NULL
+'N15',1,26,'2828',NULL
+'N15',1,27,'2830',NULL
+'N15',1,28,'2832',NULL
+'N15',1,29,'5287',NULL
+'N15',1,30,'5256',NULL
+'N15',1,31,'1134',NULL
+'N15',1,32,'3898',NULL
+'N15',2,1,'3898',NULL
+'N15',2,2,'2794',NULL
+'N15',2,3,'2874',NULL
+'N15',2,4,'2875',NULL
+'N15',2,5,'3172',NULL
+'N15',2,6,'4814',NULL
+'N15',2,7,'4815',NULL
+'N15',2,8,'5288',NULL
+'N15',2,9,'5288',NULL
+'N15',2,10,'1948',NULL
+'N15',2,11,'4646',NULL
+'N15',2,12,'2427',NULL
+'N15',2,13,'2425',NULL
+'N15',2,14,'4352',NULL
+'N15',2,15,'929',NULL
+'N15',2,16,'925',NULL
+'N15',2,17,'923',NULL
+'N15',2,18,'921',NULL
+'N15',2,19,'919',NULL
+'N15',2,20,'328',NULL
+'N15',2,21,'381',NULL
+'N15',2,22,'323',NULL
+'N15',2,23,'321',NULL
+'N15',2,24,'85',NULL
+'N15',2,25,'4985',NULL
+'N15',2,26,'82',NULL
+'N15',2,27,'5511',NULL
+'N15',2,28,'78',NULL
+'N15',2,29,'5442',NULL
+'N16',1,1,'69',NULL
+'N16',1,2,'5137',NULL
+'N16',1,3,'4094',NULL
+'N16',1,4,'9',NULL
+'N16',1,5,'168',NULL
+'N16',1,6,'170',NULL
+'N16',1,7,'1875',NULL
+'N16',1,8,'1879',NULL
+'N16',1,9,'1883',NULL
+'N16',1,10,'550',NULL
+'N16',1,11,'552',NULL
+'N16',1,12,'554',NULL
+'N16',1,13,'555',NULL
+'N16',1,14,'557',NULL
+'N16',1,15,'559',NULL
+'N16',1,16,'563',NULL
+'N16',1,17,'2552',NULL
+'N16',1,18,'2550',NULL
+'N16',1,19,'2548',NULL
+'N16',1,20,'5601',NULL
+'N16',1,21,'3033',NULL
+'N16',1,22,'4609',NULL
+'N16',1,23,'3036',NULL
+'N16',1,24,'3040',NULL
+'N16',1,25,'4595',NULL
+'N16',1,26,'2446',NULL
+'N16',1,27,'2448',NULL
+'N16',1,28,'2450',NULL
+'N16',1,29,'2452',NULL
+'N16',1,30,'2453',NULL
+'N16',1,31,'2456',NULL
+'N16',1,32,'3048',NULL
+'N16',1,33,'3050',NULL
+'N16',1,34,'4183',NULL
+'N16',1,35,'4185',NULL
+'N16',1,36,'4187',NULL
+'N16',1,37,'4092',NULL
+'N16',1,38,'2964',NULL
+'N16',1,39,'2965',NULL
+'N16',1,40,'4219',NULL
+'N16',2,1,'4219',NULL
+'N16',2,2,'4090',NULL
+'N16',2,3,'4091',NULL
+'N16',2,4,'4188',NULL
+'N16',2,5,'4186',NULL
+'N16',2,6,'4184',NULL
+'N16',2,7,'3051',NULL
+'N16',2,8,'5059',NULL
+'N16',2,9,'2454',NULL
+'N16',2,10,'2455',NULL
+'N16',2,11,'2451',NULL
+'N16',2,12,'2449',NULL
+'N16',2,13,'2447',NULL
+'N16',2,14,'3041',NULL
+'N16',2,15,'3037',NULL
+'N16',2,16,'2470',NULL
+'N16',2,17,'3034',NULL
+'N16',2,18,'5600',NULL
+'N16',2,19,'2547',NULL
+'N16',2,20,'2549',NULL
+'N16',2,21,'2551',NULL
+'N16',2,22,'5506',NULL
+'N16',2,23,'560',NULL
+'N16',2,24,'558',NULL
+'N16',2,25,'556',NULL
+'N16',2,26,'592',NULL
+'N16',2,27,'553',NULL
+'N16',2,28,'551',NULL
+'N16',2,29,'593',NULL
+'N16',2,30,'1884',NULL
+'N16',2,31,'1880',NULL
+'N16',2,32,'1876',NULL
+'N16',2,33,'171',NULL
+'N16',2,34,'169',NULL
+'N16',2,35,'723',NULL
+'N16',2,36,'724',NULL
+'N16',2,37,'5138',NULL
+'N16',2,38,'90',NULL
+'N16',2,39,'69',NULL
+'N17',1,1,'69',NULL
+'N17',1,2,'77',NULL
+'N17',1,3,'79',NULL
+'N17',1,4,'81',NULL
+'N17',1,5,'83',NULL
+'N17',1,6,'84',NULL
+'N17',1,7,'2591',NULL
+'N17',1,8,'2818',NULL
+'N17',1,9,'5623',NULL
+'N17',1,10,'2536',NULL
+'N17',1,11,'2538',NULL
+'N17',1,12,'51172',NULL
+'N17',1,13,'3135',NULL
+'N17',1,14,'2966',NULL
+'N17',1,15,'4587',NULL
+'N17',1,16,'5549',NULL
+'N17',1,17,'5550',NULL
+'N17',1,18,'4670',NULL
+'N17',1,19,'341',NULL
+'N17',1,20,'343',NULL
+'N17',1,21,'4846',NULL
+'N17',1,22,'4528',NULL
+'N17',1,23,'1151',NULL
+'N17',1,24,'1152',NULL
+'N17',1,25,'1154',NULL
+'N17',1,26,'1156',NULL
+'N17',1,27,'379',NULL
+'N17',1,28,'4019',NULL
+'N17',1,29,'1158',NULL
+'N17',1,30,'1159',NULL
+'N17',1,31,'1160',NULL
+'N17',1,32,'1161',NULL
+'N17',1,33,'3632',NULL
+'N17',1,34,'640',NULL
+'N17',1,35,'3860',NULL
+'N17',1,36,'562',NULL
+'N17',2,1,'562',NULL
+'N17',2,2,'3859',NULL
+'N17',2,3,'687',NULL
+'N17',2,4,'3633',NULL
+'N17',2,5,'3631',NULL
+'N17',2,6,'1162',NULL
+'N17',2,7,'1164',NULL
+'N17',2,8,'1165',NULL
+'N17',2,9,'4020',NULL
+'N17',2,10,'378',NULL
+'N17',2,11,'1157',NULL
+'N17',2,12,'1155',NULL
+'N17',2,13,'1153',NULL
+'N17',2,14,'589',NULL
+'N17',2,15,'1150',NULL
+'N17',2,16,'1149',NULL
+'N17',2,17,'342',NULL
+'N17',2,18,'4671',NULL
+'N17',2,19,'5601',NULL
+'N17',2,20,'2471',NULL
+'N17',2,21,'2472',NULL
+'N17',2,22,'5051',NULL
+'N17',2,23,'2543',NULL
+'N17',2,24,'2541',NULL
+'N17',2,25,'2539',NULL
+'N17',2,26,'2537',NULL
+'N17',2,27,'2535',NULL
+'N17',2,28,'5335',NULL
+'N17',2,29,'2819',NULL
+'N17',2,30,'2592',NULL
+'N17',2,31,'85',NULL
+'N17',2,32,'4985',NULL
+'N17',2,33,'82',NULL
+'N17',2,34,'5511',NULL
+'N17',2,35,'78',NULL
+'N17',2,36,'69',NULL
+'N18',1,1,'69',NULL
+'N18',1,2,'5137',NULL
+'N18',1,3,'4094',NULL
+'N18',1,4,'9',NULL
+'N18',1,5,'168',NULL
+'N18',1,6,'170',NULL
+'N18',1,7,'599',NULL
+'N18',1,8,'603',NULL
+'N18',1,9,'4070',NULL
+'N18',1,10,'608',NULL
+'N18',1,11,'871',NULL
+'N18',1,12,'4542',NULL
+'N18',1,13,'1454',NULL
+'N18',1,14,'4633',NULL
+'N18',1,15,'1459',NULL
+'N18',1,16,'1463',NULL
+'N18',1,17,'1467',NULL
+'N18',1,18,'1471',NULL
+'N18',1,19,'1474',NULL
+'N18',1,20,'4782',NULL
+'N18',1,21,'5094',NULL
+'N18',1,22,'621',NULL
+'N18',1,23,'623',NULL
+'N18',1,24,'625',NULL
+'N18',1,25,'5178',NULL
+'N18',1,26,'629',NULL
+'N18',1,27,'631',NULL
+'N18',1,28,'3416',NULL
+'N18',1,29,'3417',NULL
+'N18',1,30,'575',NULL
+'N18',1,31,'4505',NULL
+'N18',1,32,'655',NULL
+'N18',1,33,'373',NULL
+'N18',2,1,'373',NULL
+'N18',2,2,'371',NULL
+'N18',2,3,'654',NULL
+'N18',2,4,'4504',NULL
+'N18',2,5,'5064',NULL
+'N18',2,6,'51180',NULL
+'N18',2,7,'2274',NULL
+'N18',2,8,'2272',NULL
+'N18',2,9,'630',NULL
+'N18',2,10,'5179',NULL
+'N18',2,11,'626',NULL
+'N18',2,12,'624',NULL
+'N18',2,13,'622',NULL
+'N18',2,14,'2262',NULL
+'N18',2,15,'2558',NULL
+'N18',2,16,'1475',NULL
+'N18',2,17,'1470',NULL
+'N18',2,18,'1468',NULL
+'N18',2,19,'1464',NULL
+'N18',2,20,'1460',NULL
+'N18',2,21,'4634',NULL
+'N18',2,22,'1455',NULL
+'N18',2,23,'1456',NULL
+'N18',2,24,'872',NULL
+'N18',2,25,'609',NULL
+'N18',2,26,'604',NULL
+'N18',2,27,'742',NULL
+'N18',2,28,'171',NULL
+'N18',2,29,'169',NULL
+'N18',2,30,'723',NULL
+'N18',2,31,'724',NULL
+'N18',2,32,'5138',NULL
+'N18',2,33,'69',NULL
+'N19',1,1,'69',NULL
+'N19',1,2,'5137',NULL
+'N19',1,3,'4094',NULL
+'N19',1,4,'9',NULL
+'N19',1,5,'168',NULL
+'N19',1,6,'170',NULL
+'N19',1,7,'599',NULL
+'N19',1,8,'603',NULL
+'N19',1,9,'4070',NULL
+'N19',1,10,'608',NULL
+'N19',1,11,'871',NULL
+'N19',1,12,'873',NULL
+'N19',1,13,'875',NULL
+'N19',1,14,'877',NULL
+'N19',1,15,'879',NULL
+'N19',1,16,'2255',NULL
+'N19',1,17,'51130',NULL
+'N19',1,18,'1471',NULL
+'N19',1,19,'1472',NULL
+'N19',1,20,'1474',NULL
+'N19',1,21,'5188',NULL
+'N19',1,22,'51125',NULL
+'N19',1,23,'892',NULL
+'N19',1,24,'894',NULL
+'N19',1,25,'51079',NULL
+'N19',1,26,'898',NULL
+'N19',1,27,'900',NULL
+'N19',1,28,'901',NULL
+'N19',1,29,'4482',NULL
+'N19',1,30,'644',NULL
+'N19',1,31,'646',NULL
+'N19',1,32,'5215',NULL
+'N19',1,33,'3150',NULL
+'N19',1,34,'374',NULL
+'N19',1,35,'375',NULL
+'N19',2,1,'375',NULL
+'N19',2,2,'366',NULL
+'N19',2,3,'364',NULL
+'N19',2,4,'362',NULL
+'N19',2,5,'360',NULL
+'N19',2,6,'5640',NULL
+'N19',2,7,'5641',NULL
+'N19',2,8,'651',NULL
+'N19',2,9,'3809',NULL
+'N19',2,10,'5159',NULL
+'N19',2,11,'647',NULL
+'N19',2,12,'909',NULL
+'N19',2,13,'910',NULL
+'N19',2,14,'899',NULL
+'N19',2,15,'51080',NULL
+'N19',2,16,'895',NULL
+'N19',2,17,'893',NULL
+'N19',2,18,'51126',NULL
+'N19',2,19,'5192',NULL
+'N19',2,20,'1475',NULL
+'N19',2,21,'1473',NULL
+'N19',2,22,'51127',NULL
+'N19',2,23,'51131',NULL
+'N19',2,24,'2256',NULL
+'N19',2,25,'880',NULL
+'N19',2,26,'878',NULL
+'N19',2,27,'876',NULL
+'N19',2,28,'874',NULL
+'N19',2,29,'872',NULL
+'N19',2,30,'609',NULL
+'N19',2,31,'604',NULL
+'N19',2,32,'742',NULL
+'N19',2,33,'171',NULL
+'N19',2,34,'169',NULL
+'N19',2,35,'723',NULL
+'N19',2,36,'724',NULL
+'N19',2,37,'5138',NULL
+'N19',2,38,'69',NULL
+'52',1,1,'1773',NULL
+'52',1,2,'90',NULL
+'52',1,3,'70',NULL
+'52',1,4,'162',NULL
+'52',1,5,'751',NULL
+'52',1,6,'2225',NULL
+'52',1,7,'2227',NULL
+'52',1,8,'2229',NULL
+'52',1,9,'4052',NULL
+'52',1,10,'2233',NULL
+'52',1,11,'5787',NULL
+'52',1,12,'5237',NULL
+'52',1,13,'2239',NULL
+'52',1,14,'2241',NULL
+'52',1,15,'2243',NULL
+'52',1,16,'414',NULL
+'52',1,17,'412',NULL
+'52',1,18,'2503',NULL
+'52',1,19,'2504',NULL
+'52',1,20,'2505',NULL
+'52',1,21,'2506',NULL
+'52',1,22,'2507',NULL
+'52',1,23,'2508',NULL
+'52',2,1,'2508',NULL
+'52',2,2,'2509',NULL
+'52',2,3,'2510',NULL
+'52',2,4,'2511',NULL
+'52',2,5,'2512',NULL
+'52',2,6,'2513',NULL
+'52',2,7,'413',NULL
+'52',2,8,'415',NULL
+'52',2,9,'2244',NULL
+'52',2,10,'2242',NULL
+'52',2,11,'2240',NULL
+'52',2,12,'2238',NULL
+'52',2,13,'2236',NULL
+'52',2,14,'2234',NULL
+'52',2,15,'2232',NULL
+'52',2,16,'2230',NULL
+'52',2,17,'2228',NULL
+'52',2,18,'4925',NULL
+'52',2,19,'4055',NULL
+'52',2,20,'161',NULL
+'52',2,21,'69',NULL
+'52',2,22,'1773',NULL
+'N20',1,1,'3729',NULL
+'N20',1,2,'5137',NULL
+'N20',1,3,'4094',NULL
+'N20',1,4,'9',NULL
+'N20',1,5,'168',NULL
+'N20',1,6,'170',NULL
+'N20',1,7,'599',NULL
+'N20',1,8,'603',NULL
+'N20',1,9,'2296',NULL
+'N20',1,10,'860',NULL
+'N20',1,11,'2407',NULL
+'N20',1,12,'2411',NULL
+'N20',1,13,'4499',NULL
+'N20',1,14,'4500',NULL
+'N20',1,15,'2415',NULL
+'N20',1,16,'1684',NULL
+'N20',1,17,'1687',NULL
+'N20',1,18,'1691',NULL
+'N20',1,19,'1693',NULL
+'N20',1,20,'4285',NULL
+'N20',1,21,'1697',NULL
+'N20',1,22,'1699',NULL
+'N20',1,23,'1701',NULL
+'N20',1,24,'1703',NULL
+'N20',1,25,'1705',NULL
+'N20',1,26,'3391',NULL
+'N20',1,27,'1711',NULL
+'N20',1,28,'3733',NULL
+'N20',1,29,'3821',NULL
+'N20',1,30,'5950',NULL
+'N20',1,31,'1353',NULL
+'N20',1,32,'1720',NULL
+'N20',1,33,'1722',NULL
+'N20',1,34,'1724',NULL
+'N20',1,35,'1726',NULL
+'N20',1,36,'1632',NULL
+'N20',1,37,'4819',NULL
+'N20',1,38,'4823',NULL
+'N20',1,39,'4292',NULL
+'N20',2,1,'4292',NULL
+'N20',2,2,'4824',NULL
+'N20',2,3,'4820',NULL
+'N20',2,4,'1630',NULL
+'N20',2,5,'1628',NULL
+'N20',2,6,'1626',NULL
+'N20',2,7,'1551',NULL
+'N20',2,8,'1598',NULL
+'N20',2,9,'5996',NULL
+'N20',2,10,'1592',NULL
+'N20',2,11,'1590',NULL
+'N20',2,12,'1588',NULL
+'N20',2,13,'1706',NULL
+'N20',2,14,'1704',NULL
+'N20',2,15,'5309',NULL
+'N20',2,16,'1700',NULL
+'N20',2,17,'1698',NULL
+'N20',2,18,'1696',NULL
+'N20',2,19,'1694',NULL
+'N20',2,20,'1692',NULL
+'N20',2,21,'1688',NULL
+'N20',2,22,'1685',NULL
+'N20',2,23,'2416',NULL
+'N20',2,24,'2414',NULL
+'N20',2,25,'4295',NULL
+'N20',2,26,'2412',NULL
+'N20',2,27,'2408',NULL
+'N20',2,28,'861',NULL
+'N20',2,29,'857',NULL
+'N20',2,30,'604',NULL
+'N20',2,31,'742',NULL
+'N20',2,32,'171',NULL
+'N20',2,33,'169',NULL
+'N20',2,34,'723',NULL
+'N20',2,35,'724',NULL
+'N20',2,36,'5138',NULL
+'N20',2,37,'3729',NULL
+'N21',1,1,'3729',NULL
+'N21',1,2,'5137',NULL
+'N21',1,3,'4094',NULL
+'N21',1,4,'9',NULL
+'N21',1,5,'168',NULL
+'N21',1,6,'283',NULL
+'N21',1,7,'1750',NULL
+'N21',1,8,'172',NULL
+'N21',1,9,'736',NULL
+'N21',1,10,'738',NULL
+'N21',1,11,'3688',NULL
+'N21',1,12,'4021',NULL
+'N21',1,13,'803',NULL
+'N21',1,14,'2392',NULL
+'N21',1,15,'2394',NULL
+'N21',1,16,'1666',NULL
+'N21',1,17,'1670',NULL
+'N21',1,18,'1672',NULL
+'N21',1,19,'1674',NULL
+'N21',1,20,'1577',NULL
+'N21',1,21,'1643',NULL
+'N21',1,22,'1645',NULL
+'N21',1,23,'1647',NULL
+'N21',1,24,'1649',NULL
+'N21',1,25,'1653',NULL
+'N21',1,26,'1655',NULL
+'N21',1,27,'1657',NULL
+'N21',1,28,'1516',NULL
+'N21',1,29,'1514',NULL
+'N21',1,30,'1624',NULL
+'N21',1,31,'1622',NULL
+'N21',1,32,'1620',NULL
+'N21',1,33,'1361',NULL
+'N21',1,34,'1595',NULL
+'N21',1,35,'1564',NULL
+'N21',1,36,'51145',NULL
+'N21',1,37,'5207',NULL
+'N21',1,38,'5223',NULL
+'N21',2,1,'5223',NULL
+'N21',2,2,'1596',NULL
+'N21',2,3,'1358',NULL
+'N21',2,4,'1619',NULL
+'N21',2,5,'1621',NULL
+'N21',2,6,'1623',NULL
+'N21',2,7,'1513',NULL
+'N21',2,8,'1515',NULL
+'N21',2,9,'1658',NULL
+'N21',2,10,'1656',NULL
+'N21',2,11,'1654',NULL
+'N21',2,12,'1650',NULL
+'N21',2,13,'1648',NULL
+'N21',2,14,'1646',NULL
+'N21',2,15,'1644',NULL
+'N21',2,16,'1578',NULL
+'N21',2,17,'1675',NULL
+'N21',2,18,'1673',NULL
+'N21',2,19,'1671',NULL
+'N21',2,20,'1667',NULL
+'N21',2,21,'2395',NULL
+'N21',2,22,'2393',NULL
+'N21',2,23,'2389',NULL
+'N21',2,24,'4022',NULL
+'N21',2,25,'3687',NULL
+'N21',2,26,'737',NULL
+'N21',2,27,'735',NULL
+'N21',2,28,'173',NULL
+'N21',2,29,'741',NULL
+'N21',2,30,'171',NULL
+'N21',2,31,'169',NULL
+'N21',2,32,'723',NULL
+'N21',2,33,'724',NULL
+'N21',2,34,'5138',NULL
+'N21',2,35,'3729',NULL
+'N22',1,1,'72',NULL
+'N22',1,2,'72',NULL
+'N22',1,3,'65',NULL
+'N22',1,4,'66',NULL
+'N22',1,5,'66',NULL
+'N22',1,6,'62',NULL
+'N22',1,7,'60',NULL
+'N22',1,8,'5333',NULL
+'N22',1,9,'56',NULL
+'N22',1,10,'54',NULL
+'N22',1,11,'52',NULL
+'N22',1,12,'50',NULL
+'N22',1,13,'47',NULL
+'N22',1,14,'42',NULL
+'N22',1,15,'37',NULL
+'N22',1,16,'35',NULL
+'N22',1,17,'33',NULL
+'N22',1,18,'29',NULL
+'N22',1,19,'1532',NULL
+'N22',1,20,'5632',NULL
+'N22',1,21,'5633',NULL
+'N22',1,22,'5634',NULL
+'N22',1,23,'5635',NULL
+'N22',1,24,'5636',NULL
+'N22',1,25,'4264',NULL
+'N22',1,26,'4354',NULL
+'N22',1,27,'1542',NULL
+'N22',1,28,'1503',NULL
+'N22',1,29,'1364',NULL
+'N22',1,30,'1366',NULL
+'N22',1,31,'1368',NULL
+'N22',1,32,'1546',NULL
+'N22',1,33,'5218',NULL
+'N22',1,34,'51008',NULL
+'N22',2,1,'51008',NULL
+'N22',2,2,'1639',NULL
+'N22',2,3,'1379',NULL
+'N22',2,4,'1371',NULL
+'N22',2,5,'93',NULL
+'N22',2,6,'1367',NULL
+'N22',2,7,'1365',NULL
+'N22',2,8,'1504',NULL
+'N22',2,9,'1543',NULL
+'N22',2,10,'4355',NULL
+'N22',2,11,'1539',NULL
+'N22',2,12,'1537',NULL
+'N22',2,13,'1535',NULL
+'N22',2,14,'5268',NULL
+'N22',2,15,'1533',NULL
+'N22',2,16,'28',NULL
+'N22',2,17,'32',NULL
+'N22',2,18,'34',NULL
+'N22',2,19,'36',NULL
+'N22',2,20,'41',NULL
+'N22',2,21,'5340',NULL
+'N22',2,22,'49',NULL
+'N22',2,23,'51',NULL
+'N22',2,24,'53',NULL
+'N22',2,25,'4337',NULL
+'N22',2,26,'57',NULL
+'N22',2,27,'59',NULL
+'N22',2,28,'61',NULL
+'N22',2,29,'63',NULL
+'N22',2,30,'5626',NULL
+'N22',2,31,'72',NULL
+'N22',2,32,'72',NULL
+'N23',1,1,'73',NULL
+'N23',1,2,'65',NULL
+'N23',1,3,'1232',NULL
+'N23',1,4,'1230',NULL
+'N23',1,5,'1865',NULL
+'N23',1,6,'1868',NULL
+'N23',1,7,'1869',NULL
+'N23',1,8,'1397',NULL
+'N23',1,9,'1398',NULL
+'N23',1,10,'1420',NULL
+'N23',1,11,'1568',NULL
+'N23',1,12,'1571',NULL
+'N23',1,13,'4083',NULL
+'N23',1,14,'2651',NULL
+'N23',1,15,'1533',NULL
+'N23',1,16,'5014',NULL
+'N23',1,17,'5016',NULL
+'N23',1,18,'5018',NULL
+'N23',1,19,'5020',NULL
+'N23',1,20,'5212',NULL
+'N23',1,21,'5213',NULL
+'N23',1,22,'1544',NULL
+'N23',1,23,'1546',NULL
+'N23',1,24,'1636',NULL
+'N23',1,25,'5382',NULL
+'N23',1,26,'1637',NULL
+'N23',1,27,'3293',NULL
+'N23',1,28,'3294',NULL
+'N23',1,29,'3571',NULL
+'N23',1,30,'1753',NULL
+'N23',1,31,'1762',NULL
+'N23',1,32,'3623',NULL
+'N23',1,33,'2864',NULL
+'N23',1,34,'2968',NULL
+'N23',1,35,'2970',NULL
+'N23',1,36,'1021',NULL
+'N23',1,37,'1022',NULL
+'N23',1,38,'1025',NULL
+'N23',1,39,'3279',NULL
+'N23',2,1,'3279',NULL
+'N23',2,2,'1026',NULL
+'N23',2,3,'1028',NULL
+'N23',2,4,'1029',NULL
+'N23',2,5,'3626',NULL
+'N23',2,6,'3628',NULL
+'N23',2,7,'3625',NULL
+'N23',2,8,'3624',NULL
+'N23',2,9,'3622',NULL
+'N23',2,10,'1761',NULL
+'N23',2,11,'3996',NULL
+'N23',2,12,'3572',NULL
+'N23',2,13,'51091',NULL
+'N23',2,14,'3228',NULL
+'N23',2,15,'3229',NULL
+'N23',2,16,'1612',NULL
+'N23',2,17,'1547',NULL
+'N23',2,18,'1545',NULL
+'N23',2,19,'1778',NULL
+'N23',2,20,'1777',NULL
+'N23',2,21,'5021',NULL
+'N23',2,22,'5019',NULL
+'N23',2,23,'5017',NULL
+'N23',2,24,'5015',NULL
+'N23',2,25,'1532',NULL
+'N23',2,26,'4147',NULL
+'N23',2,27,'569',NULL
+'N23',2,28,'1859',NULL
+'N23',2,29,'1600',NULL
+'N23',2,30,'1419',NULL
+'N23',2,31,'4496',NULL
+'N23',2,32,'1383',NULL
+'N23',2,33,'3389',NULL
+'N23',2,34,'3379',NULL
+'N23',2,35,'3375',NULL
+'N23',2,36,'1227',NULL
+'N23',2,37,'1229',NULL
+'N23',2,38,'5626',NULL
+'N23',2,39,'73',NULL
+'N24',1,1,'72',NULL
+'N24',1,2,'72',NULL
+'N24',1,3,'65',NULL
+'N24',1,4,'66',NULL
+'N24',1,5,'66',NULL
+'N24',1,6,'62',NULL
+'N24',1,7,'60',NULL
+'N24',1,8,'5333',NULL
+'N24',1,9,'56',NULL
+'N24',1,10,'54',NULL
+'N24',1,11,'52',NULL
+'N24',1,12,'50',NULL
+'N24',1,13,'47',NULL
+'N24',1,14,'42',NULL
+'N24',1,15,'37',NULL
+'N24',1,16,'35',NULL
+'N24',1,17,'33',NULL
+'N24',1,18,'29',NULL
+'N24',1,19,'1486',NULL
+'N24',1,20,'1487',NULL
+'N24',1,21,'3826',NULL
+'N24',1,22,'1489',NULL
+'N24',1,23,'1602',NULL
+'N24',1,24,'1606',NULL
+'N24',1,25,'3222',NULL
+'N24',1,26,'3223',NULL
+'N24',1,27,'2664',NULL
+'N24',1,28,'2666',NULL
+'N24',1,29,'2668',NULL
+'N24',1,30,'2670',NULL
+'N24',1,31,'2672',NULL
+'N24',1,32,'2676',NULL
+'N24',1,33,'2678',NULL
+'N24',1,34,'5543',NULL
+'N24',1,35,'399',NULL
+'N24',1,36,'5535',NULL
+'N24',1,37,'3792',NULL
+'N24',1,38,'3789',NULL
+'N24',1,39,'51032',NULL
+'N24',1,40,'3775',NULL
+'N24',1,41,'3870',NULL
+'N24',1,42,'3800',NULL
+'N24',1,43,'3801',NULL
+'N24',1,44,'3871',NULL
+'N24',1,45,'3873',NULL
+'N24',1,46,'3805',NULL
+'N24',1,47,'4222',NULL
+'N24',2,1,'4222',NULL
+'N24',2,2,'3882',NULL
+'N24',2,3,'5544',NULL
+'N24',2,4,'2679',NULL
+'N24',2,5,'2677',NULL
+'N24',2,6,'2675',NULL
+'N24',2,7,'2673',NULL
+'N24',2,8,'2671',NULL
+'N24',2,9,'2669',NULL
+'N24',2,10,'2667',NULL
+'N24',2,11,'2663',NULL
+'N24',2,12,'3234',NULL
+'N24',2,13,'3235',NULL
+'N24',2,14,'3237',NULL
+'N24',2,15,'1607',NULL
+'N24',2,16,'5363',NULL
+'N24',2,17,'1640',NULL
+'N24',2,18,'1527',NULL
+'N24',2,19,'3568',NULL
+'N24',2,20,'28',NULL
+'N24',2,21,'32',NULL
+'N24',2,22,'34',NULL
+'N24',2,23,'36',NULL
+'N24',2,24,'41',NULL
+'N24',2,25,'5340',NULL
+'N24',2,26,'49',NULL
+'N24',2,27,'51',NULL
+'N24',2,28,'53',NULL
+'N24',2,29,'4337',NULL
+'N24',2,30,'57',NULL
+'N24',2,31,'59',NULL
+'N24',2,32,'61',NULL
+'N24',2,33,'63',NULL
+'N24',2,34,'5626',NULL
+'N24',2,35,'72',NULL
+'N24',2,36,'72',NULL
+'N25',1,1,'491',NULL
+'N25',1,2,'61',NULL
+'N25',1,3,'63',NULL
+'N25',1,4,'5626',NULL
+'N25',1,5,'73',NULL
+'N25',1,6,'1049',NULL
+'N25',1,7,'77',NULL
+'N25',1,8,'79',NULL
+'N25',1,9,'81',NULL
+'N25',1,10,'1401',NULL
+'N25',1,11,'1404',NULL
+'N25',1,12,'1408',NULL
+'N25',1,13,'2058',NULL
+'N25',1,14,'1001',NULL
+'N25',1,15,'1003',NULL
+'N25',1,16,'1005',NULL
+'N25',1,17,'1007',NULL
+'N25',1,18,'1009',NULL
+'N25',1,19,'1013',NULL
+'N25',1,20,'1015',NULL
+'N25',1,21,'1017',NULL
+'N25',1,22,'1019',NULL
+'N25',1,23,'1023',NULL
+'N25',1,24,'5163',NULL
+'N25',1,25,'1030',NULL
+'N25',2,1,'1030',NULL
+'N25',2,2,'4367',NULL
+'N25',2,3,'51176',NULL
+'N25',2,4,'1020',NULL
+'N25',2,5,'1018',NULL
+'N25',2,6,'1016',NULL
+'N25',2,7,'1014',NULL
+'N25',2,8,'1010',NULL
+'N25',2,9,'1008',NULL
+'N25',2,10,'1006',NULL
+'N25',2,11,'1004',NULL
+'N25',2,12,'1002',NULL
+'N25',2,13,'4864',NULL
+'N25',2,14,'1409',NULL
+'N25',2,15,'1405',NULL
+'N25',2,16,'2178',NULL
+'N25',2,17,'82',NULL
+'N25',2,18,'5511',NULL
+'N25',2,19,'78',NULL
+'N25',2,20,'5443',NULL
+'N25',2,21,'72',NULL
+'N25',2,22,'72',NULL
+'N25',2,23,'65',NULL
+'N25',2,24,'1232',NULL
+'N25',2,25,'491',NULL
+'N26',1,1,'491',NULL
+'N26',1,2,'61',NULL
+'N26',1,3,'63',NULL
+'N26',1,4,'5626',NULL
+'N26',1,5,'73',NULL
+'N26',1,6,'77',NULL
+'N26',1,7,'79',NULL
+'N26',1,8,'81',NULL
+'N26',1,9,'1920',NULL
+'N26',1,10,'1918',NULL
+'N26',1,11,'913',NULL
+'N26',1,12,'545',NULL
+'N26',1,13,'547',NULL
+'N26',1,14,'594',NULL
+'N26',1,15,'914',NULL
+'N26',1,16,'916',NULL
+'N26',1,17,'329',NULL
+'N26',1,18,'5624',NULL
+'N26',1,19,'4239',NULL
+'N26',1,20,'5560',NULL
+'N26',1,21,'3032',NULL
+'N26',1,22,'337',NULL
+'N26',1,23,'4078',NULL
+'N26',1,24,'2547',NULL
+'N26',1,25,'3715',NULL
+'N26',1,26,'4528',NULL
+'N26',1,27,'1151',NULL
+'N26',1,28,'5881',NULL
+'N26',1,29,'4881',NULL
+'N26',1,30,'570',NULL
+'N26',1,31,'4543',NULL
+'N26',1,32,'2277',NULL
+'N26',1,33,'5064',NULL
+'N26',2,1,'5064',NULL
+'N26',2,2,'4544',NULL
+'N26',2,3,'571',NULL
+'N26',2,4,'4705',NULL
+'N26',2,5,'4706',NULL
+'N26',2,6,'589',NULL
+'N26',2,7,'590',NULL
+'N26',2,8,'3716',NULL
+'N26',2,9,'2548',NULL
+'N26',2,10,'340',NULL
+'N26',2,11,'338',NULL
+'N26',2,12,'336',NULL
+'N26',2,13,'334',NULL
+'N26',2,14,'5625',NULL
+'N26',2,15,'331',NULL
+'N26',2,16,'330',NULL
+'N26',2,17,'917',NULL
+'N26',2,18,'915',NULL
+'N26',2,19,'593',NULL
+'N26',2,20,'548',NULL
+'N26',2,21,'546',NULL
+'N26',2,22,'1919',NULL
+'N26',2,23,'1921',NULL
+'N26',2,24,'82',NULL
+'N26',2,25,'5511',NULL
+'N26',2,26,'78',NULL
+'N26',2,27,'72',NULL
+'N26',2,28,'72',NULL
+'N26',2,29,'65',NULL
+'N26',2,30,'1232',NULL
+'N26',2,31,'491',NULL
+'N27',1,1,'71',NULL
+'N27',1,2,'153',NULL
+'N27',1,3,'3539',NULL
+'N27',1,4,'4853',NULL
+'N27',1,5,'5726',NULL
+'N27',2,1,'5726',NULL
+'N27',2,2,'3542',NULL
+'N27',2,3,'3540',NULL
+'N27',2,4,'5620',NULL
+'N27',2,5,'71',NULL
+'N28',1,1,'2419',NULL
+'N28',1,2,'1330',NULL
+'N28',1,3,'2416',NULL
+'N28',1,4,'4295',NULL
+'N28',1,5,'3425',NULL
+'N28',1,6,'3427',NULL
+'N28',1,7,'3431',NULL
+'N28',1,8,'5599',NULL
+'N28',1,9,'4578',NULL
+'N28',1,10,'4584',NULL
+'N28',1,11,'4790',NULL
+'N28',1,12,'4793',NULL
+'N28',1,13,'5645',NULL
+'N28',1,14,'3443',NULL
+'N28',1,15,'3467',NULL
+'N28',1,16,'5345',NULL
+'N28',1,17,'5678',NULL
+'N28',1,18,'4190',NULL
+'N28',1,19,'3445',NULL
+'N28',2,1,'3445',NULL
+'N28',2,2,'3840',NULL
+'N28',2,3,'3447',NULL
+'N28',2,4,'4794',NULL
+'N28',2,5,'4791',NULL
+'N28',2,6,'4792',NULL
+'N28',2,7,'4579',NULL
+'N28',2,8,'5598',NULL
+'N28',2,9,'3432',NULL
+'N28',2,10,'3428',NULL
+'N28',2,11,'3426',NULL
+'N28',2,12,'4198',NULL
+'N28',2,13,'3449',NULL
+'N28',2,14,'2419',NULL
+'NC1',1,1,'1890',NULL
+'NC1',1,2,'2693',NULL
+'NC1',1,3,'2696',NULL
+'NC1',1,4,'420',NULL
+'NC1',1,5,'2698',NULL
+'NC1',1,6,'2700',NULL
+'NC1',1,7,'789',NULL
+'NC1',1,8,'811',NULL
+'NC1',1,9,'1427',NULL
+'NC1',1,10,'150',NULL
+'NC1',1,11,'4712',NULL
+'NC1',1,12,'1431',NULL
+'NC1',1,13,'2125',NULL
+'NC1',1,14,'2129',NULL
+'NC1',1,15,'1405',NULL
+'NC1',1,16,'1403',NULL
+'NC1',1,17,'5709',NULL
+'NC1',2,1,'5709',NULL
+'NC1',2,2,'83',NULL
+'NC1',2,3,'84',NULL
+'NC1',2,4,'320',NULL
+'NC1',2,5,'2357',NULL
+'NC1',2,6,'2359',NULL
+'NC1',2,7,'2363',NULL
+'NC1',2,8,'609',NULL
+'NC1',2,9,'1562',NULL
+'NC1',2,10,'742',NULL
+'NC1',2,11,'1750',NULL
+'NC1',2,12,'172',NULL
+'NC1',2,13,'736',NULL
+'NC1',2,14,'738',NULL
+'NC1',2,15,'3688',NULL
+'NC1',2,16,'2704',NULL
+'NC1',2,17,'2710',NULL
+'NC1',2,18,'1415',NULL
+'NC1',2,19,'1890',NULL
+'53',1,1,'2004',NULL
+'53',1,2,'5239',NULL
+'53',1,3,'72',NULL
+'53',1,4,'72',NULL
+'53',1,5,'65',NULL
+'53',1,6,'670',NULL
+'53',1,7,'672',NULL
+'53',1,8,'674',NULL
+'53',1,9,'676',NULL
+'53',1,10,'5451',NULL
+'53',1,11,'680',NULL
+'53',1,12,'682',NULL
+'53',1,13,'685',NULL
+'53',1,14,'686',NULL
+'53',1,15,'1233',NULL
+'53',1,16,'688',NULL
+'53',1,17,'689',NULL
+'53',1,18,'690',NULL
+'53',1,19,'5817',NULL
+'53',1,20,'694',NULL
+'53',1,21,'696',NULL
+'53',1,22,'5466',NULL
+'53',1,23,'699',NULL
+'53',1,24,'701',NULL
+'53',1,25,'703',NULL
+'53',1,26,'705',NULL
+'53',1,27,'707',NULL
+'53',1,28,'2024',NULL
+'53',1,29,'5768',NULL
+'53',2,1,'5768',NULL
+'53',2,2,'2025',NULL
+'53',2,3,'708',NULL
+'53',2,4,'706',NULL
+'53',2,5,'704',NULL
+'53',2,6,'702',NULL
+'53',2,7,'700',NULL
+'53',2,8,'698',NULL
+'53',2,9,'276',NULL
+'53',2,10,'695',NULL
+'53',2,11,'709',NULL
+'53',2,12,'693',NULL
+'53',2,13,'5264',NULL
+'53',2,14,'5264',NULL
+'53',2,15,'710',NULL
+'53',2,16,'711',NULL
+'53',2,17,'712',NULL
+'53',2,18,'5146',NULL
+'53',2,19,'684',NULL
+'53',2,20,'683',NULL
+'53',2,21,'681',NULL
+'53',2,22,'679',NULL
+'53',2,23,'4521',NULL
+'53',2,24,'675',NULL
+'53',2,25,'673',NULL
+'53',2,26,'671',NULL
+'53',2,27,'5626',NULL
+'53',2,28,'68',NULL
+'53',2,29,'69',NULL
+'53',2,30,'3689',NULL
+'53',2,31,'2004',NULL
+'NC2',1,1,'1940',NULL
+'NC2',1,2,'1416',NULL
+'NC2',1,3,'5141',NULL
+'NC2',1,4,'2705',NULL
+'NC2',1,5,'3687',NULL
+'NC2',1,6,'737',NULL
+'NC2',1,7,'735',NULL
+'NC2',1,8,'173',NULL
+'NC2',1,9,'741',NULL
+'NC2',1,10,'599',NULL
+'NC2',1,11,'4070',NULL
+'NC2',1,12,'2367',NULL
+'NC2',1,13,'2364',NULL
+'NC2',1,14,'2360',NULL
+'NC2',1,15,'2358',NULL
+'NC2',1,16,'5104',NULL
+'NC2',1,17,'85',NULL
+'NC2',1,18,'4985',NULL
+'NC2',1,19,'5710',NULL
+'NC2',2,1,'5710',NULL
+'NC2',2,2,'1402',NULL
+'NC2',2,3,'2048',NULL
+'NC2',2,4,'2130',NULL
+'NC2',2,5,'2126',NULL
+'NC2',2,6,'1432',NULL
+'NC2',2,7,'4713',NULL
+'NC2',2,8,'5822',NULL
+'NC2',2,9,'1428',NULL
+'NC2',2,10,'784',NULL
+'NC2',2,11,'788',NULL
+'NC2',2,12,'2701',NULL
+'NC2',2,13,'4999',NULL
+'NC2',2,14,'419',NULL
+'NC2',2,15,'2697',NULL
+'NC2',2,16,'2694',NULL
+'NC2',2,17,'1940',NULL
+'N31',1,1,'11980',NULL
+'N31',1,2,'1330',NULL
+'N31',1,3,'1332',NULL
+'N31',1,4,'1334',NULL
+'N31',1,5,'1338',NULL
+'N31',1,6,'1341',NULL
+'N31',1,7,'1343',NULL
+'N31',1,8,'5793',NULL
+'N31',1,9,'6315',NULL
+'N31',1,10,'6316',NULL
+'N31',1,11,'6317',NULL
+'N31',1,12,'6318',NULL
+'N31',1,13,'6319',NULL
+'N31',1,14,'10887',NULL
+'N31',1,15,'6320',NULL
+'N31',1,16,'6321',NULL
+'N31',1,17,'6322',NULL
+'N31',1,18,'6323',NULL
+'N31',1,19,'6324',NULL
+'N31',1,20,'51106',NULL
+'N31',1,21,'6325',NULL
+'N31',2,1,'6325',NULL
+'N31',2,2,'6326',NULL
+'N31',2,3,'6327',NULL
+'N31',2,4,'6328',NULL
+'N31',2,5,'6329',NULL
+'N31',2,6,'6330',NULL
+'N31',2,7,'6331',NULL
+'N31',2,8,'6332',NULL
+'N31',2,9,'6333',NULL
+'N31',2,10,'6334',NULL
+'N31',2,11,'1346',NULL
+'N31',2,12,'1344',NULL
+'N31',2,13,'1342',NULL
+'N31',2,14,'23',NULL
+'N31',2,15,'1335',NULL
+'N31',2,16,'1333',NULL
+'N31',2,17,'1331',NULL
+'N31',2,18,'11980',NULL
+'54',1,1,'5705',NULL
+'54',1,2,'1402',NULL
+'54',1,3,'1404',NULL
+'54',1,4,'1406',NULL
+'54',1,5,'1408',NULL
+'54',1,6,'1410',NULL
+'54',1,7,'2058',NULL
+'54',1,8,'1001',NULL
+'54',1,9,'1003',NULL
+'54',1,10,'1005',NULL
+'54',1,11,'1007',NULL
+'54',1,12,'1009',NULL
+'54',1,13,'2514',NULL
+'54',1,14,'2516',NULL
+'54',1,15,'2518',NULL
+'54',1,16,'5055',NULL
+'54',1,17,'2520',NULL
+'54',1,18,'2522',NULL
+'54',1,19,'2524',NULL
+'54',1,20,'2526',NULL
+'54',1,21,'4102',NULL
+'54',1,22,'2528',NULL
+'54',1,23,'2530',NULL
+'54',1,24,'2532',NULL
+'54',1,25,'1017',NULL
+'54',1,26,'1019',NULL
+'54',1,27,'4725',NULL
+'54',1,28,'4727',NULL
+'54',1,29,'4682',NULL
+'54',1,30,'1027',NULL
+'54',1,31,'5163',NULL
+'54',1,32,'4368',NULL
+'54',1,33,'4696',NULL
+'54',1,34,'4684',NULL
+'54',1,35,'4686',NULL
+'54',1,36,'4697',NULL
+'54',1,37,'3663',NULL
+'54',2,1,'3663',NULL
+'54',2,2,'4687',NULL
+'54',2,3,'4685',NULL
+'54',2,4,'1051',NULL
+'54',2,5,'1031',NULL
+'54',2,6,'4367',NULL
+'54',2,7,'4683',NULL
+'54',2,8,'4729',NULL
+'54',2,9,'4726',NULL
+'54',2,10,'1020',NULL
+'54',2,11,'1018',NULL
+'54',2,12,'2533',NULL
+'54',2,13,'5985',NULL
+'54',2,14,'5965',NULL
+'54',2,15,'4103',NULL
+'54',2,16,'2527',NULL
+'54',2,17,'2525',NULL
+'54',2,18,'2523',NULL
+'54',2,19,'2521',NULL
+'54',2,20,'5056',NULL
+'54',2,21,'2519',NULL
+'54',2,22,'2517',NULL
+'54',2,23,'2515',NULL
+'54',2,24,'1008',NULL
+'54',2,25,'1006',NULL
+'54',2,26,'1004',NULL
+'54',2,27,'1002',NULL
+'54',2,28,'2057',NULL
+'54',2,29,'1411',NULL
+'54',2,30,'1409',NULL
+'54',2,31,'1407',NULL
+'54',2,32,'1405',NULL
+'54',2,33,'1403',NULL
+'54',2,34,'5705',NULL
+'55',1,1,'2420',NULL
+'55',1,2,'2421',NULL
+'55',1,3,'3593',NULL
+'55',1,4,'1927',NULL
+'55',1,5,'5623',NULL
+'55',1,6,'2536',NULL
+'55',1,7,'2538',NULL
+'55',1,8,'51172',NULL
+'55',1,9,'3135',NULL
+'55',1,10,'2966',NULL
+'55',1,11,'4587',NULL
+'55',1,12,'5549',NULL
+'55',1,13,'5600',NULL
+'55',1,14,'2547',NULL
+'55',1,15,'2549',NULL
+'55',1,16,'2551',NULL
+'55',1,17,'2553',NULL
+'55',1,18,'2554',NULL
+'55',1,19,'2262',NULL
+'55',1,20,'2556',NULL
+'55',1,21,'2558',NULL
+'55',1,22,'4781',NULL
+'55',1,23,'5186',NULL
+'55',1,24,'5188',NULL
+'55',1,25,'2635',NULL
+'55',1,26,'2633',NULL
+'55',1,27,'2631',NULL
+'55',1,28,'2629',NULL
+'55',1,29,'3936',NULL
+'55',2,1,'3936',NULL
+'55',2,2,'2628',NULL
+'55',2,3,'2630',NULL
+'55',2,4,'2632',NULL
+'55',2,5,'5336',NULL
+'55',2,6,'5192',NULL
+'55',2,7,'5187',NULL
+'55',2,8,'5381',NULL
+'55',2,9,'4782',NULL
+'55',2,10,'2557',NULL
+'55',2,11,'5094',NULL
+'55',2,12,'5100',NULL
+'55',2,13,'2555',NULL
+'55',2,14,'639',NULL
+'55',2,15,'4766',NULL
+'55',2,16,'2552',NULL
+'55',2,17,'2550',NULL
+'55',2,18,'2548',NULL
+'55',2,19,'5601',NULL
+'55',2,20,'2471',NULL
+'55',2,21,'2472',NULL
+'55',2,22,'5051',NULL
+'55',2,23,'2543',NULL
+'55',2,24,'2541',NULL
+'55',2,25,'2539',NULL
+'55',2,26,'2537',NULL
+'55',2,27,'2535',NULL
+'55',2,28,'5335',NULL
+'55',2,29,'1929',NULL
+'55',2,30,'1930',NULL
+'55',2,31,'1184',NULL
+'55',2,32,'2420',NULL
+'56',1,1,'2224',NULL
+'56',1,2,'1247',NULL
+'56',1,3,'811',NULL
+'56',1,4,'3829',NULL
+'56',1,5,'1427',NULL
+'56',1,6,'148',NULL
+'56',1,7,'150',NULL
+'56',1,8,'1256',NULL
+'56',1,9,'4712',NULL
+'56',1,10,'4714',NULL
+'56',1,11,'1431',NULL
+'56',1,12,'1433',NULL
+'56',1,13,'4716',NULL
+'56',1,14,'1435',NULL
+'56',1,15,'1437',NULL
+'56',1,16,'1410',NULL
+'56',1,17,'2058',NULL
+'56',1,18,'1000',NULL
+'56',2,1,'1000',NULL
+'56',2,2,'1411',NULL
+'56',2,3,'3720',NULL
+'56',2,4,'1436',NULL
+'56',2,5,'4717',NULL
+'56',2,6,'5972',NULL
+'56',2,7,'1432',NULL
+'56',2,8,'4715',NULL
+'56',2,9,'4713',NULL
+'56',2,10,'1257',NULL
+'56',2,11,'5822',NULL
+'56',2,12,'151',NULL
+'56',2,13,'149',NULL
+'56',2,14,'1428',NULL
+'56',2,15,'782',NULL
+'56',2,16,'784',NULL
+'56',2,17,'2224',NULL
+'57',1,1,'5705',NULL
+'57',1,2,'1402',NULL
+'57',1,3,'1404',NULL
+'57',1,4,'1406',NULL
+'57',1,5,'1408',NULL
+'57',1,6,'1410',NULL
+'57',1,7,'2058',NULL
+'57',1,8,'1001',NULL
+'57',1,9,'1003',NULL
+'57',1,10,'2561',NULL
+'57',1,11,'2563',NULL
+'57',1,12,'2565',NULL
+'57',1,13,'5667',NULL
+'57',1,14,'2569',NULL
+'57',1,15,'4597',NULL
+'57',1,16,'4598',NULL
+'57',1,17,'2575',NULL
+'57',1,18,'2576',NULL
+'57',1,19,'2109',NULL
+'57',1,20,'2577',NULL
+'57',1,21,'2088',NULL
+'57',1,22,'2582',NULL
+'57',1,23,'2584',NULL
+'57',1,24,'2586',NULL
+'57',1,25,'4088',NULL
+'57',2,1,'4088',NULL
+'57',2,2,'1013',NULL
+'57',2,3,'2587',NULL
+'57',2,4,'2585',NULL
+'57',2,5,'2583',NULL
+'57',2,6,'2581',NULL
+'57',2,7,'2578',NULL
+'57',2,8,'2579',NULL
+'57',2,9,'2580',NULL
+'57',2,10,'2574',NULL
+'57',2,11,'2572',NULL
+'57',2,12,'2570',NULL
+'57',2,13,'2568',NULL
+'57',2,14,'2566',NULL
+'57',2,15,'2564',NULL
+'57',2,16,'2562',NULL
+'57',2,17,'1004',NULL
+'57',2,18,'1002',NULL
+'57',2,19,'2057',NULL
+'57',2,20,'1411',NULL
+'57',2,21,'1409',NULL
+'57',2,22,'1407',NULL
+'57',2,23,'1405',NULL
+'57',2,24,'1403',NULL
+'57',2,25,'5705',NULL
+'58',1,1,'1000',NULL
+'58',1,2,'1001',NULL
+'58',1,3,'1003',NULL
+'58',1,4,'1005',NULL
+'58',1,5,'1007',NULL
+'58',1,6,'1009',NULL
+'58',1,7,'1011',NULL
+'58',1,8,'1013',NULL
+'58',1,9,'1015',NULL
+'58',1,10,'1017',NULL
+'58',1,11,'1019',NULL
+'58',1,12,'4680',NULL
+'58',1,13,'1023',NULL
+'58',1,14,'4682',NULL
+'58',1,15,'1027',NULL
+'58',1,16,'5163',NULL
+'58',1,17,'4368',NULL
+'58',1,18,'1032',NULL
+'58',1,19,'1034',NULL
+'58',1,20,'1036',NULL
+'58',1,21,'4691',NULL
+'58',1,22,'1038',NULL
+'58',1,23,'2619',NULL
+'58',1,24,'1039',NULL
+'58',1,25,'1040',NULL
+'58',1,26,'1041',NULL
+'58',1,27,'4787',NULL
+'58',1,28,'1042',NULL
+'58',1,29,'1043',NULL
+'58',1,30,'1044',NULL
+'58',1,31,'1045',NULL
+'58',1,32,'1046',NULL
+'58',2,1,'1046',NULL
+'58',2,2,'4692',NULL
+'58',2,3,'1037',NULL
+'58',2,4,'1035',NULL
+'58',2,5,'1033',NULL
+'58',2,6,'1031',NULL
+'58',2,7,'4367',NULL
+'58',2,8,'4683',NULL
+'58',2,9,'51176',NULL
+'58',2,10,'51189',NULL
+'58',2,11,'1020',NULL
+'58',2,12,'1018',NULL
+'58',2,13,'1016',NULL
+'58',2,14,'1014',NULL
+'58',2,15,'1012',NULL
+'58',2,16,'1010',NULL
+'58',2,17,'1008',NULL
+'58',2,18,'1006',NULL
+'58',2,19,'1004',NULL
+'58',2,20,'1002',NULL
+'58',2,21,'3576',NULL
+'58',2,22,'1000',NULL
+'59',1,1,'50011',NULL
+'59',1,2,'1167',NULL
+'59',1,3,'1926',NULL
+'59',1,4,'1927',NULL
+'59',1,5,'1928',NULL
+'59',1,6,'1168',NULL
+'59',1,7,'1188',NULL
+'59',1,8,'1170',NULL
+'59',1,9,'5718',NULL
+'59',1,10,'5719',NULL
+'59',1,11,'5720',NULL
+'59',1,12,'1132',NULL
+'59',1,13,'5378',NULL
+'59',1,14,'1135',NULL
+'59',1,15,'1137',NULL
+'59',1,16,'1172',NULL
+'59',1,17,'4662',NULL
+'59',1,18,'1174',NULL
+'59',1,19,'4664',NULL
+'59',1,20,'1176',NULL
+'59',1,21,'1178',NULL
+'59',1,22,'1179',NULL
+'59',1,23,'1180',NULL
+'59',2,1,'1180',NULL
+'59',2,2,'1181',NULL
+'59',2,3,'1177',NULL
+'59',2,4,'4665',NULL
+'59',2,5,'1175',NULL
+'59',2,6,'4663',NULL
+'59',2,7,'1173',NULL
+'59',2,8,'1138',NULL
+'59',2,9,'1136',NULL
+'59',2,10,'1134',NULL
+'59',2,11,'5379',NULL
+'59',2,12,'5380',NULL
+'59',2,13,'5702',NULL
+'59',2,14,'5703',NULL
+'59',2,15,'5704',NULL
+'59',2,16,'3858',NULL
+'59',2,17,'1182',NULL
+'59',2,18,'5036',NULL
+'59',2,19,'1183',NULL
+'59',2,20,'1184',NULL
+'59',2,21,'5360',NULL
+'59',2,22,'50011',NULL
+'6',1,1,'1918',NULL
+'6',1,2,'1919',NULL
+'6',1,3,'1921',NULL
+'6',1,4,'1922',NULL
+'6',1,5,'1924',NULL
+'6',1,6,'1167',NULL
+'6',1,7,'1926',NULL
+'6',1,8,'1927',NULL
+'6',1,9,'1928',NULL
+'6',1,10,'1931',NULL
+'6',1,11,'1933',NULL
+'6',1,12,'1122',NULL
+'6',1,13,'1124',NULL
+'6',1,14,'1935',NULL
+'6',1,15,'1938',NULL
+'6',1,16,'1939',NULL
+'6',1,17,'1941',NULL
+'6',1,18,'1943',NULL
+'6',1,19,'1945',NULL
+'6',1,20,'1947',NULL
+'6',1,21,'1949',NULL
+'6',1,22,'1951',NULL
+'6',1,23,'1953',NULL
+'6',1,24,'1955',NULL
+'6',1,25,'1957',NULL
+'6',1,26,'1958',NULL
+'6',1,27,'1959',NULL
+'6',1,28,'292',NULL
+'6',1,29,'315',NULL
+'6',1,30,'332',NULL
+'6',1,31,'5359',NULL
+'6',2,1,'5359',NULL
+'6',2,2,'1961',NULL
+'6',2,3,'1962',NULL
+'6',2,4,'1963',NULL
+'6',2,5,'4814',NULL
+'6',2,6,'4815',NULL
+'6',2,7,'5288',NULL
+'6',2,8,'5288',NULL
+'6',2,9,'1950',NULL
+'6',2,10,'1948',NULL
+'6',2,11,'1946',NULL
+'6',2,12,'1944',NULL
+'6',2,13,'1942',NULL
+'6',2,14,'5358',NULL
+'6',2,15,'3912',NULL
+'6',2,16,'1125',NULL
+'6',2,17,'1123',NULL
+'6',2,18,'1934',NULL
+'6',2,19,'1932',NULL
+'6',2,20,'1929',NULL
+'6',2,21,'1930',NULL
+'6',2,22,'1184',NULL
+'6',2,23,'89',NULL
+'6',2,24,'1925',NULL
+'6',2,25,'1923',NULL
+'6',2,26,'1920',NULL
+'6',2,27,'1918',NULL
+'60',1,1,'2588',NULL
+'60',1,2,'547',NULL
+'60',1,3,'2589',NULL
+'60',1,4,'2358',NULL
+'60',1,5,'2356',NULL
+'60',1,6,'2591',NULL
+'60',1,7,'2818',NULL
+'60',1,8,'5623',NULL
+'60',1,9,'2536',NULL
+'60',1,10,'2538',NULL
+'60',1,11,'51172',NULL
+'60',1,12,'3135',NULL
+'60',1,13,'5050',NULL
+'60',1,14,'2429',NULL
+'60',1,15,'1947',NULL
+'60',1,16,'1949',NULL
+'60',1,17,'1951',NULL
+'60',1,18,'1953',NULL
+'60',1,19,'1955',NULL
+'60',1,20,'1957',NULL
+'60',1,21,'3075',NULL
+'60',1,22,'3152',NULL
+'60',1,23,'3154',NULL
+'60',1,24,'3171',NULL
+'60',1,25,'3189',NULL
+'60',1,26,'5008',NULL
+'60',1,27,'5010',NULL
+'60',1,28,'5012',NULL
+'60',2,1,'5012',NULL
+'60',2,2,'5011',NULL
+'60',2,3,'5009',NULL
+'60',2,4,'3736',NULL
+'60',2,5,'5007',NULL
+'60',2,6,'1960',NULL
+'60',2,7,'1961',NULL
+'60',2,8,'1962',NULL
+'60',2,9,'1963',NULL
+'60',2,10,'4814',NULL
+'60',2,11,'4815',NULL
+'60',2,12,'5288',NULL
+'60',2,13,'5288',NULL
+'60',2,14,'1950',NULL
+'60',2,15,'1948',NULL
+'60',2,16,'2428',NULL
+'60',2,17,'2596',NULL
+'60',2,18,'2541',NULL
+'60',2,19,'2539',NULL
+'60',2,20,'2537',NULL
+'60',2,21,'2535',NULL
+'60',2,22,'5335',NULL
+'60',2,23,'2819',NULL
+'60',2,24,'2592',NULL
+'60',2,25,'2355',NULL
+'60',2,26,'2357',NULL
+'60',2,27,'1884',NULL
+'60',2,28,'1882',NULL
+'60',2,29,'2590',NULL
+'60',2,30,'2588',NULL
+'M1',1,1,'5837',NULL
+'M1',1,2,'4040',NULL
+'M1',1,3,'4041',NULL
+'M1',1,4,'4056',NULL
+'M1',1,5,'4042',NULL
+'M1',1,6,'1919',NULL
+'M1',1,7,'4043',NULL
+'M1',1,8,'4044',NULL
+'M1',1,9,'4045',NULL
+'M1',1,10,'4060',NULL
+'M1',1,11,'4057',NULL
+'M1',2,1,'4057',NULL
+'M1',2,2,'4035',NULL
+'M1',2,3,'4036',NULL
+'M1',2,4,'4037',NULL
+'M1',2,5,'4038',NULL
+'M1',2,6,'5962',NULL
+'M1',2,7,'4039',NULL
+'M1',2,8,'1049',NULL
+'M1',2,9,'5837',NULL
+'M3',1,1,'4040',NULL
+'M3',1,2,'4041',NULL
+'M3',1,3,'4056',NULL
+'M3',1,4,'4042',NULL
+'M3',1,5,'5156',NULL
+'M3',1,6,'545',NULL
+'M3',1,7,'2246',NULL
+'M3',1,8,'1879',NULL
+'M3',1,9,'1881',NULL
+'M3',1,10,'1883',NULL
+'M3',1,11,'51047',NULL
+'M3',2,1,'51047',NULL
+'M3',2,2,'1884',NULL
+'M3',2,3,'1882',NULL
+'M3',2,4,'1880',NULL
+'M3',2,5,'1878',NULL
+'M3',2,6,'1876',NULL
+'M3',2,7,'1886',NULL
+'M3',2,8,'5749',NULL
+'M3',2,9,'1887',NULL
+'M3',2,10,'2115',NULL
+'M3',2,11,'913',NULL
+'M3',2,12,'4038',NULL
+'M3',2,13,'5962',NULL
+'M3',2,14,'4039',NULL
+'M3',2,15,'4040',NULL
+'61',1,1,'543',NULL
+'61',1,2,'520',NULL
+'61',1,3,'521',NULL
+'61',1,4,'522',NULL
+'61',1,5,'523',NULL
+'61',1,6,'524',NULL
+'61',1,7,'525',NULL
+'61',1,8,'527',NULL
+'61',1,9,'1894',NULL
+'61',1,10,'529',NULL
+'61',1,11,'2602',NULL
+'61',1,12,'2601',NULL
+'61',1,13,'2599',NULL
+'61',1,14,'3738',NULL
+'61',1,15,'2597',NULL
+'61',1,16,'3739',NULL
+'61',1,17,'1286',NULL
+'61',1,18,'2222',NULL
+'61',1,19,'2220',NULL
+'61',1,20,'2218',NULL
+'61',1,21,'2216',NULL
+'61',1,22,'2154',NULL
+'61',1,23,'2156',NULL
+'61',1,24,'3937',NULL
+'61',2,1,'3937',NULL
+'61',2,2,'2214',NULL
+'61',2,3,'2157',NULL
+'61',2,4,'2155',NULL
+'61',2,5,'2215',NULL
+'61',2,6,'2217',NULL
+'61',2,7,'2219',NULL
+'61',2,8,'2221',NULL
+'61',2,9,'4358',NULL
+'61',2,10,'1429',NULL
+'61',2,11,'2595',NULL
+'61',2,12,'3641',NULL
+'61',2,13,'2598',NULL
+'61',2,14,'2600',NULL
+'61',2,15,'537',NULL
+'61',2,16,'530',NULL
+'61',2,17,'1893',NULL
+'61',2,18,'528',NULL
+'61',2,19,'1895',NULL
+'61',2,20,'526',NULL
+'61',2,21,'538',NULL
+'61',2,22,'540',NULL
+'61',2,23,'541',NULL
+'61',2,24,'542',NULL
+'61',2,25,'543',NULL
+'62',1,1,'4608',NULL
+'62',1,2,'4022',NULL
+'62',1,3,'3687',NULL
+'62',1,4,'4026',NULL
+'62',1,5,'1216',NULL
+'62',1,6,'596',NULL
+'62',1,7,'599',NULL
+'62',1,8,'601',NULL
+'62',1,9,'603',NULL
+'62',1,10,'4070',NULL
+'62',1,11,'606',NULL
+'62',1,12,'2367',NULL
+'62',1,13,'2366',NULL
+'62',1,14,'4115',NULL
+'62',1,15,'2322',NULL
+'62',1,16,'2323',NULL
+'62',1,17,'553',NULL
+'62',1,18,'2313',NULL
+'62',1,19,'2311',NULL
+'62',1,20,'328',NULL
+'62',1,21,'380',NULL
+'62',1,22,'381',NULL
+'62',1,23,'325',NULL
+'62',1,24,'4118',NULL
+'62',1,25,'4120',NULL
+'62',1,26,'4121',NULL
+'62',1,27,'1120',NULL
+'62',1,28,'4150',NULL
+'62',1,29,'4152',NULL
+'62',1,30,'4154',NULL
+'62',1,31,'1170',NULL
+'62',1,32,'3644',NULL
+'62',1,33,'5054',NULL
+'62',1,34,'2905',NULL
+'62',1,35,'2907',NULL
+'62',1,36,'3204',NULL
+'62',1,37,'3207',NULL
+'62',1,38,'3206',NULL
+'62',2,1,'3206',NULL
+'62',2,2,'4673',NULL
+'62',2,3,'2908',NULL
+'62',2,4,'2906',NULL
+'62',2,5,'5512',NULL
+'62',2,6,'2916',NULL
+'62',2,7,'3858',NULL
+'62',2,8,'5741',NULL
+'62',2,9,'5776',NULL
+'62',2,10,'4151',NULL
+'62',2,11,'1121',NULL
+'62',2,12,'4122',NULL
+'62',2,13,'4119',NULL
+'62',2,14,'5820',NULL
+'62',2,15,'324',NULL
+'62',2,16,'326',NULL
+'62',2,17,'4669',NULL
+'62',2,18,'327',NULL
+'62',2,19,'2310',NULL
+'62',2,20,'2312',NULL
+'62',2,21,'4123',NULL
+'62',2,22,'4124',NULL
+'62',2,23,'2316',NULL
+'62',2,24,'2317',NULL
+'62',2,25,'2318',NULL
+'62',2,26,'609',NULL
+'62',2,27,'1562',NULL
+'62',2,28,'5246',NULL
+'62',2,29,'742',NULL
+'62',2,30,'5522',NULL
+'62',2,31,'2753',NULL
+'62',2,32,'2785',NULL
+'62',2,33,'2786',NULL
+'62',2,34,'2746',NULL
+'62',2,35,'15525',NULL
+'62',2,36,'4021',NULL
+'62',2,37,'743',NULL
+'62',2,38,'4608',NULL
+'63',1,1,'2153',NULL
+'63',1,2,'2154',NULL
+'63',1,3,'2156',NULL
+'63',1,4,'814',NULL
+'63',1,5,'816',NULL
+'63',1,6,'2213',NULL
+'63',1,7,'2130',NULL
+'63',1,8,'2128',NULL
+'63',1,9,'2605',NULL
+'63',1,10,'2606',NULL
+'63',1,11,'2607',NULL
+'63',1,12,'2608',NULL
+'63',1,13,'4341',NULL
+'63',1,14,'3353',NULL
+'63',1,15,'5150',NULL
+'63',1,16,'2612',NULL
+'63',1,17,'1041',NULL
+'63',1,18,'4787',NULL
+'63',1,19,'1042',NULL
+'63',1,20,'1043',NULL
+'63',1,21,'1044',NULL
+'63',1,22,'1045',NULL
+'63',1,23,'1038',NULL
+'63',1,24,'2619',NULL
+'63',1,25,'1039',NULL
+'63',2,1,'1039',NULL
+'63',2,2,'2620',NULL
+'63',2,3,'2621',NULL
+'63',2,4,'2618',NULL
+'63',2,5,'2617',NULL
+'63',2,6,'2616',NULL
+'63',2,7,'2615',NULL
+'63',2,8,'4788',NULL
+'63',2,9,'2614',NULL
+'63',2,10,'2622',NULL
+'63',2,11,'2623',NULL
+'63',2,12,'2613',NULL
+'63',2,13,'2610',NULL
+'63',2,14,'2604',NULL
+'63',2,15,'4594',NULL
+'63',2,16,'4601',NULL
+'63',2,17,'2611',NULL
+'63',2,18,'2127',NULL
+'63',2,19,'2210',NULL
+'63',2,20,'2212',NULL
+'63',2,21,'817',NULL
+'63',2,22,'2214',NULL
+'63',2,23,'2157',NULL
+'63',2,24,'2155',NULL
+'63',2,25,'2153',NULL
+'64',1,1,'1566',NULL
+'64',1,2,'1568',NULL
+'64',1,3,'1569',NULL
+'64',1,4,'1571',NULL
+'64',1,5,'1572',NULL
+'64',1,6,'1573',NULL
+'64',1,7,'1575',NULL
+'64',1,8,'1577',NULL
+'64',1,9,'1579',NULL
+'64',1,10,'1581',NULL
+'64',1,11,'1583',NULL
+'64',1,12,'1585',NULL
+'64',1,13,'1587',NULL
+'64',1,14,'1589',NULL
+'64',1,15,'1591',NULL
+'64',1,16,'3733',NULL
+'64',1,17,'3821',NULL
+'64',1,18,'5950',NULL
+'64',1,19,'1594',NULL
+'64',1,20,'1354',NULL
+'64',1,21,'5456',NULL
+'64',1,22,'1356',NULL
+'64',1,23,'1565',NULL
+'64',1,24,'1595',NULL
+'64',1,25,'1563',NULL
+'64',1,26,'4436',NULL
+'64',1,27,'4402',NULL
+'64',1,28,'4404',NULL
+'64',1,29,'4282',NULL
+'64',1,30,'4292',NULL
+'64',2,1,'4292',NULL
+'64',2,2,'4405',NULL
+'64',2,3,'4403',NULL
+'64',2,4,'4437',NULL
+'64',2,5,'1559',NULL
+'64',2,6,'1597',NULL
+'64',2,7,'1596',NULL
+'64',2,8,'1357',NULL
+'64',2,9,'1355',NULL
+'64',2,10,'5652',NULL
+'64',2,11,'1598',NULL
+'64',2,12,'5996',NULL
+'64',2,13,'1592',NULL
+'64',2,14,'1590',NULL
+'64',2,15,'1588',NULL
+'64',2,16,'5628',NULL
+'64',2,17,'1584',NULL
+'64',2,18,'1582',NULL
+'64',2,19,'1580',NULL
+'64',2,20,'1578',NULL
+'64',2,21,'1576',NULL
+'64',2,22,'1574',NULL
+'64',2,23,'1599',NULL
+'64',2,24,'1570',NULL
+'64',2,25,'1600',NULL
+'64',2,26,'1566',NULL
+'65',1,1,'4058',NULL
+'65',1,2,'2247',NULL
+'65',1,3,'2249',NULL
+'65',1,4,'2251',NULL
+'65',1,5,'2253',NULL
+'65',1,6,'871',NULL
+'65',1,7,'873',NULL
+'65',1,8,'875',NULL
+'65',1,9,'877',NULL
+'65',1,10,'879',NULL
+'65',1,11,'2255',NULL
+'65',1,12,'51130',NULL
+'65',1,13,'51129',NULL
+'65',1,14,'4987',NULL
+'65',1,15,'2626',NULL
+'65',1,16,'2628',NULL
+'65',1,17,'2630',NULL
+'65',1,18,'2632',NULL
+'65',1,19,'5336',NULL
+'65',1,20,'3877',NULL
+'65',1,21,'2636',NULL
+'65',1,22,'2637',NULL
+'65',1,23,'2638',NULL
+'65',1,24,'5325',NULL
+'65',1,25,'2641',NULL
+'65',1,26,'2643',NULL
+'65',2,1,'2643',NULL
+'65',2,2,'2642',NULL
+'65',2,3,'2640',NULL
+'65',2,4,'51164',NULL
+'65',2,5,'51165',NULL
+'65',2,6,'51166',NULL
+'65',2,7,'51167',NULL
+'65',2,8,'51161',NULL
+'65',2,9,'51162',NULL
+'65',2,10,'51163',NULL
+'65',2,11,'3592',NULL
+'65',2,12,'1479',NULL
+'65',2,13,'1477',NULL
+'65',2,14,'2635',NULL
+'65',2,15,'2633',NULL
+'65',2,16,'2631',NULL
+'65',2,17,'2629',NULL
+'65',2,18,'2627',NULL
+'65',2,19,'2305',NULL
+'65',2,20,'51128',NULL
+'65',2,21,'51131',NULL
+'65',2,22,'2256',NULL
+'65',2,23,'880',NULL
+'65',2,24,'878',NULL
+'65',2,25,'876',NULL
+'65',2,26,'874',NULL
+'65',2,27,'872',NULL
+'65',2,28,'2254',NULL
+'65',2,29,'2252',NULL
+'65',2,30,'2250',NULL
+'65',2,31,'2248',NULL
+'65',2,32,'4058',NULL
+'66',1,1,'3219',NULL
+'66',1,2,'1568',NULL
+'66',1,3,'1569',NULL
+'66',1,4,'1571',NULL
+'66',1,5,'2647',NULL
+'66',1,6,'4083',NULL
+'66',1,7,'4085',NULL
+'66',1,8,'2651',NULL
+'66',1,9,'1533',NULL
+'66',1,10,'1531',NULL
+'66',1,11,'1486',NULL
+'66',1,12,'1487',NULL
+'66',1,13,'1488',NULL
+'66',1,14,'2653',NULL
+'66',1,15,'2654',NULL
+'66',1,16,'2655',NULL
+'66',1,17,'2656',NULL
+'66',1,18,'2662',NULL
+'66',1,19,'2664',NULL
+'66',1,20,'2666',NULL
+'66',1,21,'2668',NULL
+'66',1,22,'2670',NULL
+'66',1,23,'2672',NULL
+'66',1,24,'2674',NULL
+'66',1,25,'2676',NULL
+'66',1,26,'2678',NULL
+'66',1,27,'2680',NULL
+'66',1,28,'2682',NULL
+'66',1,29,'2684',NULL
+'66',1,30,'2686',NULL
+'66',1,31,'2688',NULL
+'66',1,32,'2690',NULL
+'66',1,33,'5105',NULL
+'66',2,1,'5105',NULL
+'66',2,2,'2689',NULL
+'66',2,3,'2687',NULL
+'66',2,4,'2685',NULL
+'66',2,5,'2683',NULL
+'66',2,6,'2681',NULL
+'66',2,7,'2679',NULL
+'66',2,8,'2677',NULL
+'66',2,9,'2675',NULL
+'66',2,10,'2673',NULL
+'66',2,11,'2671',NULL
+'66',2,12,'2669',NULL
+'66',2,13,'2667',NULL
+'66',2,14,'2663',NULL
+'66',2,15,'2657',NULL
+'66',2,16,'2658',NULL
+'66',2,17,'2659',NULL
+'66',2,18,'2660',NULL
+'66',2,19,'2661',NULL
+'66',2,20,'4194',NULL
+'66',2,21,'31',NULL
+'66',2,22,'1530',NULL
+'66',2,23,'1532',NULL
+'66',2,24,'4147',NULL
+'66',2,25,'5365',NULL
+'66',2,26,'569',NULL
+'66',2,27,'1858',NULL
+'66',2,28,'1859',NULL
+'66',2,29,'1570',NULL
+'66',2,30,'1600',NULL
+'66',2,31,'3219',NULL
+'67',1,1,'5605',NULL
+'67',1,2,'1487',NULL
+'67',1,3,'3826',NULL
+'67',1,4,'1489',NULL
+'67',1,5,'1602',NULL
+'67',1,6,'1604',NULL
+'67',1,7,'1606',NULL
+'67',1,8,'1608',NULL
+'67',1,9,'1610',NULL
+'67',1,10,'1374',NULL
+'67',1,11,'1376',NULL
+'67',1,12,'1377',NULL
+'67',1,13,'1612',NULL
+'67',1,14,'4741',NULL
+'67',1,15,'1615',NULL
+'67',1,16,'1617',NULL
+'67',1,17,'1360',NULL
+'67',1,18,'1619',NULL
+'67',1,19,'1621',NULL
+'67',1,20,'1623',NULL
+'67',1,21,'1550',NULL
+'67',1,22,'1625',NULL
+'67',1,23,'1627',NULL
+'67',1,24,'1629',NULL
+'67',1,25,'1631',NULL
+'67',1,26,'1633',NULL
+'67',1,27,'5267',NULL
+'67',2,1,'5267',NULL
+'67',2,2,'1634',NULL
+'67',2,3,'1632',NULL
+'67',2,4,'1630',NULL
+'67',2,5,'1628',NULL
+'67',2,6,'1626',NULL
+'67',2,7,'1551',NULL
+'67',2,8,'1624',NULL
+'67',2,9,'1622',NULL
+'67',2,10,'1620',NULL
+'67',2,11,'1359',NULL
+'67',2,12,'1618',NULL
+'67',2,13,'1616',NULL
+'67',2,14,'1614',NULL
+'67',2,15,'1636',NULL
+'67',2,16,'5382',NULL
+'67',2,17,'1637',NULL
+'67',2,18,'5862',NULL
+'67',2,19,'1638',NULL
+'67',2,20,'1639',NULL
+'67',2,21,'1611',NULL
+'67',2,22,'1609',NULL
+'67',2,23,'1607',NULL
+'67',2,24,'1605',NULL
+'67',2,25,'5363',NULL
+'67',2,26,'1640',NULL
+'67',2,27,'3932',NULL
+'67',2,28,'51209',NULL
+'67',2,29,'1527',NULL
+'67',2,30,'5605',NULL
+'C1',1,1,'1890',NULL
+'C1',1,2,'2693',NULL
+'C1',1,3,'2695',NULL
+'C1',1,4,'2696',NULL
+'C1',1,5,'421',NULL
+'C1',1,6,'420',NULL
+'C1',1,7,'4678',NULL
+'C1',1,8,'2698',NULL
+'C1',1,9,'4676',NULL
+'C1',1,10,'2700',NULL
+'C1',1,11,'789',NULL
+'C1',1,12,'786',NULL
+'C1',1,13,'811',NULL
+'C1',1,14,'3829',NULL
+'C1',1,15,'1427',NULL
+'C1',1,16,'148',NULL
+'C1',1,17,'1252',NULL
+'C1',1,18,'5093',NULL
+'C1',1,19,'2154',NULL
+'C1',1,20,'2156',NULL
+'C1',1,21,'814',NULL
+'C1',1,22,'816',NULL
+'C1',1,23,'2213',NULL
+'C1',1,24,'2211',NULL
+'C1',1,25,'1405',NULL
+'C1',1,26,'1403',NULL
+'C1',1,27,'2178',NULL
+'C1',1,28,'83',NULL
+'C1',1,29,'84',NULL
+'C1',1,30,'320',NULL
+'C1',1,31,'2355',NULL
+'C1',2,1,'2355',NULL
+'C1',2,2,'2357',NULL
+'C1',2,3,'2359',NULL
+'C1',2,4,'2361',NULL
+'C1',2,5,'2363',NULL
+'C1',2,6,'2365',NULL
+'C1',2,7,'609',NULL
+'C1',2,8,'1562',NULL
+'C1',2,9,'5246',NULL
+'C1',2,10,'742',NULL
+'C1',2,11,'1750',NULL
+'C1',2,12,'172',NULL
+'C1',2,13,'734',NULL
+'C1',2,14,'736',NULL
+'C1',2,15,'738',NULL
+'C1',2,16,'4816',NULL
+'C1',2,17,'4021',NULL
+'C1',2,18,'743',NULL
+'C1',2,19,'2704',NULL
+'C1',2,20,'2706',NULL
+'C1',2,21,'5263',NULL
+'C1',2,22,'2710',NULL
+'C1',2,23,'185',NULL
+'C1',2,24,'1415',NULL
+'C1',2,25,'1417',NULL
+'C1',2,26,'1890',NULL
+'C2',1,1,'1940',NULL
+'C2',1,2,'1418',NULL
+'C2',1,3,'1416',NULL
+'C2',1,4,'2712',NULL
+'C2',1,5,'2713',NULL
+'C2',1,6,'5141',NULL
+'C2',1,7,'2709',NULL
+'C2',1,8,'2707',NULL
+'C2',1,9,'2705',NULL
+'C2',1,10,'4514',NULL
+'C2',1,11,'4022',NULL
+'C2',1,12,'3687',NULL
+'C2',1,13,'737',NULL
+'C2',1,14,'735',NULL
+'C2',1,15,'193',NULL
+'C2',1,16,'173',NULL
+'C2',1,17,'741',NULL
+'C2',1,18,'854',NULL
+'C2',1,19,'599',NULL
+'C2',1,20,'601',NULL
+'C2',1,21,'603',NULL
+'C2',1,22,'4070',NULL
+'C2',1,23,'606',NULL
+'C2',1,24,'2367',NULL
+'C2',1,25,'2366',NULL
+'C2',1,26,'2364',NULL
+'C2',1,27,'2362',NULL
+'C2',1,28,'2360',NULL
+'C2',1,29,'2358',NULL
+'C2',1,30,'2356',NULL
+'C2',1,31,'5104',NULL
+'C2',2,1,'5104',NULL
+'C2',2,2,'85',NULL
+'C2',2,3,'4985',NULL
+'C2',2,4,'1401',NULL
+'C2',2,5,'1402',NULL
+'C2',2,6,'2048',NULL
+'C2',2,7,'2210',NULL
+'C2',2,8,'2212',NULL
+'C2',2,9,'817',NULL
+'C2',2,10,'2214',NULL
+'C2',2,11,'2157',NULL
+'C2',2,12,'2155',NULL
+'C2',2,13,'2703',NULL
+'C2',2,14,'51121',NULL
+'C2',2,15,'2702',NULL
+'C2',2,16,'149',NULL
+'C2',2,17,'1428',NULL
+'C2',2,18,'782',NULL
+'C2',2,19,'784',NULL
+'C2',2,20,'5296',NULL
+'C2',2,21,'788',NULL
+'C2',2,22,'2701',NULL
+'C2',2,23,'4677',NULL
+'C2',2,24,'4999',NULL
+'C2',2,25,'5394',NULL
+'C2',2,26,'419',NULL
+'C2',2,27,'422',NULL
+'C2',2,28,'2697',NULL
+'C2',2,29,'2694',NULL
+'C2',2,30,'5449',NULL
+'C2',2,31,'1940',NULL
+'7',1,1,'491',NULL
+'7',1,2,'492',NULL
+'7',1,3,'494',NULL
+'7',1,4,'529',NULL
+'7',1,5,'58',NULL
+'7',1,6,'56',NULL
+'7',1,7,'54',NULL
+'7',1,8,'52',NULL
+'7',1,9,'421',NULL
+'7',1,10,'420',NULL
+'7',1,11,'5318',NULL
+'7',1,12,'416',NULL
+'7',1,13,'433',NULL
+'7',1,14,'434',NULL
+'7',1,15,'435',NULL
+'7',1,16,'437',NULL
+'7',1,17,'51202',NULL
+'7',1,18,'439',NULL
+'7',1,19,'299',NULL
+'7',1,20,'300',NULL
+'7',1,21,'302',NULL
+'7',1,22,'217',NULL
+'7',1,23,'216',NULL
+'7',1,24,'214',NULL
+'7',1,25,'497',NULL
+'7',1,26,'499',NULL
+'7',1,27,'501',NULL
+'7',1,28,'503',NULL
+'7',1,29,'505',NULL
+'7',1,30,'507',NULL
+'7',1,31,'508',NULL
+'7',1,32,'509',NULL
+'7',1,33,'510',NULL
+'7',1,34,'511',NULL
+'7',2,1,'511',NULL
+'7',2,2,'512',NULL
+'7',2,3,'506',NULL
+'7',2,4,'504',NULL
+'7',2,5,'502',NULL
+'7',2,6,'513',NULL
+'7',2,7,'500',NULL
+'7',2,8,'498',NULL
+'7',2,9,'212',NULL
+'7',2,10,'51053',NULL
+'7',2,11,'303',NULL
+'7',2,12,'2388',NULL
+'7',2,13,'314',NULL
+'7',2,14,'440',NULL
+'7',2,15,'4850',NULL
+'7',2,16,'514',NULL
+'7',2,17,'516',NULL
+'7',2,18,'456',NULL
+'7',2,19,'441',NULL
+'7',2,20,'442',NULL
+'7',2,21,'419',NULL
+'7',2,22,'422',NULL
+'7',2,23,'49',NULL
+'7',2,24,'51',NULL
+'7',2,25,'53',NULL
+'7',2,26,'4742',NULL
+'7',2,27,'4338',NULL
+'7',2,28,'495',NULL
+'7',2,29,'493',NULL
+'7',2,30,'518',NULL
+'7',2,31,'491',NULL
+'70',1,1,'5603',NULL
+'70',1,2,'30',NULL
+'70',1,3,'203',NULL
+'70',1,4,'205',NULL
+'70',1,5,'207',NULL
+'70',1,6,'208',NULL
+'70',1,7,'210',NULL
+'70',1,8,'212',NULL
+'70',1,9,'51053',NULL
+'70',1,10,'218',NULL
+'70',1,11,'220',NULL
+'70',1,12,'222',NULL
+'70',1,13,'224',NULL
+'70',1,14,'226',NULL
+'70',1,15,'228',NULL
+'70',1,16,'230',NULL
+'70',1,17,'232',NULL
+'70',1,18,'234',NULL
+'70',1,19,'236',NULL
+'70',1,20,'5458',NULL
+'70',1,21,'240',NULL
+'70',1,22,'242',NULL
+'70',1,23,'244',NULL
+'70',1,24,'246',NULL
+'70',1,25,'4708',NULL
+'70',1,26,'250',NULL
+'70',1,27,'253',NULL
+'70',1,28,'4230',NULL
+'70',1,29,'5747',NULL
+'70',2,1,'5747',NULL
+'70',2,2,'5324',NULL
+'70',2,3,'256',NULL
+'70',2,4,'258',NULL
+'70',2,5,'260',NULL
+'70',2,6,'262',NULL
+'70',2,7,'264',NULL
+'70',2,8,'265',NULL
+'70',2,9,'5823',NULL
+'70',2,10,'251',NULL
+'70',2,11,'248',NULL
+'70',2,12,'247',NULL
+'70',2,13,'245',NULL
+'70',2,14,'243',NULL
+'70',2,15,'241',NULL
+'70',2,16,'239',NULL
+'70',2,17,'237',NULL
+'70',2,18,'235',NULL
+'70',2,19,'233',NULL
+'70',2,20,'231',NULL
+'70',2,21,'229',NULL
+'70',2,22,'227',NULL
+'70',2,23,'225',NULL
+'70',2,24,'4331',NULL
+'70',2,25,'223',NULL
+'70',2,26,'221',NULL
+'70',2,27,'219',NULL
+'70',2,28,'217',NULL
+'70',2,29,'216',NULL
+'70',2,30,'213',NULL
+'70',2,31,'211',NULL
+'70',2,32,'209',NULL
+'70',2,33,'266',NULL
+'70',2,34,'206',NULL
+'70',2,35,'204',NULL
+'70',2,36,'31',NULL
+'70',2,37,'5603',NULL
+'SE702',1,1,'3906',NULL
+'SE702',1,2,'5349',NULL
+'SE702',1,3,'5350',NULL
+'SE702',1,4,'5351',NULL
+'SE702',1,5,'5352',NULL
+'SE702',1,6,'5354',NULL
+'SE702',2,1,'5354',NULL
+'SE702',2,2,'5353',NULL
+'SE702',2,3,'5355',NULL
+'SE702',2,4,'5356',NULL
+'SE702',2,5,'3906',NULL
+'SE704',1,1,'5459',NULL
+'SE704',1,2,'1486',NULL
+'SE704',1,3,'1487',NULL
+'SE704',1,4,'1488',NULL
+'SE704',1,5,'2653',NULL
+'SE704',1,6,'2654',NULL
+'SE704',1,7,'2655',NULL
+'SE704',1,8,'2656',NULL
+'SE704',1,9,'2662',NULL
+'SE704',1,10,'2664',NULL
+'SE704',1,11,'2666',NULL
+'SE704',1,12,'2668',NULL
+'SE704',1,13,'2670',NULL
+'SE704',1,14,'2672',NULL
+'SE704',1,15,'2674',NULL
+'SE704',1,16,'2676',NULL
+'SE704',1,17,'2678',NULL
+'SE704',1,18,'4486',NULL
+'SE704',2,1,'4486',NULL
+'SE704',2,2,'2679',NULL
+'SE704',2,3,'2677',NULL
+'SE704',2,4,'2675',NULL
+'SE704',2,5,'2673',NULL
+'SE704',2,6,'2671',NULL
+'SE704',2,7,'2669',NULL
+'SE704',2,8,'2667',NULL
+'SE704',2,9,'2663',NULL
+'SE704',2,10,'2657',NULL
+'SE704',2,11,'2658',NULL
+'SE704',2,12,'2659',NULL
+'SE704',2,13,'2660',NULL
+'SE704',2,14,'2661',NULL
+'SE704',2,15,'5459',NULL
+'SE709',1,1,'407',NULL
+'SE709',1,2,'2911',NULL
+'SE709',1,3,'4888',NULL
+'SE709',2,1,'4888',NULL
+'SE709',2,2,'51118',NULL
+'SE709',2,3,'407',NULL
+'71',1,1,'3811',NULL
+'71',1,2,'148',NULL
+'71',1,3,'150',NULL
+'71',1,4,'950',NULL
+'71',1,5,'2168',NULL
+'71',1,6,'957',NULL
+'71',1,7,'1448',NULL
+'71',1,8,'2714',NULL
+'71',1,9,'2716',NULL
+'71',1,10,'2718',NULL
+'71',1,11,'2720',NULL
+'71',1,12,'2726',NULL
+'71',1,13,'2722',NULL
+'71',1,14,'2724',NULL
+'71',1,15,'4978',NULL
+'71',1,16,'1269',NULL
+'71',1,17,'51015',NULL
+'71',1,18,'1052',NULL
+'71',1,19,'2728',NULL
+'71',1,20,'4371',NULL
+'71',1,21,'2730',NULL
+'71',1,22,'4373',NULL
+'71',1,23,'3495',NULL
+'71',1,24,'5028',NULL
+'71',1,25,'5030',NULL
+'71',1,26,'3497',NULL
+'71',1,27,'1826',NULL
+'71',1,28,'1828',NULL
+'71',1,29,'3556',NULL
+'71',1,30,'5482',NULL
+'71',1,31,'1430',NULL
+'71',1,32,'1439',NULL
+'71',1,33,'1447',NULL
+'71',1,34,'1823',NULL
+'71',1,35,'5483',NULL
+'71',1,36,'5484',NULL
+'71',1,37,'3827',NULL
+'71',1,38,'5486',NULL
+'71',1,39,'5115',NULL
+'71',1,40,'5113',NULL
+'71',1,41,'5111',NULL
+'71',1,42,'5838',NULL
+'71',1,43,'5838',NULL
+'71',2,1,'5838',NULL
+'71',2,2,'5838',NULL
+'71',2,3,'5110',NULL
+'71',2,4,'5112',NULL
+'71',2,5,'5114',NULL
+'71',2,6,'5487',NULL
+'71',2,7,'3828',NULL
+'71',2,8,'5485',NULL
+'71',2,9,'5489',NULL
+'71',2,10,'1822',NULL
+'71',2,11,'5490',NULL
+'71',2,12,'5491',NULL
+'71',2,13,'1831',NULL
+'71',2,14,'1829',NULL
+'71',2,15,'1827',NULL
+'71',2,16,'5027',NULL
+'71',2,17,'5031',NULL
+'71',2,18,'5029',NULL
+'71',2,19,'3496',NULL
+'71',2,20,'4374',NULL
+'71',2,21,'2731',NULL
+'71',2,22,'4372',NULL
+'71',2,23,'2729',NULL
+'71',2,24,'1053',NULL
+'71',2,25,'842',NULL
+'71',2,26,'1268',NULL
+'71',2,27,'4979',NULL
+'71',2,28,'2725',NULL
+'71',2,29,'2723',NULL
+'71',2,30,'2727',NULL
+'71',2,31,'2721',NULL
+'71',2,32,'2719',NULL
+'71',2,33,'2717',NULL
+'71',2,34,'2715',NULL
+'71',2,35,'1557',NULL
+'71',2,36,'956',NULL
+'71',2,37,'2169',NULL
+'71',2,38,'4656',NULL
+'71',2,39,'151',NULL
+'71',2,40,'149',NULL
+'71',2,41,'3811',NULL
+'SE718',1,1,'4011',NULL
+'SE718',1,2,'4050',NULL
+'SE718',1,3,'51103',NULL
+'SE718',1,4,'4406',NULL
+'SE718',2,1,'4406',NULL
+'SE718',2,2,'51104',NULL
+'SE718',2,3,'4051',NULL
+'SE718',2,4,'5839',NULL
+'SE718',2,5,'4011',NULL
+'72',1,1,'785',NULL
+'72',1,2,'788',NULL
+'72',1,3,'5788',NULL
+'72',1,4,'1281',NULL
+'72',1,5,'717',NULL
+'72',1,6,'51174',NULL
+'72',1,7,'2733',NULL
+'72',1,8,'2377',NULL
+'72',1,9,'2379',NULL
+'72',1,10,'313',NULL
+'72',1,11,'4721',NULL
+'72',1,12,'2022',NULL
+'72',1,13,'408',NULL
+'72',1,14,'2024',NULL
+'72',1,15,'2026',NULL
+'72',1,16,'2027',NULL
+'72',1,17,'2029',NULL
+'72',1,18,'3927',NULL
+'72',1,19,'2033',NULL
+'72',1,20,'2035',NULL
+'72',1,21,'2037',NULL
+'72',1,22,'1846',NULL
+'72',1,23,'2734',NULL
+'72',1,24,'2735',NULL
+'72',1,25,'2736',NULL
+'72',1,26,'2738',NULL
+'72',1,27,'2741',NULL
+'72',2,1,'2741',NULL
+'72',2,2,'2740',NULL
+'72',2,3,'2742',NULL
+'72',2,4,'2744',NULL
+'72',2,5,'2747',NULL
+'72',2,6,'2748',NULL
+'72',2,7,'1847',NULL
+'72',2,8,'2038',NULL
+'72',2,9,'2036',NULL
+'72',2,10,'2034',NULL
+'72',2,11,'3928',NULL
+'72',2,12,'2030',NULL
+'72',2,13,'4538',NULL
+'72',2,14,'218',NULL
+'72',2,15,'2025',NULL
+'72',2,16,'409',NULL
+'72',2,17,'462',NULL
+'72',2,18,'310',NULL
+'72',2,19,'310',NULL
+'72',2,20,'2381',NULL
+'72',2,21,'2749',NULL
+'72',2,22,'2750',NULL
+'72',2,23,'2751',NULL
+'72',2,24,'2752',NULL
+'72',2,25,'718',NULL
+'72',2,26,'1280',NULL
+'72',2,27,'789',NULL
+'72',2,28,'787',NULL
+'72',2,29,'785',NULL
+'SE721',1,1,'5714',NULL
+'SE721',1,2,'4649',NULL
+'SE721',2,1,'4649',NULL
+'SE721',2,2,'2951',NULL
+'SE721',2,3,'5714',NULL
+'73',1,1,'785',NULL
+'73',1,2,'788',NULL
+'73',1,3,'5237',NULL
+'73',1,4,'2009',NULL
+'73',1,5,'2011',NULL
+'73',1,6,'2013',NULL
+'73',1,7,'2015',NULL
+'73',1,8,'2017',NULL
+'73',1,9,'2020',NULL
+'73',1,10,'4721',NULL
+'73',1,11,'2022',NULL
+'73',1,12,'408',NULL
+'73',1,13,'2024',NULL
+'73',1,14,'2026',NULL
+'73',1,15,'2027',NULL
+'73',1,16,'5545',NULL
+'73',1,17,'2757',NULL
+'73',1,18,'2759',NULL
+'73',1,19,'2761',NULL
+'73',1,20,'2763',NULL
+'73',1,21,'2765',NULL
+'73',1,22,'2767',NULL
+'73',1,23,'474',NULL
+'73',1,24,'472',NULL
+'73',1,25,'470',NULL
+'73',1,26,'2769',NULL
+'73',1,27,'2771',NULL
+'73',1,28,'2571',NULL
+'73',1,29,'407',NULL
+'73',2,1,'407',NULL
+'73',2,2,'2573',NULL
+'73',2,3,'2772',NULL
+'73',2,4,'2770',NULL
+'73',2,5,'469',NULL
+'73',2,6,'471',NULL
+'73',2,7,'473',NULL
+'73',2,8,'2768',NULL
+'73',2,9,'2766',NULL
+'73',2,10,'2764',NULL
+'73',2,11,'2762',NULL
+'73',2,12,'2760',NULL
+'73',2,13,'2758',NULL
+'73',2,14,'2756',NULL
+'73',2,15,'4538',NULL
+'73',2,16,'218',NULL
+'73',2,17,'2025',NULL
+'73',2,18,'409',NULL
+'73',2,19,'462',NULL
+'73',2,20,'310',NULL
+'73',2,21,'310',NULL
+'73',2,22,'2021',NULL
+'73',2,23,'2021',NULL
+'73',2,24,'2018',NULL
+'73',2,25,'2016',NULL
+'73',2,26,'2014',NULL
+'73',2,27,'268',NULL
+'73',2,28,'5249',NULL
+'73',2,29,'5784',NULL
+'73',2,30,'789',NULL
+'73',2,31,'787',NULL
+'73',2,32,'785',NULL
+'74',1,1,'4234',NULL
+'74',1,2,'1216',NULL
+'74',1,3,'596',NULL
+'74',1,4,'2777',NULL
+'74',1,5,'173',NULL
+'74',1,6,'741',NULL
+'74',1,7,'171',NULL
+'74',1,8,'169',NULL
+'74',1,9,'723',NULL
+'74',1,10,'724',NULL
+'74',1,11,'5138',NULL
+'74',1,12,'164',NULL
+'74',1,13,'70',NULL
+'74',1,14,'162',NULL
+'74',1,15,'423',NULL
+'74',1,16,'424',NULL
+'74',1,17,'425',NULL
+'74',1,18,'426',NULL
+'74',1,19,'731',NULL
+'74',1,20,'729',NULL
+'74',1,21,'727',NULL
+'74',1,22,'726',NULL
+'74',1,23,'2778',NULL
+'74',1,24,'688',NULL
+'74',1,25,'689',NULL
+'74',1,26,'690',NULL
+'74',1,27,'692',NULL
+'74',1,28,'2374',NULL
+'74',1,29,'5025',NULL
+'74',2,1,'5025',NULL
+'74',2,2,'3685',NULL
+'74',2,3,'693',NULL
+'74',2,4,'5264',NULL
+'74',2,5,'5264',NULL
+'74',2,6,'710',NULL
+'74',2,7,'711',NULL
+'74',2,8,'2779',NULL
+'74',2,9,'725',NULL
+'74',2,10,'728',NULL
+'74',2,11,'730',NULL
+'74',2,12,'732',NULL
+'74',2,13,'733',NULL
+'74',2,14,'449',NULL
+'74',2,15,'451',NULL
+'74',2,16,'452',NULL
+'74',2,17,'161',NULL
+'74',2,18,'69',NULL
+'74',2,19,'5135',NULL
+'74',2,20,'5137',NULL
+'74',2,21,'4094',NULL
+'74',2,22,'9',NULL
+'74',2,23,'168',NULL
+'74',2,24,'170',NULL
+'74',2,25,'854',NULL
+'74',2,26,'5522',NULL
+'74',2,27,'2753',NULL
+'74',2,28,'2785',NULL
+'74',2,29,'2786',NULL
+'74',2,30,'4235',NULL
+'74',2,31,'4234',NULL
+'75',1,1,'5569',NULL
+'75',1,2,'168',NULL
+'75',1,3,'170',NULL
+'75',1,4,'854',NULL
+'75',1,5,'599',NULL
+'75',1,6,'601',NULL
+'75',1,7,'2296',NULL
+'75',1,8,'858',NULL
+'75',1,9,'860',NULL
+'75',1,10,'862',NULL
+'75',1,11,'863',NULL
+'75',1,12,'5761',NULL
+'75',1,13,'865',NULL
+'75',1,14,'867',NULL
+'75',2,1,'867',NULL
+'75',2,2,'866',NULL
+'75',2,3,'868',NULL
+'75',2,4,'869',NULL
+'75',2,5,'870',NULL
+'75',2,6,'861',NULL
+'75',2,7,'859',NULL
+'75',2,8,'857',NULL
+'75',2,9,'5246',NULL
+'75',2,10,'742',NULL
+'75',2,11,'855',NULL
+'75',2,12,'5139',NULL
+'75',2,13,'5569',NULL
+'76',1,1,'2793',NULL
+'76',1,2,'1170',NULL
+'76',1,3,'5718',NULL
+'76',1,4,'5719',NULL
+'76',1,5,'5720',NULL
+'76',1,6,'1132',NULL
+'76',1,7,'5378',NULL
+'76',1,8,'2794',NULL
+'76',1,9,'2801',NULL
+'76',1,10,'2797',NULL
+'76',1,11,'2799',NULL
+'76',1,12,'2803',NULL
+'76',1,13,'2795',NULL
+'76',1,14,'5069',NULL
+'76',1,15,'5067',NULL
+'76',1,16,'2807',NULL
+'76',1,17,'1193',NULL
+'76',1,18,'2810',NULL
+'76',1,19,'2812',NULL
+'76',1,20,'2814',NULL
+'76',1,21,'2816',NULL
+'76',2,1,'2816',NULL
+'76',2,2,'3657',NULL
+'76',2,3,'2815',NULL
+'76',2,4,'2813',NULL
+'76',2,5,'2811',NULL
+'76',2,6,'1194',NULL
+'76',2,7,'2808',NULL
+'76',2,8,'5066',NULL
+'76',2,9,'5068',NULL
+'76',2,10,'2796',NULL
+'76',2,11,'2804',NULL
+'76',2,12,'3640',NULL
+'76',2,13,'2798',NULL
+'76',2,14,'2802',NULL
+'76',2,15,'3727',NULL
+'76',2,16,'1134',NULL
+'76',2,17,'5379',NULL
+'76',2,18,'5380',NULL
+'76',2,19,'5702',NULL
+'76',2,20,'5703',NULL
+'76',2,21,'5704',NULL
+'76',2,22,'3858',NULL
+'76',2,23,'2793',NULL
+'77',1,1,'1199',NULL
+'77',1,2,'5076',NULL
+'77',1,3,'5077',NULL
+'77',1,4,'2945',NULL
+'77',1,5,'2947',NULL
+'77',1,6,'2949',NULL
+'77',1,7,'3506',NULL
+'77',1,8,'2951',NULL
+'77',1,9,'2953',NULL
+'77',1,10,'2955',NULL
+'77',1,11,'2956',NULL
+'77',1,12,'3398',NULL
+'77',1,13,'3403',NULL
+'77',1,14,'4827',NULL
+'77',1,15,'3508',NULL
+'77',1,16,'3509',NULL
+'77',1,17,'3510',NULL
+'77',1,18,'1396',NULL
+'77',1,19,'1412',NULL
+'77',1,20,'4065',NULL
+'77',1,21,'3513',NULL
+'77',1,22,'5574',NULL
+'77',1,23,'3672',NULL
+'77',1,24,'3674',NULL
+'77',1,25,'3676',NULL
+'77',1,26,'3678',NULL
+'77',1,27,'3524',NULL
+'77',1,28,'5528',NULL
+'77',1,29,'5781',NULL
+'77',1,30,'3527',NULL
+'77',2,1,'3527',NULL
+'77',2,2,'3526',NULL
+'77',2,3,'3528',NULL
+'77',2,4,'3679',NULL
+'77',2,5,'3677',NULL
+'77',2,6,'4077',NULL
+'77',2,7,'3673',NULL
+'77',2,8,'3518',NULL
+'77',2,9,'3516',NULL
+'77',2,10,'3514',NULL
+'77',2,11,'4053',NULL
+'77',2,12,'1426',NULL
+'77',2,13,'1400',NULL
+'77',2,14,'3530',NULL
+'77',2,15,'3531',NULL
+'77',2,16,'3405',NULL
+'77',2,17,'3404',NULL
+'77',2,18,'3406',NULL
+'77',2,19,'3533',NULL
+'77',2,20,'3407',NULL
+'77',2,21,'2954',NULL
+'77',2,22,'2952',NULL
+'77',2,23,'3507',NULL
+'77',2,24,'2950',NULL
+'77',2,25,'2948',NULL
+'77',2,26,'2946',NULL
+'77',2,27,'3534',NULL
+'77',2,28,'2944',NULL
+'77',2,29,'2977',NULL
+'77',2,30,'1199',NULL
+'78',1,1,'3126',NULL
+'78',1,2,'2818',NULL
+'78',1,3,'1928',NULL
+'78',1,4,'1931',NULL
+'78',1,5,'1933',NULL
+'78',1,6,'1122',NULL
+'78',1,7,'1124',NULL
+'78',1,8,'1935',NULL
+'78',1,9,'1938',NULL
+'78',1,10,'1939',NULL
+'78',1,11,'2817',NULL
+'78',1,12,'4524',NULL
+'78',1,13,'2820',NULL
+'78',1,14,'2822',NULL
+'78',1,15,'5087',NULL
+'78',1,16,'4616',NULL
+'78',1,17,'4618',NULL
+'78',1,18,'4620',NULL
+'78',1,19,'4622',NULL
+'78',1,20,'1955',NULL
+'78',1,21,'1957',NULL
+'78',1,22,'2824',NULL
+'78',1,23,'4624',NULL
+'78',1,24,'2828',NULL
+'78',1,25,'2830',NULL
+'78',1,26,'2832',NULL
+'78',1,27,'2838',NULL
+'78',1,28,'5287',NULL
+'78',1,29,'4880',NULL
+'78',1,30,'2836',NULL
+'78',1,31,'2802',NULL
+'78',1,32,'945',NULL
+'78',1,33,'944',NULL
+'78',1,34,'942',NULL
+'78',1,35,'940',NULL
+'78',1,36,'938',NULL
+'78',1,37,'2267',NULL
+'78',2,1,'2267',NULL
+'78',2,2,'937',NULL
+'78',2,3,'939',NULL
+'78',2,4,'941',NULL
+'78',2,5,'943',NULL
+'78',2,6,'2839',NULL
+'78',2,7,'2801',NULL
+'78',2,8,'2840',NULL
+'78',2,9,'2841',NULL
+'78',2,10,'2835',NULL
+'78',2,11,'2833',NULL
+'78',2,12,'2831',NULL
+'78',2,13,'2829',NULL
+'78',2,14,'4625',NULL
+'78',2,15,'2825',NULL
+'78',2,16,'2842',NULL
+'78',2,17,'4814',NULL
+'78',2,18,'4623',NULL
+'78',2,19,'4621',NULL
+'78',2,20,'4619',NULL
+'78',2,21,'4617',NULL
+'78',2,22,'5289',NULL
+'78',2,23,'2823',NULL
+'78',2,24,'2821',NULL
+'78',2,25,'4525',NULL
+'78',2,26,'2593',NULL
+'78',2,27,'5358',NULL
+'78',2,28,'3912',NULL
+'78',2,29,'1125',NULL
+'78',2,30,'1123',NULL
+'78',2,31,'1934',NULL
+'78',2,32,'1932',NULL
+'78',2,33,'3561',NULL
+'78',2,34,'2819',NULL
+'78',2,35,'2592',NULL
+'78',2,36,'3126',NULL
+'79',1,1,'1425',NULL
+'79',1,2,'5718',NULL
+'79',1,3,'5719',NULL
+'79',1,4,'5720',NULL
+'79',1,5,'1132',NULL
+'79',1,6,'5378',NULL
+'79',1,7,'1135',NULL
+'79',1,8,'1137',NULL
+'79',1,9,'1172',NULL
+'79',1,10,'4662',NULL
+'79',1,11,'1174',NULL
+'79',1,12,'4664',NULL
+'79',1,13,'1176',NULL
+'79',1,14,'1178',NULL
+'79',1,15,'5460',NULL
+'79',1,16,'5461',NULL
+'79',1,17,'5462',NULL
+'79',1,18,'3925',NULL
+'79',1,19,'2843',NULL
+'79',1,20,'2845',NULL
+'79',1,21,'2847',NULL
+'79',1,22,'2849',NULL
+'79',1,23,'2850',NULL
+'79',1,24,'2855',NULL
+'79',1,25,'2851',NULL
+'79',1,26,'3900',NULL
+'79',1,27,'2856',NULL
+'79',1,28,'2182',NULL
+'79',1,29,'2180',NULL
+'79',1,30,'1197',NULL
+'79',2,1,'1197',NULL
+'79',2,2,'1195',NULL
+'79',2,3,'5154',NULL
+'79',2,4,'2179',NULL
+'79',2,5,'2181',NULL
+'79',2,6,'2857',NULL
+'79',2,7,'3901',NULL
+'79',2,8,'2852',NULL
+'79',2,9,'2858',NULL
+'79',2,10,'2859',NULL
+'79',2,11,'5883',NULL
+'79',2,12,'2848',NULL
+'79',2,13,'2846',NULL
+'79',2,14,'2860',NULL
+'79',2,15,'2261',NULL
+'79',2,16,'2862',NULL
+'79',2,17,'2844',NULL
+'79',2,18,'1179',NULL
+'79',2,19,'1180',NULL
+'79',2,20,'1181',NULL
+'79',2,21,'1177',NULL
+'79',2,22,'4665',NULL
+'79',2,23,'1175',NULL
+'79',2,24,'4663',NULL
+'79',2,25,'1173',NULL
+'79',2,26,'1138',NULL
+'79',2,27,'1136',NULL
+'79',2,28,'1134',NULL
+'79',2,29,'5379',NULL
+'79',2,30,'5380',NULL
+'79',2,31,'5702',NULL
+'79',2,32,'5703',NULL
+'79',2,33,'5704',NULL
+'79',2,34,'1425',NULL
+'8',1,1,'5128',NULL
+'8',1,2,'1182',NULL
+'8',1,3,'5036',NULL
+'8',1,4,'1964',NULL
+'8',1,5,'5558',NULL
+'8',1,6,'1966',NULL
+'8',1,7,'1965',NULL
+'8',1,8,'1967',NULL
+'8',1,9,'5467',NULL
+'8',1,10,'4802',NULL
+'8',1,11,'5143',NULL
+'8',1,12,'1410',NULL
+'8',1,13,'2058',NULL
+'8',1,14,'4325',NULL
+'8',1,15,'1980',NULL
+'8',1,16,'5540',NULL
+'8',1,17,'5541',NULL
+'8',1,18,'1984',NULL
+'8',1,19,'1986',NULL
+'8',1,20,'5472',NULL
+'8',1,21,'834',NULL
+'8',1,22,'3354',NULL
+'8',1,23,'1990',NULL
+'8',1,24,'1992',NULL
+'8',1,25,'1994',NULL
+'8',1,26,'1995',NULL
+'8',1,27,'1996',NULL
+'8',1,28,'1997',NULL
+'8',1,29,'1999',NULL
+'8',1,30,'4516',NULL
+'8',1,31,'4373',NULL
+'8',1,32,'3495',NULL
+'8',1,33,'5028',NULL
+'8',1,34,'5030',NULL
+'8',1,35,'3497',NULL
+'8',1,36,'1826',NULL
+'8',1,37,'1828',NULL
+'8',1,38,'5032',NULL
+'8',1,39,'5033',NULL
+'8',2,1,'5033',NULL
+'8',2,2,'1829',NULL
+'8',2,3,'1827',NULL
+'8',2,4,'5027',NULL
+'8',2,5,'5031',NULL
+'8',2,6,'5029',NULL
+'8',2,7,'3496',NULL
+'8',2,8,'4374',NULL
+'8',2,9,'2001',NULL
+'8',2,10,'2000',NULL
+'8',2,11,'1998',NULL
+'8',2,12,'849',NULL
+'8',2,13,'850',NULL
+'8',2,14,'844',NULL
+'8',2,15,'1993',NULL
+'8',2,16,'1991',NULL
+'8',2,17,'1989',NULL
+'8',2,18,'835',NULL
+'8',2,19,'5473',NULL
+'8',2,20,'1988',NULL
+'8',2,21,'51000',NULL
+'8',2,22,'51001',NULL
+'8',2,23,'1983',NULL
+'8',2,24,'1981',NULL
+'8',2,25,'1979',NULL
+'8',2,26,'2057',NULL
+'8',2,27,'1411',NULL
+'8',2,28,'1978',NULL
+'8',2,29,'1970',NULL
+'8',2,30,'1968',NULL
+'8',2,31,'1971',NULL
+'8',2,32,'5144',NULL
+'8',2,33,'1973',NULL
+'8',2,34,'2421',NULL
+'8',2,35,'1976',NULL
+'8',2,36,'1186',NULL
+'8',2,37,'1187',NULL
+'8',2,38,'1188',NULL
+'8',2,39,'1170',NULL
+'8',2,40,'5128',NULL
+'81',1,1,'5550',NULL
+'81',1,2,'2471',NULL
+'81',1,3,'2472',NULL
+'81',1,4,'5051',NULL
+'81',1,5,'5050',NULL
+'81',1,6,'2429',NULL
+'81',1,7,'1947',NULL
+'81',1,8,'1949',NULL
+'81',1,9,'1951',NULL
+'81',1,10,'1953',NULL
+'81',1,11,'1955',NULL
+'81',1,12,'1957',NULL
+'81',1,13,'2824',NULL
+'81',1,14,'4624',NULL
+'81',1,15,'2828',NULL
+'81',1,16,'2868',NULL
+'81',1,17,'5045',NULL
+'81',1,18,'2870',NULL
+'81',1,19,'2871',NULL
+'81',1,20,'2872',NULL
+'81',1,21,'4995',NULL
+'81',2,1,'4995',NULL
+'81',2,2,'5721',NULL
+'81',2,3,'5378',NULL
+'81',2,4,'2873',NULL
+'81',2,5,'2874',NULL
+'81',2,6,'2875',NULL
+'81',2,7,'2869',NULL
+'81',2,8,'2829',NULL
+'81',2,9,'4625',NULL
+'81',2,10,'2825',NULL
+'81',2,11,'2842',NULL
+'81',2,12,'4814',NULL
+'81',2,13,'4815',NULL
+'81',2,14,'5288',NULL
+'81',2,15,'5288',NULL
+'81',2,16,'1950',NULL
+'81',2,17,'1948',NULL
+'81',2,18,'2428',NULL
+'81',2,19,'2430',NULL
+'81',2,20,'2966',NULL
+'81',2,21,'4587',NULL
+'81',2,22,'5549',NULL
+'81',2,23,'5550',NULL
+'82',1,1,'3047',NULL
+'82',1,2,'3688',NULL
+'82',1,3,'4021',NULL
+'82',1,4,'743',NULL
+'82',1,5,'4175',NULL
+'82',1,6,'1684',NULL
+'82',1,7,'1686',NULL
+'82',1,8,'1687',NULL
+'82',1,9,'1689',NULL
+'82',1,10,'1691',NULL
+'82',1,11,'1693',NULL
+'82',1,12,'4285',NULL
+'82',1,13,'1697',NULL
+'82',1,14,'1699',NULL
+'82',1,15,'1701',NULL
+'82',1,16,'1703',NULL
+'82',1,17,'1705',NULL
+'82',1,18,'3391',NULL
+'82',1,19,'1709',NULL
+'82',1,20,'1711',NULL
+'82',1,21,'3756',NULL
+'82',1,22,'1716',NULL
+'82',1,23,'1718',NULL
+'82',1,24,'1720',NULL
+'82',1,25,'1722',NULL
+'82',1,26,'1724',NULL
+'82',1,27,'1726',NULL
+'82',1,28,'1633',NULL
+'82',1,29,'1635',NULL
+'82',1,30,'1730',NULL
+'82',1,31,'5729',NULL
+'82',1,32,'1629',NULL
+'82',1,33,'4819',NULL
+'82',1,34,'4821',NULL
+'82',1,35,'4823',NULL
+'82',1,36,'4282',NULL
+'82',1,37,'4292',NULL
+'82',2,1,'4292',NULL
+'82',2,2,'4824',NULL
+'82',2,3,'4822',NULL
+'82',2,4,'4820',NULL
+'82',2,5,'1630',NULL
+'82',2,6,'1738',NULL
+'82',2,7,'1731',NULL
+'82',2,8,'1729',NULL
+'82',2,9,'1634',NULL
+'82',2,10,'1727',NULL
+'82',2,11,'1725',NULL
+'82',2,12,'1723',NULL
+'82',2,13,'1721',NULL
+'82',2,14,'1719',NULL
+'82',2,15,'1717',NULL
+'82',2,16,'1715',NULL
+'82',2,17,'1713',NULL
+'82',2,18,'1712',NULL
+'82',2,19,'1710',NULL
+'82',2,20,'5716',NULL
+'82',2,21,'1706',NULL
+'82',2,22,'1704',NULL
+'82',2,23,'5309',NULL
+'82',2,24,'1700',NULL
+'82',2,25,'1698',NULL
+'82',2,26,'5370',NULL
+'82',2,27,'1696',NULL
+'82',2,28,'1694',NULL
+'82',2,29,'1692',NULL
+'82',2,30,'1690',NULL
+'82',2,31,'1688',NULL
+'82',2,32,'1685',NULL
+'82',2,33,'1331',NULL
+'82',2,34,'4514',NULL
+'82',2,35,'4022',NULL
+'82',2,36,'3047',NULL
+'83',1,1,'6003',NULL
+'83',1,2,'3688',NULL
+'83',1,3,'1330',NULL
+'83',1,4,'1332',NULL
+'83',1,5,'1334',NULL
+'83',1,6,'1336',NULL
+'83',1,7,'1338',NULL
+'83',1,8,'1340',NULL
+'83',1,9,'1341',NULL
+'83',1,10,'1343',NULL
+'83',1,11,'5793',NULL
+'83',1,12,'1347',NULL
+'83',1,13,'1349',NULL
+'83',1,14,'1351',NULL
+'83',1,15,'1352',NULL
+'83',1,16,'1354',NULL
+'83',1,17,'5456',NULL
+'83',1,18,'1356',NULL
+'83',1,19,'1358',NULL
+'83',1,20,'1359',NULL
+'83',1,21,'1362',NULL
+'83',1,22,'1364',NULL
+'83',1,23,'1366',NULL
+'83',1,24,'1368',NULL
+'83',1,25,'1370',NULL
+'83',1,26,'1372',NULL
+'83',1,27,'1373',NULL
+'83',1,28,'1374',NULL
+'83',1,29,'1376',NULL
+'83',2,1,'1376',NULL
+'83',2,2,'1377',NULL
+'83',2,3,'1378',NULL
+'83',2,4,'1375',NULL
+'83',2,5,'1379',NULL
+'83',2,6,'1380',NULL
+'83',2,7,'1371',NULL
+'83',2,8,'93',NULL
+'83',2,9,'1367',NULL
+'83',2,10,'1365',NULL
+'83',2,11,'1363',NULL
+'83',2,12,'1360',NULL
+'83',2,13,'1361',NULL
+'83',2,14,'1357',NULL
+'83',2,15,'1355',NULL
+'83',2,16,'5652',NULL
+'83',2,17,'1353',NULL
+'83',2,18,'1350',NULL
+'83',2,19,'1348',NULL
+'83',2,20,'1346',NULL
+'83',2,21,'1344',NULL
+'83',2,22,'1342',NULL
+'83',2,23,'23',NULL
+'83',2,24,'1335',NULL
+'83',2,25,'1333',NULL
+'83',2,26,'1331',NULL
+'83',2,27,'740',NULL
+'83',2,28,'6003',NULL
+'SB830',1,1,'1545',NULL
+'SB830',1,2,'4282',NULL
+'SB830',1,3,'2994',NULL
+'SB830',2,1,'2994',NULL
+'SB830',2,2,'4703',NULL
+'SB830',2,3,'1545',NULL
+'BR1',1,1,'5975',NULL
+'BR1',1,2,'5434',NULL
+'BR1',1,3,'5438',NULL
+'BR1',1,4,'5440',NULL
+'BR1',1,5,'5494',NULL
+'BR1',1,6,'5496',NULL
+'BR1',1,7,'5973',NULL
+'BR1',1,8,'2912',NULL
+'BR1',1,9,'5916',NULL
+'BR1',1,10,'5918',NULL
+'BR1',1,11,'5920',NULL
+'BR1',1,12,'5922',NULL
+'BR1',1,13,'3894',NULL
+'BR1',1,14,'5400',NULL
+'BR1',1,15,'5255',NULL
+'BR1',1,16,'5402',NULL
+'BR1',1,17,'5924',NULL
+'BR1',1,18,'5926',NULL
+'BR1',1,19,'5927',NULL
+'BR1',1,20,'5928',NULL
+'BR1',1,21,'4932',NULL
+'BR1',1,22,'5929',NULL
+'BR1',2,1,'5929',NULL
+'BR1',2,2,'5850',NULL
+'BR1',2,3,'5426',NULL
+'BR1',2,4,'5925',NULL
+'BR1',2,5,'5923',NULL
+'BR1',2,6,'5921',NULL
+'BR1',2,7,'5397',NULL
+'BR1',2,8,'5399',NULL
+'BR1',2,9,'4366',NULL
+'BR1',2,10,'5919',NULL
+'BR1',2,11,'5917',NULL
+'BR1',2,12,'5915',NULL
+'BR1',2,13,'5899',NULL
+'BR1',2,14,'2911',NULL
+'BR1',2,15,'4888',NULL
+'BR1',2,16,'5493',NULL
+'BR1',2,17,'5441',NULL
+'BR1',2,18,'5439',NULL
+'BR1',2,19,'5435',NULL
+'BR1',2,20,'5433',NULL
+'BR1',2,21,'5974',NULL
+'BR1',2,22,'5975',NULL
+'SE832',1,1,'8372',NULL
+'SE832',1,2,'3127',NULL
+'SE832',1,3,'3929',NULL
+'SE832',1,4,'3859',NULL
+'SE832',1,5,'5162',NULL
+'SE832',2,1,'5162',NULL
+'SE832',2,2,'5957',NULL
+'SE832',2,3,'3860',NULL
+'SE832',2,4,'3903',NULL
+'SE832',2,5,'3128',NULL
+'SE832',2,6,'8372',NULL
+'SE833',1,1,'5459',NULL
+'SE833',1,2,'30',NULL
+'SE833',1,3,'207',NULL
+'SE833',1,4,'145',NULL
+'SE833',1,5,'126',NULL
+'SE833',1,6,'50043',NULL
+'SE833',1,7,'51107',NULL
+'SE833',1,8,'51108',NULL
+'SE833',1,9,'272',NULL
+'SE833',1,10,'3775',NULL
+'SE833',1,11,'3773',NULL
+'SE833',1,12,'4513',NULL
+'SE833',1,13,'3796',NULL
+'SE833',2,1,'3796',NULL
+'SE833',2,2,'4492',NULL
+'SE833',2,3,'3774',NULL
+'SE833',2,4,'271',NULL
+'SE833',2,5,'51109',NULL
+'SE833',2,6,'3602',NULL
+'SE833',2,7,'3264',NULL
+'SE833',2,8,'3265',NULL
+'SE833',2,9,'5061',NULL
+'SE833',2,10,'3266',NULL
+'SE833',2,11,'124',NULL
+'SE833',2,12,'2149',NULL
+'SE833',2,13,'5459',NULL
+'85',1,1,'5708',NULL
+'85',1,2,'1167',NULL
+'85',1,3,'1926',NULL
+'85',1,4,'1927',NULL
+'85',1,5,'1928',NULL
+'85',1,6,'1168',NULL
+'85',1,7,'1188',NULL
+'85',1,8,'1170',NULL
+'85',1,9,'5718',NULL
+'85',1,10,'5719',NULL
+'85',1,11,'5720',NULL
+'85',1,12,'1132',NULL
+'85',1,13,'5378',NULL
+'85',1,14,'1135',NULL
+'85',1,15,'1137',NULL
+'85',1,16,'1172',NULL
+'85',1,17,'4662',NULL
+'85',1,18,'1174',NULL
+'85',1,19,'4664',NULL
+'85',1,20,'1440',NULL
+'85',1,21,'1442',NULL
+'85',1,22,'1444',NULL
+'85',1,23,'1446',NULL
+'85',1,24,'5085',NULL
+'85',1,25,'4980',NULL
+'85',1,26,'4981',NULL
+'85',1,27,'5856',NULL
+'85',1,28,'4982',NULL
+'85',1,29,'3203',NULL
+'85',1,30,'5072',NULL
+'85',1,31,'3205',NULL
+'85',1,32,'5074',NULL
+'85',1,33,'4312',NULL
+'85',1,34,'4739',NULL
+'85',1,35,'4314',NULL
+'85',2,1,'4314',NULL
+'85',2,2,'4313',NULL
+'85',2,3,'5073',NULL
+'85',2,4,'3255',NULL
+'85',2,5,'4984',NULL
+'85',2,6,'3257',NULL
+'85',2,7,'3753',NULL
+'85',2,8,'4983',NULL
+'85',2,9,'3752',NULL
+'85',2,10,'1449',NULL
+'85',2,11,'5086',NULL
+'85',2,12,'1450',NULL
+'85',2,13,'1445',NULL
+'85',2,14,'1443',NULL
+'85',2,15,'1441',NULL
+'85',2,16,'4665',NULL
+'85',2,17,'1175',NULL
+'85',2,18,'4663',NULL
+'85',2,19,'1173',NULL
+'85',2,20,'1138',NULL
+'85',2,21,'1136',NULL
+'85',2,22,'1134',NULL
+'85',2,23,'5379',NULL
+'85',2,24,'5380',NULL
+'85',2,25,'5702',NULL
+'85',2,26,'5703',NULL
+'85',2,27,'5704',NULL
+'85',2,28,'3858',NULL
+'85',2,29,'1182',NULL
+'85',2,30,'5036',NULL
+'85',2,31,'1183',NULL
+'85',2,32,'1184',NULL
+'85',2,33,'5360',NULL
+'85',2,34,'5708',NULL
+'86',1,1,'5707',NULL
+'86',1,2,'4839',NULL
+'86',1,3,'1976',NULL
+'86',1,4,'1186',NULL
+'86',1,5,'1187',NULL
+'86',1,6,'1188',NULL
+'86',1,7,'1170',NULL
+'86',1,8,'5718',NULL
+'86',1,9,'5719',NULL
+'86',1,10,'5720',NULL
+'86',1,11,'1132',NULL
+'86',1,12,'5378',NULL
+'86',1,13,'1135',NULL
+'86',1,14,'1137',NULL
+'86',1,15,'1139',NULL
+'86',1,16,'1141',NULL
+'86',1,17,'1143',NULL
+'86',1,18,'1144',NULL
+'86',1,19,'1145',NULL
+'86',1,20,'1189',NULL
+'86',1,21,'1191',NULL
+'86',1,22,'1193',NULL
+'86',1,23,'1195',NULL
+'86',1,24,'1196',NULL
+'86',2,1,'1196',NULL
+'86',2,2,'1198',NULL
+'86',2,3,'1194',NULL
+'86',2,4,'1192',NULL
+'86',2,5,'1190',NULL
+'86',2,6,'1146',NULL
+'86',2,7,'1146',NULL
+'86',2,8,'1147',NULL
+'86',2,9,'1148',NULL
+'86',2,10,'1142',NULL
+'86',2,11,'1140',NULL
+'86',2,12,'4728',NULL
+'86',2,13,'1138',NULL
+'86',2,14,'1136',NULL
+'86',2,15,'1134',NULL
+'86',2,16,'5379',NULL
+'86',2,17,'5380',NULL
+'86',2,18,'5702',NULL
+'86',2,19,'5703',NULL
+'86',2,20,'5704',NULL
+'86',2,21,'3858',NULL
+'86',2,22,'1182',NULL
+'86',2,23,'5036',NULL
+'86',2,24,'1183',NULL
+'86',2,25,'1184',NULL
+'86',2,26,'5360',NULL
+'86',2,27,'5707',NULL
+'SE3',1,1,'51122',NULL
+'SE3',1,2,'51123',NULL
+'SE3',1,3,'51124',NULL
+'SE3',1,4,'2626',NULL
+'SE3',1,5,'2628',NULL
+'SE3',1,6,'2630',NULL
+'SE3',1,7,'2632',NULL
+'SE3',1,8,'5336',NULL
+'SE3',1,9,'51126',NULL
+'SE3',1,10,'5192',NULL
+'SE3',2,1,'5192',NULL
+'SE3',2,2,'1475',NULL
+'SE3',2,3,'1473',NULL
+'SE3',2,4,'51127',NULL
+'SE3',2,5,'51129',NULL
+'SE3',2,6,'4987',NULL
+'SE3',2,7,'51122',NULL
+'SE6',1,1,'3644',NULL
+'SE6',1,2,'4100',NULL
+'SE6',1,3,'4802',NULL
+'SE6',1,4,'3720',NULL
+'SE6',1,5,'5972',NULL
+'SE6',1,6,'4614',NULL
+'SE6',1,7,'51197',NULL
+'SE6',1,8,'782',NULL
+'SE6',1,9,'5296',NULL
+'SE6',1,10,'51142',NULL
+'SE6',1,11,'5394',NULL
+'SE6',1,12,'2697',NULL
+'SE6',1,13,'51196',NULL
+'SE6',1,14,'51144',NULL
+'SE6',1,15,'3278',NULL
+'SE6',1,16,'1688',NULL
+'SE6',1,17,'51140',NULL
+'SE6',1,18,'15525',NULL
+'SE6',2,1,'15525',NULL
+'SE6',2,2,'1687',NULL
+'SE6',2,3,'5316',NULL
+'SE6',2,4,'1414',NULL
+'SE6',2,5,'2692',NULL
+'SE6',2,6,'2696',NULL
+'SE6',2,7,'4678',NULL
+'SE6',2,8,'51143',NULL
+'SE6',2,9,'786',NULL
+'SE6',2,10,'3829',NULL
+'SE6',2,11,'51141',NULL
+'SE6',2,12,'4962',NULL
+'SE6',2,13,'51200',NULL
+'SE6',2,14,'1437',NULL
+'SE6',2,15,'3742',NULL
+'SE6',2,16,'4101',NULL
+'SE6',2,17,'3737',NULL
+'SE6',2,18,'3644',NULL
+'87',1,1,'4951',NULL
+'87',1,2,'300',NULL
+'87',1,3,'302',NULL
+'87',1,4,'2878',NULL
+'87',1,5,'2879',NULL
+'87',1,6,'2880',NULL
+'87',1,7,'2882',NULL
+'87',1,8,'2884',NULL
+'87',1,9,'2886',NULL
+'87',1,10,'489',NULL
+'87',1,11,'4599',NULL
+'87',1,12,'2888',NULL
+'87',1,13,'2736',NULL
+'87',1,14,'2738',NULL
+'87',1,15,'2742',NULL
+'87',1,16,'2744',NULL
+'87',1,17,'2890',NULL
+'87',1,18,'5208',NULL
+'87',1,19,'2894',NULL
+'87',1,20,'4785',NULL
+'87',1,21,'2896',NULL
+'87',2,1,'2896',NULL
+'87',2,2,'2897',NULL
+'87',2,3,'4786',NULL
+'87',2,4,'4270',NULL
+'87',2,5,'2899',NULL
+'87',2,6,'2900',NULL
+'87',2,7,'2901',NULL
+'87',2,8,'3020',NULL
+'87',2,9,'3022',NULL
+'87',2,10,'2891',NULL
+'87',2,11,'2745',NULL
+'87',2,12,'2743',NULL
+'87',2,13,'2739',NULL
+'87',2,14,'2737',NULL
+'87',2,15,'2889',NULL
+'87',2,16,'480',NULL
+'87',2,17,'2887',NULL
+'87',2,18,'2885',NULL
+'87',2,19,'2883',NULL
+'87',2,20,'4600',NULL
+'87',2,21,'2881',NULL
+'87',2,22,'3926',NULL
+'87',2,23,'2903',NULL
+'87',2,24,'2904',NULL
+'87',2,25,'303',NULL
+'87',2,26,'2388',NULL
+'87',2,27,'314',NULL
+'87',2,28,'4951',NULL
+'SE5',1,1,'2481',NULL
+'SE5',1,2,'51144',NULL
+'SE5',1,3,'5141',NULL
+'SE5',1,4,'51033',NULL
+'SE5',2,1,'51033',NULL
+'SE5',2,2,'2710',NULL
+'SE5',2,3,'1414',NULL
+'SE5',2,4,'4284',NULL
+'SE5',2,5,'2481',NULL
+'SEN',1,1,'15525',NULL
+'SEN',1,2,'735',NULL
+'SEN',1,3,'603',NULL
+'SEN',1,4,'873',NULL
+'SEN',1,5,'879',NULL
+'SEN',1,6,'5559',NULL
+'SEN',1,7,'5094',NULL
+'SEN',1,8,'4766',NULL
+'SEN',1,9,'5601',NULL
+'SEN',1,10,'2472',NULL
+'SEN',1,11,'5050',NULL
+'SEN',1,12,'2425',NULL
+'SEN',1,13,'5128',NULL
+'SEN',2,1,'5128',NULL
+'SEN',2,2,'2424',NULL
+'SEN',2,3,'2430',NULL
+'SEN',2,4,'4587',NULL
+'SEN',2,5,'5600',NULL
+'SEN',2,6,'2553',NULL
+'SEN',2,7,'2262',NULL
+'SEN',2,8,'2258',NULL
+'SEN',2,9,'880',NULL
+'SEN',2,10,'874',NULL
+'SEN',2,11,'604',NULL
+'SEN',2,12,'736',NULL
+'SEN',2,13,'15525',NULL
+'88',1,1,'5714',NULL
+'88',1,2,'7205',NULL
+'88',1,3,'3679',NULL
+'88',1,4,'3677',NULL
+'88',1,5,'4077',NULL
+'88',1,6,'5529',NULL
+'88',1,7,'7208',NULL
+'88',1,8,'7209',NULL
+'88',1,9,'5343',NULL
+'88',2,1,'5343',NULL
+'88',2,2,'3673',NULL
+'88',2,3,'3514',NULL
+'88',2,4,'4053',NULL
+'88',2,5,'1426',NULL
+'88',2,6,'1400',NULL
+'88',2,7,'51002',NULL
+'88',2,8,'3404',NULL
+'88',2,9,'3406',NULL
+'88',2,10,'5714',NULL
+'SE7',1,1,'1688',NULL
+'SE7',1,2,'740',NULL
+'SE7',1,3,'3688',NULL
+'SE7',2,1,'3688',NULL
+'SE7',2,2,'1687',NULL
+'SE7',2,3,'1688',NULL
+'SE2',1,1,'19224',NULL
+'SE2',1,2,'659',NULL
+'SE2',1,3,'4826',NULL
+'SE2',1,4,'51147',NULL
+'SE2',2,1,'51147',NULL
+'SE2',2,2,'658',NULL
+'SE2',2,3,'19224',NULL
+'9',1,1,'2559',NULL
+'9',1,2,'90',NULL
+'9',1,3,'70',NULL
+'9',1,4,'162',NULL
+'9',1,5,'423',NULL
+'9',1,6,'424',NULL
+'9',1,7,'425',NULL
+'9',1,8,'426',NULL
+'9',1,9,'427',NULL
+'9',1,10,'428',NULL
+'9',1,11,'5377',NULL
+'9',1,12,'2007',NULL
+'9',1,13,'2009',NULL
+'9',1,14,'2011',NULL
+'9',1,15,'2013',NULL
+'9',1,16,'2015',NULL
+'9',1,17,'2017',NULL
+'9',1,18,'2020',NULL
+'9',1,19,'4721',NULL
+'9',1,20,'2022',NULL
+'9',1,21,'408',NULL
+'9',1,22,'2024',NULL
+'9',1,23,'2026',NULL
+'9',1,24,'2027',NULL
+'9',1,25,'2029',NULL
+'9',1,26,'3927',NULL
+'9',1,27,'2033',NULL
+'9',1,28,'2035',NULL
+'9',1,29,'2037',NULL
+'9',1,30,'1846',NULL
+'9',1,31,'1848',NULL
+'9',1,32,'2039',NULL
+'9',1,33,'3550',NULL
+'9',1,34,'2043',NULL
+'9',2,1,'2043',NULL
+'9',2,2,'2042',NULL
+'9',2,3,'2041',NULL
+'9',2,4,'2040',NULL
+'9',2,5,'2560',NULL
+'9',2,6,'1849',NULL
+'9',2,7,'1847',NULL
+'9',2,8,'2038',NULL
+'9',2,9,'2036',NULL
+'9',2,10,'2034',NULL
+'9',2,11,'3928',NULL
+'9',2,12,'2030',NULL
+'9',2,13,'4538',NULL
+'9',2,14,'218',NULL
+'9',2,15,'2025',NULL
+'9',2,16,'409',NULL
+'9',2,17,'462',NULL
+'9',2,18,'310',NULL
+'9',2,19,'310',NULL
+'9',2,20,'2021',NULL
+'9',2,21,'2021',NULL
+'9',2,22,'2018',NULL
+'9',2,23,'2016',NULL
+'9',2,24,'2014',NULL
+'9',2,25,'268',NULL
+'9',2,26,'5249',NULL
+'9',2,27,'2008',NULL
+'9',2,28,'2006',NULL
+'9',2,29,'446',NULL
+'9',2,30,'447',NULL
+'9',2,31,'448',NULL
+'9',2,32,'4710',NULL
+'9',2,33,'449',NULL
+'9',2,34,'451',NULL
+'9',2,35,'452',NULL
+'9',2,36,'161',NULL
+'9',2,37,'69',NULL
+'9',2,38,'2559',NULL
+'E',1,1,'51158',NULL
+'E',1,2,'2128',NULL
+'E',1,3,'3350',NULL
+'E',1,4,'3351',NULL
+'E',1,5,'3353',NULL
+'E',1,6,'4278',NULL
+'E',1,7,'4279',NULL
+'E',1,8,'4280',NULL
+'E',1,9,'4702',NULL
+'E',1,10,'5561',NULL
+'E',1,11,'51210',NULL
+'E',2,1,'51210',NULL
+'E',2,2,'51184',NULL
+'E',2,3,'5562',NULL
+'E',2,4,'4281',NULL
+'E',2,5,'2612',NULL
+'E',2,6,'2613',NULL
+'E',2,7,'4283',NULL
+'E',2,8,'3352',NULL
+'E',2,9,'2611',NULL
+'E',2,10,'2127',NULL
+'E',2,11,'51158',NULL
+'F',1,1,'2480',NULL
+'F',1,2,'1418',NULL
+'F',1,3,'1416',NULL
+'F',1,4,'2712',NULL
+'F',1,5,'3278',NULL
+'F',1,6,'5140',NULL
+'F',1,7,'3292',NULL
+'F',1,8,'3274',NULL
+'F',1,9,'1693',NULL
+'F',1,10,'4285',NULL
+'F',1,11,'5370',NULL
+'F',1,12,'1696',NULL
+'F',1,13,'1694',NULL
+'F',1,14,'4287',NULL
+'F',1,15,'4289',NULL
+'F',1,16,'4290',NULL
+'F',2,1,'4290',NULL
+'F',2,2,'4288',NULL
+'F',2,3,'4291',NULL
+'F',2,4,'3273',NULL
+'F',2,5,'3276',NULL
+'F',2,6,'5316',NULL
+'F',2,7,'185',NULL
+'F',2,8,'1415',NULL
+'F',2,9,'1417',NULL
+'F',2,10,'4284',NULL
+'F',2,11,'2480',NULL
+'G',1,1,'5597',NULL
+'G',1,2,'1684',NULL
+'G',1,3,'1686',NULL
+'G',1,4,'1687',NULL
+'G',1,5,'1689',NULL
+'G',1,6,'1691',NULL
+'G',1,7,'1693',NULL
+'G',1,8,'4285',NULL
+'G',1,9,'5370',NULL
+'G',1,10,'1696',NULL
+'G',1,11,'1694',NULL
+'G',1,12,'4287',NULL
+'G',1,13,'4289',NULL
+'G',1,14,'4290',NULL
+'G',2,1,'4290',NULL
+'G',2,2,'4288',NULL
+'G',2,3,'1692',NULL
+'G',2,4,'1690',NULL
+'G',2,5,'1688',NULL
+'G',2,6,'1685',NULL
+'G',2,7,'1331',NULL
+'G',2,8,'5597',NULL
+'A',1,1,'5147',NULL
+'A',1,2,'3423',NULL
+'A',1,3,'3424',NULL
+'A',1,4,'3425',NULL
+'A',1,5,'6446',NULL
+'A',1,6,'4299',NULL
+'A',2,1,'4299',NULL
+'A',2,2,'4300',NULL
+'A',2,3,'6447',NULL
+'A',2,4,'3426',NULL
+'A',2,5,'4198',NULL
+'A',2,6,'3448',NULL
+'A',2,7,'3449',NULL
+'A',2,8,'5147',NULL
+'H',1,1,'5686',NULL
+'H',1,2,'4301',NULL
+'H',1,3,'4303',NULL
+'H',1,4,'3208',NULL
+'H',1,5,'4302',NULL
+'H',1,6,'6446',NULL
+'H',1,7,'4299',NULL
+'H',2,1,'4299',NULL
+'H',2,2,'4300',NULL
+'H',2,3,'6447',NULL
+'H',2,4,'5325',NULL
+'H',2,5,'5731',NULL
+'H',2,6,'3592',NULL
+'H',2,7,'3209',NULL
+'H',2,8,'5686',NULL
+'U',1,1,'2415',NULL
+'U',1,2,'2417',NULL
+'U',1,3,'1684',NULL
+'U',1,4,'1686',NULL
+'U',1,5,'1687',NULL
+'U',1,6,'1689',NULL
+'U',1,7,'1691',NULL
+'U',1,8,'1693',NULL
+'U',1,9,'4285',NULL
+'U',1,10,'3861',NULL
+'U',1,11,'3862',NULL
+'U',2,1,'3862',NULL
+'U',2,2,'3863',NULL
+'U',2,3,'1696',NULL
+'U',2,4,'1694',NULL
+'U',2,5,'1692',NULL
+'U',2,6,'1690',NULL
+'U',2,7,'1688',NULL
+'U',2,8,'1685',NULL
+'U',2,9,'1331',NULL
+'U',2,10,'4306',NULL
+'U',2,11,'2413',NULL
+'U',2,12,'2415',NULL
