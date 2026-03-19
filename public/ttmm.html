@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Tera, Mai Mera | Fair Expense Splitting</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            bg: '#0F0F11',       /* Deep dark background */
+                            surface: '#1C1C22',  /* Card background */
+                            accent: '#34E0E5',   /* Neon cyan from buttons */
+                            textMuted: '#9CA3AF' /* Gray text */
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0F0F11;
+            color: #ffffff;
+        }
+        .text-gradient {
+            background: linear-gradient(90deg, #34E0E5, #8B5CF6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .mockup-shadow {
+            box-shadow: 0 25px 50px -12px rgba(52, 224, 229, 0.15);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased selection:bg-brand-accent selection:text-brand-bg">
+
+    <nav class="fixed w-full z-50 bg-brand-bg/90 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2 text-xl font-semibold">
+                <span class="text-brand-accent">Tu Tera,</span>
+                <span class="text-white">Mai Mera</span>
+            </div>
+            <div class="hidden md:flex gap-6 text-sm font-medium text-brand-textMuted">
+                <a href="#features" class="hover:text-brand-accent transition">Features</a>
+                <a href="#how-it-works" class="hover:text-brand-accent transition">How it Works</a>
+            </div>
+            <a href="https://play.google.com/store/apps/details?id=com.hmproductions.ttmm" target="_blank" rel="noopener noreferrer" class="bg-brand-accent text-brand-bg px-5 py-2 rounded-full font-bold text-sm hover:opacity-90 transition inline-block">
+                Get the App
+            </a>
+        </div>
+    </nav>
+
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+            <div class="max-w-2xl">
+                <h1 class="text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                    Split Expenses.<br>
+                    <span class="text-gradient">Not Friendships.</span>
+                </h1>
+                <p class="text-lg text-brand-textMuted mb-8 leading-relaxed">
+                    The simplest way to track balances, split bills by exact amounts or parts, and settle up with your friends after a trip, dinner, or shared living.
+                </p>
+            </div>
+            
+            <div class="relative mx-auto w-[280px] lg:w-[320px]">
+                <div class="absolute inset-0 bg-brand-accent blur-[100px] opacity-20 rounded-full"></div>
+                <img src="content/image/ss1.png" alt="App Home Screen" class="relative z-10 rounded-[2.5rem] border-[6px] border-brand-surface mockup-shadow">
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-20 bg-brand-surface/30">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Everything you need to manage group costs</h2>
+                <p class="text-brand-textMuted max-w-2xl mx-auto">Flexible splitting options and a clear timeline of who paid for what.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-brand-surface p-8 rounded-3xl border border-white/5 hover:border-brand-accent/30 transition">
+                    <div class="w-12 h-12 bg-brand-accent/10 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-brand-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Flexible Splitting</h3>
+                    <p class="text-brand-textMuted leading-relaxed">Split equally, by exact amounts, or by parts. Perfect for when someone orders an extra beer or brings a plus-one.</p>
+                </div>
+
+                <div class="bg-brand-surface p-8 rounded-3xl border border-white/5 hover:border-brand-accent/30 transition">
+                    <div class="w-12 h-12 bg-purple-500/10 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Group Ledger</h3>
+                    <p class="text-brand-textMuted leading-relaxed">Keep all transactions organized by trips or events like "Bali & Ubud" or "Switzerland Vacation".</p>
+                </div>
+
+                <div class="bg-brand-surface p-8 rounded-3xl border border-white/5 hover:border-brand-accent/30 transition">
+                    <div class="w-12 h-12 bg-green-500/10 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Settle Up Easily</h3>
+                    <p class="text-brand-textMuted leading-relaxed">See exactly who owes whom at a glance, minimizing the number of transactions needed to settle debts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="py-24 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6">
+            
+            <div class="flex flex-col md:flex-row items-center gap-12 mb-24">
+                <div class="flex-1 order-2 md:order-1 relative">
+                    <img src="content/image/ss2.png" alt="Transaction List" class="w-[260px] mx-auto rounded-[2rem] border-[4px] border-brand-surface mockup-shadow">
+                </div>
+                <div class="flex-1 order-1 md:order-2">
+                    <h3 class="text-3xl font-bold mb-4">Track every shared expense</h3>
+                    <p class="text-brand-textMuted text-lg leading-relaxed mb-6">
+                        Add categories like Food, Transport, or Fuel. Instantly see who paid for the Biryani at Flamboyant or the Premier Ferry, and who was included in the bill.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center gap-12 mb-24">
+                <div class="flex-1">
+                    <h3 class="text-3xl font-bold mb-4">Custom splits without the math</h3>
+                    <p class="text-brand-textMuted text-lg leading-relaxed mb-6">
+                        Not everyone eats the same amount. Choose between splitting equally, by precise amounts, or assigning parts to each person. Tu Tera, Mai Mera handles the calculations instantly.
+                    </p>
+                </div>
+                <div class="flex-1 relative">
+                    <img src="content/image/ss3.png" alt="Split Details" class="w-[260px] mx-auto rounded-[2rem] border-[4px] border-brand-surface mockup-shadow">
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="flex-1 order-2 md:order-1 relative">
+                    <img src="content/image/ss4.png" alt="Settle Up Screen" class="w-[260px] mx-auto rounded-[2rem] border-[4px] border-brand-surface mockup-shadow">
+                </div>
+                <div class="flex-1 order-1 md:order-2">
+                    <h3 class="text-3xl font-bold mb-4">Clear the balances</h3>
+                    <p class="text-brand-textMuted text-lg leading-relaxed mb-6">
+                        When the trip is over, the 'Settle Up' screen shows a simplified list of exactly who owes whom. Tap 'Settle' and wipe the slate clean.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="border-t border-white/10 bg-brand-bg py-12">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-2 text-xl font-semibold">
+                <span class="text-brand-accent">Tu Tera,</span>
+                <span class="text-white">Mai Mera</span>
+            </div>
+            <div class="text-brand-textMuted text-sm">
+                &copy; <script>document.write(new Date().getFullYear())</script> Tu Tera, Mai Mera. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
