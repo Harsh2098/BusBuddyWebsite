@@ -1,138 +1,234 @@
 <!DOCTYPE html>
-<html dir="auto" lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
-	<meta charset="UTF-8" />
-	<title>SG Bus Buddy</title>
-
-	<meta name="description" content="My Page Description" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SG Bus Buddy | Top Rated Bus Timing App</title>
+	<meta name="description"
+		content="SG Bus Buddy - Accurate bus timings under 8 MB! Ranked #2 in Maps & Navigation category on Play Store!" />
 	<link rel="icon" href="content/image/0gn1wc11q2zxums6dnog.ico" />
-
 	<meta property="og:title" content="SG Bus Buddy" />
-	<meta property="og:description" content="My Page Description" />
+	<meta property="og:description" content="SG Bus Buddy - Accurate bus timings under 8 MB!" />
 	<meta property="og:image" content="assets/og-image.png" />
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					colors: {
+						brand: {
+							bg: '#0F0F11',       /* Deep dark background */
+							surface: '#1C1C22',  /* Card background */
+							accent: '#DA552F',   /* Neon Orange/Red */
+							secondary: '#5A51FE',/* Neon Blue/Purple */
+							textMuted: '#9CA3AF' /* Gray text */
+						}
+					},
+					fontFamily: {
+						sans: ['Inter', 'system-ui', 'sans-serif'],
+					}
+				}
+			}
+		}
+	</script>
+	<style>
+		body {
+			background-color: #0F0F11;
+			color: #ffffff;
+		}
 
+		.text-gradient {
+			background: linear-gradient(90deg, #DA552F, #5A51FE);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+
+		.mockup-shadow {
+			box-shadow: 0 25px 50px -12px rgba(218, 85, 47, 0.15);
+		}
+	</style>
+	<!-- Keep tobi CSS for responsive lightbox gallery -->
 	<link rel="stylesheet" href="assets/tobi.css" />
-	<link rel="stylesheet" href="assets/style.css" />
-
 </head>
 
-<body>
-	<main>
-		<header class="app__header container">
-			<div class="app__logo-wrapper"> <img class="app__logo" src="content/image/o40077mv3hlwsuhav7j7.png"
-					alt="SG Bus Buddy"></div>
-			<div class="app__infos">
-				<h1 class="app__name">SG Bus Buddy</h1>
-				<p class="app__description">Ranked #2 in Maps &amp; Navigation category on Play Store!<br>500,000+
-					downloads with a rating of 4.6/5.0!</p>
-				<div class="app__buttons app__buttons--desktop">
-					<a href="https://play.google.com/store/apps/details?id&#x3D;com.hmproductions.sgbuses"
-						class="app__button-play" target="_blank" title="Get on Google Play">
-						<img src="assets/google-play-badge.png" alt="Get on Google Play">
-					</a>
-					<a href="https://apps.apple.com/app/sg-bus-buddy/id6446060002" class="app__button-ios"
-						target="_blank" title="Get on Appstore">
-						<img src="assets/ios-badge.svg" alt="Get on Appstore">
-					</a>
-				</div>
-			</div>
-		</header>
+<body class="font-sans antialiased selection:bg-brand-accent selection:text-white">
 
-		<div class="app__buttons app__buttons--mobile container">
-			<a href="https://play.google.com/store/apps/details?id&#x3D;com.hmproductions.sgbuses"
-				class="app__button-play" target="_blank" title="Get on Google Play">
-				<img src="assets/google-play-badge.png" alt="Get on Google Play">
-			</a>
-			<a href="https://apps.apple.com/app/sg-bus-buddy/id6446060002" class="app__button-ios" target="_blank"
-				title="Get on Appstore">
-				<img src="assets/ios-badge.svg" alt="Get on Appstore">
+	<nav class="fixed w-full z-50 bg-brand-bg/90 backdrop-blur-md border-b border-white/10">
+		<div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+			<div class="flex items-center gap-2 text-xl font-bold">
+				<img class="w-8 h-8 rounded-lg" src="content/image/o40077mv3hlwsuhav7j7.png" alt="Logo">
+				<span class="text-brand-accent">SG Bus</span>
+				<span class="text-white">Buddy</span>
+			</div>
+			<div class="hidden md:flex gap-6 text-sm font-medium text-brand-textMuted">
+				<a href="#features" class="hover:text-brand-accent transition">Top Features</a>
+				<a href="#screenshots" class="hover:text-brand-accent transition">Screenshots</a>
+			</div>
+			<a href="https://play.google.com/store/apps/details?id=com.hmproductions.sgbuses" target="_blank"
+				rel="noopener noreferrer"
+				class="bg-gradient-to-r from-brand-accent to-brand-secondary text-white px-5 py-2 rounded-full font-bold text-sm hover:opacity-90 transition inline-block">
+				Get the App
 			</a>
 		</div>
-		
-		<section class="app__screenshots app__section">
-			<div class="container">
-				<h2 class="app__section-title">Modern UI with stunning Dark Mode!</h2>
-			</div>
-			<div class="app__screenshots-wrapper container-desktop">
-				<div class="app__screenshots-list">
-					<a href="content/image/image1.png" class="lightbox">
-						<img src="content/image/image1.png" class="app__screenshot" alt="" />
+	</nav>
+
+	<section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+		<div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+			<div class="max-w-2xl">
+				<h1 class="text-4xl lg:text-6xl font-bold leading-tight mb-6">
+					Never miss a bus.<br>
+					<span class="text-gradient">Fast. Simple. Accurate.</span>
+				</h1>
+				<p class="text-lg text-brand-textMuted mb-8 leading-relaxed">
+					Ranked #2 in Maps & Navigation category on Play Store!<br>
+					500,000+ downloads with a rating of 4.6/5.0!
+				</p>
+
+				<div class="flex flex-wrap gap-4 items-center">
+					<a href="https://play.google.com/store/apps/details?id=com.hmproductions.sgbuses" target="_blank"
+						title="Get on Google Play">
+						<img src="assets/google-play-badge.png" class="h-14" alt="Get on Google Play">
 					</a>
-					<a href="content/image/image2.png" class="lightbox">
-						<img src="content/image/image2.png" class="app__screenshot" alt="" />
-					</a>
-					<a href="content/image/image3.png" class="lightbox">
-						<img src="content/image/image3.png" class="app__screenshot" alt="" />
-					</a>
-					<a href="content/image/image4.png" class="lightbox">
-						<img src="content/image/image4.png" class="app__screenshot" alt="" />
-					</a>
-					<a href="content/image/image5.png" class="lightbox">
-						<img src="content/image/image5.png" class="app__screenshot" alt="" />
-					</a>
-					<a href="content/image/image6.png" class="lightbox">
-						<img src="content/image/image6.png" class="app__screenshot" alt="" />
+					<a href="https://apps.apple.com/app/sg-bus-buddy/id6446060002" target="_blank"
+						title="Get on Appstore">
+						<img src="assets/ios-badge.svg" class="h-10" alt="Get on Appstore">
 					</a>
 				</div>
 			</div>
-		</section>
 
-		<section class="app__fulldescription app__section container">
-			<h2 class="app__section-title">Accurate bus timings under 8 MB!</h2>
-			<div class="app__fulldescription-content">
-				<p>Bus Buddy instantly shows you the bus timings for Singapore, Hong Kong and Madrid!</p>
-				<h5 id="top-features">Top Features:</h5>
-				<ul>
-					<li>Powerful Search bus timings by bus stop code, road, location or service number with just 1-tap.</li>
-					<li>Outperforms Google Maps to find single bus transfer navigation directions!</li>
-					<li>Must for daily Singapore bus users!</li>
-					<li>Supports all regional languages</li>
-					<li>EZ Link Card Reader</li>
-					<li>Beautiful Dark/Light Mode for comfortable viewing.</li>
-					<li>Access to MRT map on-the-go!</li>
-					<li>Quick weather overview to start off your day!</li>
-				</ul>
-
+			<div class="relative mx-auto w-[280px] lg:w-[320px]">
+				<div class="absolute inset-0 bg-brand-accent blur-[100px] opacity-20 rounded-full"></div>
+				<img src="content/image/image1.png" alt="App Home Screen"
+					class="relative z-10 rounded-[2.5rem] border-[6px] border-brand-surface mockup-shadow">
 			</div>
-		</section>
-	</main>
+		</div>
+	</section>
 
-	<footer class="footer">
-		<div class="container">
-			<div class="footer__container">
-				<p class="footer__love">
-					<script>document.write('&copy;' + (new Date()).getFullYear());</script>
-					<noscript>&copy;2023</noscript> All rights reserved
-				</p>
-				<ul class="footer__links">
-					<li class="footer__link">
-						<a href="privacy-policy.html">Privacy Policy</a>
-					</li>
-					<li class="footer__link">
-						<a href="https://apps.apple.com/app/sg-bus-buddy/id6446060002" targe="_blank">App Store</a>
-					</li>
-					<li class="footer__link">
-						<a href="https://play.google.com/store/apps/details?id&#x3D;com.hmproductions.sgbuses"
-							targe="_blank">Play Store</a>
-					</li>
-					<li class="footer__link">
-						<a href="https://www.busbuddy.app" targe="_blank">Website</a>
-					</li>
-				</ul>
+	<!-- Top Features section mimicking ttmm.html -->
+	<section id="features" class="py-20 bg-brand-surface/30">
+		<div class="max-w-7xl mx-auto px-6">
+			<div class="text-center mb-16">
+				<h2 class="text-3xl font-bold mb-4">Accurate bus timings under 8 MB!</h2>
+				<p class="text-brand-textMuted max-w-2xl mx-auto">Bus Buddy instantly shows you the bus timings for
+					Singapore, Hong Kong and Madrid!</p>
+			</div>
+
+			<div class="grid md:grid-cols-3 gap-8">
+				<!-- Powerful Search -->
+				<div
+					class="bg-brand-surface p-8 rounded-3xl border border-white/5 hover:border-brand-accent/30 transition">
+					<div class="w-12 h-12 bg-brand-accent/10 rounded-xl flex items-center justify-center mb-6">
+						<svg class="w-6 h-6 text-brand-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+								d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+						</svg>
+					</div>
+					<h3 class="text-xl font-semibold mb-3">Powerful Search</h3>
+					<p class="text-brand-textMuted leading-relaxed">Search bus timings by bus stop code, road, location
+						or service number with just 1-tap.</p>
+				</div>
+
+				<!-- Navigation Details -->
+				<div
+					class="bg-brand-surface p-8 rounded-3xl border border-white/5 hover:border-brand-accent/30 transition">
+					<div class="w-12 h-12 bg-brand-secondary/10 rounded-xl flex items-center justify-center mb-6">
+						<svg class="w-6 h-6 text-brand-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+								d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7">
+							</path>
+						</svg>
+					</div>
+					<h3 class="text-xl font-semibold mb-3">Superior Navigation</h3>
+					<p class="text-brand-textMuted leading-relaxed">Outperforms Google Maps to find single bus transfer
+						navigation directions!</p>
+				</div>
+
+				<!-- Extras -->
+				<div
+					class="bg-brand-surface p-8 rounded-3xl border border-white/5 hover:border-brand-accent/30 transition">
+					<div class="w-12 h-12 bg-green-500/10 rounded-xl flex items-center justify-center mb-6">
+						<svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+								d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4">
+							</path>
+						</svg>
+					</div>
+					<h3 class="text-xl font-semibold mb-3">Feature Packed</h3>
+					<p class="text-brand-textMuted leading-relaxed">EZ Link Card Reader, MRT map on-the-go, Quick
+						weather overview, and supports all regional languages.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="screenshots" class="py-24 overflow-hidden">
+		<div class="max-w-7xl mx-auto px-6">
+			<div class="text-center mb-16">
+				<h2 class="text-3xl font-bold mb-4">Modern UI with stunning Dark Mode!</h2>
+			</div>
+
+			<div class="flex flex-wrap justify-center gap-8">
+				<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 w-full">
+					<a href="content/image/image1.png" class="lightbox hover:scale-105 transition duration-300">
+						<img src="content/image/image1.png" class="w-full rounded-2xl shadow-lg border border-white/10"
+							alt="Screenshot 1" />
+					</a>
+					<a href="content/image/image2.png" class="lightbox hover:scale-105 transition duration-300">
+						<img src="content/image/image2.png" class="w-full rounded-2xl shadow-lg border border-white/10"
+							alt="Screenshot 2" />
+					</a>
+					<a href="content/image/image3.png" class="lightbox hover:scale-105 transition duration-300">
+						<img src="content/image/image3.png" class="w-full rounded-2xl shadow-lg border border-white/10"
+							alt="Screenshot 3" />
+					</a>
+					<a href="content/image/image4.png" class="lightbox hover:scale-105 transition duration-300">
+						<img src="content/image/image4.png" class="w-full rounded-2xl shadow-lg border border-white/10"
+							alt="Screenshot 4" />
+					</a>
+					<a href="content/image/image5.png" class="lightbox hover:scale-105 transition duration-300">
+						<img src="content/image/image5.png" class="w-full rounded-2xl shadow-lg border border-white/10"
+							alt="Screenshot 5" />
+					</a>
+					<a href="content/image/image6.png" class="lightbox hover:scale-105 transition duration-300">
+						<img src="content/image/image6.png" class="w-full rounded-2xl shadow-lg border border-white/10"
+							alt="Screenshot 6" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="border-t border-white/10 bg-brand-bg py-12">
+		<div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+			<div class="flex items-center gap-2 text-xl font-semibold">
+				<span class="text-brand-accent">SG Bus</span>
+				<span class="text-white">Buddy</span>
+			</div>
+			<ul class="flex flex-wrap gap-6 text-sm text-brand-textMuted justify-center">
+				<li><a href="privacy-policy.html" class="hover:text-brand-accent transition">Privacy Policy</a></li>
+				<li><a href="https://apps.apple.com/app/sg-bus-buddy/id6446060002" target="_blank"
+						class="hover:text-brand-accent transition">App Store</a></li>
+				<li><a href="https://play.google.com/store/apps/details?id=com.hmproductions.sgbuses" target="_blank"
+						class="hover:text-brand-accent transition">Play Store</a></li>
+				<li><a href="https://www.busbuddy.app" target="_blank"
+						class="hover:text-brand-accent transition">Website</a></li>
+			</ul>
+			<div class="text-brand-textMuted text-sm">
+				&copy;
+				<script>document.write(new Date().getFullYear())</script> All rights reserved.
 			</div>
 		</div>
 	</footer>
 
-	<script type="text/javascript" src="assets/tobi.min.js" />
-	</script>
+	<script type="text/javascript" src="assets/tobi.min.js"></script>
 	<script>
 		window.onload = function () {
-			var tobi = new Tobi();
+			var tobi = new Tobi({
+				captions: false
+			});
 		};
 	</script>
-
 </body>
 
 </html>
