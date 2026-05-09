@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to App Store...</title>
+    <script>
+        window.onload = function() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            
+            // iOS detection
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                window.location.replace("https://apps.apple.com/app/sg-bus-buddy/id6446060002");
+                return;
+            }
+            
+            // Android detection
+            if (/android/i.test(userAgent)) {
+                window.location.replace("https://play.google.com/store/apps/details?id=com.hmproductions.sgbuses");
+                return;
+            }
+
+            // Fallback for other OSes
+            window.location.replace("https://www.busbuddy.app");
+        };
+    </script>
+</head>
+<body style="background-color: #0F0F11; color: #ffffff; font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+    <div style="text-align: center;">
+        <p>Redirecting to the app store...</p>
+        <p style="font-size: 0.8rem; color: #9CA3AF; margin-top: 20px;">If nothing happens, click below:</p>
+        <div style="display: flex; gap: 15px; margin-top: 10px; justify-content: center;">
+            <a href="https://play.google.com/store/apps/details?id=com.hmproductions.sgbuses" style="color: #DA552F; text-decoration: none;">Play Store</a>
+            <span style="color: #9CA3AF;">|</span>
+            <a href="https://apps.apple.com/app/sg-bus-buddy/id6446060002" style="color: #5A51FE; text-decoration: none;">App Store</a>
+        </div>
+    </div>
+</body>
+</html>
